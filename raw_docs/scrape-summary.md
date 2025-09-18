@@ -1,10 +1,9 @@
 # GitHub Copilot Documentation Scrape Summary
 
-Last updated: 2025-09-18 13:12:19 UTC
-Successful fetches: 0/4
+Last updated: 2025-09-18 15:19:51 UTC
+Successful fetches: 3/3
 
 ## Files scraped:
 - copilot-overview.md
 - copilot-getting-started.md
-- copilot-using-in-ide.md
 - copilot-chat.md
