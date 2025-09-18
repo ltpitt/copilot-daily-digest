@@ -29,7 +29,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Scrape Copilot Docs
-        run: python scraper/fetch_docs.py
+        run: |
+          echo "Starting documentation scraping..."
+          python scraper/fetch_docs.py
+          echo "Scraping completed. Checking for changes..."
+          ls -la raw_docs/
 
       - name: Commit scraped content
         run: |
@@ -47,6 +51,7 @@ jobs:
         if: success()
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const title = `Daily Copilot Documentation Update - ${new Date().toISOString().split('T')[0]}`;
             const body = `
