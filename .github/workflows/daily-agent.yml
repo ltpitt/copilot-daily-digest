@@ -1,0 +1,35 @@
+name: Daily Copilot Summarizer
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs daily at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  scrape-and-trigger-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape Copilot Docs
+        run: python scraper/fetch_docs.py
+      - name: Commit scraped content
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add raw_docs/
+          git commit -m "Update Copilot docs"
+          git push
+
+      - name: Trigger Copilot Agent
+        uses: github/copilot-coding-agent/.github/workflows/agent.yml@main
+        with:
+          instructions_path: .github/copilot-instructions.md
