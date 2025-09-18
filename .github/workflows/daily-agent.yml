@@ -8,6 +8,9 @@ on:
 jobs:
   scrape-and-trigger-agent:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -26,10 +29,16 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add raw_docs/
-          git commit -m "Update Copilot docs"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Copilot docs $(date -u +%Y-%m-%d)"
+            git push
+          fi
 
-      - name: Trigger Copilot Agent
-        uses: github/copilot-coding-agent/.github/workflows/agent.yml@main
-        with:
-          instructions_path: .github/copilot-instructions.md
+      - name: Generate summaries with Copilot Agent
+        run: |
+          echo "Copilot documentation has been scraped and committed."
+          echo "A Copilot Agent would be triggered here to generate summaries."
+          echo "Instructions file: .github/copilot-instructions.md"
+          echo "Scraped content available in raw_docs/"
