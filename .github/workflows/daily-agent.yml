@@ -53,19 +53,16 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const title = `Daily Copilot Documentation Update - ${new Date().toISOString().split('T')[0]}`;
-            const body = `
-            @copilot Please review the latest scraped documentation in \`raw_docs/\` and update the following files:
-            
-            - \`README.md\`: Overview of Copilot Coding Agent usage
-            - \`cheatsheet.md\`: Slash commands, variables, setup tips  
-            - \`changelog.md\`: Recent updates and features
-            
-            Use only the content in \`raw_docs/\` and format all output in Markdown.
-            
-            Instructions file: \`.github/copilot-instructions.md\`
-            `;
-            
+            const title = "Daily Copilot Documentation Update - " + new Date().toISOString().split('T')[0];
+            const body = "@copilot Please review the latest scraped documentation in `raw_docs/` and update the following files:\n" +
+              "\n" +
+              "- `README.md`: Overview of Copilot Coding Agent usage\n" +
+              "- `cheatsheet.md`: Slash commands, variables, setup tips\n" +
+              "- `changelog.md`: Recent updates and features\n" +
+              "\n" +
+              "Use only the content in `raw_docs/` and format all output in Markdown.\n" +
+              "\n" +
+              "Instructions file: `.github/copilot-instructions.md`\n";
             try {
               const response = await github.rest.issues.create({
                 owner: context.repo.owner,
@@ -74,7 +71,7 @@ jobs:
                 body: body,
                 labels: ['copilot-agent', 'documentation']
               });
-              console.log(\`Created issue #\${response.data.number}: \${response.data.html_url}\`);
+              console.log("Created issue #" + response.data.number + ": " + response.data.html_url);
             } catch (error) {
               console.log('Error creating issue:', error.message);
               console.log('This may be expected if similar issue already exists');
