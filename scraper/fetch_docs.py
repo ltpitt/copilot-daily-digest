@@ -45,8 +45,7 @@ def scrape_copilot_docs():
         'copilot-overview.md': 'https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot',
         'copilot-getting-started.md': 'https://docs.github.com/en/copilot/getting-started-with-github-copilot',
         'copilot-using-in-ide.md': 'https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot-in-your-ide',
-        'copilot-chat.md': 'https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide',
-        'copilot-extensions.md': 'https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-extensions',
+        'copilot-chat.md': 'https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide'
     }
     
     # Fallback content in case network access fails
@@ -54,8 +53,7 @@ def scrape_copilot_docs():
         'copilot-overview.md': "# GitHub Copilot Overview\n\nGitHub Copilot is an AI pair programmer that helps you write code faster.",
         'copilot-getting-started.md': "# Getting Started with GitHub Copilot\n\nStart using GitHub Copilot in your favorite IDE.",
         'copilot-using-in-ide.md': "# Using GitHub Copilot in Your IDE\n\nLearn how to use Copilot features in various IDEs.",
-        'copilot-chat.md': "# GitHub Copilot Chat\n\nInteract with Copilot using natural language chat.",
-        'copilot-extensions.md': "# GitHub Copilot Extensions\n\nExtend Copilot functionality with third-party integrations."
+        'copilot-chat.md': "# GitHub Copilot Chat\n\nInteract with Copilot using natural language chat."
     }
     
     successful_fetches = 0
