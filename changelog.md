@@ -1,6 +1,6 @@
 # GitHub Copilot Changelog
 
-## 2025-09-18 Update
+## 2025-09-19 Update
 
 ### ✨ New Features
 
@@ -11,14 +11,16 @@
 - **Smart Billing**: Only initial prompts count toward usage limits, not follow-up actions or tool calls
 
 #### Enhanced Chat Participants
-- **Automatic Inference**: Copilot Chat can now automatically infer relevant chat participants based on natural language prompts
+- **Automatic Inference**: Copilot Chat can now automatically infer relevant chat participants based on natural language prompts (currently in public preview)
 - **Improved Discovery**: Advanced capabilities are now more discoverable without explicit participant specification
-- **Preview Status**: Currently in public preview and subject to change
+- **Copilot Extensions**: Install extensions from GitHub Marketplace or VS Code Marketplace for specialized chat participants
+- **External Tool Integration**: Better integration with external tools through chat participants
 
 #### Copilot Extensions Integration
 - **Third-party Chat Participants**: Install Copilot Extensions that provide specialized chat participants
 - **Marketplace Access**: Extensions available from both GitHub Marketplace and Visual Studio Code Marketplace
-- **External Tool Integration**: Better integration with external tools through chat participants
+- **External Tool Integration**: Enhanced integration with external tools through chat participants
+- **Domain-Specific Context**: Extensions provide specialized knowledge for specific domains and tools
 
 #### Repository Custom Instructions & AGENTS.md Support
 - **Custom Instructions Files**: Repositories can now include custom instruction files that are automatically added to all chat questions
@@ -40,16 +42,17 @@
 ### 🔧 Platform Enhancements
 
 #### IDE Support Improvements
-- **VS Code Integration**: Enhanced chat panel with better file references
-- **JetBrains Support**: Improved authentication and chat functionality
-- **Visual Studio**: Better integration with latest versions (17.8+)
-- **Eclipse Support**: Added agent mode functionality
-- **Xcode Integration**: Enhanced chat capabilities
+- **VS Code Integration**: Enhanced chat panel with better file references and image support
+- **JetBrains Support**: Improved authentication, chat functionality, and agent mode support
+- **Visual Studio**: Better integration with latest versions (17.8+), built-in extensions for 17.10+
+- **Eclipse Support**: Added agent mode functionality and enhanced chat capabilities
+- **Xcode Integration**: Enhanced chat capabilities and better context handling
 
 #### Mobile & Web Enhancements
-- **GitHub Mobile**: Improved chat interface for mobile development
-- **Web Interface**: Better integration on GitHub website
-- **Terminal Support**: Enhanced Windows Terminal Canary integration
+- **GitHub Mobile**: Improved chat interface for mobile development workflows
+- **Web Interface**: Better integration on GitHub website with enhanced chat features
+- **Terminal Support**: Enhanced Windows Terminal Canary integration with Terminal Chat interface
+- **Cross-Platform**: Consistent experience across all supported platforms
 
 ### 📱 New Capabilities
 
@@ -58,11 +61,28 @@
 - **Dynamic Skill Selection**: Copilot automatically selects appropriate skills based on questions
 - **Web Search**: Use `#web` variable for latest information searches
 - **Skill Discovery**: Query available skills with `@github What skills are available?`
+- **Natural Language Integration**: Use natural language to invoke specific skills
+
+#### Image Support in Chat
+- **Multi-Format Support**: Support for JPEG, PNG, GIF, and WEBP image formats
+- **Visual Code Assistance**: Attach screenshots, UI mockups, flowcharts, and web pages
+- **Compatible Models**: Works with GPT-4.1, Claude Sonnet 3.5/3.7, and Gemini 2.0/2.5
+- **Multiple Attachment Methods**: Copy/paste, drag-and-drop, or attachment button
+- **Enterprise Controls**: Requires "Editor preview features" setting for Business/Enterprise plans
+
+#### Enhanced AI Model Selection
+- **GPT-4.1**: Default model with comprehensive capabilities
+- **Claude Sonnet 3.5/3.7**: Advanced reasoning and code understanding
+- **Gemini 2.0 Flash/2.5 Pro**: Fast responses and advanced capabilities
+- **Usage Multipliers**: Different models have different billing multipliers
+- **Model-Specific Features**: Some features like image support require specific models
 
 #### Improved Context Handling
 - **Custom Instructions**: Repository-specific instructions automatically included in chat questions
-- **Better References**: Enhanced file reference system with attachment support
-- **Context Variables**: Expanded set of chat variables for better prompt context
+- **AGENTS.md Support**: Special support for AGENTS.md files to provide agent-specific context
+- **Better References**: Enhanced file reference system with attachment support and reference links
+- **Context Variables**: Expanded set of chat variables including #solution for Visual Studio
+- **Working Set Management**: Improved automatic file selection and context awareness
 
 ### 🎨 User Experience Improvements
 
@@ -80,9 +100,10 @@
 ### 🛠️ Developer Experience
 
 #### Better Prompting
-- **Slash Command Expansion**: More slash commands available for common scenarios
-- **Variable System**: Enhanced chat variables for specific context inclusion
+- **Slash Command Expansion**: Complete set of slash commands available - type `/` to see all options
+- **Variable System**: Enhanced chat variables including #selection, #file, #editor, #web, #solution
 - **Keyword Support**: Special keywords to help Copilot understand prompts better
+- **Smart Actions**: Improved context menu integration for quick access to common actions
 
 #### Collaboration Features
 - **Copilot Spaces**: Organize and share task-specific context for team collaboration
@@ -131,4 +152,4 @@
 
 ---
 
-*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-09-18. Features may be in various stages of rollout across different plans and platforms.*
+*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-09-19. Features may be in various stages of rollout across different plans and platforms.*
