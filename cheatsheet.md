@@ -28,6 +28,8 @@ Type `/` in the chat prompt box to see all available commands.
 - `/doc` - Add documentation comments to the selected code
 - `/optimize` - Suggest performance improvements
 
+**Note**: More slash commands are available - type `/` in the chat prompt box to see the complete list.
+
 ### Usage Example
 ```
 /explain
@@ -46,6 +48,9 @@ Type `#` in the chat prompt box to see all available variables.
 - `#file` - The current file
 - `#editor` - Visible portion of the current editor
 - `#web` - Enable web search for current information
+- `#solution` - Reference the entire solution (Visual Studio)
+
+**Note**: More chat variables are available - type `#` in the chat prompt box to see the complete list.
 
 ### Usage Example
 ```
@@ -55,14 +60,21 @@ How can I improve this code? #selection
 
 ## Chat Participants
 
-Domain experts that provide specialized help.
+Chat participants are like domain experts with specialized knowledge.
 
 ### How to Use
-Type `@` in the chat prompt box to see available participants.
+- **Automatic Inference**: Copilot can automatically infer relevant participants based on your natural language prompt
+- **Manual Selection**: Type `@` in the chat prompt box to see available participants
 
 ### GitHub Skills
-- `@github` - Access GitHub-specific capabilities
+- `@github` - Access GitHub-specific capabilities and skills
 - `@github #web` - Search the web for latest information
+- **Dynamic Selection**: Copilot automatically selects appropriate skills based on your question content
+
+### Copilot Extensions
+- Install extensions from GitHub Marketplace or VS Code Marketplace
+- Provide specialized chat participants for external tool integration
+- Access via `@` followed by extension name
 
 ### Usage Examples
 ```
@@ -71,29 +83,42 @@ Type `@` in the chat prompt box to see available participants.
 ```
 @github #web What is the latest LTS of Node.js?
 ```
+```
+@github Search the web to find the latest GPT model from OpenAI.
+```
+
+**Note**: Automatic participant inference is currently in public preview and subject to change.
 
 ## Agent Mode
 
-**New Feature**: Autonomous code editing and task completion.
+**New Feature**: Autonomous code editing and task completion with advanced capabilities.
 
 ### When to Use Agent Mode
-- Complex tasks involving multiple steps
+- Complex tasks involving multiple steps and iterations
 - Want Copilot to determine necessary steps automatically
+- Tasks requiring error handling and remediation
 - Need integration with external applications (MCP servers)
-- Iterative problem solving with error handling
+- Multi-file editing and refactoring tasks
 
 ### How to Enable
 1. Open Copilot Chat panel
 2. Select "Agent" from the mode dropdown
 3. Submit your task prompt
 4. Review and confirm suggested changes and terminal commands
+5. Let Copilot iterate to complete the task
 
 ### Agent Mode Benefits
-- Streams edits directly in the editor
-- Updates working set automatically
-- Suggests and runs terminal commands
-- Iterates to fix issues until task completion
-- Only initial prompts count toward usage limits
+- **Autonomous Editing**: Streams edits directly in the editor
+- **Working Set Management**: Updates working set automatically
+- **Terminal Integration**: Suggests and executes terminal commands
+- **Iterative Completion**: Continues until task is fully complete
+- **Smart Billing**: Only initial prompts count toward usage limits, not follow-up actions or tool calls
+- **Multi-Model Support**: Works with different AI models with varying multipliers
+
+### Available In
+- Visual Studio Code
+- JetBrains IDEs
+- Visual Studio (17.14+)
 
 ## Pro Tips
 
@@ -104,12 +129,19 @@ Type `@` in the chat prompt box to see available participants.
 4. Reference specific files or code sections
 
 ### Model Selection
-- Different AI models available for different use cases
-- Premium models offer advanced capabilities
-- Choose based on your question type and needs
+- **Multiple AI Models**: Choose from GPT-4.1, Claude Sonnet 3.5/3.7, Gemini 2.0 Flash/2.5 Pro
+- **Premium Models**: Advanced capabilities available with premium models
+- **Performance Optimization**: Different models excel at different question types
+- **Usage Multipliers**: Different models have different usage multipliers for billing
+
+### Image Support in Chat
+- **Supported Formats**: JPEG, PNG, GIF, WEBP
+- **Usage**: Attach images via copy/paste, drag-and-drop, or attachment button
+- **Compatible Models**: GPT-4.1, Claude Sonnet 3.5/3.7, Gemini 2.0/2.5
+- **Use Cases**: Screenshot explanations, UI mockups, flowchart descriptions, web page analysis
 
 ### Custom Instructions & AGENTS.md Support
-- **Repository Instructions**: Add custom instructions files to your repository
+- **Repository Instructions**: Add custom instruction files to your repository
 - **Automatic Inclusion**: Instructions are automatically added to all chat questions
 - **AGENTS.md Support**: Special support for AGENTS.md files in repositories
 - **Context Enhancement**: Help Copilot understand your project's specific context and requirements
@@ -145,4 +177,4 @@ Type `@` in the chat prompt box to see available participants.
 
 ---
 
-*Last updated: 2025-09-18 based on latest Copilot documentation*
+*Last updated: 2025-09-19 based on latest Copilot documentation*
