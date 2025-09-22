@@ -14,26 +14,26 @@ GitHub Copilot includes a comprehensive suite of features to enhance your coding
 - **Command Line Integration**: Get assistance directly in your terminal via GitHub CLI
 - **Mobile Support**: Access Copilot through GitHub Mobile as a chat interface
 - **Web Integration**: Use Copilot directly on the GitHub website
-- **Terminal Integration**: Enhanced support for Windows Terminal Canary
+- **Terminal Integration**: Enhanced support for Windows Terminal Canary through Terminal Chat interface
 
 ### Advanced Capabilities
-- **Agent Mode**: Enable Copilot to autonomously edit your code, determine necessary files to change, and complete complex multi-step tasks with iteration
-- **GitHub Skills**: Access GitHub-specific capabilities with `@github` integration and web search using `#web` variable
+- **Copilot Edits**: Make changes across multiple files with Edit mode for controlled edits and Agent mode for autonomous task completion
+- **Agent Mode**: Enable Copilot to autonomously edit your code, determine necessary files to change, and complete complex multi-step tasks with iteration and terminal command integration
+- **GitHub Skills**: Access GitHub-specific capabilities with `@github` integration and web search using `#web` variable for latest information
 - **Copilot Spaces**: Organize and share task-specific context for more relevant answers
 - **Pull Request Descriptions**: Automatically generate descriptions of code changes
 - **Knowledge Bases**: Create and manage collections of documentation for better context (Enterprise only)
 - **Custom Instructions**: Repository-specific instruction files automatically included in chat questions for better context
-- **AGENTS.md Support**: Special support for agent-specific context and instructions
-- **Multiple AI Models**: Access to different models including GPT-4.1, Claude Sonnet 3.5/3.7, and Gemini 2.0/2.5
-- **Image Support**: Attach images to chat prompts for visual code assistance
-- **Copilot Extensions**: Install third-party extensions for specialized chat participants
+- **Multiple AI Models**: Access to different models including GPT-4.1, Claude Sonnet 3.5/3.7, and Gemini 2.0 Flash/2.5 Pro
+- **Image Support**: Attach images (JPEG, PNG, GIF, WEBP) to chat prompts for visual code assistance
+- **Copilot Extensions**: Install third-party extensions from GitHub Marketplace and VS Code Marketplace for specialized chat participants
 
 ## Getting Started
 
 ### Plan Options
 - **Copilot Free**: Explore core Copilot features with no paid plan required - perfect entry point
-- **Copilot Pro**: Full access to premium features with generous usage limits (one-time 30-day free trial available)
-- **Copilot Pro+**: Advanced features including autonomous code changes and pull request creation
+- **Copilot Pro**: Full access to premium features with generous usage limits (one-time 30-day free trial available)  
+- **Copilot Pro+**: Advanced features including autonomous code changes and pull request creation (Pro+, Business, and Enterprise only)
 - **Copilot Business**: Organization-level features with enhanced controls and policies
 - **Copilot Enterprise**: Full enterprise features including knowledge bases and advanced administration
 
@@ -42,8 +42,8 @@ Students, teachers, and open source maintainers may qualify for Copilot Pro at n
 
 ## Where to Use Copilot
 - **IDEs**: VS Code, JetBrains, Visual Studio (17.8+), Xcode, Eclipse
-- **GitHub Mobile**: Chat interface for mobile development
-- **Windows Terminal Canary**: Terminal Chat interface
+- **GitHub Mobile**: Chat interface for mobile development  
+- **Windows Terminal Canary**: Terminal Chat interface for command line assistance
 - **Command Line**: GitHub CLI integration
 - **GitHub Website**: Direct web-based access
 
@@ -56,5 +56,5 @@ Students, teachers, and open source maintainers may qualify for Copilot Pro at n
 
 ---
 
-*Last updated: 2025-09-19 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
+*Last updated: 2025-09-22 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
 

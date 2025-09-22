@@ -13,6 +13,7 @@
 - **Quick Chat**: `Ctrl+Shift+Alt+L` (Windows/Linux) or `⇧⌥⌘L` (Mac)
 - **Inline Chat**: `Ctrl+I` (Windows/Linux) or `⌘I` (Mac)
 - **Context Menu**: Right-click in editor and select Copilot options
+- **Smart Actions**: Access via sparkle icon when selecting code lines
 
 ## Slash Commands
 
@@ -70,11 +71,13 @@ Chat participants are like domain experts with specialized knowledge.
 - `@github` - Access GitHub-specific capabilities and skills
 - `@github #web` - Search the web for latest information
 - **Dynamic Selection**: Copilot automatically selects appropriate skills based on your question content
+- **Natural Language Integration**: Use natural language to invoke specific skills
 
 ### Copilot Extensions
 - Install extensions from GitHub Marketplace or VS Code Marketplace
 - Provide specialized chat participants for external tool integration
 - Access via `@` followed by extension name
+- **Automatic Inference**: Copilot can automatically infer relevant participants based on natural language prompts (public preview)
 
 ### Usage Examples
 ```
@@ -91,16 +94,19 @@ Chat participants are like domain experts with specialized knowledge.
 
 ## Agent Mode
 
-**New Feature**: Autonomous code editing and task completion with advanced capabilities.
+**Feature**: Copilot Edits with autonomous code editing and task completion capabilities.
+
+### Copilot Edits Modes
+- **Edit Mode**: Controlled edits to multiple files with granular control
+- **Agent Mode**: Autonomous task completion with iterative problem solving
 
 ### When to Use Agent Mode
-- Complex tasks involving multiple steps and iterations
+- Complex tasks involving multiple steps, iterations, and error handling
 - Want Copilot to determine necessary steps automatically
-- Tasks requiring error handling and remediation
-- Need integration with external applications (MCP servers)
+- Tasks requiring integration with external applications (MCP servers)
 - Multi-file editing and refactoring tasks
 
-### How to Enable
+### How to Enable Agent Mode
 1. Open Copilot Chat panel
 2. Select "Agent" from the mode dropdown
 3. Submit your task prompt
@@ -140,12 +146,11 @@ Chat participants are like domain experts with specialized knowledge.
 - **Compatible Models**: GPT-4.1, Claude Sonnet 3.5/3.7, Gemini 2.0/2.5
 - **Use Cases**: Screenshot explanations, UI mockups, flowchart descriptions, web page analysis
 
-### Custom Instructions & AGENTS.md Support
+### Custom Instructions & Repository Context
 - **Repository Instructions**: Add custom instruction files to your repository
 - **Automatic Inclusion**: Instructions are automatically added to all chat questions
-- **AGENTS.md Support**: Special support for AGENTS.md files in repositories
-- **Context Enhancement**: Help Copilot understand your project's specific context and requirements
 - **Referenced in Responses**: Custom instruction files may be linked in response references
+- **Context Enhancement**: Help Copilot understand your project's specific context and requirements
 
 ### File References
 - Attach specific files using the attachment button
@@ -177,4 +182,4 @@ Chat participants are like domain experts with specialized knowledge.
 
 ---
 
-*Last updated: 2025-09-19 based on latest Copilot documentation*
+*Last updated: 2025-09-22 based on latest Copilot documentation*
