@@ -82,11 +82,11 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 
 ## 5. Getting Started
 
-✅ Try Agent Mode in your IDE
-✅ Create a test repo with `copilot-instructions.md`
-✅ Run a small task with the Coding Agent
-✅ Share learnings and refine prompts
-✅ Track success with evals and feedback loops
+✅ Try Agent Mode in your IDE  
+✅ Create a test repo with `copilot-instructions.md`  
+✅ Run a small task with the Coding Agent  
+✅ Share learnings and refine prompts  
+✅ Track success with evals and feedback loops  
 
 ---
 
