@@ -103,5 +103,5 @@ These resources are ideal for beginners and teams looking to quickly gain practi
 
 ## 7. Further Learning
 
-📘 [Eval-Driven Development](https://vercel.com/blog/eval-driven-development-build-better-ai-products)
+📘 [Eval-Driven Development](https://vercel.com/blog/eval-driven-development-build-better-ai-faster)
 📘 [GitHub Copilot Agent Training](https://learn.microsoft.com/en-us/training/modules/github-copilot-agent)
