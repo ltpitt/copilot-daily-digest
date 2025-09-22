@@ -3,11 +3,14 @@ marp: true
 ---
 
 
+# GitHub AI Starter Kit
+
+## Welcome & Mission
 Mastering GitHub Copilot Coding Agent is our journey.
 
-The key is knowing what to do and how to do it right.
+The key for this journey is doing the right thing and doing this right thing right.
 
-This starter kit distills essential knowledge, common pitfalls, best practices, cheat sheets, how-tos, examples, and shortcuts to help us succeed.
+_For this reason this starter kit distills essential knowledge, common pitfalls, best practices, cheat sheets, how-tos, examples, and shortcuts to help us succeed._
 
 ---
 
