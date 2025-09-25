@@ -37,6 +37,7 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 
 - Write clear, scoped, testable instructions in `copilot-instructions.md` (or, for advanced multi-agent workflows, use `AGENTS.md`—see [changelog](https://github.blog/changelog/2025-08-28-copilot-coding-agent-now-supports-agents-md-custom-instructions/))
 - Start with small tasks, then iterate
+- Use the spec-drive development
 - Use eval-driven development to validate outputs
 - Use Copilot Chat for deeper context
 - Keep context windows small: split files if needed
@@ -45,6 +46,7 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 📘 [Copilot Cheat Sheet](https://docs.github.com/en/copilot/reference/cheat-sheet)
 📘 [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 📘 [5 Ways to Integrate Copilot Coding Agent into Your Workflow](https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/)
+📘 [Spec-driven development toolkit](https://github.com/github/spec-kit)
 
 ---
 
