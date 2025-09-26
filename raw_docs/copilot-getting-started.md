@@ -92,7 +92,7 @@ Asking GitHub Copilot questions in GitHub Mobile
 .
 Use Copilot on the command line
 - See
-Using GitHub Copilot in the command line
+Using the GitHub CLI Copilot extension
 .
 GitHub Copilot provides coding suggestions as you type in your editor. You can also ask Copilot coding-related questions, such as how best to code something, how to fix a bug, or how someone else's code works. For full details of what Copilot can do, see
 What is GitHub Copilot?
@@ -130,7 +130,7 @@ Authenticate via GitHub
 to sign in.
 Chat with GitHub Copilot
 Note
-If you have access to GitHub Copilot via your organization, you won't be able to use GitHub Copilot in Windows Terminal if your organization owner has disabled GitHub Copilot in the CLI. See
+If you have access to GitHub Copilot via your organization, you won't be able to use GitHub Copilot in Windows Terminal if your organization owner has disabled GitHub Copilot CLI. See
 Managing policies and features for GitHub Copilot in your organization
 .
 Open
@@ -162,7 +162,7 @@ Asking GitHub Copilot questions in GitHub Mobile
 .
 Use Copilot on the command line
 - See
-Customizing GitHub Copilot in the CLI
+About GitHub Copilot CLI
 .
 Configure Copilot in your editor
 - You can enable or disable GitHub Copilot from within your editor, and create your own preferred keyboard shortcuts for Copilot. See
@@ -254,7 +254,7 @@ Asking GitHub Copilot questions in GitHub Mobile
 .
 Use Copilot on the command line
 - See
-Customizing GitHub Copilot in the CLI
+About GitHub Copilot CLI
 .
 Configure Copilot in your editor
 - You can enable or disable GitHub Copilot from within your editor, and create your own preferred keyboard shortcuts for Copilot. See
@@ -350,7 +350,7 @@ Asking GitHub Copilot questions in GitHub Mobile
 .
 Use Copilot on the command line
 - See
-Customizing GitHub Copilot in the CLI
+About GitHub Copilot CLI
 .
 Configure Copilot in your editor
 - You can enable or disable GitHub Copilot from within your editor, and create your own preferred keyboard shortcuts for Copilot. See
@@ -441,7 +441,7 @@ Asking GitHub Copilot questions in GitHub Mobile
 .
 Use Copilot on the command line
 - See
-Customizing GitHub Copilot in the CLI
+About GitHub Copilot CLI
 .
 Configure Copilot in your editor
 - You can enable or disable GitHub Copilot from within your editor, and create your own preferred keyboard shortcuts for Copilot. See
