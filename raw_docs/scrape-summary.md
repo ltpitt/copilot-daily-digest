@@ -1,6 +1,6 @@
 # GitHub Copilot Documentation Scrape Summary
 
-Last updated: 2025-09-30 06:12:54 UTC
+Last updated: 2025-10-01 06:12:27 UTC
 Successful fetches: 3/3
 
 ## Files scraped:
