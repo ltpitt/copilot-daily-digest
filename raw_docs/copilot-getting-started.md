@@ -11,6 +11,7 @@ Visual Studio
 Visual Studio Code
 Web browser
 Windows Terminal
+Xcode
 In this article
 Introduction
 Sign up for GitHub Copilot
@@ -37,11 +38,16 @@ Prerequisites
 Chat with GitHub Copilot
 Get your first code completion suggestion
 Next steps
+Sign up for GitHub Copilot
+Prerequisites
+Chat with GitHub Copilot
+Get your first code completion suggestion
+Next steps
 Introduction
 You can use Copilot to get answers to coding-related questions, such as how best to code something, how to fix a bug, or how someone else's code works. For full details of what Copilot can do, see
 What is GitHub Copilot?
 .
-Instructions for using Copilot differ depending on where you are using it. This version of the quickstart is for GitHub. Click the tabs above for instructions on using Copilot in other environments.
+Instructions for using Copilot differ depending on where you are using it. This version of the quickstart is for using Copilot on the GitHub website. Click the tabs above for instructions on using Copilot in other environments.
 Sign up for GitHub Copilot
 Get started for free
 To use Copilot, you’ll need a personal GitHub account with access to a Copilot plan. You can:
@@ -107,6 +113,10 @@ For more information about the different plans for GitHub Copilot, see
 Plans for GitHub Copilot
 .
 Prerequisites
+Subscription to Copilot
+. To use GitHub Copilot in Windows Terminal, you must have an active GitHub Copilot subscription. See
+What is GitHub Copilot?
+.
 Windows Terminal Canary
 . Terminal Chat is only available in
 Windows Terminal Canary
@@ -181,6 +191,10 @@ For more information about the different plans for GitHub Copilot, see
 Plans for GitHub Copilot
 .
 Prerequisites
+Copilot subscription
+- To use GitHub Copilot in VS Code, you must have an active GitHub Copilot subscription. See
+What is GitHub Copilot?
+.
 Latest version of Visual Studio Code
 . See the
 Visual Studio Code download page
@@ -273,6 +287,10 @@ For more information about the different plans for GitHub Copilot, see
 Plans for GitHub Copilot
 .
 Prerequisites
+Subscription to Copilot
+. To use GitHub Copilot in Visual Studio, you must have an active GitHub Copilot subscription. See
+What is GitHub Copilot?
+.
 Compatible version of Visual Studio
 . To use GitHub Copilot in Visual Studio, you must have version 2022 17.8 or later of Visual Studio for Windows installed. For more information, see
 Install Visual Studio
@@ -369,6 +387,10 @@ For more information about the different plans for GitHub Copilot, see
 Plans for GitHub Copilot
 .
 Prerequisites
+Subscription to Copilot
+. To use GitHub Copilot in a JetBrains IDE, you must have an active GitHub Copilot subscription. See
+What is GitHub Copilot?
+.
 A compatible JetBrains IDE
 . Copilot is supported in a large number of JetBrains IDEs. For a full list, see
 Asking GitHub Copilot questions in your IDE
@@ -420,6 +442,116 @@ begin, end
 ) {
 GitHub Copilot will automatically suggest an entire function body in grayed text. The exact suggestion may vary.
 To accept the suggestion, press
+Tab
+.
+Next steps
+Find out more about Copilot code completion
+- See
+Getting code suggestions in your IDE with GitHub Copilot
+.
+Find out more about GitHub Copilot Chat
+- See
+Asking GitHub Copilot questions in your IDE
+.
+Learn how to write effective prompts
+- See
+Prompt engineering for GitHub Copilot Chat
+.
+Use Copilot on your mobile device
+- See
+Asking GitHub Copilot questions in GitHub Mobile
+.
+Use Copilot on the command line
+- See
+About GitHub Copilot CLI
+.
+Configure Copilot in your editor
+- You can enable or disable GitHub Copilot from within your editor, and create your own preferred keyboard shortcuts for Copilot. See
+Configuring GitHub Copilot in your environment
+.
+GitHub Copilot provides coding suggestions as you type in your editor. You can also ask Copilot coding-related questions, such as how best to code something, how to fix a bug, or how someone else's code works. For full details of what Copilot can do, see
+What is GitHub Copilot?
+.
+Instructions for using Copilot differ depending on where you are using it. This version of the quickstart is for XCode in MacOS. Click the tabs above for instructions on using Copilot in other environments.
+Sign up for GitHub Copilot
+Get started for free
+To use Copilot, you’ll need a personal GitHub account with access to a Copilot plan. You can:
+Start with Copilot Free to explore limited features without subscribing to a plan.
+Upgrade to Copilot Pro or Copilot Pro+ to unlock more features, models, and request limits.
+For more information about the different plans for GitHub Copilot, see
+Plans for GitHub Copilot
+.
+Prerequisites
+Subscription to Copilot
+. To use GitHub Copilot in Xcode, you must have an active GitHub Copilot subscription. See
+What is GitHub Copilot?
+.
+Latest version of the GitHub Copilot extension
+. For installation instructions, see
+Installing the GitHub Copilot extension in your environment
+.
+Sign in to GitHub in Xcode
+. If you experience authentication issues, see
+Troubleshooting common issues with GitHub Copilot
+.
+Chat with GitHub Copilot
+After you've installed the GitHub Copilot plugin, you can ask Copilot coding-related questions.
+Note
+If you have access to GitHub Copilot via your organization, you won't be able to use GitHub Copilot Chat if your organization owner has disabled chat. See
+Managing policies and features for GitHub Copilot in your organization
+.
+Open an existing code file.
+Click
+Editor
+in the menu bar, then click
+GitHub Copilot
+then
+Open Chat
+.
+Copilot Chat opens in a new window.
+In the Copilot Chat window, select the file to indicate that you want to chat about this file.
+Type
+what does this file do
+then press
+Enter
+.
+Copilot's answer is displayed below your question.
+Select a line of code in the editor.
+In the Copilot Chat window, type
+explain this line
+then press
+Enter
+.
+Get your first code completion suggestion
+The following example uses Swift, however other languages will work similarly.
+Create a new file called
+CalculateDays.swift
+.
+Type the following code in the new file:
+Swift
+import Foundation
+
+func calculateDaysBetweenDates(_ start: Date, _ end: Date)
+import
+Foundation
+func
+calculateDaysBetweenDates
+(
+_
+start
+:
+Date
+,
+_
+end
+:
+Date
+)
+GitHub Copilot adds a suggestion of code that continues this function. Suggestions are displayed in grayed text.
+To accept the suggestion, press
+Tab
+.
+Copilot will continue to make suggestions, each of which you can accept by pressing
 Tab
 .
 Next steps
