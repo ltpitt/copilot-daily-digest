@@ -6,6 +6,7 @@ Quickstart
 Quickstart for GitHub Copilot
 Quickly learn how to use GitHub Copilot.
 Tool navigation
+Eclipse
 JetBrains IDEs
 Visual Studio
 Visual Studio Code
@@ -22,6 +23,11 @@ Sign up for GitHub Copilot
 Prerequisites
 Use Copilot in Terminal Chat
 Chat with GitHub Copilot
+Next steps
+Sign up for GitHub Copilot
+Prerequisites
+Chat with GitHub Copilot
+Get your first code completion suggestion
 Next steps
 Sign up for GitHub Copilot
 Prerequisites
@@ -552,6 +558,93 @@ To accept the suggestion, press
 Tab
 .
 Copilot will continue to make suggestions, each of which you can accept by pressing
+Tab
+.
+Next steps
+Find out more about Copilot code completion
+- See
+Getting code suggestions in your IDE with GitHub Copilot
+.
+Find out more about GitHub Copilot Chat
+- See
+Asking GitHub Copilot questions in your IDE
+.
+Learn how to write effective prompts
+- See
+Prompt engineering for GitHub Copilot Chat
+.
+Use Copilot on your mobile device
+- See
+Asking GitHub Copilot questions in GitHub Mobile
+.
+Use Copilot on the command line
+- See
+About GitHub Copilot CLI
+.
+Configure Copilot in your editor
+- You can enable or disable GitHub Copilot from within your editor, and create your own preferred keyboard shortcuts for Copilot. See
+Configuring GitHub Copilot in your environment
+.
+GitHub Copilot provides coding suggestions as you type in your editor. You can also ask Copilot coding-related questions, such as how best to code something, how to fix a bug, or how someone else's code works. For full details of what Copilot can do, see
+What is GitHub Copilot?
+.
+Instructions for using Copilot differ depending on where you are using it. This version of the quickstart is for Eclipse. Click the tabs above for instructions on using Copilot in other environments.
+Sign up for GitHub Copilot
+Get started for free
+To use Copilot, you’ll need a personal GitHub account with access to a Copilot plan. You can:
+Start with Copilot Free to explore limited features without subscribing to a plan.
+Upgrade to Copilot Pro or Copilot Pro+ to unlock more features, models, and request limits.
+For more information about the different plans for GitHub Copilot, see
+Plans for GitHub Copilot
+.
+Prerequisites
+Subscription to Copilot
+. To use GitHub Copilot in Eclipse, you must have an active GitHub Copilot subscription. See
+What is GitHub Copilot?
+.
+Latest version of the GitHub Copilot extension
+. For installation instructions, see
+Installing the GitHub Copilot extension in your environment
+.
+Sign in to GitHub in Eclipse
+. If you experience authentication issues, see
+Troubleshooting common issues with GitHub Copilot
+.
+Chat with GitHub Copilot
+After you've installed the GitHub Copilot plugin, you can ask Copilot coding-related questions.
+Note
+If you have access to GitHub Copilot via your organization, you won't be able to use GitHub Copilot Chat if your organization owner has disabled chat. See
+Managing policies and features for GitHub Copilot in your organization
+.
+Open an existing code file.
+In the menu bar of Eclipse, click
+Copilot
+, then click
+Open Chat
+.
+In the Copilot Chat window, type
+what does this file do
+then press
+Enter
+.
+Copilot's answer is displayed below your question.
+Select a line of code in the editor.
+In the Copilot Chat window, type
+explain this line
+then press
+Enter
+.
+Get your first code completion suggestion
+The following example uses Java, however other languages will work similarly.
+Create a new Java class called
+CalculateDaysBetween
+.
+Within the class add the following comment:
+Java
+// Take 2 dates and return the number of days between them
+// Take 2 dates and return the number of days between them
+GitHub Copilot adds a suggestion of code to use for this class. Suggestions are displayed in grayed text.
+To accept the suggestion, press
 Tab
 .
 Next steps
