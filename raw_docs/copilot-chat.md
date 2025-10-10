@@ -295,11 +295,6 @@ The following types of image file are supported: JPEG (
 ).
 Attaching images to your chat prompt
 If you see the AI model picker at the bottom right of the chat view, select one of the models that supports adding images to prompts:
-GPT-4.1 (the default that's used if you don't see a model picker)
-Claude Sonnet 3.5
-Claude Sonnet 3.7
-Gemini 2.0 Flash
-Gemini 2.5 Pro
 Do one of the following:
 Copy an image and paste it into the chat view.
 Drag and drop one or more image file from your operating system's file explorer—or from the Explorer in VS Code—into the chat view.
@@ -482,11 +477,6 @@ The following types of image file are supported: JPEG (
 ).
 Attaching images to your chat prompt
 If you see the AI model picker at the bottom right of the chat view, select one of the models that supports adding images to prompts:
-GPT-4.1 (the default that's used if you don't see a model picker)
-Claude Sonnet 3.5
-Claude Sonnet 3.7
-Gemini 2.0 Flash
-Gemini 2.5 Pro
 Do one of the following:
 Copy an image and paste it into the chat view.
 Click the paperclip icon at the bottom right of the chat view, click
