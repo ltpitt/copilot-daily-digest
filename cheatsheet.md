@@ -3,10 +3,16 @@
 ## Quick Setup
 
 ### Initial Setup
-1. Sign up for GitHub Copilot (Free plan available)
+1. Sign up for GitHub Copilot (Copilot Free available - no subscription required!)
 2. Install the Copilot extension in your IDE
 3. Sign in to GitHub in your IDE
 4. Start chatting with Copilot!
+
+### Plan Options
+- **Copilot Free**: Explore core features with no paid plan required
+- **Copilot Pro**: Full access to premium features with generous usage limits
+- **Copilot Pro+**: Advanced features including autonomous code changes
+- **Copilot Business/Enterprise**: Organization-level features and controls
 
 ### Access Methods
 - **Chat Panel**: Click the Copilot icon in your IDE
@@ -177,4 +183,4 @@ Chat participants are like domain experts with specialized knowledge.
 
 ---
 
-*Last updated: 2025-09-19 based on latest Copilot documentation*
+*Last updated: 2025-10-16 based on latest Copilot documentation*
