@@ -1,6 +1,6 @@
 # GitHub Copilot Changelog
 
-## 2025-09-19 Update
+## 2025-10-16 Update
 
 ### ✨ New Features
 
@@ -152,4 +152,4 @@
 
 ---
 
-*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-09-19. Features may be in various stages of rollout across different plans and platforms.*
+*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-10-16. Features may be in various stages of rollout across different plans and platforms.*

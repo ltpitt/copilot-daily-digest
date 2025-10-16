@@ -177,4 +177,4 @@ Chat participants are like domain experts with specialized knowledge.
 
 ---
 
-*Last updated: 2025-09-19 based on latest Copilot documentation*
+*Last updated: 2025-10-16 based on latest Copilot documentation*
