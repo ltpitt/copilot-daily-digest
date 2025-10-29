@@ -67,7 +67,7 @@ Subscribing to GitHub Copilot for your enterprise
 .
 If you
 don't need other GitHub features
-, you can request an enterprise account specifically for managing Copilot Business licenses. These accounts don't include repository or organization creation and don’t incur GitHub Enterprise seat charges. See
+, you can create an enterprise account specifically for managing Copilot Business licenses. This gives you enterprise-grade authentication options without charges for GitHub Enterprise licenses. See
 About enterprise accounts for Copilot Business
 .
 Next steps
