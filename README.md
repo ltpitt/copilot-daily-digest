@@ -56,5 +56,5 @@ Students, teachers, and open source maintainers may qualify for Copilot Pro at n
 
 ---
 
-*Last updated: 2025-10-16 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
+*Last updated: 2025-11-03 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
 
