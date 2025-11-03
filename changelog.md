@@ -1,5 +1,42 @@
 # GitHub Copilot Changelog
 
+## 2025-11-03 Update
+
+### 📋 Documentation Review
+
+This update confirms that all major features documented in the October 2025 update remain current and accurate. The latest documentation scrape verified the following capabilities are fully operational:
+
+#### ✅ Verified Core Features
+- **Agent Mode**: Autonomous code editing with multi-step task completion continues to be available across VS Code, JetBrains IDEs, Visual Studio 17.14+, Xcode, and Eclipse
+- **Copilot Free Plan**: No-subscription entry tier remains available for exploring core features
+- **Image Support**: JPEG, PNG, GIF, and WEBP image attachments in chat continue to work with compatible AI models
+- **GitHub Skills**: `@github` integration with dynamic skill selection and web search via `#web` variable
+- **Custom Instructions**: AGENTS.md and repository-specific instruction files automatically integrated into chat context
+
+#### 🎯 IDE Support Status
+- **VS Code**: Full feature support including agent mode, image attachments, and Copilot Edits
+- **JetBrains IDEs**: Complete integration with agent mode and edit mode capabilities
+- **Visual Studio**: Agent mode available in 17.14+, with built-in extensions for 17.10+
+- **Xcode**: Chat capabilities, agent mode, and file reference support
+- **Eclipse**: Agent mode and MCP server integration support (requires version 2024-09+)
+- **Windows Terminal Canary**: Terminal Chat interface operational
+
+#### 🤖 AI Model Options Confirmed
+- **Included Models**: GPT-4.1 (multiplier: 0) - no premium request consumption
+- **Premium Models**: Claude Sonnet 3.5/3.7, Gemini 2.0 Flash/2.5 Pro available with varying multipliers
+- **Model Selection**: Different models optimized for different question types and use cases
+
+#### 💡 Usage & Billing Clarifications
+- **Agent Mode Billing**: Only initial prompts count toward premium requests; follow-up actions and tool calls are not charged
+- **Model Multipliers**: Each model has specific multipliers that determine premium request consumption
+- **Free Tier**: Copilot Free provides limited features without premium model access
+
+### 🔍 Documentation Completeness
+
+All slash commands, chat variables, chat participants, and keyboard shortcuts previously documented remain accurate. No deprecated features were identified in this update cycle.
+
+---
+
 ## 2025-10-16 Update
 
 ### ✨ New Features
@@ -152,4 +189,4 @@
 
 ---
 
-*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-10-16. Features may be in various stages of rollout across different plans and platforms.*
+*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-11-03. Features may be in various stages of rollout across different plans and platforms.*
