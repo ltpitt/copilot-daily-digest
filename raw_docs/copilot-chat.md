@@ -572,15 +572,6 @@ Adding repository custom instructions for GitHub Copilot
 .
 Using keywords in your prompt
 You can use special keywords to help Copilot understand your prompt.
-Chat participants
-Chat participants are like domain experts who have a specialty that they can help you with. You can use a chat participant to scope your prompt to a specific domain. To do this, type
-@
-in the chat prompt box, followed by a chat participant name.
-For a list of available chat participants, type
-@
-in the chat prompt box. See also
-GitHub Copilot Chat cheat sheet
-.
 Extending Copilot Chat
 GitHub Copilot Extensions integrate the power of external tools into Copilot Chat, helping you reduce context switching and receive responses with domain-specific context. You can install Copilot Extensions from the GitHub Marketplace or build private ones within your organization, then type
 @
