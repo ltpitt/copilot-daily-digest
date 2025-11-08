@@ -6,13 +6,13 @@ Quickstart
 Quickstart for GitHub Copilot
 Quickly learn how to use GitHub Copilot.
 Tool navigation
-Eclipse
+Visual Studio Code
 JetBrains IDEs
 Visual Studio
-Visual Studio Code
 Web browser
-Windows Terminal
+Eclipse
 Xcode
+Windows Terminal
 In this article
 Introduction
 Sign up for GitHub Copilot

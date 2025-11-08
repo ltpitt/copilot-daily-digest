@@ -8,10 +8,10 @@ Chat in IDE
 Asking GitHub Copilot questions in your IDE
 Use Copilot Chat in your editor to give you code suggestions, explain code, generate unit tests, and suggest code fixes.
 Tool navigation
-Eclipse
+Visual Studio Code
 JetBrains IDEs
 Visual Studio
-Visual Studio Code
+Eclipse
 Xcode
 In this article
 Introduction
