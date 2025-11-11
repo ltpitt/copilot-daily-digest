@@ -19,6 +19,7 @@ Prerequisites
 Submitting prompts
 Using keywords in your prompt
 Using GitHub skills for Copilot
+Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Additional ways to access Copilot Chat
 Copilot Edits
@@ -29,6 +30,7 @@ Prerequisites
 Submitting prompts
 Using keywords in your prompt
 Using GitHub skills for Copilot (preview)
+Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Additional ways to access Copilot Chat
 Copilot Edits
@@ -39,6 +41,7 @@ Prerequisites
 Submitting prompts
 Using keywords in your prompt
 Using GitHub skills for Copilot
+Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Additional ways to access Copilot Chat
 Copilot Edits
@@ -46,6 +49,7 @@ Sharing feedback
 Further reading
 Prerequisites
 Submitting prompts
+Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Using keywords in your prompt
 Copilot agent mode
@@ -56,6 +60,7 @@ Further reading
 Prerequisites
 Submitting prompts
 Using keywords in your prompt
+Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Copilot agent mode
 Further reading
@@ -117,14 +122,6 @@ GitHub Copilot Chat cheat sheet
 or
 Chat participants
 in the Visual Studio Code documentation.
-Copilot Extensions chat participants
-You can also install Copilot Extensions that provide chat participants. You can install these extensions from
-GitHub Marketplace
-and from
-Visual Studio Code Marketplace
-. For information about extensions from GitHub Marketplace that provide chat participants, see
-Using extensions to integrate external tools with GitHub Copilot Chat
-.
 Slash commands
 Use slash commands to avoid writing complex prompts for common scenarios. To use a slash command, type
 /
@@ -162,6 +159,10 @@ variable in your question. For example,
 @github #web What is the latest LTS of Node.js?
 You can generate a list of currently available skills by asking Copilot:
 @github What skills are available?
+Using Model Context Protocol (MCP) servers
+You can use MCP to extend the capabilities of Copilot Chat by integrating it with a wide range of existing tools and services. For additional information, see
+About Model Context Protocol (MCP)
+.
 AI models for Copilot Chat
 You can change the model Copilot uses to generate responses to chat prompts. You may find that different models perform better, or provide more useful responses, depending on the type of questions you ask. Options include premium models with advanced capabilities.  See
 Changing the AI model for GitHub Copilot Chat
@@ -373,13 +374,6 @@ Adding repository custom instructions for GitHub Copilot
 .
 Using keywords in your prompt
 You can use special keywords to help Copilot understand your prompt.
-Extending Copilot Chat
-GitHub Copilot Extensions integrate the power of external tools into Copilot Chat, helping you reduce context switching and receive responses with domain-specific context. You can install Copilot Extensions from the GitHub Marketplace or build private ones within your organization, then type
-@
-in a chat window to see a list of your available extensions. To use an extension, select the extension from the list or type the full slug name, then type your prompt.
-To learn more, see
-Using extensions to integrate external tools with GitHub Copilot Chat
-.
 Slash commands
 Use slash commands to avoid writing complex prompts for common scenarios. To use a slash command, type
 /
@@ -418,6 +412,10 @@ to a question, Copilot dynamically selects an appropriate skill, based on the co
 @github Search the web to find the latest GPT4 model from OpenAI.
 You can generate a list of currently available skills by asking Copilot:
 @github What skills are available?
+Using Model Context Protocol (MCP) servers
+You can use MCP to extend the capabilities of Copilot Chat by integrating it with a wide range of existing tools and services. For additional information, see
+About Model Context Protocol (MCP)
+.
 AI models for Copilot Chat
 You can change the model Copilot uses to generate responses to chat prompts. You may find that different models perform better, or provide more useful responses, depending on the type of questions you ask. Options include premium models with advanced capabilities.  See
 Changing the AI model for GitHub Copilot Chat
@@ -572,13 +570,19 @@ Adding repository custom instructions for GitHub Copilot
 .
 Using keywords in your prompt
 You can use special keywords to help Copilot understand your prompt.
+Chat participants
+Chat participants are like domain experts who have a specialty that they can help you with. You can use a chat participant to scope your prompt to a specific domain. To do this, type
+@
+in the chat prompt box, followed by a chat participant name.
+For a list of available chat participants, type
+@
+in the chat prompt box. See also
+GitHub Copilot Chat cheat sheet
+.
 Extending Copilot Chat
 GitHub Copilot Extensions integrate the power of external tools into Copilot Chat, helping you reduce context switching and receive responses with domain-specific context. You can install Copilot Extensions from the GitHub Marketplace or build private ones within your organization, then type
 @
 in a chat window to see a list of your available extensions. To use an extension, select the extension from the list or type the full slug name, then type your prompt.
-To learn more, see
-Using extensions to integrate external tools with GitHub Copilot Chat
-.
 Slash commands
 Use slash commands to avoid writing complex prompts for common scenarios. To use a slash command, type
 /
@@ -609,6 +613,10 @@ variable in your question. For example,
 @github #web What is the latest LTS of Node.js?
 You can generate a list of currently available skills by asking Copilot:
 @github What skills are available?
+Using Model Context Protocol (MCP) servers
+You can use MCP to extend the capabilities of Copilot Chat by integrating it with a wide range of existing tools and services. For additional information, see
+About Model Context Protocol (MCP)
+.
 AI models for Copilot Chat
 You can change the model Copilot uses to generate responses to chat prompts. You may find that different models perform better, or provide more useful responses, depending on the type of questions you ask. Options include premium models with advanced capabilities.  See
 Changing the AI model for GitHub Copilot Chat
@@ -741,6 +749,10 @@ References
 link below the response. The references may include a link to a custom instructions file for your repository. This file contains additional information that is automatically added to all of your chat questions to improve the quality of the responses. For more information, see
 Adding repository custom instructions for GitHub Copilot
 .
+Using Model Context Protocol (MCP) servers
+You can use MCP to extend the capabilities of Copilot Chat by integrating it with a wide range of existing tools and services. For additional information, see
+About Model Context Protocol (MCP)
+.
 AI models for Copilot Chat
 You can change the model Copilot uses to generate responses to chat prompts. You may find that different models perform better, or provide more useful responses, depending on the type of questions you ask. Options include premium models with advanced capabilities.  See
 Changing the AI model for GitHub Copilot Chat
@@ -848,6 +860,10 @@ to ask Copilot to explain the code in the file currently displayed in the editor
 To see all available slash commands, type
 /
 in the chat prompt box.
+Using Model Context Protocol (MCP) servers
+You can use MCP to extend the capabilities of Copilot Chat by integrating it with a wide range of existing tools and services. For additional information, see
+About Model Context Protocol (MCP)
+.
 AI models for Copilot Chat
 You can change the model Copilot uses to generate responses to chat prompts. You may find that different models perform better, or provide more useful responses, depending on the type of questions you ask. Options include premium models with advanced capabilities.  See
 Changing the AI model for GitHub Copilot Chat
