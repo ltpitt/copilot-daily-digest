@@ -27,27 +27,27 @@ Next steps
 Sign up for GitHub Copilot
 Prerequisites
 Chat with GitHub Copilot
-Get your first code completion suggestion
+Get your first inline suggestion
 Next steps
 Sign up for GitHub Copilot
 Prerequisites
 Chat with GitHub Copilot
-Get your first code completion suggestion
+Get your first inline suggestion
 Next steps
 Sign up for GitHub Copilot
 Prerequisites
 Chat with GitHub Copilot
-Get your first code completion suggestion
+Get your first inline suggestion
 Next steps
 Sign up for GitHub Copilot
 Prerequisites
 Chat with GitHub Copilot
-Get your first code completion suggestion
+Get your first inline suggestion
 Next steps
 Sign up for GitHub Copilot
 Prerequisites
 Chat with GitHub Copilot
-Get your first code completion suggestion
+Get your first inline suggestion
 Next steps
 Introduction
 You can use Copilot to get answers to coding-related questions, such as how best to code something, how to fix a bug, or how someone else's code works. For full details of what Copilot can do, see
@@ -90,7 +90,7 @@ Find out more about GitHub Copilot Chat
 - See
 Asking GitHub Copilot questions in your IDE
 .
-Get Copilot code completion suggestions in an IDE
+Get Copilot inline suggestions in an IDE
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
@@ -160,7 +160,7 @@ Enter
 Copilot's answer is displayed below your question.
 Click on an answer to insert it to the command line.
 Next steps
-Find out more about Copilot code completion
+Find out more about Copilot inline suggestions
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
@@ -229,7 +229,7 @@ In the chat input field, type:
 add comments to these lines
 .
 If you like the comments that Copilot suggests, hover over the suggested code in the chat view and click the "Insert at Cursor" icon to replace the selected lines with the suggested code.
-Get your first code completion suggestion
+Get your first inline suggestion
 The following example uses JavaScript, however other languages will work similarly. GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. GitHub Copilot can also assist in query generation for databases, generating suggestions for APIs and frameworks, and can help with infrastructure as code development.
 Open Visual Studio Code.
 In Visual Studio Code, create a new JavaScript (
@@ -248,7 +248,7 @@ To accept the suggestion, press
 Tab
 .
 Next steps
-Find out more about Copilot code completion
+Find out more about Copilot inline suggestions
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
@@ -333,7 +333,7 @@ explain this line
 then press
 Enter
 .
-Get your first code completion suggestion
+Get your first inline suggestion
 The following example uses JavaScript, however other languages will work similarly. GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. GitHub Copilot can also assist in query generation for databases, generating suggestions for APIs and frameworks, and can help with infrastructure as code development.
 Open Visual Studio.
 In Visual Studio, create a new JavaScript (
@@ -352,7 +352,7 @@ To accept the suggestion, press
 Tab
 .
 Next steps
-Find out more about Copilot code completion
+Find out more about Copilot inline suggestions
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
@@ -433,7 +433,7 @@ explain this line
 then press
 Enter
 .
-Get your first code completion suggestion
+Get your first inline suggestion
 The following example uses JavaScript, however other languages will work similarly. GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. GitHub Copilot can also assist in query generation for databases, generating suggestions for APIs and frameworks, and can help with infrastructure as code development.
 In your JetBrains editor, create a new JavaScript (
 *.js
@@ -451,7 +451,7 @@ To accept the suggestion, press
 Tab
 .
 Next steps
-Find out more about Copilot code completion
+Find out more about Copilot inline suggestions
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
@@ -528,7 +528,7 @@ explain this line
 then press
 Enter
 .
-Get your first code completion suggestion
+Get your first inline suggestion
 The following example uses Swift, however other languages will work similarly.
 Create a new file called
 CalculateDays.swift
@@ -561,7 +561,7 @@ Copilot will continue to make suggestions, each of which you can accept by press
 Tab
 .
 Next steps
-Find out more about Copilot code completion
+Find out more about Copilot inline suggestions
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
@@ -634,7 +634,7 @@ explain this line
 then press
 Enter
 .
-Get your first code completion suggestion
+Get your first inline suggestion
 The following example uses Java, however other languages will work similarly.
 Create a new Java class called
 CalculateDaysBetween
@@ -648,7 +648,7 @@ To accept the suggestion, press
 Tab
 .
 Next steps
-Find out more about Copilot code completion
+Find out more about Copilot inline suggestions
 - See
 Getting code suggestions in your IDE with GitHub Copilot
 .
