@@ -22,7 +22,7 @@ Using GitHub skills for Copilot
 Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Additional ways to access Copilot Chat
-Copilot Edits
+Copilot Chat chat modes
 Using images in Copilot Chat
 Sharing feedback
 Further reading
@@ -208,12 +208,29 @@ quick chat
 , and
 chat smart actions
 in the Visual Studio Code documentation for more details.
-Copilot Edits
-Use Copilot Edits to make changes across multiple files directly from a single Copilot Chat prompt. Copilot Edits has the following modes:
+Copilot Chat chat modes
+You can use Copilot Chat in the following modes:
+Ask mode
+: to get answers to coding questions and get Copilot to provide code suggestions.
 Edit mode
-lets Copilot make controlled edits to multiple files.
+: to get Copilot to make controlled edits to multiple files.
 Agent mode
-lets Copilot autonomously accomplish a set task.
+: to get Copilot to autonomously accomplish a set task.
+Plan mode
+: to get Copilot to create detailed implementation plans to ensure all requirements are met.
+To switch between modes, use the agents dropdown at the bottom of the chat view.
+Ask mode
+Ask mode is optimized for answering questions about your codebase, coding, and general technology concepts. Use ask mode when you want to understand how something works, explore ideas, or get help with coding tasks. For larger changes across multiple files or more complex coding tasks, consider using edit mode or agent mode.
+Using ask mode
+If the chat view is not already displayed, select
+Open Chat
+from the Copilot Chat menu.
+At the bottom of the chat view, select
+Ask
+from the agents dropdown.
+Type a prompt in the prompt box and press
+Enter
+.
 Edit mode
 Edit mode is only available in Visual Studio Code and JetBrains IDEs.
 Use edit mode when you want more granular control over the edits that Copilot proposes. In edit mode, you choose which files Copilot can make changes to, provide context to Copilot with each iteration, and decide whether or not to accept the suggested edits after each turn.
@@ -221,12 +238,12 @@ Edit mode is best suited to use cases where:
 You want to make a quick, specific update to a defined set of files.
 You want full control over the number of LLM requests Copilot uses.
 Using edit mode
-To start an edit session, select
+If the chat view is not already displayed, select
 Open Chat
 from the Copilot Chat menu.
-At the bottom of the chat panel, select
+At the bottom of the chat view, select
 Edit
-from the mode dropdown.
+from the agents dropdown.
 Optionally, add relevant files to the
 working set
 to indicate to GitHub Copilot which files you want to work on.
@@ -248,12 +265,12 @@ Your task is complex, and involves multiple steps, iterations, and error handlin
 You want Copilot to determine the necessary steps to take to complete the task.
 The task requires Copilot to integrate with external applications, such as an MCP server.
 Using agent mode
-To start an edit session, select
+If the chat view is not already displayed, select
 Open Chat
 from the Copilot Chat menu.
-At the bottom of the chat panel, select
+At the bottom of the chat view, select
 Agent
-from the mode dropdown.
+from the agents dropdown.
 Submit a prompt. In response to your prompt, Copilot streams the edits in the editor, updates the working set, and if necessary, suggests terminal commands to run.
 Review the changes. If Copilot suggested terminal commands, confirm whether or not Copilot can run them. In response, Copilot iterates and performs additional actions to complete the task in your original prompt.
 You can also directly
@@ -268,6 +285,31 @@ count toward your premium request usage. Only the prompts you enter are billed�
 The total number of premium requests you use depends on how many prompts you enter and which model you select. See
 Requests in GitHub Copilot
 .
+Plan mode
+Note
+Plan mode in VS Code is currently in public preview and subject to change.
+Plan mode helps you to create detailed implementation plans before executing them. This ensures that all requirements are considered and addressed before any code changes are made. The plan agent does not make any code changes until the plan is reviewed and approved by you. Once approved, you can hand off the plan to the default agent or save it for further refinement, review, or team discussions.
+The plan agent is designed to:
+Research the task comprehensively using read-only tools and codebase analysis to identify requirements and constraints.
+Break down the task into manageable, actionable steps and include open questions about ambiguous requirements.
+Present a concise plan draft, based on a standardized plan format, for user review and iteration.
+Using plan mode
+If the chat view is not already displayed, select
+Open Chat
+from the Copilot Chat menu.
+At the bottom of the chat view, select
+Plan
+from the agents dropdown.
+Enter a task for which you want to create a plan, then press
+Enter
+.
+The plan agent provides a high-level summary and a breakdown of steps, including any open questions for clarification.
+Review the plan and answer any questions the agent has asked.
+You can iterate multiple times to clarify requirements, adjust scope, or answer questions.
+Once the plan is finalized, choose to save it or hand it off to an implementation agent to start coding, by using the corresponding controls.
+For more information, see
+Planning in VS Code chat
+in the Visual Studio Code documentation.
 Using images in Copilot Chat
 Note
 If you're using a Copilot Business or Copilot Enterprise plan, the organization or enterprise that provides your plan must enable the
@@ -441,7 +483,7 @@ GitHub Copilot Chat
 .
 At the bottom of the chat panel, select
 Agent
-from the mode dropdown.
+from the agents dropdown.
 Submit a prompt. In response to your prompt, Copilot streams the edits in the editor, updates the working set, and if necessary, suggests terminal commands to run.
 Review the changes. If Copilot suggested terminal commands, confirm whether or not Copilot can run them. In response, Copilot iterates and performs additional actions to complete the task in your original prompt.
 When you use Copilot agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
@@ -782,7 +824,7 @@ Open Chat
 .
 At the bottom of the chat panel, select
 Agent
-from the mode dropdown.
+from the agents dropdown.
 Optionally, add relevant files to the
 working set
 view to indicate to Copilot which files you want to work on.
@@ -881,7 +923,7 @@ Open Chat
 .
 At the bottom of the chat panel, select
 Agent
-from the mode dropdown.
+from the agents dropdown.
 Submit a prompt. In response to your prompt, Copilot streams the edits in the editor, updates the working set, and if necessary, suggests terminal commands to run.
 Review the changes. If Copilot suggested terminal commands, confirm whether or not Copilot can run them. In response, Copilot iterates and performs additional actions to complete the task in your original prompt.
 When you use Copilot agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
