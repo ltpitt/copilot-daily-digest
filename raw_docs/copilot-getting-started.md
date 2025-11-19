@@ -266,7 +266,7 @@ Best practices for using GitHub Copilot in VS Code
 in the Visual Studio Code documentation.
 Get familiar with next edit suggestions
 - See
-About next edit suggestions
+Navigating and accepting next edit suggestions
 .
 Use Copilot on your mobile device
 - See
@@ -573,6 +573,10 @@ Learn how to write effective prompts
 - See
 Prompt engineering for GitHub Copilot Chat
 .
+Get familiar with next edit suggestions
+- See
+Navigating and accepting next edit suggestions
+.
 Use Copilot on your mobile device
 - See
 Asking GitHub Copilot questions in GitHub Mobile
@@ -659,6 +663,10 @@ Asking GitHub Copilot questions in your IDE
 Learn how to write effective prompts
 - See
 Prompt engineering for GitHub Copilot Chat
+.
+Get familiar with next edit suggestions
+- See
+Navigating and accepting next edit suggestions
 .
 Use Copilot on your mobile device
 - See

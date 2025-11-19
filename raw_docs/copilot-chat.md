@@ -39,12 +39,13 @@ Sharing feedback
 Further reading
 Prerequisites
 Submitting prompts
-Using keywords in your prompt
+Supplementing your prompt
 Using GitHub skills for Copilot
 Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Additional ways to access Copilot Chat
 Copilot Edits
+Using plan mode
 Sharing feedback
 Further reading
 Prerequisites
@@ -52,7 +53,8 @@ Submitting prompts
 Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
 Using keywords in your prompt
-Copilot agent mode
+Using plan mode
+Using Copilot agent mode
 File references
 Chat management
 Sharing feedback
@@ -62,7 +64,8 @@ Submitting prompts
 Using keywords in your prompt
 Using Model Context Protocol (MCP) servers
 AI models for Copilot Chat
-Copilot agent mode
+Using plan mode
+Using Copilot agent mode
 Further reading
 Introduction
 This guide describes how to use Copilot Chat to ask questions about software development in your IDE. You can ask general questions about software development, or specific questions about the code in your project. For more information, see
@@ -279,15 +282,46 @@ open agent mode in VS Code
 For more information, see
 Copilot Edits
 in the Visual Studio Code documentation.
-When you use Copilot agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
+When you use agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
 not
 count toward your premium request usage. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.
 The total number of premium requests you use depends on how many prompts you enter and which model you select. See
 Requests in GitHub Copilot
 .
+Using subagents
+You can use subagents to delegate tasks to an isolated agent with its own context window within your chat session. The subagent operates independently without pausing for user feedback and returns the final result to the main chat session.
+Subagents are best suited for situations where:
+You want to delegate complex, multi-step tasks like research or analysis without interrupting your main session.
+You need to process large amounts of information or multiple documents that would clutter your primary context window.
+You want to explore different approaches or perspectives independently without mixing contexts together.
+Subagents use the same tools and AI model as the main session, but they cannot create other subagents.
+Enabling subagents
+In the Copilot Chat window, click the tools icon.
+Enable the
+runSubagent
+tool.
+If you use custom prompt files or custom agents, ensure you specify the
+runSubagent
+tool in the
+tools
+frontmatter property.
+Invoking subagents
+Subagents can be invoked in different ways:
+Automatic delegation
+. Copilot will analyze the description of your request, the description field of your configured custom agents, and the current context and available tools to automatically choose a subagent. For example, this prompt would automatically delegate the task to a
+refactor-specialist
+custom agent:
+Suggest ways to refactor this legacy code.
+Direct invocation
+. You can directly call the subagent in your prompt:
+Use the testing subagent to write unit tests for the authentication module.
+Calling the #runSubagent tool.
+.
+Evaluate the #file:databaseSchema using #runSubagent and generate an optimized data-migration plan.
+When the subagent completes its task, its results appear back in the main chat session, ready for follow-up questions or next steps.
 Plan mode
 Note
-Plan mode in VS Code is currently in public preview and subject to change.
+Plan mode is currently in public preview and subject to change.
 Plan mode helps you to create detailed implementation plans before executing them. This ensures that all requirements are considered and addressed before any code changes are made. The plan agent does not make any code changes until the plan is reviewed and approved by you. Once approved, you can hand off the plan to the default agent or save it for further refinement, review, or team discussions.
 The plan agent is designed to:
 Research the task comprehensively using read-only tools and codebase analysis to identify requirements and constraints.
@@ -300,13 +334,19 @@ from the Copilot Chat menu.
 At the bottom of the chat view, select
 Plan
 from the agents dropdown.
-Enter a task for which you want to create a plan, then press
-Enter
-.
-The plan agent provides a high-level summary and a breakdown of steps, including any open questions for clarification.
+Type a prompt that describes a task, such as adding a feature to an existing application, refactoring code, fixing a bug, or creating an initial version of a new application.
+For example:
+Create a simple to-do web app with HTML, CSS, and JS files.
+After a few moments, the plan agent outputs a plan in the chat view. The plan provides a high-level summary and a breakdown of steps, including any open questions for clarification.
 Review the plan and answer any questions the agent has asked.
 You can iterate multiple times to clarify requirements, adjust scope, or answer questions.
-Once the plan is finalized, choose to save it or hand it off to an implementation agent to start coding, by using the corresponding controls.
+Once the plan is complete you can:
+Click
+Start Implementation
+to switch Copilot Chat to agent mode and start an agent session to implement the required changes, based on the implementation plan.
+Click
+Open in Editor
+to switch Copilot Chat to agent mode and start an agent session that generates Markdown, in a tab of your editor, with the details of the implementation plan. You can start to work through the plan yourself, or save the plan as a Markdown file for later use.
 For more information, see
 Planning in VS Code chat
 in the Visual Studio Code documentation.
@@ -610,21 +650,8 @@ References
 link below the response. The references may include a link to a custom instructions file for your repository. This file contains additional information that is automatically added to all of your chat questions to improve the quality of the responses. For more information, see
 Adding repository custom instructions for GitHub Copilot
 .
-Using keywords in your prompt
-You can use special keywords to help Copilot understand your prompt.
-Chat participants
-Chat participants are like domain experts who have a specialty that they can help you with. You can use a chat participant to scope your prompt to a specific domain. To do this, type
-@
-in the chat prompt box, followed by a chat participant name.
-For a list of available chat participants, type
-@
-in the chat prompt box. See also
-GitHub Copilot Chat cheat sheet
-.
-Extending Copilot Chat
-GitHub Copilot Extensions integrate the power of external tools into Copilot Chat, helping you reduce context switching and receive responses with domain-specific context. You can install Copilot Extensions from the GitHub Marketplace or build private ones within your organization, then type
-@
-in a chat window to see a list of your available extensions. To use an extension, select the extension from the list or type the full slug name, then type your prompt.
+Supplementing your prompt
+You can use slash commands and file references to help Copilot understand your what you are asking it to do.
 Slash commands
 Use slash commands to avoid writing complex prompts for common scenarios. To use a slash command, type
 /
@@ -732,12 +759,78 @@ Agent
 tab.
 Submit a prompt. In response to your prompt, Copilot streams the edits in the editor, updates the working set, and if necessary, suggests terminal commands to run.
 Review the changes. If Copilot suggested terminal commands, confirm whether or not Copilot can run them. In response, Copilot iterates and performs additional actions to complete the task in your original prompt.
-When you use Copilot agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
+When you use agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
 not
 count toward your premium request usage. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.
 The total number of premium requests you use depends on how many prompts you enter and which model you select. See
 Requests in GitHub Copilot
 .
+Using subagents
+You can use subagents to delegate tasks to an isolated agent with its own context window within your chat session. The subagent operates independently without pausing for user feedback and returns the final result to the main chat session.
+Subagents are best suited for situations where:
+You want to delegate complex, multi-step tasks like research or analysis without interrupting your main session.
+You need to process large amounts of information or multiple documents that would clutter your primary context window.
+You want to explore different approaches or perspectives independently without mixing contexts together.
+Subagents use the same tools and AI model as the main session, but they cannot create other subagents.
+To use subagents, you
+must have custom agents configured in your environment
+. See
+Creating custom agents
+.
+Enabling subagents
+To enable subagents:
+Click
+Tools
+in the menu bar, then click
+GitHub Copilot
+, then
+Edit Settings
+.
+In the popup menu, click
+Chat
+, then click the
+Enable Subagent
+checkbox.
+Invoking subagents
+Subagents can be invoked in different ways:
+Automatic delegation
+. Copilot will analyze the description of your request, the description field of your configured custom agents, and the current context and available tools to automatically choose a subagent. For example, this prompt would automatically delegate the task to a
+refactor-specialist
+custom agent:
+Suggest ways to refactor this legacy code.
+Direct invocation
+. You can directly call the subagent in your prompt:
+Use the testing subagent to write unit tests for the authentication module.
+When the subagent completes its task, its results appear back in the main chat session, ready for follow-up questions or next steps.
+Using plan mode
+Note
+Plan mode is currently in public preview and subject to change.
+Plan mode helps you to create detailed implementation plans before executing them. This ensures that all requirements are considered and addressed before any code changes are made. The plan agent does not make any code changes until the plan is reviewed and approved by you. Once approved, you can hand off the plan to the default agent or save it for further refinement, review, or team discussions.
+The plan agent is designed to:
+Research the task comprehensively using read-only tools and codebase analysis to identify requirements and constraints.
+Break down the task into manageable, actionable steps and include open questions about ambiguous requirements.
+Present a concise plan draft, based on a standardized plan format, for user review and iteration.
+To use plan mode:
+If it is not already displayed, open the Copilot Chat panel by clicking the
+GitHub Copilot Chat
+icon at the right side of the JetBrains IDE window.
+At the bottom of the Copilot Chat panel, select
+Plan
+from the agents dropdown.
+Type a prompt that describes a task, such as adding a feature to an existing application, refactoring code, fixing a bug, or creating an initial version of a new application.
+For example:
+Create a simple to-do web app with HTML, CSS, and JS files.
+Submit the prompt.
+After a few moments, the plan agent outputs a plan in the chat panel. The plan provides a high-level summary and a breakdown of steps, including any open questions for clarification.
+Review the plan and answer any questions the agent has asked.
+You can iterate multiple times to clarify requirements, adjust scope, or answer questions.
+Once the plan is complete you can:
+Click
+Start Implementation
+to switch Copilot Chat to agent mode and start an agent session to implement the required changes, based on the implementation plan.
+Click
+Open in Editor
+to switch Copilot Chat to agent mode and start an agent session that generates Markdown, in a tab of your editor, with the details of the implementation plan. You can start to work through the plan yourself, or save the plan as a Markdown file for later use.
 Sharing feedback
 To share feedback about Copilot Chat, you can use the
 share feedback
@@ -774,7 +867,7 @@ Managing policies and features for GitHub Copilot in your organization
 .
 Submitting prompts
 You can ask Copilot Chat to give you code suggestions, explain code, generate unit tests, and suggest code fixes.
-To open the chat view, click
+To open the chat window, click
 Editor
 in the menu bar, then click
 GitHub Copilot
@@ -810,16 +903,51 @@ To see all available slash commands, type
 in the chat prompt box. For more information, see
 GitHub Copilot Chat cheat sheet
 .
-Copilot agent mode
+Using plan mode
+Note
+Plan mode is currently in public preview and subject to change.
+Plan mode helps you to create detailed implementation plans before executing them. This ensures that all requirements are considered and addressed before any code changes are made. The plan agent does not make any code changes until the plan is reviewed and approved by you. Once approved, you can hand off the plan to the default agent or save it for further refinement, review, or team discussions.
+The plan agent is designed to:
+Research the task comprehensively using read-only tools and codebase analysis to identify requirements and constraints.
+Break down the task into manageable, actionable steps and include open questions about ambiguous requirements.
+Present a concise plan draft, based on a standardized plan format, for user review and iteration.
+To use plan mode:
+If it is not already displayed, open the Copilot Chat window by clicking
+Editor
+in the menu bar, then clicking
+GitHub Copilot
+then
+Open Chat
+.
+At the bottom of the Copilot Chat window, select
+Plan
+from the agents dropdown.
+Type a prompt that describes a task, such as adding a feature to an existing application, refactoring code, fixing a bug, or creating an initial version of a new application.
+For example:
+Create a simple to-do app with Swift files.
+Submit the prompt.
+After a few moments, the plan agent outputs a plan in the chat panel. The plan provides a high-level summary and a breakdown of steps, including any open questions for clarification.
+Review the plan and answer any questions the agent has asked.
+You can iterate multiple times to clarify requirements, adjust scope, or answer questions.
+Once the plan is complete you can:
+Click
+Start Implementation
+to switch Copilot Chat to agent mode and start an agent session to implement the required changes, based on the implementation plan.
+Click
+Open in Editor
+to switch Copilot Chat to agent mode and start an agent session that generates Markdown, in a tab of your editor, with the details of the implementation plan. You can start to work through the plan yourself, or save the plan as a Markdown file for later use.
+Using Copilot agent mode
 Use agent mode when you have a specific task in mind and want to enable Copilot to autonomously edit your code. In agent mode, Copilot determines which files to make changes to, offers code changes and terminal commands to complete the task, and iterates to remediate issues until the original task is complete.
 Agent mode is best suited to use cases where:
 Your task is complex, and involves multiple steps, iterations, and error handling.
 You want Copilot to determine the necessary steps to take to complete the task.
 The task requires Copilot to integrate with external applications, such as an MCP server.
 Using agent mode
-To open the chat view, click
-Copilot
-in the menu bar, then click
+If it is not already displayed, open the Copilot Chat window by clicking
+Editor
+in the menu bar, then clicking
+GitHub Copilot
+then
 Open Chat
 .
 At the bottom of the chat panel, select
@@ -830,12 +958,50 @@ working set
 view to indicate to Copilot which files you want to work on.
 Submit a prompt. In response to your prompt, Copilot streams the edits in the editor, updates the working set, and if necessary, suggests terminal commands to run.
 Review the changes. If Copilot suggested terminal commands, confirm whether or not Copilot can run them. In response, Copilot iterates and performs additional actions to complete the task in your original prompt.
-When you use Copilot agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
+When you use agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
 not
 count toward your premium request usage. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.
 The total number of premium requests you use depends on how many prompts you enter and which model you select. See
 Requests in GitHub Copilot
 .
+Using subagents
+You can use subagents to delegate tasks to an isolated agent with its own context window within your chat session. The subagent operates independently without pausing for user feedback and returns the final result to the main chat session.
+Subagents are best suited for situations where:
+You want to delegate complex, multi-step tasks like research or analysis without interrupting your main session.
+You need to process large amounts of information or multiple documents that would clutter your primary context window.
+You want to explore different approaches or perspectives independently without mixing contexts together.
+Subagents use the same tools and AI model as the main session, but they cannot create other subagents.
+To use subagents, you
+must have custom agents configured in your environment
+. See
+Creating custom agents
+.
+Enabling subagents
+Click
+Editor
+in the menu bar, then click
+GitHub Copilot
+then
+Open GitHub Copilot for Xcode Settings
+.
+Click
+Advanced
+in the chat panel, then under
+Chat Settings
+click the
+Enable Subagents
+toggle.
+Invoking subagents
+Subagents can be invoked in different ways:
+Automatic delegation
+. Copilot will analyze the description of your request, the description field of your configured custom agents, and the current context and available tools to automatically choose a subagent. For example, this prompt would automatically delegate the task to a
+refactor-specialist
+custom agent:
+Suggest ways to refactor this legacy code.
+Direct invocation
+. You can directly call the subagent in your prompt:
+Use the testing subagent to write unit tests for the authentication module.
+When the subagent completes its task, its results appear back in the main chat session, ready for follow-up questions or next steps.
 File references
 By default, Copilot Chat will reference the file that you have open or the code that you have selected. To attach a specific file as reference, click
 in the chat prompt box.
@@ -910,15 +1076,45 @@ AI models for Copilot Chat
 You can change the model Copilot uses to generate responses to chat prompts. You may find that different models perform better, or provide more useful responses, depending on the type of questions you ask. Options include premium models with advanced capabilities.  See
 Changing the AI model for GitHub Copilot Chat
 .
-Copilot agent mode
+Using plan mode
+Note
+Plan mode is currently in public preview and subject to change.
+Plan mode helps you to create detailed implementation plans before executing them. This ensures that all requirements are considered and addressed before any code changes are made. The plan agent does not make any code changes until the plan is reviewed and approved by you. Once approved, you can hand off the plan to the default agent or save it for further refinement, review, or team discussions.
+The plan agent is designed to:
+Research the task comprehensively using read-only tools and codebase analysis to identify requirements and constraints.
+Break down the task into manageable, actionable steps and include open questions about ambiguous requirements.
+Present a concise plan draft, based on a standardized plan format, for user review and iteration.
+To use plan mode:
+If it is not already displayed, open the Copilot Chat panel by clicking the Copilot icon (
+) in the status bar at the bottom of Eclipse, then clicking
+Open Chat
+.
+At the bottom of the chat panel, select
+Plan
+from the agents dropdown.
+Type a prompt that describes a task, such as adding a feature to an existing application, refactoring code, fixing a bug, or creating an initial version of a new application.
+For example:
+Create a simple to-do app using JavaFX.
+Submit the prompt.
+After a few moments, the plan agent outputs a plan in the chat panel. The plan provides a high-level summary and a breakdown of steps, including any open questions for clarification.
+Review the plan and answer any questions the agent has asked.
+You can iterate multiple times to clarify requirements, adjust scope, or answer questions.
+Once the plan is complete you can:
+Click
+Start Implementation
+to switch Copilot Chat to agent mode and start an agent session to implement the required changes, based on the implementation plan.
+Click
+Open in Editor
+to switch Copilot Chat to agent mode and start an agent session that generates Markdown, in a tab of your editor, with the details of the implementation plan. You can start to work through the plan yourself, or save the plan as a Markdown file for later use.
+Using Copilot agent mode
 Use agent mode when you have a specific task in mind and want to enable Copilot to autonomously edit your code. In agent mode, Copilot determines which files to make changes to, offers code changes and terminal commands to complete the task, and iterates to remediate issues until the original task is complete.
 Agent mode is best suited to use cases where:
 Your task is complex, and involves multiple steps, iterations, and error handling.
 You want Copilot to determine the necessary steps to take to complete the task.
 The task requires Copilot to integrate with external applications, such as an MCP server.
-Using agent mode
-To open the Copilot Chat panel, click the Copilot icon (
-) in the status bar at the bottom of Eclipse, then click
+To use agent mode:
+Open the Copilot Chat panel by clicking the Copilot icon (
+) in the status bar at the bottom of Eclipse, then clicking
 Open Chat
 .
 At the bottom of the chat panel, select
@@ -926,12 +1122,46 @@ Agent
 from the agents dropdown.
 Submit a prompt. In response to your prompt, Copilot streams the edits in the editor, updates the working set, and if necessary, suggests terminal commands to run.
 Review the changes. If Copilot suggested terminal commands, confirm whether or not Copilot can run them. In response, Copilot iterates and performs additional actions to complete the task in your original prompt.
-When you use Copilot agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
+When you use agent mode, each prompt you enter counts as one premium request, multiplied by the model’s multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won’t consume any premium requests. Copilot may take several follow-up actions to complete your task, but these follow-up actions do
 not
 count toward your premium request usage. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.
 The total number of premium requests you use depends on how many prompts you enter and which model you select. See
 Requests in GitHub Copilot
 .
+Using subagents
+You can use subagents to delegate tasks to an isolated agent with its own context window within your chat session. The subagent operates independently without pausing for user feedback and returns the final result to the main chat session.
+Subagents are best suited for situations where:
+You want to delegate complex, multi-step tasks like research or analysis without interrupting your main session.
+You need to process large amounts of information or multiple documents that would clutter your primary context window.
+You want to explore different approaches or perspectives independently without mixing contexts together.
+Subagents use the same tools and AI model as the main session, but they cannot create other subagents.
+To use subagents, you
+must have custom agents configured in your environment
+. See
+Creating custom agents
+.
+Enabling subagents
+Click the
+icon in the status bar.
+In the popup menu, click
+Edit Preferences
+.
+Under
+Chat
+, click the
+Enable sub-agent
+check box
+Invoking subagents
+Subagents can be invoked in different ways:
+Automatic delegation
+. Copilot will analyze the description of your request, the description field of your configured custom agents, and the current context and available tools to automatically choose a subagent. For example, this prompt would automatically delegate the task to a
+refactor-specialist
+custom agent:
+Suggest ways to refactor this legacy code.
+Direct invocation
+. You can directly call the subagent in your prompt:
+Use the testing subagent to write unit tests for the authentication module.
+When the subagent completes its task, its results appear back in the main chat session, ready for follow-up questions or next steps.
 Further reading
 Prompt engineering for GitHub Copilot Chat
 Asking GitHub Copilot questions in GitHub
