@@ -21,8 +21,6 @@ Chat with Copilot to ask for help with your code
 Ask Copilot for help using the command line
 Organize and share task-specific context with Copilot Spaces to get more relevant answers
 Generate a description of the changes in a pull request
-Create and manage collections of documentation, called knowledge bases, to use as a context for chatting with Copilot
-(Copilot Enterprise only)
 Work on code changes and create a pull request for you to review
 (Copilot Pro+, Copilot Business, and Copilot Enterprise only)
 Copilot is available:
