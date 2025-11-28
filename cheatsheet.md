@@ -97,7 +97,7 @@ Chat participants are like domain experts with specialized knowledge.
 
 ## Agent Mode
 
-**New Feature**: Autonomous code editing and task completion with advanced capabilities.
+**Autonomous code editing and task completion with advanced capabilities.**
 
 ### When to Use Agent Mode
 - Complex tasks involving multiple steps and iterations
@@ -125,6 +125,58 @@ Chat participants are like domain experts with specialized knowledge.
 - Visual Studio Code
 - JetBrains IDEs
 - Visual Studio (17.14+)
+- Xcode
+- Eclipse
+
+## Chat Modes
+
+Copilot Chat provides different modes optimized for different workflows:
+
+### Ask Mode
+- Optimized for answering questions about your codebase
+- Use for understanding how something works or exploring ideas
+- Great for general coding help and concept explanations
+
+### Edit Mode
+- Available in VS Code and JetBrains IDEs only
+- Granular control over proposed edits
+- You choose which files Copilot can change
+- Best for quick, specific updates to defined file sets
+
+### Agent Mode
+- Autonomous code editing with multi-step task completion
+- Copilot determines which files to change
+- Iterates to remediate issues until task is complete
+- Best for complex tasks requiring multiple steps
+
+### Plan Mode (Public Preview)
+- Create detailed implementation plans before execution
+- Research-focused using read-only tools and codebase analysis
+- Breaks tasks into manageable, actionable steps
+- Review and approve plans before any code changes
+- Hand off to agent mode or save for team discussions
+
+## Subagents (New!)
+
+Delegate tasks to isolated agents with their own context window.
+
+### When to Use Subagents
+- Complex, multi-step tasks like research or analysis
+- Processing large amounts of information that would clutter your context
+- Exploring different approaches independently without mixing contexts
+
+### How to Enable
+- **VS Code**: Click tools icon in chat window, enable `runSubagent` tool
+- **JetBrains**: Tools > GitHub Copilot > Edit Settings > Chat > Enable Subagent
+- **Xcode**: Editor > GitHub Copilot > Open Settings > Advanced > Enable Subagents
+- **Eclipse**: Click Copilot icon > Edit Preferences > Chat > Enable sub-agent
+
+### Invoking Subagents
+- **Automatic delegation**: Copilot auto-selects based on your prompt and custom agents
+- **Direct invocation**: `Use the testing subagent to write unit tests for the authentication module.`
+- **Tool reference**: `Evaluate #file:schema using #runSubagent and generate a migration plan.`
+
+**Note**: Subagents require custom agents configured in your environment.
 
 ## Pro Tips
 
@@ -183,4 +235,4 @@ Chat participants are like domain experts with specialized knowledge.
 
 ---
 
-*Last updated: 2025-11-03 based on latest Copilot documentation*
+*Last updated: 2025-11-28 based on latest Copilot documentation*

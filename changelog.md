@@ -1,5 +1,53 @@
 # GitHub Copilot Changelog
 
+## 2025-11-28 Update
+
+### ✨ New Features
+
+#### Subagents
+- **Isolated Task Delegation**: Delegate complex tasks to isolated agents with their own context window
+- **Automatic Delegation**: Copilot automatically selects appropriate subagents based on your prompt
+- **Direct Invocation**: Explicitly call subagents for specific tasks like testing or refactoring
+- **Tool Reference**: Use `#runSubagent` in prompts for targeted delegation
+- **Requires Custom Agents**: Subagents work with custom agent configurations
+- **Available In**: VS Code, JetBrains IDEs, Xcode, Eclipse
+
+#### Plan Mode (Public Preview)
+- **Implementation Planning**: Create detailed plans before executing code changes
+- **Research Phase**: Comprehensive research using read-only tools and codebase analysis
+- **Actionable Steps**: Break down tasks into manageable, actionable steps
+- **Open Questions**: Plans include questions about ambiguous requirements
+- **Plan Handoff**: Approve plans and hand off to agent mode for implementation
+- **Save for Later**: Export plans as Markdown for team review and discussions
+
+### 🔧 IDE Support Enhancements
+
+#### All Chat Modes Now Available
+- **Ask Mode**: Question answering and code exploration
+- **Edit Mode**: Controlled multi-file editing (VS Code, JetBrains)
+- **Agent Mode**: Autonomous task completion with iteration
+- **Plan Mode**: Implementation planning before execution
+
+#### Platform-Specific Updates
+- **Xcode**: Full agent mode, plan mode, and subagent support
+- **Eclipse**: Agent mode, plan mode, subagents, and MCP integration
+- **Visual Studio**: Agent mode in 17.14+ with Copilot Edits
+- **JetBrains**: Complete edit mode and agent mode with subagent support
+
+### 📋 Documentation Verification
+
+This update confirms all features from previous updates remain operational:
+
+- ✅ **Agent Mode**: Multi-step autonomous task completion across all supported IDEs
+- ✅ **Copilot Free Plan**: No-subscription entry tier for core features
+- ✅ **Image Support**: JPEG, PNG, GIF, WEBP attachments with compatible AI models
+- ✅ **GitHub Skills**: `@github` integration with dynamic skill selection and `#web` search
+- ✅ **Custom Instructions**: AGENTS.md and repository-specific instruction files
+- ✅ **MCP Integration**: Model Context Protocol support for external tool integration
+- ✅ **Multiple AI Models**: GPT-4.1 (included), Claude Sonnet 3.5/3.7, Gemini 2.0/2.5 (premium)
+
+---
+
 ## 2025-11-03 Update
 
 ### 📋 Documentation Review
@@ -189,4 +237,4 @@ All slash commands, chat variables, chat participants, and keyboard shortcuts pr
 
 ---
 
-*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-11-03. Features may be in various stages of rollout across different plans and platforms.*
+*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-11-28. Features may be in various stages of rollout across different plans and platforms.*
