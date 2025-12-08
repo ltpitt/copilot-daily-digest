@@ -24,7 +24,7 @@ Your job is **pure content synthesis**:
 Read from these directories:
 
 ### Documentation
-- `data/docs/*.md` - GitHub Copilot documentation (5 files)
+- `data/docs/*.md` - GitHub Copilot documentation files
 - Scraped from official GitHub Docs
 
 ### Blog Posts
@@ -177,14 +177,13 @@ Use runSubagent to delegate:
 ## Workflow
 
 ### Step 1: Read and Analyze Data
-```python
-# Pseudocode for your process
+
+Steps to follow:
 1. Read data/changes-summary.json
 2. Identify what's new (last 7 days)
 3. Read all new blog posts
 4. Read all new videos
 5. Read changed documentation
-```
 
 ### Step 2: Identify Themes
 - What are the main themes this week?

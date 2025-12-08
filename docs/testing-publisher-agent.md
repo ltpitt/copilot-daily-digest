@@ -69,8 +69,7 @@ Check that the agent:
 - [ ] PR description includes summary of changes
 - [ ] PR description lists what's new
 - [ ] PR description includes checklist of updated files
-- [ ] No broken links in generated content
-- [ ] No formatting issues
+- [ ] No formatting issues in generated content
 
 ### Content Accuracy
 - [ ] README.md has correct structure and sections
@@ -130,8 +129,8 @@ The Publisher Agent test is successful when:
 ### Issue: Agent attempts to fetch data
 **Solution**: Review agent instructions to emphasize "no data fetching" role
 
-### Issue: Generated content has broken links
-**Solution**: Add link validation to quality checks section
+### Issue: Generated content has formatting issues
+**Solution**: Add markdown syntax validation to quality checks section
 
 ### Issue: Agent doesn't use runSubagent
 **Solution**: Clarify when delegation is recommended vs required
