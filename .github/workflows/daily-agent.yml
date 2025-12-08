@@ -2,7 +2,7 @@ name: Daily Copilot Digest
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # Daily at 1 PM UTC
+    - cron: '14 23 * * *'  # Daily at 1 PM UTC
   workflow_dispatch:     # Allows manual triggering
 
 permissions:
