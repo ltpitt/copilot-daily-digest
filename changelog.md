@@ -1,5 +1,97 @@
 # GitHub Copilot Changelog
 
+## 2025-12-08 Update
+
+### 📋 Documentation Verification
+
+This update confirms that all major features documented in the November 2025 updates remain current and fully operational. The latest documentation scrape verified the following capabilities:
+
+#### ✅ Verified Core Features & Capabilities
+
+**Copilot Free Tier**
+- No-subscription entry tier remains available for exploring core Copilot features
+- Provides access to basic code suggestions and limited chat capabilities
+- Perfect starting point for new users to experience Copilot
+
+**Chat Modes Available Across IDEs**
+- **Ask Mode**: Optimized for answering questions about code and exploring ideas
+- **Edit Mode**: Controlled multi-file editing (VS Code, JetBrains)
+- **Agent Mode**: Autonomous code editing with multi-step task completion
+- **Plan Mode**: Implementation planning before execution (public preview)
+
+**Subagents**
+- Delegate complex tasks to isolated agents with their own context window
+- Automatic delegation based on prompt analysis
+- Direct invocation for specific tasks
+- Requires custom agents configured in environment
+
+**Chat Interface Features**
+- **Slash Commands**: Quick commands for common scenarios (type `/` to see all)
+- **Chat Variables**: Include specific context (type `#` to see all options)
+- **Chat Participants**: Domain experts with specialized knowledge (type `@` for list)
+- **GitHub Skills**: `@github` integration with dynamic skill selection
+- **Web Search**: Use `#web` variable for latest information
+
+**IDE Support Status**
+- **Visual Studio Code**: Full support including all chat modes, inline chat, quick chat
+- **JetBrains IDEs**: Complete integration with agent mode, edit mode, and subagents
+- **Visual Studio**: Agent mode in 17.14+, Copilot Edits support
+- **Xcode**: Agent mode, plan mode, subagents, and chat management
+- **Eclipse**: Agent mode, plan mode, subagents, and MCP integration (version 2024-09+)
+- **Windows Terminal Canary**: Terminal Chat interface
+
+**AI Model Options**
+- **Included Model**: GPT-4.1 (multiplier: 0) - no premium request consumption
+- **Premium Models**: Claude Sonnet 3.5/3.7, Gemini 2.0 Flash/2.5 Pro
+- **Model Selection**: Different models optimized for different question types
+- **Image Support**: JPEG, PNG, GIF, WEBP attachments with compatible models
+
+**Advanced Features**
+- **Custom Instructions**: Repository-specific instruction files automatically included in chat
+- **AGENTS.md Support**: Special support for agent-specific context and instructions
+- **Model Context Protocol (MCP)**: Extend Copilot Chat with external tools and services
+- **Copilot Extensions**: Third-party chat participants from GitHub and VS Code Marketplace
+
+#### 💡 Usage & Billing Confirmed
+
+**Agent Mode Billing**
+- Only initial prompts count toward premium requests
+- Follow-up actions and tool calls are not charged
+- Model multipliers determine premium request consumption
+- Included model (GPT-4.1) has multiplier of 0
+
+**Plan Options**
+- **Copilot Free**: Core features with no paid plan required
+- **Copilot Pro**: Full access with generous usage limits (30-day free trial available)
+- **Copilot Pro+**: Advanced features including autonomous code changes
+- **Copilot Business/Enterprise**: Organization-level features and controls
+
+#### 🎯 Access Methods & Interfaces
+
+**Where to Use Copilot**
+- IDEs: VS Code, JetBrains, Visual Studio, Xcode, Eclipse
+- GitHub Mobile: Chat interface for mobile workflows
+- Windows Terminal Canary: Terminal Chat interface
+- Command Line: GitHub CLI integration
+- GitHub Website: Direct web-based access
+
+**Chat Access Methods**
+- Chat Panel: Primary interface for extended conversations
+- Quick Chat: Keyboard shortcuts for rapid questions
+- Inline Chat: Direct editor integration for contextual help
+- Smart Actions: Context menu integration for quick access
+
+### 🔍 Documentation Completeness
+
+All previously documented features remain accurate and operational. The documentation confirms:
+- Complete list of slash commands available via `/` in chat
+- Full set of chat variables accessible via `#` in chat
+- Chat participants can be invoked via `@` or automatic inference
+- Keyboard shortcuts remain consistent across platforms
+- Plan mode, subagents, and agent mode working as documented
+
+---
+
 ## 2025-11-28 Update
 
 ### ✨ New Features
@@ -237,4 +329,4 @@ All slash commands, chat variables, chat participants, and keyboard shortcuts pr
 
 ---
 
-*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-11-28. Features may be in various stages of rollout across different plans and platforms.*
+*This changelog is compiled from the latest GitHub Copilot documentation as of 2025-12-08. Features may be in various stages of rollout across different plans and platforms.*
