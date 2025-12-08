@@ -207,3 +207,15 @@ marimo/_lsp/
 __marimo__/
 
 .idea/
+# Raw data (keep metadata and structure)
+data/docs/*.md
+data/docs/*.html
+data/blog/*.json
+data/videos/*.json
+data/feeds/*.xml
+data/feeds/*.json
+data/changelogs/*.json
+
+# Keep metadata and structure
+!data/metadata.json
+!data/**/.gitkeep

@@ -11,10 +11,10 @@ from urllib.parse import urljoin, urlparse
 from loguru import logger
 
 def create_output_dir():
-    """Create the top-level raw_docs directory if it doesn't exist."""
+    """Create the top-level data/docs directory if it doesn't exist."""
     # Get the absolute path to the project root
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    output_dir = os.path.join(project_root, "raw_docs")
+    output_dir = os.path.join(project_root, "data/docs")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         logger.info(f"Created output directory: {output_dir}")
@@ -49,7 +49,7 @@ def save_content(content, filename, output_dir):
 
 
 def scrape_copilot_docs():
-    """Scrape GitHub Copilot documentation and save to raw_docs."""
+    """Scrape GitHub Copilot documentation and save to data/docs."""
     logger.info("Starting GitHub Copilot documentation scrape...")
     output_dir = create_output_dir()
 
