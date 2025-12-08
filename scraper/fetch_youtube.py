@@ -15,6 +15,7 @@ YouTube Data API v3 provides (optional enrichment):
 - Search capabilities for older videos
 """
 
+import argparse
 import feedparser
 import json
 import os
@@ -481,7 +482,7 @@ def filter_by_age(videos: List[dict], max_days: int) -> List[dict]:
 # Save Functions
 # ============================================================================
 
-def save_videos(videos: List[dict]) -> int:
+def save_videos(videos: List[dict], dry_run: bool = False) -> int:
     """
     Save videos to data/videos/ as YYYY-MM-DD_{video_id}.json.
     
@@ -489,12 +490,14 @@ def save_videos(videos: List[dict]) -> int:
     
     Args:
         videos: List of video dictionaries to save
+        dry_run: If True, only print what would be saved without writing files
         
     Returns:
-        Count of new videos saved
+        Count of new videos saved (or would be saved in dry-run mode)
     """
     # Ensure output directory exists
-    ensure_directory(str(DATA_DIR))
+    if not dry_run:
+        ensure_directory(str(DATA_DIR))
     
     new_count = 0
     duplicate_count = 0
@@ -506,8 +509,8 @@ def save_videos(videos: List[dict]) -> int:
             logger.warning("Video missing video_id, skipping")
             continue
         
-        # Check if already processed
-        if not add_video_id(video_id):
+        # Check if already processed (skip duplicate check in dry-run to show all potential saves)
+        if not dry_run and not add_video_id(video_id):
             duplicate_count += 1
             logger.debug(f"Skipping duplicate video: {video_id}")
             continue
@@ -531,7 +534,7 @@ def save_videos(videos: List[dict]) -> int:
         
         # Avoid filename collisions (shouldn't happen with video_id, but just in case)
         counter = 1
-        while filepath.exists():
+        while filepath.exists() and not dry_run:
             filename = f"{date_part}_{video_id}_{counter}.json"
             filepath = DATA_DIR / filename
             counter += 1
@@ -539,19 +542,26 @@ def save_videos(videos: List[dict]) -> int:
         # Add scraped timestamp
         video['scraped_at'] = now_iso()
         
-        # Write video data
-        try:
-            video_json = json.dumps(video, indent=2, ensure_ascii=False)
-            if safe_write_file(str(filepath), video_json):
-                logger.info(f"Saved: {filename}")
-                new_count += 1
-            else:
-                logger.error(f"Failed to save: {filename}")
-        except Exception as e:
-            logger.error(f"Error saving video {filename}: {e}")
-            continue
+        if dry_run:
+            # In dry-run mode, just log what would be saved
+            logger.info(f"[DRY-RUN] Would save: {filename}")
+            logger.info(f"  Title: {video.get('title', 'N/A')}")
+            logger.info(f"  Published: {video.get('published', 'N/A')}")
+            new_count += 1
+        else:
+            # Write video data
+            try:
+                video_json = json.dumps(video, indent=2, ensure_ascii=False)
+                if safe_write_file(str(filepath), video_json):
+                    logger.info(f"Saved: {filename}")
+                    new_count += 1
+                else:
+                    logger.error(f"Failed to save: {filename}")
+            except Exception as e:
+                logger.error(f"Error saving video {filename}: {e}")
+                continue
     
-    if duplicate_count > 0:
+    if not dry_run and duplicate_count > 0:
         logger.info(f"{duplicate_count} duplicates skipped")
     
     return new_count
@@ -561,21 +571,83 @@ def save_videos(videos: List[dict]) -> int:
 # Main Entry Point
 # ============================================================================
 
+def parse_arguments():
+    """
+    Parse command-line arguments.
+    
+    Returns:
+        argparse.Namespace: Parsed arguments
+    """
+    parser = argparse.ArgumentParser(
+        description='Fetch videos from YouTube channels using RSS feeds',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Run with defaults (30 days, no keyword filter)
+  python scraper/fetch_youtube.py
+  
+  # Dry-run to see what would be saved
+  python scraper/fetch_youtube.py --dry-run
+  
+  # Fetch videos from last 7 days
+  python scraper/fetch_youtube.py --max-age-days 7
+  
+  # Enable keyword filtering
+  python scraper/fetch_youtube.py --require-keywords
+  
+  # Combine flags
+  python scraper/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
+        """
+    )
+    
+    parser.add_argument(
+        '--max-age-days',
+        type=int,
+        help='Maximum age of videos in days (overrides config)'
+    )
+    
+    parser.add_argument(
+        '--require-keywords',
+        action='store_true',
+        help='Require keyword matches in title/description (overrides config)'
+    )
+    
+    parser.add_argument(
+        '--no-require-keywords',
+        action='store_true',
+        help='Disable keyword filtering (overrides config)'
+    )
+    
+    parser.add_argument(
+        '--dry-run',
+        action='store_true',
+        help='Show what would be saved without actually saving files'
+    )
+    
+    return parser.parse_args()
+
+
 def main():
     """
     Main entry point for YouTube scraper.
     
-    Fetches videos from enabled channels, filters by keywords and age,
+    Fetches videos from enabled channels, filters by age and optionally by keywords,
     optionally enriches with API data, saves new videos, and reports statistics.
     """
+    # Parse command-line arguments
+    args = parse_arguments()
+    
     logger.info("Starting YouTube video scraper...")
     logger.info(f"Loading config from {CONFIG_FILE}")
+    
+    if args.dry_run:
+        logger.info("[DRY-RUN MODE] No files will be written")
     
     try:
         config = load_config()
     except Exception as e:
         logger.error(f"Failed to load config: {e}")
-        return 0
+        return 1
     
     # Get enabled channels
     channels = config.get('channels', [])
@@ -589,7 +661,25 @@ def main():
     
     # Get filter settings
     filters = config.get('filters', {})
-    max_age_days = filters.get('max_age_days', 90)
+    
+    # Override config with CLI arguments
+    if args.max_age_days is not None:
+        max_age_days = args.max_age_days
+        logger.info(f"Using max_age_days from CLI: {max_age_days}")
+    else:
+        max_age_days = filters.get('max_age_days', 30)
+        logger.info(f"Using max_age_days from config: {max_age_days}")
+    
+    # Determine if keyword filtering should be applied
+    if args.require_keywords:
+        require_keywords = True
+        logger.info("Keyword filtering enabled (from CLI)")
+    elif args.no_require_keywords:
+        require_keywords = False
+        logger.info("Keyword filtering disabled (from CLI)")
+    else:
+        require_keywords = filters.get('require_keywords', False)
+        logger.info(f"Keyword filtering from config: {'enabled' if require_keywords else 'disabled'}")
     
     # Get API settings
     api_config = config.get('api', {})
@@ -630,12 +720,18 @@ def main():
     # Filter by age
     all_videos = filter_by_age(all_videos, max_age_days)
     
-    # Filter by keywords
-    all_videos = filter_copilot_videos(all_videos)
-    
     if not all_videos:
-        logger.warning("No videos remaining after filtering")
+        logger.warning(f"No videos remaining after age filter ({max_age_days} days)")
         return 0
+    
+    # Optionally filter by keywords
+    if require_keywords:
+        all_videos = filter_copilot_videos(all_videos)
+        if not all_videos:
+            logger.warning("No videos remaining after keyword filtering")
+            return 0
+    else:
+        logger.info(f"Skipping keyword filter, keeping all {len(all_videos)} videos")
     
     # Optional: Enrich with API data if enabled and videos came from RSS
     if api_enabled and any(v.get('source') == 'rss' for v in all_videos):
@@ -645,25 +741,30 @@ def main():
     # Check for duplicates
     logger.info("Checking for duplicates...")
     
-    # Save videos
-    new_count = save_videos(all_videos)
+    # Save videos (or show what would be saved in dry-run mode)
+    new_count = save_videos(all_videos, dry_run=args.dry_run)
     
     # Report results
-    logger.info(f"Scraping complete: {new_count} new videos saved")
-    logger.info(f"Saved to {DATA_DIR}")
-    logger.info("Updated metadata.json")
+    if args.dry_run:
+        logger.info(f"[DRY-RUN] Would save {new_count} new videos")
+        logger.info(f"[DRY-RUN] Would save to {DATA_DIR}")
+    else:
+        logger.info(f"Scraping complete: {new_count} new videos saved")
+        logger.info(f"Saved to {DATA_DIR}")
+        logger.info("Updated metadata.json")
     
     # Print summary of new videos
     if new_count > 0:
-        logger.info("\nNew videos:")
-        metadata = load_metadata()
-        recent_videos = sorted(
-            [v for v in all_videos if v.get('video_id') in metadata.get('video_ids', [])[-new_count:]],
+        logger.info("\nVideos to be saved:" if args.dry_run else "\nNew videos:")
+        
+        # Sort videos by published date
+        sorted_videos = sorted(
+            all_videos,
             key=lambda x: x.get('published', ''),
             reverse=True
         )
         
-        for video in recent_videos[:10]:  # Show up to 10 most recent
+        for video in sorted_videos[:10]:  # Show up to 10 most recent
             try:
                 published = video.get('published', '')
                 if published:
@@ -676,13 +777,13 @@ def main():
             except Exception as e:
                 logger.warning(f"Failed to format video info: {e}")
     
-    return new_count
+    return 0
 
 
 if __name__ == "__main__":
     try:
-        count = main()
-        sys.exit(0 if count >= 0 else 1)
+        exit_code = main()
+        sys.exit(exit_code)
     except KeyboardInterrupt:
         logger.info("Interrupted by user")
         sys.exit(130)

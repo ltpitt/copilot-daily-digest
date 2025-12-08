@@ -50,7 +50,10 @@ filters:
     - "extensions"
   
   # Filter by age - only fetch videos from last N days
-  max_age_days: 90
+  max_age_days: 30
+  
+  # Require keywords in title/description (set to false to include all videos)
+  require_keywords: false
   
   # Filter by duration - skip very short videos (requires API enrichment)
   # Set to 0 to disable
