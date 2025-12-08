@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-08T22:35:57.722557Z",
+  "generated_at": "2025-12-08T23:22:54.846458Z",
   "has_changes": true,
-  "total_changes": 5,
+  "total_changes": 4,
   "docs": {
     "changed": [],
     "new": [
@@ -14,38 +14,24 @@
     "deleted": []
   },
   "blog": {
-    "new_count": 1,
-    "new_posts": [
-      {
-        "title": "Model picker for Copilot coding agent for Copilot Pro and Pro+ subscribers",
-        "url": "https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers",
-        "date": "2025-12-08T08:56:18Z",
-        "summary": "<p>Copilot Pro and Pro+ subscribers can now pick a model when using Copilot coding agent, our asynchronous, autonomous background agent. When starting a task from the agents tab, agents panel,&#8230;<"
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
     "new_count": 0,
     "new_videos": []
   },
-  "summary_text": "Changes detected on December 08, 2025:\n\n📄 Documentation: 4 changes\n  - scrape-summary.md: New file added\n  - copilot-getting-started.md: New file added\n  - copilot-chat.md: New file added\n  - copilot-overview.md: New file added\n\n📝 Blog Posts: 1 new article\n  - \"Model picker for Copilot coding agent for Copilot Pro and Pro+ subscribers\" (2025-12-08)\n\nTotal: 5 changes detected",
+  "summary_text": "Changes detected on December 08, 2025:\n\n📄 Documentation: 4 changes\n  - scrape-summary.md: New file added\n  - copilot-getting-started.md: New file added\n  - copilot-chat.md: New file added\n  - copilot-overview.md: New file added\n\nTotal: 4 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 5,
+    "total_changes": 4,
     "new_docs": [
       "scrape-summary.md",
       "copilot-getting-started.md",
       "copilot-chat.md",
       "copilot-overview.md"
     ],
-    "new_blog_posts": [
-      {
-        "title": "Model picker for Copilot coding agent for Copilot Pro and Pro+ subscribers",
-        "url": "https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers",
-        "date": "2025-12-08T08:56:18Z",
-        "summary": "<p>Copilot Pro and Pro+ subscribers can now pick a model when using Copilot coding agent, our asynchronous, autonomous background agent. When starting a task from the agents tab, agents panel,&#8230;<"
-      }
-    ],
+    "new_blog_posts": [],
     "new_videos": []
   }
 }
