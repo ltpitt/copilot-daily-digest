@@ -89,8 +89,7 @@ jobs:
           5. Generate updated \`content/videos.md\` (video library)
           6. Create a PR with all changes
 
-          **Assigned to:** Publisher Agent" \
-            --label "automation,content-update"
+          **Assigned to:** Publisher Agent"
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'
