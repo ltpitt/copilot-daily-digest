@@ -103,7 +103,72 @@ These resources are ideal for beginners and teams looking to quickly gain practi
 
 ---
 
-## 7. Further Learning
+## 7. Daily Workflow
+
+### 🔄 Automated Content Updates
+
+The repository updates automatically via GitHub Actions:
+
+**Schedule**: Daily at 1 PM UTC (configurable in `.github/workflows/daily-agent.yml`)
+
+#### Workflow Steps
+
+1. **📥 Fetch Content** 
+   - GitHub Docs (official documentation)
+   - GitHub Blog (RSS feed)
+   - YouTube Videos (RSS with optional API enrichment)
+
+2. **🔍 Detect Changes**
+   - Compare with previous versions using metadata tracking
+   - Identify new documentation, blog posts, and videos
+   - Track what's changed in existing content
+   - Generate comprehensive change summary
+
+3. **📝 Generate Content** (only if changes detected)
+   - Publisher Agent receives automated issue
+   - Agent reads all data from `data/` directory
+   - Agent generates or updates:
+     - `content/README.md` - Main digest with highlights
+     - `content/changelog.md` - Feature timeline
+     - `content/cheatsheet.md` - Quick reference
+     - `content/videos.md` - Video library
+   - Agent creates PR with all updates
+
+4. **✅ Review & Merge**
+   - Review PR created by Publisher Agent
+   - Verify changes and quality
+   - Merge when ready
+   - Updated content goes live
+
+#### Quality Over Speed
+
+The workflow prioritizes **content quality** over execution time. While most runs complete in a few minutes, complex updates may take longer—and that's perfectly fine! The focus is on delivering accurate, well-organized, and valuable content.
+
+#### Manual Triggering
+
+You can trigger the workflow manually:
+
+```bash
+# Using GitHub CLI
+gh workflow run daily-agent.yml
+
+# Monitor progress
+gh run list --workflow=daily-agent.yml
+gh run view
+```
+
+Or via GitHub UI: Actions → Daily Copilot Digest → Run workflow
+
+#### Status & Monitoring
+
+- **Workflow Badge**: Check the status badge at the top of README.md
+- **Action Logs**: View detailed logs in the Actions tab
+- **Change Summary**: Review `data/changes-summary.json` for latest changes
+- **No Changes**: If no updates detected, workflow completes without creating an issue
+
+---
+
+## 8. Further Learning
 
 📘 [Eval-Driven Development](https://vercel.com/blog/eval-driven-development-build-better-ai-faster)
 📘 [GitHub Copilot Agent Training](https://learn.microsoft.com/en-us/training/modules/github-copilot-agent)

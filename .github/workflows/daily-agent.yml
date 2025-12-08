@@ -1,11 +1,8 @@
-name: Daily Copilot Summarizer
+name: Daily Copilot Digest
 
 on:
-  push:
-    branches:
-      - main             # Runs on pushes to main branch
   schedule:
-    - cron: '0 13 * * 4'  # Runs weekly on Thursday at 13:00 UTC
+    - cron: '0 13 * * *'  # Daily at 1 PM UTC
   workflow_dispatch:     # Allows manual triggering
 
 permissions:
@@ -14,65 +11,87 @@ permissions:
   issues: write          # Required to create issues
 
 jobs:
-  scrape-and-trigger-agent:
+  fetch-and-detect:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
+      - uses: actions/checkout@v4
+      
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+      
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Scrape Copilot Docs
         run: |
-          echo "Starting documentation scraping..."
-          python scraper/fetch_docs.py
-          echo "Scraping completed. Checking for changes..."
-          ls -la raw_docs/
-
-      - name: Commit scraped content
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # Fetch all content sources
+      - name: Fetch GitHub Docs
+        run: python scraper/fetch_docs.py
+      
+      - name: Fetch GitHub Blog (RSS)
+        run: python scraper/fetch_blog.py
+      
+      - name: Fetch YouTube Videos (RSS)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scraper/fetch_youtube.py
+      
+      # Detect changes
+      - name: Detect Changes
+        id: changes
+        run: |
+          python scraper/detect_changes.py > changes.txt
+          cat changes.txt
+          
+          # Check if there are changes
+          if grep -q '"has_changes": true' data/changes-summary.json; then
+            echo "HAS_CHANGES=true" >> $GITHUB_OUTPUT
+          else
+            echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
+          fi
+      
+      # Commit data files
+      - name: Commit Data Files
+        if: steps.changes.outputs.HAS_CHANGES == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add raw_docs/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update Copilot docs - $(date -u +%Y-%m-%d)"
-            git push
-          fi
+          git add data/
+          git commit -m "chore: update scraped data [$(date +'%Y-%m-%d')]"
+          git push
+      
+      # Trigger Publisher Agent (only if changes detected)
+      - name: Create Issue for Publisher Agent
+        if: steps.changes.outputs.HAS_CHANGES == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Read change summary
+          SUMMARY=$(cat data/changes-summary.json | jq -r '.summary_text')
+          
+          # Create issue for Publisher agent
+          gh issue create \
+            --title "📰 Content Update Required - $(date +'%Y-%m-%d')" \
+            --body "## Changes Detected
 
-      - name: Create Copilot Agent Issue
-        if: success()
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const title = "Daily Copilot Documentation Update - " + new Date().toISOString().split('T')[0];
-            const body = "@copilot Please review the latest scraped documentation in `raw_docs/` and update the following files:\n" +
-              "\n" +
-              "- `README.md`: Overview of Copilot Coding Agent usage\n" +
-              "- `cheatsheet.md`: Slash commands, variables, setup tips\n" +
-              "- `changelog.md`: Recent updates and features\n" +
-              "\n" +
-              "Use only the content in `raw_docs/` and format all output in Markdown.\n" +
-              "\n" +
-              "Instructions file: `.github/copilot-instructions.md`\n";
-            try {
-              const response = await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: title,
-                body: body,
-                labels: ['copilot-agent', 'documentation']
-              });
-              console.log("Created issue #" + response.data.number + ": " + response.data.html_url);
-            } catch (error) {
-              console.log('Error creating issue:', error.message);
-              console.log('This may be expected if similar issue already exists');
-            }
+          $SUMMARY
+
+          @copilot Please generate updated content files from the latest data in \`data/\` directory.
+
+          **What to do:**
+          1. Read all data from \`data/docs/\`, \`data/blog/\`, \`data/videos/\`
+          2. Generate updated \`content/README.md\` (main digest)
+          3. Generate updated \`content/changelog.md\` (feature timeline)
+          4. Generate updated \`content/cheatsheet.md\` (quick reference)
+          5. Generate updated \`content/videos.md\` (video library)
+          6. Create a PR with all changes
+
+          **Assigned to:** Publisher Agent" \
+            --label "automation,content-update"
+      
+      - name: No Changes Detected
+        if: steps.changes.outputs.HAS_CHANGES == 'false'
+        run: echo "ℹ️ No changes detected. Skipping content generation."
