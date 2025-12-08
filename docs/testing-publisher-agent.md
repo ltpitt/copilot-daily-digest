@@ -122,7 +122,7 @@ The Publisher Agent test is successful when:
 3. **Quality**: Writing is clear, professional, and engaging
 4. **Consistency**: Formatting is consistent across all files
 5. **Timeliness**: "What's New" section highlights recent content
-6. **Navigation**: All internal and external links work
+6. **Navigation**: All links are properly formatted
 7. **Metadata**: Timestamps and statistics are accurate
 8. **PR Quality**: PR is well-documented and ready for review
 
@@ -169,7 +169,7 @@ Before approving a Publisher Agent PR:
 - [ ] Headlines accurately reflect recent changes
 - [ ] Documentation updates are summarized correctly
 - [ ] Blog posts have correct titles, dates, and links
-- [ ] Videos have working YouTube links and correct metadata
+- [ ] Videos have properly formatted YouTube links and correct metadata
 - [ ] Cheatsheet commands are accurate
 - [ ] Changelog is chronologically correct
 - [ ] Statistics match actual data counts
