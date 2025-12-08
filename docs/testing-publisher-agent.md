@@ -79,7 +79,7 @@ Check that the agent:
 - [ ] cheatsheet.md is comprehensive and accurate
 - [ ] videos.md is well-organized and categorized
 - [ ] All dates are correctly formatted
-- [ ] All links point to correct sources
+- [ ] All links are properly formatted with correct URLs from source data
 - [ ] Statistics are accurate
 
 ## No Data Fetching Verification

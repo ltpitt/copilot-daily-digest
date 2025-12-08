@@ -167,7 +167,7 @@ Read from these directories:
 **Option A**: Generate it yourself
 **Option B** (Recommended): Delegate to content-generator agent
 
-```markdown
+```text
 Use runSubagent to delegate:
 - Agent: content-generator
 - Task: Generate videos.md from data/videos/
@@ -198,11 +198,10 @@ Steps to follow:
 - Generate or delegate videos.md
 
 ### Step 4: Delegate (if needed)
-```markdown
+
 Use runSubagent for specialized tasks:
-- videos.md generation → content-generator agent
-- Video categorization → youtube-specialist agent
-```
+- videos.md generation: delegate to content-generator agent
+- Video categorization: delegate to youtube-specialist agent
 
 ### Step 5: Create Comprehensive PR
 ```markdown
