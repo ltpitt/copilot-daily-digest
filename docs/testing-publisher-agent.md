@@ -4,10 +4,12 @@
 
 ### 1. Prepare test data
 
+**Note**: As a test administrator, YOU run the scrapers to populate test data. The Publisher Agent itself never runs these scripts.
+
 Run the scrapers to populate the `data/` directory:
 
 ```bash
-# Run scrapers to populate data/
+# Run scrapers to populate data/ (you do this, not the agent)
 python scraper/fetch_docs.py
 python scraper/fetch_blog.py
 python scraper/fetch_youtube.py
