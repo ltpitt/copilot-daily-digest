@@ -248,11 +248,10 @@ Updated all content with latest data from December 8, 2025.
 4. **Video tutorials** and **blog posts** > raw documentation
 
 ### Quality Checks
-- [ ] All links work (internal and external)
+- [ ] All links are properly formatted
 - [ ] Dates are correct and formatted consistently
 - [ ] No duplicate entries
-- [ ] Markdown renders correctly
-- [ ] Images/thumbnails load
+- [ ] Markdown syntax is correct
 - [ ] Spelling and grammar correct
 
 ## Error Handling
