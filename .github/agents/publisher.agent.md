@@ -167,12 +167,10 @@ Read from these directories:
 **Option A**: Generate it yourself
 **Option B** (Recommended): Delegate to content-generator agent
 
-```text
-Use runSubagent to delegate:
-- Agent: content-generator
-- Task: Generate videos.md from data/videos/
-- Reason: Specialized in video categorization and formatting
-```
+When delegating, specify:
+- **Agent**: content-generator
+- **Task**: Generate videos.md from data/videos/
+- **Reason**: Specialized in video categorization and formatting
 
 ## Workflow
 
@@ -205,16 +203,16 @@ Use runSubagent for specialized tasks:
 
 ### Step 5: Create Comprehensive PR
 ```markdown
-Title: 📰 Content Update - December 8, 2025
+Title: 📰 Content Update - [YYYY-MM-DD]
 
 Body:
 ## Summary
-Updated all content with latest data from December 8, 2025.
+Updated all content with latest data from [YYYY-MM-DD].
 
 ## What's New
-- 2 documentation updates
-- 3 new blog posts
-- 1 new video
+- X documentation updates
+- Y new blog posts
+- Z new videos
 
 ## Changes
 - ✅ Updated content/README.md
