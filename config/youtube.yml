@@ -1,0 +1,68 @@
+# YouTube Configuration
+# 
+# This project uses YouTube RSS feeds by default (no API key needed).
+# YouTube Data API v3 is OPTIONAL and only used for enrichment (duration, views, etc).
+#
+# To enable API enrichment:
+# 1. Create a Google Cloud project: https://console.cloud.google.com/
+# 2. Enable YouTube Data API v3
+# 3. Create an API key
+# 4. Add to GitHub Secrets as YOUTUBE_API_KEY (for CI/CD)
+# 5. Or set environment variable locally: export YOUTUBE_API_KEY="your-key"
+#
+# API quota: 10,000 units/day (free tier)
+# - search().list: 100 units
+# - videos().list: 1 unit
+# Our estimated usage: ~150 units/day (1.5% of quota)
+
+api:
+  version: "v3"
+  service_name: "youtube"
+  quota_limit: 10000  # Daily quota limit (free tier)
+  enabled: false  # Set to true to enable API enrichment (requires YOUTUBE_API_KEY)
+
+channels:
+  - id: "UC7c3Kb6jYCRj4JOHHZTxKsQ"  # @GitHub
+    name: "GitHub"
+    enabled: true
+    rss_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC7c3Kb6jYCRj4JOHHZTxKsQ"
+  
+  # Optional channels (disabled by default - enable as needed)
+  - id: "UCs5Y5_7XK8HLDX0SLNwkd3w"  # @VisualStudioCode
+    name: "Visual Studio Code"
+    enabled: false
+    rss_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCs5Y5_7XK8HLDX0SLNwkd3w"
+  
+  - id: "UCrhJmfAGQ5K81XQ8_od1iTg"  # @MSFTReactor
+    name: "Microsoft Reactor"
+    enabled: false
+    rss_url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCrhJmfAGQ5K81XQ8_od1iTg"
+
+filters:
+  # Keywords for filtering videos (case-insensitive)
+  keywords:
+    - "copilot"
+    - "github copilot"
+    - "ai"
+    - "agent"
+    - "coding agent"
+    - "workspace"
+    - "extensions"
+  
+  # Filter by age - only fetch videos from last N days
+  max_age_days: 90
+  
+  # Filter by duration - skip very short videos (requires API enrichment)
+  # Set to 0 to disable
+  min_duration_seconds: 60
+
+output:
+  # Directory for storing video metadata
+  directory: "data/videos"
+  
+  # Filename format: {date}_{video_id}.json
+  # Available variables: date (YYYY-MM-DD), video_id, title (sanitized)
+  filename_format: "{date}_{video_id}.json"
+  
+  # Save full metadata (includes all fields from RSS/API)
+  save_full_metadata: true
