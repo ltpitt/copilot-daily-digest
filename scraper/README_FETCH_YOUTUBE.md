@@ -6,8 +6,8 @@ Fetches videos from GitHub's YouTube channel using RSS feeds as the primary meth
 
 - **RSS-First Approach**: Uses YouTube RSS feeds (no API key required, no quota limits)
 - **API Fallback**: Optional enrichment with YouTube Data API v3 for duration, view counts, etc.
-- **Keyword Filtering**: Filters videos by Copilot-related keywords
-- **Age Filtering**: Only fetch recent videos (configurable, default 90 days)
+- **Keyword Filtering**: Optional filtering by Copilot-related keywords (disabled by default)
+- **Age Filtering**: Only fetch recent videos (configurable, default 30 days)
 - **Duplicate Prevention**: Uses metadata system to prevent re-processing videos
 - **Multi-Channel Support**: Can fetch from multiple channels
 - **Error Handling**: Graceful degradation on network/API failures
