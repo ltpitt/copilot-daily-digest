@@ -18,6 +18,8 @@ GitHub Copilot includes a comprehensive suite of features to enhance your coding
 
 ### Advanced Capabilities
 - **Agent Mode**: Enable Copilot to autonomously edit your code, determine necessary files to change, and complete complex multi-step tasks with iteration
+- **Subagents**: Delegate tasks to isolated agents with their own context window for complex research or analysis tasks
+- **Plan Mode**: Create detailed implementation plans before executing code changes (public preview)
 - **GitHub Skills**: Access GitHub-specific capabilities with `@github` integration and web search using `#web` variable
 - **Copilot Spaces**: Organize and share task-specific context for more relevant answers
 - **Pull Request Descriptions**: Automatically generate descriptions of code changes
@@ -27,6 +29,7 @@ GitHub Copilot includes a comprehensive suite of features to enhance your coding
 - **Multiple AI Models**: Access to different models including GPT-4.1, Claude Sonnet 3.5/3.7, and Gemini 2.0/2.5
 - **Image Support**: Attach images to chat prompts for visual code assistance
 - **Copilot Extensions**: Install third-party extensions for specialized chat participants
+- **Model Context Protocol (MCP)**: Extend Copilot Chat capabilities by integrating with external tools and services
 
 ## Getting Started
 
@@ -56,5 +59,5 @@ Students, teachers, and open source maintainers may qualify for Copilot Pro at n
 
 ---
 
-*Last updated: 2025-11-03 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
+*Last updated: 2025-11-28 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
 
