@@ -220,3 +220,7 @@ data/changelogs/*.json
 !data/metadata.json
 !data/**/.gitkeep
 logs/
+
+# Local configuration overrides (for API keys, testing)
+config/*-local.yml
+config/*.local.yml
