@@ -57,6 +57,12 @@ Students, teachers, and open source maintainers may qualify for Copilot Pro at n
 - **Context-Aware**: Understands your project through custom instructions and file references
 - **Multi-Modal**: Supports text, code, and image inputs for comprehensive assistance
 
+## 📚 Quick Links
+
+- **[Changelog](./changelog.md)** - Timeline of features and updates
+- **[Cheatsheet](./cheatsheet.md)** - Quick reference for commands and features
+- **[Video Library](./videos.md)** - Curated tutorials and demos
+
 ---
 
 *Last updated: 2025-12-08 - This digest is automatically updated daily to reflect the latest GitHub Copilot documentation and features.*
