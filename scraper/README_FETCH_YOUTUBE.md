@@ -6,30 +6,83 @@ Fetches videos from GitHub's YouTube channel using RSS feeds as the primary meth
 
 - **RSS-First Approach**: Uses YouTube RSS feeds (no API key required, no quota limits)
 - **API Fallback**: Optional enrichment with YouTube Data API v3 for duration, view counts, etc.
-- **Keyword Filtering**: Filters videos by Copilot-related keywords
-- **Age Filtering**: Only fetch recent videos (configurable, default 90 days)
+- **Keyword Filtering**: Optional filtering by Copilot-related keywords (disabled by default)
+- **Age Filtering**: Only fetch recent videos (configurable, default 30 days)
 - **Duplicate Prevention**: Uses metadata system to prevent re-processing videos
 - **Multi-Channel Support**: Can fetch from multiple channels
 - **Error Handling**: Graceful degradation on network/API failures
 
 ## Usage
 
-### Basic Usage (RSS Only)
+### Basic Usage (RSS Only, Default 30-day Filter)
 
-No API key required:
+No API key required. Fetches all videos from the last 30 days:
 
 ```bash
 python scraper/fetch_youtube.py
 ```
 
+### Dry-Run Mode
+
+Preview what would be saved without actually writing files:
+
+```bash
+python scraper/fetch_youtube.py --dry-run
+```
+
+### Custom Age Filter
+
+Fetch videos from a specific time period:
+
+```bash
+# Last 7 days
+python scraper/fetch_youtube.py --max-age-days 7
+
+# Last 60 days
+python scraper/fetch_youtube.py --max-age-days 60
+```
+
+### Keyword Filtering
+
+Enable keyword filtering to only get Copilot-related content:
+
+```bash
+python scraper/fetch_youtube.py --require-keywords
+```
+
+Or disable it explicitly (if enabled in config):
+
+```bash
+python scraper/fetch_youtube.py --no-require-keywords
+```
+
+### Combined Options
+
+Combine multiple flags:
+
+```bash
+# Dry-run with custom age and keyword filtering
+python scraper/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
+```
+
 ### With API Enrichment
 
-Set your YouTube API key:
+Set your YouTube API key for additional metadata (duration, views):
 
 ```bash
 export YOUTUBE_API_KEY="your-api-key-here"
 python scraper/fetch_youtube.py
 ```
+
+## Command-Line Arguments
+
+| Argument | Description |
+|----------|-------------|
+| `--max-age-days N` | Override config's max_age_days (default: 30) |
+| `--require-keywords` | Enable keyword filtering (overrides config) |
+| `--no-require-keywords` | Disable keyword filtering (overrides config) |
+| `--dry-run` | Show what would be saved without writing files |
+| `-h, --help` | Show help message with examples |
 
 ## Configuration
 
@@ -48,11 +101,27 @@ filters:
     - "agent"
     # ... more keywords
   
-  max_age_days: 90  # Only fetch videos from last 90 days
+  max_age_days: 30  # Only fetch videos from last 30 days
+  
+  require_keywords: false  # Set to true to require keyword matches
 
 api:
   enabled: false  # Set to true to enable API enrichment
 ```
+
+### Filter Configuration
+
+- **max_age_days**: Number of days to look back for videos (default: 30)
+- **require_keywords**: When `false` (default), returns ALL videos from the time period. When `true`, only returns videos matching the configured keywords.
+- **keywords**: List of keywords to search for when `require_keywords: true`
+
+### Default Behavior
+
+By default, the scraper:
+- Fetches all videos from the last **30 days**
+- Does **NOT** require keyword matches (returns all videos)
+- Uses RSS feeds (no API key needed)
+- Saves to `data/videos/` as `YYYY-MM-DD_{video_id}.json`
 
 ## Output
 
@@ -153,32 +222,104 @@ New videos:
 
 ## Testing
 
-The scraper has been tested with:
-- Configuration loading ✓
-- Keyword filtering ✓
-- Age-based filtering ✓
-- Video saving ✓
-- Duplicate prevention ✓
-- Metadata integration ✓
-- CodeQL security analysis (0 alerts) ✓
+### Local Testing
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Test with dry-run mode:**
+   ```bash
+   python scraper/fetch_youtube.py --dry-run
+   ```
+   
+   Expected output:
+   - Fetches RSS feed from GitHub channel
+   - Shows N videos found from the last 30 days
+   - Lists videos that would be saved
+   - Does NOT write any files
+
+3. **Test with custom age filter:**
+   ```bash
+   python scraper/fetch_youtube.py --max-age-days 7 --dry-run
+   ```
+   
+   Expected: Only shows videos from the last 7 days
+
+4. **Test with keyword filtering:**
+   ```bash
+   python scraper/fetch_youtube.py --require-keywords --dry-run
+   ```
+   
+   Expected: Only shows videos matching configured keywords
+
+5. **Run actual scrape:**
+   ```bash
+   python scraper/fetch_youtube.py
+   ```
+   
+   Expected: Saves JSON files to `data/videos/`
+
+### Verify Output
+
+After running without `--dry-run`, check:
+
+```bash
+# List saved videos
+ls -lh data/videos/*.json
+
+# View a video's metadata
+cat data/videos/2025-12-08_VIDEO_ID.json | python -m json.tool
+
+# Check metadata tracking
+cat data/metadata.json | python -m json.tool | grep -A 5 video_ids
+```
+
+### CI/CD Testing
+
+In GitHub Actions, the scraper runs automatically:
+
+```yaml
+- name: Fetch YouTube Videos
+  run: python scraper/fetch_youtube.py
+  env:
+    YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}  # Optional
+```
+
+To enable API enrichment in CI:
+1. Add `YOUTUBE_API_KEY` secret in GitHub repository settings
+2. Set `api.enabled: true` in `config/youtube.yml`
 
 ## Troubleshooting
 
 **No videos found:**
 - Check network connectivity
-- Verify channel ID is correct in config
-- Check if channel has recent videos
-- Verify keywords aren't too restrictive
+- Verify channel ID is correct in config (currently: `UC7c3Kb6jYCRj4JOHHZTxKsQ` for @GitHub)
+- Check if channel has videos in the configured time period
+- If `require_keywords: true`, verify keywords aren't too restrictive
+- Try with `--dry-run` to see debug output
+
+**All videos filtered out:**
+- Check `max_age_days` setting - increase if needed
+- If using `--require-keywords`, try without it
+- Verify the channel has uploaded videos recently
 
 **API errors:**
 - Verify `YOUTUBE_API_KEY` is set correctly
 - Check API key permissions in Google Cloud Console
 - Verify YouTube Data API v3 is enabled
-- Check quota hasn't been exceeded
+- Check quota hasn't been exceeded (10,000 units/day free tier)
 
 **Duplicate videos:**
 - Videos are tracked by `video_id` in `data/metadata.json`
 - Delete entry from `video_ids` array to re-process
+- Or reset metadata: `rm data/metadata.json` (will re-process all videos)
+
+**Network errors in sandboxed environments:**
+- The scraper may fail in environments without internet access
+- Use `--dry-run` mode for testing code changes without network calls
+- For actual execution, ensure network access to youtube.com
 
 ## See Also
 
