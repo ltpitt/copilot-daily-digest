@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T22:25:39Z",
+  "last_updated": "2025-12-08T22:35:57.147354",
   "content_hashes": {},
   "video_ids": [
     "test_video_001",
@@ -38,7 +38,8 @@
     "https://github.blog/changelog/2025-12-03-github-copilot-in-visual-studio-november-update",
     "https://github.blog/changelog/2025-12-03-claude-opus-4-5-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
     "https://github.blog/changelog/2025-12-03-assign-issues-to-copilot-using-the-api",
-    "https://github.blog/changelog/2025-12-02-github-enterprise-server-3-19-release-candidate-is-now-available"
+    "https://github.blog/changelog/2025-12-02-github-enterprise-server-3-19-release-candidate-is-now-available",
+    "https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers"
   ],
   "doc_versions": {},
   "version": "1.0.0",
