@@ -33,7 +33,9 @@ The YouTube Data API v3 is **OPTIONAL** and only used for enrichment when:
 
 **Daily API enrichment mode (optional)**:
 - Search for new videos: 1-2 × 100 = 100-200 units
-- Fetch video details (50 videos): 50 × 1 = 50 units
+- Fetch video details (50 videos avg): 50 × 1 = 50 units
+  - Note: Estimate based on GitHub channel posting ~1-3 videos/week
+  - Actual usage depends on channels enabled and posting frequency
 - **Total**: ~150-250 units/day
 - **Percentage**: 1.5-2.5% of daily quota
 

@@ -44,7 +44,9 @@ def test_youtube_api():
         response = request.execute()
         
         print("✅ YouTube API working!")
-        print(f"✅ Test search returned {len(response.get('items', []))} results")
+        count = len(response.get('items', []))
+        result_text = "result" if count == 1 else "results"
+        print(f"✅ Test search returned {count} {result_text}")
         
         if response.get('items'):
             video = response['items'][0]
