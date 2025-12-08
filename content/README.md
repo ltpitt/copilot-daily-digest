@@ -1,4 +1,19 @@
-# GitHub Copilot Coding Agent - Daily Documentation Digest
+# GitHub Copilot Daily Digest 📰
+
+> Your daily newspaper for GitHub Copilot updates and news
+
+**Last Updated**: 2025-12-08T22:38:05Z
+
+---
+
+## 🌟 Headlines (What's New)
+
+### Model Picker for Copilot Coding Agent (December 8, 2025)
+Copilot Pro and Pro+ subscribers can now pick a model when using Copilot coding agent, our asynchronous, autonomous background agent. When starting a task from the agents tab, agents panel, or other entry points, you can now choose which AI model to use for the task execution. This gives you more control over the capabilities and performance characteristics of your coding agent tasks.
+
+**Source**: [GitHub Changelog](https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers)
+
+---
 
 ## Overview
 
@@ -56,6 +71,23 @@ Students, teachers, and open source maintainers may qualify for Copilot Pro at n
 - **Versatile Integration**: Works across multiple environments and platforms
 - **Context-Aware**: Understands your project through custom instructions and file references
 - **Multi-Modal**: Supports text, code, and image inputs for comprehensive assistance
+
+---
+
+## 📚 Quick Links
+
+- [Full Changelog](./changelog.md)
+- [Command Cheatsheet](./cheatsheet.md)
+- [Video Library](./videos.md)
+
+---
+
+## 📊 Statistics
+
+- Total Documentation Pages: 4
+- Blog Posts Tracked: 20
+- Videos Curated: 16
+- Last Updated: 2025-12-08T22:38:05Z
 
 ---
 

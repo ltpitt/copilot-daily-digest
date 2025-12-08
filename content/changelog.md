@@ -2,7 +2,20 @@
 
 ## 2025-12-08 Update
 
-### 📋 Documentation Verification
+### 🎯 New Feature: Model Picker for Coding Agent
+
+**Model Selection for Coding Agent** (December 8, 2025)
+- Copilot Pro and Pro+ subscribers can now select which AI model to use when starting a coding agent task
+- Available when starting tasks from agents tab, agents panel, or other entry points
+- Provides more control over agent capabilities and performance characteristics
+- Gives users flexibility to choose models best suited for specific tasks
+- **Source**: [GitHub Changelog](https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers)
+
+### 📋 Additional Updates
+
+### 📋 Additional Updates
+
+#### Documentation Verification
 
 This update confirms that all major features documented in the November 2025 updates remain current and fully operational. The latest documentation scrape verified the following capabilities:
 

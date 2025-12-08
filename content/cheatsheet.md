@@ -109,15 +109,17 @@ Chat participants are like domain experts with specialized knowledge.
 ### How to Enable
 1. Open Copilot Chat panel
 2. Select "Agent" from the mode dropdown
-3. Submit your task prompt
-4. Review and confirm suggested changes and terminal commands
-5. Let Copilot iterate to complete the task
+3. **(New!)** Select your preferred AI model if prompted (Pro/Pro+ subscribers)
+4. Submit your task prompt
+5. Review and confirm suggested changes and terminal commands
+6. Let Copilot iterate to complete the task
 
 ### Agent Mode Benefits
 - **Autonomous Editing**: Streams edits directly in the editor
 - **Working Set Management**: Updates working set automatically
 - **Terminal Integration**: Suggests and executes terminal commands
 - **Iterative Completion**: Continues until task is fully complete
+- **Model Selection**: Choose your preferred AI model for the task (Pro/Pro+ subscribers)
 - **Smart Billing**: Only initial prompts count toward usage limits, not follow-up actions or tool calls
 - **Multi-Model Support**: Works with different AI models with varying multipliers
 
