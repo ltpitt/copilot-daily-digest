@@ -53,10 +53,10 @@ Quick reference checklist for setting up YouTube Data API v3 access.
 - [ ] Verify output: "✅ YouTube API working!"
 
 ### GitHub Actions Testing
-- [ ] Trigger a workflow run manually
+- [ ] Trigger a workflow run manually (Actions tab → Select workflow → Run workflow button)
 - [ ] Check workflow logs for YouTube API access
-- [ ] Verify no API key errors
-- [ ] Confirm video metadata is being enriched
+- [ ] Verify no API key errors in the logs
+- [ ] Confirm video metadata is being enriched with duration/views
 
 ## Post-Setup (Optional)
 

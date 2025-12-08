@@ -193,11 +193,11 @@ https://github.com/ltpitt/copilot-daily-digest/actions
 - Graceful fallback to RSS if API unavailable
 
 ### ✅ What You Should Do
-- [ ] Restrict API key to YouTube Data API v3 only
-- [ ] Add IP restrictions if using from fixed locations
-- [ ] Rotate API key if accidentally exposed
-- [ ] Monitor API usage for anomalies
-- [ ] Use separate API keys for dev/prod
+- Restrict API key to YouTube Data API v3 only
+- Add IP restrictions if using from fixed locations
+- Rotate API key if accidentally exposed
+- Monitor API usage for anomalies
+- Use separate API keys for dev/prod
 
 ### 🚨 If API Key Is Compromised
 1. Immediately delete the API key in Google Cloud Console
