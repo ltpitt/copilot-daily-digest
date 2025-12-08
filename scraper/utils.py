@@ -477,9 +477,11 @@ def setup_logger(name: str, level: str = "INFO") -> Any:
         level=level
     )
     
-    # Add file handler for errors
+    # Add file handler for errors (ensure directory exists)
+    log_dir = "logs"
+    ensure_directory(log_dir)
     log.add(
-        "logs/scraper_errors.log",
+        f"{log_dir}/scraper_errors.log",
         format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {name}:{function}:{line} - {message}",
         level="ERROR",
         rotation="10 MB",

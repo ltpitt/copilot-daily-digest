@@ -219,3 +219,4 @@ data/changelogs/*.json
 # Keep metadata and structure
 !data/metadata.json
 !data/**/.gitkeep
+logs/

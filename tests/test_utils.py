@@ -11,6 +11,7 @@ Tests all utility functions in scraper/utils.py:
 - Logging setup
 
 Run with: python tests/test_utils.py
+Or with pytest: python -m pytest tests/test_utils.py
 """
 
 import sys
@@ -293,11 +294,11 @@ def test_datetime_utilities():
         else:
             results.add_pass("days_since returns 0 for current timestamp")
         
-        # Test days_since with old timestamp
-        old_timestamp = "2025-01-01T00:00:00Z"
-        days = days_since(old_timestamp)
-        if days < 300:  # Should be over 300 days
-            results.add_fail("days_since (old)", f"Expected > 300 days, got {days}")
+        # Test days_since with old timestamp (1 year ago)
+        one_year_ago = (datetime.now(timezone.utc) - timedelta(days=365)).strftime('%Y-%m-%dT%H:%M:%SZ')
+        days = days_since(one_year_ago)
+        if days < 360 or days > 370:  # Should be around 365 days (allow some variance)
+            results.add_fail("days_since (old)", f"Expected ~365 days, got {days}")
         else:
             results.add_pass("days_since calculates correct days for old date")
         
