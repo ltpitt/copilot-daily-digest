@@ -18,7 +18,7 @@ if grep -q '"has_changes": true' data/changes-summary.json; then
   echo "✅ Changes detected!"
   
   # Step 4: Generate content
-  echo "📝 Step 3: Generating content..."
+  echo "📝 Step 4: Generating content..."
   python scraper/generate_videos.py
   # TODO: Add other content generators
   
