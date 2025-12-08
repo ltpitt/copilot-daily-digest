@@ -606,13 +606,15 @@ Examples:
         help='Maximum age of videos in days (overrides config)'
     )
     
-    parser.add_argument(
+    # Create mutually exclusive group for keyword filtering
+    keyword_group = parser.add_mutually_exclusive_group()
+    keyword_group.add_argument(
         '--require-keywords',
         action='store_true',
         help='Require keyword matches in title/description (overrides config)'
     )
     
-    parser.add_argument(
+    keyword_group.add_argument(
         '--no-require-keywords',
         action='store_true',
         help='Disable keyword filtering (overrides config)'
