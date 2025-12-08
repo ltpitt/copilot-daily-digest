@@ -180,7 +180,7 @@ def parse_video_entry(entry, source: str = "rss") -> Optional[dict]:
             
             # Extract published date
             published_parsed = entry.get('published_parsed') or entry.get('updated_parsed')
-            if published_parsed:
+            if published_parsed and len(published_parsed) >= 6:
                 published = datetime(*published_parsed[:6], tzinfo=timezone.utc).isoformat()
             else:
                 published = entry.get('published', entry.get('updated', now_iso()))
@@ -225,8 +225,8 @@ def parse_video_entry(entry, source: str = "rss") -> Optional[dict]:
             
             # Extract published date (handle timezone)
             published_at = snippet.get('publishedAt', '')
-            if published_at and not published_at.endswith('Z'):
-                published_at = published_at + 'Z'
+            # YouTube API always returns ISO 8601 with Z or timezone offset
+            # No need to modify it
             
             return {
                 'video_id': video_id,
