@@ -102,12 +102,21 @@ def fetch_videos_rss(channel_id: str) -> List[dict]:
     Returns:
         List of video dictionaries with basic metadata
     """
+    import requests
+    import ssl
+    import certifi
+    
     rss_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     
     logger.info(f"Fetching videos from RSS: {rss_url}")
     
     try:
-        feed = feedparser.parse(rss_url)
+        # Use requests to fetch with proper SSL verification
+        response = requests.get(rss_url, timeout=30, verify=certifi.where())
+        response.raise_for_status()
+        
+        # Parse the fetched content with feedparser
+        feed = feedparser.parse(response.content)
         
         if feed.bozo:
             logger.warning(f"Feed parsing warning: {feed.get('bozo_exception', 'Unknown')}")

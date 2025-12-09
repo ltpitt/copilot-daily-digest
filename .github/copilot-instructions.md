@@ -1,5 +1,49 @@
 # Task: Synthesize GitHub Copilot Content
 
+## Python Environment Setup
+
+**CRITICAL**: This project uses a Python virtual environment (`.venv`). Always use the venv Python interpreter when running scripts.
+
+### Running Python Scripts
+```bash
+# ✅ CORRECT - Use venv's Python directly
+.venv/bin/python scraper/fetch_docs.py
+.venv/bin/python scraper/fetch_blog.py
+.venv/bin/python scraper/detect_changes.py
+
+# ❌ WRONG - Do NOT use system Python
+python scraper/fetch_docs.py
+
+# ❌ WRONG - Source doesn't persist in terminal commands
+source .venv/bin/activate && python scraper/fetch_docs.py
+```
+
+### Installing Dependencies
+```bash
+# ✅ CORRECT - Use venv's pip directly
+.venv/bin/python -m pip install -r requirements.txt
+
+# ❌ WRONG - System pip
+pip install -r requirements.txt
+```
+
+### Why This Matters
+- macOS has externally-managed Python environments that prevent system-wide package installation
+- The virtual environment (`.venv`) is isolated and contains all project dependencies
+- Using `.venv/bin/python` directly ensures correct environment without activation issues
+
+### SSL Certificate Issues
+If you encounter SSL certificate errors with feedparser or urllib:
+```bash
+# macOS SSL certificate fix
+.venv/bin/python -m pip install --upgrade certifi
+
+# If still failing, feedparser may need SSL context configuration
+# See fetch_youtube.py for implementation using requests + feedparser workaround
+```
+
+---
+
 ## Goal
 Read the latest content from multiple sources and generate comprehensive documentation:
 - `content/README.md`: Overview of Copilot Coding Agent usage
