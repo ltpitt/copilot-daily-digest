@@ -431,7 +431,9 @@ def enrich_with_api_data(videos: List[dict]) -> List[dict]:
 
 def filter_copilot_videos(videos: List[dict]) -> List[dict]:
     """
-    Filter videos by Copilot-related keywords in title/description.
+    Filter videos by Copilot-related keywords in title only.
+    Uses word boundaries to avoid false positives (e.g., "ai" won't match "AirPods").
+    Handles plural forms automatically (e.g., "agent" matches both "agent" and "agents").
 
     Args:
         videos: List of video dictionaries
@@ -445,11 +447,13 @@ def filter_copilot_videos(videos: List[dict]) -> List[dict]:
     filtered = []
 
     for video in videos:
-        # Combine title and description for searching
-        text = f"{video.get('title', '')} {video.get('description', '')}".lower()
+        # Search only in title (more accurate filtering)
+        title = video.get("title", "").lower()
 
-        # Check if any keyword is present
-        if any(keyword.lower() in text for keyword in keywords):
+        # Check if any keyword is present using word boundaries
+        # \b ensures we match whole words only (e.g., "ai" won't match "AirPods")
+        # s? handles plural forms (e.g., "agent" matches both "agent" and "agents")
+        if any(re.search(rf"\b{re.escape(keyword.lower())}s?\b", title) for keyword in keywords):
             filtered.append(video)
 
     logger.info(f"Filtered to {len(filtered)} Copilot-related videos from {len(videos)} total")

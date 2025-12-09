@@ -40,20 +40,20 @@ channels:
 
 filters:
   # Keywords for filtering videos (case-insensitive)
+  # Videos must contain at least ONE of these keywords in title/description
   keywords:
+    - "github"
     - "copilot"
-    - "github copilot"
-    - "ai"
     - "agent"
-    - "coding agent"
-    - "workspace"
-    - "extensions"
+    - "ai"
+    - "artificial intelligence"
   
   # Filter by age - only fetch videos from last N days
+  # Note: RSS feeds return max 15 most recent videos regardless of this setting
   max_age_days: 30
   
   # Require keywords in title/description (set to false to include all videos)
-  require_keywords: false
+  require_keywords: true
   
   # Filter by duration - skip very short videos (requires API enrichment)
   # Set to 0 to disable
