@@ -1,14 +1,25 @@
 {
-  "generated_at": "2025-12-08T23:44:47.276962Z",
+  "generated_at": "2025-12-09T06:23:18.322410Z",
   "has_changes": true,
-  "total_changes": 4,
+  "total_changes": 15,
   "docs": {
     "changed": [],
     "new": [
+      "copilot-extensions-integration.md",
+      "copilot-code-suggestions.md",
+      "copilot-custom-instructions.md",
+      "copilot-troubleshooting.md",
+      "copilot-configuration.md",
       "scrape-summary.md",
       "copilot-getting-started.md",
+      "copilot-extensions-overview.md",
       "copilot-chat.md",
-      "copilot-overview.md"
+      "copilot-managing-organization.md",
+      "copilot-asking-questions.md",
+      "copilot-overview.md",
+      "copilot-best-practices.md",
+      "copilot-prompt-engineering.md",
+      "copilot-responsible-use.md"
     ],
     "unchanged": [],
     "deleted": []
@@ -21,15 +32,26 @@
     "new_count": 0,
     "new_videos": []
   },
-  "summary_text": "Changes detected on December 08, 2025:\n\n📄 Documentation: 4 changes\n  - scrape-summary.md: New file added\n  - copilot-getting-started.md: New file added\n  - copilot-chat.md: New file added\n  - copilot-overview.md: New file added\n\nTotal: 4 changes detected",
+  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: New file added\n  - copilot-code-suggestions.md: New file added\n  - copilot-custom-instructions.md: New file added\n  - copilot-troubleshooting.md: New file added\n  - copilot-configuration.md: New file added\n  - scrape-summary.md: New file added\n  - copilot-getting-started.md: New file added\n  - copilot-extensions-overview.md: New file added\n  - copilot-chat.md: New file added\n  - copilot-managing-organization.md: New file added\n  - copilot-asking-questions.md: New file added\n  - copilot-overview.md: New file added\n  - copilot-best-practices.md: New file added\n  - copilot-prompt-engineering.md: New file added\n  - copilot-responsible-use.md: New file added\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 4,
+    "total_changes": 15,
     "new_docs": [
+      "copilot-extensions-integration.md",
+      "copilot-code-suggestions.md",
+      "copilot-custom-instructions.md",
+      "copilot-troubleshooting.md",
+      "copilot-configuration.md",
       "scrape-summary.md",
       "copilot-getting-started.md",
+      "copilot-extensions-overview.md",
       "copilot-chat.md",
-      "copilot-overview.md"
+      "copilot-managing-organization.md",
+      "copilot-asking-questions.md",
+      "copilot-overview.md",
+      "copilot-best-practices.md",
+      "copilot-prompt-engineering.md",
+      "copilot-responsible-use.md"
     ],
     "new_blog_posts": [],
     "new_videos": []
