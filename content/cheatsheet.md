@@ -235,4 +235,4 @@ Delegate tasks to isolated agents with their own context window.
 
 ---
 
-*Last updated: 2025-12-08 based on latest Copilot documentation*
+*Last updated: 2025-12-09 based on latest Copilot documentation*
