@@ -1,5 +1,131 @@
 # GitHub Copilot Changelog
 
+## 2025-12-09 Update
+
+### 📚 Documentation Refresh
+
+This update includes a comprehensive refresh of GitHub Copilot documentation with 15 newly fetched files from GitHub's official documentation. All core features and capabilities have been re-verified and updated to ensure accuracy.
+
+#### ✅ Documentation Files Added
+
+**Core Documentation**
+- `copilot-overview.md` - Complete overview of what GitHub Copilot is and its capabilities
+- `copilot-getting-started.md` - Quickstart guides for all supported IDEs and platforms
+- `copilot-chat.md` - Comprehensive guide to Copilot Chat in IDEs
+- `copilot-asking-questions.md` - How to effectively ask questions in Copilot Chat
+
+**Features & Best Practices**
+- `copilot-code-suggestions.md` - Getting inline code suggestions across all IDEs
+- `copilot-best-practices.md` - Best practices for using Copilot effectively
+- `copilot-prompt-engineering.md` - Strategies for writing better prompts
+
+**Extensions & Customization**
+- `copilot-extensions-overview.md` - Overview of Model Context Protocol (MCP)
+- `copilot-extensions-integration.md` - Integrating Copilot with external tools
+- `copilot-custom-instructions.md` - Repository-specific custom instructions
+
+**Configuration & Management**
+- `copilot-configuration.md` - Configuring Copilot in your environment
+- `copilot-managing-organization.md` - Organization and enterprise management
+- `copilot-troubleshooting.md` - Troubleshooting common issues
+- `copilot-responsible-use.md` - Responsible AI usage guidelines
+
+#### 🎯 Verified Features & Capabilities
+
+**All Chat Modes Confirmed**
+- **Ask Mode**: Question answering and code exploration
+- **Edit Mode**: Controlled multi-file editing (VS Code, JetBrains)
+- **Agent Mode**: Autonomous task completion with iteration and remediation
+- **Plan Mode**: Implementation planning before code execution (public preview)
+
+**Comprehensive IDE Support**
+- **Visual Studio Code**: Full feature support including all chat modes, inline chat, quick chat, and subagents
+- **JetBrains IDEs**: Complete integration with agent mode, edit mode, plan mode, and subagents
+- **Visual Studio**: Agent mode in 17.14+, Copilot Edits support
+- **Xcode**: Agent mode, plan mode, subagents, and chat management features
+- **Eclipse**: Agent mode, plan mode, subagents, and MCP integration (version 2024-09+)
+- **Windows Terminal Canary**: Terminal Chat interface for command-line assistance
+
+**Advanced Features Verified**
+- **Subagents**: Delegate complex tasks to isolated agents with their own context window
+- **Model Context Protocol (MCP)**: Extend Copilot Chat with external tools and services
+- **GitHub Skills**: `@github` integration with dynamic skill selection and `#web` search
+- **Image Support**: JPEG, PNG, GIF, WEBP attachments in chat with compatible models
+- **Custom Instructions**: Repository-specific instruction files automatically included
+- **Multiple AI Models**: GPT-4.1 (included), Claude Sonnet 3.5/3.7, Gemini 2.0/2.5 (premium)
+
+**Plan Options Confirmed**
+- **Copilot Free**: Core features with no paid plan required - perfect entry point
+- **Copilot Pro**: Full access to premium features with generous usage limits (30-day free trial)
+- **Copilot Pro+**: Advanced features including autonomous code changes and PR creation
+- **Copilot Business**: Organization-level features with enhanced controls and policies
+- **Copilot Enterprise**: Full enterprise features including knowledge bases and advanced administration
+
+#### 💡 Key Features Highlighted
+
+**Prompt Engineering Best Practices**
+- Start general, then get specific with requirements
+- Provide examples (input data, outputs, implementations)
+- Break complex tasks into simpler, manageable steps
+- Avoid ambiguity and indicate relevant code context
+- Experiment, iterate, and keep conversation history relevant
+
+**Chat Interface Features**
+- **Slash Commands**: Quick commands for common scenarios (type `/` to see all)
+- **Chat Variables**: Include specific context (type `#` to see options)
+- **Chat Participants**: Domain experts with specialized knowledge (type `@` or auto-infer)
+- **GitHub Skills**: Dynamic skill selection based on question content
+- **Web Search**: Use `#web` variable for latest information
+
+**Code Suggestions Best Practices**
+- Works best for Python, JavaScript, TypeScript, Ruby, Go, C#, C++
+- Supports numerous languages and frameworks
+- Assists with database queries, API generation, infrastructure as code
+- Alternative suggestions available via keyboard shortcuts
+- Partial suggestion acceptance for flexibility
+
+#### 🔧 Where to Use Copilot
+
+**Multiple Access Points**
+- IDEs: VS Code, JetBrains, Visual Studio, Xcode, Eclipse, Vim/Neovim, Azure Data Studio
+- GitHub Mobile: Chat interface for mobile development
+- Windows Terminal Canary: Terminal Chat for command-line tasks
+- Command Line: GitHub CLI integration
+- GitHub Website: Direct web-based access
+
+**Chat Access Methods**
+- **Chat Panel**: Primary interface for extended conversations
+- **Quick Chat**: Keyboard shortcuts for rapid questions
+- **Inline Chat**: Direct editor integration for contextual help
+- **Smart Actions**: Context menu integration for quick access
+- **Built-in Requests**: Right-click options for common tasks
+
+#### 📋 Usage & Billing Clarifications
+
+**Agent Mode Billing**
+- Only initial prompts count toward premium requests
+- Follow-up actions, tool calls, and iterations are not charged
+- Model multipliers determine consumption (GPT-4.1 has multiplier of 0)
+- Total usage depends on number of prompts and selected model
+
+**Model Selection Options**
+- **Included Model**: GPT-4.1 (multiplier: 0) - no premium request consumption
+- **Premium Models**: Claude Sonnet 3.5/3.7, Gemini 2.0 Flash/2.5 Pro
+- Different models optimized for different question types
+- Image support requires compatible models (GPT-4.1, Claude, Gemini)
+
+### 🔍 Documentation Completeness
+
+This refresh ensures all documentation is current, accurate, and comprehensive. The update includes:
+- Complete quickstart guides for all supported platforms
+- Detailed best practices for effective Copilot usage
+- Comprehensive prompt engineering strategies
+- Full configuration guides for each IDE
+- Troubleshooting resources and common issue resolution
+- Responsible AI usage guidelines
+
+---
+
 ## 2025-12-08 Update
 
 ### 📋 Documentation Verification

@@ -2,7 +2,7 @@
 
 > Curated collection of video tutorials, feature demos, and updates from GitHub's official channels
 
-**Last Updated**: 2025-12-08
+**Last Updated**: 2025-12-09
 
 ---
 
@@ -11,7 +11,7 @@
 Currently tracking videos from GitHub's official YouTube channel focused on GitHub Copilot features, tutorials, and announcements.
 
 - **Videos Tracked**: 15
-- **Last Update**: 2025-12-08
+- **Last Update**: 2025-12-09
 - **Source**: [GitHub YouTube Channel](https://www.youtube.com/@GitHub)
 
 ---
