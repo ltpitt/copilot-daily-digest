@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-09T10:19:34.776162Z",
+  "generated_at": "2025-12-09T10:22:58.354420Z",
   "has_changes": true,
   "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-09T10:19:21Z",
+        "timestamp": "2025-12-09T10:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-09T10:19:26Z",
+        "timestamp": "2025-12-09T10:22:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-09T10:19:22Z",
+        "timestamp": "2025-12-09T10:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-09T10:19:32Z",
+        "timestamp": "2025-12-09T10:22:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-09T10:19:29Z",
+        "timestamp": "2025-12-09T10:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-09T10:19:17Z",
+        "timestamp": "2025-12-09T10:22:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-09T10:19:20Z",
+        "timestamp": "2025-12-09T10:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-09T10:19:18Z",
+        "timestamp": "2025-12-09T10:22:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-09T10:19:27Z",
+        "timestamp": "2025-12-09T10:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-09T10:19:25Z",
+        "timestamp": "2025-12-09T10:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-09T10:19:16Z",
+        "timestamp": "2025-12-09T10:22:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-09T10:19:23Z",
+        "timestamp": "2025-12-09T10:22:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-09T10:19:24Z",
+        "timestamp": "2025-12-09T10:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-09T10:19:30Z",
+        "timestamp": "2025-12-09T10:22:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -117,105 +117,105 @@
     "new_count": 0,
     "new_videos": []
   },
-  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - {'filename': 'copilot-extensions-integration.md', 'timestamp': '2025-12-09T10:19:21Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-code-suggestions.md', 'timestamp': '2025-12-09T10:19:26Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-custom-instructions.md', 'timestamp': '2025-12-09T10:19:22Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-troubleshooting.md', 'timestamp': '2025-12-09T10:19:32Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-configuration.md', 'timestamp': '2025-12-09T10:19:29Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-getting-started.md', 'timestamp': '2025-12-09T10:19:17Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-extensions-overview.md', 'timestamp': '2025-12-09T10:19:20Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-chat.md', 'timestamp': '2025-12-09T10:19:18Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-managing-organization.md', 'timestamp': '2025-12-09T10:19:27Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-asking-questions.md', 'timestamp': '2025-12-09T10:19:25Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-overview.md', 'timestamp': '2025-12-09T10:19:16Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-best-practices.md', 'timestamp': '2025-12-09T10:19:23Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-prompt-engineering.md', 'timestamp': '2025-12-09T10:19:24Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-responsible-use.md', 'timestamp': '2025-12-09T10:19:30Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - {'filename': 'copilot-extensions-integration.md', 'timestamp': '2025-12-09T10:22:46Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-code-suggestions.md', 'timestamp': '2025-12-09T10:22:51Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-custom-instructions.md', 'timestamp': '2025-12-09T10:22:47Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-troubleshooting.md', 'timestamp': '2025-12-09T10:22:56Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-configuration.md', 'timestamp': '2025-12-09T10:22:54Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-getting-started.md', 'timestamp': '2025-12-09T10:22:42Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-extensions-overview.md', 'timestamp': '2025-12-09T10:22:44Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-chat.md', 'timestamp': '2025-12-09T10:22:43Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-managing-organization.md', 'timestamp': '2025-12-09T10:22:52Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-asking-questions.md', 'timestamp': '2025-12-09T10:22:50Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-overview.md', 'timestamp': '2025-12-09T10:22:41Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-best-practices.md', 'timestamp': '2025-12-09T10:22:48Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-prompt-engineering.md', 'timestamp': '2025-12-09T10:22:49Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - {'filename': 'copilot-responsible-use.md', 'timestamp': '2025-12-09T10:22:55Z', 'diff_summary': '', 'added_lines': 0, 'removed_lines': 0}: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
     "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-09T10:19:21Z",
+        "timestamp": "2025-12-09T10:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-09T10:19:26Z",
+        "timestamp": "2025-12-09T10:22:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-09T10:19:22Z",
+        "timestamp": "2025-12-09T10:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-09T10:19:32Z",
+        "timestamp": "2025-12-09T10:22:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-09T10:19:29Z",
+        "timestamp": "2025-12-09T10:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-09T10:19:17Z",
+        "timestamp": "2025-12-09T10:22:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-09T10:19:20Z",
+        "timestamp": "2025-12-09T10:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-09T10:19:18Z",
+        "timestamp": "2025-12-09T10:22:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-09T10:19:27Z",
+        "timestamp": "2025-12-09T10:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-09T10:19:25Z",
+        "timestamp": "2025-12-09T10:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-09T10:19:16Z",
+        "timestamp": "2025-12-09T10:22:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-09T10:19:23Z",
+        "timestamp": "2025-12-09T10:22:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-09T10:19:24Z",
+        "timestamp": "2025-12-09T10:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-09T10:19:30Z",
+        "timestamp": "2025-12-09T10:22:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
