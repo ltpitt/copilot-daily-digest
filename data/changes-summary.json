@@ -1,28 +1,113 @@
 {
-  "generated_at": "2025-12-09T10:10:05.587077Z",
+  "generated_at": "2025-12-09T10:18:17.619248Z",
   "has_changes": true,
   "total_changes": 40,
   "docs": {
-    "changed": [],
-    "new": [
-      "scrape-summary.md",
-      "copilot-managing-organization.md",
-      "copilot-getting-started.md",
-      "copilot-overview.md",
-      "copilot-prompt-engineering.md",
-      "copilot-extensions-overview.md",
-      "copilot-best-practices.md",
-      "copilot-responsible-use.md",
-      "copilot-configuration.md",
-      "copilot-code-suggestions.md",
-      "copilot-troubleshooting.md",
-      "copilot-asking-questions.md",
-      "copilot-extensions-integration.md",
-      "copilot-chat.md",
-      "copilot-custom-instructions.md"
+    "changed": [
+      {
+        "filename": "copilot-managing-organization.md",
+        "timestamp": "2025-12-09T10:15:33Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-getting-started.md",
+        "timestamp": "2025-12-09T10:15:23Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-overview.md",
+        "timestamp": "2025-12-09T10:15:22Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-prompt-engineering.md",
+        "timestamp": "2025-12-09T10:15:30Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-extensions-overview.md",
+        "timestamp": "2025-12-09T10:15:25Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-best-practices.md",
+        "timestamp": "2025-12-09T10:15:29Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-responsible-use.md",
+        "timestamp": "2025-12-09T10:15:36Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-configuration.md",
+        "timestamp": "2025-12-09T10:15:34Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-code-suggestions.md",
+        "timestamp": "2025-12-09T10:15:32Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-troubleshooting.md",
+        "timestamp": "2025-12-09T10:15:37Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-asking-questions.md",
+        "timestamp": "2025-12-09T10:15:31Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-extensions-integration.md",
+        "timestamp": "2025-12-09T10:15:26Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-chat.md",
+        "timestamp": "2025-12-09T10:16:40Z",
+        "diff_summary": "+10 lines, -0 lines",
+        "added_lines": 10,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-custom-instructions.md",
+        "timestamp": "2025-12-09T10:15:28Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      }
     ],
+    "new": [],
     "unchanged": [],
-    "deleted": []
+    "deleted": [
+      "scrape-summary.md"
+    ]
   },
   "blog": {
     "new_count": 19,
@@ -184,26 +269,109 @@
       }
     ]
   },
-  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - scrape-summary.md: New file added\n  - copilot-managing-organization.md: New file added\n  - copilot-getting-started.md: New file added\n  - copilot-overview.md: New file added\n  - copilot-prompt-engineering.md: New file added\n  - copilot-extensions-overview.md: New file added\n  - copilot-best-practices.md: New file added\n  - copilot-responsible-use.md: New file added\n  - copilot-configuration.md: New file added\n  - copilot-code-suggestions.md: New file added\n  - copilot-troubleshooting.md: New file added\n  - copilot-asking-questions.md: New file added\n  - copilot-extensions-integration.md: New file added\n  - copilot-chat.md: New file added\n  - copilot-custom-instructions.md: New file added\n\n📝 Blog Posts: 19 new articles\n  - \"Enterprise teams product limits increased by over 10x\" (2025-12-08)\n  - \"Model picker for Copilot coding agent for Copilot Pro and Pro+ subscribers\" (2025-12-08)\n  - \"Track Copilot code generation metrics in a dashboard\" (2025-12-05)\n  - \"How to use GitHub Copilot Spaces to debug issues faster\" (2025-12-04)\n  - \"Notifications triggered by spam accounts are now correctly hidden\" (2025-12-04)\n\n🎥 Videos: 6 new videos\n  - \"How to improve code health with GitHub Code Quality\" (2025-12-04)\n  - \"Rubber Duck Thursdays - Let's build with custom agents (again!)\" (2025-12-04)\n  - \"The latest in managing and auditing GitHub Copilot agents\" (2025-12-03)\n  - \"How to close pull requests faster with Copilot code review | GitHub Checkout\" (2025-12-02)\n  - \"Assign Linear issues to Copilot coding agent\" (2025-12-01)\n\nTotal: 40 changes detected",
+  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-chat.md: Updated (+10 lines, -0 lines)\n  - copilot-custom-instructions.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 19 new articles\n  - \"Enterprise teams product limits increased by over 10x\" (2025-12-08)\n  - \"Model picker for Copilot coding agent for Copilot Pro and Pro+ subscribers\" (2025-12-08)\n  - \"Track Copilot code generation metrics in a dashboard\" (2025-12-05)\n  - \"How to use GitHub Copilot Spaces to debug issues faster\" (2025-12-04)\n  - \"Notifications triggered by spam accounts are now correctly hidden\" (2025-12-04)\n\n🎥 Videos: 6 new videos\n  - \"How to improve code health with GitHub Code Quality\" (2025-12-04)\n  - \"Rubber Duck Thursdays - Let's build with custom agents (again!)\" (2025-12-04)\n  - \"The latest in managing and auditing GitHub Copilot agents\" (2025-12-03)\n  - \"How to close pull requests faster with Copilot code review | GitHub Checkout\" (2025-12-02)\n  - \"Assign Linear issues to Copilot coding agent\" (2025-12-01)\n\nTotal: 40 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 30,
+    "total_changes": 29,
     "new_docs": [
-      "scrape-summary.md",
-      "copilot-managing-organization.md",
-      "copilot-getting-started.md",
-      "copilot-overview.md",
-      "copilot-prompt-engineering.md",
-      "copilot-extensions-overview.md",
-      "copilot-best-practices.md",
-      "copilot-responsible-use.md",
-      "copilot-configuration.md",
-      "copilot-code-suggestions.md",
-      "copilot-troubleshooting.md",
-      "copilot-asking-questions.md",
-      "copilot-extensions-integration.md",
-      "copilot-chat.md",
-      "copilot-custom-instructions.md"
+      {
+        "filename": "copilot-managing-organization.md",
+        "timestamp": "2025-12-09T10:15:33Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-getting-started.md",
+        "timestamp": "2025-12-09T10:15:23Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-overview.md",
+        "timestamp": "2025-12-09T10:15:22Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-prompt-engineering.md",
+        "timestamp": "2025-12-09T10:15:30Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-extensions-overview.md",
+        "timestamp": "2025-12-09T10:15:25Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-best-practices.md",
+        "timestamp": "2025-12-09T10:15:29Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-responsible-use.md",
+        "timestamp": "2025-12-09T10:15:36Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-configuration.md",
+        "timestamp": "2025-12-09T10:15:34Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-code-suggestions.md",
+        "timestamp": "2025-12-09T10:15:32Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-troubleshooting.md",
+        "timestamp": "2025-12-09T10:15:37Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-asking-questions.md",
+        "timestamp": "2025-12-09T10:15:31Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-extensions-integration.md",
+        "timestamp": "2025-12-09T10:15:26Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-chat.md",
+        "timestamp": "2025-12-09T10:16:40Z",
+        "diff_summary": "+10 lines, -0 lines",
+        "added_lines": 10,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-custom-instructions.md",
+        "timestamp": "2025-12-09T10:15:28Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      }
     ],
     "new_blog_posts": [
       {

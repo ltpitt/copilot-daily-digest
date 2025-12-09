@@ -259,8 +259,12 @@ def generate_change_summary() -> Dict[str, Any]:
 
     if total_docs_changes > 0:
         summary_lines.append(f"📄 Documentation: {total_docs_changes} changes")
-        for filename in docs["changed"]:
-            summary_lines.append(f"  - {filename}: Updated content")
+        for item in docs["changed"]:
+            filename = item["filename"] if isinstance(item, dict) else item
+            if isinstance(item, dict) and item.get("diff_summary"):
+                summary_lines.append(f"  - {filename}: Updated ({item['diff_summary']})")
+            else:
+                summary_lines.append(f"  - {filename}: Updated content")
         for filename in docs["new"]:
             summary_lines.append(f"  - {filename}: New file added")
         for filename in docs["deleted"]:
