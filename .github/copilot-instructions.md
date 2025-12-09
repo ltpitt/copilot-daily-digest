@@ -44,6 +44,34 @@ If you encounter SSL certificate errors with feedparser or urllib:
 
 ---
 
+## Python Coding Standards
+
+**CRITICAL**: This project follows PEP 8 and uses Ruff for automatic formatting and linting.
+
+### Code Style Rules
+
+1. **Imports must be at the top of the file** (PEP 8)
+   - ❌ WRONG: Imports inside functions
+   - ✅ CORRECT: All imports at module level
+
+2. **Use Ruff for formatting and linting**
+   ```bash
+   # Format all Python files
+   .venv/bin/ruff format scraper/
+   
+   # Check and auto-fix linting issues
+   .venv/bin/ruff check --fix scraper/
+   ```
+
+### Why Ruff?
+
+- **Fast**: Written in Rust, 10-100x faster than Black/flake8
+- **Comprehensive**: Replaces Black, isort, flake8, and more in one tool
+- **Modern**: Enforces PEP 8, best practices, and modern Python idioms
+- **Auto-fix**: Automatically fixes most issues including import ordering
+
+---
+
 ## Goal
 Read the latest content from multiple sources and generate comprehensive documentation:
 - `content/README.md`: Overview of Copilot Coding Agent usage
