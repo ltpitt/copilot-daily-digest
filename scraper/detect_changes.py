@@ -79,15 +79,17 @@ def safe_read_file(filepath: Path) -> str:
 
 def detect_doc_changes() -> Dict[str, Any]:
     """
-    Detect changes in documentation files
+    Detect changes in documentation files using doc_versions metadata.
 
     Returns:
-        Dict with keys: changed, new, unchanged, deleted (lists of filenames)
+        Dict with keys: changed, new, unchanged, deleted
+        Changed docs include diff information (timestamp, lines added/removed)
     """
     metadata = load_metadata()
     docs_dir = Path(__file__).parent.parent / "data" / "docs"
 
-    tracked_files = metadata.get("sources", {}).get("github_docs", {}).get("files", {})
+    doc_versions = metadata.get("doc_versions", {})
+    content_hashes = metadata.get("content_hashes", {})
 
     changed = []
     new = []
@@ -97,15 +99,31 @@ def detect_doc_changes() -> Dict[str, Any]:
     # Check for new and changed files
     if docs_dir.exists():
         for doc_file in docs_dir.glob("*.md"):
+            if doc_file.name == "scrape-summary.md":
+                continue  # Skip summary file
+                
             filename = doc_file.name
+            doc_name = doc_file.stem
             content = safe_read_file(doc_file)
             current_hash = calculate_hash(content)
 
-            if filename in tracked_files:
+            hash_key = f"docs/{filename}"
+            
+            if hash_key in content_hashes:
                 # File was tracked before
-                old_hash = tracked_files[filename].get("hash", "")
+                old_hash = content_hashes[hash_key]
                 if old_hash != current_hash:
-                    changed.append(filename)
+                    # Get diff info from doc_versions
+                    change_info = {"filename": filename}
+                    if doc_name in doc_versions and "history" in doc_versions[doc_name]:
+                        history = doc_versions[doc_name]["history"]
+                        if history:
+                            latest = history[-1]
+                            change_info["timestamp"] = latest.get("timestamp")
+                            change_info["diff_summary"] = latest.get("diff_summary", "")
+                            change_info["added_lines"] = latest.get("added_lines", 0)
+                            change_info["removed_lines"] = latest.get("removed_lines", 0)
+                    changed.append(change_info)
                 else:
                     unchanged.append(filename)
             else:
@@ -113,8 +131,8 @@ def detect_doc_changes() -> Dict[str, Any]:
                 new.append(filename)
 
     # Check for deleted files
-    current_files = set([f.name for f in docs_dir.glob("*.md")]) if docs_dir.exists() else set()
-    tracked_filenames = set(tracked_files.keys())
+    current_files = set([f.name for f in docs_dir.glob("*.md") if f.name != "scrape-summary.md"]) if docs_dir.exists() else set()
+    tracked_filenames = set([k.replace("docs/", "") for k in content_hashes.keys() if k.startswith("docs/")])
     deleted = list(tracked_filenames - current_files)
 
     return {"changed": changed, "new": new, "unchanged": unchanged, "deleted": deleted}

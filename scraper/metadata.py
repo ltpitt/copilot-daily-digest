@@ -8,6 +8,7 @@ This module provides functions to:
 - Maintain version history for documentation
 """
 
+import difflib
 import hashlib
 import json
 import os
@@ -113,9 +114,48 @@ def calculate_hash(content: str) -> str:
         content: The content to hash
 
     Returns:
-        str: The SHA256 hash as a hexadecimal string
+        str: Hex digest of the hash
     """
     return hashlib.sha256(content.encode("utf-8")).hexdigest()
+
+
+def generate_content_diff(old_content: str, new_content: str) -> dict:
+    """
+    Generate a human-readable diff summary between two content versions.
+
+    Args:
+        old_content: Previous version of the content
+        new_content: Current version of the content
+
+    Returns:
+        dict: Contains summary, added lines, and removed lines
+    """
+    old_lines = old_content.splitlines(keepends=True)
+    new_lines = new_content.splitlines(keepends=True)
+
+    # Generate unified diff
+    diff = list(difflib.unified_diff(old_lines, new_lines, lineterm=""))
+
+    # Extract meaningful changes (skip diff headers)
+    added = []
+    removed = []
+    
+    for line in diff[2:]:  # Skip the first 2 header lines
+        if line.startswith("+") and not line.startswith("+++"):
+            added.append(line[1:].strip())
+        elif line.startswith("-") and not line.startswith("---"):
+            removed.append(line[1:].strip())
+
+    # Create summary
+    summary = f"+{len(added)} lines, -{len(removed)} lines"
+    
+    return {
+        "summary": summary,
+        "added": len(added),
+        "removed": len(removed),
+        "added_preview": added[:5] if added else [],  # First 5 added lines
+        "removed_preview": removed[:5] if removed else [],  # First 5 removed lines
+    }
 
 
 def is_content_changed(file_path: str, content: str) -> bool:
@@ -186,15 +226,16 @@ def add_blog_url(url: str) -> bool:
     return True
 
 
-def update_content_hash(file_path: str, content: str) -> None:
+def update_content_hash(file_path: str, content: str, previous_content: str = None) -> None:
     """
-    Update hash for given file path.
+    Update hash for given file path and track content changes.
 
-    Also updates doc_versions to track the history of changes.
+    Also updates doc_versions to track the history of changes with diffs.
 
     Args:
         file_path: The relative file path used as the key
         content: The content to hash and store
+        previous_content: Optional previous content for generating diffs
     """
     metadata = load_metadata()
     new_hash = calculate_hash(content)
@@ -210,13 +251,42 @@ def update_content_hash(file_path: str, content: str) -> None:
         doc_name = os.path.splitext(os.path.basename(file_path))[0]
 
         if doc_name not in metadata["doc_versions"]:
-            metadata["doc_versions"][doc_name] = {}
+            metadata["doc_versions"][doc_name] = {"history": []}
 
-        metadata["doc_versions"][doc_name] = {
-            "current_hash": new_hash,
-            "previous_hash": previous_hash,
-            "last_changed": get_current_timestamp(),
+        # Check if content actually changed
+        content_changed = previous_hash != new_hash
+
+        # Prepare version entry
+        version_entry = {
+            "hash": new_hash,
+            "timestamp": get_current_timestamp(),
+            "changed": content_changed,
         }
+
+        # Generate diff if content changed and we have previous content
+        if content_changed and previous_content:
+            diff = generate_content_diff(previous_content, content)
+            version_entry["diff_summary"] = diff["summary"]
+            version_entry["added_lines"] = diff["added"]
+            version_entry["removed_lines"] = diff["removed"]
+            version_entry["has_diff"] = True
+        else:
+            version_entry["has_diff"] = False
+
+        # Update current version info
+        metadata["doc_versions"][doc_name]["current_hash"] = new_hash
+        metadata["doc_versions"][doc_name]["previous_hash"] = previous_hash
+        metadata["doc_versions"][doc_name]["last_changed"] = get_current_timestamp()
+
+        # Append to history (keep last 10 versions)
+        if "history" not in metadata["doc_versions"][doc_name]:
+            metadata["doc_versions"][doc_name]["history"] = []
+        
+        metadata["doc_versions"][doc_name]["history"].append(version_entry)
+        
+        # Keep only last 10 versions to avoid metadata bloat
+        if len(metadata["doc_versions"][doc_name]["history"]) > 10:
+            metadata["doc_versions"][doc_name]["history"] = metadata["doc_versions"][doc_name]["history"][-10:]
 
     # Update stats
     metadata["stats"]["total_docs"] = len(
