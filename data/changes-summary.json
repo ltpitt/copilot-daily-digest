@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-09T10:55:42.800368Z",
+  "generated_at": "2025-12-09T23:23:32.756440Z",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 17,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-09T10:55:28Z",
+        "timestamp": "2025-12-09T23:23:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-09T10:55:34Z",
+        "timestamp": "2025-12-09T23:23:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-09T10:55:29Z",
+        "timestamp": "2025-12-09T23:23:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-09T10:55:40Z",
+        "timestamp": "2025-12-09T23:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-09T10:55:38Z",
+        "timestamp": "2025-12-09T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-09T10:55:23Z",
+        "timestamp": "2025-12-09T23:22:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-09T10:55:27Z",
+        "timestamp": "2025-12-09T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-09T10:55:24Z",
+        "timestamp": "2025-12-09T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-09T10:55:36Z",
+        "timestamp": "2025-12-09T23:23:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-09T10:55:33Z",
+        "timestamp": "2025-12-09T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-09T10:55:21Z",
+        "timestamp": "2025-12-09T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-09T10:55:30Z",
+        "timestamp": "2025-12-09T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-09T10:55:32Z",
+        "timestamp": "2025-12-09T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-09T10:55:39Z",
+        "timestamp": "2025-12-09T23:23:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,118 +110,144 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 2,
+    "new_posts": [
+      {
+        "title": "npm classic tokens revoked, session-based auth and CLI token management now available",
+        "url": "https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available",
+        "date": "2025-12-09T16:21:59Z",
+        "summary": "<p>As previously announced, we&#8217;re completing the npm classic token deprecation today. This marks a major milestone in the security hardening initiative to strengthen npm&#8217;s authentication s"
+      },
+      {
+        "title": "Dependabot-based dependency graphs for Go",
+        "url": "https://github.blog/changelog/2025-12-09-dependabot-dgs-for-go",
+        "date": "2025-12-09T15:54:48Z",
+        "summary": "<p>Continuing the supply chain security theme of continually improving our package ecosystem support, Go projects will now see more complete and accurate transitive dependency trees in their dependenc"
+      }
+    ]
   },
   "videos": {
     "new_count": 0,
     "new_videos": []
   },
-  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on December 09, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 2 new articles\n  - \"npm classic tokens revoked, session-based auth and CLI token management now available\" (2025-12-09)\n  - \"Dependabot-based dependency graphs for Go\" (2025-12-09)\n\nTotal: 17 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 16,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-09T10:55:28Z",
+        "timestamp": "2025-12-09T23:23:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-09T10:55:34Z",
+        "timestamp": "2025-12-09T23:23:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-09T10:55:29Z",
+        "timestamp": "2025-12-09T23:23:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-09T10:55:40Z",
+        "timestamp": "2025-12-09T23:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-09T10:55:38Z",
+        "timestamp": "2025-12-09T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-09T10:55:23Z",
+        "timestamp": "2025-12-09T23:22:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-09T10:55:27Z",
+        "timestamp": "2025-12-09T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-09T10:55:24Z",
+        "timestamp": "2025-12-09T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-09T10:55:36Z",
+        "timestamp": "2025-12-09T23:23:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-09T10:55:33Z",
+        "timestamp": "2025-12-09T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-09T10:55:21Z",
+        "timestamp": "2025-12-09T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-09T10:55:30Z",
+        "timestamp": "2025-12-09T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-09T10:55:32Z",
+        "timestamp": "2025-12-09T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-09T10:55:39Z",
+        "timestamp": "2025-12-09T23:23:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
+    "new_blog_posts": [
+      {
+        "title": "npm classic tokens revoked, session-based auth and CLI token management now available",
+        "url": "https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available",
+        "date": "2025-12-09T16:21:59Z",
+        "summary": "<p>As previously announced, we&#8217;re completing the npm classic token deprecation today. This marks a major milestone in the security hardening initiative to strengthen npm&#8217;s authentication s"
+      },
+      {
+        "title": "Dependabot-based dependency graphs for Go",
+        "url": "https://github.blog/changelog/2025-12-09-dependabot-dgs-for-go",
+        "date": "2025-12-09T15:54:48Z",
+        "summary": "<p>Continuing the supply chain security theme of continually improving our package ecosystem support, Go projects will now see more complete and accurate transitive dependency trees in their dependenc"
+      }
+    ],
     "new_videos": []
   }
 }
