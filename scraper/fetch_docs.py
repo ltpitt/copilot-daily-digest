@@ -55,16 +55,56 @@ def scrape_copilot_docs():
 
     # Key GitHub Copilot documentation URLs
     docs_urls = {
+        # Core Copilot Documentation
         'copilot-overview.md': 'https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot',
         'copilot-getting-started.md': 'https://docs.github.com/en/copilot/getting-started-with-github-copilot',
-        'copilot-chat.md': 'https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide'
+        'copilot-chat.md': 'https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide',
+        
+        # Agent & Extensions Documentation
+        'copilot-extensions-overview.md': 'https://docs.github.com/en/copilot/building-copilot-extensions/about-building-copilot-extensions',
+        'copilot-extensions-integration.md': 'https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat',
+        
+        # Customization & Best Practices
+        'copilot-custom-instructions.md': 'https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot',
+        'copilot-best-practices.md': 'https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot',
+        'copilot-prompt-engineering.md': 'https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot',
+        
+        # Agent Workflow & Usage
+        'copilot-asking-questions.md': 'https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide',
+        'copilot-code-suggestions.md': 'https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor',
+        
+        # Management & Configuration
+        'copilot-managing-organization.md': 'https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization',
+        'copilot-configuration.md': 'https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment',
+        'copilot-responsible-use.md': 'https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features',
+        'copilot-troubleshooting.md': 'https://docs.github.com/en/copilot/troubleshooting-github-copilot'
     }
 
     # Fallback content in case network access fails
     sample_content = {
+        # Core Copilot Documentation
         'copilot-overview.md': "# GitHub Copilot Overview\n\nGitHub Copilot is an AI pair programmer that helps you write code faster.",
         'copilot-getting-started.md': "# Getting Started with GitHub Copilot\n\nStart using GitHub Copilot in your favorite IDE.",
-        'copilot-chat.md': "# GitHub Copilot Chat\n\nInteract with Copilot using natural language chat."
+        'copilot-chat.md': "# GitHub Copilot Chat\n\nInteract with Copilot using natural language chat.",
+        
+        # Agent & Extensions Documentation
+        'copilot-extensions-overview.md': "# Building Copilot Extensions\n\nLearn how to build custom extensions and agents for GitHub Copilot.",
+        'copilot-extensions-integration.md': "# Integrating External Tools with Copilot\n\nUse extensions to integrate external tools and services with Copilot Chat.",
+        
+        # Customization & Best Practices
+        'copilot-custom-instructions.md': "# Custom Instructions for Copilot\n\nCustomize Copilot's behavior with custom instructions tailored to your workflow.",
+        'copilot-best-practices.md': "# Best Practices for Using GitHub Copilot\n\nLearn best practices to get the most out of GitHub Copilot.",
+        'copilot-prompt-engineering.md': "# Prompt Engineering for GitHub Copilot\n\nMaster the art of writing effective prompts for Copilot.",
+        
+        # Agent Workflow & Usage
+        'copilot-asking-questions.md': "# Asking Copilot Questions in Your IDE\n\nLearn how to effectively ask questions and get answers from Copilot in your IDE.",
+        'copilot-code-suggestions.md': "# Using Copilot Code Suggestions\n\nGet the most out of Copilot's code suggestions in your editor.",
+        
+        # Management & Configuration
+        'copilot-managing-organization.md': "# Managing Copilot in Your Organization\n\nAdministrative guide for managing GitHub Copilot across your organization.",
+        'copilot-configuration.md': "# Configuring GitHub Copilot\n\nConfigure Copilot to work best in your development environment.",
+        'copilot-responsible-use.md': "# Responsible Use of GitHub Copilot\n\nGuidelines for responsible and ethical use of Copilot features.",
+        'copilot-troubleshooting.md': "# Troubleshooting GitHub Copilot\n\nCommon issues and solutions for GitHub Copilot."
     }
 
     successful_fetches = 0
