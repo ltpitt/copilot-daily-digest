@@ -1,6 +1,6 @@
 # GitHub Copilot Complete Reference
 
-> Last updated: December 9, 2025
+> Last updated: December 10, 2025
 
 ## 📋 Quick Navigation
 
@@ -155,32 +155,45 @@ Currently tracked documentation from official GitHub sources:
 
 ### December 9, 2025
 
-#### Documentation Updates (14 files updated)
-All documentation files were refreshed with latest content at approximately 10:55 UTC:
+#### Documentation Updates (14 files refreshed at 23:23 UTC)
+All documentation files received timestamp updates in the evening scrape:
 
-- **copilot-overview.md** - Last updated: 10:55:21 UTC
-- **copilot-getting-started.md** - Last updated: 10:55:23 UTC
-- **copilot-chat.md** - Last updated: 10:55:24 UTC
-- **copilot-extensions-overview.md** - Last updated: 10:55:27 UTC
-- **copilot-extensions-integration.md** - Last updated: 10:55:28 UTC
-- **copilot-custom-instructions.md** - Last updated: 10:55:29 UTC
-- **copilot-best-practices.md** - Last updated: 10:55:30 UTC
-- **copilot-prompt-engineering.md** - Last updated: 10:55:32 UTC
-- **copilot-asking-questions.md** - Last updated: 10:55:33 UTC
-- **copilot-code-suggestions.md** - Last updated: 10:55:34 UTC
-- **copilot-managing-organization.md** - Last updated: 10:55:36 UTC
-- **copilot-configuration.md** - Last updated: 10:55:38 UTC
-- **copilot-responsible-use.md** - Last updated: 10:55:39 UTC
-- **copilot-troubleshooting.md** - Last updated: 10:55:40 UTC
+- **copilot-overview.md** - Last updated: 23:22:57 UTC
+- **copilot-getting-started.md** - Last updated: 23:22:59 UTC
+- **copilot-chat.md** - Last updated: 23:23:00 UTC
+- **copilot-extensions-overview.md** - Last updated: 23:23:01 UTC
+- **copilot-extensions-integration.md** - Last updated: 23:23:02 UTC
+- **copilot-custom-instructions.md** - Last updated: 23:23:03 UTC
+- **copilot-best-practices.md** - Last updated: 23:23:05 UTC
+- **copilot-prompt-engineering.md** - Last updated: 23:23:06 UTC
+- **copilot-asking-questions.md** - Last updated: 23:23:23 UTC (hash changed from previous version)
+- **copilot-code-suggestions.md** - Last updated: 23:23:24 UTC
+- **copilot-managing-organization.md** - Last updated: 23:23:25 UTC
+- **copilot-configuration.md** - Last updated: 23:23:27 UTC
+- **copilot-responsible-use.md** - Last updated: 23:23:28 UTC
+- **copilot-troubleshooting.md** - Last updated: 23:23:30 UTC
+
+Note: copilot-asking-questions.md received a content update (hash changed from `121b148...` to `6545994...`)
+
+#### GitHub Changelog Posts (Non-Copilot)
+Two GitHub platform updates were published (not directly Copilot-related):
+
+- **npm classic tokens revoked, session-based auth and CLI token management now available** (16:21:59 UTC)
+  - npm authentication security hardening milestone
+  - [Read more →](https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available)
+
+- **Dependabot-based dependency graphs for Go** (15:54:48 UTC)
+  - Go projects now show more complete transitive dependency trees
+  - [Read more →](https://github.blog/changelog/2025-12-09-dependabot-dgs-for-go)
 
 #### File Removals
-- **scrape-summary.md** - Removed (no longer tracked)
+- **scrape-summary.md** - Removed from tracking (no longer maintained)
 
-#### Notable Historical Changes
-Earlier in the day on December 9, 2025:
+#### Earlier Updates (Morning of December 9)
+Documentation files were also refreshed at approximately 10:55 UTC. Notable content change:
 - **copilot-chat.md** received a content update at 10:16:40 UTC (+10 lines, -0 lines)
-  - Most significant change of the day
-  - Likely added new chat features or expanded existing documentation
+  - Expanded chat capabilities documentation
+  - Most significant content change of the day
 
 ### December 8, 2025
 
