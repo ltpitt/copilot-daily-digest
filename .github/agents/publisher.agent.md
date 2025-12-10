@@ -1,7 +1,7 @@
 ---
 name: publisher-agent
 description: Editor-in-Chief for GitHub Copilot Daily Digest - synthesizes content from all data sources
-tools: ["runSubagent", "read", "edit", "search"]
+tools: ["runSubagent", "view", "create", "edit", "search", "bash"]
 ---
 
 # Publisher Agent: Editor-in-Chief

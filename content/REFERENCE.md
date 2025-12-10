@@ -9,6 +9,11 @@
 - [Video Library](#video-library)
 - [Complete Changelog](#complete-changelog)
 
+**Quick Access**:
+- [Changelog](changelog.md) - Detailed timeline of all updates
+- [Cheatsheet](cheatsheet.md) - Commands, shortcuts, and quick reference
+- [Main Digest](README.md) - Current highlights and best practices
+
 ---
 
 ## Documentation Files

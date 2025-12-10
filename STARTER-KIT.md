@@ -98,6 +98,8 @@ Jumpstart your Copilot Coding Agent journey with hands-on learning:
 
 - 📘 [About Copilot Coding Agent (Official Docs)](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
 - 🛠️ [Expand Your Team with Copilot (GitHub Skills Course)](https://github.com/skills/expand-your-team-with-copilot/)
+- 📋 [GitHub Copilot Cheatsheet](content/cheatsheet.md) - Quick reference for commands and shortcuts
+- 📰 [Complete Changelog](content/changelog.md) - Track all updates and new features
 
 These resources are ideal for beginners and teams looking to quickly gain practical experience with Copilot agents.
 
