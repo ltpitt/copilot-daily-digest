@@ -152,7 +152,7 @@ Reference context in your chat prompts:
 | **Claude Opus 4.5** | Complex reasoning, large codebases | Largest |
 | **Claude Sonnet** | Fast, efficient responses | Large |
 
-**Model Picker** (Dec 8, 2025):
+**Model Picker** (introduced December 8, 2025):
 - Pro and Pro+ subscribers can select model when starting tasks
 - Choose based on workload type
 - Available in coding agent interface
