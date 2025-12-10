@@ -1,5 +1,4 @@
 # GitHub Copilot: Your Daily Companion
-
 > Last updated: December 10, 2025 | 📰 14 documentation updates this week
 
 ## 🚀 Quick Start in 5 Minutes
