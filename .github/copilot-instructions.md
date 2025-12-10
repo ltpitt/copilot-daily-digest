@@ -83,7 +83,7 @@ If you encounter SSL certificate errors with feedparser or urllib:
 
 ## Content Architecture
 
-We generate **2 files** with distinct purposes:
+We generate **5 content files** with distinct purposes:
 
 ### 1. content/README.md - Engineer's Daily Companion
 **Purpose**: Constantly-updated getting started guide  
@@ -94,6 +94,21 @@ We generate **2 files** with distinct purposes:
 **Purpose**: Comprehensive documentation for deep dives  
 **Audience**: Engineers who need full command lists, complete changelog, all videos  
 **Style**: Exhaustive, organized, searchable
+
+### 3. content/changelog.md - Feature Timeline
+**Purpose**: Chronological history of all updates  
+**Audience**: Engineers who want to see what's changed over time  
+**Style**: Timeline format, newest first, links to sources
+
+### 4. content/cheatsheet.md - Quick Reference Guide
+**Purpose**: Fast lookup for commands and shortcuts  
+**Audience**: Engineers who need quick command/shortcut reference  
+**Style**: Tables, code blocks, concise bullets
+
+### 5. STARTER-KIT.md - Best Practices & Getting Started
+**Purpose**: Comprehensive onboarding and best practices guide  
+**Audience**: Engineers new to GitHub Copilot or wanting to level up  
+**Style**: Educational, structured workshop format, links to courses
 
 ---
 
@@ -289,6 +304,86 @@ Format:
 - **[title]** ([date]) - [1-sentence summary]
   → [Watch](link)
 ```
+
+---
+
+## Content Generation Rules: STARTER-KIT.md
+
+### Purpose
+- Comprehensive onboarding guide for engineers
+- Best practices compilation
+- Workshop-style learning path
+- Links to official resources and courses
+
+### When to Update
+**STARTER-KIT.md should be reviewed and updated when**:
+- Major new features announced (e.g., new AI models, new capabilities)
+- Best practices change based on recent blog posts
+- New official courses or resources become available
+- Workflow patterns evolve
+- Significant blog posts about usage patterns published
+
+### What to Update
+1. **New Features Section**: Add major features to appropriate sections
+   - Example: "Model Picker" added to comparison tables and best practices
+   
+2. **Best Practices**: Extract from recent blog posts
+   - Look for: "best practice", "tip:", "how to use", "workflow"
+   - Add concrete examples and patterns
+   
+3. **Resource Links**: Keep courses and documentation current
+   - GitHub Skills courses
+   - Official documentation
+   - Blog post tutorials
+   
+4. **Comparison Tables**: Update if capabilities change
+   - Agent Mode vs Coding Agent features
+   - Model comparisons
+   
+5. **Workflow Section**: Reflect current automation setup
+   - Match actual GitHub Actions workflow
+   - Update timing and processes
+
+### Structure to Maintain
+```markdown
+# GitHub AI Starter Kit
+
+## 1. Understand the Landscape
+[Copilot modes and capabilities]
+
+## 2. Best Practices
+[Extracted from blogs and docs]
+
+## 3. Onboarding Your AI Peer Programmer
+[Setup guides]
+
+## 4. Agent Mode vs Coding Agent
+[Comparison table]
+
+## 5. Getting Started
+[Action checklist]
+
+## 6. Workshop Area: First Steps & Actions
+[Course links and resources]
+
+## 7. Daily Workflow
+[Automation explanation]
+
+## 8. Further Learning
+[Additional resources]
+```
+
+### Update Strategy
+- **Weekly Review**: Check if any blog posts from last 7 days warrant STARTER-KIT updates
+- **Feature Announcements**: Immediately update when major features launched
+- **Quarterly Refresh**: Review all sections for outdated information
+- **Link Validation**: Ensure all course/resource links still work
+
+### Sources for Updates
+- `data/blog/*.json` - Recent blog posts about best practices
+- `data/changes-summary.json` - New features from changelogs
+- `content/changelog.md` - Historical feature timeline
+- Official GitHub Copilot documentation
 
 ---
 
