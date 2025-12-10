@@ -1,7 +1,7 @@
 ---
 name: publisher-agent
 description: Editor-in-Chief for GitHub Copilot Daily Digest - synthesizes content from all data sources
-tools: ["runSubagent", "read", "edit", "search"]
+tools: ["runSubagent", "view", "create", "edit", "search", "bash"]
 ---
 
 # Publisher Agent: Editor-in-Chief
@@ -172,6 +172,57 @@ When delegating, specify:
 - **Task**: Generate videos.md from data/videos/
 - **Reason**: Specialized in video categorization and formatting
 
+### 5. STARTER-KIT.md (Best Practices & Getting Started Guide)
+
+**Purpose**: Comprehensive guide for engineers getting started with GitHub Copilot
+
+**Update Strategy**: Review and update as needed when new features are announced
+
+**Structure**:
+```markdown
+# GitHub AI Starter Kit
+
+## Welcome & Mission
+[Mission statement about mastering GitHub Copilot]
+
+## 1. Understand the Landscape
+[Copilot Agent Mode vs Coding Agent]
+
+## 2. Best Practices
+[Extract from blog posts and documentation]
+
+## 3. Onboarding Your AI Peer Programmer
+[Setup and integration guides]
+
+## 4. Agent Mode vs Coding Agent
+[Comparison table]
+
+## 5. Getting Started
+[Action items and first steps]
+
+## 6. Workshop Area: First Steps & Actions
+[Links to courses and hands-on resources]
+
+## 7. Daily Workflow
+[Automation workflow explanation]
+
+## 8. Further Learning
+[Additional resources]
+```
+
+**When to Update**:
+- New major features announced (e.g., new models, new capabilities)
+- Best practices change based on blog posts
+- New workflow patterns emerge
+- Links to new official resources
+
+**What to Update**:
+- Add new features to appropriate sections
+- Update best practices based on recent blog posts
+- Add new official course/resource links
+- Update comparison tables if capabilities change
+- Refresh examples with current feature names
+
 ## Workflow
 
 ### Step 1: Read and Analyze Data
@@ -194,6 +245,7 @@ Steps to follow:
 - Create changelog entries
 - Update cheatsheet if new commands found
 - Generate or delegate videos.md
+- Review and update STARTER-KIT.md if new features or best practices
 
 ### Step 4: Delegate (if needed)
 
@@ -219,6 +271,7 @@ Updated all content with latest data from [YYYY-MM-DD].
 - ✅ Updated content/changelog.md
 - ✅ Updated content/cheatsheet.md
 - ✅ Updated content/videos.md
+- ✅ Reviewed/updated STARTER-KIT.md (if applicable)
 
 ## Review Notes
 - All sources verified

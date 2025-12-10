@@ -1,6 +1,5 @@
 # GitHub Copilot: Your Daily Companion
-
-> Last updated: December 10, 2025 | 📰 5 updates this week
+> Last updated: December 10, 2025 | 📰 14 documentation updates this week
 
 ## 🚀 Quick Start in 5 Minutes
 
@@ -145,11 +144,12 @@ Master agent orchestration with GitHub Copilot's Mission Control features.
 ## 📚 Quick Links
 
 - [Complete Reference](REFERENCE.md) - Full documentation and changelog
+- [Changelog](changelog.md) - Timeline of features and updates
+- [Cheatsheet](cheatsheet.md) - Quick reference for commands and shortcuts
 - [Official Docs](https://docs.github.com/copilot) - GitHub Copilot documentation
-- [Copilot Cheat Sheet](https://docs.github.com/en/copilot/reference/cheat-sheet) - Quick command reference
 - [GitHub Skills Course](https://github.com/skills/expand-your-team-with-copilot/) - Hands-on learning
 - [Mastering GitHub Copilot](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) - Comprehensive guide
 
 ---
 
-**Need more?** Check out the [Complete Reference](REFERENCE.md) for full documentation, changelog, and video library.
+**Need more?** Check out the [Changelog](changelog.md) for a detailed timeline, [Cheatsheet](cheatsheet.md) for quick commands, or [Complete Reference](REFERENCE.md) for comprehensive documentation.
