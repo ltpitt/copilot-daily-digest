@@ -212,6 +212,7 @@ data/docs/*.md
 data/docs/*.html
 data/blog/*.json
 data/videos/*.json
+data/github-next/*.json
 data/feeds/*.xml
 data/feeds/*.json
 data/changelogs/*.json

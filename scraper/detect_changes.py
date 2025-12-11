@@ -7,7 +7,7 @@ by comparing current content with previously tracked metadata.
 
 import hashlib
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict
 
@@ -301,7 +301,7 @@ def generate_change_summary() -> Dict[str, Any]:
     has_changes = total_changes > 0
 
     # Generate summary text
-    summary_lines = [f"Changes detected on {datetime.utcnow().strftime('%B %d, %Y')}:", ""]
+    summary_lines = [f"Changes detected on {datetime.now(timezone.utc).strftime('%B %d, %Y')}:", ""]
 
     if total_docs_changes > 0:
         summary_lines.append(f"📄 Documentation: {total_docs_changes} changes")
@@ -356,7 +356,7 @@ def generate_change_summary() -> Dict[str, Any]:
         "has_changes": has_changes,
         "summary": summary_text,
         "details": {"docs": docs, "blog": blog, "videos": videos, "github_next": github_next},
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
     }
 
 
@@ -370,7 +370,7 @@ def get_whats_new(days: int = 7) -> Dict[str, Any]:
     Returns:
         Dict with period, total_changes, and lists of new items
     """
-    cutoff_date = datetime.utcnow() - timedelta(days=days)
+    cutoff_date = datetime.now(timezone.utc) - timedelta(days=days)
     cutoff_str = cutoff_date.isoformat()
 
     docs = detect_doc_changes()
@@ -411,7 +411,7 @@ def save_change_summary(summary: Dict[str, Any]) -> None:
 
     # Add metadata
     output_data = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "has_changes": summary["has_changes"],
         "total_changes": (
             len(summary["details"]["docs"]["changed"])
