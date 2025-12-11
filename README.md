@@ -226,7 +226,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Author**: [ltpitt](https://github.com/ltpitt)
 - **Issues**: [GitHub Issues](https://github.com/ltpitt/copilot-daily-digest/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/ltpitt/copilot-daily-digest/discussions)
 
 ---
 
