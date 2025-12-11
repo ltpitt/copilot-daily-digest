@@ -82,7 +82,55 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 ---
 
 
-## 5. Getting Started
+## 5. Getting Started: Quick Start in 5 Minutes
+
+### Step 1: Choose Your Mode (1 min)
+
+**GitHub Copilot Agent Mode** (in your IDE)
+- Your AI pair programmer for inline suggestions and code completions
+- Great for flow-state coding and real-time refactoring
+- Works directly in your editor with context-aware suggestions
+
+**GitHub Copilot Coding Agent** (autonomous agent)
+- Executes multi-step tasks using natural language instructions
+- Ideal for automation, scaffolding, and repetitive workflows
+- Operates on GitHub repos with full project context
+
+📖 [Understanding the Difference](https://github.blog/developer-skills/github/less-todo-more-done-the-difference-between-coding-agent-and-agent-mode-in-github-copilot)
+
+### Step 2: Set Up Custom Instructions (2 min)
+
+Create `copilot-instructions.md` in your repo root:
+
+```markdown
+# Project Context
+This is a [your project type] built with [your stack].
+
+# Code Style
+- Use TypeScript with strict mode
+- Follow functional programming patterns
+- Write tests for all new features
+
+# Preferences
+- Prefer async/await over promises
+- Use meaningful variable names
+- Add JSDoc comments for public APIs
+```
+
+For advanced multi-agent workflows, use `AGENTS.md` instead.
+
+📢 [AGENTS.md Custom Instructions](https://github.blog/changelog/2025-08-28-copilot-coding-agent-now-supports-agents-md-custom-instructions/)
+
+### Step 3: Start Small, Then Iterate (2 min)
+
+Begin with focused tasks:
+- "Generate unit tests for the userService module"
+- "Refactor authentication logic to use async/await"
+- "Add TypeScript types to all API endpoints"
+
+Avoid broad requests like "rewrite entire app" - small increments win.
+
+### Quick Action Checklist
 
 ✅ Try Agent Mode in your IDE  
 ✅ Create a test repo with `copilot-instructions.md`  

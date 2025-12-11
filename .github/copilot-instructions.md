@@ -85,10 +85,12 @@ If you encounter SSL certificate errors with feedparser or urllib:
 
 We generate **5 content files** with distinct purposes:
 
-### 1. content/README.md - Engineer's Daily Companion
-**Purpose**: Constantly-updated getting started guide  
+### 1. content/README.md - Engineer's Daily Companion (Newspaper Style)
+**Purpose**: Daily digest with highlights, news, and quick links  
 **Audience**: Engineers who want quick updates and actionable tips  
-**Style**: Brief, scannable, curated (like STARTER-KIT.md)
+**Style**: Brief, scannable, curated - newspaper digest format
+
+**CRITICAL**: Quick Start section should be BRIEF (3-4 lines) with a link to STARTER-KIT.md for full tutorial. Do NOT include step-by-step instructions here.
 
 ### 2. content/REFERENCE.md - Complete Reference
 **Purpose**: Comprehensive documentation for deep dives  
@@ -157,7 +159,7 @@ We generate **5 content files** with distinct purposes:
 
 ---
 
-## Content Generation Rules: README.md
+## Content Generation Rules: README.md (Newspaper Style)
 
 ### Structure
 ```markdown
@@ -165,8 +167,8 @@ We generate **5 content files** with distinct purposes:
 
 > Last updated: [DATE] | 📰 [N] updates this week
 
-## 🚀 Quick Start in 5 Minutes
-[Progressive steps, like STARTER-KIT.md]
+## 🚀 Quick Start
+[BRIEF 3-4 line summary with link to STARTER-KIT.md]
 
 ## 📰 What's New This Week
 [TOP 3-5 significant changes only]
@@ -183,6 +185,8 @@ We generate **5 content files** with distinct purposes:
 - 📖 [Complete Reference](REFERENCE.md)
 - 📚 [Official Docs](https://docs.github.com/copilot)
 ```
+
+**CRITICAL**: Do NOT include detailed step-by-step tutorials in README.md. Keep Quick Start to 3-4 lines maximum with a clear link to STARTER-KIT.md for full details.
 
 ### What's New This Week - Curation Rules
 **AI TASK: Extract TOP 3-5 most significant changes**
@@ -396,8 +400,9 @@ Format:
 ## 4. Agent Mode vs Coding Agent
 [Comparison table]
 
-## 5. Getting Started
-[Action checklist]
+## 5. Getting Started: Quick Start in 5 Minutes
+[Detailed step-by-step tutorial with code examples]
+[This is where the full Quick Start content belongs]
 
 ## 6. Workshop Area: First Steps & Actions
 [Course links and resources]

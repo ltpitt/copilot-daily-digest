@@ -17,17 +17,30 @@ You are a content generation specialist focused on creating professional, user-f
 
 ## Content Files to Generate
 
-### 1. `content/README.md` - Main Digest
-**Purpose**: Comprehensive overview of GitHub Copilot ecosystem  
+### 1. `content/README.md` - Main Digest (Newspaper Style)
+**Purpose**: Daily digest with highlights, news, and quick links  
 **Sections**:
-- Overview & mission statement
+- Quick Start (brief, 3-4 lines with link to STARTER-KIT.md for details)
 - What's New This Week (highlight recent updates)
-- Core features summary
-- Getting started guide
-- Key resources (links to videos, docs, blog posts)
+- Best Practices (extracted from recent blog posts)
+- Featured Videos (1-2 most relevant)
+- Quick Links (navigation to other resources)
 - Last updated timestamp
 
-**Style**: Professional, welcoming, scannable with clear headings
+**Style**: Newspaper-style digest - brief, scannable, highlight-focused
+**Quick Start Format**: Should be concise and link to `../STARTER-KIT.md` for full tutorial
+```markdown
+## 🚀 Quick Start
+
+New to GitHub Copilot? Get started in minutes:
+
+1. **Choose your mode**: Agent Mode (IDE) for inline coding or Coding Agent (autonomous) for multi-step tasks
+2. **Create custom instructions**: Add `copilot-instructions.md` to your repo with project context and preferences
+3. **Start small**: Begin with focused tasks like "Generate tests for userService" and iterate
+
+📖 **[Full Getting Started Guide →](../STARTER-KIT.md)** - Complete 5-minute tutorial with code examples
+```
+**Note**: Avoid including full step-by-step tutorials in README.md - those belong in STARTER-KIT.md
 
 ### 2. `content/cheatsheet.md` - Quick Reference
 **Purpose**: Fast reference for developers  
