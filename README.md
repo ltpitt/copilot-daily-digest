@@ -64,7 +64,7 @@ The repository updates automatically via GitHub Actions:
 - **BeautifulSoup4** - HTML parsing
 - **YouTube Data API v3** - Optional video enrichment
 
-## 📦 Installation
+## 📦 Installation (in case you want to check it locally)
 
 ```bash
 # Clone the repository
