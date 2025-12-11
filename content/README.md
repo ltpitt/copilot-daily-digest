@@ -9,7 +9,7 @@ New to GitHub Copilot? Get started in minutes:
 2. **Create custom instructions**: Add `copilot-instructions.md` to your repo with project context and preferences
 3. **Start small**: Begin with focused tasks like "Generate tests for userService" and iterate
 
-📖 **[Full Getting Started Guide →](../STARTER-KIT.md)** - Complete 5-minute tutorial with code examples
+📖 **[Full Getting Started Guide →](STARTER-KIT.md)** - Complete 5-minute tutorial with code examples
 
 ## 📰 What's New This Week
 

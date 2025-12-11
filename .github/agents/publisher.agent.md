@@ -213,7 +213,7 @@ When delegating, specify:
 - **Task**: Generate videos.md from data/videos/
 - **Reason**: Specialized in video categorization and formatting
 
-### 5. STARTER-KIT.md (Best Practices & Getting Started Guide)
+### 5. content/STARTER-KIT.md (Best Practices & Getting Started Guide)
 
 **Purpose**: Comprehensive guide for engineers getting started with GitHub Copilot
 
@@ -286,7 +286,7 @@ Steps to follow:
 - Create changelog entries
 - Update cheatsheet if new commands found
 - Generate or delegate videos.md
-- Review and update STARTER-KIT.md if new features or best practices
+- Review and update content/STARTER-KIT.md if new features or best practices
 
 ### Step 4: Delegate (if needed)
 
@@ -312,7 +312,7 @@ Updated all content with latest data from [YYYY-MM-DD].
 - ✅ Updated content/changelog.md
 - ✅ Updated content/cheatsheet.md
 - ✅ Updated content/videos.md
-- ✅ Reviewed/updated STARTER-KIT.md (if applicable)
+- ✅ Reviewed/updated content/STARTER-KIT.md (if applicable)
 
 ## Review Notes
 - All sources verified

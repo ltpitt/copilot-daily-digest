@@ -74,7 +74,8 @@ copilot-daily-digest/
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Symlink to content/README.md
 ├── ROADMAP.md                     # Project roadmap
-├── STARTER-KIT.md                 # User guide
+├── content/
+│   └── STARTER-KIT.md             # User guide
 └── LICENSE
 ```
 

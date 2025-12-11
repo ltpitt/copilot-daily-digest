@@ -241,7 +241,7 @@ chmod +x scripts/test_full_workflow.sh
 ```
 
 ### 5. Update documentation
-Update `README.md` (root) or `STARTER-KIT.md`:
+Update `README.md` (root) or `content/STARTER-KIT.md`:
 
 ```markdown
 ## Daily Workflow

@@ -310,7 +310,7 @@ Create a single entry point for engineers to stay current with:
   - Create contribution graphs
 
 - [ ] **6.5** Documentation updates
-  - Update STARTER-KIT.md with new features
+  - Update content/STARTER-KIT.md with new features
   - Create architecture documentation
   - Add troubleshooting guide
   - Document API requirements and setup
@@ -382,7 +382,8 @@ copilot-daily-digest/
 │   └── copilot-instructions.md   # Enhanced agent instructions
 ├── LICENSE
 ├── ROADMAP.md                     # This file
-├── STARTER-KIT.md                # Existing starter guide
+├── content/
+│   └── STARTER-KIT.md            # Existing starter guide
 ├── requirements.txt              # Updated dependencies
 └── workflow-status.md            # Workflow monitoring
 ```

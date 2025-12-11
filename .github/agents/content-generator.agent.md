@@ -20,7 +20,7 @@ You are a content generation specialist focused on creating professional, user-f
 ### 1. `content/README.md` - Main Digest (Newspaper Style)
 **Purpose**: Daily digest with highlights, news, and quick links  
 **Sections**:
-- Quick Start (brief, 3-4 lines with link to STARTER-KIT.md for details)
+- Quick Start (brief, 3-4 lines with link to content/STARTER-KIT.md for details)
 - What's New This Week (highlight recent updates)
 - Best Practices (extracted from recent blog posts)
 - Featured Videos (1-2 most relevant)
@@ -28,7 +28,7 @@ You are a content generation specialist focused on creating professional, user-f
 - Last updated timestamp
 
 **Style**: Newspaper-style digest - brief, scannable, highlight-focused
-**Quick Start Format**: Should be concise and link to `../STARTER-KIT.md` for full tutorial
+**Quick Start Format**: Should be concise and link to `STARTER-KIT.md` for full tutorial
 ```markdown
 ## 🚀 Quick Start
 
@@ -40,7 +40,7 @@ New to GitHub Copilot? Get started in minutes:
 
 📖 **[Full Getting Started Guide →](../STARTER-KIT.md)** - Complete 5-minute tutorial with code examples
 ```
-**Note**: Avoid including full step-by-step tutorials in README.md - those belong in STARTER-KIT.md
+**Note**: Avoid including full step-by-step tutorials in README.md - those belong in content/STARTER-KIT.md
 
 ### 2. `content/cheatsheet.md` - Quick Reference
 **Purpose**: Fast reference for developers  

@@ -90,7 +90,7 @@ We generate **5 content files** with distinct purposes:
 **Audience**: Engineers who want quick updates and actionable tips  
 **Style**: Brief, scannable, curated - newspaper digest format
 
-**CRITICAL**: Quick Start section should be BRIEF (3-4 lines) with a link to STARTER-KIT.md for full tutorial. Do NOT include step-by-step instructions here.
+**CRITICAL**: Quick Start section should be BRIEF (3-4 lines) with a link to content/STARTER-KIT.md for full tutorial. Do NOT include step-by-step instructions here.
 
 ### 2. content/REFERENCE.md - Complete Reference
 **Purpose**: Comprehensive documentation for deep dives  
@@ -107,7 +107,7 @@ We generate **5 content files** with distinct purposes:
 **Audience**: Engineers who need quick command/shortcut reference  
 **Style**: Tables, code blocks, concise bullets
 
-### 5. STARTER-KIT.md - Best Practices & Getting Started
+### 5. content/STARTER-KIT.md - Best Practices & Getting Started
 **Purpose**: Comprehensive onboarding and best practices guide  
 **Audience**: Engineers new to GitHub Copilot or wanting to level up  
 **Style**: Educational, structured workshop format, links to courses
@@ -186,7 +186,7 @@ We generate **5 content files** with distinct purposes:
 - 📚 [Official Docs](https://docs.github.com/copilot)
 ```
 
-**CRITICAL**: Do NOT include detailed step-by-step tutorials in README.md. Keep Quick Start to 3-4 lines maximum with a clear link to STARTER-KIT.md for full details.
+**CRITICAL**: Do NOT include detailed step-by-step tutorials in README.md. Keep Quick Start to 3-4 lines maximum with a clear link to content/STARTER-KIT.md for full details.
 
 ### What's New This Week - Curation Rules
 **AI TASK: Extract TOP 3-5 most significant changes**
@@ -347,7 +347,7 @@ Format:
 
 ---
 
-## Content Generation Rules: STARTER-KIT.md
+## Content Generation Rules: content/STARTER-KIT.md
 
 ### Purpose
 - Comprehensive onboarding guide for engineers
@@ -356,7 +356,7 @@ Format:
 - Links to official resources and courses
 
 ### When to Update
-**STARTER-KIT.md should be reviewed and updated when**:
+**content/STARTER-KIT.md should be reviewed and updated when**:
 - Major new features announced (e.g., new AI models, new capabilities)
 - Best practices change based on recent blog posts
 - New official courses or resources become available
@@ -415,7 +415,7 @@ Format:
 ```
 
 ### Update Strategy
-- **Weekly Review**: Check if any blog posts from last 7 days warrant STARTER-KIT updates
+- **Weekly Review**: Check if any blog posts from last 7 days warrant content/STARTER-KIT.md updates
 - **Feature Announcements**: Immediately update when major features launched
 - **Quarterly Refresh**: Review all sections for outdated information
 - **Link Validation**: Ensure all course/resource links still work
