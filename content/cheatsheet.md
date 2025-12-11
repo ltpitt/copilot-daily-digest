@@ -364,7 +364,7 @@ Available metrics:
 ### Documentation
 - [Official Docs](https://docs.github.com/copilot)
 - [Cheat Sheet](https://docs.github.com/en/copilot/reference/cheat-sheet)
-- [Best Practices](https://docs.github.com/en/copilot/best-practices)
+- [Using GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot)
 
 ### Learning
 - [GitHub Skills Course](https://github.com/skills/expand-your-team-with-copilot/)

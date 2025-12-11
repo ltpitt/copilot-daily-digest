@@ -90,7 +90,7 @@ We generate **5 content files** with distinct purposes:
 **Audience**: Engineers who want quick updates and actionable tips  
 **Style**: Brief, scannable, curated - newspaper digest format
 
-**CRITICAL**: Quick Start section should be BRIEF (3-4 lines) with a link to STARTER-KIT.md for full tutorial. Do NOT include step-by-step instructions here.
+**CRITICAL**: Quick Start section should be BRIEF (3-4 lines) with a link to content/STARTER-KIT.md for full tutorial. Do NOT include step-by-step instructions here.
 
 ### 2. content/REFERENCE.md - Complete Reference
 **Purpose**: Comprehensive documentation for deep dives  
@@ -107,7 +107,7 @@ We generate **5 content files** with distinct purposes:
 **Audience**: Engineers who need quick command/shortcut reference  
 **Style**: Tables, code blocks, concise bullets
 
-### 5. STARTER-KIT.md - Best Practices & Getting Started
+### 5. content/STARTER-KIT.md - Best Practices & Getting Started
 **Purpose**: Comprehensive onboarding and best practices guide  
 **Audience**: Engineers new to GitHub Copilot or wanting to level up  
 **Style**: Educational, structured workshop format, links to courses
@@ -186,7 +186,7 @@ We generate **5 content files** with distinct purposes:
 - 📚 [Official Docs](https://docs.github.com/copilot)
 ```
 
-**CRITICAL**: Do NOT include detailed step-by-step tutorials in README.md. Keep Quick Start to 3-4 lines maximum with a clear link to STARTER-KIT.md for full details.
+**CRITICAL**: Do NOT include detailed step-by-step tutorials in README.md. Keep Quick Start to 3-4 lines maximum with a clear link to content/STARTER-KIT.md for full details.
 
 ### What's New This Week - Curation Rules
 **AI TASK: Extract TOP 3-5 most significant changes**
@@ -347,7 +347,7 @@ Format:
 
 ---
 
-## Content Generation Rules: STARTER-KIT.md
+## Content Generation Rules: content/STARTER-KIT.md
 
 ### Purpose
 - Comprehensive onboarding guide for engineers
@@ -356,7 +356,7 @@ Format:
 - Links to official resources and courses
 
 ### When to Update
-**STARTER-KIT.md should be reviewed and updated when**:
+**content/STARTER-KIT.md should be reviewed and updated when**:
 - Major new features announced (e.g., new AI models, new capabilities)
 - Best practices change based on recent blog posts
 - New official courses or resources become available
@@ -415,7 +415,7 @@ Format:
 ```
 
 ### Update Strategy
-- **Weekly Review**: Check if any blog posts from last 7 days warrant STARTER-KIT updates
+- **Weekly Review**: Check if any blog posts from last 7 days warrant content/STARTER-KIT.md updates
 - **Feature Announcements**: Immediately update when major features launched
 - **Quarterly Refresh**: Review all sections for outdated information
 - **Link Validation**: Ensure all course/resource links still work
@@ -462,3 +462,64 @@ Format:
 - Link to original sources
 - Date all content updates
 - Maintain consistent formatting across files
+
+---
+
+## Link Quality & Validation
+
+**CRITICAL**: All links in markdown files must be valid and functional.
+
+### Link Validation Requirements
+
+1. **Before merging content changes**:
+   - Run link validation: `python3 scripts/validate_links.py`
+   - Fix all real broken links (ignore template placeholders)
+   - Review `link-validation-report.json` for issues
+
+2. **Link Quality Standards**:
+   - **Internal links**: Use correct relative paths from current file
+   - **External links**: Verify URL is accessible (200 status)
+   - **Link text**: Use descriptive text, not generic "click here"
+   - **Prefer HTTPS** over HTTP
+   - **Use canonical URLs** (avoid redirects)
+
+3. **Common Broken Link Patterns**:
+   - GitHub Blog posts may be moved/removed - verify before linking
+   - Microsoft Learn modules may be reorganized - test URLs
+   - GitHub Discussions may not be enabled - check before linking
+   - Always prefer official documentation over blog posts for stability
+
+4. **Template Placeholders** (ignore these):
+   - Example URLs in documentation: `url`, `link`, `thumbnail_url`, `image-url`
+   - These are intentional placeholders in `.github/agents/` and `docs/` files
+   - Do not treat as broken links
+
+5. **Delegate to link-validator agent**:
+   - When you need comprehensive link validation
+   - When fixing multiple broken links
+   - For ongoing link quality maintenance
+
+### Link Validation Script
+
+Located at `scripts/validate_links.py`:
+- Checks all markdown files in key directories
+- Tests internal relative links (file existence)
+- Tests external HTTP/HTTPS links (status codes)
+- Generates detailed JSON report
+- Exit code 0 = all valid, 1 = broken links found
+
+### Example Usage
+
+```bash
+# Run validation
+python3 scripts/validate_links.py
+
+# Review report
+cat link-validation-report.json | python3 -m json.tool
+```
+
+### Integration with Content Generation
+
+**Content Generator Agent**: Run link validation before creating PR
+**Publisher Agent**: Include link validation in quality checks
+**All Agents**: When adding/updating markdown, validate links

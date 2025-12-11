@@ -1,0 +1,378 @@
+{
+  "total_files": 49,
+  "total_links": 340,
+  "internal_links": 93,
+  "external_links": 190,
+  "valid_links": 237,
+  "broken_links": [
+    {
+      "file": ".github/agents/content-generator.agent.md",
+      "line": 41,
+      "url": "STARTER-KIT.md",
+      "text": "Full Getting Started Guide \u2192",
+      "error": "File not found: .github/agents/STARTER-KIT.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/content-generator.agent.md",
+      "line": 114,
+      "url": "url",
+      "text": "Link text",
+      "error": "File not found: .github/agents/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/content-generator.agent.md",
+      "line": 115,
+      "url": "image-url",
+      "text": "Alt text",
+      "error": "File not found: .github/agents/image-url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/content-generator.agent.md",
+      "line": 207,
+      "url": "link",
+      "text": "Explore project",
+      "error": "File not found: .github/agents/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/publisher.agent.md",
+      "line": 84,
+      "url": "url",
+      "text": "View research project",
+      "error": "File not found: .github/agents/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/publisher.agent.md",
+      "line": 129,
+      "url": "./changelog.md",
+      "text": "Full Changelog",
+      "error": "File not found: .github/agents/changelog.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/publisher.agent.md",
+      "line": 130,
+      "url": "./cheatsheet.md",
+      "text": "Command Cheatsheet",
+      "error": "File not found: .github/agents/cheatsheet.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/publisher.agent.md",
+      "line": 131,
+      "url": "./videos.md",
+      "text": "Video Library",
+      "error": "File not found: .github/agents/videos.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/publisher.agent.md",
+      "line": 159,
+      "url": "url",
+      "text": "Blog Post",
+      "error": "File not found: .github/agents/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/agents/publisher.agent.md",
+      "line": 164,
+      "url": "url",
+      "text": "YouTube",
+      "error": "File not found: .github/agents/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 185,
+      "url": "REFERENCE.md",
+      "text": "Complete Reference",
+      "error": "File not found: .github/REFERENCE.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 223,
+      "url": "link",
+      "text": "Try it now",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 223,
+      "url": "link",
+      "text": "Learn more",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 252,
+      "url": "link",
+      "text": "Blog post title",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 281,
+      "url": "url",
+      "text": "Video Title",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 282,
+      "url": "thumbnail_url",
+      "text": "![thumbnail",
+      "error": "File not found: .github/thumbnail_url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 288,
+      "url": "url",
+      "text": "Watch on YouTube \u2192",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 341,
+      "url": "link",
+      "text": "Read more",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 345,
+      "url": "link",
+      "text": "Watch",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": "content/cheatsheet.md",
+      "line": 367,
+      "url": "https://docs.github.com/en/copilot/best-practices",
+      "text": "Best Practices",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "docs/README.md",
+      "line": 12,
+      "url": "TASK-2.1-COMPLETION-REPORT.md",
+      "text": "Task Completion Report",
+      "error": "File not found: docs/TASK-2.1-COMPLETION-REPORT.md",
+      "type": "internal"
+    },
+    {
+      "file": "docs/README.md",
+      "line": 34,
+      "url": "TASK-2.1-COMPLETION-REPORT.md",
+      "text": "Task Completion Report",
+      "error": "File not found: docs/TASK-2.1-COMPLETION-REPORT.md",
+      "type": "internal"
+    },
+    {
+      "file": "docs/README.md",
+      "line": 63,
+      "url": "TASK-2.1-COMPLETION-REPORT.md",
+      "text": "TASK-2.1-COMPLETION-REPORT.md",
+      "error": "File not found: docs/TASK-2.1-COMPLETION-REPORT.md",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 15,
+      "url": "url",
+      "text": "How to improve code health with GitHub Code Quality",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 16,
+      "url": "img",
+      "text": "thumbnail",
+      "error": "File not found: docs/img",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 24,
+      "url": "url",
+      "text": "How to improve code health with GitHub Code Quality",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 25,
+      "url": "img",
+      "text": "thumbnail",
+      "error": "File not found: docs/img",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 34,
+      "url": "url",
+      "text": "How to improve code health with GitHub Code Quality",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 35,
+      "url": "img",
+      "text": "thumbnail",
+      "error": "File not found: docs/img",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 43,
+      "url": "url",
+      "text": "How to improve code health with GitHub Code Quality",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 44,
+      "url": "img",
+      "text": "thumbnail",
+      "error": "File not found: docs/img",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 168,
+      "url": "url",
+      "text": "Assign Linear issues to Copilot coding agent",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 201,
+      "url": "url",
+      "text": "Video Title",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 204,
+      "url": "url",
+      "text": "Older Video",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 321,
+      "url": "url",
+      "text": "Assign Linear issues to Copilot coding agent",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 322,
+      "url": "img",
+      "text": "thumbnail",
+      "error": "File not found: docs/img",
+      "type": "internal"
+    },
+    {
+      "file": "docs/videos-md-improvements.md",
+      "line": 326,
+      "url": "url",
+      "text": "Extending AI Agents: A live demo of the GitHub MCP Server",
+      "error": "File not found: docs/url",
+      "type": "internal"
+    },
+    {
+      "file": "docs/youtube-api-quota.md",
+      "line": 153,
+      "url": "https://developers.google.com/youtube/v3/guides/using_rss_feeds",
+      "text": "RSS Feed Format",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "tasks/IMPLEMENTATION_SUMMARY_TASK_2_3.md",
+      "line": 99,
+      "url": "thumbnail",
+      "text": "![title",
+      "error": "File not found: tasks/thumbnail",
+      "type": "internal"
+    },
+    {
+      "file": "tasks/IMPLEMENTATION_SUMMARY_TASK_2_3.md",
+      "line": 454,
+      "url": "https://i.ytimg.com/vi/test_video_1/mqdefault.jpg",
+      "text": "![Getting Started with GitHub Copilot",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "tasks/phase2-3-generate-videos-page.md",
+      "line": 43,
+      "url": "thumbnail_url",
+      "text": "Thumbnail",
+      "error": "File not found: tasks/thumbnail_url",
+      "type": "internal"
+    },
+    {
+      "file": "tasks/phase5-1-create-publisher-agent.md",
+      "line": 109,
+      "url": "./changelog.md",
+      "text": "Full Changelog",
+      "error": "File not found: tasks/changelog.md",
+      "type": "internal"
+    },
+    {
+      "file": "tasks/phase5-1-create-publisher-agent.md",
+      "line": 110,
+      "url": "./cheatsheet.md",
+      "text": "Command Cheatsheet",
+      "error": "File not found: tasks/cheatsheet.md",
+      "type": "internal"
+    },
+    {
+      "file": "tasks/phase5-1-create-publisher-agent.md",
+      "line": 111,
+      "url": "./videos.md",
+      "text": "Video Library",
+      "error": "File not found: tasks/videos.md",
+      "type": "internal"
+    },
+    {
+      "file": "tasks/phase5-1-create-publisher-agent.md",
+      "line": 139,
+      "url": "url",
+      "text": "Blog Post",
+      "error": "File not found: tasks/url",
+      "type": "internal"
+    },
+    {
+      "file": "tasks/phase5-1-create-publisher-agent.md",
+      "line": 144,
+      "url": "url",
+      "text": "YouTube",
+      "error": "File not found: tasks/url",
+      "type": "internal"
+    }
+  ],
+  "skipped_links": 57
+}

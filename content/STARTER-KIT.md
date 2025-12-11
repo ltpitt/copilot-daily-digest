@@ -59,8 +59,8 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 
 ## 3. Onboarding Your AI Peer Programmer
 
-📘 [Onboarding Your AI Peer Programmer](https://github.blog/ai-and-ml/github-copilot/onboarding-your-ai-peer-programmer-setting-up-github-to-integrate-github-copilot)
 📘 [Get the Best Results](https://docs.github.com/en/enterprise-cloud@latest/copilot/tutorials/coding-agent/get-the-best-results)
+📘 [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 
 ---
 
@@ -141,8 +141,8 @@ Jumpstart your Copilot Coding Agent journey with hands-on learning:
 
 - 📘 [About Copilot Coding Agent (Official Docs)](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
 - 🛠️ [Expand Your Team with Copilot (GitHub Skills Course)](https://github.com/skills/expand-your-team-with-copilot/)
-- 📋 [GitHub Copilot Cheatsheet](content/cheatsheet.md) - Quick reference for commands and shortcuts
-- 📰 [Complete Changelog](content/changelog.md) - Track all updates and new features
+- 📋 [GitHub Copilot Cheatsheet](cheatsheet.md) - Quick reference for commands and shortcuts
+- 📰 [Complete Changelog](changelog.md) - Track all updates and new features
 
 These resources are ideal for beginners and teams looking to quickly gain practical experience with Copilot agents.
 
@@ -216,4 +216,4 @@ Or via GitHub UI: Actions → Daily Copilot Digest → Run workflow
 ## 8. Further Learning
 
 📘 [Eval-Driven Development](https://vercel.com/blog/eval-driven-development-build-better-ai-faster)
-📘 [GitHub Copilot Agent Training](https://learn.microsoft.com/en-us/training/modules/github-copilot-agent)
+📘 [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
