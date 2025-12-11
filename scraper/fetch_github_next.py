@@ -168,7 +168,9 @@ def parse_project_card(link_element) -> Optional[Dict]:
             try:
                 # Parse dates like "January 11, 2023"
                 parsed_date = datetime.strptime(date_str, "%B %d, %Y")
-                date_iso = parsed_date.isoformat() + "Z"
+                # Make timezone-aware as UTC
+                parsed_date = parsed_date.replace(tzinfo=timezone.utc)
+                date_iso = parsed_date.isoformat()
             except ValueError:
                 logger.warning(f"Could not parse date: {date_str}")
                 date_iso = date_str

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-11T08:41:14.082417+00:00",
+  "generated_at": "2025-12-11T08:46:14.310981+00:00",
   "has_changes": true,
   "total_changes": 15,
   "docs": {
@@ -7,21 +7,21 @@
     "new": [],
     "unchanged": [],
     "deleted": [
-      "copilot-asking-questions.md",
-      "copilot-chat.md",
+      "copilot-prompt-engineering.md",
       "copilot-extensions-integration.md",
-      "scrape-summary.md",
-      "copilot-best-practices.md",
-      "copilot-managing-organization.md",
-      "copilot-code-suggestions.md",
-      "copilot-responsible-use.md",
-      "copilot-configuration.md",
-      "copilot-overview.md",
-      "copilot-troubleshooting.md",
-      "copilot-getting-started.md",
       "copilot-extensions-overview.md",
       "copilot-custom-instructions.md",
-      "copilot-prompt-engineering.md"
+      "copilot-getting-started.md",
+      "scrape-summary.md",
+      "copilot-chat.md",
+      "copilot-code-suggestions.md",
+      "copilot-overview.md",
+      "copilot-best-practices.md",
+      "copilot-managing-organization.md",
+      "copilot-asking-questions.md",
+      "copilot-configuration.md",
+      "copilot-troubleshooting.md",
+      "copilot-responsible-use.md"
     ]
   },
   "blog": {
@@ -32,7 +32,7 @@
     "new_count": 0,
     "new_videos": []
   },
-  "summary_text": "Changes detected on December 11, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-asking-questions.md: File deleted\n  - copilot-chat.md: File deleted\n  - copilot-extensions-integration.md: File deleted\n  - scrape-summary.md: File deleted\n  - copilot-best-practices.md: File deleted\n  - copilot-managing-organization.md: File deleted\n  - copilot-code-suggestions.md: File deleted\n  - copilot-responsible-use.md: File deleted\n  - copilot-configuration.md: File deleted\n  - copilot-overview.md: File deleted\n  - copilot-troubleshooting.md: File deleted\n  - copilot-getting-started.md: File deleted\n  - copilot-extensions-overview.md: File deleted\n  - copilot-custom-instructions.md: File deleted\n  - copilot-prompt-engineering.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on December 11, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-prompt-engineering.md: File deleted\n  - copilot-extensions-integration.md: File deleted\n  - copilot-extensions-overview.md: File deleted\n  - copilot-custom-instructions.md: File deleted\n  - copilot-getting-started.md: File deleted\n  - scrape-summary.md: File deleted\n  - copilot-chat.md: File deleted\n  - copilot-code-suggestions.md: File deleted\n  - copilot-overview.md: File deleted\n  - copilot-best-practices.md: File deleted\n  - copilot-managing-organization.md: File deleted\n  - copilot-asking-questions.md: File deleted\n  - copilot-configuration.md: File deleted\n  - copilot-troubleshooting.md: File deleted\n  - copilot-responsible-use.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
     "total_changes": 0,

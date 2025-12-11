@@ -301,7 +301,8 @@ def generate_change_summary() -> Dict[str, Any]:
     has_changes = total_changes > 0
 
     # Generate summary text
-    summary_lines = [f"Changes detected on {datetime.now(timezone.utc).strftime('%B %d, %Y')}:", ""]
+    current_time = datetime.now(timezone.utc)
+    summary_lines = [f"Changes detected on {current_time.strftime('%B %d, %Y')}:", ""]
 
     if total_docs_changes > 0:
         summary_lines.append(f"📄 Documentation: {total_docs_changes} changes")
@@ -356,7 +357,7 @@ def generate_change_summary() -> Dict[str, Any]:
         "has_changes": has_changes,
         "summary": summary_text,
         "details": {"docs": docs, "blog": blog, "videos": videos, "github_next": github_next},
-        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "timestamp": current_time.isoformat(),
     }
 
 
