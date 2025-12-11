@@ -1,0 +1,10 @@
+{
+  "title": "Copilot for Pull Requests",
+  "url": "https://githubnext.com/projects/copilot-for-pull-requests/",
+  "date": "2023-03-22T00:00:00Z",
+  "status": "Product",
+  "description": "Pull requests are a central part of the GitHub user experience. Copilot for PRs brings the power of Copilot to the PR experience, to help you write better PR descriptions, and to help your team review and merge PRs faster.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.944042Z"
+}

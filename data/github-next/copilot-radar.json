@@ -1,0 +1,10 @@
+{
+  "title": "GitHub Copilot Radar",
+  "url": "https://githubnext.com/projects/copilot-radar/",
+  "date": "2022-10-13T00:00:00Z",
+  "status": "WIP",
+  "description": "GitHub Copilot Radar is a code navigation tool that shows developers the most relevant line to their position in the code. It\u00e2\u0080\u0099s jump-to-definition on (neural) steroids.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.944662Z"
+}

@@ -15,6 +15,7 @@ Stay up-to-date with GitHub Copilot through automated daily digests that aggrega
 - **📚 Documentation Tracking** - Monitors official GitHub Copilot documentation for updates
 - **📝 Blog Integration** - Fetches latest articles from the GitHub Blog RSS feed
 - **🎥 Video Library** - Curates YouTube videos from GitHub's official channel
+- **🔬 GitHub Next Tracking** - Monitors experimental projects (with appropriate disclaimers)
 - **🔍 Change Detection** - Intelligent tracking to identify what's new
 - **🤖 AI-Powered Content** - GitHub Copilot Coding Agent generates human-readable summaries
 - **⚡ Daily Automation** - Runs automatically via GitHub Actions
@@ -37,6 +38,7 @@ The repository updates automatically via GitHub Actions:
    - GitHub Documentation
    - GitHub Blog (RSS)
    - YouTube Videos (RSS with optional API enrichment)
+   - GitHub Next Projects (experimental research)
 
 2. **Detect Changes**
    - Compare with previous versions
@@ -96,6 +98,9 @@ python scraper/fetch_blog.py
 
 # Fetch YouTube videos
 python scraper/fetch_youtube.py
+
+# Fetch GitHub Next projects (experimental)
+python scraper/fetch_github_next.py
 
 # Detect changes
 python scraper/detect_changes.py
@@ -157,12 +162,14 @@ copilot-daily-digest/
 │   ├── docs/
 │   ├── blog/
 │   ├── videos/
+│   ├── github-next/        # Experimental projects (with disclaimers)
 │   ├── metadata.json
 │   └── changes-summary.json
 ├── scraper/                 # Scraping scripts
 │   ├── fetch_docs.py
 │   ├── fetch_blog.py
 │   ├── fetch_youtube.py
+│   ├── fetch_github_next.py  # GitHub Next experimental projects
 │   ├── detect_changes.py
 │   └── generate_videos.py
 ├── scripts/                 # Utility scripts
@@ -170,6 +177,30 @@ copilot-daily-digest/
 └── config/                  # Configuration files
     └── youtube.yml
 ```
+
+## 🔬 GitHub Next - Experimental Content
+
+This digest includes experimental projects from **GitHub Next** (https://githubnext.com/), GitHub's research team exploring future possibilities.
+
+### ⚠️ Important Disclaimer
+
+**GitHub Next projects are experimental research** and should be treated with care:
+
+- Many experiments are discontinued and never become official features
+- "Completed" status does **not** mean production-ready
+- Projects are **not** official roadmap commitments
+- Content is clearly marked as experimental in all generated content
+- Useful for inspiration and understanding research direction
+
+### How We Handle GitHub Next Content
+
+1. **Always marked with 🔬 emoji** to indicate experimental nature
+2. **Separate section** from official docs and blog posts
+3. **Clear disclaimers** in every mention
+4. **Project status included** (WIP, Completed, Napkin sketch, etc.)
+5. **Cautious language**: "exploring", "researching", "prototype"
+
+See [scraper/README_FETCH_GITHUB_NEXT.md](scraper/README_FETCH_GITHUB_NEXT.md) for technical details.
 
 ## 🤝 Contributing
 

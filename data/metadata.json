@@ -26,7 +26,7 @@
     "https://github.blog/changelog/2025-12-10-github-enterprise-server-3-19-is-now-generally-available",
     "https://github.blog/changelog/2025-12-10-the-github-mcp-server-adds-support-for-tool-specific-configuration-and-more"
   ],
-  "last_updated": "2025-12-10T23:22:56.331651",
+  "last_updated": "2025-12-11T08:37:25.979873",
   "version": "1.0.0",
   "content_hashes": {
     "docs/copilot-overview.md": "6792b3a7798af24d5e04489bd7b48c7db72cf2cc44be3291ae5d2d0c2a381120",
@@ -807,5 +807,36 @@
     "total_blog_posts": 0,
     "total_videos": 6,
     "last_successful_scrape": "2025-12-10T23:22:55Z"
-  }
+  },
+  "github_next_urls": [
+    "https://githubnext.com/projects/agentic-workflows/",
+    "https://githubnext.com/projects/copernicus/",
+    "https://githubnext.com/projects/continuous-ai/",
+    "https://githubnext.com/projects/discovery-agent/",
+    "https://githubnext.com/projects/mosaic/",
+    "https://githubnext.com/projects/github-spark/",
+    "https://githubnext.com/projects/extract-edit-apply/",
+    "https://githubnext.com/projects/learning-sandbox/",
+    "https://githubnext.com/projects/vitale/",
+    "https://githubnext.com/projects/copilot-workspace/",
+    "https://githubnext.com/projects/copilot-next-edit-suggestions/",
+    "https://githubnext.com/projects/rtgh/",
+    "https://githubnext.com/projects/speclang/",
+    "https://githubnext.com/projects/code-atlas/",
+    "https://githubnext.com/projects/gpt4-with-calc/",
+    "https://githubnext.com/projects/copilot-for-docs/",
+    "https://githubnext.com/projects/copilot-for-pull-requests/",
+    "https://githubnext.com/projects/copilot-completions-cli/",
+    "https://githubnext.com/projects/copilot-voice/",
+    "https://githubnext.com/projects/code-brushes/",
+    "https://githubnext.com/projects/workspaces/",
+    "https://githubnext.com/projects/copilot-radar/",
+    "https://githubnext.com/projects/copilot-view/",
+    "https://githubnext.com/projects/incremental-codeql/",
+    "https://githubnext.com/projects/testpilot/",
+    "https://githubnext.com/projects/copilot-labs/",
+    "https://githubnext.com/projects/react-webview-ui-toolkit/",
+    "https://githubnext.com/projects/repo-visualization/",
+    "https://githubnext.com/projects/flat-data/"
+  ]
 }

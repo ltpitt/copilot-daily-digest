@@ -1,0 +1,10 @@
+{
+  "title": "GitHub Copilot Labs",
+  "url": "https://githubnext.com/projects/copilot-labs/",
+  "date": "2022-03-30T00:00:00Z",
+  "status": "Completed",
+  "description": "A VS Code extension for experimental applications of GitHub Copilot.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.945118Z"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "SpecLang",
+  "url": "https://githubnext.com/projects/speclang/",
+  "date": "2023-11-09T00:00:00Z",
+  "status": "Research prototype",
+  "description": "Can we develop software entirely in natural language, and an AI-powered toolchain manage the implementation?",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.943553Z"
+}

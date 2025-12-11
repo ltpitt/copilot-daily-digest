@@ -15,7 +15,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -52,7 +52,7 @@ except ImportError:
             return False
 
         metadata.setdefault("github_next_urls", []).append(url)
-        metadata["last_updated"] = datetime.utcnow().isoformat()
+        metadata["last_updated"] = datetime.now(timezone.utc).isoformat()
 
         with open(metadata_file, "w") as f:
             json.dump(metadata, f, indent=2)
@@ -193,7 +193,7 @@ def parse_project_card(link_element) -> Optional[Dict]:
             "description": description,
             "source": "github-next",
             "experimental": True,  # ALWAYS mark as experimental
-            "scraped_at": datetime.utcnow().isoformat() + "Z",
+            "scraped_at": datetime.now(timezone.utc).isoformat(),
         }
 
     except Exception as e:
