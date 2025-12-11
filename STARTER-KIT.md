@@ -1,8 +1,3 @@
----
-marp: true
----
-
-
 # GitHub AI Starter Kit
 
 ## Welcome & Mission
