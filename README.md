@@ -34,7 +34,7 @@ The repository updates automatically via GitHub Actions:
 
 ### Daily Workflow
 
-1. **Fetch Content** (Daily at 1 PM UTC)
+1. **Fetch Content** (Daily)
    - GitHub Documentation
    - GitHub Blog (RSS)
    - YouTube Videos (RSS with optional API enrichment)
