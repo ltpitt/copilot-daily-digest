@@ -1,0 +1,10 @@
+{
+  "title": "Incremental CodeQL",
+  "url": "https://githubnext.com/projects/incremental-codeql/",
+  "date": "2022-10-11T00:00:00Z",
+  "status": "Research prototype",
+  "description": "Faster feedback about security vulnerabilities on your PRs.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.944888Z"
+}

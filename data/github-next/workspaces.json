@@ -1,0 +1,10 @@
+{
+  "title": "Collaborative Workspaces",
+  "url": "https://githubnext.com/projects/workspaces/",
+  "date": "2022-10-14T00:00:00Z",
+  "status": "Napkin sketch",
+  "description": "As we increasingly work together remotely, how might we unify our workflows to enable remote collaboration for developers? GitHub Next explores what \"working together\" means, beyond multiple cursors and a shared code editor.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.944550Z"
+}

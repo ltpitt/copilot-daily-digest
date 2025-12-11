@@ -1,0 +1,10 @@
+{
+  "title": "Visualizing a Codebase",
+  "url": "https://githubnext.com/projects/repo-visualization/",
+  "date": "2021-08-04T00:00:00Z",
+  "status": "Usable prototype",
+  "description": "How can we \u00e2\u0080\u009cfingerprint\u00e2\u0080\u009d a codebase to see its structure at a glance? Let\u00e2\u0080\u0099s explore ways to automatically visualize a GitHub repo, and how that could be useful.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.945369Z"
+}

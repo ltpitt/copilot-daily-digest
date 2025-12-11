@@ -1,0 +1,10 @@
+{
+  "title": "Copilot Completions in the CLI",
+  "url": "https://githubnext.com/projects/copilot-completions-cli/",
+  "date": "2023-03-22T00:00:00Z",
+  "status": "Product",
+  "description": "Ever having trouble remembering that shell command or this obscure flag? Don't worry: we're building GitHub Copilot assistance right into your terminal",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.944154Z"
+}

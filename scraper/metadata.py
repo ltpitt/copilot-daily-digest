@@ -25,11 +25,13 @@ DEFAULT_METADATA = {
     "content_hashes": {},
     "video_ids": [],
     "blog_urls": [],
+    "github_next_urls": [],
     "doc_versions": {},
     "stats": {
         "total_docs": 0,
         "total_blog_posts": 0,
         "total_videos": 0,
+        "total_github_next_projects": 0,
         "last_successful_scrape": None,
     },
 }
@@ -222,6 +224,38 @@ def add_blog_url(url: str) -> bool:
     # New blog URL
     metadata["blog_urls"].append(url)
     metadata["stats"]["total_blog_posts"] = len(metadata["blog_urls"])
+    save_metadata(metadata)
+    return True
+
+
+def add_github_next_url(url: str) -> bool:
+    """
+    Add GitHub Next project URL to metadata.
+    
+    GitHub Next projects are experimental and should be treated with care.
+
+    Args:
+        url: The GitHub Next project URL to add
+
+    Returns:
+        bool: True if URL is new (not a duplicate), False if it already exists
+    """
+    metadata = load_metadata()
+
+    # Ensure github_next_urls key exists (for backwards compatibility)
+    if "github_next_urls" not in metadata:
+        metadata["github_next_urls"] = []
+    
+    if "total_github_next_projects" not in metadata["stats"]:
+        metadata["stats"]["total_github_next_projects"] = 0
+
+    if url in metadata["github_next_urls"]:
+        # Duplicate
+        return False
+
+    # New GitHub Next URL
+    metadata["github_next_urls"].append(url)
+    metadata["stats"]["total_github_next_projects"] = len(metadata["github_next_urls"])
     save_metadata(metadata)
     return True
 

@@ -1,0 +1,10 @@
+{
+  "title": "Copilot Next Edit Suggestions",
+  "url": "https://githubnext.com/projects/copilot-next-edit-suggestions/",
+  "date": "2023-11-09T00:00:00Z",
+  "status": "Product",
+  "description": "Can we improve Copilot code completion by suggesting the next logical change, wherever it is in your project?",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.943315Z"
+}

@@ -7,7 +7,7 @@ by comparing current content with previously tracked metadata.
 
 import hashlib
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict
 
@@ -238,6 +238,51 @@ def detect_video_changes() -> Dict[str, Any]:
     return {"new_videos": new_videos, "count": len(new_videos)}
 
 
+def detect_github_next_changes() -> Dict[str, Any]:
+    """
+    Detect new GitHub Next projects.
+    
+    GitHub Next projects are experimental and should be clearly marked as such.
+
+    Returns:
+        Dict with keys: new_projects, count
+    """
+    metadata = load_metadata()
+    github_next_dir = Path(__file__).parent.parent / "data" / "github-next"
+
+    # Get tracked GitHub Next URLs
+    tracked_urls = set(metadata.get("github_next_urls", []))
+
+    new_projects = []
+
+    # Read all GitHub Next project files
+    if github_next_dir.exists():
+        for project_file in github_next_dir.glob("*.json"):
+            try:
+                with open(project_file, encoding="utf-8") as f:
+                    project = json.load(f)
+
+                project_url = project.get("url", "")
+                if project_url and project_url not in tracked_urls:
+                    new_projects.append(
+                        {
+                            "title": project.get("title", ""),
+                            "url": project_url,
+                            "date": project.get("date", ""),
+                            "status": project.get("status", "Unknown"),
+                            "description": project.get("description", ""),
+                            "experimental": True,  # Always mark as experimental
+                        }
+                    )
+            except Exception as e:
+                print(f"[ERROR] Failed to read GitHub Next project file {project_file}: {e}")
+
+    # Sort by date (newest first)
+    new_projects.sort(key=lambda x: x.get("date", ""), reverse=True)
+
+    return {"new_projects": new_projects, "count": len(new_projects)}
+
+
 def generate_change_summary() -> Dict[str, Any]:
     """
     Generate comprehensive change summary
@@ -248,14 +293,16 @@ def generate_change_summary() -> Dict[str, Any]:
     docs = detect_doc_changes()
     blog = detect_blog_changes()
     videos = detect_video_changes()
+    github_next = detect_github_next_changes()
 
     # Calculate total changes
     total_docs_changes = len(docs["changed"]) + len(docs["new"]) + len(docs["deleted"])
-    total_changes = total_docs_changes + blog["count"] + videos["count"]
+    total_changes = total_docs_changes + blog["count"] + videos["count"] + github_next["count"]
     has_changes = total_changes > 0
 
     # Generate summary text
-    summary_lines = [f"Changes detected on {datetime.utcnow().strftime('%B %d, %Y')}:", ""]
+    current_time = datetime.now(timezone.utc)
+    summary_lines = [f"Changes detected on {current_time.strftime('%B %d, %Y')}:", ""]
 
     if total_docs_changes > 0:
         summary_lines.append(f"📄 Documentation: {total_docs_changes} changes")
@@ -289,6 +336,16 @@ def generate_change_summary() -> Dict[str, Any]:
             summary_lines.append(f'  - "{video["title"]}" ({date_str})')
         summary_lines.append("")
 
+    if github_next["count"] > 0:
+        summary_lines.append(
+            f"🔬 GitHub Next (Experimental): {github_next['count']} new project{'s' if github_next['count'] != 1 else ''}"
+        )
+        for project in github_next["new_projects"][:5]:  # Show first 5
+            date_str = project.get("date", "")[:10] if project.get("date") else "Unknown date"
+            status = project.get("status", "Unknown")
+            summary_lines.append(f'  - "{project["title"]}" ({status}, {date_str})')
+        summary_lines.append("")
+
     if has_changes:
         summary_lines.append(f"Total: {total_changes} changes detected")
     else:
@@ -299,8 +356,8 @@ def generate_change_summary() -> Dict[str, Any]:
     return {
         "has_changes": has_changes,
         "summary": summary_text,
-        "details": {"docs": docs, "blog": blog, "videos": videos},
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "details": {"docs": docs, "blog": blog, "videos": videos, "github_next": github_next},
+        "timestamp": current_time.isoformat(),
     }
 
 
@@ -314,7 +371,7 @@ def get_whats_new(days: int = 7) -> Dict[str, Any]:
     Returns:
         Dict with period, total_changes, and lists of new items
     """
-    cutoff_date = datetime.utcnow() - timedelta(days=days)
+    cutoff_date = datetime.now(timezone.utc) - timedelta(days=days)
     cutoff_str = cutoff_date.isoformat()
 
     docs = detect_doc_changes()
@@ -355,7 +412,7 @@ def save_change_summary(summary: Dict[str, Any]) -> None:
 
     # Add metadata
     output_data = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "has_changes": summary["has_changes"],
         "total_changes": (
             len(summary["details"]["docs"]["changed"])

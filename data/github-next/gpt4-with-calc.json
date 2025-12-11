@@ -1,0 +1,10 @@
+{
+  "title": "GPT-4 with Calc",
+  "url": "https://githubnext.com/projects/gpt4-with-calc/",
+  "date": "2023-05-11T00:00:00Z",
+  "status": "Completed",
+  "description": "An exploration of using calculation generation to improve GPT-4's capabilities for numeric reasoning.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.943784Z"
+}

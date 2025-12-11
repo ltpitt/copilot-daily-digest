@@ -1,0 +1,10 @@
+{
+  "title": "GitHub Copilot for *Your* Codebase",
+  "url": "https://githubnext.com/projects/copilot-view/",
+  "date": "2022-10-13T00:00:00Z",
+  "status": "Completed",
+  "description": "We want to let Copilot see the code in your entire repo to make suggestions even better.",
+  "source": "github-next",
+  "experimental": true,
+  "scraped_at": "2025-12-11T08:37:25.944776Z"
+}

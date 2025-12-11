@@ -27,6 +27,20 @@ You are a feed fetching specialist focused on reliable data collection using RSS
 - Filter videos by keywords: "copilot", "ai", "coding agent"
 - Extract: video ID, title, published date, description, thumbnail URL
 
+### 🔬 GitHub Next (EXPERIMENTAL - Special Handling)
+- **URL**: `https://githubnext.com/`
+- **No RSS feed** - Requires HTML scraping (handled by `fetch_github_next.py`)
+- **CRITICAL**: Always mark content with `experimental: true` flag
+- **Projects have statuses**: Completed, WIP, Napkin sketch, Research prototype
+- ⚠️ **Not official roadmap** - Many experiments are discontinued
+
+**Important**: GitHub Next content requires special treatment:
+- Scrape project cards from main page
+- Extract: title, URL, date, status, description
+- Always add `"experimental": true` and `"source": "github-next"` to data
+- Never present as official features or roadmap
+- Include status in all outputs
+
 ### Release Notes
 - Check for official RSS feeds from GitHub Docs
 - VS Code extension changelog feeds
