@@ -806,7 +806,8 @@
     "total_docs": 15,
     "total_blog_posts": 0,
     "total_videos": 6,
-    "last_successful_scrape": "2025-12-10T23:22:55Z"
+    "last_successful_scrape": "2025-12-10T23:22:55Z",
+    "total_github_next_projects": 29
   },
   "github_next_urls": [
     "https://githubnext.com/projects/agentic-workflows/",
