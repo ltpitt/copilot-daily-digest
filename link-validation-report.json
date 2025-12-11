@@ -1,16 +1,16 @@
 {
-  "total_files": 47,
-  "total_links": 341,
+  "total_files": 49,
+  "total_links": 340,
   "internal_links": 93,
-  "external_links": 191,
-  "valid_links": 235,
+  "external_links": 190,
+  "valid_links": 237,
   "broken_links": [
     {
       "file": ".github/agents/content-generator.agent.md",
       "line": 41,
-      "url": "../STARTER-KIT.md",
+      "url": "STARTER-KIT.md",
       "text": "Full Getting Started Guide \u2192",
-      "error": "File not found: .github/STARTER-KIT.md",
+      "error": "File not found: .github/agents/STARTER-KIT.md",
       "type": "internal"
     },
     {
@@ -156,30 +156,6 @@
       "text": "Watch",
       "error": "File not found: .github/link",
       "type": "internal"
-    },
-    {
-      "file": "README.md",
-      "line": 229,
-      "url": "https://github.com/ltpitt/copilot-daily-digest/discussions",
-      "text": "GitHub Discussions",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/STARTER-KIT.md",
-      "line": 62,
-      "url": "https://github.blog/ai-and-ml/github-copilot/onboarding-your-ai-peer-programmer-setting-up-github-to-integrate-github-copilot",
-      "text": "Onboarding Your AI Peer Programmer",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/STARTER-KIT.md",
-      "line": 219,
-      "url": "https://learn.microsoft.com/en-us/training/modules/github-copilot-agent",
-      "text": "GitHub Copilot Agent Training",
-      "error": "HTTP 404",
-      "type": "external"
     },
     {
       "file": "content/cheatsheet.md",

@@ -9,7 +9,7 @@ Welcome to the copilot-daily-digest documentation! This directory contains compr
 - **[Setup Checklist](youtube-setup-checklist.md)** - Quick reference checklist for tracking setup progress
 - **[Quota Documentation](youtube-api-quota.md)** - API quota usage, costs, and management
 - **[Setup Summary](youtube-setup-summary.md)** - Implementation details and architecture decisions
-- **[Task Completion Report](TASK-2.1-COMPLETION-REPORT.md)** - Final status report for Task 2.1
+- **[Task Completion Report](TASK_COMPLETION_SUMMARY.md)** - Final status report for tasks
 
 ## 🚀 Getting Started
 
@@ -31,7 +31,7 @@ Welcome to the copilot-daily-digest documentation! This directory contains compr
 Read these in order:
 1. [Setup Summary](youtube-setup-summary.md) - Architecture and decisions
 2. [Quota Documentation](youtube-api-quota.md) - Technical details
-3. [Task Completion Report](TASK-2.1-COMPLETION-REPORT.md) - Final status
+3. [Task Completion Report](TASK_COMPLETION_SUMMARY.md) - Final status
 
 ## 📋 Documentation Files
 
@@ -60,7 +60,7 @@ Read these in order:
 → See [youtube-api-quota.md](youtube-api-quota.md) - It's free for our usage
 
 ### "What's the current status?"
-→ See [TASK-2.1-COMPLETION-REPORT.md](TASK-2.1-COMPLETION-REPORT.md)
+→ See [TASK_COMPLETION_SUMMARY.md](TASK_COMPLETION_SUMMARY.md)
 
 ### "I'm getting errors"
 → Check Troubleshooting section in [youtube-setup-guide.md](youtube-setup-guide.md)
