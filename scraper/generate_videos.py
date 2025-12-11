@@ -34,6 +34,7 @@ DATA_DIR = Path(__file__).parent.parent / "data" / "videos"
 OUTPUT_FILE = Path(__file__).parent.parent / "content" / "videos.md"
 
 # Category keywords for video classification
+# Order matters - categories will appear in this order
 CATEGORIES = {
     "Getting Started": [
         "getting started",
@@ -43,13 +44,30 @@ CATEGORIES = {
         "beginner",
         "first steps",
     ],
-    "Features": ["feature", "new feature", "announcement", "release", "introducing"],
+    "Features & Updates": [
+        "feature",
+        "new feature",
+        "announcement",
+        "release",
+        "introducing",
+        "update",
+        "changelog",
+        "what's new",
+        "improvements",
+        "version",
+    ],
     "Tutorials": ["tutorial", "how to", "guide", "walkthrough", "demo", "learn"],
-    "Updates": ["update", "changelog", "what's new", "improvements", "version"],
-    "Extensions": ["extension", "plugin", "integrate", "integration", "api", "vscode", "jetbrains"],
     "Agents": ["agent", "coding agent", "workspace agent", "autonomous", "multi-file", "agentic"],
+    "Extensions": ["extension", "plugin", "integrate", "integration", "api", "vscode", "jetbrains"],
     "Other": [],  # Catch-all
 }
+
+# Featured videos (manually curated high-value content)
+# Add video IDs here for evergreen content to feature
+FEATURED_VIDEO_IDS = [
+    # Add video IDs of high-value evergreen content here
+    # Example: "dI4H5ZyYOx0"  # Assign Linear issues to Copilot coding agent
+]
 
 
 # ============================================================================
@@ -236,7 +254,9 @@ def format_view_count(count: Optional[int]) -> str:
     return f"{count} views"
 
 
-def format_video_entry(video: dict) -> str:
+def format_video_entry(
+    video: dict, metadata_level: str = "full", is_recent: bool = False
+) -> str:
     """
     Format video as markdown entry with thumbnail and metadata.
 
@@ -249,6 +269,10 @@ def format_video_entry(video: dict) -> str:
 
     Args:
         video: Video dictionary with metadata
+        metadata_level: Level of metadata to show - "full" or "minimal"
+                       "full" shows all metadata (date, duration, views, channel)
+                       "minimal" shows only date and duration
+        is_recent: Whether this video was published recently (adds 🆕 badge)
 
     Returns:
         Markdown-formatted video entry
@@ -292,19 +316,24 @@ def format_video_entry(video: dict) -> str:
         description = "No description available."
 
     # Build markdown entry
-    entry = f"### [{title}]({url})\n\n"
+    # Add 🆕 badge for recent videos
+    title_with_badge = f"🆕 {title}" if is_recent else title
+    entry = f"### [{title_with_badge}]({url})\n\n"
 
     # Add thumbnail if available
     if thumbnail:
         entry += f"[![{title}]({thumbnail})]({url})\n\n"
 
-    # Metadata line
+    # Metadata line - adjust based on level
     metadata_parts = [f"**Published**: {date_str}"]
     if duration_str != "N/A":
         metadata_parts.append(f"**Duration**: {duration_str}")
-    if views_str != "N/A":
-        metadata_parts.append(f"**Views**: {views_str}")
-    metadata_parts.append(f"**Channel**: {channel_name}")
+
+    # Only include views and channel for "full" metadata level
+    if metadata_level == "full":
+        if views_str != "N/A":
+            metadata_parts.append(f"**Views**: {views_str}")
+        metadata_parts.append(f"**Channel**: {channel_name}")
 
     entry += " | ".join(metadata_parts) + "\n\n"
 
@@ -323,11 +352,11 @@ def generate_videos_page(videos: List[dict]) -> str:
     Generate complete videos.md content.
 
     Creates a comprehensive video catalog page with:
-    - Header with statistics
+    - Header with statistics callout
     - What's New section (last 7 days)
+    - Featured Videos section
     - Browse by Category section
-    - Category sections with videos
-    - Statistics footer
+    - Category sections with videos (marked with 🆕 if recent)
 
     Args:
         videos: List of all video dictionaries
@@ -344,6 +373,12 @@ def generate_videos_page(videos: List[dict]) -> str:
     recent_videos = get_recent_videos(videos, days=7)
     recent_count = len(recent_videos)
 
+    # Get recent video IDs for marking in categories
+    recent_video_ids = {v.get("video_id") for v in recent_videos}
+
+    # Get featured videos
+    featured_videos = [v for v in videos if v.get("video_id") in FEATURED_VIDEO_IDS]
+
     # Categorize videos
     categorized = categorize_videos(videos)
 
@@ -354,60 +389,126 @@ def generate_videos_page(videos: List[dict]) -> str:
     # Start building the page
     content = "# 🎥 GitHub Copilot Video Library\n\n"
     content += f"> **Last Updated**: {timestamp}\n\n"
-    content += f"**Total Videos**: {total_count} | "
-    content += f"**New This Week**: {recent_count}\n\n"
-    content += "---\n\n"
+
+    # Statistics callout box
+    content += "> **📊 Library Stats**\n"
+    content += f"> - 📚 **{total_count}** total videos\n"
+    content += f"> - 🆕 **{recent_count}** new this week\n"
+    
+    # Category breakdown in callout
+    non_empty_categories = [cat for cat in CATEGORIES if len(categorized[cat]) > 0]
+    if non_empty_categories:
+        content += "> - 📂 **Categories**: "
+        cat_counts = [f"{cat} ({len(categorized[cat])})" for cat in non_empty_categories]
+        content += ", ".join(cat_counts) + "\n"
+    
+    content += "\n---\n\n"
 
     # Table of Contents
-    content += "## 📋 Table of Contents\n\n"
-    content += "- [What's New This Week](#whats-new-this-week)\n"
-    content += "- [Browse by Category](#browse-by-category)\n"
+    content += "## 📋 Quick Navigation\n\n"
+    
+    if recent_videos:
+        content += "- [🆕 What's New This Week](#-whats-new-this-week)\n"
+    
+    if featured_videos:
+        content += "- [⭐ Featured Videos](#-featured-videos)\n"
+    
+    content += "- [📂 Browse by Topic](#-browse-by-topic)\n"
+    
     for category in CATEGORIES:
         count = len(categorized[category])
         if count > 0:
-            slug = category.lower().replace(" ", "-")
-            content += f"  - [{category}](#-{slug}) ({count})\n"
-    content += "- [Statistics](#statistics)\n\n"
-    content += "---\n\n"
-
-    # What's New This Week section
-    content += "## 🆕 What's New This Week\n\n"
-
-    if recent_videos:
-        content += "*Videos published in the last 7 days*\n\n"
-        for video in recent_videos:
-            content += format_video_entry(video)
-    else:
-        content += "*No new videos this week. Check back soon!*\n\n"
-        content += "---\n\n"
-
-    # Browse by Category section
-    content += "## 📂 Browse by Category\n\n"
-    content += "Videos are organized by topic for easy navigation:\n\n"
-
-    for category, keywords in CATEGORIES.items():
-        count = len(categorized[category])
-        slug = category.lower().replace(" ", "-")
-
-        if count > 0:
-            # Add emoji based on category
+            slug = category.lower().replace(" ", "-").replace("&", "")
             emoji = {
                 "Getting Started": "🎓",
-                "Features": "✨",
+                "Features & Updates": "✨",
                 "Tutorials": "📚",
-                "Updates": "🔄",
-                "Extensions": "🔌",
                 "Agents": "🤖",
+                "Extensions": "🔌",
                 "Other": "📦",
             }.get(category, "📦")
+            content += f"  - [{emoji} {category}](#{slug}) ({count})\n"
+    
+    content += "\n---\n\n"
 
-            content += (
-                f"- [{emoji} {category}](#-{slug}) - {count} video{'s' if count != 1 else ''}\n"
-            )
+    # What's New This Week section
+    if recent_videos:
+        content += "## 🆕 What's New This Week\n\n"
+        content += f"*{recent_count} video{'s' if recent_count != 1 else ''} published in the last 7 days*\n\n"
+        
+        for video in recent_videos:
+            content += format_video_entry(video, metadata_level="full", is_recent=False)
+        
+        content += "---\n\n"
+
+    # Featured Videos section
+    if featured_videos:
+        content += "## ⭐ Featured Videos\n\n"
+        content += "*Handpicked high-value content to get you started*\n\n"
+        
+        for video in featured_videos:
+            is_recent = video.get("video_id") in recent_video_ids
+            content += format_video_entry(video, metadata_level="full", is_recent=is_recent)
+        
+        content += "---\n\n"
+
+    # Browse by Topic section
+    content += "## 📂 Browse by Topic\n\n"
+    content += "Choose the category that matches what you want to learn:\n\n"
+
+    for category in CATEGORIES:
+        count = len(categorized[category])
+        if count == 0:
+            continue
+
+        emoji = {
+            "Getting Started": "🎓",
+            "Features & Updates": "✨",
+            "Tutorials": "📚",
+            "Agents": "🤖",
+            "Extensions": "🔌",
+            "Other": "📦",
+        }.get(category, "📦")
+
+        # Improved descriptions with "When to watch" guidance
+        descriptions = {
+            "Getting Started": {
+                "desc": "New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.",
+                "when": "**When to watch**: You're exploring Copilot for the first time or onboarding new team members.",
+            },
+            "Features & Updates": {
+                "desc": "Discover new features, product announcements, capability releases, and the latest updates.",
+                "when": "**When to watch**: You want to stay current with new capabilities and improvements.",
+            },
+            "Tutorials": {
+                "desc": "Step-by-step guides and walkthroughs to help you master specific workflows and techniques.",
+                "when": "**When to watch**: You're ready to dive deep into specific features or workflows.",
+            },
+            "Agents": {
+                "desc": "Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.",
+                "when": "**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.",
+            },
+            "Extensions": {
+                "desc": "Learn about IDE extensions, integrations, API capabilities, and third-party tools.",
+                "when": "**When to watch**: You want to integrate Copilot with your existing toolchain or extend its capabilities.",
+            },
+            "Other": {
+                "desc": "Additional content and resources that don't fit into other categories.",
+                "when": "**When to watch**: You've explored other categories and want more.",
+            },
+        }
+
+        desc_info = descriptions.get(category, {"desc": "", "when": ""})
+        slug = category.lower().replace(" ", "-").replace("&", "")
+        
+        content += f"### {emoji} {category}\n\n"
+        content += f"*{desc_info['desc']}*\n\n"
+        content += f"{desc_info['when']}\n\n"
+        content += f"**{count} video{'s' if count != 1 else ''}**\n\n"
 
     content += "\n---\n\n"
 
-    # Category sections
+    # Category sections with videos
     for category in CATEGORIES:
         videos_list = categorized[category]
 
@@ -417,70 +518,66 @@ def generate_videos_page(videos: List[dict]) -> str:
         # Category header with emoji
         emoji = {
             "Getting Started": "🎓",
-            "Features": "✨",
+            "Features & Updates": "✨",
             "Tutorials": "📚",
-            "Updates": "🔄",
-            "Extensions": "🔌",
             "Agents": "🤖",
+            "Extensions": "🔌",
             "Other": "📦",
         }.get(category, "📦")
 
-        slug = category.lower().replace(" ", "-")
+        slug = category.lower().replace(" ", "-").replace("&", "")
         content += f"## {emoji} {category}\n\n"
 
-        # Category description
+        # Category description with "When to watch"
         descriptions = {
-            "Getting Started": "New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.",
-            "Features": "Discover new features, product announcements, and capability releases.",
-            "Tutorials": "Step-by-step guides and walkthroughs to help you master Copilot.",
-            "Updates": "Stay current with the latest updates, improvements, and changelogs.",
-            "Extensions": "Learn about extensions, integrations, and API capabilities.",
-            "Agents": "Explore autonomous coding agents and advanced AI-powered workflows.",
-            "Other": "Additional content and resources that don't fit into other categories.",
+            "Getting Started": {
+                "desc": "New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.",
+                "when": "**When to watch**: You're exploring Copilot for the first time or onboarding new team members.",
+            },
+            "Features & Updates": {
+                "desc": "Discover new features, product announcements, capability releases, and the latest updates.",
+                "when": "**When to watch**: You want to stay current with new capabilities and improvements.",
+            },
+            "Tutorials": {
+                "desc": "Step-by-step guides and walkthroughs to help you master specific workflows and techniques.",
+                "when": "**When to watch**: You're ready to dive deep into specific features or workflows.",
+            },
+            "Agents": {
+                "desc": "Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.",
+                "when": "**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.",
+            },
+            "Extensions": {
+                "desc": "Learn about IDE extensions, integrations, API capabilities, and third-party tools.",
+                "when": "**When to watch**: You want to integrate Copilot with your existing toolchain or extend its capabilities.",
+            },
+            "Other": {
+                "desc": "Additional content and resources that don't fit into other categories.",
+                "when": "**When to watch**: You've explored other categories and want more.",
+            },
         }
 
-        content += f"*{descriptions.get(category, '')}*\n\n"
-        content += f"**{len(videos_list)} video{'s' if len(videos_list) != 1 else ''}**\n\n"
+        desc_info = descriptions.get(category, {"desc": "", "when": ""})
+        content += f"*{desc_info['desc']}*\n\n"
+        content += f"{desc_info['when']}\n\n"
 
         # Videos in this category
         for video in videos_list:
-            content += format_video_entry(video)
+            # Check if this video is recent (but not already shown in "What's New")
+            is_recent = video.get("video_id") in recent_video_ids
+            # Use minimal metadata for category sections
+            content += format_video_entry(video, metadata_level="minimal", is_recent=is_recent)
 
         content += "\n"
 
-    # Statistics section
-    content += "---\n\n"
-    content += "## 📊 Statistics\n\n"
-    content += f"- **Total Videos**: {total_count}\n"
-    content += f"- **New This Week**: {recent_count}\n"
-
-    # Category breakdown
-    content += "- **By Category**:\n"
-    for category in CATEGORIES:
-        count = len(categorized[category])
-        if count > 0:
-            content += f"  - {category}: {count}\n"
-
-    # Most recent video
-    if videos:
-        all_sorted = sorted(videos, key=lambda v: v.get("published", ""), reverse=True)
-        most_recent = all_sorted[0]
-        try:
-            recent_date = format_human_date(most_recent.get("published", ""))
-            content += f"- **Most Recent**: {most_recent.get('title', 'Unknown')} ({recent_date})\n"
-        except Exception:
-            pass
-
-    content += "\n---\n\n"
-
     # Footer
-    content += "## 🔗 Quick Links\n\n"
+    content += "---\n\n"
+    content += "## 🔗 More Resources\n\n"
     content += "- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)\n"
     content += "- [GitHub Blog](https://github.blog/tag/github-copilot/)\n"
     content += "- [GitHub YouTube Channel](https://www.youtube.com/github)\n"
     content += "- [Back to Digest Home](README.md)\n\n"
     content += "---\n\n"
-    content += f"*Generated on {timestamp}*\n"
+    content += f"*Page generated on {timestamp}*\n"
 
     return content
 
