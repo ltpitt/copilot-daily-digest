@@ -116,8 +116,44 @@ We generate **5 content files** with distinct purposes:
 - `data/docs/` - Official GitHub documentation (14 Markdown files)
 - `data/blog/` - GitHub Blog posts (19 JSON files with full HTML content)
 - `data/videos/` - YouTube videos from GitHub channel (6 JSON files)
+- `data/github-next/` - **EXPERIMENTAL** GitHub Next projects (JSON files)
 - `data/changes-summary.json` - What changed since last scrape (with diff summaries)
 - `data/metadata.json` - Version history and timestamps
+
+### ⚠️ GitHub Next - Special Handling Required
+
+**Source**: `https://githubnext.com/` - GitHub's experimental research team
+
+**CRITICAL**: Content from GitHub Next is **experimental/research** and requires special treatment:
+
+1. **Always mark as experimental**:
+   - Use 🔬 emoji for GitHub Next content
+   - Add disclaimer: "⚠️ Experimental - May not become official features"
+   - Never present as official roadmap or documentation
+
+2. **Appropriate language**:
+   - ✅ "GitHub Next is exploring..."
+   - ✅ "Experimental project investigating..."
+   - ✅ "Research prototype for..."
+   - ❌ "GitHub will launch..."
+   - ❌ "Coming soon to Copilot..."
+   - ❌ "Official feature..."
+
+3. **Status awareness**:
+   - Projects have statuses: "Completed", "WIP", "Napkin sketch", "Research prototype", "Open sourced"
+   - "Completed" ≠ shipped to production (may still be experimental)
+   - Many experiments are discontinued
+   - Only a small subset become official features
+
+4. **Context for engineers**:
+   - Useful for inspiration and understanding GitHub's research direction
+   - Not reliable for planning production implementations
+   - Treat as "glimpse into potential future" not "roadmap"
+
+5. **Content placement**:
+   - Separate section from official docs/blog
+   - Clear visual distinction (border, background, emoji)
+   - Explicitly labeled as experimental in every mention
 
 ---
 

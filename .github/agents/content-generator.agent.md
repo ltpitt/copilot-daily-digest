@@ -147,7 +147,66 @@ Replace placeholders:
 When generating content, prioritize sources:
 1. **Official feeds** (GitHub Blog RSS, GitHub Docs)
 2. **YouTube RSS** (official channel)
-3. **Scraped docs** (fallback if feeds unavailable)
+3. **GitHub Next** (EXPERIMENTAL - see special handling below)
+4. **Scraped docs** (fallback if feeds unavailable)
+
+### ⚠️ GitHub Next - Special Handling Required
+
+**Source**: `https://githubnext.com/` - GitHub's experimental research team
+
+**CRITICAL**: Content from GitHub Next is **experimental/research** and requires special treatment:
+
+#### Mandatory Disclaimers
+- Always use 🔬 emoji for GitHub Next content
+- Add disclaimer: "⚠️ **Experimental** - May not become official features"
+- Never present as official roadmap or stable features
+- Clearly separate from official documentation and blog posts
+
+#### Language Guidelines
+**✅ Appropriate language**:
+- "GitHub Next is exploring..."
+- "Experimental project investigating..."
+- "Research prototype for..."
+- "Proof of concept demonstrating..."
+
+**❌ Avoid these phrases**:
+- "GitHub will launch..."
+- "Coming soon to Copilot..."
+- "Official feature..."
+- "Production-ready..."
+
+#### Status Awareness
+Projects have statuses: "Completed", "WIP", "Napkin sketch", "Research prototype", "Open sourced"
+- **"Completed"** ≠ shipped to production (still experimental)
+- Many experiments are discontinued
+- Only a small subset become official features
+- Always include status in descriptions
+
+#### Content Placement
+```markdown
+## 🔬 GitHub Next: A Glimpse into the Future
+
+⚠️ **Experimental Projects** - These are research explorations from GitHub Next. 
+Many experiments are discontinued. Do not rely on these for production planning.
+
+**[Project Name]** (Status: WIP)
+Brief description emphasizing experimental nature.
+→ [Explore project](link)
+```
+
+#### Example - Correct Formatting
+```markdown
+## 🔬 Experimental: GitHub Next Projects
+
+> ⚠️ **Note**: GitHub Next projects are research explorations. 
+> They may not become official features and should not be treated as roadmap commitments.
+
+**Copilot Radar** (Status: WIP)
+GitHub Next is exploring AI-powered code navigation that shows developers 
+the most relevant lines relative to their current position. This is an 
+experimental prototype, not a confirmed feature.
+→ [View research project](https://githubnext.com/projects/copilot-radar/)
+```
 
 ## Quality Checks
 

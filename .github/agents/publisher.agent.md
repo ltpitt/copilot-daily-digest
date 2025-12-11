@@ -35,13 +35,54 @@ Read from these directories:
 - `data/videos/*.json` - YouTube videos from GitHub channel
 - Each file contains: video_id, title, URL, thumbnail, date, description
 
+### 🔬 GitHub Next (EXPERIMENTAL)
+- `data/github-next/*.json` - Experimental projects from GitHub Next
+- **CRITICAL**: Each file has `experimental: true` flag
+- **Must include disclaimers** - See "GitHub Next Handling" section below
+
 ### Change Summary
 - `data/changes-summary.json` - What changed since last update
-- Contains: new docs, new blog posts, new videos, change counts
+- Contains: new docs, new blog posts, new videos, new github_next projects, change counts
 
 ### Metadata
 - `data/metadata.json` - Tracking information (hashes, dates, IDs)
 - Use for statistics and history
+
+## ⚠️ GitHub Next - Special Handling Required
+
+**CRITICAL RULES** for GitHub Next content:
+
+1. **Always add disclaimers**:
+   ```markdown
+   ## 🔬 GitHub Next: Experimental Projects
+   
+   > ⚠️ **Experimental** - These are research projects from GitHub Next.
+   > Many are discontinued. Not official roadmap or stable features.
+   ```
+
+2. **Language must emphasize experimental nature**:
+   - ✅ "exploring", "experimenting with", "research prototype"
+   - ❌ "will launch", "coming soon", "official feature"
+
+3. **Keep separate from official content**:
+   - Don't mix GitHub Next projects with official blog posts or docs
+   - Use distinct section with visual separation
+   - Always use 🔬 emoji for GitHub Next
+
+4. **Include project status**:
+   - Each project has status: "Completed", "WIP", "Napkin sketch", etc.
+   - "Completed" still means experimental, not production
+   - Always display status clearly
+
+5. **Example - Correct Format**:
+   ```markdown
+   ### 🔬 Experimental: Copilot Radar (WIP)
+   
+   GitHub Next is researching AI-powered code navigation. This is an 
+   experimental prototype and may not become an official feature.
+   
+   → [View research project](url)
+   ```
 
 ## Content to Generate
 
