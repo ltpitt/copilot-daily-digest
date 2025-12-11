@@ -462,3 +462,64 @@ Format:
 - Link to original sources
 - Date all content updates
 - Maintain consistent formatting across files
+
+---
+
+## Link Quality & Validation
+
+**CRITICAL**: All links in markdown files must be valid and functional.
+
+### Link Validation Requirements
+
+1. **Before merging content changes**:
+   - Run link validation: `python3 scripts/validate_links.py`
+   - Fix all real broken links (ignore template placeholders)
+   - Review `link-validation-report.json` for issues
+
+2. **Link Quality Standards**:
+   - **Internal links**: Use correct relative paths from current file
+   - **External links**: Verify URL is accessible (200 status)
+   - **Link text**: Use descriptive text, not generic "click here"
+   - **Prefer HTTPS** over HTTP
+   - **Use canonical URLs** (avoid redirects)
+
+3. **Common Broken Link Patterns**:
+   - GitHub Blog posts may be moved/removed - verify before linking
+   - Microsoft Learn modules may be reorganized - test URLs
+   - GitHub Discussions may not be enabled - check before linking
+   - Always prefer official documentation over blog posts for stability
+
+4. **Template Placeholders** (ignore these):
+   - Example URLs in documentation: `url`, `link`, `thumbnail_url`, `image-url`
+   - These are intentional placeholders in `.github/agents/` and `docs/` files
+   - Do not treat as broken links
+
+5. **Delegate to link-validator agent**:
+   - When you need comprehensive link validation
+   - When fixing multiple broken links
+   - For ongoing link quality maintenance
+
+### Link Validation Script
+
+Located at `scripts/validate_links.py`:
+- Checks all markdown files in key directories
+- Tests internal relative links (file existence)
+- Tests external HTTP/HTTPS links (status codes)
+- Generates detailed JSON report
+- Exit code 0 = all valid, 1 = broken links found
+
+### Example Usage
+
+```bash
+# Run validation
+python3 scripts/validate_links.py
+
+# Review report
+cat link-validation-report.json | python3 -m json.tool
+```
+
+### Integration with Content Generation
+
+**Content Generator Agent**: Run link validation before creating PR
+**Publisher Agent**: Include link validation in quality checks
+**All Agents**: When adding/updating markdown, validate links
