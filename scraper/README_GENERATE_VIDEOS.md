@@ -8,21 +8,37 @@ The `generate_videos.py` script generates a comprehensive video library page (`c
 
 - **Automatic Categorization**: Organizes videos by topic based on keywords
 - **Recent Content Highlighting**: "What's New This Week" section for videos from last 7 days
+- **No Duplication**: Recent videos marked with 🆕 badge in categories instead of being shown twice
+- **Streamlined Metadata**: Full metadata in "What's New", minimal metadata in categories
+- **Featured Videos**: Optional section for manually curated high-value content
 - **Rich Metadata Display**: Shows thumbnails, duration, view counts, publish dates
 - **Category Navigation**: Browse videos by topic with clear organization
-- **Statistics Dashboard**: Summary of video library with counts and breakdowns
+- **Actionable Descriptions**: "When to watch" guidance for each category
+- **Statistics Callout**: Compact stats box at the top of the page
 
 ## Categories
 
 Videos are automatically categorized based on keywords in titles and descriptions:
 
 1. **Getting Started** - Introductory content for beginners
-2. **Features** - New feature announcements and releases
+2. **Features & Updates** - New feature announcements, releases, and updates (combined category)
 3. **Tutorials** - Step-by-step guides and walkthroughs
-4. **Updates** - Changelogs and improvements
+4. **Agents** - Content about coding agents and automation
 5. **Extensions** - Integration and extension guides
-6. **Agents** - Content about coding agents and automation
-7. **Other** - Uncategorized content
+6. **Other** - Uncategorized content
+
+## Featured Videos
+
+You can manually curate high-value evergreen content by adding video IDs to the `FEATURED_VIDEO_IDS` list in the script:
+
+```python
+FEATURED_VIDEO_IDS = [
+    "dI4H5ZyYOx0",  # Assign Linear issues to Copilot coding agent
+    "LwqUp4Dc1mQ",  # Extending AI Agents: GitHub MCP Server demo
+]
+```
+
+Featured videos will appear in a dedicated section after "What's New This Week" and before category sections. If no videos are featured (empty list), the section is automatically hidden.
 
 ## Usage
 
@@ -44,12 +60,16 @@ python scraper/generate_videos.py
 The script will:
 1. Load all video JSON files from `data/videos/`
 2. Categorize videos by keywords
-3. Generate `content/videos.md` with:
-   - Header with statistics
-   - What's New This Week section
-   - Category-organized video listings
-   - Statistics section
-   - Quick links footer
+3. Identify recent videos (last 7 days)
+4. Check for featured videos (if any)
+5. Generate `content/videos.md` with:
+   - Header with statistics callout box
+   - Quick Navigation (table of contents)
+   - What's New This Week section (full metadata)
+   - Featured Videos section (if configured)
+   - Browse by Topic overview with "When to watch" guidance
+   - Category sections with videos (minimal metadata, 🆕 badge for recent)
+   - More Resources footer
 
 ## Input Format
 
@@ -93,33 +113,42 @@ The generated `content/videos.md` includes:
 
 ### Header Section
 - Title and last updated timestamp
-- Total video count and new videos count
-- Table of contents with category links
+- Statistics callout box showing:
+  - Total videos
+  - New this week
+  - Category breakdown
+- Quick Navigation (table of contents)
 
 ### What's New This Week
 - Videos from last 7 days
 - Sorted by date (newest first)
-- Full video cards with thumbnails
+- Full video cards with thumbnails and complete metadata
+- Published date, duration, views, channel
+
+### Featured Videos (Optional)
+- Manually curated high-value content
+- Only appears if `FEATURED_VIDEO_IDS` is populated
+- Same format as "What's New" section
+
+### Browse by Topic
+- Overview of all categories
+- Category descriptions with "When to watch" guidance
+- Video counts per category
 
 ### Category Sections
-- One section per category with videos
-- Category description
+- One section per non-empty category
+- Category description and "When to watch" guidance
 - Videos sorted by date (newest first)
 - Video cards with:
+  - 🆕 badge if published in last 7 days
   - Clickable thumbnail
   - Title (linked to YouTube)
-  - Publish date, duration, views, channel
+  - Minimal metadata: Published date + duration only
   - Description snippet
   - Watch link
 
-### Statistics Section
-- Total video count
-- New videos this week
-- Breakdown by category
-- Most recent video
-
 ### Footer
-- Quick links to documentation
+- More Resources links to documentation
 - Generation timestamp
 
 ## Functions
@@ -133,8 +162,13 @@ Categorizes videos by topic based on keywords in titles and descriptions.
 ### `get_recent_videos(videos: List[dict], days: int = 7) -> List[dict]`
 Filters videos published in the last N days.
 
-### `format_video_entry(video: dict) -> str`
+### `format_video_entry(video: dict, metadata_level: str = "full", is_recent: bool = False) -> str`
 Formats a video as a markdown card with thumbnail and metadata.
+
+Parameters:
+- `video`: Video dictionary with metadata
+- `metadata_level`: "full" (shows all metadata) or "minimal" (date + duration only)
+- `is_recent`: If True, adds 🆕 badge to video title
 
 ### `format_duration(duration: str) -> str`
 Converts ISO 8601 duration (e.g., "PT12M34S") to human-readable format (e.g., "12:34").
@@ -222,11 +256,28 @@ cat content/videos.md
 
 ## Maintenance
 
+### Updating Categories
+
 The category keywords can be updated in the `CATEGORIES` dictionary at the top of the script. When adding new categories:
 
 1. Add category name and keywords to `CATEGORIES` dict
-2. Add category emoji to the emoji dict in `generate_videos_page()`
-3. Add category description to the descriptions dict
+2. Add category emoji to the emoji dicts in `generate_videos_page()`
+3. Add category description and "When to watch" text to the descriptions dict
+
+### Curating Featured Videos
+
+To highlight evergreen high-value content:
+
+1. Find the video ID from the YouTube URL (e.g., `dI4H5ZyYOx0` from `https://www.youtube.com/watch?v=dI4H5ZyYOx0`)
+2. Add it to `FEATURED_VIDEO_IDS` list at the top of the script:
+   ```python
+   FEATURED_VIDEO_IDS = [
+       "dI4H5ZyYOx0",  # Assign Linear issues to Copilot coding agent
+   ]
+   ```
+3. Re-run the script to regenerate videos.md
+
+The featured section will automatically appear if the list is not empty.
 
 ## Future Enhancements
 
