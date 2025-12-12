@@ -179,7 +179,7 @@ Test coverage:
 
 ## Examples
 
-See `scraper/example_usage.py` for complete examples of:
+See the individual scraper files for complete examples of:
 - HTTP requests with retry logic
 - File operations and caching
 - Date/time handling

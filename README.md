@@ -155,9 +155,14 @@ copilot-daily-digest/
 │   └── copilot-instructions.md
 ├── content/                 # Generated content (user-facing)
 │   ├── README.md
-│   ├── changelog.md
-│   ├── cheatsheet.md
-│   └── VIDEOS.md
+│   ├── GETTING-STARTED.md
+│   ├── WHATS-NEW.md
+│   ├── VIDEOS.md
+│   ├── TRAININGS.md
+│   ├── CHANGELOG.md
+│   ├── COMMANDS.md
+│   ├── REFERENCE.md
+│   └── STARTER-KIT.md
 ├── data/                    # Scraped data (raw)
 │   ├── docs/
 │   ├── blog/

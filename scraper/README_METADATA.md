@@ -60,7 +60,7 @@ print(f"Total blog posts: {summary['total_blog_posts']}")
 
 ### Integration with Scraper
 
-See `example_integration.py` for a complete example of integrating metadata tracking with the scraper workflow.
+Refer to the individual scraper files (e.g., `fetch_blog.py`, `fetch_youtube.py`) for examples of integrating metadata tracking with the scraper workflow.
 
 ## API Reference
 

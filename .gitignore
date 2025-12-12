@@ -225,3 +225,7 @@ logs/
 # Local configuration overrides (for API keys, testing)
 config/*-local.yml
 config/*.local.yml
+
+# Generated reports and logs
+link-validation-report.json
+scraper.log
