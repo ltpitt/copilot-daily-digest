@@ -8,15 +8,15 @@
 
 ## 📋 Quick Navigation
 
-- [Official GitHub Courses](#🎓-official-github-courses) - Free, interactive
-- [Microsoft Learn Modules](#📚-microsoft-learn-modules) - Self-paced paths
+- [Official GitHub Courses](#official-github-courses) - Free, interactive
+- [Microsoft Learn Modules](#microsoft-learn-modules) - Self-paced paths
 - [Certifications](#certifications) - Paid exams with credentials
 - [Curated Courses](#curated-courses) - Community-recommended
 - [Learning Paths](#learning-paths) - Structured roadmaps
 
 ---
 
-## 🎓 Official GitHub Courses
+## Official GitHub Courses
 
 **All FREE | Interactive | Beginner-friendly**
 
@@ -52,7 +52,7 @@ Learn how to use GitHub Copilot to expand your team's capabilities with hands-on
 
 ---
 
-## 📚 Microsoft Learn Modules
+## Microsoft Learn Modules
 
 **All FREE | Self-paced | Hands-on labs**
 
@@ -104,7 +104,7 @@ Put your GitHub Copilot skills to the test by building a complete minigame. This
 
 ---
 
-## 🏆 Certifications
+## Certifications
 
 **Paid Exams | Industry Recognition**
 
@@ -132,7 +132,7 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 
 ---
 
-## 📖 Curated Courses
+## Curated Courses
 
 **Community-Recommended | Premium Content**
 
@@ -156,7 +156,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 
 ---
 
-## 🗺️ Learning Paths
+## Learning Paths
 
 ### For Beginners
 
@@ -240,7 +240,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 
 ---
 
-## 💡 Study Tips
+## Study Tips
 
 ### Make Learning Stick
 - **Practice daily**: Use Copilot on real projects, not just tutorials
@@ -256,7 +256,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 
 ---
 
-## 📊 Course Comparison Table
+## Course Comparison Table
 
 | Course | Provider | Level | Duration | Cost | Certification |
 |--------|----------|-------|----------|------|---------------|
@@ -270,7 +270,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 
 ---
 
-## 🔗 Additional Resources
+## Additional Resources
 
 - **[Official Documentation](https://docs.github.com/copilot)** - Complete reference
 - **[Video Library](videos.md)** - Tutorials and demos
