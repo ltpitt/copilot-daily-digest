@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-12T13:43:16.968226+00:00",
+  "generated_at": "2025-12-12T19:39:19.856318+00:00",
   "has_changes": true,
   "total_changes": 16,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-12T13:43:03Z",
+        "timestamp": "2025-12-12T19:39:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-12T13:43:09Z",
+        "timestamp": "2025-12-12T19:39:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-12T13:43:04Z",
+        "timestamp": "2025-12-12T19:39:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-12T13:43:14Z",
+        "timestamp": "2025-12-12T19:39:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-12T13:43:11Z",
+        "timestamp": "2025-12-12T19:39:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-12T13:43:00Z",
+        "timestamp": "2025-12-12T19:38:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-12T13:43:02Z",
+        "timestamp": "2025-12-12T19:38:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-12T13:43:01Z",
+        "timestamp": "2025-12-12T19:38:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-12T13:43:10Z",
+        "timestamp": "2025-12-12T19:39:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-12T13:43:08Z",
+        "timestamp": "2025-12-12T19:39:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-12T13:42:59Z",
+        "timestamp": "2025-12-12T19:38:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-12T13:43:05Z",
+        "timestamp": "2025-12-12T19:39:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-12T13:43:07Z",
+        "timestamp": "2025-12-12T19:39:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-12T13:43:13Z",
+        "timestamp": "2025-12-12T19:39:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -113,10 +113,10 @@
     "new_count": 1,
     "new_posts": [
       {
-        "title": "Review commit-by-commit, improved filtering, and more in the pull request “Files changed” public preview",
-        "url": "https://github.blog/changelog/2025-12-11-review-commit-by-commit-improved-filtering-and-more-in-the-pull-request-files-changed-public-preview",
-        "date": "2025-12-12T02:59:42Z",
-        "summary": "<p>A major feature gap with the classic &#8220;Files changed&#8221; page (review commit-by-commit) is now closed and commit filtering has been improved in this update to the pull request &#8220;Files "
+        "title": "Better diagnostics for VNET injected runners and required self-hosted runner upgrades",
+        "url": "https://github.blog/changelog/2025-12-12-better-diagnostics-for-vnet-injected-runners-and-required-self-hosted-runner-upgrades",
+        "date": "2025-12-12T14:12:05Z",
+        "summary": "<p>GitHub-hosted larger runners with Azure private networking (Azure VNET-injection) now display detailed network diagnostics when connectivity issues occur. Instead of generic pool errors, you&#8217;"
       }
     ]
   },
@@ -128,105 +128,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 12, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"Review commit-by-commit, improved filtering, and more in the pull request “Files changed” public preview\" (2025-12-12)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on December 12, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"Better diagnostics for VNET injected runners and required self-hosted runner upgrades\" (2025-12-12)\n\nTotal: 16 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
     "total_changes": 15,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-12T13:43:03Z",
+        "timestamp": "2025-12-12T19:39:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-12T13:43:09Z",
+        "timestamp": "2025-12-12T19:39:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-12T13:43:04Z",
+        "timestamp": "2025-12-12T19:39:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-12T13:43:14Z",
+        "timestamp": "2025-12-12T19:39:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-12T13:43:11Z",
+        "timestamp": "2025-12-12T19:39:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-12T13:43:00Z",
+        "timestamp": "2025-12-12T19:38:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-12T13:43:02Z",
+        "timestamp": "2025-12-12T19:38:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-12T13:43:01Z",
+        "timestamp": "2025-12-12T19:38:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-12T13:43:10Z",
+        "timestamp": "2025-12-12T19:39:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-12T13:43:08Z",
+        "timestamp": "2025-12-12T19:39:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-12T13:42:59Z",
+        "timestamp": "2025-12-12T19:38:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-12T13:43:05Z",
+        "timestamp": "2025-12-12T19:39:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-12T13:43:07Z",
+        "timestamp": "2025-12-12T19:39:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-12T13:43:13Z",
+        "timestamp": "2025-12-12T19:39:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -234,10 +234,10 @@
     ],
     "new_blog_posts": [
       {
-        "title": "Review commit-by-commit, improved filtering, and more in the pull request “Files changed” public preview",
-        "url": "https://github.blog/changelog/2025-12-11-review-commit-by-commit-improved-filtering-and-more-in-the-pull-request-files-changed-public-preview",
-        "date": "2025-12-12T02:59:42Z",
-        "summary": "<p>A major feature gap with the classic &#8220;Files changed&#8221; page (review commit-by-commit) is now closed and commit filtering has been improved in this update to the pull request &#8220;Files "
+        "title": "Better diagnostics for VNET injected runners and required self-hosted runner upgrades",
+        "url": "https://github.blog/changelog/2025-12-12-better-diagnostics-for-vnet-injected-runners-and-required-self-hosted-runner-upgrades",
+        "date": "2025-12-12T14:12:05Z",
+        "summary": "<p>GitHub-hosted larger runners with Azure private networking (Azure VNET-injection) now display detailed network diagnostics when connectivity issues occur. Instead of generic pool errors, you&#8217;"
       }
     ],
     "new_videos": []
