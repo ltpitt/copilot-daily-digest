@@ -1,281 +1,179 @@
 # GitHub Copilot Complete Reference
 
-> Last updated: December 10, 2025
+> Links to official documentation organized by category
 
-## 📋 Quick Navigation
-
-- [Documentation Files](#documentation-files)
-- [Blog Resources](#blog-resources)
-- [Video Library](#video-library)
-- [Complete Changelog](#complete-changelog)
-
-**Quick Access**:
-- [Changelog](changelog.md) - Detailed timeline of all updates
-- [Cheatsheet](cheatsheet.md) - Commands, shortcuts, and quick reference
-- [Main Digest](README.md) - Current highlights and best practices
+**Last Updated**: 2025-12-12
 
 ---
 
-## Documentation Files
+## 📋 Core Documentation
 
-Currently tracked documentation from official GitHub sources:
+### Getting Started
+- **[copilot-overview.md](../data/docs/copilot-overview.md)** - Introduction to GitHub Copilot capabilities and features
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 3,366 bytes
 
-### Core Features
-- **copilot-overview.md** - Introduction to GitHub Copilot capabilities and features
-- **copilot-getting-started.md** - Setup guide and initial configuration steps
-- **copilot-chat.md** - Using Copilot Chat for interactive assistance
-- **copilot-code-suggestions.md** - Understanding inline code suggestions and completions
+- **[copilot-getting-started.md](../data/docs/copilot-getting-started.md)** - Setup guide and initial configuration steps
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 24,502 bytes
+  - Covers: VS Code, JetBrains, Visual Studio, Eclipse, Xcode, Windows Terminal
 
-### Extensions & Customization
-- **copilot-extensions-overview.md** - Overview of Copilot extensions ecosystem
-- **copilot-extensions-integration.md** - Integrating custom extensions into your workflow
-- **copilot-custom-instructions.md** - Creating effective custom instructions files
-- **copilot-configuration.md** - Configuration options and settings
+- **[copilot-chat.md](../data/docs/copilot-chat.md)** - Using Copilot Chat for interactive assistance
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 56,097 bytes
+  - Covers: Chat commands, slash commands, chat participants, agent mode
 
-### Best Practices & Guidance
-- **copilot-best-practices.md** - Proven patterns for effective Copilot usage
-- **copilot-prompt-engineering.md** - Crafting effective prompts for better results
-- **copilot-asking-questions.md** - How to ask questions that get quality answers
-- **copilot-responsible-use.md** - Guidelines for responsible AI usage
+- **[copilot-asking-questions.md](../data/docs/copilot-asking-questions.md)** - How to ask questions that get quality answers
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 56,097 bytes
+
+### Features
+- **[copilot-code-suggestions.md](../data/docs/copilot-code-suggestions.md)** - Understanding inline code suggestions and completions
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 29,515 bytes
+  - Covers: Inline suggestions, accepting/rejecting suggestions, suggestion quality
+
+- **[copilot-extensions-overview.md](../data/docs/copilot-extensions-overview.md)** - Overview of Copilot extensions ecosystem
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 4,729 bytes
+
+- **[copilot-extensions-integration.md](../data/docs/copilot-extensions-integration.md)** - Integrating custom extensions into your workflow
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 4,729 bytes
+
+### Configuration
+- **[copilot-custom-instructions.md](../data/docs/copilot-custom-instructions.md)** - Creating effective custom instructions files
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 50,608 bytes
+  - Covers: copilot-instructions.md, project-specific context, best practices
+
+- **[copilot-configuration.md](../data/docs/copilot-configuration.md)** - Configuration options and settings
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 26,671 bytes
+  - Covers: IDE settings, keyboard shortcuts, preferences
+
+### Best Practices
+- **[copilot-best-practices.md](../data/docs/copilot-best-practices.md)** - Proven patterns for effective Copilot usage
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 5,772 bytes
+  - Key topics: When to use Copilot, choosing the right tool, checking Copilot's work
+
+- **[copilot-prompt-engineering.md](../data/docs/copilot-prompt-engineering.md)** - Crafting effective prompts for better results
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 6,310 bytes
+  - Key topics: Start general then specific, give examples, break down tasks, avoid ambiguity
+
+- **[copilot-responsible-use.md](../data/docs/copilot-responsible-use.md)** - Guidelines for responsible AI usage
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 892 bytes
 
 ### Administration
-- **copilot-managing-organization.md** - Organization-level management and policies
-- **copilot-troubleshooting.md** - Common issues and solutions
+- **[copilot-managing-organization.md](../data/docs/copilot-managing-organization.md)** - Organization-level management and policies
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 1,311 bytes
+  - Covers: Policies, access control, usage metrics
+
+- **[copilot-troubleshooting.md](../data/docs/copilot-troubleshooting.md)** - Common issues and solutions
+  - Last updated: 2025-12-12 13:50 UTC
+  - Size: 742 bytes
 
 ---
 
-## Blog Resources
-
-### Recent Announcements & Updates
-
-#### December 2025
-1. **Model Picker for Copilot Coding Agent** (Dec 8, 2025)
-   - Choose your preferred AI model (Pro/Pro+ subscribers)
-   - [Read more →](https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers)
-
-2. **Enterprise Teams Product Limits Increased by Over 10x** (Dec 8, 2025)
-   - Significantly higher limits for enterprise deployments
-   - [Read more →](https://github.blog/changelog/2025-12-08-enterprise-teams-product-limits-increased-by-over-10x)
-
-3. **Track Copilot Code Generation Metrics in a Dashboard** (Dec 5, 2025)
-   - New analytics dashboard for measuring productivity
-   - [Read more →](https://github.blog/changelog/2025-12-05-track-copilot-code-generation-metrics-in-a-dashboard)
-
-4. **Notifications Triggered by Spam Accounts Are Now Correctly Hidden** (Dec 4, 2025)
-   - Improved notification filtering
-   - [Read more →](https://github.blog/changelog/2025-12-04-notifications-triggered-by-spam-accounts-are-now-correctly-hidden)
-
-5. **OpenAI's GPT-5.1 Codex Max Now in Public Preview** (Dec 4, 2025)
-   - Latest OpenAI model available for Copilot users
-   - [Read more →](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot)
-
-6. **CodeQL 2.23.6 Adds Swift 6.2.1 and New C Security Queries** (Dec 4, 2025)
-   - Enhanced security scanning capabilities
-   - [Read more →](https://github.blog/changelog/2025-12-04-codeql-2-23-6-adds-swift-6-2-1-and-new-c-security-queries)
-
-7. **GitHub Copilot in Visual Studio November Update** (Dec 3, 2025)
-   - Latest Visual Studio integration improvements
-   - [Read more →](https://github.blog/changelog/2025-12-03-github-copilot-in-visual-studio-november-update)
-
-8. **Claude Opus 4.5 Available in Multiple IDEs** (Dec 3, 2025)
-   - New model support across Visual Studio, JetBrains, Xcode, and Eclipse
-   - [Read more →](https://github.blog/changelog/2025-12-03-claude-opus-4-5-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
-
-9. **Assign Issues to Copilot Using the API** (Dec 3, 2025)
-   - Programmatic issue assignment to Copilot agents
-   - [Read more →](https://github.blog/changelog/2025-12-03-assign-issues-to-copilot-using-the-api)
-
-### Featured Blog Posts
-
-#### Workflows & Integration
-- **How to Use GitHub Copilot Spaces to Debug Issues Faster**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/how-to-use-github-copilot-spaces-to-debug-issues-faster/)
-
-- **How to Orchestrate Agents Using Mission Control**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/)
-
-- **5 Ways to Integrate GitHub Copilot Coding Agent into Your Workflow**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/)
-
-#### Best Practices & Guides
-- **How to Write a Great AGENTS.md - Lessons from Over 2,500 Repositories**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
-
-- **A Developer's Guide to Writing, Debugging, Reviewing, and Shipping Code Faster**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-writing-debugging-reviewing-and-shipping-code-faster-with-github-copilot/)
-
-- **GitHub Copilot CLI 101: How to Use GitHub Copilot from the Command Line**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot-cli-101-how-to-use-github-copilot-from-the-command-line/)
-
-#### Technical Deep Dives
-- **How GitHub's Agentic Security Principles Make Our AI Agents as Secure as Possible**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/how-githubs-agentic-security-principles-make-our-ai-agents-as-secure-as-possible/)
-
-- **Evolving GitHub Copilot's Next Edit Suggestions Through Custom Model Training**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/evolving-github-copilots-next-edit-suggestions-through-custom-model-training/)
-
-- **How We're Making GitHub Copilot Smarter with Fewer Tools**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/)
-
-- **How Copilot Helps Build the GitHub Platform**
-  - [Read article →](https://github.blog/ai-and-ml/github-copilot/how-copilot-helps-build-the-github-platform/)
-
-#### Custom Agents & Extensions
-- **Your Stack, Your Rules: Introducing Custom Agents for Observability, IaC, and Security**
-  - [Read article →](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/)
-
----
-
-## Video Library
-
-### Getting Started & Tutorials
-
-**GitHub Copilot Spaces for Debugging** (Video ID: dlgYCpQI_lU)
-- Learn how to use Copilot Spaces for faster debugging
-- [Watch on YouTube →](https://www.youtube.com/watch?v=dlgYCpQI_lU)
-
-**Orchestrating Agents with Mission Control** (Video ID: X9jbNK1006E)
-- Master multi-agent workflows and orchestration
-- [Watch on YouTube →](https://www.youtube.com/watch?v=X9jbNK1006E)
-
-**Writing Great AGENTS.md Files** (Video ID: boviC841YWs)
-- Best practices for custom agent instructions
-- [Watch on YouTube →](https://www.youtube.com/watch?v=boviC841YWs)
-
-**GitHub Copilot CLI 101** (Video ID: 8hyvYP5PCks)
-- Command-line interface walkthrough and tips
-- [Watch on YouTube →](https://www.youtube.com/watch?v=8hyvYP5PCks)
-
-**How Copilot Builds the GitHub Platform** (Video ID: dI4H5ZyYOx0)
-- Inside look at using Copilot for platform development
-- [Watch on YouTube →](https://www.youtube.com/watch?v=dI4H5ZyYOx0)
-
-**Developer's Guide to Shipping Code Faster** (Video ID: LwqUp4Dc1mQ)
-- Complete workflow guide for faster development
-- [Watch on YouTube →](https://www.youtube.com/watch?v=LwqUp4Dc1mQ)
-
----
-
-## Complete Changelog
-
-### December 10, 2025
-
-#### Documentation Updates (14 files refreshed at 13:53 UTC)
-All documentation files received routine timestamp updates during the afternoon scrape:
-
-- **copilot-overview.md** - Last updated: 13:53:01 UTC
-- **copilot-getting-started.md** - Last updated: 13:53:02 UTC
-- **copilot-chat.md** - Last updated: 13:53:03 UTC
-- **copilot-extensions-overview.md** - Last updated: 13:53:05 UTC
-- **copilot-extensions-integration.md** - Last updated: 13:53:06 UTC
-- **copilot-custom-instructions.md** - Last updated: 13:53:08 UTC
-- **copilot-best-practices.md** - Last updated: 13:53:09 UTC
-- **copilot-prompt-engineering.md** - Last updated: 13:53:11 UTC
-- **copilot-asking-questions.md** - Last updated: 13:53:12 UTC (hash reverted to `121b148...`)
-- **copilot-code-suggestions.md** - Last updated: 13:53:14 UTC
-- **copilot-managing-organization.md** - Last updated: 13:53:16 UTC
-- **copilot-configuration.md** - Last updated: 13:53:17 UTC
-- **copilot-responsible-use.md** - Last updated: 13:53:19 UTC
-- **copilot-troubleshooting.md** - Last updated: 13:53:21 UTC
-
-Note: copilot-asking-questions.md hash changed back to previous version, indicating content synchronization.
-
-### December 9, 2025
-
-#### Documentation Updates (14 files refreshed at 23:23 UTC)
-All documentation files received timestamp updates in the evening scrape:
-
-- **copilot-overview.md** - Last updated: 23:22:57 UTC
-- **copilot-getting-started.md** - Last updated: 23:22:59 UTC
-- **copilot-chat.md** - Last updated: 23:23:00 UTC
-- **copilot-extensions-overview.md** - Last updated: 23:23:01 UTC
-- **copilot-extensions-integration.md** - Last updated: 23:23:02 UTC
-- **copilot-custom-instructions.md** - Last updated: 23:23:03 UTC
-- **copilot-best-practices.md** - Last updated: 23:23:05 UTC
-- **copilot-prompt-engineering.md** - Last updated: 23:23:06 UTC
-- **copilot-asking-questions.md** - Last updated: 23:23:23 UTC (hash changed from previous version)
-- **copilot-code-suggestions.md** - Last updated: 23:23:24 UTC
-- **copilot-managing-organization.md** - Last updated: 23:23:25 UTC
-- **copilot-configuration.md** - Last updated: 23:23:27 UTC
-- **copilot-responsible-use.md** - Last updated: 23:23:28 UTC
-- **copilot-troubleshooting.md** - Last updated: 23:23:30 UTC
-
-Note: copilot-asking-questions.md received a content update (hash changed from `121b148...` to `6545994...`)
-
-#### GitHub Changelog Posts (Non-Copilot)
-Two GitHub platform updates were published (not directly Copilot-related):
-
-- **npm classic tokens revoked, session-based auth and CLI token management now available** (16:21:59 UTC)
-  - npm authentication security hardening milestone
-  - [Read more →](https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available)
-
-- **Dependabot-based dependency graphs for Go** (15:54:48 UTC)
-  - Go projects now show more complete transitive dependency trees
-  - [Read more →](https://github.blog/changelog/2025-12-09-dependabot-dgs-for-go)
-
-#### File Removals
-- **scrape-summary.md** - Removed from tracking (no longer maintained)
-
-#### Earlier Updates (Morning of December 9)
-Documentation files were also refreshed at approximately 10:55 UTC. Notable content change:
-- **copilot-chat.md** received a content update at 10:16:40 UTC (+10 lines, -0 lines)
-  - Expanded chat capabilities documentation
-  - Most significant content change of the day
-
-### December 8, 2025
-
-#### Product Updates
-- **Model Picker for Copilot Coding Agent** - Pro and Pro+ subscribers can now select preferred AI models
-- **Enterprise Team Limits Increased by 10x** - Significantly expanded capacity for enterprise customers
-
-### December 5, 2025
-
-#### Product Updates
-- **Code Generation Metrics Dashboard** - New analytics dashboard for tracking Copilot usage and productivity
-
-### December 4, 2025
-
-#### Product Updates
-- **GPT-5.1 Codex Max Public Preview** - OpenAI's latest model now available
-- **CodeQL 2.23.6 Release** - Swift 6.2.1 support and new C security queries
-- **Spam Notification Filtering** - Improved notification handling
-
-### December 3, 2025
-
-#### Product Updates
-- **Claude Opus 4.5 Availability** - New model in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
-- **Visual Studio November Update** - Latest Copilot integration improvements
-- **Issue Assignment API** - Programmatically assign issues to Copilot agents
-
----
-
-## Statistics
-
-- **Total Documentation Files**: 14 (actively tracked)
-- **Blog Posts Tracked**: 19 URLs
-- **Videos Curated**: 6 tutorials and guides
-- **Last Full Update**: December 10, 2025 at 13:53:22 UTC
-
----
-
-## Additional Resources
+## 🔗 External Resources
 
 ### Official Documentation
-- [GitHub Copilot Documentation](https://docs.github.com/copilot)
-- [Copilot Cheat Sheet](https://docs.github.com/en/copilot/reference/cheat-sheet)
-- [Coding Agent Official Docs](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
+- [GitHub Copilot Documentation](https://docs.github.com/copilot) - Complete official documentation
+- [GitHub Copilot Plans](https://docs.github.com/copilot/about-github-copilot/subscription-plans-for-github-copilot) - Copilot Free, Pro, Pro+, Enterprise
 
-### Learning Resources
-- [GitHub Skills: Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
-- [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [Spec-driven Development Toolkit](https://github.com/github/spec-kit)
-- [Eval-Driven Development Guide](https://vercel.com/blog/eval-driven-development-build-better-ai-faster)
+### GitHub Blog
+- [GitHub Blog - Copilot Category](https://github.blog/category/copilot/) - Latest news and announcements
+- [GitHub Blog - AI & ML](https://github.blog/ai-and-ml/) - AI/ML content including Copilot
 
-### Community & Support
-- [GitHub Blog - AI & ML Category](https://github.blog/ai-and-ml/)
-- [GitHub Changelog](https://github.blog/changelog/)
-- [GitHub Community Forums](https://github.community/)
+### Community
+- [GitHub Community Discussions - Copilot](https://github.com/orgs/community/discussions/categories/copilot) - Ask questions, share tips
+- [GitHub Changelog](https://github.blog/changelog/) - Product updates and new features
+
+### Research & Experimental
+- [GitHub Next](https://githubnext.com/) - Experimental projects and future features
+  - ⚠️ Experimental - Not production-ready
 
 ---
 
-*This reference is automatically updated by the GitHub Copilot Daily Digest system. For the latest curated highlights and best practices, see [README.md](README.md).*
+## 📊 Documentation Freshness
+
+| Document | Last Updated | Size | Status |
+|----------|--------------|------|--------|
+| copilot-overview.md | 2025-12-12 13:50 UTC | 3.3 KB | ✅ Current |
+| copilot-getting-started.md | 2025-12-12 13:50 UTC | 24.5 KB | ✅ Current |
+| copilot-chat.md | 2025-12-12 13:50 UTC | 56.1 KB | ✅ Current |
+| copilot-asking-questions.md | 2025-12-12 13:50 UTC | 56.1 KB | ✅ Current |
+| copilot-code-suggestions.md | 2025-12-12 13:50 UTC | 29.5 KB | ✅ Current |
+| copilot-extensions-overview.md | 2025-12-12 13:50 UTC | 4.7 KB | ✅ Current |
+| copilot-extensions-integration.md | 2025-12-12 13:50 UTC | 4.7 KB | ✅ Current |
+| copilot-custom-instructions.md | 2025-12-12 13:50 UTC | 50.6 KB | ✅ Current |
+| copilot-configuration.md | 2025-12-12 13:50 UTC | 26.7 KB | ✅ Current |
+| copilot-best-practices.md | 2025-12-12 13:50 UTC | 5.8 KB | ✅ Current |
+| copilot-prompt-engineering.md | 2025-12-12 13:50 UTC | 6.3 KB | ✅ Current |
+| copilot-responsible-use.md | 2025-12-12 13:50 UTC | 892 B | ✅ Current |
+| copilot-managing-organization.md | 2025-12-12 13:50 UTC | 1.3 KB | ✅ Current |
+| copilot-troubleshooting.md | 2025-12-12 13:50 UTC | 742 B | ✅ Current |
+
+---
+
+## 📚 Related Content
+
+### Quick Guides
+- **[Getting Started Guide](GETTING-STARTED.md)** - 5-minute setup and best practices
+- **[Commands & Shortcuts](COMMANDS.md)** - Quick reference for commands
+
+### News & Updates
+- **[What's New](WHATS-NEW.md)** - Latest updates (last 30 days)
+- **[Complete Changelog](CHANGELOG.md)** - Full historical timeline
+
+### Learning Resources
+- **[Training Courses](TRAININGS.md)** - Courses, certifications, learning paths
+- **[Video Library](videos.md)** - Curated tutorials and demos
+
+---
+
+## 🗂️ Documentation Index by Topic
+
+### Prompting & Interaction
+- [copilot-chat.md](../data/docs/copilot-chat.md) - Chat features and commands
+- [copilot-asking-questions.md](../data/docs/copilot-asking-questions.md) - Asking effective questions
+- [copilot-prompt-engineering.md](../data/docs/copilot-prompt-engineering.md) - Prompt engineering techniques
+
+### Code Generation
+- [copilot-code-suggestions.md](../data/docs/copilot-code-suggestions.md) - Inline suggestions
+- [copilot-custom-instructions.md](../data/docs/copilot-custom-instructions.md) - Custom instructions
+
+### Setup & Configuration
+- [copilot-getting-started.md](../data/docs/copilot-getting-started.md) - Initial setup
+- [copilot-configuration.md](../data/docs/copilot-configuration.md) - Configuration options
+
+### Best Practices & Guidelines
+- [copilot-best-practices.md](../data/docs/copilot-best-practices.md) - Usage best practices
+- [copilot-responsible-use.md](../data/docs/copilot-responsible-use.md) - Responsible AI usage
+
+### Advanced Features
+- [copilot-extensions-overview.md](../data/docs/copilot-extensions-overview.md) - Extensions ecosystem
+- [copilot-extensions-integration.md](../data/docs/copilot-extensions-integration.md) - Extension integration
+
+### Administration
+- [copilot-managing-organization.md](../data/docs/copilot-managing-organization.md) - Organization management
+- [copilot-troubleshooting.md](../data/docs/copilot-troubleshooting.md) - Troubleshooting
+
+---
+
+## 📈 Statistics
+
+- **Total Documentation Files**: 14
+- **Total Size**: ~266 KB
+- **Last Sync**: 2025-12-12 13:50 UTC
+- **Videos Tracked**: 8
+- **Training Courses**: 7
+- **Blog Posts Tracked**: 28
+
+---
+
+*For quick command reference, see [COMMANDS.md](COMMANDS.md)*
