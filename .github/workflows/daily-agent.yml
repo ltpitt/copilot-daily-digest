@@ -84,93 +84,74 @@ jobs:
 
           ---
 
-          @copilot Please synthesize curated, actionable content that helps engineers stay current with GitHub Copilot Coding Agent.
+          @copilot Please synthesize **modular, topic-focused** content that helps engineers stay current with GitHub Copilot.
 
           ### Data Sources Available
           - **Documentation**: \`data/docs/*.md\` (14 files) - Official GitHub Copilot docs
-          - **Blog Posts**: \`data/blog/*.json\` (19 files) - Full HTML content with tutorials, best practices, announcements
-          - **Videos**: \`data/videos/*.json\` (6 files) - Curated Copilot/AI videos from GitHub channel
+          - **Blog Posts**: \`data/blog/*.json\` (19+ files) - Full HTML content with tutorials, best practices, announcements
+          - **Videos**: \`data/videos/*.json\` (6+ files) - Curated Copilot/AI videos from GitHub channel
           - **Trainings**: \`data/trainings/*.json\` (7+ files) - Curated courses from GitHub Skills, Microsoft Learn, Certifications, Udemy
           - **Change Detection**: \`data/changes-summary.json\` - What changed since last scrape (with diff summaries)
           - **Version History**: \`data/metadata.json\` - \`doc_versions[].history[]\` tracks all changes with timestamps
 
-          ### Task: Generate 2 Content Files
+          ### Task: Generate 7 Modular Content Files
 
-          #### 1. \`content/README.md\` - Engineer's Daily Companion
-          
-          **Goal**: Constantly-updated getting started guide (like STARTER-KIT.md)
-          
-          Structure:
-          \`\`\`markdown
-          # GitHub Copilot: Your Daily Companion
-          
-          > Last updated: [DATE] | 📰 [N] updates this week
-          
-          ## 🚀 Quick Start in 5 Minutes
-          [Progressive steps for new users]
-          
-          ## 📰 What's New This Week
-          [TOP 3-5 significant changes only - curate from changes-summary.json and blog posts]
-          
-          ## 💡 Best Practices
-          [3-5 actionable tips extracted from blog post HTML content]
-          
-          ## 🎥 Featured Videos
-          [1-2 most relevant to recent updates]
-          
-          ## 🎓 Featured Trainings
-          [2-3 most relevant courses - prioritize official and beginner-friendly from data/trainings/]
-          
-          ---
-          **Need more?** [Complete Reference](REFERENCE.md) | [Official Docs](https://docs.github.com/copilot)
-          \`\`\`
+          **CRITICAL**: Each file is **self-contained** and **topic-focused**. No mixing of concerns.
 
-          **AI Instructions for What's New**:
-          - Parse \`data/blog/*.json\` → look for \`published\` in last 7 days
-          - Check blog post \`content\` field for keywords: \"new feature\", \"announcing\", \"now available\"
-          - Prioritize: Blog posts > Doc changes with \`added_lines > 50\` > Minor updates
-          - Format: **[Feature]** (date) + one-sentence + key benefit + 2 links (try it, learn more)
-          
-          **AI Instructions for Best Practices**:
-          - Parse \`data/blog/*.json\` → \`content\` field (HTML)
-          - Look for: \"best practice\", \"tip:\", \"prompt pattern:\", \"try this:\", code examples
-          - Extract actionable advice with concrete examples
-          - Format: **[Tip title]**: [description with example] → Source: [blog post](link)
+          #### 1. \`content/README.md\` - Navigation Hub (50-100 lines max)
+          - Central index linking to all other files
+          - Current stats (N updates, N videos, N trainings)
+          - Official resource links
+          - **NO detailed content** - only links and summaries
 
-          #### 2. \`content/REFERENCE.md\` - Complete Reference
+          #### 2. \`content/GETTING-STARTED.md\` - Quick Start + Best Practices (200-300 lines)
+          - 5-minute quick setup tutorial
+          - Extract 5-7 actionable best practices from blog posts
+          - Each tip: ❌/✅ comparison + concrete example + source link
+          - Links to VIDEOS.md, TRAININGS.md, WHATS-NEW.md for next steps
 
-          **Goal**: Comprehensive documentation for deep dives
-          
-          Structure:
-          \`\`\`markdown
-          # GitHub Copilot Complete Reference
-          
-          ## Slash Commands
-          [Extract from data/docs/copilot-chat.md]
-          
-          ## Chat Variables
-          [Extract from data/docs/copilot-chat.md]
-          
-          ## Keyboard Shortcuts
-          [Extract from data/docs/copilot-getting-started.md]
-          
-          ## Complete Changelog
-          [ALL changes, reverse chronological, from metadata.json doc_versions.history]
-          
-          ## All Videos
-          [All 6 videos, categorized by topic]
-          \`\`\`
+          #### 3. \`content/WHATS-NEW.md\` - Latest Updates (300-400 lines)
+          - **This Week**: TOP 3-5 significant changes from last 7 days
+          - **This Month**: TOP 10 significant changes from last 30 days
+          - Auto-expires content older than 30 days (point to CHANGELOG.md)
+          - Format: Feature name + what's new + why it matters + get started links
+
+          #### 4. \`content/VIDEOS.md\` - Video Library
+          - **DO NOT MODIFY** - Auto-generated by \`scraper/generate_videos.py\`
+
+          #### 5. \`content/TRAININGS.md\` - Courses & Certifications (400-500 lines)
+          - Group by provider: GitHub Skills, Microsoft Learn, Certifications, Curated
+          - Each course: Level, duration, cost, description, what you'll learn
+          - Learning paths for beginners and advanced users
+          - Quality filters: Official always included, Udemy only if rating >= 4.5
+
+          #### 6. \`content/CHANGELOG.md\` - Complete Historical Timeline (unlimited)
+          - Reverse chronological, month-by-month
+          - ALL updates: blog posts, doc changes, videos
+          - Never remove old entries (complete historical record)
+
+          #### 7. \`content/COMMANDS.md\` - Quick Reference (200-300 lines)
+          - Slash commands table (extract from copilot-chat.md)
+          - Keyboard shortcuts by IDE (extract from copilot-getting-started.md)
+          - Chat variables table (extract from copilot-chat.md)
+          - Chat participants table (extract from copilot-chat.md)
+
+          #### 8. \`content/REFERENCE.md\` - Complete Docs Index (100-200 lines)
+          - All 14 docs grouped by category
+          - Brief description for each
+          - Last updated timestamps from metadata.json
+          - Links to external resources
 
           ### Output Requirements
-          - **Brief**: README.md should be ~500-800 words (engineers skim fast)
-          - **Actionable**: Every tip must be something engineers can try immediately
-          - **Factual**: Specific features with dates, not vague \"updates available\"
-          - **Linked**: Every mention links to source (blog post, doc, video)
-          - **Fresh**: Focus on last 30 days, older items only if highly significant
+          - **Modular**: Each file has ONE clear purpose
+          - **Scannable**: Use tables, bullets, emojis sparingly
+          - **Actionable**: Every tip has concrete examples
+          - **Linked**: Every mention links to source
+          - **Fresh**: Auto-expire old content in WHATS-NEW.md
 
-          **Instructions file**: \`.github/copilot-instructions.md\` has full synthesis rules
+          **Instructions file**: \`.github/copilot-instructions.md\` has complete generation rules for each file
 
-          Create a PR with both files."
+          Create a PR with all 7 files (VIDEOS.md already exists, don't touch it)."
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'
