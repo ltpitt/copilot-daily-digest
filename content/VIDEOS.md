@@ -18,7 +18,7 @@
 
 ---
 
-## 🆕 What's New This Week
+## What's New This Week
 
 *Videos published in the last 7 days*
 
@@ -70,7 +70,7 @@ Code reviews are essential but often time-consuming. Join us for a deep dive int
 
 ---
 
-## 📂 Browse by Category
+## Browse by Category
 
 Videos are organized by topic for easy navigation:
 
@@ -162,7 +162,7 @@ As the toolset available to Copilot has become more advanced, so has the toolset
 ---
 
 
-## 🤖 Agents
+## Agents
 
 *Explore autonomous coding agents and advanced AI-powered workflows.*
 

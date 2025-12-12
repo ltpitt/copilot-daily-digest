@@ -370,13 +370,21 @@ Updated all content with latest data from [YYYY-MM-DD].
 
 **GitHub strips emojis from anchor IDs. Anchor links with emojis WILL BREAK.**
 
-**✅ CORRECT - Strip emojis from anchor links:**
+**THE ONLY RULE: DO NOT USE EMOJIS IN SECTION HEADINGS THAT ARE LINK TARGETS**
+
+**✅ CORRECT - Clean headings without emojis:**
 ```markdown
-## 🎓 Official GitHub Courses
-[Link to section](#official-github-courses)  <!-- ✅ Emoji in heading, NOT in link -->
+## Official GitHub Courses
+[Link to section](#official-github-courses)  <!-- ✅ Works perfectly -->
 ```
 
-**❌ NEVER DO THIS:**
+**❌ WRONG - Emojis in headings that are link targets:**
+```markdown
+## 🎓 Official GitHub Courses  <!-- ❌ BROKEN - emoji in heading -->
+[Link to section](#official-github-courses)  <!-- Link breaks -->
+```
+
+**❌ NEVER DO THIS (emoji in link URL):**
 ```markdown
 ## 🎓 Official GitHub Courses
 [Link to section](#🎓-official-github-courses)  <!-- ❌ BROKEN - emoji in link -->

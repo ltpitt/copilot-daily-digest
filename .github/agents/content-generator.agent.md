@@ -136,16 +136,18 @@ Follow the **modular topic-based architecture** defined in `.github/copilot-inst
 
 **When creating internal navigation links to headings within the same file:**
 
-❌ **WRONG - Including emoji placeholders:**
+**THE ONLY RULE: DO NOT USE EMOJIS IN SECTION HEADINGS THAT ARE LINK TARGETS**
+
+✅ **CORRECT - Clean headings without emojis:**
 ```markdown
-## 🎓 Getting Started
-[Link to section](#-getting-started)  <!-- WRONG -->
+## Getting Started
+[Link to section](#getting-started)  <!-- ✅ Works perfectly -->
 ```
 
-✅ **CORRECT - Strip emojis completely:**
+❌ **WRONG - Emojis in headings that are link targets:**
 ```markdown
-## 🎓 Getting Started
-[Link to section](#getting-started)  <!-- CORRECT -->
+## 🎓 Getting Started  <!-- ❌ BROKEN - emoji in heading -->
+[Link to section](#getting-started)  <!-- Link breaks -->
 ```
 
 **How GitHub converts headings to anchors:**
