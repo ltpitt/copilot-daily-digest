@@ -688,3 +688,34 @@ Type `@` in the chat prompt box to see available participants.
 - Link to original sources
 - Date all content updates
 - Maintain consistent formatting across files
+
+### Anchor Link Rules (CRITICAL)
+
+When creating internal navigation links to headings within the same file:
+
+**❌ WRONG - Including emoji placeholders in anchors:**
+```markdown
+## 🎓 Getting Started
+[Link to section](#-getting-started)  <!-- WRONG: includes emoji placeholder -->
+```
+
+**✅ CORRECT - Strip emojis completely from anchors:**
+```markdown
+## 🎓 Getting Started
+[Link to section](#getting-started)  <!-- CORRECT: no emoji in anchor -->
+```
+
+**How GitHub converts headings to anchors:**
+1. Convert to lowercase
+2. Remove ALL emojis and special characters (keep only alphanumeric, spaces, hyphens, underscores)
+3. Replace spaces with hyphens
+4. Strip leading/trailing hyphens
+
+**Examples:**
+- `## 🎓 Official GitHub Courses` → `#official-github-courses`
+- `## 📚 Microsoft Learn Modules` → `#microsoft-learn-modules`
+- `## 💡 Study Tips` → `#study-tips`
+- `## 🔗 Additional Resources` → `#additional-resources`
+
+**Testing anchors:**
+Always run `python3 scripts/validate_links.py` after creating or updating anchor links to ensure they work correctly.
