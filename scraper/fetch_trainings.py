@@ -13,17 +13,14 @@ import hashlib
 import json
 import logging
 import os
-import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List
 
-import requests
-from bs4 import BeautifulSoup
 
 # Add parent directory to path to import local modules
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
 
 try:
     from scraper.metadata import load_metadata, save_metadata
@@ -394,9 +391,7 @@ def main():
     # Update metadata
     update_metadata(all_trainings)
 
-    logger.info(
-        f"✓ Fetch complete: {saved_count}/{len(all_trainings)} trainings saved"
-    )
+    logger.info(f"✓ Fetch complete: {saved_count}/{len(all_trainings)} trainings saved")
 
     # Summary by provider
     providers = {}

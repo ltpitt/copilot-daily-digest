@@ -101,14 +101,14 @@ def detect_doc_changes() -> Dict[str, Any]:
         for doc_file in docs_dir.glob("*.md"):
             if doc_file.name == "scrape-summary.md":
                 continue  # Skip summary file
-                
+
             filename = doc_file.name
             doc_name = doc_file.stem
             content = safe_read_file(doc_file)
             current_hash = calculate_hash(content)
 
             hash_key = f"docs/{filename}"
-            
+
             if hash_key in content_hashes:
                 # File was tracked before
                 old_hash = content_hashes[hash_key]
@@ -131,8 +131,14 @@ def detect_doc_changes() -> Dict[str, Any]:
                 new.append(filename)
 
     # Check for deleted files
-    current_files = set([f.name for f in docs_dir.glob("*.md") if f.name != "scrape-summary.md"]) if docs_dir.exists() else set()
-    tracked_filenames = set([k.replace("docs/", "") for k in content_hashes.keys() if k.startswith("docs/")])
+    current_files = (
+        {f.name for f in docs_dir.glob("*.md") if f.name != "scrape-summary.md"}
+        if docs_dir.exists()
+        else set()
+    )
+    tracked_filenames = {
+        k.replace("docs/", "") for k in content_hashes if k.startswith("docs/")
+    }
     deleted = list(tracked_filenames - current_files)
 
     return {"changed": changed, "new": new, "unchanged": unchanged, "deleted": deleted}
@@ -287,7 +293,7 @@ def detect_trainings_changes() -> Dict[str, Any]:
 def detect_github_next_changes() -> Dict[str, Any]:
     """
     Detect new GitHub Next projects.
-    
+
     GitHub Next projects are experimental and should be clearly marked as such.
 
     Returns:
@@ -345,8 +351,11 @@ def generate_change_summary() -> Dict[str, Any]:
     # Calculate total changes
     total_docs_changes = len(docs["changed"]) + len(docs["new"]) + len(docs["deleted"])
     total_changes = (
-        total_docs_changes + blog["count"] + videos["count"] + 
-        github_next["count"] + trainings["count"]
+        total_docs_changes
+        + blog["count"]
+        + videos["count"]
+        + github_next["count"]
+        + trainings["count"]
     )
     has_changes = total_changes > 0
 
@@ -416,7 +425,13 @@ def generate_change_summary() -> Dict[str, Any]:
     return {
         "has_changes": has_changes,
         "summary": summary_text,
-        "details": {"docs": docs, "blog": blog, "videos": videos, "trainings": trainings, "github_next": github_next},
+        "details": {
+            "docs": docs,
+            "blog": blog,
+            "videos": videos,
+            "trainings": trainings,
+            "github_next": github_next,
+        },
         "timestamp": current_time.isoformat(),
     }
 
