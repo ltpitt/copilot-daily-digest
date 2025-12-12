@@ -139,12 +139,41 @@ Avoid broad requests like "rewrite entire app" - small increments win.
 
 Jumpstart your Copilot Coding Agent journey with hands-on learning:
 
-- 📘 [About Copilot Coding Agent (Official Docs)](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
-- 🛠️ [Expand Your Team with Copilot (GitHub Skills Course)](https://github.com/skills/expand-your-team-with-copilot/)
+### Official GitHub Trainings
+
+**GitHub Skills (Interactive)**
+- 🛠️ [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/) - Intermediate (2-3 hours)
+  - Hands-on course covering code generation, testing, and collaboration
+- 🛠️ [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro) - Beginner (1-2 hours)
+  - Get started with AI-assisted coding and best practices
+
+**Microsoft Learn (Self-Paced)**
+- 📘 [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) - Beginner (30 min)
+  - Discover AI-powered code suggestions and workflow integration
+- 📘 [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/) - Intermediate (2-3 hours)
+  - Master prompts, chat features, testing, and documentation
+- 📘 [Challenge: Build a Minigame with Copilot](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/) - Intermediate (1-2 hours)
+  - Hands-on C# project to demonstrate Copilot proficiency
+
+### Certifications
+
+- 🏆 [GitHub Foundations Certification](https://resources.github.com/learn/certifications/) - Industry-recognized
+  - Validates knowledge of GitHub fundamentals including Copilot usage
+  - Preparation: 20-40 hours
+
+### Third-Party Resources
+
+**Udemy (Company Account)**
+- 🎥 [GitHub Copilot: The Complete Masterclass](https://www.udemy.com/course/github-copilot-complete-guide/) - All Levels (8-10 hours)
+  - Rating: 4.7/5 | 5000+ students
+  - Comprehensive coverage from basics to advanced patterns
+  - Note: Check company Udemy account for access
+
+### Quick References
+
 - 📋 [GitHub Copilot Cheatsheet](cheatsheet.md) - Quick reference for commands and shortcuts
 - 📰 [Complete Changelog](changelog.md) - Track all updates and new features
-
-These resources are ideal for beginners and teams looking to quickly gain practical experience with Copilot agents.
+- 📘 [About Copilot Coding Agent (Official Docs)](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
 
 ---
 

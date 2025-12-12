@@ -35,6 +35,12 @@ Read from these directories:
 - `data/videos/*.json` - YouTube videos from GitHub channel
 - Each file contains: video_id, title, URL, thumbnail, date, description
 
+### 🎓 Trainings & Workshops
+- `data/trainings/*.json` - Curated training courses and certifications
+- Each file contains: id, title, URL, provider, level, topics, format, is_free, certification, estimated_time, rating (if applicable)
+- **Sources**: GitHub Skills, Microsoft Learn, GitHub Certifications, curated Udemy courses
+- **Quality**: Only official or high-rated (4.5+) courses focused on Copilot/Agentic AI
+
 ### 🔬 GitHub Next (EXPERIMENTAL)
 - `data/github-next/*.json` - Experimental projects from GitHub Next
 - **CRITICAL**: Each file has `experimental: true` flag
@@ -42,7 +48,7 @@ Read from these directories:
 
 ### Change Summary
 - `data/changes-summary.json` - What changed since last update
-- Contains: new docs, new blog posts, new videos, new github_next projects, change counts
+- Contains: new docs, new blog posts, new videos, new trainings, new github_next projects, change counts
 
 ### Metadata
 - `data/metadata.json` - Tracking information (hashes, dates, IDs)

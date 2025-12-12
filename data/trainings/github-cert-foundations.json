@@ -1,0 +1,21 @@
+{
+  "id": "github-cert-foundations",
+  "title": "GitHub Foundations Certification",
+  "description": "Validate your knowledge of GitHub fundamentals, including Copilot usage, collaboration, and project management. Industry-recognized certification.",
+  "url": "https://resources.github.com/learn/certifications/",
+  "provider": "GitHub",
+  "level": "Intermediate",
+  "topics": [
+    "GitHub",
+    "Copilot",
+    "Collaboration",
+    "Best Practices",
+    "Project Management"
+  ],
+  "format": "Certification Exam",
+  "is_free": false,
+  "certification": true,
+  "estimated_time": "Preparation: 20-40 hours",
+  "last_verified": "2025-12-12T12:52:14.538029+00:00",
+  "fetched_at": "2025-12-12T12:52:14.539579+00:00"
+}

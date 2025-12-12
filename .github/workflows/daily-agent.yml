@@ -39,6 +39,9 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scraper/fetch_youtube.py
       
+      - name: Fetch Training Resources
+        run: python scraper/fetch_trainings.py
+      
       # Detect changes
       - name: Detect Changes
         id: changes
@@ -87,6 +90,7 @@ jobs:
           - **Documentation**: \`data/docs/*.md\` (14 files) - Official GitHub Copilot docs
           - **Blog Posts**: \`data/blog/*.json\` (19 files) - Full HTML content with tutorials, best practices, announcements
           - **Videos**: \`data/videos/*.json\` (6 files) - Curated Copilot/AI videos from GitHub channel
+          - **Trainings**: \`data/trainings/*.json\` (7+ files) - Curated courses from GitHub Skills, Microsoft Learn, Certifications, Udemy
           - **Change Detection**: \`data/changes-summary.json\` - What changed since last scrape (with diff summaries)
           - **Version History**: \`data/metadata.json\` - \`doc_versions[].history[]\` tracks all changes with timestamps
 
@@ -113,6 +117,9 @@ jobs:
           
           ## 🎥 Featured Videos
           [1-2 most relevant to recent updates]
+          
+          ## 🎓 Featured Trainings
+          [2-3 most relevant courses - prioritize official and beginner-friendly from data/trainings/]
           
           ---
           **Need more?** [Complete Reference](REFERENCE.md) | [Official Docs](https://docs.github.com/copilot)

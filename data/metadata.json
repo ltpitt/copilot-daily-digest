@@ -28,7 +28,7 @@
     "https://github.blog/changelog/2025-12-11-post-as-admin-now-available-in-github-discussions",
     "https://github.blog/changelog/2025-12-11-openais-gpt-5-2-is-now-in-public-preview-for-github-copilot"
   ],
-  "last_updated": "2025-12-11T23:23:23Z",
+  "last_updated": "2025-12-12T12:52:14.540015+00:00",
   "version": "1.0.0",
   "content_hashes": {
     "docs/copilot-overview.md": "6792b3a7798af24d5e04489bd7b48c7db72cf2cc44be3291ae5d2d0c2a381120",
@@ -933,5 +933,14 @@
     "https://githubnext.com/projects/react-webview-ui-toolkit/",
     "https://githubnext.com/projects/repo-visualization/",
     "https://githubnext.com/projects/flat-data/"
+  ],
+  "training_ids": [
+    "github-skills-copilot-team",
+    "github-skills-copilot-intro",
+    "ms-learn-intro-copilot",
+    "ms-learn-copilot-fundamentals",
+    "ms-learn-challenge-copilot",
+    "udemy-copilot-masterclass",
+    "github-cert-foundations"
   ]
 }

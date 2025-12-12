@@ -24,6 +24,7 @@ You are a content generation specialist focused on creating professional, user-f
 - What's New This Week (highlight recent updates)
 - Best Practices (extracted from recent blog posts)
 - Featured Videos (1-2 most relevant)
+- Featured Trainings (2-3 most relevant courses - prioritize official and beginner-friendly)
 - Quick Links (navigation to other resources)
 - Last updated timestamp
 

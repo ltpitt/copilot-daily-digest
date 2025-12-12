@@ -101,14 +101,14 @@ def detect_doc_changes() -> Dict[str, Any]:
         for doc_file in docs_dir.glob("*.md"):
             if doc_file.name == "scrape-summary.md":
                 continue  # Skip summary file
-                
+
             filename = doc_file.name
             doc_name = doc_file.stem
             content = safe_read_file(doc_file)
             current_hash = calculate_hash(content)
 
             hash_key = f"docs/{filename}"
-            
+
             if hash_key in content_hashes:
                 # File was tracked before
                 old_hash = content_hashes[hash_key]
@@ -131,8 +131,12 @@ def detect_doc_changes() -> Dict[str, Any]:
                 new.append(filename)
 
     # Check for deleted files
-    current_files = set([f.name for f in docs_dir.glob("*.md") if f.name != "scrape-summary.md"]) if docs_dir.exists() else set()
-    tracked_filenames = set([k.replace("docs/", "") for k in content_hashes.keys() if k.startswith("docs/")])
+    current_files = (
+        {f.name for f in docs_dir.glob("*.md") if f.name != "scrape-summary.md"}
+        if docs_dir.exists()
+        else set()
+    )
+    tracked_filenames = {k.replace("docs/", "") for k in content_hashes if k.startswith("docs/")}
     deleted = list(tracked_filenames - current_files)
 
     return {"changed": changed, "new": new, "unchanged": unchanged, "deleted": deleted}
@@ -238,10 +242,56 @@ def detect_video_changes() -> Dict[str, Any]:
     return {"new_videos": new_videos, "count": len(new_videos)}
 
 
+def detect_trainings_changes() -> Dict[str, Any]:
+    """
+    Detect new or updated training resources.
+
+    Returns:
+        Dict with keys: new_trainings, count
+    """
+    metadata = load_metadata()
+    trainings_dir = Path(__file__).parent.parent / "data" / "trainings"
+
+    # Get tracked training IDs
+    tracked_ids = set(metadata.get("training_ids", []))
+
+    new_trainings = []
+
+    # Read all training files
+    if trainings_dir.exists():
+        for training_file in trainings_dir.glob("*.json"):
+            try:
+                with open(training_file, encoding="utf-8") as f:
+                    training = json.load(f)
+
+                training_id = training.get("id", "")
+                if training_id and training_id not in tracked_ids:
+                    new_trainings.append(
+                        {
+                            "title": training.get("title", ""),
+                            "id": training_id,
+                            "url": training.get("url", ""),
+                            "provider": training.get("provider", ""),
+                            "level": training.get("level", ""),
+                            "is_free": training.get("is_free", False),
+                            "certification": training.get("certification", False),
+                            "estimated_time": training.get("estimated_time", ""),
+                            "last_verified": training.get("last_verified", ""),
+                        }
+                    )
+            except Exception as e:
+                print(f"[ERROR] Failed to read training file {training_file}: {e}")
+
+    # Sort by provider, then by title
+    new_trainings.sort(key=lambda x: (x.get("provider", ""), x.get("title", "")))
+
+    return {"new_trainings": new_trainings, "count": len(new_trainings)}
+
+
 def detect_github_next_changes() -> Dict[str, Any]:
     """
     Detect new GitHub Next projects.
-    
+
     GitHub Next projects are experimental and should be clearly marked as such.
 
     Returns:
@@ -294,10 +344,17 @@ def generate_change_summary() -> Dict[str, Any]:
     blog = detect_blog_changes()
     videos = detect_video_changes()
     github_next = detect_github_next_changes()
+    trainings = detect_trainings_changes()
 
     # Calculate total changes
     total_docs_changes = len(docs["changed"]) + len(docs["new"]) + len(docs["deleted"])
-    total_changes = total_docs_changes + blog["count"] + videos["count"] + github_next["count"]
+    total_changes = (
+        total_docs_changes
+        + blog["count"]
+        + videos["count"]
+        + github_next["count"]
+        + trainings["count"]
+    )
     has_changes = total_changes > 0
 
     # Generate summary text
@@ -336,6 +393,16 @@ def generate_change_summary() -> Dict[str, Any]:
             summary_lines.append(f'  - "{video["title"]}" ({date_str})')
         summary_lines.append("")
 
+    if trainings["count"] > 0:
+        summary_lines.append(
+            f"🎓 Trainings: {trainings['count']} new training{'s' if trainings['count'] != 1 else ''}"
+        )
+        for training in trainings["new_trainings"][:5]:  # Show first 5
+            provider = training.get("provider", "")
+            level = training.get("level", "")
+            summary_lines.append(f'  - "{training["title"]}" ({provider}, {level})')
+        summary_lines.append("")
+
     if github_next["count"] > 0:
         summary_lines.append(
             f"🔬 GitHub Next (Experimental): {github_next['count']} new project{'s' if github_next['count'] != 1 else ''}"
@@ -356,7 +423,13 @@ def generate_change_summary() -> Dict[str, Any]:
     return {
         "has_changes": has_changes,
         "summary": summary_text,
-        "details": {"docs": docs, "blog": blog, "videos": videos, "github_next": github_next},
+        "details": {
+            "docs": docs,
+            "blog": blog,
+            "videos": videos,
+            "trainings": trainings,
+            "github_next": github_next,
+        },
         "timestamp": current_time.isoformat(),
     }
 
@@ -420,6 +493,7 @@ def save_change_summary(summary: Dict[str, Any]) -> None:
             + len(summary["details"]["docs"]["deleted"])
             + summary["details"]["blog"]["count"]
             + summary["details"]["videos"]["count"]
+            + summary["details"]["trainings"]["count"]
         ),
         "docs": summary["details"]["docs"],
         "blog": {
@@ -429,6 +503,10 @@ def save_change_summary(summary: Dict[str, Any]) -> None:
         "videos": {
             "new_count": summary["details"]["videos"]["count"],
             "new_videos": summary["details"]["videos"]["new_videos"],
+        },
+        "trainings": {
+            "new_count": summary["details"]["trainings"]["count"],
+            "new_trainings": summary["details"]["trainings"]["new_trainings"],
         },
         "summary_text": summary["summary"],
         "whats_new_7_days": get_whats_new(7),
@@ -448,6 +526,7 @@ def main():
     print("[INFO] Checking documentation files...")
     print("[INFO] Checking blog posts...")
     print("[INFO] Checking videos...")
+    print("[INFO] Checking trainings...")
     print()
 
     summary = generate_change_summary()

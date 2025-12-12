@@ -118,6 +118,7 @@ We generate **5 content files** with distinct purposes:
 - `data/docs/` - Official GitHub documentation (14 Markdown files)
 - `data/blog/` - GitHub Blog posts (19 JSON files with full HTML content)
 - `data/videos/` - YouTube videos from GitHub channel (6 JSON files)
+- `data/trainings/` - Training courses and certifications (JSON files)
 - `data/github-next/` - **EXPERIMENTAL** GitHub Next projects (JSON files)
 - `data/changes-summary.json` - What changed since last scrape (with diff summaries)
 - `data/metadata.json` - Version history and timestamps
@@ -157,6 +158,45 @@ We generate **5 content files** with distinct purposes:
    - Clear visual distinction (border, background, emoji)
    - Explicitly labeled as experimental in every mention
 
+### 🎓 Trainings & Workshops - Quality Standards
+
+**Source**: `data/trainings/` - Curated training resources
+
+**CRITICAL**: Only include high-quality, relevant training content:
+
+1. **Official sources always included**:
+   - GitHub Skills courses (https://github.com/skills/)
+   - Microsoft Learn modules (https://learn.microsoft.com/)
+   - GitHub Certifications (https://resources.github.com/learn/certifications/)
+   - Always trusted, always current
+
+2. **Third-party sources (Udemy, etc.) - strict criteria**:
+   - Rating: Minimum 4.5/5 stars
+   - Popularity: 1000+ students or reviews
+   - Recency: Updated within last 6 months
+   - Relevance: GitHub Copilot Coding Agent / Agentic AI focus
+   - Manually curated and verified
+
+3. **Content must focus on**:
+   - GitHub Copilot (Agent Mode or Coding Agent)
+   - Agentic AI workflows
+   - Best practices and patterns
+   - Real-world applications
+   - NOT generic AI or programming courses
+
+4. **Presentation in content**:
+   - Use 🎓 emoji for trainings section
+   - Group by provider (GitHub Skills, Microsoft Learn, Udemy, Certifications)
+   - Highlight free vs paid courses
+   - Show estimated completion time
+   - Link directly to course start page
+
+5. **Keep it brief**:
+   - Show 3-5 most relevant trainings in README.md
+   - Full list in STARTER-KIT.md "Workshop Area" section
+   - Prioritize beginner-friendly and official courses
+   - Update when new official courses released
+
 ---
 
 ## Content Generation Rules: README.md (Newspaper Style)
@@ -178,6 +218,9 @@ We generate **5 content files** with distinct purposes:
 
 ## 🎥 Featured Videos
 [1-2 most relevant to recent updates]
+
+## 🎓 Featured Trainings
+[2-3 most relevant courses - prioritize official and beginner-friendly]
 
 ---
 
@@ -288,6 +331,48 @@ Format:
 [Watch on YouTube →](url)
 ```
 
+### Featured Trainings - Selection Rules
+**AI TASK: Pick 2-3 most relevant training courses**
+
+Sources:
+- `data/trainings/*.json` - All available training resources
+
+Selection criteria:
+1. **Prioritize official sources**:
+   - GitHub Skills courses = Highest priority
+   - Microsoft Learn modules = High priority
+   - GitHub Certifications = Medium priority (highlight separately)
+   - Udemy courses = Lower priority (only if exceptional)
+
+2. **Beginner-friendly first**:
+   - "Introduction" and "Getting Started" courses = Priority
+   - "Beginner" or "All Levels" = Priority
+   - Advanced courses = Only if context appropriate
+
+3. **Relevance to updates**:
+   - If "What's New" mentions new features, find related training
+   - If blog posts about best practices, find courses covering those topics
+
+4. **Free over paid**:
+   - Free courses (is_free: true) = Priority
+   - Paid courses only if exceptional or certification
+
+Format:
+```markdown
+### 🎓 [Course Title](url)
+
+**Provider**: [GitHub Skills | Microsoft Learn | Udemy | GitHub]  
+**Level**: [Beginner | Intermediate | Advanced]  
+**Duration**: [estimated_time]  
+**Cost**: [Free | Paid]
+
+[description - 1-2 sentences]
+
+[Start Learning →](url)
+```
+
+**Note**: Keep this section brief in README.md (2-3 courses max). Full training list belongs in STARTER-KIT.md.
+
 ---
 
 ## Content Generation Rules: REFERENCE.md
@@ -372,9 +457,12 @@ Format:
    - Add concrete examples and patterns
    
 3. **Resource Links**: Keep courses and documentation current
-   - GitHub Skills courses
+   - GitHub Skills courses (from `data/trainings/`)
+   - Microsoft Learn modules (from `data/trainings/`)
+   - GitHub Certifications (from `data/trainings/`)
    - Official documentation
    - Blog post tutorials
+   - Curated Udemy courses (from `data/trainings/`)
    
 4. **Comparison Tables**: Update if capabilities change
    - Agent Mode vs Coding Agent features
@@ -405,7 +493,11 @@ Format:
 [This is where the full Quick Start content belongs]
 
 ## 6. Workshop Area: First Steps & Actions
-[Course links and resources]
+[UPDATED: Full training catalog from data/trainings/]
+- GitHub Skills courses (interactive)
+- Microsoft Learn modules (self-paced)
+- GitHub Certifications (paid exams)
+- Udemy courses (curated, may require company account)
 
 ## 7. Daily Workflow
 [Automation explanation]

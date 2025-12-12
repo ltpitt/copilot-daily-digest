@@ -1,0 +1,20 @@
+{
+  "id": "ms-learn-challenge-copilot",
+  "title": "Challenge project - Build a minigame with GitHub Copilot",
+  "description": "Demonstrate your ability to use GitHub Copilot to develop code by creating a console minigame in C#.",
+  "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/",
+  "provider": "Microsoft Learn",
+  "level": "Intermediate",
+  "topics": [
+    "GitHub Copilot",
+    "C#",
+    "Game Development",
+    "Hands-on"
+  ],
+  "format": "Challenge Project",
+  "is_free": true,
+  "certification": false,
+  "estimated_time": "1-2 hours",
+  "last_verified": "2025-12-12T12:52:14.537944+00:00",
+  "fetched_at": "2025-12-12T12:52:14.539141+00:00"
+}
