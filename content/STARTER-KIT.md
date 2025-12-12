@@ -171,8 +171,8 @@ Jumpstart your Copilot Coding Agent journey with hands-on learning:
 
 ### Quick References
 
-- 📋 [GitHub Copilot Cheatsheet](cheatsheet.md) - Quick reference for commands and shortcuts
-- 📰 [Complete Changelog](changelog.md) - Track all updates and new features
+- 📋 [Commands & Shortcuts](COMMANDS.md) - Quick reference for commands and shortcuts
+- 📰 [Complete Changelog](CHANGELOG.md) - Track all updates and new features
 - 📘 [About Copilot Coding Agent (Official Docs)](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
 
 ---
@@ -203,8 +203,8 @@ The repository updates automatically via GitHub Actions:
    - Agent reads all data from `data/` directory
    - Agent generates or updates:
      - `content/README.md` - Main digest with highlights
-     - `content/changelog.md` - Feature timeline
-     - `content/cheatsheet.md` - Quick reference
+     - `content/CHANGELOG.md` - Feature timeline
+     - `content/COMMANDS.md` - Quick reference
      - `content/videos.md` - Video library
    - Agent creates PR with all updates
 

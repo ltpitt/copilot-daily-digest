@@ -24,8 +24,8 @@ Stay up-to-date with GitHub Copilot through automated daily digests that aggrega
 
 - **[Main Digest](content/README.md)** - Daily newspaper-style digest with latest updates and highlights
 - **[Starter Kit](content/STARTER-KIT.md)** - Complete getting started guide with step-by-step tutorials
-- **[Changelog](content/changelog.md)** - Timeline of features and updates
-- **[Cheatsheet](content/cheatsheet.md)** - Quick reference guide
+- **[Changelog](content/CHANGELOG.md)** - Timeline of features and updates
+- **[Commands & Shortcuts](content/COMMANDS.md)** - Quick reference guide
 - **[Video Library](content/VIDEOS.md)** - Curated video tutorials
 
 ## 🚀 How It Works

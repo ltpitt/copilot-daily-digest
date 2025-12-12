@@ -1,9 +1,9 @@
 {
-  "total_files": 54,
-  "total_links": 440,
+  "total_files": 53,
+  "total_links": 418,
   "internal_links": 148,
-  "external_links": 217,
-  "valid_links": 283,
+  "external_links": 204,
+  "valid_links": 268,
   "broken_links": [
     {
       "file": ".github/agents/content-generator.agent.md",
@@ -56,9 +56,9 @@
     {
       "file": ".github/agents/publisher.agent.md",
       "line": 152,
-      "url": "./videos.md",
+      "url": "./VIDEOS.md",
       "text": "Video Library",
-      "error": "File not found: .github/agents/videos.md",
+      "error": "File not found: .github/agents/VIDEOS.md",
       "type": "internal"
     },
     {
@@ -462,12 +462,28 @@
       "type": "internal"
     },
     {
+      "file": "README.md",
+      "line": 28,
+      "url": "content/cheatsheet.md",
+      "text": "Cheatsheet",
+      "error": "File not found: content/cheatsheet.md",
+      "type": "internal"
+    },
+    {
       "file": "content/STARTER-KIT.md",
       "line": 167,
       "url": "https://www.udemy.com/course/github-copilot-complete-guide/",
       "text": "GitHub Copilot: The Complete Masterclass",
       "error": "HTTP 403",
       "type": "external"
+    },
+    {
+      "file": "content/STARTER-KIT.md",
+      "line": 174,
+      "url": "cheatsheet.md",
+      "text": "GitHub Copilot Cheatsheet",
+      "error": "File not found: content/cheatsheet.md",
+      "type": "internal"
     },
     {
       "file": "docs/README.md",
@@ -662,5 +678,5 @@
       "type": "internal"
     }
   ],
-  "skipped_links": 75
+  "skipped_links": 66
 }

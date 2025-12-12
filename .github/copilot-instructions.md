@@ -27,7 +27,9 @@ content/
 └── REFERENCE.md       # Complete docs index
 ```
 
-**Key Principle**: Each file is **self-contained** and **topic-focused**. No mixing of concerns.
+**Key Principles**: 
+- Each file is **self-contained** and **topic-focused**. No mixing of concerns.
+- **CRITICAL**: All content files use **UPPERCASE** naming (e.g., TRAININGS.md, not trainings.md)
 
 ---
 
