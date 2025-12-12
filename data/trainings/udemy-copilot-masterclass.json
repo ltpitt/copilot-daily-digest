@@ -1,0 +1,23 @@
+{
+  "id": "udemy-copilot-masterclass",
+  "title": "GitHub Copilot: The Complete Masterclass",
+  "description": "Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt engineering, and how to integrate Copilot into professional workflows.",
+  "url": "https://www.udemy.com/course/github-copilot-complete-guide/",
+  "provider": "Udemy",
+  "level": "All Levels",
+  "topics": [
+    "GitHub Copilot",
+    "AI Pair Programming",
+    "Prompt Engineering",
+    "Professional Development"
+  ],
+  "format": "Video Course",
+  "is_free": false,
+  "certification": true,
+  "estimated_time": "8-10 hours",
+  "rating": 4.7,
+  "students": "5000+",
+  "last_verified": "2025-12-12T12:45:19.286383",
+  "note": "Check company Udemy account for access",
+  "fetched_at": "2025-12-12T12:45:19.287425"
+}

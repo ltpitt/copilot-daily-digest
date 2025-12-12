@@ -1,0 +1,19 @@
+{
+  "id": "ms-learn-intro-copilot",
+  "title": "Introduction to GitHub Copilot",
+  "description": "Discover how GitHub Copilot can help you code faster and more efficiently. Learn about AI-powered code suggestions and how to integrate Copilot into your workflow.",
+  "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/",
+  "provider": "Microsoft Learn",
+  "level": "Beginner",
+  "topics": [
+    "GitHub Copilot",
+    "AI",
+    "Code Generation"
+  ],
+  "format": "Self-paced",
+  "is_free": true,
+  "certification": false,
+  "estimated_time": "30 minutes",
+  "last_verified": "2025-12-12T12:45:19.286296",
+  "fetched_at": "2025-12-12T12:45:19.286933"
+}
