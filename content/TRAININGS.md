@@ -8,7 +8,7 @@
 
 ## 📋 Quick Navigation
 
-- [Official GitHub Courses](#official-github-courses) - Free, interactive
+- [Official GitHub Courses](#🎓-official-github-courses) - Free, interactive
 - [Microsoft Learn Modules](#microsoft-learn-modules) - Self-paced paths
 - [Certifications](#certifications) - Paid exams with credentials
 - [Curated Courses](#curated-courses) - Community-recommended
