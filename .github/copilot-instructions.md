@@ -689,33 +689,51 @@ Type `@` in the chat prompt box to see available participants.
 - Date all content updates
 - Maintain consistent formatting across files
 
-### Anchor Link Rules (CRITICAL)
+### Anchor Link Rules (CRITICAL - NEVER VIOLATE)
 
-When creating internal navigation links to headings within the same file:
+**GitHub strips emojis from anchor IDs. Anchor links with emojis WILL BREAK.**
 
-**❌ WRONG - Including emoji placeholders in anchors:**
+When creating internal navigation links (e.g., Table of Contents), you have TWO options:
+
+**OPTION 1 (RECOMMENDED): Keep headings clean, links work automatically**
 ```markdown
-## 🎓 Getting Started
-[Link to section](#-getting-started)  <!-- WRONG: includes emoji placeholder -->
+## Official GitHub Courses
+[Link to section](#official-github-courses)  <!-- ✅ Works perfectly -->
 ```
 
-**✅ CORRECT - Strip emojis completely from anchors:**
+**OPTION 2: Headings can have emojis, but links MUST strip them**
 ```markdown
-## 🎓 Getting Started
-[Link to section](#getting-started)  <!-- CORRECT: no emoji in anchor -->
+## 🎓 Official GitHub Courses
+[Link to section](#official-github-courses)  <!-- ✅ Emoji in heading, NOT in link -->
+```
+
+**❌ NEVER DO THIS - Including emoji in anchor link:**
+```markdown
+## 🎓 Official GitHub Courses
+[Link to section](#🎓-official-github-courses)  <!-- ❌ BROKEN - emoji in link -->
+[Link to section](#-official-github-courses)   <!-- ❌ BROKEN - emoji placeholder -->
 ```
 
 **How GitHub converts headings to anchors:**
 1. Convert to lowercase
-2. Remove ALL emojis and special characters (keep only alphanumeric, spaces, hyphens, underscores)
+2. **Remove ALL emojis and special characters** (keep only: letters, numbers, spaces, hyphens, underscores)
 3. Replace spaces with hyphens
 4. Strip leading/trailing hyphens
 
-**Examples:**
-- `## 🎓 Official GitHub Courses` → `#official-github-courses`
-- `## 📚 Microsoft Learn Modules` → `#microsoft-learn-modules`
-- `## 💡 Study Tips` → `#study-tips`
-- `## 🔗 Additional Resources` → `#additional-resources`
+**Real-world examples:**
+- `## 🎓 Official GitHub Courses` → `#official-github-courses` (NOT `#🎓-official-github-courses`)
+- `## 📚 Microsoft Learn Modules` → `#microsoft-learn-modules` (NOT `#📚-microsoft-learn-modules`)
+- `## 💡 Study Tips` → `#study-tips` (NOT `#💡-study-tips`)
+- `## 🗺️ Learning Paths` → `#learning-paths` (NOT `#🗺️-learning-paths`)
 
-**Testing anchors:**
-Always run `python3 scripts/validate_links.py` after creating or updating anchor links to ensure they work correctly.
+**Navigation sections (not link targets) can use emojis:**
+```markdown
+## 📋 Quick Navigation  <!-- This heading uses emoji, but nothing links TO it -->
+- [Official Courses](#official-github-courses)  <!-- Links strip emojis -->
+```
+
+**Validation (MANDATORY):**
+After generating or editing files with internal navigation:
+1. Run: `python3 scripts/validate_links.py`
+2. Fix any broken anchor links immediately
+3. Verify links work on GitHub (not just VS Code preview)

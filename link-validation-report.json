@@ -1,9 +1,9 @@
 {
-  "total_files": 55,
-  "total_links": 465,
-  "internal_links": 179,
-  "external_links": 216,
-  "valid_links": 272,
+  "total_files": 54,
+  "total_links": 440,
+  "internal_links": 148,
+  "external_links": 217,
+  "valid_links": 277,
   "broken_links": [
     {
       "file": ".github/agents/content-generator.agent.md",
@@ -470,246 +470,6 @@
       "type": "internal"
     },
     {
-      "file": "content/GETTING-STARTED.md",
-      "line": 179,
-      "url": "../data/docs/copilot-best-practices.md",
-      "text": "Read best practices guide",
-      "error": "File not found: data/docs/copilot-best-practices.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/README.md",
-      "line": 35,
-      "url": "https://github.blog/category/copilot/",
-      "text": "GitHub Blog - Copilot",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 12,
-      "url": "../data/docs/copilot-overview.md",
-      "text": "copilot-overview.md",
-      "error": "File not found: data/docs/copilot-overview.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 16,
-      "url": "../data/docs/copilot-getting-started.md",
-      "text": "copilot-getting-started.md",
-      "error": "File not found: data/docs/copilot-getting-started.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 21,
-      "url": "../data/docs/copilot-chat.md",
-      "text": "copilot-chat.md",
-      "error": "File not found: data/docs/copilot-chat.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 26,
-      "url": "../data/docs/copilot-asking-questions.md",
-      "text": "copilot-asking-questions.md",
-      "error": "File not found: data/docs/copilot-asking-questions.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 31,
-      "url": "../data/docs/copilot-code-suggestions.md",
-      "text": "copilot-code-suggestions.md",
-      "error": "File not found: data/docs/copilot-code-suggestions.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 36,
-      "url": "../data/docs/copilot-extensions-overview.md",
-      "text": "copilot-extensions-overview.md",
-      "error": "File not found: data/docs/copilot-extensions-overview.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 40,
-      "url": "../data/docs/copilot-extensions-integration.md",
-      "text": "copilot-extensions-integration.md",
-      "error": "File not found: data/docs/copilot-extensions-integration.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 45,
-      "url": "../data/docs/copilot-custom-instructions.md",
-      "text": "copilot-custom-instructions.md",
-      "error": "File not found: data/docs/copilot-custom-instructions.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 50,
-      "url": "../data/docs/copilot-configuration.md",
-      "text": "copilot-configuration.md",
-      "error": "File not found: data/docs/copilot-configuration.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 56,
-      "url": "../data/docs/copilot-best-practices.md",
-      "text": "copilot-best-practices.md",
-      "error": "File not found: data/docs/copilot-best-practices.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 61,
-      "url": "../data/docs/copilot-prompt-engineering.md",
-      "text": "copilot-prompt-engineering.md",
-      "error": "File not found: data/docs/copilot-prompt-engineering.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 66,
-      "url": "../data/docs/copilot-responsible-use.md",
-      "text": "copilot-responsible-use.md",
-      "error": "File not found: data/docs/copilot-responsible-use.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 71,
-      "url": "../data/docs/copilot-managing-organization.md",
-      "text": "copilot-managing-organization.md",
-      "error": "File not found: data/docs/copilot-managing-organization.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 76,
-      "url": "../data/docs/copilot-troubleshooting.md",
-      "text": "copilot-troubleshooting.md",
-      "error": "File not found: data/docs/copilot-troubleshooting.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 89,
-      "url": "https://github.blog/category/copilot/",
-      "text": "GitHub Blog - Copilot Category",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 142,
-      "url": "../data/docs/copilot-chat.md",
-      "text": "copilot-chat.md",
-      "error": "File not found: data/docs/copilot-chat.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 143,
-      "url": "../data/docs/copilot-asking-questions.md",
-      "text": "copilot-asking-questions.md",
-      "error": "File not found: data/docs/copilot-asking-questions.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 144,
-      "url": "../data/docs/copilot-prompt-engineering.md",
-      "text": "copilot-prompt-engineering.md",
-      "error": "File not found: data/docs/copilot-prompt-engineering.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 147,
-      "url": "../data/docs/copilot-code-suggestions.md",
-      "text": "copilot-code-suggestions.md",
-      "error": "File not found: data/docs/copilot-code-suggestions.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 148,
-      "url": "../data/docs/copilot-custom-instructions.md",
-      "text": "copilot-custom-instructions.md",
-      "error": "File not found: data/docs/copilot-custom-instructions.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 151,
-      "url": "../data/docs/copilot-getting-started.md",
-      "text": "copilot-getting-started.md",
-      "error": "File not found: data/docs/copilot-getting-started.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 152,
-      "url": "../data/docs/copilot-configuration.md",
-      "text": "copilot-configuration.md",
-      "error": "File not found: data/docs/copilot-configuration.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 155,
-      "url": "../data/docs/copilot-best-practices.md",
-      "text": "copilot-best-practices.md",
-      "error": "File not found: data/docs/copilot-best-practices.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 156,
-      "url": "../data/docs/copilot-responsible-use.md",
-      "text": "copilot-responsible-use.md",
-      "error": "File not found: data/docs/copilot-responsible-use.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 159,
-      "url": "../data/docs/copilot-extensions-overview.md",
-      "text": "copilot-extensions-overview.md",
-      "error": "File not found: data/docs/copilot-extensions-overview.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 160,
-      "url": "../data/docs/copilot-extensions-integration.md",
-      "text": "copilot-extensions-integration.md",
-      "error": "File not found: data/docs/copilot-extensions-integration.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 163,
-      "url": "../data/docs/copilot-managing-organization.md",
-      "text": "copilot-managing-organization.md",
-      "error": "File not found: data/docs/copilot-managing-organization.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/REFERENCE.md",
-      "line": 164,
-      "url": "../data/docs/copilot-troubleshooting.md",
-      "text": "copilot-troubleshooting.md",
-      "error": "File not found: data/docs/copilot-troubleshooting.md",
-      "type": "internal"
-    },
-    {
       "file": "content/STARTER-KIT.md",
       "line": 147,
       "url": "https://github.com/skills/copilot-intro",
@@ -743,14 +503,6 @@
     },
     {
       "file": "content/TRAININGS.md",
-      "line": 155,
-      "url": "https://www.udemy.com/course/github-copilot/",
-      "text": "View Course \u2192",
-      "error": "HTTP 403",
-      "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
       "line": 165,
       "url": "https://github.com/skills/copilot-intro",
       "text": "GitHub Skills: Introduction to GitHub Copilot",
@@ -764,38 +516,6 @@
       "text": "Microsoft Learn: Challenge Project",
       "error": "HTTP 404",
       "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 194,
-      "url": "../data/docs/copilot-best-practices.md",
-      "text": "Read: Best Practices Documentation",
-      "error": "File not found: data/docs/copilot-best-practices.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 205,
-      "url": "https://www.udemy.com/course/github-copilot/",
-      "text": "Udemy: GitHub Copilot Masterclass",
-      "error": "HTTP 403",
-      "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 211,
-      "url": "../data/docs/copilot-prompt-engineering.md",
-      "text": "Read: Prompt Engineering Guide",
-      "error": "File not found: data/docs/copilot-prompt-engineering.md",
-      "type": "internal"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 229,
-      "url": "../data/docs/copilot-managing-organization.md",
-      "text": "Read: Managing Copilot in Organizations",
-      "error": "File not found: data/docs/copilot-managing-organization.md",
-      "type": "internal"
     },
     {
       "file": "docs/README.md",
@@ -990,5 +710,5 @@
       "type": "internal"
     }
   ],
-  "skipped_links": 70
+  "skipped_links": 75
 }

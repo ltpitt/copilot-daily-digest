@@ -1,211 +1,194 @@
 # GitHub Copilot Changelog
 
-> Comprehensive timeline of features, updates, and improvements
+> Complete timeline of features, updates, and improvements
 
-**Last Updated**: 2025-12-10
+**Last Updated**: 2025-12-12
 
 ---
 
 ## December 2025
 
-### December 9, 2025
-
-#### Blog Posts
-- **[npm classic tokens revoked, session-based auth and CLI token management now available](https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available)**
-  - Completed npm classic token deprecation
-  - Major security milestone for npm authentication
-  - Session-based authentication now standard
-
-- **[Dependabot-based dependency graphs for Go](https://github.blog/changelog/2025-12-09-dependabot-dgs-for-go)**
-  - Enhanced supply chain security for Go projects
-  - More complete and accurate transitive dependency trees
-  - Improved package ecosystem support
+### December 12, 2025
 
 #### Documentation Updates
-All documentation files refreshed with latest content:
-- copilot-overview.md
-- copilot-getting-started.md
-- copilot-chat.md
-- copilot-extensions-overview.md
-- copilot-extensions-integration.md
-- copilot-custom-instructions.md
-- copilot-best-practices.md
-- copilot-prompt-engineering.md
-- copilot-asking-questions.md
-- copilot-code-suggestions.md
-- copilot-managing-organization.md
-- copilot-configuration.md
-- copilot-responsible-use.md
-- copilot-troubleshooting.md
+- **14 documentation files refreshed** - All core documentation updated for accuracy and current feature set
+- **copilot-chat.md** - Content updates (56,097 bytes)
+- **copilot-custom-instructions.md** - Enhanced guidance (50,608 bytes)
+- **copilot-getting-started.md** - Setup instructions updated (24,502 bytes)
+- **copilot-best-practices.md** - Best practices refined (5,772 bytes)
+- **copilot-prompt-engineering.md** - Prompt engineering guide updated (6,310 bytes)
+- **copilot-code-suggestions.md** - Code suggestions documentation (29,515 bytes)
+- **copilot-configuration.md** - Configuration guide updated (26,671 bytes)
+- **copilot-managing-organization.md** - Organization management (1,311 bytes)
+- **copilot-troubleshooting.md** - Troubleshooting guide (742 bytes)
+- **copilot-responsible-use.md** - Responsible use guidelines (892 bytes)
+- **copilot-extensions-overview.md** - Extensions overview (4,729 bytes)
+- **copilot-extensions-integration.md** - Extensions integration (4,729 bytes)
+- **copilot-asking-questions.md** - Asking questions guide (56,097 bytes)
+- **copilot-overview.md** - Overview documentation (3,366 bytes)
+
+---
+
+### December 11, 2025
+
+#### Product Updates
+- **OpenAI's GPT-5.2 in Public Preview** - Latest GPT model available for GitHub Copilot with enhanced reasoning capabilities
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-11-openais-gpt-5-2-is-now-in-public-preview-for-github-copilot)
+
+- **Review Commit-by-Commit in Pull Request Files Changed** - Enhanced PR review experience with commit-by-commit filtering
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-11-review-commit-by-commit-improved-filtering-and-more-in-the-pull-request-files-changed-public-preview)
+
+- **Post as Admin in GitHub Discussions** - New admin capabilities for GitHub Discussions
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-11-post-as-admin-now-available-in-github-discussions)
+
+#### Documentation Updates
+- **copilot-custom-instructions.md** - Updated on 2025-12-11T23:23:08Z
+
+---
+
+### December 10, 2025
+
+#### Product Updates
+- **Auto Model Selection Generally Available in VS Code** - Intelligent model selection for GitHub Copilot in Visual Studio Code
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-10-auto-model-selection-is-generally-available-in-github-copilot-in-visual-studio-code)
+
+- **GitHub Spark Improvements** - DPA coverage and dedicated SKU enhancements
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-10-github-spark-improvements-dpa-coverage-dedicated-sku)
+
+- **GitHub Enterprise Server 3.19 GA** - Latest version of GitHub Enterprise Server generally available
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-10-github-enterprise-server-3-19-is-now-generally-available)
+
+- **GitHub MCP Server Enhanced** - Tool-specific configuration support and more
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-10-the-github-mcp-server-adds-support-for-tool-specific-configuration-and-more)
+
+#### Documentation Updates
+- **copilot-asking-questions.md** - Updated on 2025-12-10T13:53:12Z
+
+---
+
+### December 9, 2025
+
+#### Product Updates
+- **NPM Classic Tokens Revoked** - Session-based auth and CLI token management now available
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available)
+
+- **Dependabot DGS for Go** - Dependency graph submission for Go projects
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-09-dependabot-dgs-for-go)
+
+#### Documentation Updates
+- **copilot-chat.md** - Major update with +10 lines added on 2025-12-09T10:16:40Z
+  - Added content about Model Context Protocol (MCP) server usage
+  - Enhanced chat features documentation
+
+---
 
 ### December 8, 2025
 
 #### Product Updates
-- **[Model Picker for Copilot Coding Agent](https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers)**
-  - Pro and Pro+ subscribers can now select preferred AI models
-  - Choose from Claude Sonnet, GPT-4, and other premium models
-  - Enables specialized model selection for different workload types
+- **Model Picker for Copilot Coding Agent** - Pro and Pro+ subscribers can now select AI models
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers)
 
-- **[Enterprise Teams Product Limits Increased by Over 10x](https://github.blog/changelog/2025-12-08-enterprise-teams-product-limits-increased-by-over-10x)**
-  - Significantly expanded capacity for enterprise customers
-  - Enables larger-scale deployments
-  - Supports more automation workflows
+- **Enterprise Teams Product Limits Increased 10x** - Significant capacity increase for enterprise customers
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-08-enterprise-teams-product-limits-increased-by-over-10x)
+
+---
 
 ### December 5, 2025
 
 #### Product Updates
-- **[Track Copilot Code Generation Metrics in a Dashboard](https://github.blog/changelog/2025-12-05-track-copilot-code-generation-metrics-in-a-dashboard)**
-  - New analytics dashboard for measuring Copilot usage
-  - Monitor adoption rates across organization
-  - Track productivity impact and usage patterns
-  - Measure code generation metrics
+- **Track Copilot Code Generation Metrics in Dashboard** - New analytics dashboard for tracking Copilot usage and impact
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-05-track-copilot-code-generation-metrics-in-a-dashboard)
+
+---
 
 ### December 4, 2025
 
 #### Product Updates
-- **[OpenAI's GPT-5.1 Codex Max Now in Public Preview](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot)**
-  - Latest OpenAI model available for Copilot users
-  - Enhanced code understanding capabilities
-  - Improved generation quality
+- **OpenAI's GPT-5.1 Codex Max in Public Preview** - Enhanced code-specific model available
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot)
 
-- **[CodeQL 2.23.6 Adds Swift 6.2.1 and New C Security Queries](https://github.blog/changelog/2025-12-04-codeql-2-23-6-adds-swift-6-2-1-and-new-c-security-queries)**
-  - Swift 6.2.1 language support
-  - New security queries for C programming
-  - Enhanced security scanning capabilities
+- **CodeQL 2.23.6 Released** - Swift 6.2.1 support and new C++ security queries
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-04-codeql-2-23-6-adds-swift-6-2-1-and-new-c-security-queries)
 
-- **[Notifications Triggered by Spam Accounts Are Now Correctly Hidden](https://github.blog/changelog/2025-12-04-notifications-triggered-by-spam-accounts-are-now-correctly-hidden)**
-  - Improved notification filtering
-  - Better spam account detection
-  - Cleaner notification experience
+- **Spam Account Notifications Hidden** - Notifications triggered by spam accounts now correctly hidden
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-04-notifications-triggered-by-spam-accounts-are-now-correctly-hidden)
+
+---
 
 ### December 3, 2025
 
 #### Product Updates
-- **[GitHub Copilot in Visual Studio November Update](https://github.blog/changelog/2025-12-03-github-copilot-in-visual-studio-november-update)**
-  - Latest Visual Studio integration improvements
-  - Enhanced IDE experience
-  - Performance optimizations
+- **Claude Opus 4.5 Available** - Now accessible in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-03-claude-opus-4-5-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
 
-- **[Claude Opus 4.5 Available in Multiple IDEs](https://github.blog/changelog/2025-12-03-claude-opus-4-5-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)**
-  - Now available in Visual Studio
-  - Support for JetBrains IDEs
-  - Available in Xcode and Eclipse
-  - Improved reasoning and context handling
+- **GitHub Copilot in Visual Studio November Update** - Latest updates and improvements
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-03-github-copilot-in-visual-studio-november-update)
 
-- **[Assign Issues to Copilot Using the API](https://github.blog/changelog/2025-12-03-assign-issues-to-copilot-using-the-api)**
-  - Programmatic issue assignment to Copilot agents
-  - API endpoint for automation
-  - Enables workflow integration
+- **Assign Issues to Copilot Using the API** - New API endpoint for programmatic issue assignment
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-03-assign-issues-to-copilot-using-the-api)
 
 ---
 
-## Featured Blog Posts & Resources
+## November 2025
 
-### Workflows & Integration
-- **[How to Use GitHub Copilot Spaces to Debug Issues Faster](https://github.blog/ai-and-ml/github-copilot/how-to-use-github-copilot-spaces-to-debug-issues-faster/)**
-  - Learn debugging workflows with Copilot Spaces
-  - Faster issue resolution techniques
-  - Real-world examples
+### Featured Blog Posts
 
-- **[How to Orchestrate Agents Using Mission Control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/)**
-  - Master multi-agent orchestration
-  - Mission Control features and capabilities
-  - Advanced workflow patterns
+#### How to Use GitHub Copilot Spaces to Debug Issues Faster
+Learn techniques for faster debugging using GitHub Copilot Spaces.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/how-to-use-github-copilot-spaces-to-debug-issues-faster/)
 
-- **[5 Ways to Integrate GitHub Copilot Coding Agent into Your Workflow](https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/)**
-  - Practical integration strategies
-  - Automation patterns
-  - Team collaboration tips
+#### Custom Agents: Introducing Observability, IaC, and Security Agents
+Your stack, your rules - custom agents for specialized development workflows.
+- Source: [GitHub Blog](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/)
 
-### Best Practices & Guides
-- **[How to Write a Great AGENTS.md - Lessons from Over 2,500 Repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)**
-  - Learn from successful AGENTS.md files
-  - Best practices and patterns
-  - Common pitfalls to avoid
+#### How to Orchestrate Agents Using Mission Control
+Master agent orchestration with GitHub Copilot's Mission Control features.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/)
 
-- **[A Developer's Guide to Writing, Debugging, Reviewing, and Shipping Code Faster](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-writing-debugging-reviewing-and-shipping-code-faster-with-github-copilot/)**
-  - Comprehensive development workflow guide
-  - Tips for all phases of development
-  - Productivity optimization
+#### GitHub's Agentic Security Principles
+Making AI agents as secure as possible with comprehensive security framework.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/how-githubs-agentic-security-principles-make-our-ai-agents-as-secure-as-possible/)
 
-- **[GitHub Copilot CLI 101: How to Use GitHub Copilot from the Command Line](https://github.blog/ai-and-ml/github-copilot-cli-101-how-to-use-github-copilot-from-the-command-line/)**
-  - Command-line interface walkthrough
-  - Essential CLI commands
-  - Terminal productivity tips
+#### Evolving Next Edit Suggestions Through Custom Model Training
+How GitHub Copilot's next edit suggestions improve through specialized training.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/evolving-github-copilots-next-edit-suggestions-through-custom-model-training/)
 
-### Technical Deep Dives
-- **[How GitHub's Agentic Security Principles Make Our AI Agents as Secure as Possible](https://github.blog/ai-and-ml/github-copilot/how-githubs-agentic-security-principles-make-our-ai-agents-as-secure-as-possible/)**
-  - Security architecture overview
-  - Agentic security principles
-  - Best practices for secure AI
+#### Making GitHub Copilot Smarter with Fewer Tools
+Improving Copilot's intelligence by optimizing tool usage.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/)
 
-- **[Evolving GitHub Copilot's Next Edit Suggestions Through Custom Model Training](https://github.blog/ai-and-ml/github-copilot/evolving-github-copilots-next-edit-suggestions-through-custom-model-training/)**
-  - Behind-the-scenes model improvements
-  - Custom training approach
-  - Future of code suggestions
+#### How to Write a Great AGENTS.md - Lessons from 2,500+ Repositories
+Best practices for writing effective AGENTS.md files based on real-world data.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
 
-- **[How We're Making GitHub Copilot Smarter with Fewer Tools](https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/)**
-  - Architectural improvements
-  - Tool reduction strategy
-  - Performance optimizations
+#### How Copilot Helps Build the GitHub Platform
+Inside look at how GitHub uses Copilot to build GitHub itself.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/how-copilot-helps-build-the-github-platform/)
 
-- **[How Copilot Helps Build the GitHub Platform](https://github.blog/ai-and-ml/github-copilot/how-copilot-helps-build-the-github-platform/)**
-  - GitHub's internal Copilot usage
-  - Real-world platform development examples
-  - Productivity metrics
+#### GitHub Copilot CLI 101
+Complete guide to using GitHub Copilot from the command line.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot-cli-101-how-to-use-github-copilot-from-the-command-line/)
 
-### Custom Agents & Extensions
-- **[Your Stack, Your Rules: Introducing Custom Agents for Observability, IaC, and Security](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/)**
-  - Custom agent capabilities
-  - Domain-specific agents (Observability, Infrastructure as Code, Security)
-  - Integration examples
+#### A Developer's Guide to Writing, Debugging, Reviewing, and Shipping Code Faster
+Comprehensive guide to accelerating your development workflow with GitHub Copilot.
+- Source: [GitHub Blog](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-writing-debugging-reviewing-and-shipping-code-faster-with-github-copilot/)
 
 ---
 
-## Video Updates
+## Resources
 
-### December 2025
-- **GitHub Copilot Spaces: Debug Issues Faster** - Tutorial on debugging workflows
-- **Orchestrating Agents with Mission Control** - Multi-agent orchestration guide
-- **Writing Great AGENTS.md Files** - Best practices for custom instructions
-- **GitHub Copilot CLI 101** - Command-line interface tutorial
-- **How Copilot Builds the GitHub Platform** - Internal usage examples
-- **Developer's Guide to Shipping Code Faster** - Complete workflow guide
+### Videos
+- **8 curated videos** available covering tutorials, demos, and best practices
+- See [Video Library](videos.md) for complete collection
 
----
+### Training Courses
+- **7 training courses** available from GitHub Skills, Microsoft Learn, and certified providers
+- See [Training Courses](TRAININGS.md) for complete catalog
 
-## Archive
-
-### August 2025
-- **[Copilot Coding Agent Now Supports AGENTS.md Custom Instructions](https://github.blog/changelog/2025-08-28-copilot-coding-agent-now-supports-agents-md-custom-instructions/)**
-  - Advanced multi-agent workflow support
-  - Custom instruction files for complex scenarios
-  - Team-based and role-based automation
+### Documentation
+- **14 documentation pages** tracking official GitHub Copilot documentation
+- See [Complete Reference](REFERENCE.md) for full index
 
 ---
 
-## Statistics
-
-- **Active Documentation Files**: 14 files
-- **Blog Posts Tracked**: 19+ articles
-- **Video Tutorials**: 6 guides
-- **Last Major Update**: December 9, 2025
-
----
-
-## Additional Resources
-
-### Official Documentation
-- [GitHub Copilot Documentation](https://docs.github.com/copilot)
-- [Copilot Cheat Sheet](https://docs.github.com/en/copilot/reference/cheat-sheet)
-- [Coding Agent Docs](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent)
-
-### Learning Resources
-- [GitHub Skills: Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
-- [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [Spec-driven Development Toolkit](https://github.com/github/spec-kit)
-- [Eval-Driven Development Guide](https://vercel.com/blog/eval-driven-development-build-better-ai-faster)
-
----
-
-*This changelog is automatically updated by the GitHub Copilot Daily Digest system.*
+*For latest updates, see [WHATS-NEW.md](WHATS-NEW.md)*

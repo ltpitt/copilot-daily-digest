@@ -360,10 +360,34 @@ Updated all content with latest data from [YYYY-MM-DD].
 
 ### Quality Checks
 - [ ] All links are properly formatted
+- [ ] **Anchor links strip emojis** (see rules below)
 - [ ] Dates are correct and formatted consistently
 - [ ] No duplicate entries
 - [ ] Markdown syntax is correct
 - [ ] Spelling and grammar correct
+
+### Anchor Link Rules (CRITICAL - NEVER VIOLATE)
+
+**GitHub strips emojis from anchor IDs. Anchor links with emojis WILL BREAK.**
+
+**✅ CORRECT - Strip emojis from anchor links:**
+```markdown
+## 🎓 Official GitHub Courses
+[Link to section](#official-github-courses)  <!-- ✅ Emoji in heading, NOT in link -->
+```
+
+**❌ NEVER DO THIS:**
+```markdown
+## 🎓 Official GitHub Courses
+[Link to section](#🎓-official-github-courses)  <!-- ❌ BROKEN - emoji in link -->
+```
+
+**How GitHub creates anchor IDs:**
+1. Convert to lowercase
+2. **Remove ALL emojis** (keep only: letters, numbers, spaces, hyphens, underscores)
+3. Replace spaces with hyphens
+
+**Always validate:** Run `python3 scripts/validate_links.py` after editing files with internal navigation.
 
 ## Error Handling
 
