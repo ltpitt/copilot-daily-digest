@@ -168,7 +168,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 2. **[Microsoft Learn: Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)** (30 min)
    - Reinforce concepts with a different teaching style
 
-3. **[Watch: Getting Started Videos](videos.md)** (ongoing)
+3. **[Watch: Getting Started Videos](VIDEOS.md)** (ongoing)
    - Visual learners: watch tutorials and demos
 
 4. **[Read: Getting Started Guide](GETTING-STARTED.md)** (5 min)
@@ -273,7 +273,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 ## Additional Resources
 
 - **[Official Documentation](https://docs.github.com/copilot)** - Complete reference
-- **[Video Library](videos.md)** - Tutorials and demos
+- **[Video Library](VIDEOS.md)** - Tutorials and demos
 - **[What's New](WHATS-NEW.md)** - Latest features
 - **[Best Practices](GETTING-STARTED.md)** - Quick tips
 

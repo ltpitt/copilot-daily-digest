@@ -173,7 +173,7 @@ Returns: ["11/14/2023", "12-1-23"]
 
 ## 🎯 Next Steps
 
-- **[Watch tutorials](videos.md)** - Learn from video demos
+- **[Watch tutorials](VIDEOS.md)** - Learn from video demos
 - **[Take courses](TRAININGS.md)** - Official GitHub Skills courses
 - **[Explore updates](WHATS-NEW.md)** - See latest features
 - **[Read best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Complete best practices

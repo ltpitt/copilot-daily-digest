@@ -179,7 +179,7 @@ Comprehensive guide to accelerating your development workflow with GitHub Copilo
 
 ### Videos
 - **8 curated videos** available covering tutorials, demos, and best practices
-- See [Video Library](videos.md) for complete collection
+- See [Video Library](VIDEOS.md) for complete collection
 
 ### Training Courses
 - **7 training courses** available from GitHub Skills, Microsoft Learn, and certified providers

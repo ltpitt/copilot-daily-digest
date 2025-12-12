@@ -14,7 +14,7 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 - **[Changelog](CHANGELOG.md)** - Complete historical timeline
 
 ### Learn & Practice
-- **[Video Library](videos.md)** - Curated tutorials and demos
+- **[Video Library](VIDEOS.md)** - Curated tutorials and demos
 - **[Training Courses](TRAININGS.md)** - Official courses, certifications, learning paths
 
 ### Quick Reference

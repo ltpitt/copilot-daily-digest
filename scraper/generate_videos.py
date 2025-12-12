@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 # ============================================================================
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "videos"
-OUTPUT_FILE = Path(__file__).parent.parent / "content" / "videos.md"
+OUTPUT_FILE = Path(__file__).parent.parent / "content" / "VIDEOS.md"
 
 # Category keywords for video classification
 # Order matters - categories will appear in this order

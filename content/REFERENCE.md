@@ -83,7 +83,7 @@
 
 ### Learning Resources
 - **[Training Courses](TRAININGS.md)** - Courses, certifications, learning paths
-- **[Video Library](videos.md)** - Curated tutorials and demos
+- **[Video Library](VIDEOS.md)** - Curated tutorials and demos
 
 ---
 

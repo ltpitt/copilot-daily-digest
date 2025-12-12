@@ -3,7 +3,7 @@
   "total_links": 440,
   "internal_links": 148,
   "external_links": 217,
-  "valid_links": 277,
+  "valid_links": 283,
   "broken_links": [
     {
       "file": ".github/agents/content-generator.agent.md",
@@ -132,14 +132,6 @@
       "text": "Complete Reference",
       "error": "File not found: .github/REFERENCE.md",
       "type": "internal"
-    },
-    {
-      "file": ".github/copilot-instructions.md",
-      "line": 85,
-      "url": "https://github.blog/category/copilot/",
-      "text": "GitHub Blog - Copilot",
-      "error": "HTTP 404",
-      "type": "external"
     },
     {
       "file": ".github/copilot-instructions.md",
@@ -471,50 +463,10 @@
     },
     {
       "file": "content/STARTER-KIT.md",
-      "line": 147,
-      "url": "https://github.com/skills/copilot-intro",
-      "text": "Introduction to GitHub Copilot",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/STARTER-KIT.md",
       "line": 167,
       "url": "https://www.udemy.com/course/github-copilot-complete-guide/",
       "text": "GitHub Copilot: The Complete Masterclass",
       "error": "HTTP 403",
-      "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 35,
-      "url": "https://github.com/skills/copilot-intro",
-      "text": "Start Course \u2192",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 103,
-      "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/",
-      "text": "Start Challenge \u2192",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 165,
-      "url": "https://github.com/skills/copilot-intro",
-      "text": "GitHub Skills: Introduction to GitHub Copilot",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "content/TRAININGS.md",
-      "line": 191,
-      "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/",
-      "text": "Microsoft Learn: Challenge Project",
-      "error": "HTTP 404",
       "type": "external"
     },
     {

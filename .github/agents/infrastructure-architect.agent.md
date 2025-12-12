@@ -48,7 +48,7 @@ copilot-daily-digest/
 │   ├── cheatsheet.md
 │   ├── changelog.md
 │   ├── this-week.md               # Weekly highlights (NEW)
-│   └── videos.md                  # Video library (NEW)
+│   └── VIDEOS.md                  # Video library (auto-generated)
 │
 ├── templates/                     # Content generation templates
 │   ├── readme_template.md
@@ -163,7 +163,7 @@ jobs:
             New content detected! Please generate updated content files:
             - content/README.md
             - content/this-week.md
-            - content/videos.md
+            - content/VIDEOS.md
             - content/changelog.md
             
             Use data from:

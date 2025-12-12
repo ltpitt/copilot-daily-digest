@@ -99,7 +99,7 @@ data/
 │   ├── youtube-metadata.json    # Comprehensive metadata
 │   └── video-thumbnails/        # Optional thumbnail cache
 content/
-└── videos.md                     # Generated user-facing page
+└── VIDEOS.md                     # Generated user-facing page
 ```
 
 ## Implementation Pattern (RSS First)
@@ -150,7 +150,7 @@ def is_copilot_related(title, description):
 
 ## Output Generation
 
-Create `content/videos.md` with:
+Create `content/VIDEOS.md` with:
 - "New This Week" section (videos from last 7 days)
 - Categorized listings
 - Embedded thumbnails (Markdown image syntax)
