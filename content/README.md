@@ -109,13 +109,42 @@ Master agent orchestration with GitHub Copilot's Mission Control features.
 - [Building GitHub Platform with Copilot](https://www.youtube.com/watch?v=dI4H5ZyYOx0)
 - [Developer's Guide to Shipping Faster](https://www.youtube.com/watch?v=LwqUp4Dc1mQ)
 
+## 🎓 Featured Trainings
+
+### Expand Your Team with Copilot
+
+**Provider**: GitHub Skills  
+**Level**: Intermediate  
+**Duration**: 2-3 hours  
+**Cost**: Free
+
+Learn how to use GitHub Copilot to expand your team's capabilities with hands-on exercises covering code generation, testing, and collaboration.
+
+[Start Learning →](https://github.com/skills/expand-your-team-with-copilot/)
+
+### Introduction to GitHub Copilot
+
+**Provider**: Microsoft Learn  
+**Level**: Beginner  
+**Duration**: 30 minutes  
+**Cost**: Free
+
+Discover how GitHub Copilot can help you code faster and more efficiently with AI-powered code suggestions.
+
+[Start Learning →](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+
+### More Trainings
+- [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/) - Microsoft Learn (2-3 hours)
+- [GitHub Foundations Certification](https://resources.github.com/learn/certifications/) - Official Certification
+- [Complete Workshop List](STARTER-KIT.md#6-workshop-area-first-steps--actions) - All courses and resources
+
 ## 📚 Quick Links
 
 - [Complete Reference](REFERENCE.md) - Full documentation and changelog
 - [Changelog](changelog.md) - Timeline of features and updates
 - [Cheatsheet](cheatsheet.md) - Quick reference for commands and shortcuts
 - [Official Docs](https://docs.github.com/copilot) - GitHub Copilot documentation
-- [GitHub Skills Course](https://github.com/skills/expand-your-team-with-copilot/) - Hands-on learning
+- [Starter Kit](STARTER-KIT.md) - Complete getting started guide with tutorials
 - [Mastering GitHub Copilot](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) - Comprehensive guide
 
 ---

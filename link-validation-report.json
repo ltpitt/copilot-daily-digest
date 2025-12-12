@@ -1,13 +1,13 @@
 {
-  "total_files": 49,
-  "total_links": 340,
-  "internal_links": 93,
+  "total_files": 50,
+  "total_links": 342,
+  "internal_links": 95,
   "external_links": 190,
-  "valid_links": 237,
+  "valid_links": 241,
   "broken_links": [
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 41,
+      "line": 42,
       "url": "STARTER-KIT.md",
       "text": "Full Getting Started Guide \u2192",
       "error": "File not found: .github/agents/STARTER-KIT.md",
@@ -15,7 +15,7 @@
     },
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 114,
+      "line": 115,
       "url": "url",
       "text": "Link text",
       "error": "File not found: .github/agents/url",
@@ -23,7 +23,7 @@
     },
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 115,
+      "line": 116,
       "url": "image-url",
       "text": "Alt text",
       "error": "File not found: .github/agents/image-url",
@@ -31,7 +31,7 @@
     },
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 207,
+      "line": 208,
       "url": "link",
       "text": "Explore project",
       "error": "File not found: .github/agents/link",
@@ -39,7 +39,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 84,
+      "line": 90,
       "url": "url",
       "text": "View research project",
       "error": "File not found: .github/agents/url",
@@ -47,7 +47,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 129,
+      "line": 135,
       "url": "./changelog.md",
       "text": "Full Changelog",
       "error": "File not found: .github/agents/changelog.md",
@@ -55,7 +55,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 130,
+      "line": 136,
       "url": "./cheatsheet.md",
       "text": "Command Cheatsheet",
       "error": "File not found: .github/agents/cheatsheet.md",
@@ -63,7 +63,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 131,
+      "line": 137,
       "url": "./videos.md",
       "text": "Video Library",
       "error": "File not found: .github/agents/videos.md",
@@ -71,7 +71,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 159,
+      "line": 165,
       "url": "url",
       "text": "Blog Post",
       "error": "File not found: .github/agents/url",
@@ -79,7 +79,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 164,
+      "line": 170,
       "url": "url",
       "text": "YouTube",
       "error": "File not found: .github/agents/url",
@@ -87,7 +87,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 185,
+      "line": 228,
       "url": "REFERENCE.md",
       "text": "Complete Reference",
       "error": "File not found: .github/REFERENCE.md",
@@ -95,7 +95,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 223,
+      "line": 266,
       "url": "link",
       "text": "Try it now",
       "error": "File not found: .github/link",
@@ -103,7 +103,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 223,
+      "line": 266,
       "url": "link",
       "text": "Learn more",
       "error": "File not found: .github/link",
@@ -111,7 +111,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 252,
+      "line": 295,
       "url": "link",
       "text": "Blog post title",
       "error": "File not found: .github/link",
@@ -119,7 +119,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 281,
+      "line": 324,
       "url": "url",
       "text": "Video Title",
       "error": "File not found: .github/url",
@@ -127,7 +127,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 282,
+      "line": 325,
       "url": "thumbnail_url",
       "text": "![thumbnail",
       "error": "File not found: .github/thumbnail_url",
@@ -135,7 +135,7 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 288,
+      "line": 331,
       "url": "url",
       "text": "Watch on YouTube \u2192",
       "error": "File not found: .github/url",
@@ -143,7 +143,23 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 341,
+      "line": 362,
+      "url": "url",
+      "text": "Course Title",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 371,
+      "url": "url",
+      "text": "Start Learning \u2192",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 426,
       "url": "link",
       "text": "Read more",
       "error": "File not found: .github/link",
@@ -151,42 +167,10 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 345,
+      "line": 430,
       "url": "link",
       "text": "Watch",
       "error": "File not found: .github/link",
-      "type": "internal"
-    },
-    {
-      "file": "content/cheatsheet.md",
-      "line": 367,
-      "url": "https://docs.github.com/en/copilot/best-practices",
-      "text": "Best Practices",
-      "error": "HTTP 404",
-      "type": "external"
-    },
-    {
-      "file": "docs/README.md",
-      "line": 12,
-      "url": "TASK-2.1-COMPLETION-REPORT.md",
-      "text": "Task Completion Report",
-      "error": "File not found: docs/TASK-2.1-COMPLETION-REPORT.md",
-      "type": "internal"
-    },
-    {
-      "file": "docs/README.md",
-      "line": 34,
-      "url": "TASK-2.1-COMPLETION-REPORT.md",
-      "text": "Task Completion Report",
-      "error": "File not found: docs/TASK-2.1-COMPLETION-REPORT.md",
-      "type": "internal"
-    },
-    {
-      "file": "docs/README.md",
-      "line": 63,
-      "url": "TASK-2.1-COMPLETION-REPORT.md",
-      "text": "TASK-2.1-COMPLETION-REPORT.md",
-      "error": "File not found: docs/TASK-2.1-COMPLETION-REPORT.md",
       "type": "internal"
     },
     {

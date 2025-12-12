@@ -8,6 +8,7 @@ echo "📥 Step 1: Fetching content..."
 python scraper/fetch_docs.py
 python scraper/fetch_blog.py
 python scraper/fetch_youtube.py
+python scraper/fetch_trainings.py
 
 # Step 2: Detect changes
 echo "🔍 Step 2: Detecting changes..."
