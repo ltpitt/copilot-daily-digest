@@ -154,6 +154,64 @@ def extract_headings(content: str) -> Set[str]:
     return anchors
 
 
+def has_emoji(text: str) -> bool:
+    """
+    Check if text contains emoji characters.
+    Uses Unicode ranges for emoji detection.
+    """
+    emoji_pattern = re.compile(
+        "["
+        "\U0001F1E0-\U0001F1FF"  # flags (iOS)
+        "\U0001F300-\U0001F5FF"  # symbols & pictographs
+        "\U0001F600-\U0001F64F"  # emoticons
+        "\U0001F680-\U0001F6FF"  # transport & map symbols
+        "\U0001F700-\U0001F77F"  # alchemical symbols
+        "\U0001F780-\U0001F7FF"  # Geometric Shapes Extended
+        "\U0001F800-\U0001F8FF"  # Supplemental Arrows-C
+        "\U0001F900-\U0001F9FF"  # Supplemental Symbols and Pictographs
+        "\U0001FA00-\U0001FA6F"  # Chess Symbols
+        "\U0001FA70-\U0001FAFF"  # Symbols and Pictographs Extended-A
+        "\U00002702-\U000027B0"  # Dingbats
+        "\U000024C2-\U0001F251" 
+        "]+", 
+        flags=re.UNICODE
+    )
+    return bool(emoji_pattern.search(text))
+
+
+def check_emoji_in_linked_headings(content: str, links: List[Tuple[str, str, int]]) -> List[Dict]:
+    """
+    Check if any headings that are link targets contain emojis.
+    Returns list of violations.
+    """
+    violations = []
+    
+    # Extract all anchor links from the content
+    anchor_targets = set()
+    for _, url, _ in links:
+        if '#' in url:
+            anchor = url.split('#', 1)[1]
+            anchor_targets.add(anchor)
+    
+    # Check each heading to see if it's a link target and contains emojis
+    for match in re.finditer(r'^(#{1,6})\s+(.+)$', content, re.MULTILINE):
+        heading_level = match.group(1)
+        heading_text = match.group(2).strip()
+        anchor = heading_to_anchor(heading_text)
+        line_num = content[:match.start()].count('\n') + 1
+        
+        # If this heading is linked to and contains emoji, it's a violation
+        if anchor in anchor_targets and has_emoji(heading_text):
+            violations.append({
+                'line': line_num,
+                'heading': heading_text,
+                'anchor': anchor,
+                'message': f"Heading '{heading_text}' contains emoji but is a link target (#{anchor})"
+            })
+    
+    return violations
+
+
 def resolve_file_path(file_part: str, source_file: Path, base_path: Path) -> Path:
     """
     Resolve a relative or absolute file path to an absolute Path object.
@@ -267,6 +325,7 @@ def validate_links(base_path: Path) -> Dict:
         'external_links': 0,
         'valid_links': 0,
         'broken_links': [],
+        'emoji_violations': [],
         'skipped_links': 0,
     }
     
@@ -283,6 +342,16 @@ def validate_links(base_path: Path) -> Dict:
             content = f.read()
         
         links = extract_links(content, md_file)
+        
+        # Check for emoji violations in linked headings
+        emoji_violations = check_emoji_in_linked_headings(content, links)
+        if emoji_violations:
+            for violation in emoji_violations:
+                report['emoji_violations'].append({
+                    'file': str(rel_path),
+                    **violation
+                })
+                print(f"  ⚠️  Line {violation['line']}: EMOJI IN LINKED HEADING - {violation['message']}")
         
         for link_text, url, line_num in links:
             report['total_links'] += 1
@@ -327,16 +396,37 @@ def print_report(report: Dict):
     print("=" * 70)
     print("LINK VALIDATION REPORT")
     print("=" * 70)
-    print(f"Files checked:     {report['total_files']}")
-    print(f"Total links:       {report['total_links']}")
-    print(f"Internal links:    {report['internal_links']}")
-    print(f"External links:    {report['external_links']}")
-    print(f"Valid links:       {report['valid_links']}")
-    print(f"Broken links:      {len(report['broken_links'])}")
-    print(f"Skipped links:     {report['skipped_links']}")
+    print(f"Files checked:        {report['total_files']}")
+    print(f"Total links:          {report['total_links']}")
+    print(f"Internal links:       {report['internal_links']}")
+    print(f"External links:       {report['external_links']}")
+    print(f"Valid links:          {report['valid_links']}")
+    print(f"Broken links:         {len(report['broken_links'])}")
+    print(f"Emoji violations:     {len(report['emoji_violations'])}")
+    print(f"Skipped links:        {report['skipped_links']}")
     print()
     
+    has_issues = False
+    
+    if report['emoji_violations']:
+        has_issues = True
+        print("EMOJI VIOLATIONS (Emojis in headings that are link targets):")
+        print("-" * 70)
+        print("⚠️  CRITICAL: Headings that are link targets must NOT contain emojis.")
+        print("    GitHub strips emojis from anchor IDs, breaking the links.\n")
+        
+        for violation in report['emoji_violations']:
+            print(f"\nFile: {violation['file']}:{violation['line']}")
+            print(f"Heading: {violation['heading']}")
+            print(f"Anchor: #{violation['anchor']}")
+            print(f"Fix: Remove emoji from heading")
+        
+        print()
+        print("-" * 70)
+        print()
+    
     if report['broken_links']:
+        has_issues = True
         print("BROKEN LINKS:")
         print("-" * 70)
         
@@ -350,11 +440,14 @@ def print_report(report: Dict):
         
         print()
         print("=" * 70)
-        return False
-    else:
-        print("✓ All links are valid!")
+    
+    if not has_issues:
+        print("✓ All links are valid and no emoji violations found!")
         print("=" * 70)
         return True
+    else:
+        print("=" * 70)
+        return False
 
 
 def save_report(report: Dict, output_file: Path):

@@ -729,8 +729,23 @@ Type `@` in the chat prompt box to see available participants.
 [content...]
 ```
 
-**Validation (MANDATORY):**
-After generating or editing files with internal navigation:
-1. Run: `python3 scripts/validate_links.py`
-2. Fix any broken anchor links immediately
-3. Verify links work on GitHub (not just VS Code preview)
+**Validation (MANDATORY - Quality Gate):**
+After generating or editing ANY content files, you MUST run link validation:
+
+```bash
+python3 scripts/validate_links.py
+```
+
+This script validates:
+- ✅ Internal file links work
+- ✅ Anchor links match actual headings
+- ✅ External URLs return HTTP 200
+- ⚠️  **Emojis in headings that are link targets** (CRITICAL RULE)
+
+**The script MUST pass with zero errors before work is considered complete.**
+
+If validation fails:
+1. Fix all broken links immediately
+2. Remove emojis from any headings that are link targets
+3. Re-run validation until it passes
+4. Verify links work on GitHub (not just VS Code preview)

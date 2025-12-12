@@ -81,7 +81,7 @@ Videos are organized by topic for easy navigation:
 
 ---
 
-## 🎓 Getting Started
+## Getting Started
 
 *New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
 
@@ -124,7 +124,7 @@ Discover the power of agent extensibility with a live demonstration of the GitHu
 ---
 
 
-## ✨ Features
+## Features
 
 *Discover new features, product announcements, and capability releases.*
 
@@ -143,7 +143,7 @@ GitHub Code Quality helps you ensure your codebase is reliable, maintainable, an
 ---
 
 
-## 📚 Tutorials
+## Tutorials
 
 *Step-by-step guides and walkthroughs to help you master Copilot.*
 
@@ -183,9 +183,9 @@ Join us for Rubber Duck Thursdays! A lighthearted and informal stream where we l
 
 ---
 
-## 📊 Statistics
+## Statistics
 
-- **Total Videos**: 6
+- **Total Videos**: 8
 - **New This Week**: 4
 - **By Category**:
   - Getting Started: 3
