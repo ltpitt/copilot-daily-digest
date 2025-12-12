@@ -10,10 +10,10 @@
 
 - [What's New This Week](#whats-new-this-week)
 - [Browse by Category](#browse-by-category)
-  - [Getting Started](#-getting-started) (3)
-  - [Features](#-features) (1)
-  - [Tutorials](#-tutorials) (1)
-  - [Agents](#-agents) (1)
+  - [Getting Started](#getting-started) (3)
+  - [Features](#features) (1)
+  - [Tutorials](#tutorials) (1)
+  - [Agents](#agents) (1)
 - [Statistics](#statistics)
 
 ---
@@ -74,10 +74,10 @@ Code reviews are essential but often time-consuming. Join us for a deep dive int
 
 Videos are organized by topic for easy navigation:
 
-- [🎓 Getting Started](#-getting-started) - 3 videos
-- [✨ Features](#-features) - 1 video
-- [📚 Tutorials](#-tutorials) - 1 video
-- [🤖 Agents](#-agents) - 1 video
+- [🎓 Getting Started](#getting-started) - 3 videos
+- [✨ Features](#features) - 1 video
+- [📚 Tutorials](#tutorials) - 1 video
+- [🤖 Agents](#agents) - 1 video
 
 ---
 
