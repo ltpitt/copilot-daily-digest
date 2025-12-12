@@ -61,6 +61,7 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 
 ### Getting Started
 - **[Quick Start Guide](GETTING-STARTED.md)** - Set up Copilot in 5 minutes + best practices
+- **[Starter Kit](STARTER-KIT.md)** - Master Copilot: philosophy, workflow, and deep integration
 
 ### Stay Current
 - **[What's New](WHATS-NEW.md)** - Latest updates from the last 30 days
