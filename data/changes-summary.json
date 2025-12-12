@@ -1,32 +1,124 @@
 {
-  "generated_at": "2025-12-12T12:48:24.726739+00:00",
+  "generated_at": "2025-12-12T13:43:16.968226+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 16,
   "docs": {
-    "changed": [],
+    "changed": [
+      {
+        "filename": "copilot-extensions-integration.md",
+        "timestamp": "2025-12-12T13:43:03Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-code-suggestions.md",
+        "timestamp": "2025-12-12T13:43:09Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-custom-instructions.md",
+        "timestamp": "2025-12-12T13:43:04Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-troubleshooting.md",
+        "timestamp": "2025-12-12T13:43:14Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-configuration.md",
+        "timestamp": "2025-12-12T13:43:11Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-getting-started.md",
+        "timestamp": "2025-12-12T13:43:00Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-extensions-overview.md",
+        "timestamp": "2025-12-12T13:43:02Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-chat.md",
+        "timestamp": "2025-12-12T13:43:01Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-managing-organization.md",
+        "timestamp": "2025-12-12T13:43:10Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-asking-questions.md",
+        "timestamp": "2025-12-12T13:43:08Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-overview.md",
+        "timestamp": "2025-12-12T13:42:59Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-best-practices.md",
+        "timestamp": "2025-12-12T13:43:05Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-prompt-engineering.md",
+        "timestamp": "2025-12-12T13:43:07Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-responsible-use.md",
+        "timestamp": "2025-12-12T13:43:13Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      }
+    ],
     "new": [],
     "unchanged": [],
     "deleted": [
-      "copilot-configuration.md",
-      "copilot-best-practices.md",
-      "copilot-prompt-engineering.md",
-      "copilot-overview.md",
-      "copilot-custom-instructions.md",
-      "copilot-extensions-overview.md",
-      "copilot-asking-questions.md",
-      "copilot-troubleshooting.md",
-      "copilot-chat.md",
-      "copilot-managing-organization.md",
-      "copilot-responsible-use.md",
-      "copilot-extensions-integration.md",
-      "scrape-summary.md",
-      "copilot-code-suggestions.md",
-      "copilot-getting-started.md"
+      "scrape-summary.md"
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 1,
+    "new_posts": [
+      {
+        "title": "Review commit-by-commit, improved filtering, and more in the pull request “Files changed” public preview",
+        "url": "https://github.blog/changelog/2025-12-11-review-commit-by-commit-improved-filtering-and-more-in-the-pull-request-files-changed-public-preview",
+        "date": "2025-12-12T02:59:42Z",
+        "summary": "<p>A major feature gap with the classic &#8220;Files changed&#8221; page (review commit-by-commit) is now closed and commit filtering has been improved in this update to the pull request &#8220;Files "
+      }
+    ]
   },
   "videos": {
     "new_count": 0,
@@ -36,12 +128,118 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 12, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-configuration.md: File deleted\n  - copilot-best-practices.md: File deleted\n  - copilot-prompt-engineering.md: File deleted\n  - copilot-overview.md: File deleted\n  - copilot-custom-instructions.md: File deleted\n  - copilot-extensions-overview.md: File deleted\n  - copilot-asking-questions.md: File deleted\n  - copilot-troubleshooting.md: File deleted\n  - copilot-chat.md: File deleted\n  - copilot-managing-organization.md: File deleted\n  - copilot-responsible-use.md: File deleted\n  - copilot-extensions-integration.md: File deleted\n  - scrape-summary.md: File deleted\n  - copilot-code-suggestions.md: File deleted\n  - copilot-getting-started.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on December 12, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"Review commit-by-commit, improved filtering, and more in the pull request “Files changed” public preview\" (2025-12-12)\n\nTotal: 16 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 0,
-    "new_docs": [],
-    "new_blog_posts": [],
+    "total_changes": 15,
+    "new_docs": [
+      {
+        "filename": "copilot-extensions-integration.md",
+        "timestamp": "2025-12-12T13:43:03Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-code-suggestions.md",
+        "timestamp": "2025-12-12T13:43:09Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-custom-instructions.md",
+        "timestamp": "2025-12-12T13:43:04Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-troubleshooting.md",
+        "timestamp": "2025-12-12T13:43:14Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-configuration.md",
+        "timestamp": "2025-12-12T13:43:11Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-getting-started.md",
+        "timestamp": "2025-12-12T13:43:00Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-extensions-overview.md",
+        "timestamp": "2025-12-12T13:43:02Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-chat.md",
+        "timestamp": "2025-12-12T13:43:01Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-managing-organization.md",
+        "timestamp": "2025-12-12T13:43:10Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-asking-questions.md",
+        "timestamp": "2025-12-12T13:43:08Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-overview.md",
+        "timestamp": "2025-12-12T13:42:59Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-best-practices.md",
+        "timestamp": "2025-12-12T13:43:05Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-prompt-engineering.md",
+        "timestamp": "2025-12-12T13:43:07Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      },
+      {
+        "filename": "copilot-responsible-use.md",
+        "timestamp": "2025-12-12T13:43:13Z",
+        "diff_summary": "",
+        "added_lines": 0,
+        "removed_lines": 0
+      }
+    ],
+    "new_blog_posts": [
+      {
+        "title": "Review commit-by-commit, improved filtering, and more in the pull request “Files changed” public preview",
+        "url": "https://github.blog/changelog/2025-12-11-review-commit-by-commit-improved-filtering-and-more-in-the-pull-request-files-changed-public-preview",
+        "date": "2025-12-12T02:59:42Z",
+        "summary": "<p>A major feature gap with the classic &#8220;Files changed&#8221; page (review commit-by-commit) is now closed and commit filtering has been improved in this update to the pull request &#8220;Files "
+      }
+    ],
     "new_videos": []
   }
 }
