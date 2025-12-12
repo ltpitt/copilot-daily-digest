@@ -191,7 +191,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 3. **[Microsoft Learn: Challenge Project](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/)** (1-2 hours)
    - Build a real project to practice skills
 
-4. **[Read: Best Practices Documentation](../data/docs/copilot-best-practices.md)** (ongoing)
+4. **[Read: Best Practices Documentation](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)** (ongoing)
    - Learn from official guidelines
 
 **Estimated total time**: 6-10 hours
@@ -208,7 +208,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 2. **[GitHub Foundations Certification](https://resources.github.com/learn/certifications/)** (20-40 hours prep)
    - Industry-recognized credential
 
-3. **[Read: Prompt Engineering Guide](../data/docs/copilot-prompt-engineering.md)** (ongoing)
+3. **[Read: Prompt Engineering Guide](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)** (ongoing)
    - Master the art of effective prompts
 
 4. **Practice**: Apply Copilot to real projects daily
@@ -226,7 +226,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 1. **Complete Beginner Path** (team members)
    - Ensure everyone has baseline skills
 
-2. **[Read: Managing Copilot in Organizations](../data/docs/copilot-managing-organization.md)** (admins)
+2. **[Read: Managing Copilot in Organizations](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization)** (admins)
    - Learn administration and policy management
 
 3. **[Review: Track Metrics Dashboard](https://github.blog/changelog/2025-12-05-track-copilot-code-generation-metrics-in-a-dashboard)**

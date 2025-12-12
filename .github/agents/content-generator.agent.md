@@ -132,6 +132,35 @@ Follow the **modular topic-based architecture** defined in `.github/copilot-inst
 ![Alt text](image-url) for images
 ```
 
+### Anchor Link Rules (CRITICAL)
+
+**When creating internal navigation links to headings within the same file:**
+
+❌ **WRONG - Including emoji placeholders:**
+```markdown
+## 🎓 Getting Started
+[Link to section](#-getting-started)  <!-- WRONG -->
+```
+
+✅ **CORRECT - Strip emojis completely:**
+```markdown
+## 🎓 Getting Started
+[Link to section](#getting-started)  <!-- CORRECT -->
+```
+
+**How GitHub converts headings to anchors:**
+1. Convert to lowercase
+2. Remove ALL emojis and special characters (keep only: alphanumeric, spaces, hyphens, underscores)
+3. Replace spaces with hyphens
+4. Strip leading/trailing hyphens
+
+**Examples:**
+- `## 🎓 Official GitHub Courses` → `#official-github-courses`
+- `## 📚 Microsoft Learn Modules` → `#microsoft-learn-modules`
+- `## 💡 Study Tips` → `#study-tips`
+
+**Always validate:** Run `python3 scripts/validate_links.py` after creating anchor links.
+
 ### Date Formatting
 - Use ISO 8601 for machine-readable: `2025-12-08`
 - Use readable format for display: `December 8, 2025`

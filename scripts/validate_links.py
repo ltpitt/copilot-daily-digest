@@ -109,34 +109,120 @@ def should_skip_link(url: str) -> bool:
         if url_lower.startswith(skip):
             return True
     
-    # Skip internal anchors only
-    if url.startswith('#'):
-        return True
-    
     return False
 
 
-def validate_internal_link(url: str, source_file: Path, base_path: Path) -> Tuple[bool, str]:
+def heading_to_anchor(heading_text: str) -> str:
     """
-    Validate internal (relative) link.
-    Returns (is_valid, error_message).
-    """
-    # Remove anchor if present
-    clean_url = url.split('#')[0]
-    if not clean_url:
-        # Anchor only, assume valid
-        return True, ""
+    Convert a markdown heading to its anchor ID.
+    GitHub's markdown processor:
+    1. Converts to lowercase
+    2. Removes emojis and special characters (keeps word characters, spaces, hyphens)
+    3. Replaces spaces with hyphens
+    4. Strips leading/trailing hyphens
     
-    # Resolve relative path
-    if clean_url.startswith('/'):
+    Note: \w includes alphanumeric and underscores
+    """
+    # Convert to lowercase
+    anchor = heading_text.lower()
+    
+    # Remove emojis and special characters, keep only word characters, spaces, hyphens
+    anchor = re.sub(r'[^\w\s-]', '', anchor)
+    
+    # Replace spaces with hyphens
+    anchor = re.sub(r'\s+', '-', anchor)
+    
+    # Strip leading/trailing hyphens
+    anchor = anchor.strip('-')
+    
+    return anchor
+
+
+def extract_headings(content: str) -> Set[str]:
+    """
+    Extract all heading anchors from markdown content.
+    Returns set of anchor IDs.
+    """
+    anchors = set()
+    
+    # Match markdown headings: ## Heading Text
+    for match in re.finditer(r'^#{1,6}\s+(.+)$', content, re.MULTILINE):
+        heading_text = match.group(1).strip()
+        anchor = heading_to_anchor(heading_text)
+        anchors.add(anchor)
+    
+    return anchors
+
+
+def resolve_file_path(file_part: str, source_file: Path, base_path: Path) -> Path:
+    """
+    Resolve a relative or absolute file path to an absolute Path object.
+    """
+    if file_part.startswith('/'):
         # Absolute path from repo root
-        target = base_path / clean_url.lstrip('/')
+        return base_path / file_part.lstrip('/')
     else:
         # Relative to current file
-        target = (source_file.parent / clean_url).resolve()
+        return (source_file.parent / file_part).resolve()
+
+
+def validate_internal_link(url: str, source_file: Path, base_path: Path, source_content: str = None) -> Tuple[bool, str]:
+    """
+    Validate internal (relative) link or anchor.
+    Returns (is_valid, error_message).
+    """
+    # Check if it's an anchor-only link
+    if url.startswith('#'):
+        anchor = url[1:]  # Remove leading #
+        if source_content:
+            # Extract headings from source file
+            valid_anchors = extract_headings(source_content)
+            if anchor not in valid_anchors:
+                anchor_list = ', '.join(f'#{a}' for a in sorted(list(valid_anchors)[:5]))
+                more_anchors = f' (and {len(valid_anchors) - 5} more)' if len(valid_anchors) > 5 else ''
+                return False, f"Anchor not found: #{anchor}. Available anchors: {anchor_list}{more_anchors}"
+            return True, ""
+        else:
+            # Can't validate without content
+            return True, ""
+    
+    # Handle links with anchors (file.md#anchor)
+    if '#' in url:
+        file_part, anchor_part = url.split('#', 1)
+        anchor = anchor_part
+        
+        # If file_part is empty, it's same-file anchor
+        if not file_part:
+            if source_content:
+                valid_anchors = extract_headings(source_content)
+                if anchor not in valid_anchors:
+                    return False, f"Anchor not found: #{anchor}"
+                return True, ""
+        else:
+            # Resolve the file path
+            target = resolve_file_path(file_part, source_file, base_path)
+            
+            if not target.exists():
+                rel_target = target.relative_to(base_path) if target.is_relative_to(base_path) else target
+                return False, f"File not found: {rel_target}"
+            
+            # Check anchor in target file
+            try:
+                with open(target, 'r', encoding='utf-8') as f:
+                    target_content = f.read()
+                valid_anchors = extract_headings(target_content)
+                if anchor not in valid_anchors:
+                    return False, f"Anchor not found in {target.name}: #{anchor}"
+                return True, ""
+            except Exception as e:
+                return False, f"Error reading target file: {str(e)}"
+    
+    # Regular file link (no anchor)
+    target = resolve_file_path(url, source_file, base_path)
     
     if not target.exists():
-        return False, f"File not found: {target.relative_to(base_path)}"
+        rel_target = target.relative_to(base_path) if target.is_relative_to(base_path) else target
+        return False, f"File not found: {rel_target}"
     
     return True, ""
 
@@ -215,7 +301,7 @@ def validate_links(base_path: Path) -> Dict:
                 is_valid, error = validate_external_link(url, session)
             else:
                 report['internal_links'] += 1
-                is_valid, error = validate_internal_link(url, md_file, base_path)
+                is_valid, error = validate_internal_link(url, md_file, base_path, content)
             
             if is_valid:
                 report['valid_links'] += 1

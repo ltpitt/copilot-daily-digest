@@ -1,21 +1,13 @@
 {
-  "total_files": 50,
-  "total_links": 342,
-  "internal_links": 95,
-  "external_links": 190,
-  "valid_links": 241,
+  "total_files": 55,
+  "total_links": 465,
+  "internal_links": 179,
+  "external_links": 216,
+  "valid_links": 272,
   "broken_links": [
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 42,
-      "url": "STARTER-KIT.md",
-      "text": "Full Getting Started Guide \u2192",
-      "error": "File not found: .github/agents/STARTER-KIT.md",
-      "type": "internal"
-    },
-    {
-      "file": ".github/agents/content-generator.agent.md",
-      "line": 115,
+      "line": 131,
       "url": "url",
       "text": "Link text",
       "error": "File not found: .github/agents/url",
@@ -23,7 +15,7 @@
     },
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 116,
+      "line": 132,
       "url": "image-url",
       "text": "Alt text",
       "error": "File not found: .github/agents/image-url",
@@ -31,7 +23,7 @@
     },
     {
       "file": ".github/agents/content-generator.agent.md",
-      "line": 208,
+      "line": 253,
       "url": "link",
       "text": "Explore project",
       "error": "File not found: .github/agents/link",
@@ -39,7 +31,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 90,
+      "line": 105,
       "url": "url",
       "text": "View research project",
       "error": "File not found: .github/agents/url",
@@ -47,7 +39,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 135,
+      "line": 150,
       "url": "./changelog.md",
       "text": "Full Changelog",
       "error": "File not found: .github/agents/changelog.md",
@@ -55,7 +47,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 136,
+      "line": 151,
       "url": "./cheatsheet.md",
       "text": "Command Cheatsheet",
       "error": "File not found: .github/agents/cheatsheet.md",
@@ -63,7 +55,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 137,
+      "line": 152,
       "url": "./videos.md",
       "text": "Video Library",
       "error": "File not found: .github/agents/videos.md",
@@ -71,7 +63,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 165,
+      "line": 180,
       "url": "url",
       "text": "Blog Post",
       "error": "File not found: .github/agents/url",
@@ -79,7 +71,7 @@
     },
     {
       "file": ".github/agents/publisher.agent.md",
-      "line": 170,
+      "line": 185,
       "url": "url",
       "text": "YouTube",
       "error": "File not found: .github/agents/url",
@@ -87,7 +79,55 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 228,
+      "line": 61,
+      "url": "GETTING-STARTED.md",
+      "text": "Quick Start Guide",
+      "error": "File not found: .github/GETTING-STARTED.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 64,
+      "url": "WHATS-NEW.md",
+      "text": "What's New",
+      "error": "File not found: .github/WHATS-NEW.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 65,
+      "url": "CHANGELOG.md",
+      "text": "Changelog",
+      "error": "File not found: .github/CHANGELOG.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 68,
+      "url": "VIDEOS.md",
+      "text": "Video Library",
+      "error": "File not found: .github/VIDEOS.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 69,
+      "url": "TRAININGS.md",
+      "text": "Training Courses",
+      "error": "File not found: .github/TRAININGS.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 72,
+      "url": "COMMANDS.md",
+      "text": "Commands & Shortcuts",
+      "error": "File not found: .github/COMMANDS.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 73,
       "url": "REFERENCE.md",
       "text": "Complete Reference",
       "error": "File not found: .github/REFERENCE.md",
@@ -95,23 +135,15 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 266,
-      "url": "link",
-      "text": "Try it now",
-      "error": "File not found: .github/link",
-      "type": "internal"
+      "line": 85,
+      "url": "https://github.blog/category/copilot/",
+      "text": "GitHub Blog - Copilot",
+      "error": "HTTP 404",
+      "type": "external"
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 266,
-      "url": "link",
-      "text": "Learn more",
-      "error": "File not found: .github/link",
-      "type": "internal"
-    },
-    {
-      "file": ".github/copilot-instructions.md",
-      "line": 295,
+      "line": 159,
       "url": "link",
       "text": "Blog post title",
       "error": "File not found: .github/link",
@@ -119,31 +151,71 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 324,
-      "url": "url",
-      "text": "Video Title",
-      "error": "File not found: .github/url",
+      "line": 165,
+      "url": "VIDEOS.md",
+      "text": "Watch tutorials",
+      "error": "File not found: .github/VIDEOS.md",
       "type": "internal"
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 325,
-      "url": "thumbnail_url",
-      "text": "![thumbnail",
-      "error": "File not found: .github/thumbnail_url",
+      "line": 166,
+      "url": "TRAININGS.md",
+      "text": "Take courses",
+      "error": "File not found: .github/TRAININGS.md",
       "type": "internal"
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 331,
-      "url": "url",
-      "text": "Watch on YouTube \u2192",
-      "error": "File not found: .github/url",
+      "line": 167,
+      "url": "WHATS-NEW.md",
+      "text": "Explore updates",
+      "error": "File not found: .github/WHATS-NEW.md",
       "type": "internal"
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 362,
+      "line": 171,
+      "url": "COMMANDS.md",
+      "text": "COMMANDS.md",
+      "error": "File not found: .github/COMMANDS.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 217,
+      "url": "link",
+      "text": "Try it now",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 217,
+      "url": "link",
+      "text": "Learn more",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 217,
+      "url": "video-link-if-available",
+      "text": "Watch demo",
+      "error": "File not found: .github/video-link-if-available",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 231,
+      "url": "CHANGELOG.md",
+      "text": "Complete Changelog",
+      "error": "File not found: .github/CHANGELOG.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 300,
       "url": "url",
       "text": "Course Title",
       "error": "File not found: .github/url",
@@ -151,17 +223,97 @@
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 371,
+      "line": 311,
       "url": "url",
-      "text": "Start Learning \u2192",
+      "text": "Start Course \u2192",
       "error": "File not found: .github/url",
       "type": "internal"
     },
     {
       "file": ".github/copilot-instructions.md",
-      "line": 426,
+      "line": 333,
+      "url": "url",
+      "text": "Certification Name",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 346,
+      "url": "url",
+      "text": "Learn More \u2192",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 356,
+      "url": "url",
+      "text": "Course Title",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 366,
+      "url": "url",
+      "text": "View Course \u2192",
+      "error": "File not found: .github/url",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 373,
       "url": "link",
-      "text": "Read more",
+      "text": "GitHub Skills: Copilot Fundamentals",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 374,
+      "url": "link",
+      "text": "Microsoft Learn: Get Started with Copilot",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 375,
+      "url": "VIDEOS.md#getting-started",
+      "text": "Watch: Getting Started Videos",
+      "error": "File not found: .github/VIDEOS.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 378,
+      "url": "link",
+      "text": "Custom Agents Development",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 379,
+      "url": "link",
+      "text": "Enterprise Administration",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 380,
+      "url": "link",
+      "text": "Certification Exam Prep",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 424,
+      "url": "link",
+      "text": "Title",
       "error": "File not found: .github/link",
       "type": "internal"
     },
@@ -169,8 +321,488 @@
       "file": ".github/copilot-instructions.md",
       "line": 430,
       "url": "link",
-      "text": "Watch",
+      "text": "Title",
       "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 442,
+      "url": "WHATS-NEW.md",
+      "text": "WHATS-NEW.md",
+      "error": "File not found: .github/WHATS-NEW.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 563,
+      "url": "REFERENCE.md",
+      "text": "REFERENCE.md",
+      "error": "File not found: .github/REFERENCE.md",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 598,
+      "url": "link",
+      "text": "copilot-overview.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 599,
+      "url": "link",
+      "text": "copilot-getting-started.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 600,
+      "url": "link",
+      "text": "copilot-chat.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 603,
+      "url": "link",
+      "text": "copilot-code-suggestions.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 604,
+      "url": "link",
+      "text": "copilot-extensions-overview.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 605,
+      "url": "link",
+      "text": "copilot-extensions-integration.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 608,
+      "url": "link",
+      "text": "copilot-custom-instructions.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 609,
+      "url": "link",
+      "text": "copilot-configuration.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 612,
+      "url": "link",
+      "text": "copilot-best-practices.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 613,
+      "url": "link",
+      "text": "copilot-prompt-engineering.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 614,
+      "url": "link",
+      "text": "copilot-asking-questions.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 615,
+      "url": "link",
+      "text": "copilot-responsible-use.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 618,
+      "url": "link",
+      "text": "copilot-managing-organization.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 619,
+      "url": "link",
+      "text": "copilot-troubleshooting.md",
+      "error": "File not found: .github/link",
+      "type": "internal"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 626,
+      "url": "https://github.blog/category/copilot/",
+      "text": "GitHub Blog - Copilot",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": ".github/copilot-instructions.md",
+      "line": 643,
+      "url": "COMMANDS.md",
+      "text": "COMMANDS.md",
+      "error": "File not found: .github/COMMANDS.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/GETTING-STARTED.md",
+      "line": 179,
+      "url": "../data/docs/copilot-best-practices.md",
+      "text": "Read best practices guide",
+      "error": "File not found: data/docs/copilot-best-practices.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/README.md",
+      "line": 35,
+      "url": "https://github.blog/category/copilot/",
+      "text": "GitHub Blog - Copilot",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 12,
+      "url": "../data/docs/copilot-overview.md",
+      "text": "copilot-overview.md",
+      "error": "File not found: data/docs/copilot-overview.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 16,
+      "url": "../data/docs/copilot-getting-started.md",
+      "text": "copilot-getting-started.md",
+      "error": "File not found: data/docs/copilot-getting-started.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 21,
+      "url": "../data/docs/copilot-chat.md",
+      "text": "copilot-chat.md",
+      "error": "File not found: data/docs/copilot-chat.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 26,
+      "url": "../data/docs/copilot-asking-questions.md",
+      "text": "copilot-asking-questions.md",
+      "error": "File not found: data/docs/copilot-asking-questions.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 31,
+      "url": "../data/docs/copilot-code-suggestions.md",
+      "text": "copilot-code-suggestions.md",
+      "error": "File not found: data/docs/copilot-code-suggestions.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 36,
+      "url": "../data/docs/copilot-extensions-overview.md",
+      "text": "copilot-extensions-overview.md",
+      "error": "File not found: data/docs/copilot-extensions-overview.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 40,
+      "url": "../data/docs/copilot-extensions-integration.md",
+      "text": "copilot-extensions-integration.md",
+      "error": "File not found: data/docs/copilot-extensions-integration.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 45,
+      "url": "../data/docs/copilot-custom-instructions.md",
+      "text": "copilot-custom-instructions.md",
+      "error": "File not found: data/docs/copilot-custom-instructions.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 50,
+      "url": "../data/docs/copilot-configuration.md",
+      "text": "copilot-configuration.md",
+      "error": "File not found: data/docs/copilot-configuration.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 56,
+      "url": "../data/docs/copilot-best-practices.md",
+      "text": "copilot-best-practices.md",
+      "error": "File not found: data/docs/copilot-best-practices.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 61,
+      "url": "../data/docs/copilot-prompt-engineering.md",
+      "text": "copilot-prompt-engineering.md",
+      "error": "File not found: data/docs/copilot-prompt-engineering.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 66,
+      "url": "../data/docs/copilot-responsible-use.md",
+      "text": "copilot-responsible-use.md",
+      "error": "File not found: data/docs/copilot-responsible-use.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 71,
+      "url": "../data/docs/copilot-managing-organization.md",
+      "text": "copilot-managing-organization.md",
+      "error": "File not found: data/docs/copilot-managing-organization.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 76,
+      "url": "../data/docs/copilot-troubleshooting.md",
+      "text": "copilot-troubleshooting.md",
+      "error": "File not found: data/docs/copilot-troubleshooting.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 89,
+      "url": "https://github.blog/category/copilot/",
+      "text": "GitHub Blog - Copilot Category",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 142,
+      "url": "../data/docs/copilot-chat.md",
+      "text": "copilot-chat.md",
+      "error": "File not found: data/docs/copilot-chat.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 143,
+      "url": "../data/docs/copilot-asking-questions.md",
+      "text": "copilot-asking-questions.md",
+      "error": "File not found: data/docs/copilot-asking-questions.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 144,
+      "url": "../data/docs/copilot-prompt-engineering.md",
+      "text": "copilot-prompt-engineering.md",
+      "error": "File not found: data/docs/copilot-prompt-engineering.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 147,
+      "url": "../data/docs/copilot-code-suggestions.md",
+      "text": "copilot-code-suggestions.md",
+      "error": "File not found: data/docs/copilot-code-suggestions.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 148,
+      "url": "../data/docs/copilot-custom-instructions.md",
+      "text": "copilot-custom-instructions.md",
+      "error": "File not found: data/docs/copilot-custom-instructions.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 151,
+      "url": "../data/docs/copilot-getting-started.md",
+      "text": "copilot-getting-started.md",
+      "error": "File not found: data/docs/copilot-getting-started.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 152,
+      "url": "../data/docs/copilot-configuration.md",
+      "text": "copilot-configuration.md",
+      "error": "File not found: data/docs/copilot-configuration.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 155,
+      "url": "../data/docs/copilot-best-practices.md",
+      "text": "copilot-best-practices.md",
+      "error": "File not found: data/docs/copilot-best-practices.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 156,
+      "url": "../data/docs/copilot-responsible-use.md",
+      "text": "copilot-responsible-use.md",
+      "error": "File not found: data/docs/copilot-responsible-use.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 159,
+      "url": "../data/docs/copilot-extensions-overview.md",
+      "text": "copilot-extensions-overview.md",
+      "error": "File not found: data/docs/copilot-extensions-overview.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 160,
+      "url": "../data/docs/copilot-extensions-integration.md",
+      "text": "copilot-extensions-integration.md",
+      "error": "File not found: data/docs/copilot-extensions-integration.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 163,
+      "url": "../data/docs/copilot-managing-organization.md",
+      "text": "copilot-managing-organization.md",
+      "error": "File not found: data/docs/copilot-managing-organization.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/REFERENCE.md",
+      "line": 164,
+      "url": "../data/docs/copilot-troubleshooting.md",
+      "text": "copilot-troubleshooting.md",
+      "error": "File not found: data/docs/copilot-troubleshooting.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/STARTER-KIT.md",
+      "line": 147,
+      "url": "https://github.com/skills/copilot-intro",
+      "text": "Introduction to GitHub Copilot",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/STARTER-KIT.md",
+      "line": 167,
+      "url": "https://www.udemy.com/course/github-copilot-complete-guide/",
+      "text": "GitHub Copilot: The Complete Masterclass",
+      "error": "HTTP 403",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 35,
+      "url": "https://github.com/skills/copilot-intro",
+      "text": "Start Course \u2192",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 103,
+      "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/",
+      "text": "Start Challenge \u2192",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 155,
+      "url": "https://www.udemy.com/course/github-copilot/",
+      "text": "View Course \u2192",
+      "error": "HTTP 403",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 165,
+      "url": "https://github.com/skills/copilot-intro",
+      "text": "GitHub Skills: Introduction to GitHub Copilot",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 191,
+      "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/",
+      "text": "Microsoft Learn: Challenge Project",
+      "error": "HTTP 404",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 194,
+      "url": "../data/docs/copilot-best-practices.md",
+      "text": "Read: Best Practices Documentation",
+      "error": "File not found: data/docs/copilot-best-practices.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 205,
+      "url": "https://www.udemy.com/course/github-copilot/",
+      "text": "Udemy: GitHub Copilot Masterclass",
+      "error": "HTTP 403",
+      "type": "external"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 211,
+      "url": "../data/docs/copilot-prompt-engineering.md",
+      "text": "Read: Prompt Engineering Guide",
+      "error": "File not found: data/docs/copilot-prompt-engineering.md",
+      "type": "internal"
+    },
+    {
+      "file": "content/TRAININGS.md",
+      "line": 229,
+      "url": "../data/docs/copilot-managing-organization.md",
+      "text": "Read: Managing Copilot in Organizations",
+      "error": "File not found: data/docs/copilot-managing-organization.md",
+      "type": "internal"
+    },
+    {
+      "file": "docs/README.md",
+      "line": 97,
+      "url": "youtube-setup-guide.md#security-notes",
+      "text": "youtube-setup-guide.md",
+      "error": "Anchor not found in youtube-setup-guide.md: #security-notes",
       "type": "internal"
     },
     {
@@ -358,5 +990,5 @@
       "type": "internal"
     }
   ],
-  "skipped_links": 57
+  "skipped_links": 70
 }
