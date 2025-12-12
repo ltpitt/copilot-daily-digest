@@ -20,11 +20,11 @@
 
 **All FREE | Interactive | Beginner-friendly**
 
-### Introduction to GitHub Copilot
+### Code with GitHub Copilot
 
 **Level**: Beginner | **Duration**: 1-2 hours | **Cost**: Free
 
-Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
+Develop with AI-powered code suggestions using GitHub Copilot. Learn code completions, chat features, and best practices through hands-on exercises.
 
 **What you'll learn**:
 - Setting up GitHub Copilot in your IDE
@@ -32,7 +32,7 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 - Working with Copilot Chat for complex tasks
 - Best practices for AI pair programming
 
-[Start Course →](https://github.com/skills/copilot-intro)
+[Start Course →](https://github.com/skills/copilot-codespaces-vscode)
 
 ---
 
@@ -88,19 +88,19 @@ Master the fundamentals of GitHub Copilot with comprehensive modules covering AI
 
 ---
 
-### Challenge Project - Build a Minigame with GitHub Copilot
+### Applied Skills - GitHub Copilot Development
 
-**Level**: Intermediate | **Duration**: 1-2 hours | **Cost**: Free
+**Level**: Intermediate | **Duration**: 2-3 hours | **Cost**: Free
 
-Put your GitHub Copilot skills to the test by building a complete minigame. This hands-on challenge helps you practice AI-assisted development in a real-world scenario.
+Apply your GitHub Copilot skills through hands-on scenarios and challenges. Practice building complete projects with AI assistance.
 
 **What you'll learn**:
-- Building a complete project with Copilot
+- Building complete projects with Copilot
 - Iterating on AI-generated code
 - Testing and debugging with Copilot
-- Project completion strategies
+- Real-world development workflows
 
-[Start Challenge →](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/)
+[Browse Challenges →](https://learn.microsoft.com/en-us/training/paths/copilot/)
 
 ---
 
@@ -162,7 +162,7 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 
 **Goal**: Get started with GitHub Copilot and understand the basics
 
-1. **[GitHub Skills: Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)** (1-2 hours)
+1. **[GitHub Skills: Code with Copilot](https://github.com/skills/copilot-codespaces-vscode)** (1-2 hours)
    - Start here if you're completely new to Copilot
 
 2. **[Microsoft Learn: Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)** (30 min)
@@ -188,8 +188,8 @@ Comprehensive course covering GitHub Copilot from basics to advanced techniques.
 2. **[Microsoft Learn: GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)** (2-3 hours)
    - Deep dive into prompting and workflow integration
 
-3. **[Microsoft Learn: Challenge Project](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-minigame-with-github-copilot/)** (1-2 hours)
-   - Build a real project to practice skills
+3. **[Practice with Real Projects](https://learn.microsoft.com/en-us/training/paths/copilot/)** (2-3 hours)
+   - Apply skills through hands-on challenges
 
 4. **[Read: Best Practices Documentation](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)** (ongoing)
    - Learn from official guidelines

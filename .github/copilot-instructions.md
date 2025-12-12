@@ -82,7 +82,7 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 ## 🔗 Official Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/copilot)
-- [GitHub Blog - Copilot](https://github.blog/category/copilot/)
+- [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)
 - [GitHub Community](https://github.com/orgs/community/discussions/categories/copilot)
 
 ---

@@ -144,7 +144,7 @@ Jumpstart your Copilot Coding Agent journey with hands-on learning:
 **GitHub Skills (Interactive)**
 - 🛠️ [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/) - Intermediate (2-3 hours)
   - Hands-on course covering code generation, testing, and collaboration
-- 🛠️ [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro) - Beginner (1-2 hours)
+- 🛠️ [Code with GitHub Copilot](https://github.com/skills/copilot-codespaces-vscode) - Beginner (1-2 hours)
   - Get started with AI-assisted coding and best practices
 
 **Microsoft Learn (Self-Paced)**
