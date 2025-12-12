@@ -695,25 +695,19 @@ Type `@` in the chat prompt box to see available participants.
 
 **GitHub strips emojis from anchor IDs. Anchor links with emojis WILL BREAK.**
 
-When creating internal navigation links (e.g., Table of Contents), you have TWO options:
+**THE ONLY RULE: DO NOT USE EMOJIS IN SECTION HEADINGS THAT ARE LINK TARGETS**
 
-**OPTION 1 (RECOMMENDED): Keep headings clean, links work automatically**
+**✅ CORRECT - Clean headings without emojis:**
 ```markdown
 ## Official GitHub Courses
 [Link to section](#official-github-courses)  <!-- ✅ Works perfectly -->
 ```
 
-**OPTION 2: Headings can have emojis, but links MUST strip them**
+**❌ WRONG - Emojis in headings that are link targets:**
 ```markdown
-## 🎓 Official GitHub Courses
-[Link to section](#official-github-courses)  <!-- ✅ Emoji in heading, NOT in link -->
-```
-
-**❌ NEVER DO THIS - Including emoji in anchor link:**
-```markdown
-## 🎓 Official GitHub Courses
-[Link to section](#🎓-official-github-courses)  <!-- ❌ BROKEN - emoji in link -->
-[Link to section](#-official-github-courses)   <!-- ❌ BROKEN - emoji placeholder -->
+## 🎓 Official GitHub Courses  <!-- ❌ BROKEN - emoji in heading -->
+[Link to section](#official-github-courses)  <!-- Link breaks because GitHub can't match -->
+[Link to section](#🎓-official-github-courses)  <!-- Also broken -->
 ```
 
 **How GitHub converts headings to anchors:**
@@ -722,16 +716,17 @@ When creating internal navigation links (e.g., Table of Contents), you have TWO 
 3. Replace spaces with hyphens
 4. Strip leading/trailing hyphens
 
-**Real-world examples:**
-- `## 🎓 Official GitHub Courses` → `#official-github-courses` (NOT `#🎓-official-github-courses`)
-- `## 📚 Microsoft Learn Modules` → `#microsoft-learn-modules` (NOT `#📚-microsoft-learn-modules`)
-- `## 💡 Study Tips` → `#study-tips` (NOT `#💡-study-tips`)
-- `## 🗺️ Learning Paths` → `#learning-paths` (NOT `#🗺️-learning-paths`)
-
-**Navigation sections (not link targets) can use emojis:**
+**Exception: Navigation headers that are NOT link targets can use emojis:**
 ```markdown
-## 📋 Quick Navigation  <!-- This heading uses emoji, but nothing links TO it -->
-- [Official Courses](#official-github-courses)  <!-- Links strip emojis -->
+## 📋 Quick Navigation  <!-- ✅ OK - No links point TO this heading -->
+- [Official Courses](#official-github-courses)
+- [Microsoft Learn](#microsoft-learn-modules)
+
+## Official GitHub Courses  <!-- Clean heading - links point HERE -->
+[content...]
+
+## Microsoft Learn Modules  <!-- Clean heading - links point HERE -->
+[content...]
 ```
 
 **Validation (MANDATORY):**
