@@ -117,14 +117,16 @@ def heading_to_anchor(heading_text: str) -> str:
     Convert a markdown heading to its anchor ID.
     GitHub's markdown processor:
     1. Converts to lowercase
-    2. Removes emojis and special characters (keeps alphanumeric, spaces, hyphens, underscores)
+    2. Removes emojis and special characters (keeps word characters, spaces, hyphens)
     3. Replaces spaces with hyphens
     4. Strips leading/trailing hyphens
+    
+    Note: \w includes alphanumeric and underscores
     """
     # Convert to lowercase
     anchor = heading_text.lower()
     
-    # Remove emojis and special characters, keep only alphanumeric, spaces, hyphens, underscores
+    # Remove emojis and special characters, keep only word characters, spaces, hyphens
     anchor = re.sub(r'[^\w\s-]', '', anchor)
     
     # Replace spaces with hyphens
@@ -152,6 +154,18 @@ def extract_headings(content: str) -> Set[str]:
     return anchors
 
 
+def resolve_file_path(file_part: str, source_file: Path, base_path: Path) -> Path:
+    """
+    Resolve a relative or absolute file path to an absolute Path object.
+    """
+    if file_part.startswith('/'):
+        # Absolute path from repo root
+        return base_path / file_part.lstrip('/')
+    else:
+        # Relative to current file
+        return (source_file.parent / file_part).resolve()
+
+
 def validate_internal_link(url: str, source_file: Path, base_path: Path, source_content: str = None) -> Tuple[bool, str]:
     """
     Validate internal (relative) link or anchor.
@@ -164,7 +178,9 @@ def validate_internal_link(url: str, source_file: Path, base_path: Path, source_
             # Extract headings from source file
             valid_anchors = extract_headings(source_content)
             if anchor not in valid_anchors:
-                return False, f"Anchor not found: #{anchor}. Available anchors: {', '.join(sorted(list(valid_anchors)[:5]))}"
+                anchor_list = ', '.join(f'#{a}' for a in sorted(list(valid_anchors)[:5]))
+                more_anchors = f' (and {len(valid_anchors) - 5} more)' if len(valid_anchors) > 5 else ''
+                return False, f"Anchor not found: #{anchor}. Available anchors: {anchor_list}{more_anchors}"
             return True, ""
         else:
             # Can't validate without content
@@ -184,13 +200,11 @@ def validate_internal_link(url: str, source_file: Path, base_path: Path, source_
                 return True, ""
         else:
             # Resolve the file path
-            if file_part.startswith('/'):
-                target = base_path / file_part.lstrip('/')
-            else:
-                target = (source_file.parent / file_part).resolve()
+            target = resolve_file_path(file_part, source_file, base_path)
             
             if not target.exists():
-                return False, f"File not found: {target.relative_to(base_path) if target.is_relative_to(base_path) else target}"
+                rel_target = target.relative_to(base_path) if target.is_relative_to(base_path) else target
+                return False, f"File not found: {rel_target}"
             
             # Check anchor in target file
             try:
@@ -204,18 +218,11 @@ def validate_internal_link(url: str, source_file: Path, base_path: Path, source_
                 return False, f"Error reading target file: {str(e)}"
     
     # Regular file link (no anchor)
-    clean_url = url
-    
-    # Resolve relative path
-    if clean_url.startswith('/'):
-        # Absolute path from repo root
-        target = base_path / clean_url.lstrip('/')
-    else:
-        # Relative to current file
-        target = (source_file.parent / clean_url).resolve()
+    target = resolve_file_path(url, source_file, base_path)
     
     if not target.exists():
-        return False, f"File not found: {target.relative_to(base_path) if target.is_relative_to(base_path) else target}"
+        rel_target = target.relative_to(base_path) if target.is_relative_to(base_path) else target
+        return False, f"File not found: {rel_target}"
     
     return True, ""
 
