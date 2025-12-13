@@ -1,8 +1,8 @@
 # 🎥 GitHub Copilot Video Library
 
-> **Last Updated**: December 09, 2025 at 10:10 UTC
+> **Last Updated**: December 13, 2025 at 11:48 UTC
 
-**Total Videos**: 6 | **New This Week**: 4
+**Total Videos**: 9 | **New This Week**: 1
 
 ---
 
@@ -11,9 +11,10 @@
 - [What's New This Week](#whats-new-this-week)
 - [Browse by Category](#browse-by-category)
   - [Getting Started](#getting-started) (3)
-  - [Features](#features) (1)
+  - [Features](#features) (2)
   - [Tutorials](#tutorials) (1)
   - [Agents](#agents) (1)
+  - [Leadership](#leadership) (1)
 - [Statistics](#statistics)
 
 ---
@@ -21,6 +22,18 @@
 ## What's New This Week
 
 *Videos published in the last 7 days*
+
+### [Transforming Engineering Leadership with AI and Metrics](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+[![Transforming Engineering Leadership with AI and Metrics](https://i2.ytimg.com/vi/uBw1Q0L6qwU/hqdefault.jpg)](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+**Published**: Dec 12, 2025 | **Channel**: GitHub
+
+Explore how AI and metrics are transforming engineering leadership practices. Learn how leaders can leverage GitHub Copilot and data-driven insights to improve team productivity and code quality.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+---
 
 ### [How to improve code health with GitHub Code Quality](https://www.youtube.com/watch?v=dlgYCpQI_lU)
 
@@ -75,9 +88,10 @@ Code reviews are essential but often time-consuming. Join us for a deep dive int
 Videos are organized by topic for easy navigation:
 
 - [🎓 Getting Started](#getting-started) - 3 videos
-- [✨ Features](#features) - 1 video
+- [✨ Features](#features) - 2 videos
 - [📚 Tutorials](#tutorials) - 1 video
 - [🤖 Agents](#agents) - 1 video
+- [👥 Leadership](#leadership) - 1 video
 
 ---
 
@@ -128,7 +142,19 @@ Discover the power of agent extensibility with a live demonstration of the GitHu
 
 *Discover new features, product announcements, and capability releases.*
 
-**1 video**
+**2 videos**
+
+### [Transforming Engineering Leadership with AI and Metrics](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+[![Transforming Engineering Leadership with AI and Metrics](https://i2.ytimg.com/vi/uBw1Q0L6qwU/hqdefault.jpg)](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+**Published**: Dec 12, 2025 | **Channel**: GitHub
+
+Explore how AI and metrics are transforming engineering leadership practices. Learn how leaders can leverage GitHub Copilot and data-driven insights to improve team productivity and code quality.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+---
 
 ### [How to improve code health with GitHub Code Quality](https://www.youtube.com/watch?v=dlgYCpQI_lU)
 
@@ -181,18 +207,38 @@ Join us for Rubber Duck Thursdays! A lighthearted and informal stream where we l
 ---
 
 
+## Leadership
+
+*Engineering leadership, team productivity, and organizational AI adoption.*
+
+**1 video**
+
+### [Transforming Engineering Leadership with AI and Metrics](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+[![Transforming Engineering Leadership with AI and Metrics](https://i2.ytimg.com/vi/uBw1Q0L6qwU/hqdefault.jpg)](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+**Published**: Dec 12, 2025 | **Channel**: GitHub
+
+Explore how AI and metrics are transforming engineering leadership practices. Learn how leaders can leverage GitHub Copilot and data-driven insights to improve team productivity and code quality.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
+
+---
+
+
 ---
 
 ## Statistics
 
-- **Total Videos**: 8
-- **New This Week**: 4
+- **Total Videos**: 9
+- **New This Week**: 1
 - **By Category**:
   - Getting Started: 3
-  - Features: 1
+  - Features: 2
   - Tutorials: 1
   - Agents: 1
-- **Most Recent**: How to improve code health with GitHub Code Quality (Dec 04, 2025)
+  - Leadership: 1
+- **Most Recent**: Transforming Engineering Leadership with AI and Metrics (Dec 12, 2025)
 
 ---
 
@@ -205,4 +251,4 @@ Join us for Rubber Duck Thursdays! A lighthearted and informal stream where we l
 
 ---
 
-*Generated on December 09, 2025 at 10:10 UTC*
+*Generated on December 13, 2025 at 11:48 UTC*
