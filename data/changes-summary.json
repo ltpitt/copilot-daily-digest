@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-12T23:23:05.301148+00:00",
+  "generated_at": "2025-12-13T23:22:51.769505+00:00",
   "has_changes": true,
-  "total_changes": 17,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-12T23:22:50Z",
+        "timestamp": "2025-12-13T23:22:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-12T23:22:56Z",
+        "timestamp": "2025-12-13T23:22:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-12T23:22:51Z",
+        "timestamp": "2025-12-13T23:22:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-12T23:23:02Z",
+        "timestamp": "2025-12-13T23:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-12T23:22:59Z",
+        "timestamp": "2025-12-13T23:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-12T23:22:47Z",
+        "timestamp": "2025-12-13T23:22:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-12T23:22:49Z",
+        "timestamp": "2025-12-13T23:22:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-12T23:22:48Z",
+        "timestamp": "2025-12-13T23:22:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-12T23:22:57Z",
+        "timestamp": "2025-12-13T23:22:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-12T23:22:55Z",
+        "timestamp": "2025-12-13T23:22:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-12T23:22:46Z",
+        "timestamp": "2025-12-13T23:22:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-12T23:22:53Z",
+        "timestamp": "2025-12-13T23:22:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-12T23:22:54Z",
+        "timestamp": "2025-12-13T23:22:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-12T23:23:00Z",
+        "timestamp": "2025-12-13T23:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,150 +110,122 @@
     ]
   },
   "blog": {
-    "new_count": 1,
-    "new_posts": [
-      {
-        "title": "Gemini 3 Pro is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse",
-        "url": "https://github.blog/changelog/2025-12-12-gemini-3-pro-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-        "date": "2025-12-12T20:22:35Z",
-        "summary": "<p>Gemini 3 Pro is available in public preview to Copilot Enterprise, Copilot Business, Copilot Pro and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat&#8230;</p>\n<p>"
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
-    "new_count": 1,
-    "new_videos": [
-      {
-        "title": "Transforming Engineering Leadership with AI and Metrics",
-        "video_id": "uBw1Q0L6qwU",
-        "date": "2025-12-12T23:00:04+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/uBw1Q0L6qwU/hqdefault.jpg"
-      }
-    ]
+    "new_count": 0,
+    "new_videos": []
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 12, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"Gemini 3 Pro is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse\" (2025-12-12)\n\n🎥 Videos: 1 new video\n  - \"Transforming Engineering Leadership with AI and Metrics\" (2025-12-12)\n\nTotal: 17 changes detected",
+  "summary_text": "Changes detected on December 13, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 16,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-12T23:22:50Z",
+        "timestamp": "2025-12-13T23:22:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-12T23:22:56Z",
+        "timestamp": "2025-12-13T23:22:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-12T23:22:51Z",
+        "timestamp": "2025-12-13T23:22:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-12T23:23:02Z",
+        "timestamp": "2025-12-13T23:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-12T23:22:59Z",
+        "timestamp": "2025-12-13T23:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-12T23:22:47Z",
+        "timestamp": "2025-12-13T23:22:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-12T23:22:49Z",
+        "timestamp": "2025-12-13T23:22:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-12T23:22:48Z",
+        "timestamp": "2025-12-13T23:22:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-12T23:22:57Z",
+        "timestamp": "2025-12-13T23:22:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-12T23:22:55Z",
+        "timestamp": "2025-12-13T23:22:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-12T23:22:46Z",
+        "timestamp": "2025-12-13T23:22:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-12T23:22:53Z",
+        "timestamp": "2025-12-13T23:22:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-12T23:22:54Z",
+        "timestamp": "2025-12-13T23:22:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-12T23:23:00Z",
+        "timestamp": "2025-12-13T23:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "Gemini 3 Pro is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse",
-        "url": "https://github.blog/changelog/2025-12-12-gemini-3-pro-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-        "date": "2025-12-12T20:22:35Z",
-        "summary": "<p>Gemini 3 Pro is available in public preview to Copilot Enterprise, Copilot Business, Copilot Pro and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat&#8230;</p>\n<p>"
-      }
-    ],
-    "new_videos": [
-      {
-        "title": "Transforming Engineering Leadership with AI and Metrics",
-        "video_id": "uBw1Q0L6qwU",
-        "date": "2025-12-12T23:00:04+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/uBw1Q0L6qwU/hqdefault.jpg"
-      }
-    ]
+    "new_blog_posts": [],
+    "new_videos": []
   }
 }
