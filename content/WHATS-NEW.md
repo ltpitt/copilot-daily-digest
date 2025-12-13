@@ -2,11 +2,25 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: 2025-12-12
+**Last Updated**: 2025-12-13
 
 ---
 
 ## This Week (Last 7 Days)
+
+### **Gemini 3 Pro Now Available** (December 12, 2025)
+
+**What's new**:
+- Google's Gemini 3 Pro model now available in GitHub Copilot Chat
+- Supports Visual Studio, JetBrains IDEs, Xcode, and Eclipse
+- Available in public preview for Copilot Enterprise, Business, Pro, and Pro+ subscribers
+
+**Why it matters**: Gemini 3 Pro expands model choices for developers, offering Google's latest AI capabilities for code generation and assistance across multiple popular IDEs.
+
+**Get started**:
+→ [Read announcement](https://github.blog/changelog/2025-12-12-gemini-3-pro-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
+
+---
 
 ### **GPT-5.2 Now in Public Preview** (December 11, 2025)
 

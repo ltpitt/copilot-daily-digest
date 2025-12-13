@@ -2,13 +2,22 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: 2025-12-12
+**Last Updated**: 2025-12-13
 
 ---
 
 ## December 2025
 
 ### December 12, 2025
+
+#### Product Updates
+- **Gemini 3 Pro Now Available** - Google's Gemini 3 Pro model available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-12-gemini-3-pro-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
+  - Available in public preview for Copilot Enterprise, Business, Pro, and Pro+ subscribers
+
+#### Videos
+- **Transforming Engineering Leadership with AI and Metrics** - New video published on engineering leadership and AI
+  - Watch: [YouTube](https://www.youtube.com/watch?v=uBw1Q0L6qwU)
 
 #### Documentation Updates
 - **14 documentation files refreshed** - All core documentation updated for accuracy and current feature set
