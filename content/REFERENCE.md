@@ -2,7 +2,7 @@
 
 > Links to official documentation organized by category
 
-**Last Updated**: 2025-12-12
+**Last Updated**: 2025-12-14
 
 ---
 
@@ -120,10 +120,11 @@
 
 - **Total Documentation Files**: 14
 - **Total Size**: ~266 KB
-- **Last Sync**: 2025-12-12 13:50 UTC
-- **Videos Tracked**: 8
+- **Last Sync**: 2025-12-13 23:22 UTC
+- **Videos Tracked**: 9
 - **Training Courses**: 7
-- **Blog Posts Tracked**: 28
+- **Blog Posts Tracked**: 32
+- **GitHub Next Projects**: 29
 
 ---
 

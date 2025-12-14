@@ -2,11 +2,25 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: 2025-12-13
+**Last Updated**: 2025-12-14
 
 ---
 
 ## This Week (Last 7 Days)
+
+### **Documentation Refresh** (December 13, 2025)
+
+**What's new**:
+- All 14 official GitHub Copilot documentation pages refreshed
+- Ensured accuracy across: getting started, chat, extensions, configuration, best practices, and more
+- Documentation stays current with latest features and capabilities
+
+**Why it matters**: Regular documentation updates ensure you always have access to accurate, up-to-date guidance for using GitHub Copilot effectively.
+
+**Get started**:
+→ [Browse documentation](REFERENCE.md) | [View complete docs](https://docs.github.com/copilot)
+
+---
 
 ### **Gemini 3 Pro Now Available** (December 12, 2025)
 
@@ -168,9 +182,21 @@
 
 Recent updates to official documentation:
 
-- **copilot-chat.md**: Updated with latest chat features and Model Context Protocol (MCP) server usage (+10 lines)
-- **copilot-custom-instructions.md**: Enhanced guidance on writing effective custom instructions
-- **All documentation**: Refreshed for accuracy and current feature set (14 files updated on 2025-12-12)
+- **All 14 documentation files**: Refreshed on 2025-12-13 for accuracy and currency
+  - copilot-overview.md
+  - copilot-getting-started.md
+  - copilot-chat.md
+  - copilot-extensions-overview.md
+  - copilot-extensions-integration.md
+  - copilot-custom-instructions.md
+  - copilot-best-practices.md
+  - copilot-prompt-engineering.md
+  - copilot-asking-questions.md
+  - copilot-code-suggestions.md
+  - copilot-managing-organization.md
+  - copilot-configuration.md
+  - copilot-responsible-use.md
+  - copilot-troubleshooting.md
 
 ---
 
