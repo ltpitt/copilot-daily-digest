@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Quick Navigation
+## Quick Navigation
 
 - [Official GitHub Courses](#official-github-courses) - Free, interactive
 - [Microsoft Learn Modules](#microsoft-learn-modules) - Self-paced paths

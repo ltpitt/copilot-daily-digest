@@ -8,6 +8,27 @@
 
 ## December 2025
 
+### December 14, 2025
+
+#### Documentation Updates
+- **All 14 documentation files refreshed** - Complete refresh of GitHub Copilot documentation for accuracy and current feature set
+  - copilot-overview.md
+  - copilot-getting-started.md
+  - copilot-chat.md
+  - copilot-extensions-overview.md
+  - copilot-extensions-integration.md
+  - copilot-custom-instructions.md
+  - copilot-best-practices.md
+  - copilot-prompt-engineering.md
+  - copilot-asking-questions.md
+  - copilot-code-suggestions.md
+  - copilot-managing-organization.md
+  - copilot-configuration.md
+  - copilot-responsible-use.md
+  - copilot-troubleshooting.md
+
+---
+
 ### December 13, 2025
 
 #### Documentation Updates

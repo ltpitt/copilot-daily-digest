@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Slash Commands](#slash-commands)
 - [Keyboard Shortcuts](#keyboard-shortcuts)

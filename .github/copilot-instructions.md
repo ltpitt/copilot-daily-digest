@@ -11,6 +11,44 @@ Engineers need:
 
 ---
 
+## ⚠️ MANDATORY: Data Scraping Phase (ALWAYS REQUIRED FIRST)
+
+**CRITICAL**: Before synthesizing any content, you **MUST** run the scrapers to fetch fresh data.
+
+### Step 1: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Step 2: Run Scrapers (in order)
+```bash
+# 1. Fetch GitHub Copilot documentation (14+ files)
+python3 scraper/fetch_docs.py
+
+# 2. Fetch GitHub Blog posts (Copilot-related articles)
+python3 scraper/fetch_blog.py
+
+# 3. Detect changes since last update
+python3 scraper/detect_changes.py
+```
+
+### Step 3: Verify Data
+Before proceeding to content synthesis, verify:
+- ✅ `data/docs/` contains 14+ .md files (NOT just .gitkeep)
+- ✅ `data/metadata.json` is updated with latest timestamps
+- ✅ `data/changes-summary.json` shows detected changes
+
+**If any of these checks fail, STOP and report the error. DO NOT proceed with content synthesis.**
+
+### Why This Matters
+- **Without fresh docs**: Content will be based on stale metadata only
+- **Without blog posts**: Best practices and recent features will be missing
+- **Without change detection**: WHATS-NEW.md will be inaccurate
+
+**This scraping phase is NON-NEGOTIABLE. Always run it first.**
+
+---
+
 ## Content Architecture: Modular Topic-Based Structure
 
 We generate **7 focused content files** (+ 1 auto-generated), each serving a specific purpose:
