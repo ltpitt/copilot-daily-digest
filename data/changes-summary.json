@@ -1,103 +1,163 @@
 {
+<<<<<<< HEAD
   "generated_at": "2025-12-14T16:09:27.294159+00:00",
+=======
+  "generated_at": "2025-12-14T23:22:52.027144+00:00",
+>>>>>>> main
   "has_changes": true,
   "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:40Z",
+=======
+        "timestamp": "2025-12-14T23:22:35Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:46Z",
+=======
+        "timestamp": "2025-12-14T23:22:43Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:41Z",
+=======
+        "timestamp": "2025-12-14T23:22:37Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:09:01Z",
+=======
+        "timestamp": "2025-12-14T23:22:48Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:49Z",
+=======
+        "timestamp": "2025-12-14T23:22:45Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:36Z",
+=======
+        "timestamp": "2025-12-14T23:22:31Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:39Z",
+=======
+        "timestamp": "2025-12-14T23:22:34Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:38Z",
+=======
+        "timestamp": "2025-12-14T23:22:33Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:47Z",
+=======
+        "timestamp": "2025-12-14T23:22:44Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:45Z",
+=======
+        "timestamp": "2025-12-14T23:22:41Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:35Z",
+=======
+        "timestamp": "2025-12-14T23:22:30Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:42Z",
+=======
+        "timestamp": "2025-12-14T23:22:39Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:44Z",
+=======
+        "timestamp": "2025-12-14T23:22:40Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:09:00Z",
+=======
+        "timestamp": "2025-12-14T23:22:47Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -128,98 +188,154 @@
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:40Z",
+=======
+        "timestamp": "2025-12-14T23:22:35Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:46Z",
+=======
+        "timestamp": "2025-12-14T23:22:43Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:41Z",
+=======
+        "timestamp": "2025-12-14T23:22:37Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:09:01Z",
+=======
+        "timestamp": "2025-12-14T23:22:48Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:49Z",
+=======
+        "timestamp": "2025-12-14T23:22:45Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:36Z",
+=======
+        "timestamp": "2025-12-14T23:22:31Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:39Z",
+=======
+        "timestamp": "2025-12-14T23:22:34Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:38Z",
+=======
+        "timestamp": "2025-12-14T23:22:33Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:47Z",
+=======
+        "timestamp": "2025-12-14T23:22:44Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:45Z",
+=======
+        "timestamp": "2025-12-14T23:22:41Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:35Z",
+=======
+        "timestamp": "2025-12-14T23:22:30Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:42Z",
+=======
+        "timestamp": "2025-12-14T23:22:39Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:08:44Z",
+=======
+        "timestamp": "2025-12-14T23:22:40Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
+<<<<<<< HEAD
         "timestamp": "2025-12-14T16:09:00Z",
+=======
+        "timestamp": "2025-12-14T23:22:47Z",
+>>>>>>> main
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
