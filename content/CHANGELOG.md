@@ -2,11 +2,32 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: 2025-12-13
+**Last Updated**: 2025-12-14
 
 ---
 
 ## December 2025
+
+### December 13-14, 2025
+
+#### Documentation Updates
+- **All 14 documentation files refreshed** - Complete refresh of GitHub Copilot documentation for accuracy and current feature set
+  - copilot-overview.md
+  - copilot-getting-started.md
+  - copilot-chat.md
+  - copilot-extensions-overview.md
+  - copilot-extensions-integration.md
+  - copilot-custom-instructions.md
+  - copilot-best-practices.md
+  - copilot-prompt-engineering.md
+  - copilot-asking-questions.md
+  - copilot-code-suggestions.md
+  - copilot-managing-organization.md
+  - copilot-configuration.md
+  - copilot-responsible-use.md
+  - copilot-troubleshooting.md
+
+---
 
 ### December 12, 2025
 
@@ -187,8 +208,8 @@ Comprehensive guide to accelerating your development workflow with GitHub Copilo
 ## Resources
 
 ### Videos
-- **8 curated videos** available covering tutorials, demos, and best practices
-- See [Video Library](videos.md) for complete collection
+- **9 curated videos** available covering tutorials, demos, and best practices
+- See [Video Library](VIDEOS.md) for complete collection
 
 ### Training Courses
 - **7 training courses** available from GitHub Skills, Microsoft Learn, and certified providers

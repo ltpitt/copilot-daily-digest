@@ -2,11 +2,11 @@
 
 > Curated learning paths for mastering GitHub Copilot
 
-**Last Updated**: 2025-12-12
+**Last Updated**: 2025-12-14
 
 ---
 
-## 📋 Quick Navigation
+## Quick Navigation
 
 - [Official GitHub Courses](#official-github-courses) - Free, interactive
 - [Microsoft Learn Modules](#microsoft-learn-modules) - Self-paced paths

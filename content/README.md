@@ -1,10 +1,10 @@
 # GitHub Copilot Daily Digest
 
-> Last updated: 2025-12-13 | Tracking GitHub Copilot updates daily
+> Last updated: 2025-12-14 | Tracking GitHub Copilot updates daily
 
 Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
 
-## 📚 Browse by Topic
+## Browse by Topic
 
 ### Getting Started
 - **[Quick Start Guide](GETTING-STARTED.md)** - Set up Copilot in 5 minutes + best practices
@@ -22,15 +22,16 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 - **[Commands & Shortcuts](COMMANDS.md)** - Slash commands, keyboard shortcuts, chat variables
 - **[Complete Reference](REFERENCE.md)** - Full documentation index
 
-## 📊 Current Stats
+## Current Stats
 
-- **17 updates** in the last 7 days
+- **14 documentation updates** in the last 7 days
 - **9 videos** in library
 - **7 training courses** available
 - **14 documentation pages** tracked
-- **Last scrape**: 2025-12-12 23:23 UTC
+- **29 experimental projects** from GitHub Next
+- **Last scrape**: 2025-12-14T16:09:02Z
 
-## 🔗 Official Resources
+## Official Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/copilot)
 - [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)

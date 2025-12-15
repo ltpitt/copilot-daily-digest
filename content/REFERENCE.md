@@ -2,11 +2,11 @@
 
 > Links to official documentation organized by category
 
-**Last Updated**: 2025-12-12
+**Last Updated**: 2025-12-14
 
 ---
 
-## 📋 Core Documentation
+## Core Documentation
 
 ### Getting Started
 - **[copilot-overview.md](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot)** - Introduction to GitHub Copilot capabilities and features
@@ -51,7 +51,7 @@
 
 ---
 
-## 🔗 External Resources
+## External Resources
 
 ### Official Documentation
 - [GitHub Copilot Documentation](https://docs.github.com/copilot) - Complete official documentation
@@ -71,7 +71,7 @@
 
 ---
 
-## 📚 Related Content
+## Related Content
 
 ### Quick Guides
 - **[Getting Started Guide](GETTING-STARTED.md)** - 5-minute setup and best practices
@@ -87,7 +87,7 @@
 
 ---
 
-## 🗂️ Documentation Index by Topic
+## Documentation Index by Topic
 
 ### Prompting & Interaction
 - [copilot-chat.md](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide) - Chat features and commands
@@ -120,10 +120,11 @@
 
 - **Total Documentation Files**: 14
 - **Total Size**: ~266 KB
-- **Last Sync**: 2025-12-12 13:50 UTC
-- **Videos Tracked**: 8
+- **Last Sync**: 2025-12-13 23:22 UTC
+- **Videos Tracked**: 9
 - **Training Courses**: 7
-- **Blog Posts Tracked**: 28
+- **Blog Posts Tracked**: 32
+- **GitHub Next Projects**: 29
 
 ---
 

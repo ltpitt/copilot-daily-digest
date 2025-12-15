@@ -2,7 +2,7 @@
 
 > Your 5-minute guide to productive AI pair programming
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### 1. Install Copilot in Your IDE
 
@@ -52,7 +52,7 @@ Copilot determines files, makes changes, and can open a PR.
 
 ---
 
-## 💡 Best Practices
+## Best Practices
 
 ### 1. Write Context-Rich Prompts
 
@@ -171,7 +171,7 @@ Returns: ["11/14/2023", "12-1-23"]
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 - **[Watch tutorials](VIDEOS.md)** - Learn from video demos
 - **[Take courses](TRAININGS.md)** - Official GitHub Skills courses
@@ -180,7 +180,7 @@ Returns: ["11/14/2023", "12-1-23"]
 
 ---
 
-## 🔍 Common Use Cases
+## Common Use Cases
 
 ### Generate Unit Tests
 ```
@@ -209,7 +209,7 @@ Returns: ["11/14/2023", "12-1-23"]
 
 ---
 
-## 💻 Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Action | Windows/Linux | Mac |
 |--------|---------------|-----|

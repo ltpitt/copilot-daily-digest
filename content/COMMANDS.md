@@ -2,11 +2,11 @@
 
 > Quick reference for slash commands, keyboard shortcuts, and chat variables
 
-**Last Updated**: 2025-12-12
+**Last Updated**: 2025-12-14
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Slash Commands](#slash-commands)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
