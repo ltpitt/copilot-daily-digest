@@ -1,6 +1,6 @@
 # GitHub Copilot Daily Digest
 
-> Last updated: 2025-12-15 | Tracking GitHub Copilot updates daily
+> Last updated: December 16, 2025 | Tracking GitHub Copilot Coding Agent updates daily
 
 Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
 
@@ -27,7 +27,7 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 - **14 updates** in the last 7 days
 - **9 videos** in library
 - **7 training courses** available
-- **Last scrape**: 2025-12-15T23:23:22Z
+- **Last scrape**: December 16, 2025 at 07:49 UTC
 
 ## Official Resources
 
