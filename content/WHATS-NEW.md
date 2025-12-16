@@ -25,8 +25,6 @@ All 14 core GitHub Copilot documentation pages were refreshed with the latest in
 
 ---
 
-## This Month (Last 30 Days)
-
 ### Gemini 3 Pro Available Across Multiple IDEs (Dec 12, 2025)
 
 **What's new**:
@@ -69,6 +67,8 @@ All 14 core GitHub Copilot documentation pages were refreshed with the latest in
 → [Auto model selection announcement](https://github.blog/changelog/2025-12-10-auto-model-selection-is-generally-available-in-github-copilot-in-visual-studio-code)
 
 ---
+
+## This Month (Last 30 Days)
 
 ### Model Picker & Coding Agent (Dec 8, 2025)
 
