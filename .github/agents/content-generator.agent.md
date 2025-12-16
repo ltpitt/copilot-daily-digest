@@ -169,6 +169,125 @@ Follow the **modular topic-based architecture** defined in `.github/copilot-inst
 - Always UTC for consistency
 - Relative dates when helpful: "New this week", "Updated 2 days ago"
 
+### 🚨 CRITICAL: Date Extraction and Formatting for WHATS-NEW.md
+
+**This is a MANDATORY requirement to prevent incomplete dates and incorrect ordering.**
+
+#### Data Sources for Blog Post Dates
+
+1. **Changelog URLs** (contain dates in URL):
+   - Pattern: `/changelog/YYYY-MM-DD-title`
+   - Example: `https://github.blog/changelog/2025-12-08-model-picker-for-copilot`
+   - Extract date with regex: `/changelog/(\d{4}-\d{2}-\d{2})-`
+
+2. **Blog Post URLs** (NO dates in URL):
+   - Pattern: `/ai-and-ml/github-copilot/title/`
+   - Example: `https://github.blog/ai-and-ml/github-copilot/how-to-use-github-copilot-spaces/`
+   - **MUST** use `data/blog/url_dates.json` to look up dates
+   - This file maps URLs to ISO dates (YYYY-MM-DD)
+
+3. **Fallback**: If neither source has a date, **DO NOT INCLUDE** the article in WHATS-NEW.md
+
+#### Date Formatting Requirements
+
+**✅ CORRECT - Always use complete dates:**
+```markdown
+### Model Picker & Coding Agent (Dec 8, 2025)
+### Custom Agents for Observability (Dec 3, 2025)
+### GitHub Copilot CLI 101 (Nov 6, 2025)
+```
+
+**❌ WRONG - Never use incomplete dates:**
+```markdown
+### Custom Agents (Dec 2025)           <!-- ❌ Missing day -->
+### Mission Control (December 2025)    <!-- ❌ Missing day -->
+### CLI 101 (2025-12)                  <!-- ❌ ISO format in display -->
+```
+
+#### Sorting Requirements
+
+**Articles in WHATS-NEW.md MUST be sorted in REVERSE CHRONOLOGICAL ORDER (newest first):**
+
+1. Sort by ISO date (YYYY-MM-DD) in descending order
+2. Within same day, alphabetical by title
+3. Verify order before generating content
+
+**Example correct ordering:**
+```markdown
+## This Month (Last 30 Days)
+
+### Gemini 3 Pro Available (Dec 12, 2025)       <!-- Newest -->
+### GPT-5.2 in Public Preview (Dec 11, 2025)
+### Auto Model Selection (Dec 10, 2025)
+### Model Picker & Coding Agent (Dec 8, 2025)
+### Enterprise Teams Limits (Dec 8, 2025)       <!-- Same day -->
+### Code Metrics Dashboard (Dec 5, 2025)
+### Copilot Spaces (Dec 4, 2025)
+### Custom Agents (Dec 3, 2025)
+### Mission Control (Dec 1, 2025)               <!-- Oldest in last 30 days -->
+```
+
+#### Implementation Steps
+
+1. **Load date mapping**: Read `data/blog/url_dates.json`
+2. **Extract dates**: For each blog URL in metadata.json:
+   - Try extracting from URL (changelog pattern)
+   - If not found, look up in url_dates.json
+   - If still not found, skip the article
+3. **Parse dates**: Convert ISO string (YYYY-MM-DD) to date object
+4. **Sort articles**: Sort by date descending (newest first)
+5. **Format dates**: Display as "Mon DD, YYYY" (e.g., "Dec 8, 2025")
+6. **Categorize**:
+   - "This Week" = last 7 days
+   - "This Month" = last 30 days
+   - "Older Updates" = older than 30 days
+
+#### Code Example (Python)
+
+```python
+import json
+from datetime import datetime
+
+# Load URL dates
+url_dates = json.load(open('data/blog/url_dates.json'))['url_dates']
+
+# Get blog URLs from metadata
+metadata = json.load(open('data/metadata.json'))
+blog_urls = metadata['blog_urls']
+
+# Create list of (url, date, title) tuples
+articles = []
+for url in blog_urls:
+    date_str = url_dates.get(url)
+    if not date_str:
+        print(f"Warning: No date for {url}")
+        continue
+    
+    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+    title = extract_title_from_url(url)  # Your function
+    articles.append((url, date_obj, title))
+
+# Sort by date descending (newest first)
+articles.sort(key=lambda x: x[1], reverse=True)
+
+# Format for display
+for url, date_obj, title in articles:
+    display_date = date_obj.strftime('%b %d, %Y')  # "Dec 08, 2025"
+    # But remove leading zero: "Dec 8, 2025"
+    display_date = display_date.replace(' 0', ' ')
+    print(f"### {title} ({display_date})")
+```
+
+#### Validation Checklist
+
+Before finalizing WHATS-NEW.md, verify:
+- [ ] All dates are complete (Month Day, Year)
+- [ ] No "Dec 2025" or "December 2025" without day
+- [ ] Articles sorted newest to oldest
+- [ ] "This Week" section = last 7 days only
+- [ ] "This Month" section = last 30 days only (excluding last 7)
+- [ ] "Older Updates" section = older than 30 days
+
 ### Change Detection & Highlights
 
 **"What's New" Logic**:
