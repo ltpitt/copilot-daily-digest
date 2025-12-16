@@ -70,20 +70,20 @@ All documentation pages were updated on **2025-12-15**:
 
 | Documentation | Last Updated |
 |--------------|--------------|
-| **copilot-overview.md** | 2025-12-15T15:07:25Z |
-| **copilot-getting-started.md** | 2025-12-15T15:07:27Z |
-| **copilot-chat.md** | 2025-12-15T15:07:29Z |
-| **copilot-extensions-overview.md** | 2025-12-15T15:07:31Z |
-| **copilot-extensions-integration.md** | 2025-12-15T15:07:33Z |
-| **copilot-custom-instructions.md** | 2025-12-15T15:07:35Z |
-| **copilot-best-practices.md** | 2025-12-15T15:07:37Z |
-| **copilot-prompt-engineering.md** | 2025-12-15T15:07:39Z |
-| **copilot-asking-questions.md** | 2025-12-15T15:07:40Z |
-| **copilot-code-suggestions.md** | 2025-12-15T15:07:42Z |
-| **copilot-managing-organization.md** | 2025-12-15T15:07:44Z |
-| **copilot-configuration.md** | 2025-12-15T15:07:46Z |
-| **copilot-responsible-use.md** | 2025-12-15T15:07:48Z |
-| **copilot-troubleshooting.md** | 2025-12-15T15:07:50Z |
+| **copilot-overview.md** | 2025-12-15T23:22:56Z |
+| **copilot-getting-started.md** | 2025-12-15T23:22:58Z |
+| **copilot-chat.md** | 2025-12-15T23:22:59Z |
+| **copilot-extensions-overview.md** | 2025-12-15T23:23:02Z |
+| **copilot-extensions-integration.md** | 2025-12-15T23:23:03Z |
+| **copilot-custom-instructions.md** | 2025-12-15T23:23:05Z |
+| **copilot-best-practices.md** | 2025-12-15T23:23:07Z |
+| **copilot-prompt-engineering.md** | 2025-12-15T23:23:09Z |
+| **copilot-asking-questions.md** | 2025-12-15T23:23:10Z |
+| **copilot-code-suggestions.md** | 2025-12-15T23:23:11Z |
+| **copilot-managing-organization.md** | 2025-12-15T23:23:13Z |
+| **copilot-configuration.md** | 2025-12-15T23:23:16Z |
+| **copilot-responsible-use.md** | 2025-12-15T23:23:18Z |
+| **copilot-troubleshooting.md** | 2025-12-15T23:23:20Z |
 
 ---
 
