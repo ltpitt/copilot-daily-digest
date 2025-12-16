@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-16T07:49:28.418473+00:00",
+  "generated_at": "2025-12-16T23:24:37.595998+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 26,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-16T07:48:53Z",
+        "timestamp": "2025-12-16T23:23:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-16T07:49:01Z",
+        "timestamp": "2025-12-16T23:23:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-16T07:48:54Z",
+        "timestamp": "2025-12-16T23:23:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-16T07:49:10Z",
+        "timestamp": "2025-12-16T23:24:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-16T07:49:06Z",
+        "timestamp": "2025-12-16T23:24:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-16T07:48:49Z",
+        "timestamp": "2025-12-16T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-16T07:48:51Z",
+        "timestamp": "2025-12-16T23:23:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-16T07:48:50Z",
+        "timestamp": "2025-12-16T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-16T07:49:03Z",
+        "timestamp": "2025-12-16T23:23:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-16T07:48:59Z",
+        "timestamp": "2025-12-16T23:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-16T07:48:48Z",
+        "timestamp": "2025-12-16T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-16T07:48:56Z",
+        "timestamp": "2025-12-16T23:23:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-16T07:48:58Z",
+        "timestamp": "2025-12-16T23:23:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-16T07:49:08Z",
+        "timestamp": "2025-12-16T23:24:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,122 +110,258 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 10,
+    "new_posts": [
+      {
+        "title": "Enterprise governance and policy improvements for secret scanning",
+        "url": "https://github.blog/changelog/2025-12-16-enterprise-governance-and-policy-improvements-for-secret-scanning-now-generally-available",
+        "date": "2025-12-16T20:46:09Z",
+        "summary": "<p>At GitHub, we care deeply about ensuring enterprise-readiness of our products. From recent improvements including enterprise-level delegated bypass controls for push protection, to support for the "
+      },
+      {
+        "title": "C++ code editing tools for GitHub Copilot in public preview",
+        "url": "https://github.blog/changelog/2025-12-16-c-code-editing-tools-for-github-copilot-in-public-preview",
+        "date": "2025-12-16T18:28:30Z",
+        "summary": "<p>C++ code editing tools for GitHub Copilot are now in public preview in the latest Visual Studio 2026 Insiders release. These tools extend Copilot&#8217;s ability to understand and modify C++&#8230;"
+      },
+      {
+        "title": "Conda ecosystem support for Dependabot version updates now generally available",
+        "url": "https://github.blog/changelog/2025-12-16-conda-ecosystem-support-for-dependabot-now-generally-available",
+        "date": "2025-12-16T17:00:54Z",
+        "summary": "<p>Dependabot now supports parsing and updating environment.yml Conda environment specification files. This release includes version updates for Conda-based projects. Why it matters Many projects rely"
+      },
+      {
+        "title": "Dependabot version updates now support Julia",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-version-updates-now-support-julia",
+        "date": "2025-12-16T16:49:19Z",
+        "summary": "<p>Developers can now use Dependabot to automatically keep their Julia dependencies up to date. For projects that use Julia as a package manager, Dependabot version updates can now ensure dependencies"
+      },
+      {
+        "title": "Dependabot version updates now support Bazel",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-version-updates-now-support-bazel",
+        "date": "2025-12-16T16:45:50Z",
+        "summary": "<p>Developers can now use Dependabot to automatically keep their Bazel dependencies up to date. For projects that use Bazel&#8212;either Bzlmod or WORKSPACE&#8212;Dependabot version updates can now en"
+      },
+      {
+        "title": "Dependabot version updates now support OpenTofu",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-version-updates-now-support-opentofu",
+        "date": "2025-12-16T16:44:18Z",
+        "summary": "<p>Developers can now use Dependabot to automatically keep their OpenTofu dependencies up to date. For projects that use OpenTofu, Dependabot version updates can now ensure dependencies stay current w"
+      },
+      {
+        "title": "Dependabot security updates now support uv",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-security-updates-now-support-uv",
+        "date": "2025-12-16T16:42:46Z",
+        "summary": "<p>Dependabot now supports security alerts and updates for uv. When vulnerabilities are detected in your uv dependencies, Dependabot can automatically open security alerts and pull requests to update "
+      },
+      {
+        "title": "Coming soon: Simpler pricing and a better experience for GitHub Actions",
+        "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions",
+        "date": "2025-12-16T16:41:43Z",
+        "summary": "<p>On January 1, 2026, GitHub will reduce the price of GitHub-hosted runners by up to 39% depending on the machine type used. The free usage minute quotas will remain the&#8230;</p>\n<p>The post <a hre"
+      },
+      {
+        "title": "Track organization Copilot usage",
+        "url": "https://github.blog/changelog/2025-12-16-track-organization-copilot-usage",
+        "date": "2025-12-16T15:08:56Z",
+        "summary": "<p>You can now access your organization&#8217;s Copilot usage metrics via the Copilot usage APIs. The APIs contain reports with aggregated and user-specific metrics, including usage statistics for var"
+      },
+      {
+        "title": "More accurate Copilot Autofix usage metrics on security overview",
+        "url": "https://github.blog/changelog/2025-12-16-more-accurate-copilot-autofix-usage-metrics-on-security-overview",
+        "date": "2025-12-16T10:45:33Z",
+        "summary": "<p>We have enhanced the metrics displayed on the security overview dashboard for CodeQL alerts fixed with Copilot autofixes. This improvement specifically refines how we calculate how much of an autof"
+      }
+    ]
   },
   "videos": {
-    "new_count": 0,
-    "new_videos": []
+    "new_count": 1,
+    "new_videos": [
+      {
+        "title": "Manage all Copilot agents in one place with Mission Control | GitHub Checkout",
+        "video_id": "lQrr1M7AeiY",
+        "date": "2025-12-16T20:49:53+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/lQrr1M7AeiY/hqdefault.jpg"
+      }
+    ]
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 16, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on December 16, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 10 new articles\n  - \"Enterprise governance and policy improvements for secret scanning\" (2025-12-16)\n  - \"C++ code editing tools for GitHub Copilot in public preview\" (2025-12-16)\n  - \"Conda ecosystem support for Dependabot version updates now generally available\" (2025-12-16)\n  - \"Dependabot version updates now support Julia\" (2025-12-16)\n  - \"Dependabot version updates now support Bazel\" (2025-12-16)\n\n🎥 Videos: 1 new video\n  - \"Manage all Copilot agents in one place with Mission Control | GitHub Checkout\" (2025-12-16)\n\nTotal: 26 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 25,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-16T07:48:53Z",
+        "timestamp": "2025-12-16T23:23:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-16T07:49:01Z",
+        "timestamp": "2025-12-16T23:23:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-16T07:48:54Z",
+        "timestamp": "2025-12-16T23:23:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-16T07:49:10Z",
+        "timestamp": "2025-12-16T23:24:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-16T07:49:06Z",
+        "timestamp": "2025-12-16T23:24:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-16T07:48:49Z",
+        "timestamp": "2025-12-16T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-16T07:48:51Z",
+        "timestamp": "2025-12-16T23:23:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-16T07:48:50Z",
+        "timestamp": "2025-12-16T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-16T07:49:03Z",
+        "timestamp": "2025-12-16T23:23:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-16T07:48:59Z",
+        "timestamp": "2025-12-16T23:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-16T07:48:48Z",
+        "timestamp": "2025-12-16T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-16T07:48:56Z",
+        "timestamp": "2025-12-16T23:23:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-16T07:48:58Z",
+        "timestamp": "2025-12-16T23:23:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-16T07:49:08Z",
+        "timestamp": "2025-12-16T23:24:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
-    "new_videos": []
+    "new_blog_posts": [
+      {
+        "title": "Enterprise governance and policy improvements for secret scanning",
+        "url": "https://github.blog/changelog/2025-12-16-enterprise-governance-and-policy-improvements-for-secret-scanning-now-generally-available",
+        "date": "2025-12-16T20:46:09Z",
+        "summary": "<p>At GitHub, we care deeply about ensuring enterprise-readiness of our products. From recent improvements including enterprise-level delegated bypass controls for push protection, to support for the "
+      },
+      {
+        "title": "C++ code editing tools for GitHub Copilot in public preview",
+        "url": "https://github.blog/changelog/2025-12-16-c-code-editing-tools-for-github-copilot-in-public-preview",
+        "date": "2025-12-16T18:28:30Z",
+        "summary": "<p>C++ code editing tools for GitHub Copilot are now in public preview in the latest Visual Studio 2026 Insiders release. These tools extend Copilot&#8217;s ability to understand and modify C++&#8230;"
+      },
+      {
+        "title": "Conda ecosystem support for Dependabot version updates now generally available",
+        "url": "https://github.blog/changelog/2025-12-16-conda-ecosystem-support-for-dependabot-now-generally-available",
+        "date": "2025-12-16T17:00:54Z",
+        "summary": "<p>Dependabot now supports parsing and updating environment.yml Conda environment specification files. This release includes version updates for Conda-based projects. Why it matters Many projects rely"
+      },
+      {
+        "title": "Dependabot version updates now support Julia",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-version-updates-now-support-julia",
+        "date": "2025-12-16T16:49:19Z",
+        "summary": "<p>Developers can now use Dependabot to automatically keep their Julia dependencies up to date. For projects that use Julia as a package manager, Dependabot version updates can now ensure dependencies"
+      },
+      {
+        "title": "Dependabot version updates now support Bazel",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-version-updates-now-support-bazel",
+        "date": "2025-12-16T16:45:50Z",
+        "summary": "<p>Developers can now use Dependabot to automatically keep their Bazel dependencies up to date. For projects that use Bazel&#8212;either Bzlmod or WORKSPACE&#8212;Dependabot version updates can now en"
+      },
+      {
+        "title": "Dependabot version updates now support OpenTofu",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-version-updates-now-support-opentofu",
+        "date": "2025-12-16T16:44:18Z",
+        "summary": "<p>Developers can now use Dependabot to automatically keep their OpenTofu dependencies up to date. For projects that use OpenTofu, Dependabot version updates can now ensure dependencies stay current w"
+      },
+      {
+        "title": "Dependabot security updates now support uv",
+        "url": "https://github.blog/changelog/2025-12-16-dependabot-security-updates-now-support-uv",
+        "date": "2025-12-16T16:42:46Z",
+        "summary": "<p>Dependabot now supports security alerts and updates for uv. When vulnerabilities are detected in your uv dependencies, Dependabot can automatically open security alerts and pull requests to update "
+      },
+      {
+        "title": "Coming soon: Simpler pricing and a better experience for GitHub Actions",
+        "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions",
+        "date": "2025-12-16T16:41:43Z",
+        "summary": "<p>On January 1, 2026, GitHub will reduce the price of GitHub-hosted runners by up to 39% depending on the machine type used. The free usage minute quotas will remain the&#8230;</p>\n<p>The post <a hre"
+      },
+      {
+        "title": "Track organization Copilot usage",
+        "url": "https://github.blog/changelog/2025-12-16-track-organization-copilot-usage",
+        "date": "2025-12-16T15:08:56Z",
+        "summary": "<p>You can now access your organization&#8217;s Copilot usage metrics via the Copilot usage APIs. The APIs contain reports with aggregated and user-specific metrics, including usage statistics for var"
+      },
+      {
+        "title": "More accurate Copilot Autofix usage metrics on security overview",
+        "url": "https://github.blog/changelog/2025-12-16-more-accurate-copilot-autofix-usage-metrics-on-security-overview",
+        "date": "2025-12-16T10:45:33Z",
+        "summary": "<p>We have enhanced the metrics displayed on the security overview dashboard for CodeQL alerts fixed with Copilot autofixes. This improvement specifically refines how we calculate how much of an autof"
+      }
+    ],
+    "new_videos": [
+      {
+        "title": "Manage all Copilot agents in one place with Mission Control | GitHub Checkout",
+        "video_id": "lQrr1M7AeiY",
+        "date": "2025-12-16T20:49:53+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/lQrr1M7AeiY/hqdefault.jpg"
+      }
+    ]
   }
 }
