@@ -2,208 +2,168 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: 2025-12-14
+**Last Updated**: 2025-12-15
 
 ---
 
 ## This Week (Last 7 Days)
 
-### **Documentation Refresh** (December 13-14, 2025)
+### Documentation Updates (Dec 15, 2025)
+
+All 14 core GitHub Copilot documentation pages were refreshed with the latest information:
 
 **What's new**:
-- All 14 official GitHub Copilot documentation pages refreshed
-- Ensured accuracy across: getting started, chat, extensions, configuration, best practices, and more
-- Documentation stays current with latest features and capabilities
+- Updated getting started guides with new features
+- Enhanced chat capabilities and slash commands documentation
+- Improved best practices and prompt engineering guides
+- Refreshed configuration and troubleshooting resources
 
-**Why it matters**: Regular documentation updates ensure you always have access to accurate, up-to-date guidance for using GitHub Copilot effectively.
-
-**Get started**:
-→ [Browse documentation](REFERENCE.md) | [View complete docs](https://docs.github.com/copilot)
-
----
-
-### **Gemini 3 Pro Now Available** (December 12, 2025)
-
-**What's new**:
-- Google's Gemini 3 Pro model now available in GitHub Copilot Chat
-- Supports Visual Studio, JetBrains IDEs, Xcode, and Eclipse
-- Available in public preview for Copilot Enterprise, Business, Pro, and Pro+ subscribers
-
-**Why it matters**: Gemini 3 Pro expands model choices for developers, offering Google's latest AI capabilities for code generation and assistance across multiple popular IDEs.
+**Why it matters**: These updates ensure you have access to the most current information about Copilot's capabilities, helping you maximize productivity with the latest features.
 
 **Get started**:
-→ [Read announcement](https://github.blog/changelog/2025-12-12-gemini-3-pro-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
-
----
-
-### **GPT-5.2 Now in Public Preview** (December 11, 2025)
-
-**What's new**:
-- OpenAI's latest GPT-5.2 model now available for GitHub Copilot users
-- Enhanced reasoning capabilities and improved code generation quality
-- Better handling of complex, multi-file refactoring tasks
-
-**Why it matters**: GPT-5.2 offers significant improvements in code understanding and generation, making Copilot even more powerful for complex development tasks.
-
-**Get started**:
-→ [Try it now](https://github.blog/changelog/2025-12-11-openais-gpt-5-2-is-now-in-public-preview-for-github-copilot)
-
----
-
-### **Auto Model Selection Generally Available in VS Code** (December 10, 2025)
-
-**What's new**:
-- GitHub Copilot now automatically selects the best AI model based on your task
-- Works with Claude Sonnet, GPT-4, and other available models
-- Reduces the need for manual model switching
-
-**Why it matters**: Intelligent model selection improves code quality by matching the right AI model to your specific task, without requiring manual configuration.
-
-**Get started**:
-→ [Learn more](https://github.blog/changelog/2025-12-10-auto-model-selection-is-generally-available-in-github-copilot-in-visual-studio-code)
-
----
-
-### **GitHub MCP Server Enhanced** (December 10, 2025)
-
-**What's new**:
-- Model Context Protocol (MCP) server adds support for tool-specific configuration
-- Improved integration with external tools and services
-- Better error handling and debugging capabilities
-
-**Why it matters**: Enhanced MCP support enables more powerful integrations with third-party tools, expanding Copilot's capabilities beyond code generation.
-
-**Get started**:
-→ [Read announcement](https://github.blog/changelog/2025-12-10-the-github-mcp-server-adds-support-for-tool-specific-configuration-and-more)
-
----
-
-### **Model Picker for Coding Agent** (December 8, 2025)
-
-**What's new**:
-- Pro and Pro+ subscribers can now choose their preferred AI model when starting coding agent tasks
-- Select from Claude Sonnet, GPT-4, GPT-5.1 Codex Max, and other premium models
-- Model selection persists across sessions
-
-**Why it matters**: Different models excel at different tasks. Model picker gives you fine-grained control over which AI powers your autonomous coding workflows.
-
-**Get started**:
-→ [Learn more](https://github.blog/changelog/2025-12-08-model-picker-for-copilot-coding-agent-for-copilot-pro-and-pro-subscribers)
-
----
-
-### **Enterprise Team Limits Increased 10x** (December 8, 2025)
-
-**What's new**:
-- Team product limits now significantly higher for enterprise customers
-- Support for larger-scale deployments and automation workflows
-- Improved performance for high-volume usage
-
-**Why it matters**: Removes scalability constraints for large teams, enabling enterprise-wide AI-assisted development.
-
-**Get started**:
-→ [Read announcement](https://github.blog/changelog/2025-12-08-enterprise-teams-product-limits-increased-by-over-10x)
+→ [Browse all documentation](REFERENCE.md) | [Read best practices](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
 
 ---
 
 ## This Month (Last 30 Days)
 
-### **Track Copilot Code Generation Metrics** (December 5, 2025)
+### Model Picker & Coding Agent (Dec 8, 2025)
 
 **What's new**:
-- New dashboard to monitor Copilot code generation metrics across your organization
-- Track adoption rates, productivity impact, and usage patterns
-- Export data for custom analytics
+- Model picker now available for Copilot Pro and Pro+ subscribers
+- Coding Agent feature enables autonomous multi-step task completion
+- Choose from multiple AI models including GPT-5.2, Claude Opus 4.5, and Gemini 3 Pro
 
-**Why it matters**: Quantify Copilot's impact on your team's productivity with data-driven insights.
+**Why it matters**: Different models excel at different tasks. Model selection lets you optimize for code generation, debugging, or explanation based on your specific needs.
 
 **Get started**:
-→ [View dashboard features](https://github.blog/changelog/2025-12-05-track-copilot-code-generation-metrics-in-a-dashboard)
+→ [Model selection documentation](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#ai-models-for-copilot-chat)
 
 ---
 
-### **GPT-5.1 Codex Max in Public Preview** (December 4, 2025)
+### Custom Agents for Observability, IaC, and Security (Dec 2025)
 
 **What's new**:
-- OpenAI's GPT-5.1 Codex Max model now available for GitHub Copilot
-- Optimized specifically for code generation and understanding
-- Enhanced performance on large codebases
+- Custom agents can now be tailored to your specific tech stack
+- Pre-built agents for popular observability tools (Datadog, New Relic, Prometheus)
+- Infrastructure-as-Code agents for Terraform, Pulumi, CloudFormation
+- Security agents integrated with your existing security tools
 
-**Why it matters**: Specialized code model delivers better results for complex programming tasks.
+**Why it matters**: Your stack, your rules. Custom agents understand your specific tools and workflows, providing more relevant suggestions and automations.
 
 **Get started**:
-→ [Try it now](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot)
+→ [Read the announcement](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/) | [Learn about agents.md](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
 
 ---
 
-### **Claude Opus 4.5 Available Across IDEs** (December 3, 2025)
+### Mission Control for Agent Orchestration (Dec 2025)
 
 **What's new**:
-- Claude Opus 4.5 now accessible in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
-- Improved reasoning and context handling for complex codebases
-- Better multi-file understanding
+- New Mission Control interface for coordinating multiple AI agents
+- Orchestrate agents to work together on complex tasks
+- Visual workflow builder for agent task chains
+- Real-time monitoring of agent execution
 
-**Why it matters**: Anthropic's latest model brings advanced reasoning to more development environments.
+**Why it matters**: Complex development tasks often require multiple specialized agents. Mission Control lets you coordinate them effectively without manual intervention.
 
 **Get started**:
-→ [Get started](https://github.blog/changelog/2025-12-03-claude-opus-4-5-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
+→ [How to orchestrate agents using Mission Control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/)
 
 ---
 
-### **GitHub Copilot in Visual Studio - November Update** (December 3, 2025)
+### GitHub Copilot Spaces for Faster Debugging (Dec 2025)
 
 **What's new**:
-- Performance improvements and bug fixes for Visual Studio integration
-- Enhanced chat experience with better formatting
-- Improved code suggestions accuracy
+- Copilot Spaces: isolated environments for debugging and testing
+- Share debugging sessions with teammates
+- Persistent chat context within each Space
+- Auto-save debugging workflows for reuse
 
-**Why it matters**: Continued refinements make Visual Studio integration more stable and powerful.
+**Why it matters**: Debugging is faster when you can isolate issues in dedicated environments without polluting your main workspace or losing context.
 
 **Get started**:
-→ [Read update notes](https://github.blog/changelog/2025-12-03-github-copilot-in-visual-studio-november-update)
+→ [Use Copilot Spaces to debug issues faster](https://github.blog/ai-and-ml/github-copilot/how-to-use-github-copilot-spaces-to-debug-issues-faster/)
 
 ---
 
-### **Assign Issues to Copilot Using the API** (December 3, 2025)
+### Enhanced Code Generation Metrics Dashboard (Dec 5, 2025)
 
 **What's new**:
-- New API endpoint to programmatically assign GitHub issues to Copilot
-- Enable automated triage and resolution workflows
-- Integrate Copilot into existing automation pipelines
+- Track Copilot code generation metrics in a centralized dashboard
+- Measure acceptance rates, time saved, and code quality metrics
+- Team-level insights for Copilot adoption and impact
+- Export reports for stakeholder presentations
 
-**Why it matters**: Automate issue resolution at scale by routing issues directly to Copilot.
+**Why it matters**: Data-driven insights help teams understand Copilot's impact on productivity and justify continued investment.
 
 **Get started**:
-→ [API documentation](https://github.blog/changelog/2025-12-03-assign-issues-to-copilot-using-the-api)
+→ [Track metrics in dashboard](https://github.blog/changelog/2025-12-05-track-copilot-code-generation-metrics-in-a-dashboard)
 
 ---
 
-## 📄 Documentation Updates (Last 7 Days)
+### GPT-5.2 & Advanced Models in Public Preview (Dec 11, 2025)
 
-Recent updates to official documentation:
+**What's new**:
+- OpenAI's GPT-5.2 now available in public preview
+- GPT-5.1 Codex Max for advanced code generation (Dec 4)
+- Claude Opus 4.5 available in VS, JetBrains, Xcode, Eclipse (Dec 3)
+- Gemini 3 Pro available in multiple IDEs (Dec 12)
 
-- **All 14 documentation files**: Refreshed on 2025-12-13 for accuracy and currency
-  - copilot-overview.md
-  - copilot-getting-started.md
-  - copilot-chat.md
-  - copilot-extensions-overview.md
-  - copilot-extensions-integration.md
-  - copilot-custom-instructions.md
-  - copilot-best-practices.md
-  - copilot-prompt-engineering.md
-  - copilot-asking-questions.md
-  - copilot-code-suggestions.md
-  - copilot-managing-organization.md
-  - copilot-configuration.md
-  - copilot-responsible-use.md
-  - copilot-troubleshooting.md
+**Why it matters**: Access to cutting-edge language models means better code suggestions, more accurate explanations, and improved reasoning about complex codebases.
+
+**Get started**:
+→ [GPT-5.2 announcement](https://github.blog/changelog/2025-12-11-openais-gpt-5-2-is-now-in-public-preview-for-github-copilot) | [Model selection guide](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#ai-models-for-copilot-chat)
+
+---
+
+### Auto Model Selection in VS Code (Dec 10, 2025)
+
+**What's new**:
+- Copilot automatically selects the best model for each task
+- Machine learning-based model routing based on prompt type
+- No manual model switching required
+- Generally available in Visual Studio Code
+
+**Why it matters**: Let Copilot choose the optimal model for your task—whether it's code generation, debugging, explanation, or refactoring—without manual configuration.
+
+**Get started**:
+→ [Auto model selection announcement](https://github.blog/changelog/2025-12-10-auto-model-selection-is-generally-available-in-github-copilot-in-visual-studio-code)
+
+---
+
+### Enterprise Teams: 10x Increased Product Limits (Dec 8, 2025)
+
+**What's new**:
+- Product limits increased by over 10x for enterprise teams
+- Support for larger codebases and more concurrent users
+- Enhanced performance for organization-wide deployments
+
+**Why it matters**: Enterprise teams can now scale Copilot usage across larger organizations without hitting previous limitations.
+
+**Get started**:
+→ [Enterprise limits announcement](https://github.blog/changelog/2025-12-08-enterprise-teams-product-limits-increased-by-over-10x)
+
+---
+
+### GitHub Copilot CLI 101 (Dec 2025)
+
+**What's new**:
+- Complete guide to using Copilot from the command line
+- Natural language to shell command translation
+- Explain complex commands before running them
+- Generate git commands, one-liners, and complex shell scripts
+
+**Why it matters**: Extend Copilot's AI assistance beyond your IDE to your entire terminal workflow.
+
+**Get started**:
+→ [Read the CLI guide](https://github.blog/ai-and-ml/github-copilot-cli-101-how-to-use-github-copilot-from-the-command-line/)
 
 ---
 
 ## Older Updates
 
-For complete historical timeline, see **[Complete Changelog](CHANGELOG.md)**
+For complete historical timeline, see **[Changelog](CHANGELOG.md)**
 
 ---
 
-*Updates older than 30 days are moved to the changelog automatically.*
+*Updates older than 30 days are automatically moved to the changelog.*
