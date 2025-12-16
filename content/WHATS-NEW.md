@@ -2,13 +2,13 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: 2025-12-15
+**Last Updated**: December 16, 2025
 
 ---
 
 ## This Week (Last 7 Days)
 
-### Documentation Updates (Dec 15, 2025)
+### Documentation Updates (Dec 16, 2025)
 
 All 14 core GitHub Copilot documentation pages were refreshed with the latest information:
 

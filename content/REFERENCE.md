@@ -2,7 +2,7 @@
 
 > Links to official documentation organized by category
 
-**Last Updated**: 2025-12-15
+**Last Updated**: December 16, 2025
 
 ---
 
@@ -64,26 +64,26 @@
 
 ## Documentation Freshness
 
-### Last Updated (Dec 15, 2025)
+### Last Updated (Dec 16, 2025)
 
-All documentation pages were updated on **2025-12-15**:
+All documentation pages were updated on **2025-12-16**:
 
 | Documentation | Last Updated |
 |--------------|--------------|
-| **copilot-overview.md** | 2025-12-15T23:22:56Z |
-| **copilot-getting-started.md** | 2025-12-15T23:22:58Z |
-| **copilot-chat.md** | 2025-12-15T23:22:59Z |
-| **copilot-extensions-overview.md** | 2025-12-15T23:23:02Z |
-| **copilot-extensions-integration.md** | 2025-12-15T23:23:03Z |
-| **copilot-custom-instructions.md** | 2025-12-15T23:23:05Z |
-| **copilot-best-practices.md** | 2025-12-15T23:23:07Z |
-| **copilot-prompt-engineering.md** | 2025-12-15T23:23:09Z |
-| **copilot-asking-questions.md** | 2025-12-15T23:23:10Z |
-| **copilot-code-suggestions.md** | 2025-12-15T23:23:11Z |
-| **copilot-managing-organization.md** | 2025-12-15T23:23:13Z |
-| **copilot-configuration.md** | 2025-12-15T23:23:16Z |
-| **copilot-responsible-use.md** | 2025-12-15T23:23:18Z |
-| **copilot-troubleshooting.md** | 2025-12-15T23:23:20Z |
+| **copilot-overview.md** | 2025-12-16T07:48:48Z |
+| **copilot-getting-started.md** | 2025-12-16T07:48:49Z |
+| **copilot-chat.md** | 2025-12-16T07:48:50Z |
+| **copilot-extensions-overview.md** | 2025-12-16T07:48:52Z |
+| **copilot-extensions-integration.md** | 2025-12-16T07:48:53Z |
+| **copilot-custom-instructions.md** | 2025-12-16T07:48:54Z |
+| **copilot-best-practices.md** | 2025-12-16T07:48:56Z |
+| **copilot-prompt-engineering.md** | 2025-12-16T07:48:58Z |
+| **copilot-asking-questions.md** | 2025-12-16T07:48:59Z |
+| **copilot-code-suggestions.md** | 2025-12-16T07:49:01Z |
+| **copilot-managing-organization.md** | 2025-12-16T07:49:03Z |
+| **copilot-configuration.md** | 2025-12-16T07:49:06Z |
+| **copilot-responsible-use.md** | 2025-12-16T07:49:08Z |
+| **copilot-troubleshooting.md** | 2025-12-16T07:49:10Z |
 
 ---
 
