@@ -31,6 +31,7 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 ## 2. Best Practices
 
 - Write clear, scoped, testable instructions in `copilot-instructions.md` (or, for advanced multi-agent workflows, use `AGENTS.md`—see [changelog](https://github.blog/changelog/2025-08-28-copilot-coding-agent-now-supports-agents-md-custom-instructions/))
+- **NEW (Dec 2025)**: Use Agent Skills to teach Copilot specialized, repeatable tasks ([learn more](https://docs.github.com/copilot/concepts/agents/about-agent-skills))
 - Start with small tasks, then iterate
 - Use the spec-drive development
 - Use eval-driven development to validate outputs
@@ -45,7 +46,31 @@ _For this reason this starter kit distills essential knowledge, common pitfalls,
 
 ---
 
-## 2a. NEW: AGENTS.md Custom Instructions
+## 2a. NEW: Agent Skills (December 2025)
+
+**Copilot now supports Agent Skills - reusable, specialized task instructions!**
+
+Agent Skills are folders containing instructions, scripts, and resources that Copilot automatically loads when relevant to your prompt.
+
+**Key Features**:
+- Create custom skills for your team's specific workflows
+- Copilot automatically determines when to use each skill
+- Works across Copilot coding agent, Copilot CLI, and agent mode in VS Code Insiders
+- Compatible with Claude Code skills (`.claude/skills` directory)
+- Share skills via repositories like [`anthropics/skills`](https://github.com/anthropics/skills) or [`github/awesome-copilot`](https://github.com/github/awesome-copilot)
+
+**Example Use Cases**:
+- Consistent code review standards across your team
+- Specialized testing patterns for your domain
+- Custom deployment workflows
+- Domain-specific architectural patterns
+
+📢 [Announcing Agent Skills (Dec 18, 2025)](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills)
+📘 [Agent Skills Documentation](https://docs.github.com/copilot/concepts/agents/about-agent-skills)
+
+---
+
+## 2b. AGENTS.md Custom Instructions
 
 **Copilot Coding Agent now supports custom instructions via `AGENTS.md`!**
 
@@ -163,11 +188,10 @@ Jumpstart your Copilot Coding Agent journey with hands-on learning:
 
 ### Third-Party Resources
 
-**Udemy (Company Account)**
-- 🎥 [GitHub Copilot: The Complete Masterclass](https://www.udemy.com/course/github-copilot-complete-guide/) - All Levels (8-10 hours)
-  - Rating: 4.7/5 | 5000+ students
-  - Comprehensive coverage from basics to advanced patterns
-  - Note: Check company Udemy account for access
+**Community Courses (Check Corporate Access)**
+- 🎥 Search platforms like Udemy, Coursera, Pluralsight for updated Copilot courses
+  - Note: Many companies provide corporate accounts for free access
+  - Always verify course recency (updated within last 6 months)
 
 ### Quick References
 

@@ -2,7 +2,7 @@
 
 > Curated learning paths for mastering GitHub Copilot
 
-**Last Updated**: December 16, 2025
+**Last Updated**: December 18, 2025
 
 ---
 
@@ -31,7 +31,7 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 - Leveraging Copilot Chat for questions and explanations
 - Best practices for AI pair programming
 
-[Start Course →](https://github.com/skills/copilot-intro)
+[Start Course →](https://skills.github.com/)
 
 ---
 
@@ -132,27 +132,15 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 
 ## Curated Courses
 
-**Community-Recommended | May Require Purchase**
+**Community-Recommended**
 
-### GitHub Copilot: The Complete Masterclass
+For additional third-party courses and tutorials, search for "GitHub Copilot" on platforms like:
+- Udemy
+- Coursera
+- Pluralsight
+- LinkedIn Learning
 
-**Provider**: Udemy  
-**Level**: All Levels  
-**Rating**: 4.7/5 (5000+ students)  
-**Duration**: 8-10 hours  
-**Cost**: Check Udemy for current pricing (often on sale)
-
-Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt engineering, and how to integrate Copilot into professional workflows.
-
-**What you'll learn**:
-- Complete Copilot workflow from beginner to advanced
-- Professional-grade prompt engineering
-- AI pair programming best practices
-- Integration into real-world development workflows
-
-**Note**: Check if your company has a Udemy for Business account for free access.
-
-[View Course →](https://www.udemy.com/course/github-copilot-complete-guide/)
+**Note**: Always verify course recency (updated within last 6 months) as GitHub Copilot evolves rapidly. Check if your organization has corporate accounts for free access.
 
 ---
 
@@ -165,8 +153,8 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 1. **[Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)** (Microsoft Learn)  
    Start here - 30 minutes to understand the basics
 
-2. **[Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)** (GitHub Skills)  
-   Hands-on practice - 1-2 hours interactive course
+2. **[GitHub Skills](https://skills.github.com/)** (GitHub Skills)  
+   Hands-on practice - Browse available Copilot courses
 
 3. **[Getting Started Guide](GETTING-STARTED.md)** (This repository)  
    Quick reference for best practices
@@ -191,10 +179,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 3. **[Challenge Project: Build a Minigame](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)** (Microsoft Learn)  
    Hands-on project - 1-2 hours
 
-4. **[Complete Masterclass](https://www.udemy.com/course/github-copilot-complete-guide/)** (Udemy - Optional)  
-   Comprehensive coverage - 8-10 hours
-
-**Time commitment**: 5-8 hours for core path (15+ hours with Udemy course)
+**Time commitment**: 5-8 hours for core path
 
 ---
 

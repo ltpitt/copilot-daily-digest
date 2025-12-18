@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-17T23:23:11.816809+00:00",
+  "generated_at": "2025-12-18T22:11:41.528042+00:00",
   "has_changes": true,
-  "total_changes": 21,
+  "total_changes": 22,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-17T23:22:55Z",
+        "timestamp": "2025-12-18T22:11:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-17T23:23:02Z",
+        "timestamp": "2025-12-18T22:11:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-17T23:22:56Z",
+        "timestamp": "2025-12-18T22:11:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-17T23:23:09Z",
+        "timestamp": "2025-12-18T22:11:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-17T23:23:05Z",
+        "timestamp": "2025-12-18T22:11:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-17T23:22:51Z",
+        "timestamp": "2025-12-18T22:11:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-17T23:22:53Z",
+        "timestamp": "2025-12-18T22:11:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-17T23:22:52Z",
+        "timestamp": "2025-12-18T22:11:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-17T23:23:04Z",
+        "timestamp": "2025-12-18T22:11:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-17T23:23:01Z",
+        "timestamp": "2025-12-18T22:11:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-17T23:22:49Z",
+        "timestamp": "2025-12-18T22:11:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-17T23:22:58Z",
+        "timestamp": "2025-12-18T22:11:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-17T23:23:00Z",
+        "timestamp": "2025-12-18T22:11:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-17T23:23:07Z",
+        "timestamp": "2025-12-18T22:11:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,43 +110,49 @@
     ]
   },
   "blog": {
-    "new_count": 6,
+    "new_count": 7,
     "new_posts": [
       {
-        "title": "GPT-5.2 is now generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gpt-5-2-is-now-generally-available-in-github-copilot",
-        "date": "2025-12-17T18:12:19Z",
-        "summary": "<p>GPT-5.2 is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobi"
+        "title": "Assigning GitHub Copilot to an issue now adds you as an assignee",
+        "url": "https://github.blog/changelog/2025-12-18-assigning-github-copilot-to-an-issue-now-adds-you-as-an-assignee",
+        "date": "2025-12-18T17:46:17Z",
+        "summary": "<p>When you assign an issue to Copilot, you&#8217;ll now automatically be added as an assignee yourself. This makes it easier to track your work using filters like assignee:@me and understand&#8230;</"
       },
       {
-        "title": "GPT-5.1-Codex-Max is now generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gpt-5-1-codex-max-is-now-generally-available-in-github-copilot",
-        "date": "2025-12-17T17:28:26Z",
-        "summary": "<p>GPT-5.1-Codex-Max is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, G"
+        "title": "GitHub Advanced Security trials now available for more GitHub Enterprise customers",
+        "url": "https://github.blog/changelog/2025-12-18-github-advanced-security-trials-now-available-for-more-github-enterprise-customers",
+        "date": "2025-12-18T17:36:42Z",
+        "summary": "<p>More GitHub Enterprise customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Enterprises that have previously completed "
       },
       {
-        "title": "GPT-5.1 and GPT-5.1-Codex are now generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gpt-5-1-and-gpt-5-1-codex-are-now-generally-available-in-github-copilot",
-        "date": "2025-12-17T16:16:42Z",
-        "summary": "<p>GPT-5.1 and GPT-5.1-Codex are generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on gith"
+        "title": "GitHub Copilot now supports Agent Skills",
+        "url": "https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills",
+        "date": "2025-12-18T17:26:18Z",
+        "summary": "<p>You can now create Agent Skills to teach Copilot how to perform specialized tasks in a specific, repeatable way. Agent Skills are folders containing instructions, scripts, and resources that Copilo"
       },
       {
-        "title": "Copilot code review now available for organization members without a license",
-        "url": "https://github.blog/changelog/2025-12-17-copilot-code-review-now-available-for-organization-members-without-a-license",
-        "date": "2025-12-17T15:30:47Z",
-        "summary": "<p>Organizations can now apply Copilot code review to all pull requests, including those from contributors without a Copilot license. Usage is billed seamlessly to the organization as premium requests"
+        "title": "Claude Opus 4.5 is now generally available in GitHub Copilot",
+        "url": "https://github.blog/changelog/2025-12-18-claude-opus-4-5-is-now-generally-available-in-github-copilot",
+        "date": "2025-12-18T17:18:04Z",
+        "summary": "<p>Claude Opus 4.5 is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com,&#82"
       },
       {
-        "title": "Dynamic Copilot prompts on GitHub Docs",
-        "url": "https://github.blog/changelog/2025-12-17-dynamic-copilot-prompts-on-github-docs",
-        "date": "2025-12-17T15:19:18Z",
-        "summary": "<p>You can now launch GitHub Copilot prompts directly from select pages on GitHub Docs. We&#8217;ve introduced dynamic GitHub Copilot prompts, making it easy to move seamlessly from documentation to C"
+        "title": "GitHub Enterprise Cloud data residency in Japan is generally available",
+        "url": "https://github.blog/changelog/2025-12-18-github-enterprise-cloud-data-residency-in-japan-is-generally-available",
+        "date": "2025-12-18T17:00:58Z",
+        "summary": "<p>GitHub Enterprise Cloud with data residency in Japan is now generally available, allowing GitHub Enterprise Cloud customers greater flexibility in choosing where their code and repository data are "
       },
       {
-        "title": "Gemini 3 Flash is now in public preview for GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gemini-3-flash-is-now-in-public-preview-for-github-copilot",
-        "date": "2025-12-17T15:04:53Z",
-        "summary": "<p>Gemini 3 Flash, ideal for tasks where speed is crucial, is now rolling out in public preview in GitHub Copilot. Availability in GitHub Copilot Gemini 3 Flash is now rolling&#8230;</p>\n<p>The post <"
+        "title": "Copilot code review preview features now supported in GitHub Enterprise Cloud with data residency",
+        "url": "https://github.blog/changelog/2025-12-18-copilot-code-review-preview-features-now-supported-in-github-enterprise-cloud-with-data-residency",
+        "date": "2025-12-18T14:51:52Z",
+        "summary": "<p>GitHub Enterprise Cloud with data residency now supports Copilot code review preview features, providing you an opportunity to try the latest agentic code review capabilities in your pull requests."
+      },
+      {
+        "title": "Enterprise-level pull request activity now included in Copilot Usage Metrics in public preview",
+        "url": "https://github.blog/changelog/2025-12-18-enterprise-level-pull-request-activity-metrics-now-in-public-preview",
+        "date": "2025-12-18T09:20:59Z",
+        "summary": "<p>You can now view pull request&#8211;level activity metrics for your enterprise&#8212;including overall pull request creation and review activity&#8212;as well as how GitHub Copilot participates in "
       }
     ]
   },
@@ -158,105 +164,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 17, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 6 new articles\n  - \"GPT-5.2 is now generally available in GitHub Copilot\" (2025-12-17)\n  - \"GPT-5.1-Codex-Max is now generally available in GitHub Copilot\" (2025-12-17)\n  - \"GPT-5.1 and GPT-5.1-Codex are now generally available in GitHub Copilot\" (2025-12-17)\n  - \"Copilot code review now available for organization members without a license\" (2025-12-17)\n  - \"Dynamic Copilot prompts on GitHub Docs\" (2025-12-17)\n\nTotal: 21 changes detected",
+  "summary_text": "Changes detected on December 18, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 7 new articles\n  - \"Assigning GitHub Copilot to an issue now adds you as an assignee\" (2025-12-18)\n  - \"GitHub Advanced Security trials now available for more GitHub Enterprise customers\" (2025-12-18)\n  - \"GitHub Copilot now supports Agent Skills\" (2025-12-18)\n  - \"Claude Opus 4.5 is now generally available in GitHub Copilot\" (2025-12-18)\n  - \"GitHub Enterprise Cloud data residency in Japan is generally available\" (2025-12-18)\n\nTotal: 22 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 20,
+    "total_changes": 21,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-17T23:22:55Z",
+        "timestamp": "2025-12-18T22:11:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-17T23:23:02Z",
+        "timestamp": "2025-12-18T22:11:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-17T23:22:56Z",
+        "timestamp": "2025-12-18T22:11:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-17T23:23:09Z",
+        "timestamp": "2025-12-18T22:11:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-17T23:23:05Z",
+        "timestamp": "2025-12-18T22:11:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-17T23:22:51Z",
+        "timestamp": "2025-12-18T22:11:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-17T23:22:53Z",
+        "timestamp": "2025-12-18T22:11:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-17T23:22:52Z",
+        "timestamp": "2025-12-18T22:11:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-17T23:23:04Z",
+        "timestamp": "2025-12-18T22:11:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-17T23:23:01Z",
+        "timestamp": "2025-12-18T22:11:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-17T23:22:49Z",
+        "timestamp": "2025-12-18T22:11:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-17T23:22:58Z",
+        "timestamp": "2025-12-18T22:11:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-17T23:23:00Z",
+        "timestamp": "2025-12-18T22:11:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-17T23:23:07Z",
+        "timestamp": "2025-12-18T22:11:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -264,40 +270,46 @@
     ],
     "new_blog_posts": [
       {
-        "title": "GPT-5.2 is now generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gpt-5-2-is-now-generally-available-in-github-copilot",
-        "date": "2025-12-17T18:12:19Z",
-        "summary": "<p>GPT-5.2 is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobi"
+        "title": "Assigning GitHub Copilot to an issue now adds you as an assignee",
+        "url": "https://github.blog/changelog/2025-12-18-assigning-github-copilot-to-an-issue-now-adds-you-as-an-assignee",
+        "date": "2025-12-18T17:46:17Z",
+        "summary": "<p>When you assign an issue to Copilot, you&#8217;ll now automatically be added as an assignee yourself. This makes it easier to track your work using filters like assignee:@me and understand&#8230;</"
       },
       {
-        "title": "GPT-5.1-Codex-Max is now generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gpt-5-1-codex-max-is-now-generally-available-in-github-copilot",
-        "date": "2025-12-17T17:28:26Z",
-        "summary": "<p>GPT-5.1-Codex-Max is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, G"
+        "title": "GitHub Advanced Security trials now available for more GitHub Enterprise customers",
+        "url": "https://github.blog/changelog/2025-12-18-github-advanced-security-trials-now-available-for-more-github-enterprise-customers",
+        "date": "2025-12-18T17:36:42Z",
+        "summary": "<p>More GitHub Enterprise customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Enterprises that have previously completed "
       },
       {
-        "title": "GPT-5.1 and GPT-5.1-Codex are now generally available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gpt-5-1-and-gpt-5-1-codex-are-now-generally-available-in-github-copilot",
-        "date": "2025-12-17T16:16:42Z",
-        "summary": "<p>GPT-5.1 and GPT-5.1-Codex are generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on gith"
+        "title": "GitHub Copilot now supports Agent Skills",
+        "url": "https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills",
+        "date": "2025-12-18T17:26:18Z",
+        "summary": "<p>You can now create Agent Skills to teach Copilot how to perform specialized tasks in a specific, repeatable way. Agent Skills are folders containing instructions, scripts, and resources that Copilo"
       },
       {
-        "title": "Copilot code review now available for organization members without a license",
-        "url": "https://github.blog/changelog/2025-12-17-copilot-code-review-now-available-for-organization-members-without-a-license",
-        "date": "2025-12-17T15:30:47Z",
-        "summary": "<p>Organizations can now apply Copilot code review to all pull requests, including those from contributors without a Copilot license. Usage is billed seamlessly to the organization as premium requests"
+        "title": "Claude Opus 4.5 is now generally available in GitHub Copilot",
+        "url": "https://github.blog/changelog/2025-12-18-claude-opus-4-5-is-now-generally-available-in-github-copilot",
+        "date": "2025-12-18T17:18:04Z",
+        "summary": "<p>Claude Opus 4.5 is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com,&#82"
       },
       {
-        "title": "Dynamic Copilot prompts on GitHub Docs",
-        "url": "https://github.blog/changelog/2025-12-17-dynamic-copilot-prompts-on-github-docs",
-        "date": "2025-12-17T15:19:18Z",
-        "summary": "<p>You can now launch GitHub Copilot prompts directly from select pages on GitHub Docs. We&#8217;ve introduced dynamic GitHub Copilot prompts, making it easy to move seamlessly from documentation to C"
+        "title": "GitHub Enterprise Cloud data residency in Japan is generally available",
+        "url": "https://github.blog/changelog/2025-12-18-github-enterprise-cloud-data-residency-in-japan-is-generally-available",
+        "date": "2025-12-18T17:00:58Z",
+        "summary": "<p>GitHub Enterprise Cloud with data residency in Japan is now generally available, allowing GitHub Enterprise Cloud customers greater flexibility in choosing where their code and repository data are "
       },
       {
-        "title": "Gemini 3 Flash is now in public preview for GitHub Copilot",
-        "url": "https://github.blog/changelog/2025-12-17-gemini-3-flash-is-now-in-public-preview-for-github-copilot",
-        "date": "2025-12-17T15:04:53Z",
-        "summary": "<p>Gemini 3 Flash, ideal for tasks where speed is crucial, is now rolling out in public preview in GitHub Copilot. Availability in GitHub Copilot Gemini 3 Flash is now rolling&#8230;</p>\n<p>The post <"
+        "title": "Copilot code review preview features now supported in GitHub Enterprise Cloud with data residency",
+        "url": "https://github.blog/changelog/2025-12-18-copilot-code-review-preview-features-now-supported-in-github-enterprise-cloud-with-data-residency",
+        "date": "2025-12-18T14:51:52Z",
+        "summary": "<p>GitHub Enterprise Cloud with data residency now supports Copilot code review preview features, providing you an opportunity to try the latest agentic code review capabilities in your pull requests."
+      },
+      {
+        "title": "Enterprise-level pull request activity now included in Copilot Usage Metrics in public preview",
+        "url": "https://github.blog/changelog/2025-12-18-enterprise-level-pull-request-activity-metrics-now-in-public-preview",
+        "date": "2025-12-18T09:20:59Z",
+        "summary": "<p>You can now view pull request&#8211;level activity metrics for your enterprise&#8212;including overall pull request creation and review activity&#8212;as well as how GitHub Copilot participates in "
       }
     ],
     "new_videos": []

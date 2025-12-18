@@ -2,40 +2,82 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: December 16, 2025
+**Last Updated**: December 18, 2025
 
 ---
 
 ## This Week (Last 7 Days)
 
-### Documentation Updates (Dec 16, 2025)
-
-All 14 core GitHub Copilot documentation pages were refreshed with the latest information:
+### Agent Skills Now Available (Dec 18, 2025)
 
 **What's new**:
-- Updated getting started guides with new features
-- Enhanced chat capabilities and slash commands documentation
-- Improved best practices and prompt engineering guides
-- Refreshed configuration and troubleshooting resources
+- Create Agent Skills to teach Copilot specialized tasks in repeatable ways
+- Skills are folders with instructions, scripts, and resources
+- Works across Copilot coding agent, Copilot CLI, and agent mode in VS Code Insiders
+- Automatically loads relevant skills based on your prompts
+- Compatible with Claude Code skills in `.claude/skills` directory
 
-**Why it matters**: These updates ensure you have access to the most current information about Copilot's capabilities, helping you maximize productivity with the latest features.
+**Why it matters**: Agent Skills enable you to customize Copilot's behavior for your specific workflows, making it more powerful for domain-specific tasks and team standards.
 
 **Get started**:
-→ [Browse all documentation](REFERENCE.md) | [Read best practices](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+→ [Learn about Agent Skills](https://docs.github.com/copilot/concepts/agents/about-agent-skills) | [Read announcement](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills) | [Community skills](https://github.com/github/awesome-copilot)
 
 ---
 
-### Gemini 3 Pro Available Across Multiple IDEs (Dec 12, 2025)
+### Claude Opus 4.5 Generally Available (Dec 18, 2025)
 
 **What's new**:
-- Gemini 3 Pro now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
-- Access Google's latest AI model directly in your IDE
-- Alternative to GPT and Claude models for diverse AI assistance
+- Claude Opus 4.5 is now GA for all Copilot tiers (Enterprise, Business, Pro, Pro+)
+- Available in Copilot Chat on github.com, VS Code, and other IDEs
+- Enhanced reasoning and code generation capabilities
 
-**Why it matters**: More model choices mean you can find the best AI assistant for your specific coding style and needs.
+**Why it matters**: Access to Anthropic's most advanced model gives you more choices for complex coding tasks and architectural decisions.
 
 **Get started**:
-→ [Gemini 3 Pro announcement](https://github.blog/changelog/2025-12-12-gemini-3-pro-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
+→ [Read announcement](https://github.blog/changelog/2025-12-18-claude-opus-4-5-is-now-generally-available-in-github-copilot)
+
+---
+
+### Improved Issue Assignment Workflow (Dec 18, 2025)
+
+**What's new**:
+- When you assign an issue to Copilot, you're automatically added as an assignee
+- Easier to track your work using filters like `assignee:@me`
+- Clearer ownership and collaboration on Copilot-assisted issues
+
+**Why it matters**: Streamlines workflow management and makes it easier to track which issues have Copilot assistance.
+
+**Get started**:
+→ [Read announcement](https://github.blog/changelog/2025-12-18-assigning-github-copilot-to-an-issue-now-adds-you-as-an-assignee)
+
+---
+
+### Enterprise PR Activity Metrics (Dec 18, 2025)
+
+**What's new**:
+- View enterprise-level pull request activity metrics (public preview)
+- Track overall PR creation and review activity
+- Monitor how GitHub Copilot participates in your development workflow
+- Measure Copilot's impact on team productivity
+
+**Why it matters**: Enterprise admins can now quantify Copilot's contribution to development velocity and code review processes.
+
+**Get started**:
+→ [Read announcement](https://github.blog/changelog/2025-12-18-enterprise-level-pull-request-activity-metrics-now-in-public-preview)
+
+---
+
+### Copilot Code Review in Data Residency Regions (Dec 18, 2025)
+
+**What's new**:
+- Copilot code review preview features now supported in GitHub Enterprise Cloud with data residency
+- Agentic code review capabilities available for compliance-sensitive organizations
+- Maintains data sovereignty while leveraging AI code review
+
+**Why it matters**: Organizations with data residency requirements can now use Copilot's code review features without compromising compliance.
+
+**Get started**:
+→ [Read announcement](https://github.blog/changelog/2025-12-18-copilot-code-review-preview-features-now-supported-in-github-enterprise-cloud-with-data-residency)
 
 ---
 
@@ -49,7 +91,7 @@ All 14 core GitHub Copilot documentation pages were refreshed with the latest in
 **Why it matters**: Access to cutting-edge language models means better code suggestions, more accurate explanations, and improved reasoning about complex codebases.
 
 **Get started**:
-→ [GPT-5.2 announcement](https://github.blog/changelog/2025-12-11-openais-gpt-5-2-is-now-in-public-preview-for-github-copilot)
+→ [Read announcement](https://github.blog/changelog/2025-12-11-openais-gpt-5-2-is-now-in-public-preview-for-github-copilot)
 
 ---
 
@@ -64,7 +106,7 @@ All 14 core GitHub Copilot documentation pages were refreshed with the latest in
 **Why it matters**: Let Copilot choose the optimal model for your task—whether it's code generation, debugging, explanation, or refactoring—without manual configuration.
 
 **Get started**:
-→ [Auto model selection announcement](https://github.blog/changelog/2025-12-10-auto-model-selection-is-generally-available-in-github-copilot-in-visual-studio-code)
+→ [Read announcement](https://github.blog/changelog/2025-12-10-auto-model-selection-is-generally-available-in-github-copilot-in-visual-studio-code)
 
 ---
 

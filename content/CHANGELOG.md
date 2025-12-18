@@ -2,11 +2,65 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: December 16, 2025
+**Last Updated**: December 18, 2025
 
 ---
 
 ## December 2025
+
+### December 18, 2025
+
+#### Product Updates
+- **Agent Skills Now Available** - Create reusable Agent Skills to teach Copilot specialized tasks
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills)
+  - Skills are folders with instructions, scripts, and resources
+  - Works across Copilot coding agent, Copilot CLI, and agent mode in VS Code Insiders
+  - Compatible with Claude Code skills in `.claude/skills` directory
+  - [Documentation](https://docs.github.com/copilot/concepts/agents/about-agent-skills)
+
+- **Claude Opus 4.5 Generally Available** - Anthropic's Claude Opus 4.5 now GA for all Copilot tiers
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-18-claude-opus-4-5-is-now-generally-available-in-github-copilot)
+  - Available for Enterprise, Business, Pro, and Pro+ subscribers
+  - Access in Copilot Chat on github.com, VS Code, and other IDEs
+
+- **Improved Issue Assignment Workflow** - Auto-assignment when assigning issues to Copilot
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-18-assigning-github-copilot-to-an-issue-now-adds-you-as-an-assignee)
+  - Automatically adds you as an assignee when you assign an issue to Copilot
+  - Easier tracking with filters like `assignee:@me`
+
+- **Enterprise PR Activity Metrics (Public Preview)** - Track Copilot's impact on pull requests
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-18-enterprise-level-pull-request-activity-metrics-now-in-public-preview)
+  - View enterprise-level pull request activity metrics
+  - Monitor how GitHub Copilot participates in development workflow
+  - Measure team productivity and Copilot adoption
+
+- **Copilot Code Review in Data Residency** - Agentic code review for compliance-sensitive orgs
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-18-copilot-code-review-preview-features-now-supported-in-github-enterprise-cloud-with-data-residency)
+  - Code review preview features now available in GitHub Enterprise Cloud with data residency
+  - Maintains data sovereignty while using AI code review
+
+- **GitHub Enterprise Cloud Data Residency in Japan (GA)** - New data residency option
+  - Source: [GitHub Blog](https://github.blog/changelog/2025-12-18-github-enterprise-cloud-data-residency-in-japan-is-generally-available)
+  - Greater flexibility in choosing where code and repository data are stored
+
+#### Documentation Updates
+- **All 14 documentation files refreshed** - Complete refresh of GitHub Copilot documentation
+  - copilot-overview.md - Last updated: 2025-12-18T22:11:03Z
+  - copilot-getting-started.md - Last updated: 2025-12-18T22:11:05Z
+  - copilot-chat.md - Last updated: 2025-12-18T22:11:07Z
+  - copilot-extensions-overview.md - Last updated: 2025-12-18T22:11:08Z
+  - copilot-extensions-integration.md - Last updated: 2025-12-18T22:11:10Z
+  - copilot-custom-instructions.md - Last updated: 2025-12-18T22:11:11Z
+  - copilot-best-practices.md - Last updated: 2025-12-18T22:11:13Z
+  - copilot-prompt-engineering.md - Last updated: 2025-12-18T22:11:15Z
+  - copilot-asking-questions.md - Last updated: 2025-12-18T22:11:16Z
+  - copilot-code-suggestions.md - Last updated: 2025-12-18T22:11:18Z
+  - copilot-managing-organization.md - Last updated: 2025-12-18T22:11:20Z
+  - copilot-configuration.md - Last updated: 2025-12-18T22:11:22Z
+  - copilot-responsible-use.md - Last updated: 2025-12-18T22:11:24Z
+  - copilot-troubleshooting.md - Last updated: 2025-12-18T22:11:25Z
+
+---
 
 ### December 16, 2025
 
