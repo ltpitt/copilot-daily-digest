@@ -2,10 +2,6 @@
 
 > Your 5-minute guide to productive AI pair programming
 
-**Last Updated**: December 16, 2025
-
----
-
 ## Quick Setup
 
 ### 1. Install Copilot in Your IDE
@@ -16,8 +12,8 @@
 code --install-extension GitHub.copilot
 ```
 
-**JetBrains**: Install from Plugins marketplace  
-**Visual Studio**: Version 17.14+ includes built-in support  
+**JetBrains**: Install from Plugins marketplace (Settings → Plugins → Search "GitHub Copilot")  
+**Visual Studio**: Built-in for Version 17.14+  
 **Xcode/Eclipse**: Available for Pro/Pro+ subscribers
 
 ### 2. Try Your First Prompt
@@ -31,144 +27,123 @@ Press `Enter` - Copilot suggests the implementation. Press `Tab` to accept.
 
 ### 3. Use Chat for Complex Tasks
 
-Press `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac) to open inline chat:
+Press `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac) for inline chat:
 ```
 Explain this codebase structure and list any failing tests
 ```
 
-### 4. Enable Advanced Features (Optional)
+### 4. Enable Agent Mode (Optional)
 
-**Copilot Edits**: Multi-file editing capability  
-**Agent Mode**: Autonomous multi-step task completion  
-**Model Selection**: Choose different AI models for specific tasks
-
----
+For autonomous multi-step tasks:
+- VS Code: Chat view → Select "Agent" from mode dropdown
+- Ask: "Add Redis caching to userSessionService with 30s TTL"
+- Copilot determines files, makes changes, and you review
 
 ## Best Practices
 
-### 1. Start General, Then Get Specific
+### Write Context-Rich Prompts
 
-❌ **Don't**: "Make a function"  
-✅ **Do**: "Write a JavaScript function that tells me if a number is prime. The function should take an integer and return true if the integer is prime. The function should error if the input is not a positive integer."
+❌ **Don't**: "Add caching"  
+✅ **Do**: "Add Redis caching to userSessionService with 30s TTL to reduce DB hits >1000/min"
 
-**Why it matters**: Specific prompts help Copilot understand your exact requirements and generate more accurate code.
+**Why**: Specific prompts give Copilot the context it needs to generate accurate, production-ready code.
 
-→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+### Break Down Complex Tasks
 
-### 2. Provide Examples in Your Prompts
+❌ **Don't**: "Build a complete authentication system"  
+✅ **Do**: 
+1. "Create a user registration endpoint with email validation"
+2. "Add password hashing using bcrypt"
+3. "Implement JWT token generation for authenticated users"
 
-❌ **Don't**: "Parse dates from a string"  
+**Why**: Smaller, focused tasks lead to better code quality and easier review.
+
+### Choose the Right Model for the Task
+
+Different AI models excel at different tasks:
+- **GPT models**: Best for general code generation and explanations
+- **Claude models**: Excellent for code review and refactoring
+- **Gemini models**: Strong at understanding complex codebases
+
+**How**: Use the model picker in VS Code (Chat view → Model dropdown) or enable Auto Model Selection.
+
+### Provide Examples
+
+❌ **Don't**: "Create a data validation function"  
 ✅ **Do**: 
 ```
-Write a Go function that finds all dates in a string and returns them in an array. 
-Dates can be formatted like:
-* 05/02/24
-* 05-02-2024
-* 5/2/24
-
-Example: findDates("appointment on 11/14/2023 and book club on 12-1-23")
-Returns: ["11/14/2023", "12-1-23"]
+Create a data validation function. Example input:
+{ name: "John", age: 25, email: "john@example.com" }
+Expected output: { valid: true, errors: [] }
 ```
 
-**Why it matters**: Examples eliminate ambiguity and show Copilot exactly what output format you expect.
+**Why**: Examples clarify your requirements and reduce ambiguity.
 
-→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+### Use Inline Suggestions for Repetitive Code
 
-### 3. Break Complex Tasks into Simpler Steps
+**Best for**:
+- Completing similar functions
+- Writing test cases
+- Generating boilerplate
 
-❌ **Don't**: "Build a word search puzzle game"  
-✅ **Do**: 
-1. Write a function to generate a 10 by 10 grid of letters
-2. Write a function to find all words in a grid of letters, given a list of valid words
-3. Update the previous function to print the grid and 10 random words
+**How**: Start typing, wait for ghost text, press `Tab` to accept.
 
-**Why it matters**: Copilot performs better with focused, single-purpose requests than complex multi-step tasks.
+### Use Chat for Complex Reasoning
 
-→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+**Best for**:
+- Debugging issues
+- Understanding unfamiliar code
+- Architecture decisions
+- Code review
 
-### 4. Use the Right Tool for the Job
+**How**: Press `Ctrl+Shift+I` (VS Code) to open chat view, then ask questions.
 
-**Inline Suggestions** work best for:
-- Completing code snippets, variable names, and functions as you write
-- Generating repetitive code
-- Generating tests for test-driven development
+### Review and Test Copilot's Suggestions
 
-**Copilot Chat** is best suited for:
-- Answering questions about code in natural language
-- Generating large sections of code, then iterating
-- Accomplishing specific tasks with slash commands (`/tests`, `/fix`, `/explain`)
-- Code reviews and explanations
+✅ **Always**:
+- Read suggested code before accepting
+- Run tests to verify behavior
+- Check for security issues (SQL injection, XSS, etc.)
+- Validate that code follows your project's conventions
 
-→ Source: [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+❌ **Never**:
+- Blindly accept all suggestions
+- Skip code review for AI-generated code
+- Commit without testing
 
-### 5. Always Verify Copilot's Suggestions
+### Use Slash Commands for Common Tasks
 
-**Critical checks**:
-- ✅ Understand the code before implementing it (ask Copilot to explain if needed)
-- ✅ Review for functionality, security, readability, and maintainability
-- ✅ Use automated tests and linting to validate suggestions
-- ✅ Check for similarities to existing public code (optional setting available)
+Quick shortcuts in chat:
+- `/explain` - Explain selected code
+- `/fix` - Suggest fixes for problems
+- `/tests` - Generate unit tests
+- `/doc` - Add documentation
 
-**Why it matters**: Copilot is a powerful tool, but you are ultimately responsible for the code you write.
+**Example**: Select a function → Open chat → Type `/tests` → Get comprehensive test cases.
 
-→ Source: [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+### Keep Context Files Open
 
-### 6. Provide Relevant Context
+**Tip**: Open relevant files in tabs before asking Copilot questions. It uses open files as context.
 
-**In your IDE**:
-- ✅ Open relevant files, close irrelevant ones
-- ✅ Use descriptive names for variables and functions
-- ✅ Add comments to explain complex logic
-- ✅ Follow consistent code style and patterns
+**Example**: Before asking "Add error handling to API routes", open:
+- Your API route files
+- Error handler utilities
+- Similar implemented routes
 
-**In Copilot Chat**:
-- ✅ Use `@workspace` to reference your codebase
-- ✅ Use `#file` or `#selection` to reference specific code
-- ✅ Delete old chat messages that are no longer relevant
-- ✅ Start a new chat thread for unrelated tasks
+### Iterate on Responses
 
-**Why it matters**: Copilot uses surrounding context to generate better suggestions. Clean, well-structured code produces better results.
-
-→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
-
-### 7. Iterate and Experiment
-
-**If you don't get the result you want**:
-- Rephrase your prompt with different wording
-- Add more specific requirements or constraints
-- Provide additional examples
-- Break the request into smaller steps
-- Use keyboard shortcuts to cycle through multiple suggestions (`Alt+]` / `Opt+]`)
-
-**Why it matters**: Prompt engineering is an iterative process. Small changes to your prompt can yield significantly different results.
-
-→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
-
----
-
-## Quick Reference: Slash Commands
-
-Type `/` in Copilot Chat to access these commands:
-
-| Command | Purpose | Example |
-|---------|---------|---------|
-| `/explain` | Explain code or concepts | `/explain how async/await works` |
-| `/fix` | Suggest fixes for problems | `/fix this bug` |
-| `/tests` | Generate unit tests | `/tests for authentication module` |
-| `/doc` | Generate documentation | `/doc this API` |
-| `/optimize` | Improve code performance | `/optimize this function` |
-
-For complete command reference, see **[COMMANDS.md](COMMANDS.md)**
-
----
+If Copilot's first response isn't perfect:
+- Ask follow-up questions: "Make this more efficient"
+- Request specific changes: "Use async/await instead of promises"
+- Provide more context: "This runs in a serverless environment"
 
 ## Next Steps
 
-- **[Watch tutorials](VIDEOS.md)** - Learn from video demos and walkthroughs
-- **[Take courses](TRAININGS.md)** - Official GitHub Skills courses and certifications
-- **[Explore updates](WHATS-NEW.md)** - See the latest features and improvements
-- **[Read the full documentation](REFERENCE.md)** - Deep dive into all Copilot features
+- **[Watch tutorials](VIDEOS.md)** - Learn from video demos
+- **[Take courses](TRAININGS.md)** - Official GitHub Skills courses
+- **[Explore updates](WHATS-NEW.md)** - See latest features
+- **[Read best practices](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Official documentation
 
 ---
 
-*For advanced techniques and deep integration, see [STARTER-KIT.md](STARTER-KIT.md)*
+*For complete command reference, see [COMMANDS.md](COMMANDS.md)*
