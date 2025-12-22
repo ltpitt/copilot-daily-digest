@@ -207,7 +207,7 @@ Extend Copilot with external tools and services:
 - API documentation for external services
 - Custom tooling for your tech stack
 
-**Learn more**: [About MCP](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor#using-model-context-protocol)
+**Learn more**: [Using MCP servers](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-model-context-protocol-mcp-servers)
 
 ### GitHub Skills
 

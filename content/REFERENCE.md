@@ -133,7 +133,7 @@ Last updated timestamps for each documentation file:
 - [Seat management](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization)
 
 ### Extensions & Integrations
-- [Model Context Protocol (MCP)](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-code-suggestions-in-your-editor#using-model-context-protocol)
+- [Model Context Protocol (MCP) servers](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-model-context-protocol-mcp-servers)
 - [Copilot Extensions](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
 - [Building extensions](https://docs.github.com/en/copilot/building-copilot-extensions/about-building-copilot-extensions)
 

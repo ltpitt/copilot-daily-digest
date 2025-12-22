@@ -2,6 +2,8 @@
 
 > Your 5-minute guide to productive AI pair programming
 
+**Last Updated**: December 22, 2025
+
 ## Quick Setup
 
 ### 1. Install Copilot in Your IDE
