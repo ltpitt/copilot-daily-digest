@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-21T23:23:03.548637+00:00",
+  "generated_at": "2025-12-22T23:23:08.415666+00:00",
   "has_changes": true,
-  "total_changes": 16,
+  "total_changes": 17,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-21T23:22:48Z",
+        "timestamp": "2025-12-22T23:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-21T23:22:55Z",
+        "timestamp": "2025-12-22T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-21T23:22:50Z",
+        "timestamp": "2025-12-22T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-21T23:23:01Z",
+        "timestamp": "2025-12-22T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-21T23:22:57Z",
+        "timestamp": "2025-12-22T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-21T23:22:45Z",
+        "timestamp": "2025-12-22T23:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-21T23:22:47Z",
+        "timestamp": "2025-12-22T23:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-21T23:22:46Z",
+        "timestamp": "2025-12-22T23:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-21T23:22:56Z",
+        "timestamp": "2025-12-22T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-21T23:22:53Z",
+        "timestamp": "2025-12-22T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-21T23:22:44Z",
+        "timestamp": "2025-12-22T23:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-21T23:22:51Z",
+        "timestamp": "2025-12-22T23:22:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-21T23:22:52Z",
+        "timestamp": "2025-12-22T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-21T23:22:59Z",
+        "timestamp": "2025-12-22T23:23:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,136 +110,148 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
-  },
-  "videos": {
-    "new_count": 1,
-    "new_videos": [
+    "new_count": 2,
+    "new_posts": [
       {
-        "title": "A new kind of developer is emerging on GitHub",
-        "video_id": "EZBU4zCCaoM",
-        "date": "2025-12-21T15:00:26+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/EZBU4zCCaoM/hqdefault.jpg"
+        "title": "Improved performance for GitHub Actions workflows page",
+        "url": "https://github.blog/changelog/2025-12-22-improved-performance-for-github-actions-workflows-page",
+        "date": "2025-12-22T21:40:47Z",
+        "summary": "<p>GitHub Actions workflow pages now successfully render workflows with more than 300 jobs. We&#8217;ve implemented lazy loading to smoothly handle large workflows. In addition, you can now filter job"
+      },
+      {
+        "title": "Control who can request apps for your organization now in public preview",
+        "url": "https://github.blog/changelog/2025-12-22-control-who-can-request-apps-for-your-organization",
+        "date": "2025-12-22T15:02:08Z",
+        "summary": "<p>Organizations now have more granular control over who can request GitHub Apps and OAuth apps. This enhancement helps you implement stricter governance policies while maintaining flexibility for you"
       }
     ]
+  },
+  "videos": {
+    "new_count": 0,
+    "new_videos": []
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 21, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n🎥 Videos: 1 new video\n  - \"A new kind of developer is emerging on GitHub\" (2025-12-21)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on December 22, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 2 new articles\n  - \"Improved performance for GitHub Actions workflows page\" (2025-12-22)\n  - \"Control who can request apps for your organization now in public preview\" (2025-12-22)\n\nTotal: 17 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 15,
+    "total_changes": 16,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-21T23:22:48Z",
+        "timestamp": "2025-12-22T23:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-21T23:22:55Z",
+        "timestamp": "2025-12-22T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-21T23:22:50Z",
+        "timestamp": "2025-12-22T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-21T23:23:01Z",
+        "timestamp": "2025-12-22T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-21T23:22:57Z",
+        "timestamp": "2025-12-22T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-21T23:22:45Z",
+        "timestamp": "2025-12-22T23:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-21T23:22:47Z",
+        "timestamp": "2025-12-22T23:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-21T23:22:46Z",
+        "timestamp": "2025-12-22T23:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-21T23:22:56Z",
+        "timestamp": "2025-12-22T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-21T23:22:53Z",
+        "timestamp": "2025-12-22T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-21T23:22:44Z",
+        "timestamp": "2025-12-22T23:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-21T23:22:51Z",
+        "timestamp": "2025-12-22T23:22:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-21T23:22:52Z",
+        "timestamp": "2025-12-22T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-21T23:22:59Z",
+        "timestamp": "2025-12-22T23:23:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
-    "new_videos": [
+    "new_blog_posts": [
       {
-        "title": "A new kind of developer is emerging on GitHub",
-        "video_id": "EZBU4zCCaoM",
-        "date": "2025-12-21T15:00:26+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/EZBU4zCCaoM/hqdefault.jpg"
+        "title": "Improved performance for GitHub Actions workflows page",
+        "url": "https://github.blog/changelog/2025-12-22-improved-performance-for-github-actions-workflows-page",
+        "date": "2025-12-22T21:40:47Z",
+        "summary": "<p>GitHub Actions workflow pages now successfully render workflows with more than 300 jobs. We&#8217;ve implemented lazy loading to smoothly handle large workflows. In addition, you can now filter job"
+      },
+      {
+        "title": "Control who can request apps for your organization now in public preview",
+        "url": "https://github.blog/changelog/2025-12-22-control-who-can-request-apps-for-your-organization",
+        "date": "2025-12-22T15:02:08Z",
+        "summary": "<p>Organizations now have more granular control over who can request GitHub Apps and OAuth apps. This enhancement helps you implement stricter governance policies while maintaining flexibility for you"
       }
-    ]
+    ],
+    "new_videos": []
   }
 }
