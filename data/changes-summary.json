@@ -1,103 +1,103 @@
 {
-  "generated_at": "2025-12-26T21:27:27.326512+00:00",
+  "generated_at": "2025-12-26T23:23:03.163261+00:00",
   "has_changes": true,
-  "total_changes": 16,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-26T21:26:55Z",
+        "timestamp": "2025-12-26T23:22:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-26T21:27:01Z",
+        "timestamp": "2025-12-26T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-26T21:26:56Z",
+        "timestamp": "2025-12-26T23:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-26T21:27:06Z",
+        "timestamp": "2025-12-26T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-26T21:27:03Z",
+        "timestamp": "2025-12-26T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-26T21:26:52Z",
+        "timestamp": "2025-12-26T23:22:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-26T21:26:54Z",
+        "timestamp": "2025-12-26T23:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-26T21:26:53Z",
+        "timestamp": "2025-12-26T23:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-26T21:27:02Z",
+        "timestamp": "2025-12-26T23:22:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-26T21:27:00Z",
+        "timestamp": "2025-12-26T23:22:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-26T21:26:51Z",
+        "timestamp": "2025-12-26T23:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-26T21:26:58Z",
+        "timestamp": "2025-12-26T23:22:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-26T21:26:59Z",
+        "timestamp": "2025-12-26T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-26T21:27:04Z",
+        "timestamp": "2025-12-26T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,15 +110,8 @@
     ]
   },
   "blog": {
-    "new_count": 1,
-    "new_posts": [
-      {
-        "title": "WRAP up your backlog with GitHub Copilot coding agent",
-        "url": "https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/",
-        "date": "2025-12-26T17:56:38Z",
-        "summary": "<p>An easy-to-remember acronym, WRAP will help you write effective issues, refine your instructions, and get the most out of Copilot coding agent.</p>\n<p>The post <a href=\"https://github.blog/ai-and-m"
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
     "new_count": 0,
@@ -128,118 +121,111 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on December 26, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"WRAP up your backlog with GitHub Copilot coding agent\" (2025-12-26)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on December 26, 2025:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 15,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2025-12-26T21:26:55Z",
+        "timestamp": "2025-12-26T23:22:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2025-12-26T21:27:01Z",
+        "timestamp": "2025-12-26T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2025-12-26T21:26:56Z",
+        "timestamp": "2025-12-26T23:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2025-12-26T21:27:06Z",
+        "timestamp": "2025-12-26T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2025-12-26T21:27:03Z",
+        "timestamp": "2025-12-26T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2025-12-26T21:26:52Z",
+        "timestamp": "2025-12-26T23:22:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2025-12-26T21:26:54Z",
+        "timestamp": "2025-12-26T23:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2025-12-26T21:26:53Z",
+        "timestamp": "2025-12-26T23:22:46Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2025-12-26T21:27:02Z",
+        "timestamp": "2025-12-26T23:22:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2025-12-26T21:27:00Z",
+        "timestamp": "2025-12-26T23:22:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2025-12-26T21:26:51Z",
+        "timestamp": "2025-12-26T23:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2025-12-26T21:26:58Z",
+        "timestamp": "2025-12-26T23:22:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2025-12-26T21:26:59Z",
+        "timestamp": "2025-12-26T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2025-12-26T21:27:04Z",
+        "timestamp": "2025-12-26T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "WRAP up your backlog with GitHub Copilot coding agent",
-        "url": "https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/",
-        "date": "2025-12-26T17:56:38Z",
-        "summary": "<p>An easy-to-remember acronym, WRAP will help you write effective issues, refine your instructions, and get the most out of Copilot coding agent.</p>\n<p>The post <a href=\"https://github.blog/ai-and-m"
-      }
-    ],
+    "new_blog_posts": [],
     "new_videos": []
   }
 }
