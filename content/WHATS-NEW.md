@@ -2,84 +2,40 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: December 22, 2025
+**Last Updated**: December 26, 2025
 
 ---
 
 ## This Week (Last 7 Days)
 
-### Documentation Refresh (Dec 22, 2025)
+### WRAP Methodology for Coding Agent (Dec 26, 2025)
 
 **What's new**:
-- All 14 core GitHub Copilot documentation pages refreshed with latest information
-- Updated guides for chat capabilities, slash commands, and agent mode
-- Enhanced best practices and prompt engineering documentation
-- Improved configuration and troubleshooting resources
+- New WRAP acronym introduced for effective Copilot coding agent usage
+- **W**rite effective issues (provide context like onboarding a new team member)
+- **R**efine your instructions (use repository, organization, and custom agent instructions)
+- **A**tomic tasks (break large problems into small, well-defined tasks)
+- **P**air with coding agent (understand what humans vs. AI do best)
 
-**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities, helping you maximize productivity with the latest features.
+**Why it matters**: WRAP provides a practical framework for tackling backlog items using coding agent. Engineers at GitHub have been using coding agent for over a year and distilled their learnings into this easy-to-remember methodology.
 
 **Get started**:
-→ [Browse all documentation](REFERENCE.md) | [Best practices](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+→ [Read the full guide](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) | [Configure custom instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions) | [Create custom agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
 
 ---
 
-### Copilot Memory - Early Access (Dec 19, 2025)
+### Documentation Refresh (Dec 26, 2025)
 
 **What's new**:
-- Copilot Memory now in early access for Pro and Pro+ users
-- Remembers your preferences, coding style, and project context across sessions
-- Personalized suggestions based on your history
-- Privacy-first design with user control over stored information
+- All 14 core GitHub Copilot documentation pages updated
+- Enhanced guides for chat capabilities, code suggestions, and configuration
+- Updated best practices and prompt engineering documentation
+- Refreshed troubleshooting and administration resources
 
-**Why it matters**: Copilot learns your coding patterns over time, providing increasingly relevant suggestions tailored to your workflow.
-
-**Get started**:
-→ [Copilot Memory announcement](https://github.blog/changelog/2025-12-19-copilot-memory-early-access-for-pro-and-pro)
-
----
-
-### Agent Skills Support (Dec 18, 2025)
-
-**What's new**:
-- GitHub Copilot now supports agent skills
-- Extend agent capabilities with custom skills for your tech stack
-- Pre-built skills for common frameworks and tools
-- Build your own skills using the skills API
-
-**Why it matters**: Agent skills enable Copilot to understand your specific tools and workflows, providing more accurate and contextual assistance.
+**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities and features.
 
 **Get started**:
-→ [Agent skills announcement](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills)
-
----
-
-### Claude Opus 4.5 Generally Available (Dec 18, 2025)
-
-**What's new**:
-- Claude Opus 4.5 now generally available in GitHub Copilot
-- Advanced reasoning capabilities for complex code problems
-- Excellent at code review and refactoring suggestions
-- Available across all Copilot-enabled IDEs
-
-**Why it matters**: More powerful model choices mean better code suggestions for complex scenarios like architectural decisions and large-scale refactoring.
-
-**Get started**:
-→ [Claude Opus 4.5 announcement](https://github.blog/changelog/2025-12-18-claude-opus-4-5-is-now-generally-available-in-github-copilot)
-
----
-
-### Copilot Code Review for Non-License Holders (Dec 17, 2025)
-
-**What's new**:
-- Copilot code review now available for organization members without a Copilot license
-- AI-powered code review on pull requests
-- Helps teams standardize code quality across all contributors
-- Configurable review rules and severity levels
-
-**Why it matters**: Even developers without Copilot licenses can benefit from AI-powered code review, improving code quality organization-wide.
-
-**Get started**:
-→ [Code review announcement](https://github.blog/changelog/2025-12-17-copilot-code-review-now-available-for-organization-members-without-a-license)
+→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
 
 ---
 

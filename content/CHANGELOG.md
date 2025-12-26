@@ -2,11 +2,32 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: December 22, 2025
+**Last Updated**: December 26, 2025
 
 ---
 
 ## December 2025
+
+### December 26, 2025
+
+#### Blog Posts
+- **[WRAP up your backlog with GitHub Copilot coding agent](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/)** - Introduces WRAP methodology (Write effective issues, Refine instructions, Atomic tasks, Pair with coding agent) for maximizing coding agent productivity. Based on a year of experience from GitHub engineers.
+
+#### Documentation Updates
+- **copilot-overview.md** - Documentation refresh
+- **copilot-getting-started.md** - Updated quickstart guide
+- **copilot-chat.md** - Enhanced chat documentation
+- **copilot-extensions-overview.md** - Extensions documentation update
+- **copilot-extensions-integration.md** - Integration guide refresh
+- **copilot-custom-instructions.md** - Custom instructions update
+- **copilot-best-practices.md** - Best practices refinement
+- **copilot-prompt-engineering.md** - Prompt engineering guide update
+- **copilot-asking-questions.md** - Question patterns update
+- **copilot-code-suggestions.md** - Code suggestions guide refresh
+- **copilot-managing-organization.md** - Organization management update
+- **copilot-configuration.md** - Configuration guide update
+- **copilot-responsible-use.md** - Responsible use guidelines update
+- **copilot-troubleshooting.md** - Troubleshooting guide refresh
 
 ### December 22, 2025
 
