@@ -2,7 +2,7 @@
 
 > Your 5-minute guide to productive AI pair programming
 
-**Last Updated**: December 22, 2025
+**Last Updated**: December 26, 2025
 
 ## Quick Setup
 
@@ -43,31 +43,46 @@ For autonomous multi-step tasks:
 
 ## Best Practices
 
-### Write Context-Rich Prompts
+### Write Effective Issues (WRAP Methodology)
 
-❌ **Don't**: "Add caching"  
-✅ **Do**: "Add Redis caching to userSessionService with 30s TTL to reduce DB hits >1000/min"
+❌ **Don't**: "Update the entire repository to use async/await"  
+✅ **Do**: "Update the authentication middleware to use the newer async/await pattern, as shown below. Add unit tests for verification."
 
-**Why**: Specific prompts give Copilot the context it needs to generate accurate, production-ready code.
+```javascript
+async function exampleFunction() {
+  let result = await promise;
+  console.log(result); // "done!"
+}
+```
 
-### Break Down Complex Tasks
+**Why**: Write issues as though they're for someone brand new to the codebase. Include context and examples.
 
-❌ **Don't**: "Build a complete authentication system"  
-✅ **Do**: 
-1. "Create a user registration endpoint with email validation"
-2. "Add password hashing using bcrypt"
-3. "Implement JWT token generation for authenticated users"
+→ **Source**: [WRAP up your backlog with GitHub Copilot coding agent](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
 
-**Why**: Smaller, focused tasks lead to better code quality and easier review.
+### Use Atomic Tasks
 
-### Choose the Right Model for the Task
+❌ **Don't**: "Rewrite 3 million lines of code from Java to Golang"  
+✅ **Do**: Break into smaller atomic tasks:
+1. "Migrate the authentication module to Golang, ensuring all existing unit tests pass"
+2. "Convert the data validation utilities package to Golang while maintaining the same API interface"
+3. "Rewrite the user management controllers to Golang, preserving existing REST endpoints"
 
-Different AI models excel at different tasks:
-- **GPT models**: Best for general code generation and explanations
-- **Claude models**: Excellent for code review and refactoring
-- **Gemini models**: Strong at understanding complex codebases
+**Why**: Atomic tasks are easier to test, validate, and review. Coding agent excels at small, well-defined tasks.
 
-**How**: Use the model picker in VS Code (Chat view → Model dropdown) or enable Auto Model Selection.
+→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
+
+### Refine Your Custom Instructions
+
+Improve results by adding custom instructions at different levels:
+
+**Repository instructions**: Add coding standards specific to your repository (e.g., "Use async/await for Go applications")
+
+**Organization instructions**: Set requirements that apply to all repos (e.g., "All applications must have unit tests")
+
+**Custom agents**: Create specialized agents for repetitive tasks (e.g., "Integration Agent" for product integrations)
+
+→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)  
+→ **Guide**: [Configure custom instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
 
 ### Provide Examples
 
@@ -132,12 +147,21 @@ Quick shortcuts in chat:
 - Error handler utilities
 - Similar implemented routes
 
-### Iterate on Responses
+### Pair with Coding Agent
 
-If Copilot's first response isn't perfect:
-- Ask follow-up questions: "Make this more efficient"
-- Request specific changes: "Use async/await instead of promises"
-- Provide more context: "This runs in a serverless environment"
+Understand what humans vs. AI do best:
+
+**Humans excel at**:
+- Understanding the "why" behind tasks
+- Navigating ambiguity and making judgment calls
+- Cross-system thinking and impact analysis
+
+**Coding agent excels at**:
+- Tireless execution (assign 10 tasks simultaneously)
+- Repetitive tasks (updating naming conventions across many files)
+- Exploring possibilities (test multiple approaches in parallel)
+
+→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
 
 ## Next Steps
 

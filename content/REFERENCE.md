@@ -2,7 +2,7 @@
 
 > Links to official documentation organized by category
 
-**Last Updated**: December 22, 2025
+**Last Updated**: December 26, 2025
 
 ---
 
@@ -93,20 +93,20 @@ Last updated timestamps for each documentation file:
 
 | Documentation | Last Updated |
 |---------------|-------------|
-| **copilot-overview.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-getting-started.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-chat.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-extensions-overview.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-extensions-integration.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-custom-instructions.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-best-practices.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-prompt-engineering.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-asking-questions.md** | December 22, 2025 at 09:02 UTC |
-| **copilot-code-suggestions.md** | December 22, 2025 at 09:03 UTC |
-| **copilot-managing-organization.md** | December 22, 2025 at 09:03 UTC |
-| **copilot-configuration.md** | December 22, 2025 at 09:03 UTC |
-| **copilot-responsible-use.md** | December 22, 2025 at 09:03 UTC |
-| **copilot-troubleshooting.md** | December 22, 2025 at 09:03 UTC |
+| **copilot-overview.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-getting-started.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-chat.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-extensions-overview.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-extensions-integration.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-custom-instructions.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-best-practices.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-prompt-engineering.md** | December 26, 2025 at 21:26 UTC |
+| **copilot-asking-questions.md** | December 26, 2025 at 21:27 UTC |
+| **copilot-code-suggestions.md** | December 26, 2025 at 21:27 UTC |
+| **copilot-managing-organization.md** | December 26, 2025 at 21:27 UTC |
+| **copilot-configuration.md** | December 26, 2025 at 21:27 UTC |
+| **copilot-responsible-use.md** | December 26, 2025 at 21:27 UTC |
+| **copilot-troubleshooting.md** | December 26, 2025 at 21:27 UTC |
 
 ---
 

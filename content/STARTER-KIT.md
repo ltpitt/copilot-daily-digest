@@ -2,7 +2,7 @@
 
 > Master GitHub Copilot: comprehensive onboarding for engineers
 
-**Last Updated**: December 22, 2025
+**Last Updated**: December 26, 2025
 
 ---
 
@@ -33,6 +33,30 @@ This starter kit helps you master GitHub Copilot, from understanding the AI land
 ---
 
 ## 2. Best Practices
+
+### The WRAP Methodology (Dec 2025)
+
+GitHub engineers developed WRAP after using coding agent for over a year. This framework helps you maximize productivity:
+
+**W - Write Effective Issues**
+- Write issues as though for someone brand new to the codebase
+- Craft descriptive titles explaining where work is being done
+- Add examples of what you want (error-handling patterns, code snippets)
+
+**R - Refine Your Instructions**
+- **Repository instructions**: Coding standards specific to your repo
+- **Organization instructions**: Requirements applying to all repos
+- **Custom agents**: Specialized agents for repetitive development tasks
+
+**A - Atomic Tasks**
+- Break large problems into small, independent, well-defined tasks
+- Example: Instead of "Rewrite 3M lines Java → Golang", break into: "Migrate auth module", "Convert validation utilities", "Rewrite user controllers"
+
+**P - Pair with Coding Agent**
+- Humans excel at: Understanding "why", navigating ambiguity, cross-system thinking
+- Coding agent excels at: Tireless execution, repetitive tasks, exploring possibilities
+
+→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
 
 ### Understand Copilot's Strengths
 
