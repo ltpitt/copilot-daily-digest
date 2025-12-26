@@ -2,7 +2,7 @@
 
 > Curated learning paths for mastering GitHub Copilot
 
-**Last Updated**: December 16, 2025
+**Last Updated**: December 22, 2025
 
 ---
 
@@ -26,10 +26,10 @@
 Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
 
 **What you'll learn**:
-- How to install and configure GitHub Copilot
-- Using code completions for faster development
-- Leveraging Copilot Chat for questions and explanations
+- How to use inline code suggestions
+- Working with Copilot Chat
 - Best practices for AI pair programming
+- Accepting and refining suggestions
 
 [Start Course →](https://github.com/skills/copilot-intro)
 
@@ -42,10 +42,10 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 Learn how to use GitHub Copilot to expand your team's capabilities. This hands-on course covers using Copilot for code generation, testing, and collaboration.
 
 **What you'll learn**:
-- Using Copilot for code generation and testing
+- Code generation strategies
+- Using Copilot for testing
 - Team collaboration with Copilot
-- Leveraging Coding Agent for complex tasks
-- Best practices for team adoption
+- Coding Agent features and workflows
 
 [Start Course →](https://github.com/skills/expand-your-team-with-copilot/)
 
@@ -62,25 +62,26 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 Discover how GitHub Copilot can help you code faster and more efficiently. Learn about AI-powered code suggestions and how to integrate Copilot into your workflow.
 
 **What you'll learn**:
-- What GitHub Copilot is and how it works
-- AI-powered code generation fundamentals
-- How to get started with Copilot in your IDE
+- GitHub Copilot fundamentals
+- AI-powered code generation
+- Workflow integration basics
+- Getting started quickly
 
 [Start Module →](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
 
 ---
 
-### GitHub Copilot Fundamentals
+### GitHub Copilot Fundamentals (Learning Path)
 
 **Level**: Intermediate | **Duration**: 2-3 hours | **Cost**: Free
 
 Master the fundamentals of GitHub Copilot. Learn how to write better prompts, use chat features, and leverage AI for testing and documentation.
 
 **What you'll learn**:
-- Advanced prompt engineering techniques
-- Using Copilot Chat effectively
-- AI-powered testing and documentation
-- Integrating Copilot into your development workflow
+- Advanced prompt engineering
+- Effective use of chat features
+- AI-assisted testing strategies
+- Automated documentation generation
 
 [Start Learning Path →](https://learn.microsoft.com/en-us/training/paths/copilot/)
 
@@ -93,10 +94,10 @@ Master the fundamentals of GitHub Copilot. Learn how to write better prompts, us
 Demonstrate your ability to use GitHub Copilot to develop code by creating a console minigame in C#.
 
 **What you'll learn**:
-- Hands-on Copilot usage in C# development
-- Building a complete project with AI assistance
-- Game logic development with Copilot
-- Testing and refining AI-generated code
+- Hands-on Copilot usage
+- C# game development with AI assistance
+- Problem-solving with AI pair programming
+- Code refinement and debugging
 
 [Start Challenge →](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)
 
@@ -110,21 +111,22 @@ Demonstrate your ability to use GitHub Copilot to develop code by creating a con
 
 **Provider**: GitHub  
 **Level**: Intermediate  
-**Cost**: Check official site for pricing  
+**Cost**: Varies (check website for current pricing)  
+**Preparation Time**: 20-40 hours
 
 Validate your knowledge of GitHub fundamentals, including Copilot usage, collaboration, and project management. Industry-recognized certification.
 
-**Exam details**:
-- Covers GitHub fundamentals including Copilot
-- Focus on collaboration and best practices
-- Project management with GitHub
-- Preparation time: 20-40 hours recommended
-
-**What's covered**:
-- GitHub and Copilot fundamentals
+**Exam topics**:
+- GitHub Copilot usage and best practices
 - Collaboration workflows
-- Project management best practices
-- Security and governance
+- Project management with GitHub
+- GitHub platform fundamentals
+- Security and compliance
+
+**Exam details**:
+- Format: Online proctored exam
+- Duration: Varies
+- Validity: Certification credentials
 
 [Learn More →](https://resources.github.com/learn/certifications/)
 
@@ -132,7 +134,7 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 
 ## Curated Courses
 
-**Community-Recommended | May Require Purchase**
+**Community-Recommended | Premium Content**
 
 ### GitHub Copilot: The Complete Masterclass
 
@@ -140,17 +142,17 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 **Level**: All Levels  
 **Rating**: 4.7/5 (5000+ students)  
 **Duration**: 8-10 hours  
-**Cost**: Check Udemy for current pricing (often on sale)
+**Cost**: Varies (often on sale)
 
 Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt engineering, and how to integrate Copilot into professional workflows.
 
 **What you'll learn**:
-- Complete Copilot workflow from beginner to advanced
-- Professional-grade prompt engineering
-- AI pair programming best practices
-- Integration into real-world development workflows
+- Comprehensive Copilot coverage
+- Advanced prompt engineering techniques
+- Professional workflow integration
+- Real-world project examples
 
-**Note**: Check if your company has a Udemy for Business account for free access.
+**Note**: Check if your company has a Udemy Business account for free access.
 
 [View Course →](https://www.udemy.com/course/github-copilot-complete-guide/)
 
@@ -160,103 +162,95 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ### For Beginners
 
-**Recommended sequence**:
+**Week 1: Getting Started**
+1. [GitHub Skills: Introduction to Copilot](https://github.com/skills/copilot-intro) (1-2 hours)
+2. [Microsoft Learn: Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) (30 min)
+3. Practice: Use Copilot on a personal project
 
-1. **[Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)** (Microsoft Learn)  
-   Start here - 30 minutes to understand the basics
+**Week 2: Building Skills**
+1. [Microsoft Learn: Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/) (2-3 hours)
+2. [Watch: Getting Started Videos](VIDEOS.md)
+3. Practice: Complete the minigame challenge
 
-2. **[Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)** (GitHub Skills)  
-   Hands-on practice - 1-2 hours interactive course
-
-3. **[Getting Started Guide](GETTING-STARTED.md)** (This repository)  
-   Quick reference for best practices
-
-4. **[Watch: Getting Started Videos](VIDEOS.md#getting-started)**  
-   Visual learning with demos and tutorials
-
-**Time commitment**: 3-4 hours to complete the beginner path
-
----
+**Week 3: Team Collaboration**
+1. [GitHub Skills: Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/) (2-3 hours)
+2. Read: [Best Practices Documentation](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+3. Practice: Use Copilot on team project
 
 ### For Intermediate Users
 
-**Recommended sequence**:
+**Advanced Techniques**
+1. Study prompt engineering patterns
+2. Experiment with different AI models
+3. Practice with Coding Agent for complex tasks
+4. Learn custom instructions and extensions
 
-1. **[GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)** (Microsoft Learn)  
-   Deep dive into features - 2-3 hours
+**Resources**:
+- [Prompt Engineering Guide](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+- [Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
+- [Copilot Extensions](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
 
-2. **[Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)** (GitHub Skills)  
-   Team collaboration - 2-3 hours
+### For Enterprise Teams
 
-3. **[Challenge Project: Build a Minigame](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)** (Microsoft Learn)  
-   Hands-on project - 1-2 hours
+**Organization Rollout**
+1. Plan adoption strategy
+2. Set up organization policies
+3. Train team champions
+4. Monitor usage metrics
+5. Iterate based on feedback
 
-4. **[Complete Masterclass](https://www.udemy.com/course/github-copilot-complete-guide/)** (Udemy - Optional)  
-   Comprehensive coverage - 8-10 hours
-
-**Time commitment**: 5-8 hours for core path (15+ hours with Udemy course)
-
----
-
-### For Advanced Users & Enterprise
-
-**Recommended sequence**:
-
-1. **Review latest features**: [What's New](WHATS-NEW.md)  
-   Stay current with new capabilities
-
-2. **[GitHub Foundations Certification](https://resources.github.com/learn/certifications/)**  
-   Industry recognition - 20-40 hours prep
-
-3. **Read blog posts**: [Custom Agents](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/)  
-   Advanced use cases and patterns
-
-4. **Explore documentation**: [Complete Reference](REFERENCE.md)  
-   Deep technical knowledge
-
-**Time commitment**: Ongoing - certification prep varies by experience
+**Resources**:
+- [Managing Copilot in Organizations](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization)
+- [Usage Metrics Dashboard](https://github.blog/changelog/2025-12-16-track-organization-copilot-usage)
+- [Enterprise Best Practices](STARTER-KIT.md)
 
 ---
 
-## Tips for Success
+## Certification Preparation
 
-### Maximize Your Learning
+### GitHub Foundations Certification Prep
 
-- **Practice daily**: Use Copilot for real work, not just tutorials
-- **Experiment**: Try different prompts and approaches for the same task
-- **Read the docs**: Official documentation is comprehensive and up-to-date
-- **Join the community**: GitHub Discussions and forums provide peer support
-- **Track your progress**: Use the metrics dashboard to measure improvement
+**Study Plan (20-40 hours)**:
 
-### Before You Start
+**Week 1-2: Fundamentals**
+- Complete all free GitHub Skills courses
+- Review GitHub documentation
+- Practice with personal repositories
 
-- ✅ Ensure you have active Copilot access (Individual, Pro, or Enterprise)
-- ✅ Install Copilot in your preferred IDE(s)
-- ✅ Familiarize yourself with basic keyboard shortcuts
-- ✅ Read the [Getting Started Guide](GETTING-STARTED.md)
+**Week 3-4: Copilot Mastery**
+- Advanced prompt engineering
+- Copilot Chat and extensions
+- Security and best practices
 
-### Course Selection Guide
+**Week 5-6: Collaboration & Management**
+- Team workflows
+- Organization management
+- Metrics and monitoring
 
-**Choose GitHub Skills if you want**:
-- Free, interactive, hands-on learning
-- Immediate practical exercises
-- GitHub-hosted environment
-
-**Choose Microsoft Learn if you want**:
-- Structured learning paths
-- Mix of theory and practice
-- Integration with other Microsoft technologies
-
-**Choose Udemy if you want**:
-- Comprehensive video instruction
-- Self-paced with lifetime access
-- Certificate of completion
-
-**Choose Certification if you want**:
-- Industry-recognized credential
-- Validation of expertise
-- Career advancement
+**Week 7-8: Review & Practice**
+- Take practice exams
+- Review weak areas
+- Hands-on project work
 
 ---
 
-*Courses are curated based on quality, relevance, and recency. Last verified: December 16, 2025*
+## Additional Resources
+
+### Official Documentation
+- [GitHub Copilot Docs](https://docs.github.com/copilot)
+- [Copilot Quickstart](https://docs.github.com/en/copilot/quickstart)
+- [Best Practices Guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+
+### Community Learning
+- [GitHub Community Discussions](https://github.com/orgs/community/discussions/categories/copilot)
+- [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)
+- [Video Tutorials](VIDEOS.md)
+
+### Staying Current
+- [What's New](WHATS-NEW.md) - Latest features (last 30 days)
+- [Changelog](CHANGELOG.md) - Complete history
+- [GitHub Changelog](https://github.blog/changelog/label/copilot/)
+
+---
+
+*Courses are curated based on quality, relevance, and recency. All information verified as of December 22, 2025.*

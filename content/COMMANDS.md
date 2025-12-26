@@ -2,7 +2,7 @@
 
 > Quick reference for slash commands, keyboard shortcuts, and chat variables
 
-**Last Updated**: December 16, 2025
+**Last Updated**: December 22, 2025
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## Slash Commands
 
-Type `/` in the Copilot Chat prompt box to see all available commands.
+Type `/` in the chat prompt box to see all available commands.
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -29,14 +29,14 @@ Type `/` in the Copilot Chat prompt box to see all available commands.
 | `/optimize` | Analyze and improve code performance | `/optimize this function` |
 | `/tests` | Generate unit tests | `/tests for authentication module` |
 | `/doc` | Generate documentation | `/doc this API` |
-| `/new` | Scaffold new projects or files | `/new React component` |
+| `/new` | Scaffold new code or projects | `/new Express.js server with TypeScript` |
 | `/newNotebook` | Create a new Jupyter notebook | `/newNotebook data analysis` |
-| `/simplify` | Simplify complex code | `/simplify this regex` |
+| `/terminal` | Help with terminal commands | `/terminal find all .log files` |
 
-**Usage tips**:
-- Slash commands work in Copilot Chat (not inline suggestions)
-- Combine commands with specific context using `#file` or `#selection`
-- Commands can be used with chat participants like `@workspace /tests`
+**Usage Tips**:
+- Combine slash commands with context: `/tests` with a function selected
+- Chain slash commands in conversation: `/generate` → `/tests` → `/doc`
+- Use `/explain` to understand Copilot's own suggestions
 
 ---
 
@@ -53,7 +53,6 @@ Type `/` in the Copilot Chat prompt box to see all available commands.
 | Dismiss suggestion | `Esc` | `Esc` |
 | Show next suggestion | `Alt+]` | `Opt+]` |
 | Show previous suggestion | `Alt+[` | `Opt+[` |
-| Trigger inline suggest | `Alt+\` | `Opt+\` |
 | Accept word | `Ctrl+→` | `Cmd+→` |
 | Open Copilot Edits | `Ctrl+Shift+I` | `Cmd+Shift+I` |
 
@@ -61,163 +60,195 @@ Type `/` in the Copilot Chat prompt box to see all available commands.
 
 | Action | Windows/Linux | Mac |
 |--------|---------------|-----|
-| Open Copilot Chat | `Ctrl+Shift+A` → "Copilot" | `Cmd+Shift+A` → "Copilot" |
+| Open chat panel | `Alt+C` | `Opt+C` |
+| Inline chat | `Ctrl+\` | `Cmd+\` |
 | Accept suggestion | `Tab` | `Tab` |
 | Dismiss suggestion | `Esc` | `Esc` |
 | Show next suggestion | `Alt+]` | `Opt+]` |
 | Show previous suggestion | `Alt+[` | `Opt+[` |
-| Trigger inline suggest | `Alt+\` | `Opt+\` |
 
 ### Visual Studio
 
-| Action | Windows |
-|--------|---------|
-| Open Copilot Chat | `Alt+/` |
+| Action | Shortcut |
+|--------|----------|
+| Open chat window | `Ctrl+/` or `Alt+/` |
+| Inline chat | `Ctrl+/` (in editor) |
 | Accept suggestion | `Tab` |
 | Dismiss suggestion | `Esc` |
-| Show next suggestion | `Alt+.` |
-| Show previous suggestion | `Alt+,` |
-| Accept suggestion word | `Ctrl+→` |
+| Next suggestion | `Alt+]` |
+| Previous suggestion | `Alt+[` |
 
-**Pro tip**: You can customize keyboard shortcuts in your IDE settings. Search for "Copilot" in your IDE's keyboard shortcut preferences.
+### Eclipse
+
+| Action | Shortcut |
+|--------|----------|
+| Open Copilot | `Alt+C` |
+| Accept suggestion | `Tab` |
+| Dismiss suggestion | `Esc` |
+
+### Xcode
+
+| Action | Shortcut |
+|--------|----------|
+| Open Copilot Chat | `Cmd+Shift+C` |
+| Accept suggestion | `Tab` |
+| Dismiss suggestion | `Esc` |
+
+**Pro Tip**: Learn the shortcuts for your primary IDE to maximize flow state. Muscle memory with `Tab` (accept) and `Esc` (dismiss) is essential.
 
 ---
 
 ## Chat Variables
 
-Type `#` in the Copilot Chat prompt box to see available variables.
+Type `#` in the chat prompt box to see available variables.
 
 | Variable | Context | Example |
 |----------|---------|---------|
 | `#selection` | Currently selected code | `#selection explain this function` |
 | `#file` | Current file | `#file add error handling` |
 | `#editor` | Active editor content | `#editor refactor for readability` |
-| `#codebase` | Entire repository | `#codebase find all authentication logic` |
 | `#web` | Web search results | `@github #web latest Python security best practices` |
-| `#terminalLastCommand` | Last terminal command | `#terminalLastCommand explain this error` |
-| `#terminalSelection` | Selected terminal output | `#terminalSelection what does this mean` |
+| `#codebase` | Entire repository | `#codebase find all authentication logic` |
+| `#terminalLastCommand` | Last terminal command | `#terminalLastCommand what went wrong?` |
+| `#terminalSelection` | Selected terminal output | `#terminalSelection explain this error` |
 
-**When to use variables**:
-- `#selection` - When you want to reference specific highlighted code
-- `#file` - When the question is about the entire current file
-- `#codebase` - When you need context from multiple files
-- `#web` - When you need up-to-date information from the internet
-- `#terminalLastCommand` - For debugging command-line errors
+**Usage Examples**:
+
+**Explain selected code**:
+```
+Select code → #selection explain how this handles edge cases
+```
+
+**Add features to current file**:
+```
+#file add input validation with error messages
+```
+
+**Repository-wide refactoring**:
+```
+#codebase migrate all API calls from axios to fetch
+```
+
+**Debug terminal errors**:
+```
+#terminalLastCommand why did this fail?
+```
 
 ---
 
 ## Chat Participants
 
-Type `@` in the Copilot Chat prompt box to see available participants.
+Type `@` in the chat prompt box to see available participants.
 
 | Participant | Expertise | When to Use |
 |-------------|-----------|-------------|
-| `@workspace` | Your codebase | Questions about your project structure, dependencies, or architecture |
-| `@github` | GitHub-specific features | Repository operations, issues, pull requests, web search |
+| `@workspace` | Your codebase | Questions about project structure, dependencies, architecture |
+| `@github` | GitHub features | Repository operations, issues, pull requests, web search |
 | `@terminal` | Command line | Shell commands, CLI tools, environment setup |
 | `@vscode` | VS Code | Editor features, settings, extensions (VS Code only) |
 
-**Example usage**:
+**Participant Examples**:
 
+**@workspace - Codebase Questions**:
 ```
-@workspace /explain how authentication works in this project
-
-@github #web What is the latest LTS version of Node.js?
-
-@terminal how do I list all Docker containers
-
-@vscode how do I change my color theme
+@workspace where is the user authentication logic?
+@workspace explain the database schema
+@workspace what are all the API endpoints?
 ```
 
-**Pro tip**: Copilot can automatically infer which participant to use based on your natural language prompt, so you don't always need to specify one explicitly.
-
----
-
-## Common Workflows
-
-### Code Explanation
-
+**@github - GitHub Operations**:
 ```
-# Select code, then:
-/explain
-
-# Or with context:
-#selection /explain how this algorithm works
+@github create an issue for this bug
+@github #web what's new in React 19?
+@github find PRs related to authentication
 ```
 
-### Generating Tests
-
+**@terminal - Command Line Help**:
 ```
-# With file context:
-@workspace /tests for the UserService class
-
-# With specific selection:
-#selection /tests with edge cases
+@terminal how do I find all files modified today?
+@terminal convert this curl command to Python requests
+@terminal explain what this bash script does
 ```
 
-### Fixing Bugs
-
+**@vscode - Editor Features**:
 ```
-# For selected code:
-#selection /fix this null pointer exception
-
-# For terminal errors:
-#terminalLastCommand /fix
-```
-
-### Documentation
-
-```
-# Document current file:
-#file /doc with examples
-
-# Document selection:
-#selection /doc in JSDoc format
-```
-
-### Code Optimization
-
-```
-# Optimize selected code:
-#selection /optimize for performance
-
-# Refactor:
-#selection /simplify and make more readable
+@vscode how do I set up debugging for Node.js?
+@vscode configure prettier for this project
+@vscode keyboard shortcut for multi-cursor editing
 ```
 
 ---
 
-## Advanced Tips
+## Chat Modes
 
-### Combining Multiple Features
+Switch between modes using the agents dropdown in chat view.
 
+| Mode | Purpose | When to Use |
+|------|---------|-------------|
+| **Ask** | Answer questions | Understanding code, explanations, general help |
+| **Edit** | Controlled multi-file edits | Specific updates to defined files |
+| **Agent** | Autonomous task completion | Complex multi-step tasks, scaffolding |
+| **Plan** | Create implementation plans | Large features requiring detailed planning |
+
+**Mode Selection Tips**:
+- Start with **Ask** for exploration and learning
+- Use **Edit** when you know exactly which files to change
+- Use **Agent** for complex tasks like "add Redis caching"
+- Use **Plan** for large features to ensure all requirements are covered
+
+---
+
+## Advanced Features
+
+### Model Context Protocol (MCP) Servers
+
+Extend Copilot with external tools and services:
+- Database connections for schema queries
+- API documentation for external services
+- Custom tooling for your tech stack
+
+**Learn more**: [Using MCP servers](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-model-context-protocol-mcp-servers)
+
+### GitHub Skills
+
+Use `@github` with natural language to invoke skills:
 ```
-# Use participant + variable + command:
-@workspace #codebase /explain how the payment flow works
-
-# Chain context:
-#file #selection /tests including integration tests
+@github search the web for latest Next.js features
+@github find issues labeled "bug" in this repo
+@github what are the recent commits to main?
 ```
 
 ### Custom Instructions
 
-- Create `.github/copilot-instructions.md` in your repository
-- Add project-specific guidelines and context
-- Copilot automatically includes these in all prompts
+Add repository-specific context with `.github/copilot-instructions.md`:
+- Coding standards
+- Architecture patterns
+- Technology stack preferences
+- Common pitfalls to avoid
 
-### Model Selection
+**Learn more**: [Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
 
-- Use the model picker to choose between GPT-5.2, Claude, Gemini, etc.
-- Different models excel at different tasks
-- Auto-selection available in VS Code
+---
 
-### Iterating on Responses
+## Quick Tips
 
-If you don't get the desired result:
-1. Rephrase your prompt with more specific requirements
-2. Add examples of expected input/output
-3. Break complex requests into smaller steps
-4. Use different variables to provide more context
+### Maximize Inline Suggestions
+1. Keep relevant files open
+2. Write descriptive comments above code
+3. Use consistent naming conventions
+4. Press `Alt+]` / `Opt+]` to cycle through suggestions
+
+### Effective Chat Usage
+1. Be specific about requirements
+2. Provide examples of inputs/outputs
+3. Use slash commands for common tasks
+4. Include relevant context with # variables
+
+### Workflow Integration
+1. Learn keyboard shortcuts for your IDE
+2. Use chat participants for specific domains
+3. Experiment with different AI models
+4. Iterate on responses with follow-up questions
 
 ---
 
