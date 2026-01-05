@@ -2,40 +2,25 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: December 26, 2025
+**Last Updated**: January 5, 2026
 
 ---
 
 ## This Week (Last 7 Days)
 
-### WRAP Methodology for Coding Agent (Dec 26, 2025)
+### Documentation Refresh (Jan 5, 2026)
 
 **What's new**:
-- New WRAP acronym introduced for effective Copilot coding agent usage
-- **W**rite effective issues (provide context like onboarding a new team member)
-- **R**efine your instructions (use repository, organization, and custom agent instructions)
-- **A**tomic tasks (break large problems into small, well-defined tasks)
-- **P**air with coding agent (understand what humans vs. AI do best)
-
-**Why it matters**: WRAP provides a practical framework for tackling backlog items using coding agent. Engineers at GitHub have been using coding agent for over a year and distilled their learnings into this easy-to-remember methodology.
-
-**Get started**:
-→ [Read the full guide](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) | [Configure custom instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions) | [Create custom agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
-
----
-
-### Documentation Refresh (Dec 26, 2025)
-
-**What's new**:
-- All 14 core GitHub Copilot documentation pages updated
-- Enhanced guides for chat capabilities, code suggestions, and configuration
+- All 14 core GitHub Copilot documentation pages refreshed
+- Enhanced guides for chat capabilities, code suggestions, and extensions
 - Updated best practices and prompt engineering documentation
-- Refreshed troubleshooting and administration resources
+- Improved troubleshooting and configuration resources
+- Refreshed organization management and responsible use guidelines
 
-**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities and features.
+**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities, helping you leverage all features effectively.
 
 **Get started**:
-→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot) | [Prompt engineering tips](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
 ---
 

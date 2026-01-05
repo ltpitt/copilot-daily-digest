@@ -2,7 +2,7 @@
 
 > Your 5-minute guide to productive AI pair programming
 
-**Last Updated**: December 26, 2025
+**Last Updated**: January 5, 2026
 
 ## Quick Setup
 
