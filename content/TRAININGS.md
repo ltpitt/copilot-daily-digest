@@ -2,7 +2,7 @@
 
 > Curated learning paths for mastering GitHub Copilot
 
-**Last Updated**: December 26, 2025
+**Last Updated**: January 5, 2026
 
 ---
 
@@ -31,7 +31,7 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 - Best practices for AI pair programming
 - Accepting and refining suggestions
 
-[Start Course →](https://github.com/skills/copilot-intro)
+[Start Course →](https://github.com/skills/getting-started-with-github-copilot)
 
 ---
 
@@ -163,7 +163,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 ### For Beginners
 
 **Week 1: Getting Started**
-1. [GitHub Skills: Introduction to Copilot](https://github.com/skills/copilot-intro) (1-2 hours)
+1. [GitHub Skills: Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) (1-2 hours)
 2. [Microsoft Learn: Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) (30 min)
 3. Practice: Use Copilot on a personal project
 

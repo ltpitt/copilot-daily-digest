@@ -2,7 +2,7 @@
 
 > Master GitHub Copilot: comprehensive onboarding for engineers
 
-**Last Updated**: December 26, 2025
+**Last Updated**: January 5, 2026
 
 ---
 
@@ -231,8 +231,8 @@ Copilot is not designed to:
 ### Official GitHub Training
 
 **Free Interactive Courses**:
-- [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro) - Beginner, 1-2 hours
-- [Using GitHub Copilot with Team Collaboration](https://github.com/skills/copilot-team) - Intermediate
+- [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot) - Beginner, 1-2 hours
+- [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot) - Intermediate
 
 **Microsoft Learn Modules**:
 - [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) - 30 minutes

@@ -94,7 +94,7 @@ See detailed troubleshooting in [youtube-setup-guide.md](youtube-setup-guide.md#
 ## 🔐 Security
 
 All security best practices are documented:
-- API key management: [youtube-setup-guide.md](youtube-setup-guide.md#security-notes)
+- API key management: [youtube-setup-guide.md](youtube-setup-guide.md#security-best-practices)
 - Quota limits: [youtube-api-quota.md](youtube-api-quota.md#quota-management)
 - Best practices: [youtube-setup-summary.md](youtube-setup-summary.md#security-summary)
 
