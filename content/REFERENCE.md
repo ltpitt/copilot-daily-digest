@@ -2,7 +2,7 @@
 
 > Links to official documentation organized by category
 
-**Last Updated**: January 5, 2026
+**Last Updated**: January 7, 2026
 
 ---
 
@@ -93,20 +93,20 @@ Last updated timestamps for each documentation file:
 
 | Documentation | Last Updated |
 |---------------|-------------|
-| **copilot-overview.md** | January 5, 2026 at 09:15 UTC |
-| **copilot-getting-started.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-chat.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-extensions-overview.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-extensions-integration.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-custom-instructions.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-best-practices.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-prompt-engineering.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-asking-questions.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-code-suggestions.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-managing-organization.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-configuration.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-responsible-use.md** | January 5, 2026 at 09:16 UTC |
-| **copilot-troubleshooting.md** | January 5, 2026 at 09:16 UTC |
+| **copilot-overview.md** | January 7, 2026 at 13:05 UTC |
+| **copilot-getting-started.md** | January 7, 2026 at 13:05 UTC |
+| **copilot-chat.md** | January 7, 2026 at 13:05 UTC |
+| **copilot-extensions-overview.md** | January 7, 2026 at 13:05 UTC |
+| **copilot-extensions-integration.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-custom-instructions.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-best-practices.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-prompt-engineering.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-asking-questions.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-code-suggestions.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-managing-organization.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-configuration.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-responsible-use.md** | January 7, 2026 at 13:06 UTC |
+| **copilot-troubleshooting.md** | January 7, 2026 at 13:06 UTC |
 
 ---
 
