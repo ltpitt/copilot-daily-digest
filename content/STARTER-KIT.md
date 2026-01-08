@@ -2,7 +2,7 @@
 
 > Master GitHub Copilot: comprehensive onboarding for engineers
 
-**Last Updated**: January 5, 2026
+**Last Updated**: January 7, 2026
 
 ---
 

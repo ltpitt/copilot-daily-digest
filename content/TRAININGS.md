@@ -2,7 +2,7 @@
 
 > Curated learning paths for mastering GitHub Copilot
 
-**Last Updated**: January 5, 2026
+**Last Updated**: January 7, 2026
 
 ---
 
