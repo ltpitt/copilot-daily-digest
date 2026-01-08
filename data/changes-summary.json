@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-07T13:06:35.445392+00:00",
+  "generated_at": "2026-01-07T23:23:37.140093+00:00",
   "has_changes": true,
   "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-07T13:06:00Z",
+        "timestamp": "2026-01-07T23:23:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-07T13:06:09Z",
+        "timestamp": "2026-01-07T23:23:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-07T13:06:01Z",
+        "timestamp": "2026-01-07T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-07T13:06:17Z",
+        "timestamp": "2026-01-07T23:23:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-07T13:06:13Z",
+        "timestamp": "2026-01-07T23:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-07T13:05:55Z",
+        "timestamp": "2026-01-07T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-07T13:05:58Z",
+        "timestamp": "2026-01-07T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-07T13:05:57Z",
+        "timestamp": "2026-01-07T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-07T13:06:11Z",
+        "timestamp": "2026-01-07T23:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-07T13:06:07Z",
+        "timestamp": "2026-01-07T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-07T13:05:53Z",
+        "timestamp": "2026-01-07T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-07T13:06:03Z",
+        "timestamp": "2026-01-07T23:23:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-07T13:06:05Z",
+        "timestamp": "2026-01-07T23:23:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-07T13:06:15Z",
+        "timestamp": "2026-01-07T23:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -128,98 +128,98 @@
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-07T13:06:00Z",
+        "timestamp": "2026-01-07T23:23:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-07T13:06:09Z",
+        "timestamp": "2026-01-07T23:23:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-07T13:06:01Z",
+        "timestamp": "2026-01-07T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-07T13:06:17Z",
+        "timestamp": "2026-01-07T23:23:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-07T13:06:13Z",
+        "timestamp": "2026-01-07T23:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-07T13:05:55Z",
+        "timestamp": "2026-01-07T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-07T13:05:58Z",
+        "timestamp": "2026-01-07T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-07T13:05:57Z",
+        "timestamp": "2026-01-07T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-07T13:06:11Z",
+        "timestamp": "2026-01-07T23:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-07T13:06:07Z",
+        "timestamp": "2026-01-07T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-07T13:05:53Z",
+        "timestamp": "2026-01-07T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-07T13:06:03Z",
+        "timestamp": "2026-01-07T23:23:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-07T13:06:05Z",
+        "timestamp": "2026-01-07T23:23:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-07T13:06:15Z",
+        "timestamp": "2026-01-07T23:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
