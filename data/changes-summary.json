@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-11T23:23:10.591901+00:00",
+  "generated_at": "2026-01-12T23:22:35.788838+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 19,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-11T23:22:52Z",
+        "timestamp": "2026-01-12T23:22:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-11T23:22:59Z",
+        "timestamp": "2026-01-12T23:22:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-11T23:22:53Z",
+        "timestamp": "2026-01-12T23:22:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-11T23:23:06Z",
+        "timestamp": "2026-01-12T23:22:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-11T23:23:03Z",
+        "timestamp": "2026-01-12T23:22:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-11T23:22:47Z",
+        "timestamp": "2026-01-12T23:22:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-11T23:22:51Z",
+        "timestamp": "2026-01-12T23:22:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-11T23:22:50Z",
+        "timestamp": "2026-01-12T23:22:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-11T23:23:01Z",
+        "timestamp": "2026-01-12T23:22:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-11T23:22:58Z",
+        "timestamp": "2026-01-12T23:22:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-11T23:22:46Z",
+        "timestamp": "2026-01-12T23:22:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-11T23:22:55Z",
+        "timestamp": "2026-01-12T23:22:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-11T23:22:57Z",
+        "timestamp": "2026-01-12T23:22:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-11T23:23:05Z",
+        "timestamp": "2026-01-12T23:22:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,8 +110,33 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 4,
+    "new_posts": [
+      {
+        "title": "Selectively showing \"act on your behalf\" warning for GitHub Apps is in public preview",
+        "url": "https://github.blog/changelog/2026-01-12-selectively-showing-act-on-your-behalf-warning-for-github-apps-is-in-public-preview",
+        "date": "2026-01-12T22:16:06Z",
+        "summary": "<p>Today we&#8217;ve released an update to the consent page to be less alarming when using GitHub Apps only as a form of sign-in. The consent page for GitHub Apps, where&#8230;</p>\n<p>The post <a href"
+      },
+      {
+        "title": "Controlling who can request apps for your organization is now generally available",
+        "url": "https://github.blog/changelog/2026-01-12-controlling-who-can-request-apps-for-your-organization-is-now-generally-available",
+        "date": "2026-01-12T20:19:15Z",
+        "summary": "<p>Organizations now have more granular control over who can request GitHub Apps and OAuth apps. This enhancement helps you implement stricter governance policies while maintaining flexibility for you"
+      },
+      {
+        "title": "Want better AI outputs? Try context engineering.",
+        "url": "https://github.blog/ai-and-ml/generative-ai/want-better-ai-outputs-try-context-engineering/",
+        "date": "2026-01-12T17:00:00Z",
+        "summary": "<p>Learn how custom instructions, reusable prompts, and custom agents help GitHub Copilot deliver more accurate results.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/generative-ai/want-bette"
+      },
+      {
+        "title": "Deprecation of user to organization account transformation",
+        "url": "https://github.blog/changelog/2026-01-12-deprecation-of-user-to-organization-account-transformation",
+        "date": "2026-01-12T16:26:48Z",
+        "summary": "<p>As of January 12, 2026, we&#8217;re deprecating the ability to convert a personal user account directly into an organization. You can now use the Move work flow to selectively migrate&#8230;</p>\n<p"
+      }
+    ]
   },
   "videos": {
     "new_count": 0,
@@ -121,111 +146,136 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 11, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on January 12, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 4 new articles\n  - \"Selectively showing \"act on your behalf\" warning for GitHub Apps is in public preview\" (2026-01-12)\n  - \"Controlling who can request apps for your organization is now generally available\" (2026-01-12)\n  - \"Want better AI outputs? Try context engineering.\" (2026-01-12)\n  - \"Deprecation of user to organization account transformation\" (2026-01-12)\n\nTotal: 19 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 18,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-11T23:22:52Z",
+        "timestamp": "2026-01-12T23:22:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-11T23:22:59Z",
+        "timestamp": "2026-01-12T23:22:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-11T23:22:53Z",
+        "timestamp": "2026-01-12T23:22:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-11T23:23:06Z",
+        "timestamp": "2026-01-12T23:22:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-11T23:23:03Z",
+        "timestamp": "2026-01-12T23:22:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-11T23:22:47Z",
+        "timestamp": "2026-01-12T23:22:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-11T23:22:51Z",
+        "timestamp": "2026-01-12T23:22:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-11T23:22:50Z",
+        "timestamp": "2026-01-12T23:22:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-11T23:23:01Z",
+        "timestamp": "2026-01-12T23:22:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-11T23:22:58Z",
+        "timestamp": "2026-01-12T23:22:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-11T23:22:46Z",
+        "timestamp": "2026-01-12T23:22:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-11T23:22:55Z",
+        "timestamp": "2026-01-12T23:22:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-11T23:22:57Z",
+        "timestamp": "2026-01-12T23:22:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-11T23:23:05Z",
+        "timestamp": "2026-01-12T23:22:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
+    "new_blog_posts": [
+      {
+        "title": "Selectively showing \"act on your behalf\" warning for GitHub Apps is in public preview",
+        "url": "https://github.blog/changelog/2026-01-12-selectively-showing-act-on-your-behalf-warning-for-github-apps-is-in-public-preview",
+        "date": "2026-01-12T22:16:06Z",
+        "summary": "<p>Today we&#8217;ve released an update to the consent page to be less alarming when using GitHub Apps only as a form of sign-in. The consent page for GitHub Apps, where&#8230;</p>\n<p>The post <a href"
+      },
+      {
+        "title": "Controlling who can request apps for your organization is now generally available",
+        "url": "https://github.blog/changelog/2026-01-12-controlling-who-can-request-apps-for-your-organization-is-now-generally-available",
+        "date": "2026-01-12T20:19:15Z",
+        "summary": "<p>Organizations now have more granular control over who can request GitHub Apps and OAuth apps. This enhancement helps you implement stricter governance policies while maintaining flexibility for you"
+      },
+      {
+        "title": "Want better AI outputs? Try context engineering.",
+        "url": "https://github.blog/ai-and-ml/generative-ai/want-better-ai-outputs-try-context-engineering/",
+        "date": "2026-01-12T17:00:00Z",
+        "summary": "<p>Learn how custom instructions, reusable prompts, and custom agents help GitHub Copilot deliver more accurate results.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/generative-ai/want-bette"
+      },
+      {
+        "title": "Deprecation of user to organization account transformation",
+        "url": "https://github.blog/changelog/2026-01-12-deprecation-of-user-to-organization-account-transformation",
+        "date": "2026-01-12T16:26:48Z",
+        "summary": "<p>As of January 12, 2026, we&#8217;re deprecating the ability to convert a personal user account directly into an organization. You can now use the Move work flow to selectively migrate&#8230;</p>\n<p"
+      }
+    ],
     "new_videos": []
   }
 }
