@@ -2,7 +2,7 @@
 
 > Quick reference for slash commands, keyboard shortcuts, and chat variables
 
-**Last Updated**: January 7, 2026
+**Last Updated**: January 12, 2026
 
 ---
 
