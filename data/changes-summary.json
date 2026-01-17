@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-16T23:23:18.074281+00:00",
+  "generated_at": "2026-01-17T23:23:09.871865+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 18,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-16T23:23:02Z",
+        "timestamp": "2026-01-17T23:22:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-16T23:23:09Z",
+        "timestamp": "2026-01-17T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-16T23:23:03Z",
+        "timestamp": "2026-01-17T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-16T23:23:15Z",
+        "timestamp": "2026-01-17T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-16T23:23:12Z",
+        "timestamp": "2026-01-17T23:23:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-16T23:22:57Z",
+        "timestamp": "2026-01-17T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-16T23:23:01Z",
+        "timestamp": "2026-01-17T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-16T23:22:58Z",
+        "timestamp": "2026-01-17T23:22:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-16T23:23:10Z",
+        "timestamp": "2026-01-17T23:23:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-16T23:23:08Z",
+        "timestamp": "2026-01-17T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-16T23:22:56Z",
+        "timestamp": "2026-01-17T23:22:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-16T23:23:05Z",
+        "timestamp": "2026-01-17T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-16T23:23:06Z",
+        "timestamp": "2026-01-17T23:22:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-16T23:23:14Z",
+        "timestamp": "2026-01-17T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,122 +110,162 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 1,
+    "new_posts": [
+      {
+        "title": "GitHub Copilot now supports OpenCode",
+        "url": "https://github.blog/changelog/2026-01-16-github-copilot-now-supports-opencode",
+        "date": "2026-01-16T23:03:03Z",
+        "summary": "<p>GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with OpenCode. GitHub Copilot now fully supports authentication with OpenCode through a formal par"
+      }
+    ]
   },
   "videos": {
-    "new_count": 0,
-    "new_videos": []
+    "new_count": 2,
+    "new_videos": [
+      {
+        "title": "One new developer joins GitHub every second",
+        "video_id": "zz6yge9p6e0",
+        "date": "2026-01-17T17:01:39+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/zz6yge9p6e0/hqdefault.jpg"
+      },
+      {
+        "title": "Inside Octoverse 2025 report: The rise of vibe coding & agentic AI | Episode 7 | The GitHub Podcast",
+        "video_id": "ve-tfDEQOG8",
+        "date": "2026-01-17T15:01:38+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/ve-tfDEQOG8/hqdefault.jpg"
+      }
+    ]
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 16, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on January 17, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"GitHub Copilot now supports OpenCode\" (2026-01-16)\n\n🎥 Videos: 2 new videos\n  - \"One new developer joins GitHub every second\" (2026-01-17)\n  - \"Inside Octoverse 2025 report: The rise of vibe coding & agentic AI | Episode 7 | The GitHub Podcast\" (2026-01-17)\n\nTotal: 18 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 17,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-16T23:23:02Z",
+        "timestamp": "2026-01-17T23:22:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-16T23:23:09Z",
+        "timestamp": "2026-01-17T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-16T23:23:03Z",
+        "timestamp": "2026-01-17T23:22:57Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-16T23:23:15Z",
+        "timestamp": "2026-01-17T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-16T23:23:12Z",
+        "timestamp": "2026-01-17T23:23:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-16T23:22:57Z",
+        "timestamp": "2026-01-17T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-16T23:23:01Z",
+        "timestamp": "2026-01-17T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-16T23:22:58Z",
+        "timestamp": "2026-01-17T23:22:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-16T23:23:10Z",
+        "timestamp": "2026-01-17T23:23:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-16T23:23:08Z",
+        "timestamp": "2026-01-17T23:23:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-16T23:22:56Z",
+        "timestamp": "2026-01-17T23:22:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-16T23:23:05Z",
+        "timestamp": "2026-01-17T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-16T23:23:06Z",
+        "timestamp": "2026-01-17T23:22:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-16T23:23:14Z",
+        "timestamp": "2026-01-17T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
-    "new_videos": []
+    "new_blog_posts": [
+      {
+        "title": "GitHub Copilot now supports OpenCode",
+        "url": "https://github.blog/changelog/2026-01-16-github-copilot-now-supports-opencode",
+        "date": "2026-01-16T23:03:03Z",
+        "summary": "<p>GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with OpenCode. GitHub Copilot now fully supports authentication with OpenCode through a formal par"
+      }
+    ],
+    "new_videos": [
+      {
+        "title": "One new developer joins GitHub every second",
+        "video_id": "zz6yge9p6e0",
+        "date": "2026-01-17T17:01:39+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/zz6yge9p6e0/hqdefault.jpg"
+      },
+      {
+        "title": "Inside Octoverse 2025 report: The rise of vibe coding & agentic AI | Episode 7 | The GitHub Podcast",
+        "video_id": "ve-tfDEQOG8",
+        "date": "2026-01-17T15:01:38+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/ve-tfDEQOG8/hqdefault.jpg"
+      }
+    ]
   }
 }
