@@ -1,10 +1,16 @@
 # GitHub Copilot Daily Digest
 
-> Last updated: January 12, 2026 | Tracking GitHub Copilot updates daily
+> Last updated: 2026-01-19 | Tracking GitHub Copilot Coding Agent updates daily
 
 Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
 
-## Browse by Topic
+**What you'll find here**:
+- 📚 **Organized documentation** - Each topic in its own focused file
+- 🔄 **Daily updates** - Automatically synced with official GitHub resources
+- 🎯 **Actionable content** - No fluff, just practical guidance
+- 🔗 **Complete coverage** - Docs, blog posts, videos, and training courses
+
+## 📚 Browse by Topic
 
 ### Getting Started
 - **[Quick Start Guide](GETTING-STARTED.md)** - Set up Copilot in 5 minutes + best practices
@@ -14,7 +20,7 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 - **[What's New](WHATS-NEW.md)** - Latest updates from the last 30 days
 - **[Changelog](CHANGELOG.md)** - Complete historical timeline
 
-### Learn & Practice
+### Learn & Practice  
 - **[Video Library](VIDEOS.md)** - Curated tutorials and demos
 - **[Training Courses](TRAININGS.md)** - Official courses, certifications, learning paths
 
@@ -22,19 +28,39 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 - **[Commands & Shortcuts](COMMANDS.md)** - Slash commands, keyboard shortcuts, chat variables
 - **[Complete Reference](REFERENCE.md)** - Full documentation index
 
-## Current Stats
+---
+
+## 📊 Current Stats
 
 - **14 documentation updates** in the last 7 days
-- **18 videos** in library
+- **21 videos** in library
 - **7 training courses** available
-- **65 blog posts** tracked
-- **Last scrape**: January 12, 2026 at 08:33 UTC
+- **79 blog posts** tracked
+- **Last scrape**: 2026-01-19 12:38 UTC
 
-## Official Resources
+---
+
+## 🔗 Official Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/copilot)
 - [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)
 - [GitHub Community](https://github.com/orgs/community/discussions/categories/copilot)
+
+---
+
+## 🚀 Getting Started
+
+**New to Copilot?** Start here:
+1. Read the [Quick Start Guide](GETTING-STARTED.md) (5 minutes)
+2. Watch [video tutorials](VIDEOS.md) for visual learning
+3. Take a [free course](TRAININGS.md) to build skills
+4. Explore [what's new](WHATS-NEW.md) for latest features
+
+**Already using Copilot?** Stay sharp:
+- Check [What's New](WHATS-NEW.md) for recent updates
+- Review [best practices](GETTING-STARTED.md#best-practices)
+- Browse [command shortcuts](COMMANDS.md) for productivity
+- Read the [complete changelog](CHANGELOG.md) for history
 
 ---
 

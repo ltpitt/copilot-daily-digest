@@ -1,14 +1,20 @@
 # GitHub AI Starter Kit
 
-> Master GitHub Copilot: comprehensive onboarding for engineers
+> Master GitHub Copilot: From fundamentals to advanced workflows
 
-**Last Updated**: January 12, 2026
+**Last Updated**: 2026-01-19
 
 ---
 
 ## Welcome & Mission
 
-This starter kit helps you master GitHub Copilot, from understanding the AI landscape to building productive workflows. Whether you're new to AI-assisted coding or looking to optimize your usage, this guide provides the foundation you need.
+This starter kit helps you **master GitHub Copilot** as your AI pair programmer. Whether you're writing your first line of AI-assisted code or optimizing an enterprise workflow, you'll find actionable guidance here.
+
+**What you'll learn**:
+- The Copilot landscape: Agent Mode vs Coding Agent
+- Battle-tested best practices from docs and blog posts
+- Onboarding your AI peer programmer effectively
+- Daily workflows that keep you productive
 
 ---
 
@@ -16,272 +22,212 @@ This starter kit helps you master GitHub Copilot, from understanding the AI land
 
 ### Two Modes, One Mission
 
-**GitHub Copilot (in your IDE)**
-- Your AI pair programmer
-- Offers inline suggestions, code completions, and chat-based help
+**GitHub Copilot Agent Mode** (in your IDE)
+- Your AI pair programmer that offers inline suggestions and chat-based help
 - Great for flow-state coding, refactoring, and exploration
-- Available in VS Code, JetBrains, Visual Studio, Xcode, Eclipse
+- Works in VS Code, JetBrains, Visual Studio, Xcode, Eclipse
 
-**GitHub Copilot Coding Agent (autonomous)**
+**GitHub Copilot Coding Agent** (autonomous agent)
 - Executes multi-step tasks using natural language instructions
-- Can read repository context, make changes across multiple files
-- Ideal for scaffolding, automation, and repetitive workflows
-- Operates on GitHub repositories or through IDE agent mode
+- Reads `copilot-instructions.md` from your repo for context
+- Ideal for automation, scaffolding, and repetitive workflows
+- Can make changes across multiple files and open PRs
 
-**Key Difference**: Copilot assists you in real-time as you code. Coding Agent works autonomously on defined tasks.
+### When to Use Each
+
+| Use Case | Agent Mode (IDE) | Coding Agent |
+|----------|------------------|--------------|
+| Writing a function | ✅ Perfect fit | Overkill |
+| Refactoring 10 files | ⚠️ Manual work | ✅ Automate it |
+| Learning new API | ✅ Ask questions | ❌ Not designed for learning |
+| Setting up CI/CD | ⚠️ Tedious | ✅ Describe workflow |
 
 ---
 
 ## 2. Best Practices
 
-### The WRAP Methodology (Dec 2025)
+### Write Clear, Scoped Instructions
 
-GitHub engineers developed WRAP after using coding agent for over a year. This framework helps you maximize productivity:
+**For Agent Mode**:
+- Be specific and iterative
+- Reference open files explicitly
+- Use `#file`, `#selection`, `@workspace` keywords
 
-**W - Write Effective Issues**
-- Write issues as though for someone brand new to the codebase
-- Craft descriptive titles explaining where work is being done
-- Add examples of what you want (error-handling patterns, code snippets)
+**For Coding Agent**:
+- Use structured markdown with clear sections
+- Include acceptance criteria
+- Specify file paths and constraints
 
-**R - Refine Your Instructions**
-- **Repository instructions**: Coding standards specific to your repo
-- **Organization instructions**: Requirements applying to all repos
-- **Custom agents**: Specialized agents for repetitive development tasks
+### Start Small, Then Iterate
 
-**A - Atomic Tasks**
-- Break large problems into small, independent, well-defined tasks
-- Example: Instead of "Rewrite 3M lines Java → Golang", break into: "Migrate auth module", "Convert validation utilities", "Rewrite user controllers"
+❌ **Don't**: "Build a complete e-commerce platform"  
+✅ **Do**: "Create a product catalog page with search and filtering. Use React and TypeScript."
 
-**P - Pair with Coding Agent**
-- Humans excel at: Understanding "why", navigating ambiguity, cross-system thinking
-- Coding agent excels at: Tireless execution, repetitive tasks, exploring possibilities
+Then iterate:
+- "Add pagination to product catalog"
+- "Implement shopping cart with local storage"
+- "Add checkout flow with validation"
 
-→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
+### Use Spec-Driven Development
 
-### Understand Copilot's Strengths
+Write specifications before code:
+1. Create `SPEC.md` with requirements, constraints, examples
+2. Ask Copilot to implement according to spec
+3. Iterate on spec, not scattered chat messages
 
-Copilot excels at:
-- Writing tests and repetitive code
-- Debugging and correcting syntax
-- Explaining and commenting code
-- Generating regular expressions
-- Translating natural language to code
+**Example spec structure**:
+```markdown
+## Feature: User Authentication
 
-Copilot is not designed to:
-- Replace your expertise and judgment
-- Respond to non-coding prompts
-- Make architectural decisions without your guidance
+### Requirements
+- JWT-based auth with 24h expiry
+- Password hashing with bcrypt (10 rounds)
+- Email verification required
 
-### Choose the Right Tool
+### API Endpoints
+POST /auth/register - Create account
+POST /auth/login - Get JWT token
+POST /auth/verify - Confirm email
 
-**Use inline suggestions for**:
-- Completing code snippets as you type
-- Generating repetitive code patterns
-- Writing tests in test-driven development
-- Auto-completing variable names and functions
+### Error Handling
+- Return 400 for validation errors
+- Return 401 for auth failures
+- Log all errors to CloudWatch
+```
 
-**Use Copilot Chat for**:
-- Answering questions about code
-- Generating large sections of code
-- Using slash commands for common tasks (/explain, /fix, /tests)
-- Working with specific chat participants (@workspace, @github)
+### Use Eval-Driven Development
 
-**Use Agent Mode for**:
-- Multi-file refactoring
-- Scaffolding new features
-- Automated code transformations
-- Tasks requiring multiple coordinated steps
+Create automated evaluations to validate Copilot's output:
+1. Write test cases or validation scripts
+2. Run them against Copilot's code
+3. Share failed tests with Copilot for fixes
 
-### Create Thoughtful Prompts
+### Keep Context Windows Small
 
-**Break down complex tasks**:
-- Instead of "Build authentication system"
-- Try: "Create user registration endpoint" → "Add JWT generation" → "Implement password reset flow"
-
-**Be specific about requirements**:
-- Include: expected inputs, desired outputs, constraints, error handling needs
-- Example: "Create a rate limiter that allows 100 requests per minute per user, returning 429 status when exceeded"
-
-**Provide examples**:
-- Show sample input/output data
-- Reference similar existing implementations
-- Include edge cases to handle
-
-**Follow good coding practices**:
-- Ask for tests alongside code
-- Request documentation for complex logic
-- Specify security requirements (input validation, sanitization)
-
-### Check Copilot's Work
-
-**Understand before implementing**:
-- Read suggested code thoroughly
-- Ask Copilot to explain complex sections: `/explain`
-- Verify the logic matches your requirements
-
-**Review carefully**:
-- Functionality: Does it do what you expect?
-- Security: Any SQL injection, XSS, or other vulnerabilities?
-- Maintainability: Is it readable and well-structured?
-- Performance: Any obvious inefficiencies?
-
-**Use automated testing**:
-- Run existing tests after accepting suggestions
-- Generate new tests: `/tests`
-- Use linters and code scanners
-- Enable Copilot Autofix for security issues
-
-### Guide Copilot Towards Better Outputs
-
-**Provide helpful context**:
-- Open relevant files in your IDE
-- Include configuration files if relevant
-- Reference similar working code
-- Use chat variables (#file, #selection, #codebase)
-
-**Use keywords and chat participants**:
-- `@workspace` for repository-wide context
-- `@github` for GitHub-specific features
-- `@terminal` for command-line help
-- Slash commands: `/explain`, `/fix`, `/tests`, `/doc`
-
-**Iterate on responses**:
-- "Make this more efficient"
-- "Add error handling for network failures"
-- "Refactor to use modern async/await syntax"
-- "Add TypeScript types"
+- Focus on one task per conversation
+- Split large files into modules
+- Use clear file/function names
+- Delete irrelevant chat history
 
 ---
 
 ## 3. Onboarding Your AI Peer Programmer
 
-### Get Started in 5 Minutes
+### Essential Resources
 
-1. **Install Copilot** in your preferred IDE
-2. **Authenticate** with your GitHub account
-3. **Try inline suggestions** - Start typing and watch Copilot suggest completions
-4. **Open chat** (`Ctrl+I` or `Cmd+I`) and ask a question
-5. **Review and accept** suggestions that fit your needs
+- **[Copilot Overview](https://docs.github.com/copilot/overview)** - What Copilot can do
+- **[Best Practices Guide](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Official recommendations
+- **[Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot-chat)** - Crafting effective prompts
 
-### Official Resources
+### Quick Setup Checklist
 
-- [GitHub Copilot Quickstart](https://docs.github.com/en/copilot/quickstart)
-- [Guides on Using GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/guides-on-using-github-copilot)
-- [Best Practices Guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+✅ Install Copilot extension in your IDE  
+✅ Sign in with GitHub account  
+✅ Try inline suggestions on a test file  
+✅ Ask Copilot Chat a simple question  
+✅ Review keyboard shortcuts for your IDE  
+✅ Create `copilot-instructions.md` for your repo (optional)
 
 ---
 
 ## 4. Agent Mode vs Coding Agent
 
-| Feature | Copilot (IDE) | Coding Agent |
-|---------|--------------|--------------|
-| **Location** | Your IDE | GitHub/IDE Agent Mode |
-| **Prompting** | Conversational, iterative | Structured task description |
-| **Context** | Open files, editor state | Repository-wide |
-| **Validation** | Manual review | Can include automated tests |
-| **Scope** | Single function/file | Multi-file tasks |
-| **Workflow** | Interactive pair programming | Autonomous task execution |
-| **Best For** | Real-time coding, learning | Scaffolding, automation |
+| Feature | Agent Mode (IDE) | Coding Agent (GitHub) |
+|---------|-----------------|----------------------|
+| **Prompting** | Be specific, iterative | Use structured markdown |
+| **Context** | Keep files focused | Use repo-wide context |
+| **Validation** | Manual review | Automated evals/tests |
+| **Scope** | One function or file | One task or workflow |
+| **Feedback Loop** | Accept/reject suggestions | Refine instructions iteratively |
+| **Best For** | Learning, exploration | Automation, repetitive tasks |
 
 ---
 
 ## 5. Getting Started: Quick Actions
 
+### Step 1: Choose Your Mode (1 min)
+
+- **New to Copilot?** Start with Agent Mode in your IDE
+- **Automating workflows?** Try Coding Agent with a test repo
+
+### Step 2: Set Up Custom Instructions (2 min)
+
+Create `.github/copilot-instructions.md` in your repo:
+
+```markdown
+# Project Context
+
+This is a TypeScript microservice using Express and PostgreSQL.
+
+## Code Style
+- Use async/await (not callbacks)
+- Prefer functional patterns
+- All functions must have JSDoc comments
+
+## Testing
+- Write tests in `__tests__/` directories
+- Use Jest for unit tests
+- Aim for 80%+ coverage
+```
+
+### Step 3: Start Small, Then Iterate (2 min)
+
+**Try these prompts**:
+1. "Explain the authentication flow in this codebase"
+2. "Generate unit tests for the userService module"
+3. "Refactor this function to use async/await"
+
 ### Quick Action Checklist
 
-✅ Install Copilot extension in your IDE  
-✅ Try inline suggestions on a simple function  
-✅ Ask Copilot Chat to explain unfamiliar code  
-✅ Use `/tests` to generate test cases  
-✅ Experiment with different AI models (GPT, Claude, Gemini)  
-✅ Enable Auto Model Selection in VS Code  
-✅ Try Agent Mode for a multi-file refactoring task
-
-### Your First Week with Copilot
-
-**Day 1**: Installation and inline suggestions
-- Install extension, authenticate
-- Write simple functions with inline suggestions
-- Practice accepting/rejecting suggestions
-
-**Day 2**: Copilot Chat basics
-- Learn keyboard shortcuts (`Ctrl+I`, `Ctrl+Shift+I`)
-- Ask questions about your codebase
-- Use `/explain` on complex code
-
-**Day 3**: Slash commands and chat participants
-- Try `/fix`, `/tests`, `/doc`
-- Use `@workspace` for repo context
-- Experiment with chat variables (#file, #selection)
-
-**Day 4**: Model selection
-- Try different AI models
-- Enable Auto Model Selection
-- Compare results for different tasks
-
-**Day 5**: Agent Mode
-- Use Agent Mode for a small feature
-- Review multi-file changes
-- Refine your task descriptions
+✅ Try Agent Mode in your IDE  
+✅ Create a test repo with `copilot-instructions.md`  
+✅ Run a small task with the Coding Agent  
+✅ Share learnings with your team  
+✅ Track success with evals and feedback loops
 
 ---
 
-## 6. Workshop Area: Training & Learning
+## 6. Workshop Area: First Steps & Training
 
 ### Official GitHub Training
 
-**Free Interactive Courses**:
-- [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot) - Beginner, 1-2 hours
-- [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot) - Intermediate
+**For Beginners**:
+- [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro) - Interactive, 1-2 hours, FREE
+- [Code with GitHub Copilot](https://github.com/skills/copilot-team) - Team collaboration, FREE
 
-**Microsoft Learn Modules**:
-- [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) - 30 minutes
-- [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/) - Self-paced learning path
+**For Advanced Users**:
+- [Microsoft Learn: Copilot Fundamentals](https://learn.microsoft.com/training/paths/copilot/) - Self-paced modules
+- [GitHub Copilot Certification](https://examregistration.github.com/) - Professional credential, $99
 
-### Certifications
+→ See complete catalog: **[TRAININGS.md](TRAININGS.md)**
 
-**GitHub Foundations Certification**
-- Includes Copilot usage, best practices, collaboration
-- Preparation: 20-40 hours
-- [Learn more](https://resources.github.com/learn/certifications/)
+### Quick References
 
-### More Resources
-
-For complete training catalog, see **[TRAININGS.md](TRAININGS.md)**
+- **[Commands & Shortcuts](COMMANDS.md)** - Slash commands, keyboard shortcuts
+- **[Complete Changelog](CHANGELOG.md)** - Historical timeline
+- **[Official Docs Index](REFERENCE.md)** - All documentation links
 
 ---
 
 ## 7. Daily Workflow
 
-### How This Repository Stays Updated
+### How This Repository Stays Fresh
 
-**Automated Content Pipeline**:
-1. **Scrapers run daily** at 1 PM UTC
-   - Fetch documentation from docs.github.com
-   - Collect blog posts from github.blog
-   - Track video content from GitHub YouTube
-   - Monitor training courses
+**Automated Updates**: Every day at 1 PM UTC, scrapers fetch the latest content:
+1. **Fetch Content** - Documentation, blog posts, videos, trainings
+2. **Detect Changes** - Compare with previous versions
+3. **Generate Content** - Publisher Agent synthesizes updates
+4. **Review & Merge** - PR created for human review
 
-2. **Change detection** identifies what's new
-   - Compare file hashes
-   - Detect new blog posts
-   - Track documentation updates
-
-3. **Content generation** synthesizes updates
-   - Publisher Agent creates modular content files
-   - WHATS-NEW.md highlights recent changes
-   - CHANGELOG.md maintains complete history
-
-4. **Review and merge** via pull requests
-
-### Manual Triggering
-
-You can manually trigger updates by running:
+**Manual Triggering**:
 ```bash
-pip install -r requirements.txt
+# Run scrapers manually
 python3 scraper/fetch_docs.py
 python3 scraper/fetch_blog.py
 python3 scraper/detect_changes.py
+
+# Generate content files
+python3 scraper/generate_videos.py
 ```
 
 ---
@@ -289,18 +235,16 @@ python3 scraper/detect_changes.py
 ## 8. Further Learning
 
 ### Advanced Topics
+- **Eval-Driven Development** - Automated validation of AI output
+- **Spec-Driven Development** - Write specs, let AI implement
+- **Prompt Engineering** - Craft prompts that get results
+- **Custom Instructions** - Tailor Copilot to your codebase
 
-- **Prompt Engineering**: [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
-- **Custom Instructions**: [Add custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
-- **Extensions**: [About Copilot Extensions](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
-- **Responsible Use**: [Responsible use of GitHub Copilot](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features)
-
-### Community & Support
-
+### Community Resources
 - [GitHub Community Discussions](https://github.com/orgs/community/discussions/categories/copilot)
-- [Copilot Changelog](https://github.blog/changelog/label/copilot/)
-- [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)
+- [GitHub Blog - Copilot Tag](https://github.blog/tag/github-copilot/)
+- [Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 
 ---
 
-*Ready to dive deeper? Explore [WHATS-NEW.md](WHATS-NEW.md) for the latest features and updates.*
+*Ready to dive deeper? Explore [WHATS-NEW.md](WHATS-NEW.md) for the latest features.*
