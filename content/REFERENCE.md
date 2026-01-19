@@ -28,13 +28,13 @@
 ### Best Practices
 
 - **[copilot-best-practices.md](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Proven patterns for effective Copilot usage
-- **[copilot-prompt-engineering.md](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot-chat)** - Crafting effective prompts for better results
+- **[copilot-prompt-engineering.md](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)** - Crafting effective prompts for better results
 - **[copilot-asking-questions.md](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)** - How to ask questions that get quality answers
 - **[copilot-responsible-use.md](https://docs.github.com/copilot/responsible-use-of-github-copilot-features)** - Guidelines for responsible AI usage
 
 ### Administration
 
-- **[copilot-managing-organization.md](https://docs.github.com/copilot/managing-copilot/managing-copilot-for-your-organization)** - Organization-level management and policies
+- **[copilot-managing-organization.md](https://docs.github.com/copilot/managing-copilot/managing-github-copilot-in-your-organization)** - Organization-level management and policies
 - **[copilot-troubleshooting.md](https://docs.github.com/copilot/troubleshooting-github-copilot)** - Common issues and solutions
 
 ---
@@ -87,7 +87,7 @@ All documentation files were last updated: **2026-01-19**
 - **Chat commands**: [COMMANDS.md](COMMANDS.md) (this repo)
 - **Best practices**: [copilot-best-practices.md](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)
 - **Troubleshooting**: [copilot-troubleshooting.md](https://docs.github.com/copilot/troubleshooting-github-copilot)
-- **Prompt tips**: [copilot-prompt-engineering.md](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot-chat)
+- **Prompt tips**: [copilot-prompt-engineering.md](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
 ---
 

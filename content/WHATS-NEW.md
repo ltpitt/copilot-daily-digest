@@ -62,8 +62,8 @@ Based on the 79 tracked blog posts, recent highlights include:
 ## Recent Training & Learning Resources
 
 **New Courses Available**:
-- [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro) - Free, interactive
-- [Code with GitHub Copilot](https://github.com/skills/copilot-team) - Team workflows
+- [Introduction to GitHub Copilot](https://skills.github.com/) - Free, interactive
+- [Code with GitHub Copilot](https://skills.github.com/) - Team workflows
 - [Microsoft Learn: Copilot Fundamentals](https://learn.microsoft.com/training/paths/copilot/) - Self-paced
 
 → [Browse all courses](TRAININGS.md)

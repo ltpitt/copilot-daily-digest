@@ -60,7 +60,7 @@ When asking Copilot Chat:
 1. **First**: Describe the broad goal ("Write a function to validate user input")
 2. **Then**: Add specific requirements ("Function should accept email string, return boolean, handle edge cases for plus addressing and international domains")
 
-→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot-chat)
+→ Source: [Prompt Engineering for GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
 ### Give Examples for Complex Logic
 

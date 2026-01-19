@@ -115,9 +115,9 @@ Create automated evaluations to validate Copilot's output:
 
 ### Essential Resources
 
-- **[Copilot Overview](https://docs.github.com/copilot/overview)** - What Copilot can do
+- **[Copilot Overview](https://docs.github.com/copilot/about-github-copilot/what-is-github-copilot)** - What Copilot can do
 - **[Best Practices Guide](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Official recommendations
-- **[Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot-chat)** - Crafting effective prompts
+- **[Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)** - Crafting effective prompts
 
 ### Quick Setup Checklist
 
@@ -192,8 +192,8 @@ This is a TypeScript microservice using Express and PostgreSQL.
 ### Official GitHub Training
 
 **For Beginners**:
-- [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro) - Interactive, 1-2 hours, FREE
-- [Code with GitHub Copilot](https://github.com/skills/copilot-team) - Team collaboration, FREE
+- [Introduction to GitHub Copilot](https://skills.github.com/) - Interactive, 1-2 hours, FREE
+- [Code with GitHub Copilot](https://skills.github.com/) - Team collaboration, FREE
 
 **For Advanced Users**:
 - [Microsoft Learn: Copilot Fundamentals](https://learn.microsoft.com/training/paths/copilot/) - Self-paced modules
