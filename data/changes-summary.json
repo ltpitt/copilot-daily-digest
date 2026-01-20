@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-19T23:23:27.360220+00:00",
+  "generated_at": "2026-01-20T23:23:33.451449+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 19,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-19T23:23:09Z",
+        "timestamp": "2026-01-20T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-19T23:23:17Z",
+        "timestamp": "2026-01-20T23:23:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-19T23:23:12Z",
+        "timestamp": "2026-01-20T23:23:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-19T23:23:24Z",
+        "timestamp": "2026-01-20T23:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-19T23:23:21Z",
+        "timestamp": "2026-01-20T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-19T23:23:04Z",
+        "timestamp": "2026-01-20T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-19T23:23:08Z",
+        "timestamp": "2026-01-20T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-19T23:23:06Z",
+        "timestamp": "2026-01-20T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-19T23:23:18Z",
+        "timestamp": "2026-01-20T23:23:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-19T23:23:16Z",
+        "timestamp": "2026-01-20T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-19T23:23:01Z",
+        "timestamp": "2026-01-20T23:23:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-19T23:23:13Z",
+        "timestamp": "2026-01-20T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-19T23:23:14Z",
+        "timestamp": "2026-01-20T23:23:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-19T23:23:22Z",
+        "timestamp": "2026-01-20T23:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,122 +110,174 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 3,
+    "new_posts": [
+      {
+        "title": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot",
+        "url": "https://github.blog/developer-skills/application-development/context-windows-plan-agent-and-tdd-what-i-learned-building-a-countdown-app-with-github-copilot/",
+        "date": "2026-01-20T17:00:00Z",
+        "summary": "<p>Learn how I managed context to keep Copilot focused, used the Plan agent to sharpen vague requirements, and required Test Driven Development practices to catch bugs before users.</p>\n<p>The post <a"
+      },
+      {
+        "title": "Strengthen your supply chain with code-to-cloud traceability and SLSA Build Level 3 security",
+        "url": "https://github.blog/changelog/2026-01-20-strengthen-your-supply-chain-with-code-to-cloud-traceability-and-slsa-build-level-3-security",
+        "date": "2026-01-20T16:46:13Z",
+        "summary": "<p>You can now link build artifacts like containers and binaries to GitHub and add storage and deployment context, even if the artifacts live outside GitHub. This helps you get code-to-cloud&#8230;</p"
+      },
+      {
+        "title": "Enterprise-scoped budgets that exclude cost center usage in public preview",
+        "url": "https://github.blog/changelog/2026-01-19-enterprise-scoped-budgets-that-exclude-cost-center-usage-in-public-preview",
+        "date": "2026-01-20T00:27:17Z",
+        "summary": "<p>GitHub Enterprise customers can now configure enterprise-scoped budgets that exclude cost center usage, allowing specific portions of an enterprise to incur additional usage while limiting the rest"
+      }
+    ]
   },
   "videos": {
-    "new_count": 0,
-    "new_videos": []
+    "new_count": 1,
+    "new_videos": [
+      {
+        "title": "Building a privacy-first smart home with Frank Nijhof | Episode 8 | The GitHub Podcast",
+        "video_id": "al-JSC314dA",
+        "date": "2026-01-20T15:00:08+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/al-JSC314dA/hqdefault.jpg"
+      }
+    ]
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 19, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on January 20, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 3 new articles\n  - \"Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot\" (2026-01-20)\n  - \"Strengthen your supply chain with code-to-cloud traceability and SLSA Build Level 3 security\" (2026-01-20)\n  - \"Enterprise-scoped budgets that exclude cost center usage in public preview\" (2026-01-20)\n\n🎥 Videos: 1 new video\n  - \"Building a privacy-first smart home with Frank Nijhof | Episode 8 | The GitHub Podcast\" (2026-01-20)\n\nTotal: 19 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 18,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-19T23:23:09Z",
+        "timestamp": "2026-01-20T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-19T23:23:17Z",
+        "timestamp": "2026-01-20T23:23:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-19T23:23:12Z",
+        "timestamp": "2026-01-20T23:23:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-19T23:23:24Z",
+        "timestamp": "2026-01-20T23:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-19T23:23:21Z",
+        "timestamp": "2026-01-20T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-19T23:23:04Z",
+        "timestamp": "2026-01-20T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-19T23:23:08Z",
+        "timestamp": "2026-01-20T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-19T23:23:06Z",
+        "timestamp": "2026-01-20T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-19T23:23:18Z",
+        "timestamp": "2026-01-20T23:23:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-19T23:23:16Z",
+        "timestamp": "2026-01-20T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-19T23:23:01Z",
+        "timestamp": "2026-01-20T23:23:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-19T23:23:13Z",
+        "timestamp": "2026-01-20T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-19T23:23:14Z",
+        "timestamp": "2026-01-20T23:23:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-19T23:23:22Z",
+        "timestamp": "2026-01-20T23:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
-    "new_videos": []
+    "new_blog_posts": [
+      {
+        "title": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot",
+        "url": "https://github.blog/developer-skills/application-development/context-windows-plan-agent-and-tdd-what-i-learned-building-a-countdown-app-with-github-copilot/",
+        "date": "2026-01-20T17:00:00Z",
+        "summary": "<p>Learn how I managed context to keep Copilot focused, used the Plan agent to sharpen vague requirements, and required Test Driven Development practices to catch bugs before users.</p>\n<p>The post <a"
+      },
+      {
+        "title": "Strengthen your supply chain with code-to-cloud traceability and SLSA Build Level 3 security",
+        "url": "https://github.blog/changelog/2026-01-20-strengthen-your-supply-chain-with-code-to-cloud-traceability-and-slsa-build-level-3-security",
+        "date": "2026-01-20T16:46:13Z",
+        "summary": "<p>You can now link build artifacts like containers and binaries to GitHub and add storage and deployment context, even if the artifacts live outside GitHub. This helps you get code-to-cloud&#8230;</p"
+      },
+      {
+        "title": "Enterprise-scoped budgets that exclude cost center usage in public preview",
+        "url": "https://github.blog/changelog/2026-01-19-enterprise-scoped-budgets-that-exclude-cost-center-usage-in-public-preview",
+        "date": "2026-01-20T00:27:17Z",
+        "summary": "<p>GitHub Enterprise customers can now configure enterprise-scoped budgets that exclude cost center usage, allowing specific portions of an enterprise to incur additional usage while limiting the rest"
+      }
+    ],
+    "new_videos": [
+      {
+        "title": "Building a privacy-first smart home with Frank Nijhof | Episode 8 | The GitHub Podcast",
+        "video_id": "al-JSC314dA",
+        "date": "2026-01-20T15:00:08+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/al-JSC314dA/hqdefault.jpg"
+      }
+    ]
   }
 }
