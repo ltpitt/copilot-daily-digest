@@ -2,7 +2,7 @@
 
 > Links to official documentation organized by category
 
-**Last Updated**: January 12, 2026
+**Last Updated**: January 21, 2026
 
 ---
 
