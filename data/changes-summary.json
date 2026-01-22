@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-21T23:24:15.138126+00:00",
+  "generated_at": "2026-01-22T23:23:25.466969+00:00",
   "has_changes": true,
-  "total_changes": 19,
+  "total_changes": 21,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-21T23:23:54Z",
+        "timestamp": "2026-01-22T23:23:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-21T23:24:04Z",
+        "timestamp": "2026-01-22T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-21T23:23:57Z",
+        "timestamp": "2026-01-22T23:23:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-21T23:24:12Z",
+        "timestamp": "2026-01-22T23:23:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-21T23:24:08Z",
+        "timestamp": "2026-01-22T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-21T23:23:48Z",
+        "timestamp": "2026-01-22T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-21T23:23:53Z",
+        "timestamp": "2026-01-22T23:23:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-21T23:23:51Z",
+        "timestamp": "2026-01-22T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-21T23:24:06Z",
+        "timestamp": "2026-01-22T23:23:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-21T23:24:02Z",
+        "timestamp": "2026-01-22T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-21T23:23:45Z",
+        "timestamp": "2026-01-22T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-21T23:23:58Z",
+        "timestamp": "2026-01-22T23:23:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-21T23:24:00Z",
+        "timestamp": "2026-01-22T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-21T23:24:10Z",
+        "timestamp": "2026-01-22T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -113,33 +113,45 @@
     "new_count": 3,
     "new_posts": [
       {
-        "title": "GitHub Copilot CLI: Plan before you build, steer as you go",
-        "url": "https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go",
-        "date": "2026-01-21T21:44:44Z",
-        "summary": "<p>GitHub Copilot CLI continues to push the boundaries of agentic AI assistance in your terminal. This week brings powerful new reasoning models, intelligent workflow features that let you steer conve"
+        "title": "Faster loading for GitHub Issues",
+        "url": "https://github.blog/changelog/2026-01-22-faster-loading-for-github-issues",
+        "date": "2026-01-22T20:45:09Z",
+        "summary": "<p>GitHub Issues are now significantly faster with 35% of issue views occurring in under 200ms, up from 2% at the start of the year. This is the first in a&#8230;</p>\n<p>The post <a href=\"https://gith"
       },
       {
-        "title": "Install and Use GitHub Copilot CLI directly from the GitHub CLI",
-        "url": "https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli",
-        "date": "2026-01-21T20:02:42Z",
-        "summary": "<p>GitHub CLI users can now run gh copilot to install and run the GitHub Copilot CLI. Since we deprecated the GitHub Copilot in the CLI extension in favor of the&#8230;</p>\n<p>The post <a href=\"https:"
+        "title": "1 vCPU Linux runner now generally available in GitHub Actions",
+        "url": "https://github.blog/changelog/2026-01-22-1-vcpu-linux-runner-now-generally-available-in-github-actions",
+        "date": "2026-01-22T17:00:00Z",
+        "summary": "<p>GitHub Actions 1 vCPU Linux runners are now generally available. All customers can now take advantage of these lower cost runners. These runners are optimized for automation tasks, issue operations"
       },
       {
-        "title": "A cheat sheet to slash commands in GitHub Copilot CLI",
-        "url": "https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/",
-        "date": "2026-01-21T17:09:10Z",
-        "summary": "<p>Run tests, fix code, and get support—right in your workflow. Stay focused and let Copilot handle the busywork.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to"
+        "title": "Build an agent into any app with the GitHub Copilot SDK",
+        "url": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
+        "date": "2026-01-22T15:01:44Z",
+        "summary": "<p>Now in technical preview, the GitHub Copilot SDK can plan, invoke tools, edit files, and run commands as a programmable layer you can use in any application. </p>\n<p>The post <a href=\"https://githu"
       }
     ]
   },
   "videos": {
-    "new_count": 1,
+    "new_count": 3,
     "new_videos": [
       {
-        "title": "Rubber Duck Thursdays - Let's build with GitHub Copilot CLI",
-        "video_id": "dGzIEn4MFMQ",
-        "date": "2026-01-21T21:33:57+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/dGzIEn4MFMQ/hqdefault.jpg"
+        "title": "The GitHub Copilot SDK is here! - Rubber Duck Thursdays",
+        "video_id": "6yzGew8wA4A",
+        "date": "2026-01-22T19:01:30+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/6yzGew8wA4A/hqdefault.jpg"
+      },
+      {
+        "title": "Add an AI agent to your app with GitHub Copilot SDK",
+        "video_id": "hLzIAWIezBg",
+        "date": "2026-01-22T16:01:20+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/hLzIAWIezBg/hqdefault.jpg"
+      },
+      {
+        "title": "Demo: Using GitHub Copilot CLI and yolo mode",
+        "video_id": "UMz8aQ4lOtE",
+        "date": "2026-01-22T00:00:59+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/UMz8aQ4lOtE/hqdefault.jpg"
       }
     ]
   },
@@ -147,105 +159,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 21, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 3 new articles\n  - \"GitHub Copilot CLI: Plan before you build, steer as you go\" (2026-01-21)\n  - \"Install and Use GitHub Copilot CLI directly from the GitHub CLI\" (2026-01-21)\n  - \"A cheat sheet to slash commands in GitHub Copilot CLI\" (2026-01-21)\n\n🎥 Videos: 1 new video\n  - \"Rubber Duck Thursdays - Let's build with GitHub Copilot CLI\" (2026-01-21)\n\nTotal: 19 changes detected",
+  "summary_text": "Changes detected on January 22, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 3 new articles\n  - \"Faster loading for GitHub Issues\" (2026-01-22)\n  - \"1 vCPU Linux runner now generally available in GitHub Actions\" (2026-01-22)\n  - \"Build an agent into any app with the GitHub Copilot SDK\" (2026-01-22)\n\n🎥 Videos: 3 new videos\n  - \"The GitHub Copilot SDK is here! - Rubber Duck Thursdays\" (2026-01-22)\n  - \"Add an AI agent to your app with GitHub Copilot SDK\" (2026-01-22)\n  - \"Demo: Using GitHub Copilot CLI and yolo mode\" (2026-01-22)\n\nTotal: 21 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 18,
+    "total_changes": 20,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-21T23:23:54Z",
+        "timestamp": "2026-01-22T23:23:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-21T23:24:04Z",
+        "timestamp": "2026-01-22T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-21T23:23:57Z",
+        "timestamp": "2026-01-22T23:23:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-21T23:24:12Z",
+        "timestamp": "2026-01-22T23:23:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-21T23:24:08Z",
+        "timestamp": "2026-01-22T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-21T23:23:48Z",
+        "timestamp": "2026-01-22T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-21T23:23:53Z",
+        "timestamp": "2026-01-22T23:23:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-21T23:23:51Z",
+        "timestamp": "2026-01-22T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-21T23:24:06Z",
+        "timestamp": "2026-01-22T23:23:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-21T23:24:02Z",
+        "timestamp": "2026-01-22T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-21T23:23:45Z",
+        "timestamp": "2026-01-22T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-21T23:23:58Z",
+        "timestamp": "2026-01-22T23:23:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-21T23:24:00Z",
+        "timestamp": "2026-01-22T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-21T23:24:10Z",
+        "timestamp": "2026-01-22T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -253,30 +265,42 @@
     ],
     "new_blog_posts": [
       {
-        "title": "GitHub Copilot CLI: Plan before you build, steer as you go",
-        "url": "https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go",
-        "date": "2026-01-21T21:44:44Z",
-        "summary": "<p>GitHub Copilot CLI continues to push the boundaries of agentic AI assistance in your terminal. This week brings powerful new reasoning models, intelligent workflow features that let you steer conve"
+        "title": "Faster loading for GitHub Issues",
+        "url": "https://github.blog/changelog/2026-01-22-faster-loading-for-github-issues",
+        "date": "2026-01-22T20:45:09Z",
+        "summary": "<p>GitHub Issues are now significantly faster with 35% of issue views occurring in under 200ms, up from 2% at the start of the year. This is the first in a&#8230;</p>\n<p>The post <a href=\"https://gith"
       },
       {
-        "title": "Install and Use GitHub Copilot CLI directly from the GitHub CLI",
-        "url": "https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli",
-        "date": "2026-01-21T20:02:42Z",
-        "summary": "<p>GitHub CLI users can now run gh copilot to install and run the GitHub Copilot CLI. Since we deprecated the GitHub Copilot in the CLI extension in favor of the&#8230;</p>\n<p>The post <a href=\"https:"
+        "title": "1 vCPU Linux runner now generally available in GitHub Actions",
+        "url": "https://github.blog/changelog/2026-01-22-1-vcpu-linux-runner-now-generally-available-in-github-actions",
+        "date": "2026-01-22T17:00:00Z",
+        "summary": "<p>GitHub Actions 1 vCPU Linux runners are now generally available. All customers can now take advantage of these lower cost runners. These runners are optimized for automation tasks, issue operations"
       },
       {
-        "title": "A cheat sheet to slash commands in GitHub Copilot CLI",
-        "url": "https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/",
-        "date": "2026-01-21T17:09:10Z",
-        "summary": "<p>Run tests, fix code, and get support—right in your workflow. Stay focused and let Copilot handle the busywork.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to"
+        "title": "Build an agent into any app with the GitHub Copilot SDK",
+        "url": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
+        "date": "2026-01-22T15:01:44Z",
+        "summary": "<p>Now in technical preview, the GitHub Copilot SDK can plan, invoke tools, edit files, and run commands as a programmable layer you can use in any application. </p>\n<p>The post <a href=\"https://githu"
       }
     ],
     "new_videos": [
       {
-        "title": "Rubber Duck Thursdays - Let's build with GitHub Copilot CLI",
-        "video_id": "dGzIEn4MFMQ",
-        "date": "2026-01-21T21:33:57+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/dGzIEn4MFMQ/hqdefault.jpg"
+        "title": "The GitHub Copilot SDK is here! - Rubber Duck Thursdays",
+        "video_id": "6yzGew8wA4A",
+        "date": "2026-01-22T19:01:30+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/6yzGew8wA4A/hqdefault.jpg"
+      },
+      {
+        "title": "Add an AI agent to your app with GitHub Copilot SDK",
+        "video_id": "hLzIAWIezBg",
+        "date": "2026-01-22T16:01:20+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/hLzIAWIezBg/hqdefault.jpg"
+      },
+      {
+        "title": "Demo: Using GitHub Copilot CLI and yolo mode",
+        "video_id": "UMz8aQ4lOtE",
+        "date": "2026-01-22T00:00:59+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/UMz8aQ4lOtE/hqdefault.jpg"
       }
     ]
   }
