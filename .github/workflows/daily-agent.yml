@@ -56,7 +56,7 @@ jobs:
             echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
           fi
       
-      # Commit data files
+      # Commit data files to main
       - name: Commit Data Files
         if: steps.changes.outputs.HAS_CHANGES == 'true'
         run: |
@@ -65,6 +65,50 @@ jobs:
           git add data/
           git commit -m "chore: update scraped data [$(date +'%Y-%m-%d')]"
           git push
+      
+      # Update any open content PRs to avoid merge conflicts
+      - name: Update Open Content PRs
+        if: steps.changes.outputs.HAS_CHANGES == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find open PRs with "Content update" in title
+          OPEN_PRS=$(gh pr list --state open --json number,title --jq '.[] | select(.title | contains("Content update")) | .number')
+          
+          if [ -n "$OPEN_PRS" ]; then
+            echo "Found open content PRs: $OPEN_PRS"
+            for PR_NUMBER in $OPEN_PRS; do
+              echo "Updating PR #$PR_NUMBER with latest main..."
+              
+              # Get PR branch name
+              PR_BRANCH=$(gh pr view "$PR_NUMBER" --json headRefName --jq '.headRefName')
+              
+              # Checkout PR branch and merge main
+              git fetch origin "$PR_BRANCH"
+              git checkout "$PR_BRANCH"
+              
+              # Merge main (use --theirs for metadata conflicts)
+              if git merge main -m "chore: merge main to resolve conflicts"; then
+                echo "✓ Merged main successfully"
+              else
+                # Resolve conflicts by taking newer metadata from main
+                git checkout --theirs data/metadata.json data/changes-summary.json 2>/dev/null || true
+                git add data/metadata.json data/changes-summary.json 2>/dev/null || true
+                git commit -m "chore: merge main and resolve metadata conflicts" 2>/dev/null || true
+              fi
+              
+              # Push updated branch
+              git push origin "$PR_BRANCH" || echo "⚠ Failed to push updates to PR #$PR_NUMBER"
+              
+              # Comment on PR
+              gh pr comment "$PR_NUMBER" --body "🤖 Auto-updated branch with latest data from main to resolve merge conflicts."
+            done
+            
+            # Return to main
+            git checkout main
+          else
+            echo "No open content PRs found to update"
+          fi
       
       # Trigger Publisher Agent (only if changes detected)
       - name: Create Issue for Publisher Agent

@@ -2,7 +2,7 @@
 
 > Curated learning paths for mastering GitHub Copilot
 
-**Last Updated**: January 12, 2026
+**Last Updated**: January 21, 2026
 
 ---
 
@@ -253,4 +253,4 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ---
 
-*Courses are curated based on quality, relevance, and recency. All information verified as of December 22, 2025.*
+*Courses are curated based on quality, relevance, and recency. All information verified as of January 21, 2026.*
