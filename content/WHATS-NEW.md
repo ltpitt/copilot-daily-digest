@@ -2,11 +2,56 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: January 21, 2026
+**Last Updated**: January 22, 2026
 
 ---
 
 ## This Week (Last 7 Days)
+
+### GitHub Copilot CLI: Plan Before You Build, Steer as You Go (Jan 21, 2026)
+
+**What's new**:
+- Powerful new reasoning models integrated into GitHub Copilot CLI
+- Intelligent workflow features that let you steer conversations as tasks progress
+- Enhanced terminal-based agentic AI assistance
+- Better multi-step task execution with planning capabilities
+
+**Why it matters**: Copilot CLI now helps you plan complex tasks before executing them, providing a more thoughtful and controlled development experience directly in your terminal.
+
+**Get started**:
+→ [Read announcement](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go) | [Watch demo](https://youtube.com/watch?v=dGzIEn4MFMQ) | [Slash commands cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+
+---
+
+### Install GitHub Copilot CLI Directly from GitHub CLI (Jan 21, 2026)
+
+**What's new**:
+- Run `gh copilot` to install and use GitHub Copilot CLI directly
+- Simplified installation process integrated into GitHub CLI
+- Deprecation of the GitHub Copilot in the CLI extension
+- Streamlined setup for terminal-based AI assistance
+
+**Why it matters**: Easier access to Copilot CLI means you can start using AI-powered terminal assistance faster, with one simple command.
+
+**Get started**:
+→ [Installation guide](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli) | [Commands reference](COMMANDS.md#copilot-cli)
+
+---
+
+### Slash Commands Cheat Sheet for Copilot CLI (Jan 21, 2026)
+
+**What's new**:
+- Comprehensive cheat sheet for GitHub Copilot CLI slash commands
+- Commands for running tests, fixing code, and getting support
+- Workflow-focused shortcuts to handle busywork
+- Keep developers in flow state with terminal-native assistance
+
+**Why it matters**: Quick reference to slash commands helps you leverage Copilot CLI's full power without context-switching or memorizing syntax.
+
+**Get started**:
+→ [View cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/) | [Full commands list](COMMANDS.md)
+
+---
 
 ### Documentation Refresh (Jan 21, 2026)
 

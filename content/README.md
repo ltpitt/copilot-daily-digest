@@ -1,6 +1,6 @@
 # GitHub Copilot Daily Digest
 
-> Last updated: January 21, 2026 | Tracking GitHub Copilot updates daily
+> Last updated: January 22, 2026 | Tracking GitHub Copilot updates daily
 
 Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
 
@@ -24,10 +24,21 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 
 ## Current Stats
 
-- **14 documentation updates** in the last 7 days
+- **17 updates** in the last 7 days (3 blog posts, 14 documentation updates)
+- **85+ blog articles** tracked
 - **7 training courses** available
-- **15 documentation files** tracked
-- **Last scrape**: January 21, 2026 at 10:56 UTC
+- **14 documentation files** tracked
+- **Last scrape**: January 21, 2026 at 23:24 UTC
+
+## Spotlight: GitHub Copilot CLI (New!)
+
+Three major updates to GitHub Copilot CLI on January 21, 2026:
+
+1. **[Plan Before You Build](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)** - New reasoning models and planning capabilities
+2. **[Easy Installation](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)** - Install with `gh copilot`
+3. **[Slash Commands Cheat Sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)** - Quick reference for terminal workflows
+
+**Get started**: [Commands Guide](COMMANDS.md#copilot-cli) | [Watch Demo](https://youtube.com/watch?v=dGzIEn4MFMQ)
 
 ## Official Resources
 

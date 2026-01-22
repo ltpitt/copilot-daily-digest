@@ -2,7 +2,7 @@
 
 > Your 5-minute guide to productive AI pair programming
 
-**Last Updated**: January 21, 2026
+**Last Updated**: January 22, 2026
 
 ## Quick Setup
 
@@ -18,7 +18,23 @@ code --install-extension GitHub.copilot
 **Visual Studio**: Built-in for Version 17.14+  
 **Xcode/Eclipse**: Available for Pro/Pro+ subscribers
 
-### 2. Try Your First Prompt
+### 2. Install Copilot CLI (Optional but Recommended)
+
+**NEW (Jan 2026)**: Bring AI assistance directly to your terminal:
+
+```bash
+# Install via GitHub CLI
+gh copilot
+```
+
+The command will prompt you to install if not already installed. Once set up, you get:
+- Planning capabilities for complex terminal tasks
+- Slash commands for testing, fixing, and debugging
+- Reasoning models for smarter command suggestions
+
+→ **Learn more**: [Installation guide](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli) | [Slash commands cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+
+### 3. Try Your First Prompt
 
 Open any file and type a comment:
 ```javascript
@@ -27,14 +43,14 @@ Open any file and type a comment:
 
 Press `Enter` - Copilot suggests the implementation. Press `Tab` to accept.
 
-### 3. Use Chat for Complex Tasks
+### 4. Use Chat for Complex Tasks
 
 Press `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac) for inline chat:
 ```
 Explain this codebase structure and list any failing tests
 ```
 
-### 4. Enable Agent Mode (Optional)
+### 5. Enable Agent Mode (Optional)
 
 For autonomous multi-step tasks:
 - VS Code: Chat view → Select "Agent" from mode dropdown

@@ -9,6 +9,7 @@
 ## Table of Contents
 
 - [Slash Commands](#slash-commands)
+- [Copilot CLI](#copilot-cli)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Chat Variables](#chat-variables)
 - [Chat Participants](#chat-participants)
@@ -37,6 +38,44 @@ Type `/` in the chat prompt box to see all available commands.
 - Combine slash commands with context: `/tests` with a function selected
 - Chain slash commands in conversation: `/generate` → `/tests` → `/doc`
 - Use `/explain` to understand Copilot's own suggestions
+
+---
+
+## Copilot CLI
+
+**NEW (Jan 2026)**: GitHub Copilot CLI brings AI assistance directly to your terminal.
+
+### Installation
+
+```bash
+# Install via GitHub CLI (recommended)
+gh copilot
+
+# The command will prompt you to install if not already installed
+```
+
+### CLI Slash Commands
+
+Use these slash commands in GitHub Copilot CLI for terminal-based workflows:
+
+| Command | Description | Use Case |
+|---------|-------------|----------|
+| `/test` | Run tests for the current context | Quickly execute test suites |
+| `/fix` | Suggest fixes for errors or issues | Debug failing tests or code |
+| `/explain` | Explain terminal output or commands | Understand error messages |
+| `/suggest` | Suggest commands for a task | Get CLI recommendations |
+| `/plan` | Plan multi-step tasks before executing | Complex workflows requiring thought |
+
+**Key Features**:
+- **Planning mode**: Think through tasks before execution
+- **Reasoning models**: Advanced AI models for complex terminal tasks
+- **Workflow steering**: Guide the AI as tasks progress
+- **Context awareness**: Understands your project and terminal history
+
+**Learn More**:
+- [Copilot CLI cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+- [Installation guide](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)
+- [Planning workflows](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)
 
 ---
 

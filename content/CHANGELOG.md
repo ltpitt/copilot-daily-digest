@@ -2,13 +2,40 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: January 21, 2026
+**Last Updated**: January 22, 2026
 
 ---
 
 ## January 2026
 
 ### January 21, 2026
+
+#### Blog Posts
+
+- **[GitHub Copilot CLI: Plan before you build, steer as you go](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)**
+  - Powerful new reasoning models integrated into Copilot CLI
+  - Intelligent workflow features for steering conversations
+  - Enhanced agentic AI assistance in the terminal
+  - Planning capabilities for multi-step task execution
+
+- **[Install and Use GitHub Copilot CLI directly from the GitHub CLI](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)**
+  - Run `gh copilot` to install and use Copilot CLI
+  - Simplified installation integrated into GitHub CLI
+  - Deprecation of GitHub Copilot in the CLI extension
+  - Streamlined setup for terminal AI assistance
+
+- **[A cheat sheet to slash commands in GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)**
+  - Comprehensive slash commands reference
+  - Commands for testing, fixing, and support
+  - Workflow-focused shortcuts
+  - Terminal-native assistance for staying in flow
+
+#### Videos
+
+- **[Rubber Duck Thursdays - Let's build with GitHub Copilot CLI](https://youtube.com/watch?v=dGzIEn4MFMQ)**
+  - Hands-on demonstration of Copilot CLI features
+  - Building applications with terminal-based AI assistance
+  - Real-world workflows and best practices
 
 #### Documentation Updates
 - **copilot-overview.md** - Documentation refresh (6.7 KB)
