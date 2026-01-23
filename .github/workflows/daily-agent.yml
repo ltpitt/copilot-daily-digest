@@ -113,14 +113,15 @@ jobs:
       # Trigger Publisher Agent (only if changes detected)
       - name: Create Issue for Publisher Agent
         if: steps.changes.outputs.HAS_CHANGES == 'true'
+        id: create_issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Read change summary
           SUMMARY=$(cat data/changes-summary.json | jq -r '.summary_text')
           
-          # Create issue for Publisher agent
-          gh issue create \
+          # Create issue for Publisher agent and capture the URL
+          ISSUE_URL=$(gh issue create \
             --title "📰 Content Update Required - $(date +'%Y-%m-%d')" \
             --body "## Changes Detected
 
@@ -195,7 +196,23 @@ jobs:
 
           **Instructions file**: \`.github/copilot-instructions.md\` has complete generation rules for each file
 
-          Create a PR with all 7 files (VIDEOS.md already exists, don't touch it)."
+          Create a PR with all 7 files (VIDEOS.md already exists, don't touch it).")
+          
+          # Extract issue number from URL
+          ISSUE_NUMBER=$(echo "$ISSUE_URL" | grep -oP '\d+$')
+          echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
+          echo "Created issue #$ISSUE_NUMBER: $ISSUE_URL"
+      
+      # Assign issue to copilot
+      - name: Assign Issue to Copilot
+        if: steps.changes.outputs.HAS_CHANGES == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_NUMBER="${{ steps.create_issue.outputs.ISSUE_NUMBER }}"
+          echo "Assigning issue #$ISSUE_NUMBER to @copilot..."
+          gh issue edit "$ISSUE_NUMBER" --add-assignee "copilot"
+          echo "✓ Issue #$ISSUE_NUMBER assigned to @copilot"
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'
