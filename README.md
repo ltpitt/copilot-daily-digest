@@ -47,6 +47,7 @@ The repository updates automatically via GitHub Actions:
 
 3. **Generate Content** (if changes detected)
    - Publisher Agent creates issue
+   - **Issue automatically assigned to @copilot**
    - Agent generates all content files
    - Agent creates PR for review
 
@@ -117,6 +118,19 @@ gh workflow run daily-agent.yml
 
 # Monitor workflow
 gh run list --workflow=daily-agent.yml
+
+# View latest run
+gh run view
+```
+
+### Test Copilot Assignment
+
+```bash
+# Test automatic copilot assignment
+./scripts/test_copilot_assignment.sh
+```
+
+See [Copilot Assignment Testing Guide](docs/COPILOT_ASSIGNMENT_TESTING.md) for detailed testing instructions.
 
 # View latest run
 gh run view
