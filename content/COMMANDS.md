@@ -2,7 +2,7 @@
 
 > Quick reference for slash commands, keyboard shortcuts, and chat variables
 
-**Last Updated**: January 21, 2026
+**Last Updated**: January 22, 2026
 
 ---
 
@@ -10,6 +10,7 @@
 
 - [Slash Commands](#slash-commands)
 - [Copilot CLI](#copilot-cli)
+- [Copilot SDK](#copilot-sdk)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Chat Variables](#chat-variables)
 - [Chat Participants](#chat-participants)
@@ -76,6 +77,47 @@ Use these slash commands in GitHub Copilot CLI for terminal-based workflows:
 - [Copilot CLI cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
 - [Installation guide](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)
 - [Planning workflows](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)
+
+---
+
+## Copilot SDK
+
+**NEW (Jan 2026)**: Build AI agents into any application with the GitHub Copilot SDK (Technical Preview).
+
+### Core Capabilities
+
+The SDK provides a programmable layer for integrating agentic AI into your applications:
+
+| Capability | Description | Use Case |
+|------------|-------------|----------|
+| **Planning** | Autonomous task planning with reasoning | Multi-step workflows |
+| **Tool Invocation** | Execute functions and API calls | Custom integrations |
+| **File Editing** | Modify code across multiple files | Code generation tools |
+| **Command Execution** | Run shell commands safely | Build/test automation |
+
+### Quick Start
+
+```javascript
+// Example: Initialize Copilot SDK
+import { CopilotSDK } from '@github/copilot-sdk';
+
+const agent = new CopilotSDK({
+  apiKey: process.env.COPILOT_API_KEY
+});
+
+// Plan and execute a task
+const result = await agent.plan('Create a REST API endpoint for user authentication');
+await agent.execute(result.plan);
+```
+
+### SDK Resources
+
+- [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)
+- [Watch: SDK overview](https://www.youtube.com/watch?v=6yzGew8wA4A)
+- [Watch: Integration guide](https://www.youtube.com/watch?v=hLzIAWIezBg)
+- Documentation: Coming soon to docs.github.com
+
+**Status**: Technical Preview (Jan 2026)
 
 ---
 

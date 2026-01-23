@@ -14,7 +14,7 @@ This starter kit helps you master GitHub Copilot, from understanding the AI land
 
 ## 1. Understand the Landscape
 
-### Three Tools, One Mission
+### Four Tools, One Mission
 
 **GitHub Copilot (in your IDE)**
 - Your AI pair programmer
@@ -35,7 +35,18 @@ This starter kit helps you master GitHub Copilot, from understanding the AI land
 - Reasoning models for smarter command suggestions
 - Install with: `gh copilot`
 
-**Key Difference**: Copilot assists you in real-time as you code. Coding Agent works autonomously on defined tasks. Copilot CLI brings AI to your terminal workflows.
+**GitHub Copilot SDK (build agents)** **NEW (Jan 2026 - Technical Preview)**
+- Programmable layer for building AI agents into any application
+- Enables planning, tool invocation, file editing, command execution
+- Build custom agents tailored to your workflows
+- Simple developer API for agentic AI capabilities
+- Use cases: CLI tools, web apps, automation pipelines, custom integrations
+
+**Key Differences**: 
+- **Copilot** assists you in real-time as you code
+- **Coding Agent** works autonomously on defined tasks
+- **Copilot CLI** brings AI to your terminal workflows
+- **Copilot SDK** lets you embed agent capabilities into your own applications
 
 ---
 

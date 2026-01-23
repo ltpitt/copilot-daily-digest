@@ -8,6 +8,66 @@
 
 ## January 2026
 
+### January 22, 2026
+
+#### Blog Posts
+
+- **[Build an agent into any app with the GitHub Copilot SDK](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)**
+  - GitHub Copilot SDK now in technical preview
+  - Programmable layer for building AI agents into any application
+  - Capabilities: planning, tool invocation, file editing, command execution
+  - Simple developer API for agentic AI features
+  - Enables custom agents tailored to specific workflows
+
+- **[1 vCPU Linux runner now generally available in GitHub Actions](https://github.blog/changelog/2026-01-22-1-vcpu-linux-runner-now-generally-available-in-github-actions)**
+  - Lower cost 1 vCPU Linux runners now GA
+  - Optimized for automation tasks and issue operations
+  - Cost-effective option for lightweight workflows
+  - Available to all GitHub Actions customers
+
+- **[Faster loading for GitHub Issues](https://github.blog/changelog/2026-01-22-faster-loading-for-github-issues)**
+  - 35% of issue views now load in under 200ms (up from 2%)
+  - Significant performance improvements throughout the year
+  - Faster issue browsing and navigation
+  - Enhanced developer productivity
+
+#### Videos
+
+- **[The GitHub Copilot SDK is here! - Rubber Duck Thursdays](https://www.youtube.com/watch?v=6yzGew8wA4A)**
+  - Introduction to the GitHub Copilot SDK
+  - Live demonstrations of SDK capabilities
+  - Building agents with the SDK
+  - Q&A about technical preview features
+
+- **[Add an AI agent to your app with GitHub Copilot SDK](https://www.youtube.com/watch?v=hLzIAWIezBg)**
+  - Step-by-step guide to integrating Copilot SDK
+  - Adding agentic AI to existing applications
+  - Real-world use cases and examples
+  - Best practices for SDK integration
+
+- **[Demo: Using GitHub Copilot CLI and yolo mode](https://www.youtube.com/watch?v=UMz8aQ4lOtE)**
+  - Demonstration of Copilot CLI's autonomous mode
+  - Real-world terminal workflow examples
+  - Multi-step task execution with AI
+  - Tips for safe autonomous command execution
+
+#### Documentation Updates
+
+- **copilot-extensions-integration.md** - Integration guide refresh
+- **copilot-code-suggestions.md** - Code suggestions guide update
+- **copilot-custom-instructions.md** - Custom instructions update
+- **copilot-troubleshooting.md** - Troubleshooting guide refresh
+- **copilot-configuration.md** - Configuration guide update
+- **copilot-getting-started.md** - Updated quickstart guide
+- **copilot-extensions-overview.md** - Extensions documentation update
+- **copilot-chat.md** - Enhanced chat documentation
+- **copilot-managing-organization.md** - Organization management update
+- **copilot-asking-questions.md** - Question patterns update
+- **copilot-overview.md** - Documentation refresh
+- **copilot-best-practices.md** - Best practices refinement
+- **copilot-prompt-engineering.md** - Prompt engineering guide update
+- **copilot-responsible-use.md** - Responsible use guidelines update
+
 ### January 21, 2026
 
 #### Blog Posts

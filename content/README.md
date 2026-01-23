@@ -24,21 +24,28 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 
 ## Current Stats
 
-- **17 updates** in the last 7 days (3 blog posts, 14 documentation updates)
-- **85+ blog articles** tracked
+- **21 updates** in the last 7 days (3 blog posts, 3 videos, 14 documentation updates, 1 deletion)
+- **89+ blog articles** tracked
 - **7 training courses** available
 - **14 documentation files** tracked
-- **Last scrape**: January 21, 2026 at 23:24 UTC
+- **Last scrape**: January 22, 2026 at 23:23 UTC
 
-## Spotlight: GitHub Copilot CLI (New!)
+## Spotlight: GitHub Copilot SDK (New!)
 
-Three major updates to GitHub Copilot CLI on January 21, 2026:
+**Build an agent into any app with the GitHub Copilot SDK** - Now in technical preview!
 
-1. **[Plan Before You Build](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)** - New reasoning models and planning capabilities
-2. **[Easy Installation](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)** - Install with `gh copilot`
-3. **[Slash Commands Cheat Sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)** - Quick reference for terminal workflows
+The GitHub Copilot SDK is a programmable layer that brings AI agent capabilities to any application. It can plan tasks, invoke tools, edit files, and run commands—all through a simple, developer-friendly API.
 
-**Get started**: [Commands Guide](COMMANDS.md#copilot-cli) | [Watch Demo](https://youtube.com/watch?v=dGzIEn4MFMQ)
+**Key capabilities**:
+- **Planning**: Autonomous task planning with step-by-step reasoning
+- **Tool invocation**: Execute functions and API calls
+- **File editing**: Modify code across multiple files
+- **Command execution**: Run shell commands safely
+
+**Get started**:
+→ [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)
+→ [Watch: "The GitHub Copilot SDK is here!"](https://www.youtube.com/watch?v=6yzGew8wA4A)
+→ [Watch: "Add an AI agent to your app"](https://www.youtube.com/watch?v=hLzIAWIezBg)
 
 ## Official Resources
 

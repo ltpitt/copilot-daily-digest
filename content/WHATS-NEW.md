@@ -8,6 +8,53 @@
 
 ## This Week (Last 7 Days)
 
+### GitHub Copilot SDK: Build AI Agents into Any App (Jan 22, 2026)
+
+**What's new**:
+- GitHub Copilot SDK now in technical preview
+- Programmable AI agent layer for any application
+- Plan tasks, invoke tools, edit files, and run commands
+- Simple developer API for agentic AI capabilities
+- Build custom agents tailored to your application needs
+
+**Why it matters**: The SDK democratizes AI agent development, enabling developers to integrate Copilot's powerful planning and execution capabilities into their own applications—from CLI tools to web apps to automation workflows.
+
+**Get started**:
+→ [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/) | [Watch: SDK overview](https://www.youtube.com/watch?v=6yzGew8wA4A) | [Watch: Add agent to app](https://www.youtube.com/watch?v=hLzIAWIezBg)
+
+---
+
+### GitHub Copilot CLI: YOLO Mode Demo (Jan 22, 2026)
+
+**What's new**:
+- Demonstration of GitHub Copilot CLI's "yolo mode"
+- Autonomous execution of terminal commands with AI
+- See how Copilot CLI handles complex multi-step tasks
+- Real-world examples of terminal-based agentic AI
+
+**Why it matters**: YOLO mode showcases the power of trusting AI to execute commands autonomously, dramatically accelerating terminal workflows for experienced developers.
+
+**Get started**:
+→ [Watch demo](https://www.youtube.com/watch?v=UMz8aQ4lOtE) | [CLI commands reference](COMMANDS.md#copilot-cli)
+
+---
+
+### Documentation Refresh (Jan 22, 2026)
+
+**What's new**:
+- All 14 core GitHub Copilot documentation pages refreshed
+- Enhanced guides for chat capabilities, code suggestions, and extensions
+- Updated best practices and prompt engineering documentation
+- Improved troubleshooting and configuration resources
+- Refreshed organization management and responsible use guidelines
+
+**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities, helping you leverage all features effectively.
+
+**Get started**:
+→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot) | [Prompt engineering tips](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+
+---
+
 ### GitHub Copilot CLI: Plan Before You Build, Steer as You Go (Jan 21, 2026)
 
 **What's new**:
