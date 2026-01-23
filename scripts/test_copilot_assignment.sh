@@ -40,7 +40,7 @@ This is a test issue and can be closed after verification." \
     --label "test")
 
 # Extract issue number from URL
-ISSUE_NUMBER=$(echo "$ISSUE_URL" | grep -oP '\d+$')
+ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
 echo "✓ Created issue #$ISSUE_NUMBER: $ISSUE_URL"
 echo ""
 
@@ -67,15 +67,15 @@ sleep 10
 
 # Check for PRs created by copilot
 echo "Looking for PRs created by copilot for issue #$ISSUE_NUMBER..."
-COPILOT_PRS=$(gh pr list --state all --author "copilot" --json number,title,headRefName --jq ".[] | select(.title | contains(\"#$ISSUE_NUMBER\")) | {number, title, headRefName}")
+COPILOT_PRS=$(gh pr list --state all --author "copilot" --json number,title,headRefName)
 
-if [ -n "$COPILOT_PRS" ]; then
+if [ -n "$COPILOT_PRS" ] && [ "$COPILOT_PRS" != "[]" ]; then
     echo "✓ Found PR(s) created by copilot:"
-    echo "$COPILOT_PRS"
+    echo "$COPILOT_PRS" | jq .
     
-    # Extract PR number and branch
-    PR_NUMBER=$(echo "$COPILOT_PRS" | jq -r '.number')
-    PR_BRANCH=$(echo "$COPILOT_PRS" | jq -r '.headRefName')
+    # Get the most recent PR by copilot
+    PR_NUMBER=$(echo "$COPILOT_PRS" | jq -r '.[0].number')
+    PR_BRANCH=$(echo "$COPILOT_PRS" | jq -r '.[0].headRefName')
     
     echo ""
     echo "Step 5: Cleaning up - Closing PR #$PR_NUMBER..."

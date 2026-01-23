@@ -199,7 +199,7 @@ jobs:
           Create a PR with all 7 files (VIDEOS.md already exists, don't touch it).")
           
           # Extract issue number from URL
-          ISSUE_NUMBER=$(echo "$ISSUE_URL" | grep -oP '\d+$')
+          ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
           echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
           echo "Created issue #$ISSUE_NUMBER: $ISSUE_URL"
       
