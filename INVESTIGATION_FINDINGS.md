@@ -51,6 +51,16 @@ GitHub Copilot Coding Agent does **NOT** require assignment to a user named "cop
 
 This means **the issue is already properly configured to invoke Copilot** - the assignment step is unnecessary and incorrect.
 
+### Official GitHub Documentation References
+
+According to GitHub's official documentation:
+
+1. **GitHub Issues API - Add Assignees**: The [GitHub REST API for adding assignees](https://docs.github.com/en/rest/issues/assignees#add-assignees-to-an-issue) requires valid GitHub user accounts. The API returns a 404 error when attempting to assign to a non-existent user like `copilot`.
+
+2. **GitHub Copilot Coding Agent**: GitHub Copilot is triggered by `@copilot` mentions in issue descriptions and comments, not by the assignee field. See [GitHub Copilot documentation](https://docs.github.com/en/copilot) for details on how to interact with Copilot in issues.
+
+3. **GitHub CLI Issue Edit**: The `gh issue edit --add-assignee` command validates assignees against existing GitHub users before making the API call. Non-existent users result in the error: `'<username>' not found`.
+
 ## Impact
 
 - ✅ **Issues are created successfully** (e.g., issue #229 created on 2026-01-23)
@@ -59,6 +69,24 @@ This means **the issue is already properly configured to invoke Copilot** - the 
 - ❌ **Workflow fails** due to the unnecessary assignment step
 - ❌ **False impression** that issues aren't being processed
 - ❌ **Blocks workflow completion** even though the actual goal is achieved
+
+## What We Did Wrong
+
+Based on official GitHub documentation and API behavior:
+
+1. **Misunderstanding of GitHub Copilot Invocation**: We incorrectly assumed that assigning an issue to a user named "copilot" would trigger the GitHub Copilot Coding Agent. In reality, Copilot responds to `@copilot` mentions in issue bodies and comments, not via the assignee field.
+
+2. **Attempting to Assign to Non-Existent User**: The command `gh issue edit --add-assignee "copilot"` fails because:
+   - There is no GitHub user account with the username `copilot`
+   - The GitHub API validates assignees and returns a 404 error for non-existent users
+   - The GitHub CLI correctly reports this as `'copilot' not found`
+
+3. **Redundant Workflow Step**: The assignment step (lines 207-215 in `daily-agent.yml`) is completely unnecessary because:
+   - The issue body already contains `@copilot` mentions (line 132)
+   - This is the only requirement to trigger Copilot
+   - Historical evidence: Issues #220-#227 were successfully processed by Copilot with NO assignees
+
+4. **Documentation Following Incorrect Assumptions**: Multiple documentation files (listed below) were created based on the false premise that assignment was necessary, leading to perpetuation of the incorrect approach.
 
 ## Documentation Issues
 
