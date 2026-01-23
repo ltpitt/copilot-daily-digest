@@ -2,7 +2,7 @@
 
 > Master GitHub Copilot: comprehensive onboarding for engineers
 
-**Last Updated**: January 21, 2026
+**Last Updated**: January 22, 2026
 
 ---
 
@@ -14,7 +14,7 @@ This starter kit helps you master GitHub Copilot, from understanding the AI land
 
 ## 1. Understand the Landscape
 
-### Two Modes, One Mission
+### Three Tools, One Mission
 
 **GitHub Copilot (in your IDE)**
 - Your AI pair programmer
@@ -28,7 +28,14 @@ This starter kit helps you master GitHub Copilot, from understanding the AI land
 - Ideal for scaffolding, automation, and repetitive workflows
 - Operates on GitHub repositories or through IDE agent mode
 
-**Key Difference**: Copilot assists you in real-time as you code. Coding Agent works autonomously on defined tasks.
+**GitHub Copilot CLI (terminal)** **NEW (Jan 2026)**
+- AI assistance directly in your terminal
+- Planning capabilities for complex tasks
+- Slash commands for testing, fixing, and debugging
+- Reasoning models for smarter command suggestions
+- Install with: `gh copilot`
+
+**Key Difference**: Copilot assists you in real-time as you code. Coding Agent works autonomously on defined tasks. Copilot CLI brings AI to your terminal workflows.
 
 ---
 
@@ -171,17 +178,23 @@ Copilot is not designed to:
 
 ---
 
-## 4. Agent Mode vs Coding Agent
+## 4. Comparison: Copilot vs Coding Agent vs CLI
 
-| Feature | Copilot (IDE) | Coding Agent |
-|---------|--------------|--------------|
-| **Location** | Your IDE | GitHub/IDE Agent Mode |
-| **Prompting** | Conversational, iterative | Structured task description |
-| **Context** | Open files, editor state | Repository-wide |
-| **Validation** | Manual review | Can include automated tests |
-| **Scope** | Single function/file | Multi-file tasks |
-| **Workflow** | Interactive pair programming | Autonomous task execution |
-| **Best For** | Real-time coding, learning | Scaffolding, automation |
+| Feature | Copilot (IDE) | Coding Agent | Copilot CLI |
+|---------|--------------|--------------|-------------|
+| **Location** | Your IDE | GitHub/IDE Agent Mode | Terminal |
+| **Prompting** | Conversational, iterative | Structured task description | Commands & natural language |
+| **Context** | Open files, editor state | Repository-wide | Terminal history, filesystem |
+| **Validation** | Manual review | Can include automated tests | Manual review |
+| **Scope** | Single function/file | Multi-file tasks | Terminal commands & scripts |
+| **Workflow** | Interactive pair programming | Autonomous task execution | Terminal assistance |
+| **Best For** | Real-time coding, learning | Scaffolding, automation | CLI workflows, debugging |
+| **Key Feature** | Inline suggestions | Multi-step task planning | Planning before execution |
+
+**When to use each**:
+- **IDE Copilot**: Writing code, refactoring, learning new patterns
+- **Coding Agent**: Complex multi-file tasks, scaffolding, automation
+- **Copilot CLI**: Terminal workflows, debugging commands, script generation
 
 ---
 
@@ -190,17 +203,20 @@ Copilot is not designed to:
 ### Quick Action Checklist
 
 ✅ Install Copilot extension in your IDE  
+✅ Install Copilot CLI with `gh copilot` (NEW!)  
 ✅ Try inline suggestions on a simple function  
 ✅ Ask Copilot Chat to explain unfamiliar code  
 ✅ Use `/tests` to generate test cases  
 ✅ Experiment with different AI models (GPT, Claude, Gemini)  
 ✅ Enable Auto Model Selection in VS Code  
-✅ Try Agent Mode for a multi-file refactoring task
+✅ Try Agent Mode for a multi-file refactoring task  
+✅ Use Copilot CLI for terminal tasks (NEW!)
 
 ### Your First Week with Copilot
 
 **Day 1**: Installation and inline suggestions
 - Install extension, authenticate
+- Install Copilot CLI with `gh copilot`
 - Write simple functions with inline suggestions
 - Practice accepting/rejecting suggestions
 
@@ -214,12 +230,18 @@ Copilot is not designed to:
 - Use `@workspace` for repo context
 - Experiment with chat variables (#file, #selection)
 
-**Day 4**: Model selection
+**Day 4**: Copilot CLI workflows (NEW!)
+- Try `gh copilot` in terminal
+- Use planning mode for complex tasks
+- Experiment with CLI slash commands
+- [Review CLI cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+
+**Day 5**: Model selection
 - Try different AI models
 - Enable Auto Model Selection
 - Compare results for different tasks
 
-**Day 5**: Agent Mode
+**Day 6**: Agent Mode
 - Use Agent Mode for a small feature
 - Review multi-file changes
 - Refine your task descriptions
