@@ -2,11 +2,63 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: January 22, 2026
+**Last Updated**: January 23, 2026
 
 ---
 
 ## This Week (Last 7 Days)
+
+### Improved Pull Request "Files Changed" Experience (Jan 23, 2026)
+
+**What's new**:
+- Enhanced PR "Files Changed" page now default for all users
+- Comment on any line of a changed file, not just surrounding changes
+- View PR description from inline Overview panel without page switching
+- Enhanced file tree with resizable layout and status indicators
+- Draft comments saved locally to prevent accidental loss
+- Experimental virtualization mode for large PRs improves performance
+- Better keyboard navigation and screen reader accessibility
+
+**Why it matters**: Code review is a critical part of the development workflow. These improvements make reviewing pull requests faster, more efficient, and accessible to all developers. The experimental virtualization mode is especially valuable for large PRs that previously caused browser performance issues.
+
+**Key features**:
+- **Pending comments preview**: Review all your feedback before submitting
+- **Fewer page reloads**: Switching modes and refreshing changes no longer force full reloads
+- **Increased line spacing**: Improved readability options for code diffs
+- **Fixed bugs**: Resolved issues with comment workflows, suggested changes, and keyboard shortcuts
+
+**Learn more**:
+→ [Read announcement](https://github.blog/changelog/2026-01-22-improved-pull-request-files-changed-page-on-by-default)
+
+---
+
+### Documentation Refresh (Jan 23, 2026)
+
+**What's new**:
+- All 14 core GitHub Copilot documentation pages refreshed
+- Enhanced guides for chat capabilities, code suggestions, and extensions
+- Updated best practices and prompt engineering documentation
+- Improved troubleshooting and configuration resources
+- Refreshed organization management and responsible use guidelines
+
+**Updated documentation**:
+- **Getting Started**: Quickstart guides for all supported IDEs
+- **Chat**: Slash commands, chat variables, GitHub skills, and MCP servers
+- **Code Suggestions**: Inline completions and best practices
+- **Extensions**: Building and integrating Copilot extensions
+- **Custom Instructions**: Repository and organization-level customization
+- **Configuration**: IDE-specific setup and settings
+- **Prompt Engineering**: Advanced techniques for better responses
+- **Best Practices**: Updated guidance for effective Copilot usage
+- **Troubleshooting**: Common issues and solutions
+- **Organization Management**: Admin controls and policies
+- **Responsible Use**: Ethical AI usage and security considerations
+
+**Why it matters**: Keeping documentation current ensures developers have accurate information about Copilot's latest features and capabilities.
+
+---
+
+## This Month (Last 30 Days)
 
 ### GitHub Copilot SDK: Build AI Agents into Any App (Jan 22, 2026)
 
@@ -36,17 +88,6 @@
 
 **Get started**:
 → [Watch demo](https://www.youtube.com/watch?v=UMz8aQ4lOtE) | [CLI commands reference](COMMANDS.md#copilot-cli)
-
----
-
-### Documentation Refresh (Jan 22, 2026)
-
-**What's new**:
-- All 14 core GitHub Copilot documentation pages refreshed
-- Enhanced guides for chat capabilities, code suggestions, and extensions
-- Updated best practices and prompt engineering documentation
-- Improved troubleshooting and configuration resources
-- Refreshed organization management and responsible use guidelines
 
 **Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities, helping you leverage all features effectively.
 

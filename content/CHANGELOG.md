@@ -2,11 +2,41 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: January 22, 2026
+**Last Updated**: January 23, 2026
 
 ---
 
 ## January 2026
+
+### January 23, 2026
+
+#### Blog Posts
+
+- **[Improved pull request "Files changed" page on by default](https://github.blog/changelog/2026-01-22-improved-pull-request-files-changed-page-on-by-default)**
+  - Enhanced PR review experience now default for all users
+  - Comment on any line of changed files, not just surrounding changes
+  - View PR description from inline Overview panel
+  - Enhanced file tree with resizable layout and status indicators
+  - Draft comments saved locally to prevent loss
+  - Experimental virtualization mode for large PRs
+  - Improved keyboard navigation and accessibility
+
+#### Documentation Updates
+
+- **copilot-extensions-integration.md** - Integration guide refresh
+- **copilot-code-suggestions.md** - Code suggestions guide update
+- **copilot-custom-instructions.md** - Custom instructions update
+- **copilot-troubleshooting.md** - Troubleshooting guide refresh
+- **copilot-configuration.md** - Configuration guide update
+- **copilot-getting-started.md** - Updated quickstart guide
+- **copilot-extensions-overview.md** - Extensions documentation update
+- **copilot-chat.md** - Enhanced chat documentation
+- **copilot-managing-organization.md** - Organization management update
+- **copilot-asking-questions.md** - Question patterns update
+- **copilot-overview.md** - Documentation refresh
+- **copilot-best-practices.md** - Best practices refinement
+- **copilot-prompt-engineering.md** - Prompt engineering guide update
+- **copilot-responsible-use.md** - Responsible use guidelines update
 
 ### January 22, 2026
 
