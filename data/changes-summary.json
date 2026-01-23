@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-23T10:51:05.307516+00:00",
+  "generated_at": "2026-01-23T23:23:34.465976+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 17,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-23T10:50:46Z",
+        "timestamp": "2026-01-23T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-23T10:50:55Z",
+        "timestamp": "2026-01-23T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-23T10:50:48Z",
+        "timestamp": "2026-01-23T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-23T10:51:02Z",
+        "timestamp": "2026-01-23T23:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-23T10:50:59Z",
+        "timestamp": "2026-01-23T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-23T10:50:40Z",
+        "timestamp": "2026-01-23T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-23T10:50:44Z",
+        "timestamp": "2026-01-23T23:23:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-23T10:50:42Z",
+        "timestamp": "2026-01-23T23:23:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-23T10:50:57Z",
+        "timestamp": "2026-01-23T23:23:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-23T10:50:53Z",
+        "timestamp": "2026-01-23T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-23T10:50:38Z",
+        "timestamp": "2026-01-23T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-23T10:50:49Z",
+        "timestamp": "2026-01-23T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-23T10:50:51Z",
+        "timestamp": "2026-01-23T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-23T10:51:00Z",
+        "timestamp": "2026-01-23T23:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,122 +110,150 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 1,
+    "new_posts": [
+      {
+        "title": "Improved pull request “Files changed” page on by default",
+        "url": "https://github.blog/changelog/2026-01-22-improved-pull-request-files-changed-page-on-by-default",
+        "date": "2026-01-23T02:26:39Z",
+        "summary": "<p>The improved pull request &#8220;Files Changed&#8221; experience, currently in public preview, is rolling out as the default experience to all users! &#127881; This improved experience is designed "
+      }
+    ]
   },
   "videos": {
-    "new_count": 0,
-    "new_videos": []
+    "new_count": 1,
+    "new_videos": [
+      {
+        "title": "The Download: Cloudflare buys Astro, Copilot in OpenCode, Game Off winners & more",
+        "video_id": "lU9sVU6Arbs",
+        "date": "2026-01-23T18:47:03+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/lU9sVU6Arbs/hqdefault.jpg"
+      }
+    ]
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 23, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on January 23, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"Improved pull request “Files changed” page on by default\" (2026-01-23)\n\n🎥 Videos: 1 new video\n  - \"The Download: Cloudflare buys Astro, Copilot in OpenCode, Game Off winners & more\" (2026-01-23)\n\nTotal: 17 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 16,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-23T10:50:46Z",
+        "timestamp": "2026-01-23T23:23:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-23T10:50:55Z",
+        "timestamp": "2026-01-23T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-23T10:50:48Z",
+        "timestamp": "2026-01-23T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-23T10:51:02Z",
+        "timestamp": "2026-01-23T23:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-23T10:50:59Z",
+        "timestamp": "2026-01-23T23:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-23T10:50:40Z",
+        "timestamp": "2026-01-23T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-23T10:50:44Z",
+        "timestamp": "2026-01-23T23:23:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-23T10:50:42Z",
+        "timestamp": "2026-01-23T23:23:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-23T10:50:57Z",
+        "timestamp": "2026-01-23T23:23:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-23T10:50:53Z",
+        "timestamp": "2026-01-23T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-23T10:50:38Z",
+        "timestamp": "2026-01-23T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-23T10:50:49Z",
+        "timestamp": "2026-01-23T23:23:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-23T10:50:51Z",
+        "timestamp": "2026-01-23T23:23:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-23T10:51:00Z",
+        "timestamp": "2026-01-23T23:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
-    "new_videos": []
+    "new_blog_posts": [
+      {
+        "title": "Improved pull request “Files changed” page on by default",
+        "url": "https://github.blog/changelog/2026-01-22-improved-pull-request-files-changed-page-on-by-default",
+        "date": "2026-01-23T02:26:39Z",
+        "summary": "<p>The improved pull request &#8220;Files Changed&#8221; experience, currently in public preview, is rolling out as the default experience to all users! &#127881; This improved experience is designed "
+      }
+    ],
+    "new_videos": [
+      {
+        "title": "The Download: Cloudflare buys Astro, Copilot in OpenCode, Game Off winners & more",
+        "video_id": "lU9sVU6Arbs",
+        "date": "2026-01-23T18:47:03+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/lU9sVU6Arbs/hqdefault.jpg"
+      }
+    ]
   }
 }
