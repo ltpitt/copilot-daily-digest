@@ -125,13 +125,29 @@ The following documentation incorrectly assumes assignment is needed:
 
 ## Verification of Current State
 
-Issue #229 was created successfully and:
+### Current Issue (Issue #229, created 2026-01-23)
+- ✅ Created successfully with workflow run ID 21283573836
 - ✅ Contains `@copilot` mention in body
 - ✅ Is accessible to Copilot Coding Agent
-- ❌ Has no assignees (because assignment failed)
+- ❌ Has no assignees (because assignment step failed)
+- ❌ Workflow failed due to assignment error
 - ✅ Can still be worked on by Copilot (assignment not required)
 
-The workflow failure is cosmetic - the actual functionality (triggering Copilot) is working as expected.
+### Historical Evidence
+
+Previous issues (#220, #221, #223, #225, #227) were created **before** the assignment step was added to the workflow. All of these:
+- ✅ Were created successfully by the workflow
+- ✅ Contained `@copilot` mentions in body
+- ✅ Were successfully processed by Copilot (all are now closed)
+- ✅ Had NO assignees
+- ✅ Prove that Copilot works without assignment
+
+This historical data confirms that the assignment step is:
+1. Unnecessary for Copilot to work
+2. A recent addition that introduced the workflow failure
+3. Not present in the successful workflows that ran before Jan 23, 2026
+
+The workflow failure is cosmetic - the actual functionality (triggering Copilot) is working as expected and always has been.
 
 ## Conclusion
 
