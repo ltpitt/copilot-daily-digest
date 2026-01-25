@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-24T23:23:01.655269+00:00",
+  "generated_at": "2026-01-25T23:23:13.194601+00:00",
   "has_changes": true,
-  "total_changes": 16,
+  "total_changes": 19,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-24T23:22:46Z",
+        "timestamp": "2026-01-25T23:22:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-24T23:22:52Z",
+        "timestamp": "2026-01-25T23:23:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-24T23:22:47Z",
+        "timestamp": "2026-01-25T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-24T23:22:59Z",
+        "timestamp": "2026-01-25T23:23:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-24T23:22:55Z",
+        "timestamp": "2026-01-25T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-24T23:22:42Z",
+        "timestamp": "2026-01-25T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-24T23:22:44Z",
+        "timestamp": "2026-01-25T23:22:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-24T23:22:43Z",
+        "timestamp": "2026-01-25T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-24T23:22:53Z",
+        "timestamp": "2026-01-25T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-24T23:22:51Z",
+        "timestamp": "2026-01-25T23:23:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-24T23:22:41Z",
+        "timestamp": "2026-01-25T23:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-24T23:22:48Z",
+        "timestamp": "2026-01-25T23:22:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-24T23:22:50Z",
+        "timestamp": "2026-01-25T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-24T23:22:57Z",
+        "timestamp": "2026-01-25T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -114,13 +114,31 @@
     "new_posts": []
   },
   "videos": {
-    "new_count": 1,
+    "new_count": 4,
     "new_videos": [
       {
-        "title": "Angie Jones on Goose, MCP, and the future of AI agents | Episode 9 | The GitHub Podcast",
-        "video_id": "ZtpJvs7X3So",
-        "date": "2026-01-24T15:01:06+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/ZtpJvs7X3So/hqdefault.jpg"
+        "title": "Open Source Friday with Copilot SDK",
+        "video_id": "LO7nf-dbURE",
+        "date": "2026-01-25T20:45:07+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/LO7nf-dbURE/hqdefault.jpg"
+      },
+      {
+        "title": "GitHub Code & Community Live Stream: Arm Cloud Migration Agent",
+        "video_id": "nQKggqaVMvc",
+        "date": "2026-01-25T20:21:35+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/nQKggqaVMvc/hqdefault.jpg"
+      },
+      {
+        "title": "How to use GitHub Copilot with OpenCode",
+        "video_id": "ljNeme8s86s",
+        "date": "2026-01-25T16:01:08+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/ljNeme8s86s/hqdefault.jpg"
+      },
+      {
+        "title": "Demo: Using /delegate in the GitHub Copilot CLI",
+        "video_id": "P2qK2BCdi-w",
+        "date": "2026-01-25T15:00:41+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/P2qK2BCdi-w/hqdefault.jpg"
       }
     ]
   },
@@ -128,105 +146,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 24, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n🎥 Videos: 1 new video\n  - \"Angie Jones on Goose, MCP, and the future of AI agents | Episode 9 | The GitHub Podcast\" (2026-01-24)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on January 25, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n🎥 Videos: 4 new videos\n  - \"Open Source Friday with Copilot SDK\" (2026-01-25)\n  - \"GitHub Code & Community Live Stream: Arm Cloud Migration Agent\" (2026-01-25)\n  - \"How to use GitHub Copilot with OpenCode\" (2026-01-25)\n  - \"Demo: Using /delegate in the GitHub Copilot CLI\" (2026-01-25)\n\nTotal: 19 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 15,
+    "total_changes": 18,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-24T23:22:46Z",
+        "timestamp": "2026-01-25T23:22:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-24T23:22:52Z",
+        "timestamp": "2026-01-25T23:23:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-24T23:22:47Z",
+        "timestamp": "2026-01-25T23:22:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-24T23:22:59Z",
+        "timestamp": "2026-01-25T23:23:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-24T23:22:55Z",
+        "timestamp": "2026-01-25T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-24T23:22:42Z",
+        "timestamp": "2026-01-25T23:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-24T23:22:44Z",
+        "timestamp": "2026-01-25T23:22:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-24T23:22:43Z",
+        "timestamp": "2026-01-25T23:22:54Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-24T23:22:53Z",
+        "timestamp": "2026-01-25T23:23:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-24T23:22:51Z",
+        "timestamp": "2026-01-25T23:23:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-24T23:22:41Z",
+        "timestamp": "2026-01-25T23:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-24T23:22:48Z",
+        "timestamp": "2026-01-25T23:22:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-24T23:22:50Z",
+        "timestamp": "2026-01-25T23:23:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-24T23:22:57Z",
+        "timestamp": "2026-01-25T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -235,10 +253,28 @@
     "new_blog_posts": [],
     "new_videos": [
       {
-        "title": "Angie Jones on Goose, MCP, and the future of AI agents | Episode 9 | The GitHub Podcast",
-        "video_id": "ZtpJvs7X3So",
-        "date": "2026-01-24T15:01:06+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/ZtpJvs7X3So/hqdefault.jpg"
+        "title": "Open Source Friday with Copilot SDK",
+        "video_id": "LO7nf-dbURE",
+        "date": "2026-01-25T20:45:07+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/LO7nf-dbURE/hqdefault.jpg"
+      },
+      {
+        "title": "GitHub Code & Community Live Stream: Arm Cloud Migration Agent",
+        "video_id": "nQKggqaVMvc",
+        "date": "2026-01-25T20:21:35+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/nQKggqaVMvc/hqdefault.jpg"
+      },
+      {
+        "title": "How to use GitHub Copilot with OpenCode",
+        "video_id": "ljNeme8s86s",
+        "date": "2026-01-25T16:01:08+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/ljNeme8s86s/hqdefault.jpg"
+      },
+      {
+        "title": "Demo: Using /delegate in the GitHub Copilot CLI",
+        "video_id": "P2qK2BCdi-w",
+        "date": "2026-01-25T15:00:41+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/P2qK2BCdi-w/hqdefault.jpg"
       }
     ]
   }
