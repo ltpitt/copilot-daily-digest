@@ -1,6 +1,6 @@
 # GitHub Copilot Daily Digest
 
-> Last updated: January 22, 2026 | Tracking GitHub Copilot updates daily
+> Last updated: January 25, 2026 | Tracking GitHub Copilot updates daily
 
 Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
 
@@ -24,13 +24,14 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 
 ## Current Stats
 
-- **21 updates** in the last 7 days (3 blog posts, 3 videos, 14 documentation updates, 1 deletion)
+- **14 updates** in the last 7 days (14 documentation updates)
 - **89+ blog articles** tracked
+- **28 videos** in library
 - **7 training courses** available
-- **14 documentation files** tracked
-- **Last scrape**: January 22, 2026 at 23:23 UTC
+- **15 documentation files** tracked
+- **Last scrape**: January 25, 2026 at 18:11 UTC
 
-## Spotlight: GitHub Copilot SDK (New!)
+## Spotlight: GitHub Copilot SDK & CLI Enhancements
 
 **Build an agent into any app with the GitHub Copilot SDK** - Now in technical preview!
 
@@ -42,10 +43,10 @@ The GitHub Copilot SDK is a programmable layer that brings AI agent capabilities
 - **File editing**: Modify code across multiple files
 - **Command execution**: Run shell commands safely
 
-**Get started**:
-→ [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)
-→ [Watch: "The GitHub Copilot SDK is here!"](https://www.youtube.com/watch?v=6yzGew8wA4A)
-→ [Watch: "Add an AI agent to your app"](https://www.youtube.com/watch?v=hLzIAWIezBg)
+**What's New**:
+→ [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)  
+→ [Copilot CLI: Plan before you build, steer as you go](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)  
+→ [Install Copilot CLI directly from GitHub CLI](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)
 
 ## Official Resources
 

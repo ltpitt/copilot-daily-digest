@@ -2,7 +2,7 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: January 22, 2026
+**Last Updated**: January 25, 2026
 
 ---
 
@@ -39,16 +39,17 @@
 
 ---
 
-### Documentation Refresh (Jan 22, 2026)
+### Documentation Refresh: All Core Pages Updated (Jan 25, 2026)
 
 **What's new**:
-- All 14 core GitHub Copilot documentation pages refreshed
-- Enhanced guides for chat capabilities, code suggestions, and extensions
-- Updated best practices and prompt engineering documentation
-- Improved troubleshooting and configuration resources
-- Refreshed organization management and responsible use guidelines
+- All 14 core GitHub Copilot documentation pages refreshed with latest content
+- Enhanced guides for **Copilot Chat**, **code suggestions**, and **extensions**
+- Updated **best practices** and **prompt engineering** documentation
+- Improved **troubleshooting** and **configuration** resources
+- Refreshed **organization management** and **responsible use** guidelines
+- Updated **custom instructions** and **getting started** guides
 
-**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities, helping you leverage all features effectively.
+**Why it matters**: Fresh documentation ensures you have the most current information about Copilot's capabilities, reflecting the latest features, APIs, and recommended practices. Critical for staying current with rapidly evolving AI capabilities.
 
 **Get started**:
 → [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot) | [Prompt engineering tips](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)

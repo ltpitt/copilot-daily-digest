@@ -2,11 +2,34 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: January 22, 2026
+**Last Updated**: January 25, 2026
 
 ---
 
 ## January 2026
+
+### January 25, 2026
+
+#### Documentation Updates
+
+All 14 core GitHub Copilot documentation pages refreshed with the latest content, reflecting current features, APIs, and best practices:
+
+- **copilot-overview.md** - Updated introduction and feature overview
+- **copilot-getting-started.md** - Enhanced quickstart guide
+- **copilot-chat.md** - Improved chat documentation with latest capabilities
+- **copilot-extensions-overview.md** - Updated extensions documentation
+- **copilot-extensions-integration.md** - Integration guide refresh
+- **copilot-custom-instructions.md** - Custom instructions refinements
+- **copilot-best-practices.md** - Updated best practices and recommendations
+- **copilot-prompt-engineering.md** - Enhanced prompt engineering guide
+- **copilot-asking-questions.md** - Question patterns and techniques update
+- **copilot-code-suggestions.md** - Code suggestions guide improvements
+- **copilot-managing-organization.md** - Organization management updates
+- **copilot-configuration.md** - Configuration guide refresh
+- **copilot-responsible-use.md** - Responsible use guidelines update
+- **copilot-troubleshooting.md** - Troubleshooting documentation refresh
+
+---
 
 ### January 22, 2026
 
