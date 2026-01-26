@@ -1,6 +1,6 @@
 # GitHub Copilot Daily Digest
 
-> Last updated: January 25, 2026 | Tracking GitHub Copilot updates daily
+> Last updated: January 26, 2026 | Tracking GitHub Copilot updates daily
 
 Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
 
@@ -24,29 +24,42 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 
 ## Current Stats
 
-- **14 updates** in the last 7 days (14 documentation updates)
+- **18 updates** in the last 7 days (14 documentation updates, 4 new videos)
 - **89+ blog articles** tracked
-- **28 videos** in library
 - **7 training courses** available
-- **15 documentation files** tracked
-- **Last scrape**: January 25, 2026 at 18:11 UTC
+- **14 documentation files** tracked
+- **Last scrape**: January 25, 2026 at 23:23 UTC
 
-## Spotlight: GitHub Copilot SDK & CLI Enhancements
+## Spotlight: Latest Updates
 
-**Build an agent into any app with the GitHub Copilot SDK** - Now in technical preview!
+### GitHub Copilot CLI & SDK Evolution
 
-The GitHub Copilot SDK is a programmable layer that brings AI agent capabilities to any application. It can plan tasks, invoke tools, edit files, and run commands—all through a simple, developer-friendly API.
+The GitHub Copilot CLI and SDK continue to evolve with powerful new capabilities:
 
-**Key capabilities**:
-- **Planning**: Autonomous task planning with step-by-step reasoning
-- **Tool invocation**: Execute functions and API calls
-- **File editing**: Modify code across multiple files
-- **Command execution**: Run shell commands safely
+**GitHub Copilot CLI Enhancements** (Jan 21-22, 2026):
+- **Plan before you build, steer as you go** - New planning capabilities in the CLI
+- **Direct GitHub CLI integration** - Install and use Copilot CLI from `gh` command
+- **Slash commands cheat sheet** - Quick reference for all CLI commands
 
-**What's New**:
+→ [Copilot CLI planning features](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)  
+→ [Install via GitHub CLI](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)  
+→ [Slash commands cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+
+**GitHub Copilot SDK** (Jan 21, 2026):
+- **Build agents into any app** - SDK now in technical preview
+- Programmable layer for AI capabilities in your applications
+- Plan tasks, invoke tools, edit files, and run commands via API
+
 → [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)  
-→ [Copilot CLI: Plan before you build, steer as you go](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)  
-→ [Install Copilot CLI directly from GitHub CLI](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)
+→ [SDK technical preview](https://github.blog/changelog/2026-01-14-copilot-sdk-in-technical-preview)
+
+### Fresh Video Content (January 25, 2026)
+
+Watch the latest tutorials and demos:
+- **[Open Source Friday with Copilot SDK](https://youtube.com/watch?v=LO7nf-dbURE)** - SDK deep dive
+- **[Demo: Using /delegate in the GitHub Copilot CLI](https://youtube.com/watch?v=P2qK2BCdi-w)** - CLI delegation
+- **[How to use GitHub Copilot with OpenCode](https://youtube.com/watch?v=ljNeme8s86s)** - OpenCode integration
+- **[Arm Cloud Migration Agent](https://youtube.com/watch?v=nQKggqaVMvc)** - Live stream demo
 
 ## Official Resources
 

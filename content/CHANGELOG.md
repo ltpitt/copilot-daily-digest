@@ -2,13 +2,39 @@
 
 > Complete timeline of features, updates, and improvements
 
-**Last Updated**: January 25, 2026
+**Last Updated**: January 26, 2026
 
 ---
 
 ## January 2026
 
 ### January 25, 2026
+
+#### Videos
+
+- **[Open Source Friday with Copilot SDK](https://youtube.com/watch?v=LO7nf-dbURE)**
+  - Deep dive into GitHub Copilot SDK capabilities and architecture
+  - Live demonstrations and Q&A session
+  - Building custom agents with the SDK
+  - Community discussion about SDK use cases
+
+- **[GitHub Code & Community Live Stream: Arm Cloud Migration Agent](https://youtube.com/watch?v=nQKggqaVMvc)**
+  - Demonstration of cloud migration automation with Copilot
+  - Arm-specific tooling and agent workflows
+  - Real-world cloud migration scenarios
+  - Community interaction and questions
+
+- **[How to use GitHub Copilot with OpenCode](https://youtube.com/watch?v=ljNeme8s86s)**
+  - Integration guide for GitHub Copilot with OpenCode
+  - Setup and configuration walkthrough
+  - Using Copilot features in OpenCode environment
+  - Best practices and tips
+
+- **[Demo: Using /delegate in the GitHub Copilot CLI](https://youtube.com/watch?v=P2qK2BCdi-w)**
+  - Demonstration of delegation features in Copilot CLI
+  - How to delegate tasks to AI in terminal
+  - Multi-step task execution examples
+  - Command patterns and workflows
 
 #### Documentation Updates
 

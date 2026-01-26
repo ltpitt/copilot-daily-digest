@@ -2,11 +2,43 @@
 
 > Latest updates and announcements from the last 30 days
 
-**Last Updated**: January 25, 2026
+**Last Updated**: January 26, 2026
 
 ---
 
 ## This Week (Last 7 Days)
+
+### Fresh Video Content: Copilot SDK & CLI Deep Dives (Jan 25, 2026)
+
+**What's new**:
+- **Open Source Friday with Copilot SDK** - Deep dive into SDK capabilities and architecture
+- **Demo: Using /delegate in GitHub Copilot CLI** - See delegation features in action
+- **How to use GitHub Copilot with OpenCode** - Integration guide with OpenCode
+- **Arm Cloud Migration Agent** - Live stream featuring cloud migration automation
+
+**Why it matters**: These videos provide hands-on demonstrations of the latest Copilot features, especially the new SDK and enhanced CLI capabilities. Perfect for learning by watching real-world use cases.
+
+**Get started**:
+→ [Watch: SDK deep dive](https://youtube.com/watch?v=LO7nf-dbURE) | [Watch: CLI delegation](https://youtube.com/watch?v=P2qK2BCdi-w) | [Watch: OpenCode integration](https://youtube.com/watch?v=ljNeme8s86s) | [All videos](VIDEOS.md)
+
+---
+
+### Documentation Refresh: All Core Pages Updated (Jan 25, 2026)
+
+**What's new**:
+- All 14 core GitHub Copilot documentation pages refreshed with latest content
+- Enhanced guides for **Copilot Chat**, **code suggestions**, and **extensions**
+- Updated **best practices** and **prompt engineering** documentation
+- Improved **troubleshooting** and **configuration** resources
+- Refreshed **organization management** and **responsible use** guidelines
+- Updated **custom instructions** and **getting started** guides
+
+**Why it matters**: Fresh documentation ensures you have the most current information about Copilot's capabilities, reflecting the latest features, APIs, and recommended practices. Critical for staying current with rapidly evolving AI capabilities.
+
+**Get started**:
+→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot) | [Prompt engineering tips](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+
+---
 
 ### GitHub Copilot SDK: Build AI Agents into Any App (Jan 22, 2026)
 
