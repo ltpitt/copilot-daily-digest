@@ -8,6 +8,53 @@
 
 ## January 2026
 
+### January 26, 2026
+
+#### Blog Posts
+
+- **[Power agentic workflows in your terminal with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/)**
+  - Comprehensive guide to GitHub Copilot CLI's agentic capabilities
+  - Learn how to interact with Copilot directly from your terminal
+  - Autonomous task execution with planning and reasoning
+  - Workflow steering for complex multi-step tasks
+  - Complete tutorial on terminal-based AI assistance
+
+- **[GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse](https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)**
+  - GPT-5.2-Codex generally available across all major IDEs
+  - Available for Copilot Enterprise, Business, Pro, and Pro+ subscribers
+  - Enhanced code understanding and generation capabilities
+  - Specialized model optimized for programming tasks
+  - Accessible via GitHub Copilot Chat on github.com and in supported IDEs
+
+#### Videos
+
+- **[What's new in the GitHub Copilot CLI?](https://youtube.com/watch?v=g5TzQPTyabU)**
+  - Official walkthrough of latest GitHub Copilot CLI features
+  - Demonstrations of planning capabilities and reasoning models
+  - Real-world examples of terminal-based agentic workflows
+  - Tips and tricks for maximizing CLI productivity
+
+#### Documentation Updates
+
+All 14 core GitHub Copilot documentation pages refreshed with the latest content:
+
+- **copilot-overview.md** - Updated introduction and feature overview
+- **copilot-getting-started.md** - Enhanced quickstart guide
+- **copilot-chat.md** - Improved chat documentation with latest capabilities
+- **copilot-extensions-overview.md** - Updated extensions documentation
+- **copilot-extensions-integration.md** - Integration guide refresh
+- **copilot-custom-instructions.md** - Custom instructions refinements
+- **copilot-best-practices.md** - Updated best practices and recommendations
+- **copilot-prompt-engineering.md** - Enhanced prompt engineering guide
+- **copilot-asking-questions.md** - Question patterns and techniques update
+- **copilot-code-suggestions.md** - Code suggestions guide improvements
+- **copilot-managing-organization.md** - Organization management updates
+- **copilot-configuration.md** - Configuration guide refresh
+- **copilot-responsible-use.md** - Responsible use guidelines update
+- **copilot-troubleshooting.md** - Troubleshooting documentation refresh
+
+---
+
 ### January 25, 2026
 
 #### Videos
