@@ -94,20 +94,20 @@ Last updated timestamps for each documentation file:
 
 | Documentation | Last Updated |
 |---------------|-------------|
-| **copilot-overview.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-getting-started.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-chat.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-extensions-overview.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-extensions-integration.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-custom-instructions.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-best-practices.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-prompt-engineering.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-asking-questions.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-code-suggestions.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-managing-organization.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-configuration.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-responsible-use.md** | January 25, 2026 at 23:23 UTC |
-| **copilot-troubleshooting.md** | January 25, 2026 at 23:23 UTC |
+| **copilot-overview.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-getting-started.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-chat.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-extensions-overview.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-extensions-integration.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-custom-instructions.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-best-practices.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-prompt-engineering.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-asking-questions.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-code-suggestions.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-managing-organization.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-configuration.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-responsible-use.md** | January 26, 2026 at 23:23 UTC |
+| **copilot-troubleshooting.md** | January 26, 2026 at 23:23 UTC |
 
 ---
 

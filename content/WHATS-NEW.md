@@ -8,6 +8,53 @@
 
 ## This Week (Last 7 Days)
 
+### GPT-5.2-Codex Now Available Across Major IDEs (Jan 26, 2026)
+
+**What's new**:
+- GPT-5.2-Codex generally available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
+- Available for Copilot Enterprise, Business, Pro, and Pro+ subscribers
+- Enhanced code understanding and generation capabilities
+- Specialized model optimized for programming tasks
+- Access via GitHub Copilot Chat on github.com and in supported IDEs
+
+**Why it matters**: GPT-5.2-Codex is specifically trained on code, providing more accurate suggestions and better understanding of complex programming patterns compared to general-purpose models. Having it available across all major IDEs ensures a consistent, high-quality experience regardless of your development environment.
+
+**Get started**:
+→ [GPT-5.2-Codex announcement](https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse) | [Model selection guide](COMMANDS.md#copilot-sdk)
+
+---
+
+### Power Agentic Workflows in Your Terminal (Jan 26, 2026)
+
+**What's new**:
+- Comprehensive guide to GitHub Copilot CLI's agentic capabilities
+- Learn how to interact with Copilot directly from your terminal
+- Autonomous task execution with planning and reasoning
+- Workflow steering for complex multi-step tasks
+- Complete tutorial on terminal-based AI assistance
+
+**Why it matters**: The Copilot CLI transforms your terminal into an AI-powered workspace, enabling autonomous execution of complex workflows without context-switching to your IDE. This deep dive shows you how to leverage the full power of agentic AI for terminal-based development.
+
+**Get started**:
+→ [Read the guide](https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/) | [Watch: What's new in CLI](https://youtube.com/watch?v=g5TzQPTyabU) | [CLI commands reference](COMMANDS.md#copilot-cli)
+
+---
+
+### Video: What's New in the GitHub Copilot CLI (Jan 26, 2026)
+
+**What's new**:
+- Official video walkthrough of latest GitHub Copilot CLI features
+- Demonstrations of planning capabilities and reasoning models
+- Real-world examples of terminal-based agentic workflows
+- Tips and tricks for maximizing CLI productivity
+
+**Why it matters**: See the latest Copilot CLI features in action with hands-on demonstrations. Perfect for visual learners who want to understand how to integrate AI into their terminal workflows.
+
+**Get started**:
+→ [Watch now](https://youtube.com/watch?v=g5TzQPTyabU) | [All videos](VIDEOS.md) | [CLI installation](GETTING-STARTED.md#2-install-copilot-cli-optional-but-recommended)
+
+---
+
 ### Fresh Video Content: Copilot SDK & CLI Deep Dives (Jan 25, 2026)
 
 **What's new**:
@@ -23,7 +70,7 @@
 
 ---
 
-### Documentation Refresh: All Core Pages Updated (Jan 25, 2026)
+### Documentation Refresh: All Core Pages Updated (Jan 26, 2026)
 
 **What's new**:
 - All 14 core GitHub Copilot documentation pages refreshed with latest content
@@ -71,23 +118,6 @@
 
 ---
 
-### Documentation Refresh: All Core Pages Updated (Jan 25, 2026)
-
-**What's new**:
-- All 14 core GitHub Copilot documentation pages refreshed with latest content
-- Enhanced guides for **Copilot Chat**, **code suggestions**, and **extensions**
-- Updated **best practices** and **prompt engineering** documentation
-- Improved **troubleshooting** and **configuration** resources
-- Refreshed **organization management** and **responsible use** guidelines
-- Updated **custom instructions** and **getting started** guides
-
-**Why it matters**: Fresh documentation ensures you have the most current information about Copilot's capabilities, reflecting the latest features, APIs, and recommended practices. Critical for staying current with rapidly evolving AI capabilities.
-
-**Get started**:
-→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot) | [Prompt engineering tips](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
-
----
-
 ### GitHub Copilot CLI: Plan Before You Build, Steer as You Go (Jan 21, 2026)
 
 **What's new**:
@@ -130,22 +160,6 @@
 
 **Get started**:
 → [View cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/) | [Full commands list](COMMANDS.md)
-
----
-
-### Documentation Refresh (Jan 21, 2026)
-
-**What's new**:
-- All 14 core GitHub Copilot documentation pages refreshed
-- Enhanced guides for chat capabilities, code suggestions, and extensions
-- Updated best practices and prompt engineering documentation
-- Improved troubleshooting and configuration resources
-- Refreshed organization management and responsible use guidelines
-
-**Why it matters**: Fresh documentation ensures you have access to the most current information about Copilot's capabilities, helping you leverage all features effectively.
-
-**Get started**:
-→ [Browse all documentation](REFERENCE.md) | [Best practices guide](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot) | [Prompt engineering tips](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
 ---
 

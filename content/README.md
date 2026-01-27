@@ -24,42 +24,40 @@ Welcome! This repository provides modular, up-to-date documentation for GitHub C
 
 ## Current Stats
 
-- **18 updates** in the last 7 days (14 documentation updates, 4 new videos)
-- **89+ blog articles** tracked
+- **18 updates** in the last 7 days (14 documentation updates, 2 blog posts, 1 video)
+- **91+ blog articles** tracked
 - **7 training courses** available
 - **14 documentation files** tracked
-- **Last scrape**: January 25, 2026 at 23:23 UTC
+- **Last scrape**: January 26, 2026 at 23:23 UTC
 
 ## Spotlight: Latest Updates
 
-### GitHub Copilot CLI & SDK Evolution
+### GPT-5.2-Codex Now Available Across Major IDEs (Jan 26, 2026)
 
-The GitHub Copilot CLI and SDK continue to evolve with powerful new capabilities:
+**What's new**:
+- GPT-5.2-Codex now generally available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse
+- Available for Copilot Enterprise, Business, Pro, and Pro+ users
+- Enhanced code understanding and generation capabilities
+- Optimized specifically for programming tasks
 
-**GitHub Copilot CLI Enhancements** (Jan 21-22, 2026):
-- **Plan before you build, steer as you go** - New planning capabilities in the CLI
-- **Direct GitHub CLI integration** - Install and use Copilot CLI from `gh` command
-- **Slash commands cheat sheet** - Quick reference for all CLI commands
+**Why it matters**: Access to the latest specialized coding model means more accurate suggestions and better understanding of complex codebases across all major development environments.
 
-→ [Copilot CLI planning features](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go)  
-→ [Install via GitHub CLI](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli)  
-→ [Slash commands cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+→ [GPT-5.2-Codex announcement](https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse)
 
-**GitHub Copilot SDK** (Jan 21, 2026):
-- **Build agents into any app** - SDK now in technical preview
-- Programmable layer for AI capabilities in your applications
-- Plan tasks, invoke tools, edit files, and run commands via API
+---
 
-→ [SDK announcement](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)  
-→ [SDK technical preview](https://github.blog/changelog/2026-01-14-copilot-sdk-in-technical-preview)
+### Power Agentic Workflows in Your Terminal (Jan 26, 2026)
 
-### Fresh Video Content (January 25, 2026)
+**What's new**:
+- Deep dive into GitHub Copilot CLI's agentic capabilities
+- Learn how to interact with Copilot directly from your terminal
+- Autonomous task execution and planning features
+- Complete guide to terminal-based AI workflows
 
-Watch the latest tutorials and demos:
-- **[Open Source Friday with Copilot SDK](https://youtube.com/watch?v=LO7nf-dbURE)** - SDK deep dive
-- **[Demo: Using /delegate in the GitHub Copilot CLI](https://youtube.com/watch?v=P2qK2BCdi-w)** - CLI delegation
-- **[How to use GitHub Copilot with OpenCode](https://youtube.com/watch?v=ljNeme8s86s)** - OpenCode integration
-- **[Arm Cloud Migration Agent](https://youtube.com/watch?v=nQKggqaVMvc)** - Live stream demo
+**Why it matters**: The CLI brings the full power of agentic AI to your terminal, enabling autonomous multi-step workflows without leaving the command line.
+
+→ [Read the guide](https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/)  
+→ [Watch: What's new in Copilot CLI](https://youtube.com/watch?v=g5TzQPTyabU)
 
 ## Official Resources
 
