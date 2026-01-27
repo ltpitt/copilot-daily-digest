@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-26T23:23:40.295066+00:00",
+  "generated_at": "2026-01-27T23:24:24.326360+00:00",
   "has_changes": true,
-  "total_changes": 18,
+  "total_changes": 17,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-26T23:23:25Z",
+        "timestamp": "2026-01-27T23:23:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-26T23:23:31Z",
+        "timestamp": "2026-01-27T23:23:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-26T23:23:26Z",
+        "timestamp": "2026-01-27T23:23:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-26T23:23:37Z",
+        "timestamp": "2026-01-27T23:24:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-26T23:23:34Z",
+        "timestamp": "2026-01-27T23:23:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-26T23:23:20Z",
+        "timestamp": "2026-01-27T23:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-26T23:23:24Z",
+        "timestamp": "2026-01-27T23:23:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-26T23:23:22Z",
+        "timestamp": "2026-01-27T23:23:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-26T23:23:32Z",
+        "timestamp": "2026-01-27T23:23:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-26T23:23:30Z",
+        "timestamp": "2026-01-27T23:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-26T23:23:19Z",
+        "timestamp": "2026-01-27T23:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-26T23:23:27Z",
+        "timestamp": "2026-01-27T23:23:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-26T23:23:29Z",
+        "timestamp": "2026-01-27T23:23:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-26T23:23:36Z",
+        "timestamp": "2026-01-27T23:23:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,19 +110,13 @@
     ]
   },
   "blog": {
-    "new_count": 2,
+    "new_count": 1,
     "new_posts": [
       {
-        "title": "Power agentic workflows in your terminal with GitHub Copilot CLI",
-        "url": "https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/",
-        "date": "2026-01-26T18:54:49Z",
-        "summary": "<p>Explore the GitHub Copilot CLI and try interacting with Copilot directly from your terminal.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-te"
-      },
-      {
-        "title": "GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse",
-        "url": "https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-        "date": "2026-01-26T18:18:00Z",
-        "summary": "<p>GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, GitHu"
+        "title": "Introducing the Agents tab in your repository",
+        "url": "https://github.blog/changelog/2026-01-26-introducing-the-agents-tab-in-your-repository",
+        "date": "2026-01-26T21:40:50Z",
+        "summary": "<p>We&#8217;ve redesigned where you manage Copilot coding agent tasks. We&#8217;re bringing a new look and feel to your mission control style view directly into your repository with a new Agents&#8230"
       }
     ]
   },
@@ -130,10 +124,10 @@
     "new_count": 1,
     "new_videos": [
       {
-        "title": "What’s new in the GitHub Copilot CLI?",
-        "video_id": "g5TzQPTyabU",
-        "date": "2026-01-26T16:01:04+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/g5TzQPTyabU/hqdefault.jpg"
+        "title": "The history of C# and TypeScript with Anders Hejlsberg | GitHub",
+        "video_id": "uMqx8NNT4xY",
+        "date": "2026-01-27T17:01:25+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/uMqx8NNT4xY/hqdefault.jpg"
       }
     ]
   },
@@ -141,105 +135,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 26, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 2 new articles\n  - \"Power agentic workflows in your terminal with GitHub Copilot CLI\" (2026-01-26)\n  - \"GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse\" (2026-01-26)\n\n🎥 Videos: 1 new video\n  - \"What’s new in the GitHub Copilot CLI?\" (2026-01-26)\n\nTotal: 18 changes detected",
+  "summary_text": "Changes detected on January 27, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"Introducing the Agents tab in your repository\" (2026-01-26)\n\n🎥 Videos: 1 new video\n  - \"The history of C# and TypeScript with Anders Hejlsberg | GitHub\" (2026-01-27)\n\nTotal: 17 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 17,
+    "total_changes": 16,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-26T23:23:25Z",
+        "timestamp": "2026-01-27T23:23:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-26T23:23:31Z",
+        "timestamp": "2026-01-27T23:23:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-26T23:23:26Z",
+        "timestamp": "2026-01-27T23:23:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-26T23:23:37Z",
+        "timestamp": "2026-01-27T23:24:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-26T23:23:34Z",
+        "timestamp": "2026-01-27T23:23:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-26T23:23:20Z",
+        "timestamp": "2026-01-27T23:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-26T23:23:24Z",
+        "timestamp": "2026-01-27T23:23:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-26T23:23:22Z",
+        "timestamp": "2026-01-27T23:23:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-26T23:23:32Z",
+        "timestamp": "2026-01-27T23:23:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-26T23:23:30Z",
+        "timestamp": "2026-01-27T23:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-26T23:23:19Z",
+        "timestamp": "2026-01-27T23:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-26T23:23:27Z",
+        "timestamp": "2026-01-27T23:23:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-26T23:23:29Z",
+        "timestamp": "2026-01-27T23:23:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-26T23:23:36Z",
+        "timestamp": "2026-01-27T23:23:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -247,24 +241,18 @@
     ],
     "new_blog_posts": [
       {
-        "title": "Power agentic workflows in your terminal with GitHub Copilot CLI",
-        "url": "https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/",
-        "date": "2026-01-26T18:54:49Z",
-        "summary": "<p>Explore the GitHub Copilot CLI and try interacting with Copilot directly from your terminal.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-te"
-      },
-      {
-        "title": "GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse",
-        "url": "https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-        "date": "2026-01-26T18:18:00Z",
-        "summary": "<p>GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, GitHu"
+        "title": "Introducing the Agents tab in your repository",
+        "url": "https://github.blog/changelog/2026-01-26-introducing-the-agents-tab-in-your-repository",
+        "date": "2026-01-26T21:40:50Z",
+        "summary": "<p>We&#8217;ve redesigned where you manage Copilot coding agent tasks. We&#8217;re bringing a new look and feel to your mission control style view directly into your repository with a new Agents&#8230"
       }
     ],
     "new_videos": [
       {
-        "title": "What’s new in the GitHub Copilot CLI?",
-        "video_id": "g5TzQPTyabU",
-        "date": "2026-01-26T16:01:04+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/g5TzQPTyabU/hqdefault.jpg"
+        "title": "The history of C# and TypeScript with Anders Hejlsberg | GitHub",
+        "video_id": "uMqx8NNT4xY",
+        "date": "2026-01-27T17:01:25+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/uMqx8NNT4xY/hqdefault.jpg"
       }
     ]
   }
