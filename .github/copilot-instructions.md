@@ -898,6 +898,51 @@ Type `@` in the chat prompt box to see available participants.
 - Date all content updates
 - Maintain consistent formatting across files
 
+### Custom Agents Available
+
+This repository has specialized custom agents for delegating tasks. Use the `task` tool to invoke them.
+
+**Available Agents**:
+
+- **content-generator** - Generates markdown content from aggregated data
+  - Use for: Complex formatting tasks (WHATS-NEW.md, TRAININGS.md)
+  - Specializes in: Content synthesis, categorization, date filtering
+  
+- **link-validator** - Validates and fixes broken links in markdown files
+  - Use for: Quality gate after content generation (MANDATORY)
+  - Specializes in: Internal links, external URLs, anchor link validation
+  
+- **publisher** - Editor-in-Chief, orchestrates content synthesis
+  - Use for: Main content orchestration
+  - Specializes in: Reading data, identifying themes, delegating to sub-agents
+  
+- **infrastructure-architect** - Sets up project structure and automation
+  - Use for: Infrastructure changes, workflow updates
+  - Specializes in: Project setup, migration tasks
+
+**How to Delegate**:
+
+Use the `task` tool with `agent_type`, `description`, and `prompt` parameters:
+
+```javascript
+task({
+  agent_type: "content-generator",
+  description: "Generate WHATS-NEW.md",
+  prompt: "Create WHATS-NEW.md from data/changes-summary.json. Filter to last 30 days, sort newest first, include top 10 significant changes."
+})
+```
+
+**When to Delegate**:
+
+- Complex formatting tasks → `content-generator`
+- Link validation (always run after content generation) → `link-validator`
+- Multi-file content orchestration → `publisher`
+- Infrastructure/workflow changes → `infrastructure-architect`
+
+**Important**: After ALL content generation, ALWAYS delegate to `link-validator` as a mandatory quality gate.
+
+---
+
 ### Anchor Link Rules (CRITICAL - NEVER VIOLATE)
 
 **GitHub strips emojis from anchor IDs. Anchor links with emojis WILL BREAK.**
