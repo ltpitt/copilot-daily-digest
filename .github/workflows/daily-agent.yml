@@ -129,7 +129,7 @@ jobs:
 
           ---
 
-          @copilot Please synthesize **modular, topic-focused** content that helps engineers stay current with GitHub Copilot.
+          Please synthesize **modular, topic-focused** content that helps engineers stay current with GitHub Copilot.
 
           ### Data Sources Available
           - **Documentation**: \`data/docs/*.md\` (14 files) - Official GitHub Copilot docs
@@ -139,7 +139,7 @@ jobs:
           - **Change Detection**: \`data/changes-summary.json\` - What changed since last scrape (with diff summaries)
           - **Version History**: \`data/metadata.json\` - \`doc_versions[].history[]\` tracks all changes with timestamps
 
-          ### Task: Generate 7 Modular Content Files
+          ### Task: Generate 8 Modular Content Files
 
           **CRITICAL**: Each file is **self-contained** and **topic-focused**. No mixing of concerns.
 
@@ -196,24 +196,36 @@ jobs:
 
           **Instructions file**: \`.github/copilot-instructions.md\` has complete generation rules for each file
 
-          Create a PR with all 7 files (VIDEOS.md already exists, don't touch it).")
+          Create a PR with all 8 files (VIDEOS.md already exists, but check if it needs updating based on recent data).")
           
           # Extract issue number from URL
           ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
           echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
           echo "Created issue #$ISSUE_NUMBER: $ISSUE_URL"
       
-      # Assign issue to copilot
-      - name: Assign Issue to Copilot
-        continue-on-error: true
+      # Install and use Copilot CLI to work on the issue
+      - name: Delegate to Copilot CLI
         if: steps.changes.outputs.HAS_CHANGES == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ISSUE_NUMBER="${{ steps.create_issue.outputs.ISSUE_NUMBER }}"
-          echo "Assigning issue #$ISSUE_NUMBER to @copilot..."
-          gh issue edit "$ISSUE_NUMBER" --add-assignee "copilot"
-          echo "✓ Issue #$ISSUE_NUMBER assigned to @copilot"
+          
+          # Install Copilot CLI
+          echo "Installing GitHub Copilot CLI..."
+          npm install -g @github/copilot
+          
+          # Use Copilot CLI in programmatic mode to work on the issue
+          echo "Delegating work to Copilot CLI for issue #$ISSUE_NUMBER..."
+          copilot -p "I've been assigned issue #$ISSUE_NUMBER in this repository at $(pwd). Please start working on it by reading the issue, creating a new branch, implementing the requested changes, and creating a pull request when done." \
+            --allow-tool 'write' \
+            --allow-tool 'shell(git:*)' \
+            --deny-tool 'shell(git push)' \
+            --deny-tool 'shell(rm)' \
+            --allow-all-urls
+          
+          echo "✓ Copilot CLI task completed for issue #$ISSUE_NUMBER"
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'
