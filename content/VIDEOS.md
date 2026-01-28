@@ -4,7 +4,7 @@
 
 > **📊 Library Stats**
 > - 📚 **1** total videos
-> - 🆕 **0** new this week
+> - 🆕 **1** new this week
 > - 📂 **Categories**: Tutorials (1)
 
 ---
@@ -41,7 +41,7 @@ Choose the category that matches what you want to learn:
 
 [![Rubber Duck Thursdays - Let's build with GitHub Copilot SDK](https://i2.ytimg.com/vi/IKzfETGGt0E/hqdefault.jpg)](https://www.youtube.com/watch?v=IKzfETGGt0E)
 
-**Published**: Unknown date
+**Published**: January 28, 2026
 
 Join us for Rubber Duck Thursdays as we build with the GitHub Copilot SDK. Learn practical implementation patterns and best practices for extending GitHub Copilot.
 
