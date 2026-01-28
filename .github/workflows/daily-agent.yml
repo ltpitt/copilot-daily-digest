@@ -205,6 +205,7 @@ jobs:
       
       # Assign issue to copilot
       - name: Assign Issue to Copilot
+        continue-on-error: true
         if: steps.changes.outputs.HAS_CHANGES == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
