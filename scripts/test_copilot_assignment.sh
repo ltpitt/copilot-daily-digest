@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Test script for Copilot notification workflow
-# This script demonstrates the complete workflow for notifying copilot via comment
+# This script demonstrates the complete workflow for notifying Copilot via comment
 
 set -e  # Exit on error
 
@@ -50,8 +50,8 @@ echo ""
 
 # Step 3: Verify the comment
 echo "Step 3: Verifying comment..."
-COMMENTS=$(gh issue view "$ISSUE_NUMBER" --json comments --jq '.comments[-1].body')
-if echo "$COMMENTS" | grep -q "@copilot"; then
+ALL_COMMENTS=$(gh issue view "$ISSUE_NUMBER" --json comments --jq '.comments[].body')
+if echo "$ALL_COMMENTS" | grep -q "@copilot"; then
     echo "✓ Comment with @copilot mention posted successfully"
 else
     echo "❌ Comment not found"
