@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-01-28T12:58:01.676065+00:00",
+  "generated_at": "2026-01-28T23:24:27.581679+00:00",
   "has_changes": true,
-  "total_changes": 16,
+  "total_changes": 19,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-28T12:57:48Z",
+        "timestamp": "2026-01-28T23:24:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-28T12:57:54Z",
+        "timestamp": "2026-01-28T23:24:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-28T12:57:49Z",
+        "timestamp": "2026-01-28T23:24:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-28T12:57:58Z",
+        "timestamp": "2026-01-28T23:24:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-28T12:57:56Z",
+        "timestamp": "2026-01-28T23:24:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-28T12:57:45Z",
+        "timestamp": "2026-01-28T23:24:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-28T12:57:47Z",
+        "timestamp": "2026-01-28T23:24:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-28T12:57:46Z",
+        "timestamp": "2026-01-28T23:24:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-28T12:57:55Z",
+        "timestamp": "2026-01-28T23:24:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-28T12:57:53Z",
+        "timestamp": "2026-01-28T23:24:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-28T12:57:44Z",
+        "timestamp": "2026-01-28T23:24:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-28T12:57:50Z",
+        "timestamp": "2026-01-28T23:24:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-28T12:57:52Z",
+        "timestamp": "2026-01-28T23:24:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-28T12:57:57Z",
+        "timestamp": "2026-01-28T23:24:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,17 +110,36 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 3,
+    "new_posts": [
+      {
+        "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
+        "url": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+        "date": "2026-01-28T17:00:00Z",
+        "summary": "<p>Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering.</p>\n<p>The post <a href=\"htt"
+      },
+      {
+        "title": "ACP support in Copilot CLI is now in public preview",
+        "url": "https://github.blog/changelog/2026-01-28-acp-support-in-copilot-cli-is-now-in-public-preview",
+        "date": "2026-01-28T15:00:30Z",
+        "summary": "<p>GitHub Copilot CLI now implements the Agent Client Protocol (ACP), an industry-standard protocol for communication between AI agents and clients. This enables third-party tools, IDEs, and automatio"
+      },
+      {
+        "title": "Changes to GitHub Dependabot pull request comment commands",
+        "url": "https://github.blog/changelog/2026-01-27-changes-to-github-dependabot-pull-request-comment-commands",
+        "date": "2026-01-27T19:35:52Z",
+        "summary": "<p>As we announced in October of 2025, we deprecated several Dependabot-specific pull request comment commands today in favor of GitHub&#8217;s native pull request features and functionality. This cha"
+      }
+    ]
   },
   "videos": {
     "new_count": 1,
     "new_videos": [
       {
-        "title": "Rubber Duck Thursdays - Let's build with GitHub Copilot SDK",
-        "video_id": "IKzfETGGt0E",
-        "date": "2026-01-28T11:10:30+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/IKzfETGGt0E/hqdefault.jpg"
+        "title": "Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast",
+        "video_id": "XmCSHr12CO0",
+        "date": "2026-01-28T15:01:06+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/XmCSHr12CO0/hqdefault.jpg"
       }
     ]
   },
@@ -128,117 +147,136 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on January 28, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n🎥 Videos: 1 new video\n  - \"Rubber Duck Thursdays - Let's build with GitHub Copilot SDK\" (2026-01-28)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on January 28, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 3 new articles\n  - \"From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner\" (2026-01-28)\n  - \"ACP support in Copilot CLI is now in public preview\" (2026-01-28)\n  - \"Changes to GitHub Dependabot pull request comment commands\" (2026-01-27)\n\n🎥 Videos: 1 new video\n  - \"Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast\" (2026-01-28)\n\nTotal: 19 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 15,
+    "total_changes": 18,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-01-28T12:57:48Z",
+        "timestamp": "2026-01-28T23:24:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-01-28T12:57:54Z",
+        "timestamp": "2026-01-28T23:24:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-01-28T12:57:49Z",
+        "timestamp": "2026-01-28T23:24:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-01-28T12:57:58Z",
+        "timestamp": "2026-01-28T23:24:24Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-01-28T12:57:56Z",
+        "timestamp": "2026-01-28T23:24:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-01-28T12:57:45Z",
+        "timestamp": "2026-01-28T23:24:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-01-28T12:57:47Z",
+        "timestamp": "2026-01-28T23:24:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-01-28T12:57:46Z",
+        "timestamp": "2026-01-28T23:24:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-01-28T12:57:55Z",
+        "timestamp": "2026-01-28T23:24:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-01-28T12:57:53Z",
+        "timestamp": "2026-01-28T23:24:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-01-28T12:57:44Z",
+        "timestamp": "2026-01-28T23:24:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-01-28T12:57:50Z",
+        "timestamp": "2026-01-28T23:24:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-01-28T12:57:52Z",
+        "timestamp": "2026-01-28T23:24:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-01-28T12:57:57Z",
+        "timestamp": "2026-01-28T23:24:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
+    "new_blog_posts": [
+      {
+        "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
+        "url": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+        "date": "2026-01-28T17:00:00Z",
+        "summary": "<p>Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering.</p>\n<p>The post <a href=\"htt"
+      },
+      {
+        "title": "ACP support in Copilot CLI is now in public preview",
+        "url": "https://github.blog/changelog/2026-01-28-acp-support-in-copilot-cli-is-now-in-public-preview",
+        "date": "2026-01-28T15:00:30Z",
+        "summary": "<p>GitHub Copilot CLI now implements the Agent Client Protocol (ACP), an industry-standard protocol for communication between AI agents and clients. This enables third-party tools, IDEs, and automatio"
+      },
+      {
+        "title": "Changes to GitHub Dependabot pull request comment commands",
+        "url": "https://github.blog/changelog/2026-01-27-changes-to-github-dependabot-pull-request-comment-commands",
+        "date": "2026-01-27T19:35:52Z",
+        "summary": "<p>As we announced in October of 2025, we deprecated several Dependabot-specific pull request comment commands today in favor of GitHub&#8217;s native pull request features and functionality. This cha"
+      }
+    ],
     "new_videos": [
       {
-        "title": "Rubber Duck Thursdays - Let's build with GitHub Copilot SDK",
-        "video_id": "IKzfETGGt0E",
-        "date": "2026-01-28T11:10:30+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/IKzfETGGt0E/hqdefault.jpg"
+        "title": "Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast",
+        "video_id": "XmCSHr12CO0",
+        "date": "2026-01-28T15:01:06+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/XmCSHr12CO0/hqdefault.jpg"
       }
     ]
   }
