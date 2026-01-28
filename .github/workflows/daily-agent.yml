@@ -198,13 +198,28 @@ jobs:
           Create a PR with all 7 files (VIDEOS.md already exists, don't touch it).
           TASK_EOF
           
-          # Substitute the summary
-          sed -i "s|SUMMARY_PLACEHOLDER|$SUMMARY|g" /tmp/agent-task.md
+          # Substitute the summary using a safer method
+          # Use a temporary file to avoid issues with special characters
+          echo "$SUMMARY" > /tmp/summary.txt
+          awk '{
+            if ($0 == "SUMMARY_PLACEHOLDER") {
+              while ((getline line < "/tmp/summary.txt") > 0) {
+                print line
+              }
+            } else {
+              print $0
+            }
+          }' /tmp/agent-task.md > /tmp/agent-task-final.md
+          mv /tmp/agent-task-final.md /tmp/agent-task.md
           
           # Create agent task using Copilot CLI
           echo "Creating agent task with GitHub Copilot CLI..."
-          gh agent-task create -F /tmp/agent-task.md
-          echo "✓ Agent task created successfully"
+          if gh agent-task create -F /tmp/agent-task.md; then
+            echo "✓ Agent task created successfully"
+          else
+            echo "❌ Failed to create agent task"
+            exit 1
+          fi
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'
