@@ -1,159 +1,143 @@
-# GitHub Copilot Complete Reference
+# GitHub Copilot Documentation Reference
 
-> Links to official documentation organized by category
+> Complete index of official GitHub Copilot documentation
 
-**Last Updated**: January 26, 2026
+**Last Updated**: 2026-01-28
+
+This file provides a categorized index of all tracked GitHub Copilot documentation.
 
 ---
 
-## Core Documentation
+## Getting Started
 
 ### Getting Started
 
-**[copilot-overview.md](https://docs.github.com/en/copilot/about-github-copilot)** - Introduction to GitHub Copilot capabilities and features  
-*What Copilot can do, available plans, and how it works*
+- **Extensions Overview**
+  - File: `copilot-extensions-overview.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-getting-started.md](https://docs.github.com/en/copilot/quickstart)** - Setup guide and initial configuration steps  
-*Quick installation and first steps with Copilot*
+- **Getting Started**
+  - File: `copilot-getting-started.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-chat.md](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)** - Using Copilot Chat for interactive assistance  
-*Slash commands, chat variables, participants, and AI models*
+- **Overview**
+  - File: `copilot-overview.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
----
+### Chat & Prompts
 
-### Features
+- **Asking Questions**
+  - File: `copilot-asking-questions.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-code-suggestions.md](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot)** - Understanding inline code suggestions and completions  
-*How inline suggestions work, accepting/rejecting, cycling through options*
+- **Chat**
+  - File: `copilot-chat.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-extensions-overview.md](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)** - Overview of Copilot extensions ecosystem  
-*Available extensions, integration capabilities, and use cases*
+- **Prompt Engineering**
+  - File: `copilot-prompt-engineering.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-extensions-integration.md](https://docs.github.com/en/copilot/building-copilot-extensions/about-building-copilot-extensions)** - Integrating custom extensions into your workflow  
-*Building and integrating custom Copilot extensions*
+### Code Suggestions
 
----
+- **Code Suggestions**
+  - File: `copilot-code-suggestions.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
 ### Configuration
 
-**[copilot-custom-instructions.md](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)** - Creating effective custom instructions files  
-*Repository-level and user-level custom instructions for tailored suggestions*
+- **Configuration**
+  - File: `copilot-configuration.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-configuration.md](https://docs.github.com/en/copilot/configuring-github-copilot)** - Configuration options and settings  
-*IDE settings, content exclusions, and policy configuration*
+- **Custom Instructions**
+  - File: `copilot-custom-instructions.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
----
+### Extensions
+
+- **Extensions Integration**
+  - File: `copilot-extensions-integration.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
 ### Best Practices
 
-**[copilot-best-practices.md](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Proven patterns for effective Copilot usage  
-*When to use Copilot, choosing the right tool, checking Copilot's work*
+- **Best Practices**
+  - File: `copilot-best-practices.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-prompt-engineering.md](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)** - Crafting effective prompts for better results  
-*Prompt patterns, examples, and strategies for optimal responses*
+- **Responsible Use**
+  - File: `copilot-responsible-use.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-asking-questions.md](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)** - How to ask questions that get quality answers  
-*Question patterns, context provision, and iterative refinement*
+### Management
 
-**[copilot-responsible-use.md](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features)** - Guidelines for responsible AI usage  
-*Security considerations, code review, and ethical AI use*
+- **Managing Organization**
+  - File: `copilot-managing-organization.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
----
+### Troubleshooting
 
-### Administration
+- **Troubleshooting**
+  - File: `copilot-troubleshooting.md`
+  - [View on GitHub Docs](https://docs.github.com/copilot)
 
-**[copilot-managing-organization.md](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization)** - Organization-level management and policies  
-*Seat assignments, policy settings, and organizational controls*
-
-**[copilot-troubleshooting.md](https://docs.github.com/en/copilot/troubleshooting-github-copilot)** - Common issues and solutions  
-*Authentication issues, suggestion problems, and platform-specific fixes*
-
----
-
-## External Resources
-
-### Official Channels
-
-- **[GitHub Copilot Documentation](https://docs.github.com/copilot)** - Complete official documentation
-- **[GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)** - Feature announcements and deep dives
-- **[GitHub Changelog - Copilot](https://github.blog/changelog/label/copilot/)** - Latest updates and releases
-- **[GitHub Community Discussions](https://github.com/orgs/community/discussions/categories/copilot)** - Community Q&A and support
-- **[GitHub Copilot SDK](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)** - Build AI agents (Technical Preview)
-
-### Learning Resources
-
-- **[GitHub Skills](https://github.com/skills)** - Free interactive courses
-- **[Microsoft Learn](https://learn.microsoft.com/en-us/training/github/)** - Self-paced training modules
-- **[YouTube - GitHub](https://www.youtube.com/@GitHub)** - Video tutorials and demos
 
 ---
 
-## Documentation Freshness
+## Documentation Categories
 
-Last updated timestamps for each documentation file:
+| Category | Files |
+|----------|-------|
+| Getting Started | 3 |
+| Chat & Prompts | 3 |
+| Code Suggestions | 1 |
+| Configuration | 2 |
+| Extensions | 1 |
+| Best Practices | 2 |
+| Management | 1 |
+| Troubleshooting | 1 |
 
-| Documentation | Last Updated |
-|---------------|-------------|
-| **copilot-overview.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-getting-started.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-chat.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-extensions-overview.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-extensions-integration.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-custom-instructions.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-best-practices.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-prompt-engineering.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-asking-questions.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-code-suggestions.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-managing-organization.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-configuration.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-responsible-use.md** | January 26, 2026 at 23:23 UTC |
-| **copilot-troubleshooting.md** | January 26, 2026 at 23:23 UTC |
+**Total Files**: 14
 
 ---
 
-## Topic Index
+## Quick Links by Topic
 
-### AI Models
-- [AI models for Copilot Chat](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#ai-models-for-copilot-chat)
-- [Changing the AI model](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#changing-the-ai-model-for-github-copilot-chat)
+### For New Users
+1. [Overview](https://docs.github.com/copilot/about-github-copilot/what-is-github-copilot) - What is GitHub Copilot?
+2. [Getting Started](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot) - Quickstart guide
+3. [Best Practices](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot) - How to use Copilot effectively
 
-### Chat Features
-- [Chat participants](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#chat-participants)
-- [Slash commands](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#slash-commands)
-- [Chat variables](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#chat-variables)
-- [GitHub skills](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#using-github-skills-for-copilot)
+### For Power Users
+1. [Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot) - Write better prompts
+2. [Chat in IDE](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide) - Advanced chat features
+3. [Custom Instructions](https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) - Customize Copilot behavior
 
-### Code Quality
-- [Code review with Copilot](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review)
-- [Security best practices](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features)
-- [Content exclusions](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-content-exclusions)
+### For Organizations
+1. [Managing Organizations](https://docs.github.com/copilot/managing-copilot/managing-github-copilot-in-your-organization) - Enterprise setup
+2. [Configuration](https://docs.github.com/copilot/configuring-github-copilot) - Organization-wide settings
 
-### Enterprise Features
-- [Organization policies](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization)
-- [Usage metrics](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/reviewing-usage-data-for-github-copilot-in-your-organization)
-- [Seat management](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/granting-access-to-copilot-for-members-of-your-organization)
-
-### Extensions & Integrations
-- [Model Context Protocol (MCP) servers](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-model-context-protocol-mcp-servers)
-- [Copilot Extensions](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
-- [Building extensions](https://docs.github.com/en/copilot/building-copilot-extensions/about-building-copilot-extensions)
-
-### Platform-Specific
-- [VS Code](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode)
-- [JetBrains](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=jetbrains)
-- [Visual Studio](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=visualstudio)
-- [CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli)
-- [GitHub.com](https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom)
+### For Extension Developers
+1. [Extensions Overview](https://docs.github.com/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat) - What are extensions?
+2. [Building Extensions](https://docs.github.com/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat) - Integration guide
 
 ---
 
-## Related Content
+## Related Resources
 
-- **[Quick Start Guide](GETTING-STARTED.md)** - Get up and running in 5 minutes
-- **[Commands Reference](COMMANDS.md)** - Slash commands, shortcuts, variables
-- **[What's New](WHATS-NEW.md)** - Latest features and updates
-- **[Training Courses](TRAININGS.md)** - Free courses and certifications
+### Internal Documentation
+- [Commands & Shortcuts](COMMANDS.md) - Quick reference
+- [Getting Started Guide](GETTING-STARTED.md) - Best practices
+- [Training Courses](TRAININGS.md) - Official courses
+- [What's New](WHATS-NEW.md) - Recent updates
+
+### Official Resources
+- [GitHub Copilot Documentation](https://docs.github.com/copilot) - Complete official docs
+- [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/) - Latest announcements
+- [GitHub Community](https://github.com/orgs/community/discussions/categories/copilot) - Community discussions
+- [GitHub Skills](https://skills.github.com/) - Hands-on learning
 
 ---
 
-*For quick command lookup, see [COMMANDS.md](COMMANDS.md)*
+*Documentation index updated 2026-01-28. All links verified and current.*

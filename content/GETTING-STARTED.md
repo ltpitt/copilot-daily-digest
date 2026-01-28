@@ -2,9 +2,7 @@
 
 > Your 5-minute guide to productive AI pair programming
 
-**Last Updated**: January 26, 2026
-
-## Quick Setup
+## 🚀 Quick Setup
 
 ### 1. Install Copilot in Your IDE
 
@@ -14,29 +12,24 @@
 code --install-extension GitHub.copilot
 ```
 
-**JetBrains**: Install from Plugins marketplace (Settings → Plugins → Search "GitHub Copilot")  
-**Visual Studio**: Built-in for Version 17.14+  
+**JetBrains**: Install from Plugins marketplace (Settings → Plugins → search "GitHub Copilot")
+**Visual Studio**: Version 17.14+ includes built-in support
 **Xcode/Eclipse**: Available for Pro/Pro+ subscribers
 
-### 2. Install Copilot CLI (Optional but Recommended)
+### 2. Sign Up for GitHub Copilot
 
-**NEW (Jan 2026)**: Bring AI assistance directly to your terminal:
+Choose your plan:
+- **Copilot Free** - Limited features to explore without subscribing
+- **Copilot Pro** - Full features, advanced models, higher limits ($10/month)
+- **Copilot Pro+** - All Pro features + priority access to newest models ($15/month)
+- **Copilot Enterprise** - Organization-wide deployment with custom instructions
 
-```bash
-# Install via GitHub CLI
-gh copilot
-```
+[Sign up at GitHub Copilot Plans](https://docs.github.com/copilot/about-github-copilot/subscription-plans-for-github-copilot)
 
-The command will prompt you to install if not already installed. Once set up, you get:
-- Planning capabilities for complex terminal tasks
-- Slash commands for testing, fixing, and debugging
-- Reasoning models for smarter command suggestions
+### 3. Try Your First Inline Suggestion
 
-→ **Learn more**: [Installation guide](https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli) | [Slash commands cheat sheet](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
+Open any code file and type a comment:
 
-### 3. Try Your First Prompt
-
-Open any file and type a comment:
 ```javascript
 // Create a function that validates email addresses with regex
 ```
@@ -45,147 +38,143 @@ Press `Enter` - Copilot suggests the implementation. Press `Tab` to accept.
 
 ### 4. Use Chat for Complex Tasks
 
-Press `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac) for inline chat:
+**Keyboard Shortcuts**:
+- VS Code: `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac)
+- JetBrains: `Alt+C` or `Option+C`
+
+Try this prompt:
 ```
-Explain this codebase structure and list any failing tests
+Explain the structure of this codebase and list the main components
 ```
 
-### 5. Enable Agent Mode (Optional)
+### 5. Enable Agent Mode (Advanced)
 
 For autonomous multi-step tasks:
-- VS Code: Chat view → Select "Agent" from mode dropdown
-- Ask: "Add Redis caching to userSessionService with 30s TTL"
-- Copilot determines files, makes changes, and you review
+1. Open Copilot Chat
+2. Select **Agent** from the mode dropdown at the bottom
+3. Ask: "Add Redis caching to userSessionService with 30s TTL"
+4. Copilot determines files, makes changes, and iterates to complete the task
 
-## Best Practices
+## 💡 Best Practices
 
-### Write Effective Issues (WRAP Methodology)
+### 1. Write Context-Rich Prompts
 
-❌ **Don't**: "Update the entire repository to use async/await"  
-✅ **Do**: "Update the authentication middleware to use the newer async/await pattern, as shown below. Add unit tests for verification."
+❌ **Don't**: "Add caching"
+✅ **Do**: "Add Redis caching to userSessionService with 30s TTL to reduce DB load when handling >1000 requests/min"
 
-```javascript
-async function exampleFunction() {
-  let result = await promise;
-  console.log(result); // "done!"
-}
+**Why**: Specific requirements help Copilot generate production-ready code.
+
+→ [Learn more: Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+
+### 2. Break Complex Tasks into Smaller Steps
+
+❌ **Don't**: "Build a word search puzzle generator"
+✅ **Do**:
+1. "Write a function to generate a 10x10 grid of letters"
+2. "Write a function to find all words in a grid given a word list"
+3. "Combine functions to generate grids containing at least 10 words"
+
+**Why**: Simpler prompts = more accurate suggestions. You can iterate on each piece.
+
+→ [Source: Best Practices - Break Down Tasks](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+
+### 3. Provide Examples in Your Prompts
+
+❌ **Don't**: "Parse dates from strings"
+✅ **Do**:
+```
+Write a function that finds all dates in a string. Dates can be:
+* 05/02/24, 05/02/2024, 5/2/24, 5/2/2024
+* 05-02-24, 05-02-2024, 5-2-24, 5-2-2024
+
+Example:
+findDates("Meeting on 11/14/2023 and 12-1-23")
+Returns: ["11/14/2023", "12-1-23"]
 ```
 
-**Why**: Write issues as though they're for someone brand new to the codebase. Include context and examples.
+**Why**: Examples clarify edge cases and expected formats.
 
-→ **Source**: [WRAP up your backlog with GitHub Copilot coding agent](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
+→ [Source: Prompt Engineering - Give Examples](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot#give-examples)
 
-### Use Atomic Tasks
+### 4. Use Chat Participants & Slash Commands
 
-❌ **Don't**: "Rewrite 3 million lines of code from Java to Golang"  
-✅ **Do**: Break into smaller atomic tasks:
-1. "Migrate the authentication module to Golang, ensuring all existing unit tests pass"
-2. "Convert the data validation utilities package to Golang while maintaining the same API interface"
-3. "Rewrite the user management controllers to Golang, preserving existing REST endpoints"
+**Chat Participants** (type `@` in chat):
+- `@workspace` - Ask about your entire codebase
+- `@terminal` - Get shell command help
+- `@vscode` - VS Code settings and features
 
-**Why**: Atomic tasks are easier to test, validate, and review. Coding agent excels at small, well-defined tasks.
+**Slash Commands** (type `/` in chat):
+- `/explain` - Explain selected code
+- `/fix` - Suggest fixes for errors
+- `/tests` - Generate unit tests
+- `/doc` - Add documentation comments
 
-→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
-
-### Refine Your Custom Instructions
-
-Improve results by adding custom instructions at different levels:
-
-**Repository instructions**: Add coding standards specific to your repository (e.g., "Use async/await for Go applications")
-
-**Organization instructions**: Set requirements that apply to all repos (e.g., "All applications must have unit tests")
-
-**Custom agents**: Create specialized agents for repetitive tasks (e.g., "Integration Agent" for product integrations)
-
-→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)  
-→ **Guide**: [Configure custom instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
-
-### Provide Examples
-
-❌ **Don't**: "Create a data validation function"  
-✅ **Do**: 
+**Example**:
 ```
-Create a data validation function. Example input:
-{ name: "John", age: 25, email: "john@example.com" }
-Expected output: { valid: true, errors: [] }
+@workspace /tests
+Generate unit tests for the authentication module with edge cases
 ```
 
-**Why**: Examples clarify your requirements and reduce ambiguity.
+→ [Source: Chat in IDE - Using Keywords](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
 
-### Use Inline Suggestions for Repetitive Code
-
-**Best for**:
-- Completing similar functions
-- Writing test cases
-- Generating boilerplate
-
-**How**: Start typing, wait for ghost text, press `Tab` to accept.
-
-### Use Chat for Complex Reasoning
-
-**Best for**:
-- Debugging issues
-- Understanding unfamiliar code
-- Architecture decisions
-- Code review
-
-**How**: Press `Ctrl+Shift+I` (VS Code) to open chat view, then ask questions.
-
-### Review and Test Copilot's Suggestions
+### 5. Review Copilot's Suggestions Carefully
 
 ✅ **Always**:
-- Read suggested code before accepting
-- Run tests to verify behavior
-- Check for security issues (SQL injection, XSS, etc.)
-- Validate that code follows your project's conventions
+- Understand code before accepting (use `/explain` if unclear)
+- Test generated code thoroughly
+- Use linting and security scanning tools
+- Check for similarities to public code (if enabled)
 
 ❌ **Never**:
-- Blindly accept all suggestions
-- Skip code review for AI-generated code
-- Commit without testing
+- Blindly accept suggestions without understanding
+- Skip testing AI-generated code
+- Assume Copilot suggestions are always secure
 
-### Use Slash Commands for Common Tasks
+**Why**: Copilot is a tool—you're responsible for code quality and security.
 
-Quick shortcuts in chat:
-- `/explain` - Explain selected code
-- `/fix` - Suggest fixes for problems
-- `/tests` - Generate unit tests
-- `/doc` - Add documentation
+→ [Source: Best Practices - Check Copilot's Work](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot#check-copilots-work)
 
-**Example**: Select a function → Open chat → Type `/tests` → Get comprehensive test cases.
+### 6. Provide Relevant Context
 
-### Keep Context Files Open
+**Do This**:
+- Open files related to your task
+- Close unrelated files to reduce noise
+- Use chat variables: `#file`, `#selection`, `#codebase`
 
-**Tip**: Open relevant files in tabs before asking Copilot questions. It uses open files as context.
+**Example**:
+```
+Using #file:database.js as a reference, add similar error handling
+to #selection in api-routes.js
+```
 
-**Example**: Before asking "Add error handling to API routes", open:
-- Your API route files
-- Error handler utilities
-- Similar implemented routes
+**Why**: Copilot uses open files and references to understand your codebase context.
 
-### Pair with Coding Agent
+→ [Source: Best Practices - Provide Context](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot#guide-copilot-towards-helpful-outputs)
 
-Understand what humans vs. AI do best:
+### 7. Iterate and Refine Prompts
 
-**Humans excel at**:
-- Understanding the "why" behind tasks
-- Navigating ambiguity and making judgment calls
-- Cross-system thinking and impact analysis
+If Copilot's first response isn't helpful:
+1. **Rephrase** your prompt with different words
+2. **Add more details** about requirements or constraints
+3. **Ask follow-up questions** to refine the output
+4. **Start a new conversation** if context becomes unhelpful
 
-**Coding agent excels at**:
-- Tireless execution (assign 10 tasks simultaneously)
-- Repetitive tasks (updating naming conventions across many files)
-- Exploring possibilities (test multiple approaches in parallel)
+**Example Iteration**:
+- First: "Create an API endpoint"
+- Refined: "Create a POST /api/users endpoint in Express that validates email/password, hashes password with bcrypt, saves to MongoDB, and returns JWT"
 
-→ **Source**: [WRAP up your backlog](https://github.blog/ai-and-ml/github-copilot/wrap-up-your-backlog-with-github-copilot-coding-agent/) (Dec 26, 2025)
+→ [Source: Best Practices - Guide Copilot](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot#guide-copilot-towards-helpful-outputs)
 
-## Next Steps
+## 🎯 Next Steps
 
-- **[Watch tutorials](VIDEOS.md)** - Learn from video demos
-- **[Take courses](TRAININGS.md)** - Official GitHub Skills courses
-- **[Explore updates](WHATS-NEW.md)** - See latest features
-- **[Read best practices](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)** - Official documentation
+1. **Master Prompts**: Read [Prompt Engineering Guide](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+2. **Deep Dive**: Explore the [Starter Kit](STARTER-KIT.md) for workflow integration
+3. **Train**: Take [official courses](TRAININGS.md) for certifications
+4. **Stay Updated**: Bookmark [What's New](WHATS-NEW.md) for latest features
 
----
+## 📚 Official Resources
 
-*For complete command reference, see [COMMANDS.md](COMMANDS.md)*
+- [Copilot Documentation](https://docs.github.com/copilot)
+- [Best Practices](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+- [Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+- [Chat in IDE](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
