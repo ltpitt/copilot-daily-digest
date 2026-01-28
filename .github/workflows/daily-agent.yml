@@ -203,17 +203,17 @@ jobs:
           echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
           echo "Created issue #$ISSUE_NUMBER: $ISSUE_URL"
       
-      # Assign issue to copilot
-      - name: Assign Issue to Copilot
+      # Notify Copilot via comment
+      - name: Notify Copilot via Comment
         continue-on-error: true
         if: steps.changes.outputs.HAS_CHANGES == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ISSUE_NUMBER="${{ steps.create_issue.outputs.ISSUE_NUMBER }}"
-          echo "Assigning issue #$ISSUE_NUMBER to @copilot..."
-          gh issue edit "$ISSUE_NUMBER" --add-assignee "copilot"
-          echo "✓ Issue #$ISSUE_NUMBER assigned to @copilot"
+          echo "Notifying @copilot on issue #$ISSUE_NUMBER..."
+          gh issue comment "$ISSUE_NUMBER" --body "@copilot Please start working on this content update task."
+          echo "✓ Issue #$ISSUE_NUMBER comment posted to notify @copilot"
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'

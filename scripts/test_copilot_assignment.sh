@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Test script for Copilot issue assignment workflow
-# This script demonstrates the complete workflow for testing copilot assignment
+# Test script for Copilot notification workflow
+# This script demonstrates the complete workflow for notifying copilot via comment
 
 set -e  # Exit on error
 
-echo "🧪 Testing Copilot Issue Assignment Workflow"
+echo "🧪 Testing Copilot Issue Notification Workflow"
 echo "=============================================="
 echo ""
 
@@ -28,13 +28,11 @@ echo ""
 # Step 1: Create a test issue
 echo "Step 1: Creating test issue..."
 ISSUE_URL=$(gh issue create \
-    --title "🧪 Test Issue for Copilot Assignment - $(date +'%Y-%m-%d %H:%M:%S')" \
-    --body "This is a test issue to verify the automatic assignment workflow.
+    --title "🧪 Test Issue for Copilot Notification - $(date +'%Y-%m-%d %H:%M:%S')" \
+    --body "This is a test issue to verify the automatic notification workflow.
 
 ## Test Task
-Please verify this issue was automatically assigned to @copilot.
-
-@copilot Please respond to confirm you can see and work on this issue.
+Please verify this issue triggers @copilot via comment notification.
 
 This is a test issue and can be closed after verification." \
     --label "test")
@@ -44,19 +42,19 @@ ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
 echo "✓ Created issue #$ISSUE_NUMBER: $ISSUE_URL"
 echo ""
 
-# Step 2: Assign the issue to copilot
-echo "Step 2: Assigning issue #$ISSUE_NUMBER to @copilot..."
-gh issue edit "$ISSUE_NUMBER" --add-assignee "copilot"
-echo "✓ Issue assigned to @copilot"
+# Step 2: Notify Copilot via comment
+echo "Step 2: Notifying @copilot on issue #$ISSUE_NUMBER..."
+gh issue comment "$ISSUE_NUMBER" --body "@copilot Please start working on this issue."
+echo "✓ Comment posted to notify @copilot"
 echo ""
 
-# Step 3: Verify the assignment
-echo "Step 3: Verifying assignment..."
-ASSIGNEES=$(gh issue view "$ISSUE_NUMBER" --json assignees --jq '.assignees[].login')
-if echo "$ASSIGNEES" | grep -q "copilot"; then
-    echo "✓ Issue is correctly assigned to copilot"
+# Step 3: Verify the comment
+echo "Step 3: Verifying comment..."
+COMMENTS=$(gh issue view "$ISSUE_NUMBER" --json comments --jq '.comments[-1].body')
+if echo "$COMMENTS" | grep -q "@copilot"; then
+    echo "✓ Comment with @copilot mention posted successfully"
 else
-    echo "❌ Issue is not assigned to copilot"
+    echo "❌ Comment not found"
     exit 1
 fi
 echo ""
@@ -109,8 +107,8 @@ echo "✅ Test workflow completed successfully!"
 echo ""
 echo "Summary:"
 echo "- Created test issue #$ISSUE_NUMBER"
-echo "- Assigned to @copilot"
-echo "- Verified assignment"
+echo "- Posted comment to notify @copilot"
+echo "- Verified comment was posted"
 if [ -n "$PR_NUMBER" ]; then
     echo "- Cleaned up PR #$PR_NUMBER and branch $PR_BRANCH"
 fi
