@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: 2026-01-28
+**Last Updated**: January 28, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -10,82 +10,79 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### Documentation Updates (14 files)
+### New Video: Copilot SDK Development
 
-**Extensions Integration**
-- File: `copilot-extensions-integration.md`
-- Updated: 2026-01-28
-- [View documentation](https://docs.github.com/copilot)
+**"Rubber Duck Thursdays - Let's build with GitHub Copilot SDK"** (Jan 28, 2026)
+- Learn to build with the GitHub Copilot SDK
+- Part of the Rubber Duck Thursdays series
+- Practical SDK implementation examples
+- [Watch on YouTube](https://www.youtube.com/watch?v=IKzfETGGt0E)
 
-**Code Suggestions**
-- File: `copilot-code-suggestions.md`
-- Updated: 2026-01-28
-- [View documentation](https://docs.github.com/copilot)
+### Major Documentation Refresh (14 files updated Jan 28)
 
-**Custom Instructions**
-- File: `copilot-custom-instructions.md`
-- Updated: 2026-01-28
-- [View documentation](https://docs.github.com/copilot)
+All core Copilot documentation has been synchronized with the latest updates:
 
-**Troubleshooting**
-- File: `copilot-troubleshooting.md`
-- Updated: 2026-01-28
-- [View documentation](https://docs.github.com/copilot)
-
-**Configuration**
-- File: `copilot-configuration.md`
-- Updated: 2026-01-28
-- [View documentation](https://docs.github.com/copilot)
+**Core Features Updated**:
+- **Chat & Prompting**: `copilot-chat.md`, `copilot-asking-questions.md`, `copilot-prompt-engineering.md`
+- **Code Intelligence**: `copilot-code-suggestions.md`, `copilot-custom-instructions.md`
+- **Extensions**: `copilot-extensions-overview.md`, `copilot-extensions-integration.md`
+- **Setup & Config**: `copilot-getting-started.md`, `copilot-configuration.md`, `copilot-overview.md`
+- **Best Practices**: `copilot-best-practices.md`, `copilot-responsible-use.md`
+- **Management**: `copilot-managing-organization.md`, `copilot-troubleshooting.md`
 
 
 ---
 
 ## This Month (Last 30 Days)
 
-### Key Documentation Areas Updated
+All updates this month occurred on January 28, 2026 - see "This Week" section above.
 
+### What This Means
 
-**Best Practices** (2 files):
-- Best Practices
-- Prompt Engineering
+The comprehensive documentation refresh ensures:
+1. **Accuracy**: All docs reflect current Copilot features and capabilities
+2. **Completeness**: Extensions, chat, and setup docs are fully up-to-date
+3. **Best Practices**: Latest guidance for prompt engineering and responsible use
+4. **Troubleshooting**: Current solutions for common issues
 
-**Chat** (1 files):
-- Chat
+### Key Focus Areas
 
-**Extensions** (2 files):
-- Extensions Integration
-- Extensions Overview
+Based on the documentation updates, GitHub Copilot's current focus includes:
 
-**Getting Started** (2 files):
-- Getting Started
-- Overview
-
-**Other** (7 files):
-- Code Suggestions
-- Custom Instructions
-- Troubleshooting
-
-
-→ [View complete changelog](CHANGELOG.md)
+1. **Copilot Extensions** - Build custom extensions to integrate external tools and services
+2. **Chat Enhancement** - Improved conversational AI with better context understanding  
+3. **Custom Instructions** - Repository and organization-level prompt customization
+4. **Multi-IDE Support** - Consistent experience across VS Code, JetBrains, Visual Studio, and more
 
 ---
 
-## 🔍 Quick Highlights
+## 🔍 What to Explore
 
-Based on recent documentation updates, focus areas include:
+Based on this week's updates, consider exploring:
 
-1. **GitHub Copilot Extensions** - Integration capabilities and overview updated
-2. **Chat Features** - Enhanced chat functionality and prompt engineering
-3. **Configuration & Setup** - Getting started and configuration improvements
-4. **Best Practices** - Updated guidance for effective AI pair programming
+**If you're new to Copilot**:
+- Start with [Getting Started Guide](GETTING-STARTED.md)
+- Review [Best Practices](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+- Watch the new [SDK tutorial video](https://www.youtube.com/watch?v=IKzfETGGt0E)
+
+**If you're building extensions**:
+- Read updated [Extensions Overview](https://docs.github.com/copilot/building-copilot-extensions/about-building-copilot-extensions)
+- Explore [Integration Guide](https://docs.github.com/copilot/building-copilot-extensions/building-a-copilot-extension)
+- Check [SDK documentation](https://www.youtube.com/watch?v=IKzfETGGt0E)
+
+**If you're optimizing usage**:
+- Master [Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
+- Configure [Custom Instructions](https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
+- Review [Asking Questions in IDE](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
 
 ## 📚 Dive Deeper
 
 - [Complete Changelog](CHANGELOG.md) - Full historical timeline
 - [Training Courses](TRAININGS.md) - Learn new features through official courses
-- [Commands Reference](COMMANDS.md) - Updated slash commands and shortcuts
-- [Documentation Index](REFERENCE.md) - Browse all 14 docs
+- [Commands Reference](COMMANDS.md) - Slash commands and shortcuts
+- [Documentation Index](REFERENCE.md) - Browse all 14 tracked docs
+- [Video Library](VIDEOS.md) - Curated tutorials and demos
 
 ---
 
-*Updates are detected automatically and expire after 30 days.*
+*Updates are detected automatically. Content older than 30 days moves to CHANGELOG.md.*
