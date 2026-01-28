@@ -60,10 +60,10 @@ echo "Note: This will use the standalone 'copilot' CLI tool"
 echo ""
 
 # Note: In a real scenario, you would run:
-# copilot -p "Work on issue #$ISSUE_NUMBER in this repository" --allow-tool 'write' --allow-tool 'shell(git)'
+# copilot -p "Work on issue #$ISSUE_NUMBER in this repository" --allow-tool 'write' --allow-tool 'shell(git:*)' --allow-all-urls
 # For this test, we'll just demonstrate the command
 echo "Command that would be run:"
-echo "  copilot -p \"Work on issue #$ISSUE_NUMBER\" --allow-tool 'write' --allow-tool 'shell(git)'"
+echo "  copilot -p \"Work on issue #$ISSUE_NUMBER\" --allow-tool 'write' --allow-tool 'shell(git:*)' --allow-all-urls"
 echo ""
 echo "⚠️  Skipping actual copilot CLI execution in test mode"
 echo ""
@@ -84,5 +84,5 @@ echo "- Closed test issue"
 echo ""
 echo "To use Copilot CLI in production:"
 echo "  1. Install: npm install -g @github/copilot"
-echo "  2. Authenticate: copilot (follow prompts)"
-echo "  3. Use programmatic mode: copilot -p \"your prompt\" --allow-tool 'write'"
+echo "  2. Authenticate via GITHUB_TOKEN environment variable"
+echo "  3. Use programmatic mode: copilot -p \"your prompt\" --allow-tool 'write' --allow-all-urls"
