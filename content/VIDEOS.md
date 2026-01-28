@@ -20,7 +20,7 @@
 
 Choose the category that matches what you want to learn:
 
-### 📚 Tutorials
+### Tutorials
 
 *Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
 
@@ -31,7 +31,7 @@ Choose the category that matches what you want to learn:
 
 ---
 
-## 📚 Tutorials
+## Tutorials
 
 *Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
 

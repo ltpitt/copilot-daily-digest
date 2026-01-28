@@ -67,8 +67,8 @@ Based on this week's updates, consider exploring:
 
 **If you're building extensions**:
 - Read updated [Extensions Overview](https://docs.github.com/copilot/building-copilot-extensions/about-building-copilot-extensions)
-- Explore [Integration Guide](https://docs.github.com/copilot/building-copilot-extensions/building-a-copilot-extension)
-- Check [SDK documentation](https://www.youtube.com/watch?v=IKzfETGGt0E)
+- Watch [SDK tutorial video](https://www.youtube.com/watch?v=IKzfETGGt0E)
+- Check [extensions documentation](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
 
 **If you're optimizing usage**:
 - Master [Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)

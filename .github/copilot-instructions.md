@@ -831,7 +831,7 @@ Type `@` in the chat prompt box to see available participants.
 ## 🔗 External Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/copilot) - Official docs
-- [GitHub Blog - Copilot](https://github.blog/category/copilot/) - Latest news
+- [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/) - Latest news
 - [GitHub Community](https://github.com/orgs/community/discussions/categories/copilot) - Discussions
 
 ---

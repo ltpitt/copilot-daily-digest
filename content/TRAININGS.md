@@ -48,14 +48,14 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 
 Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
 
-- **Provider**: GitHub Skills
+- **Provider**: Microsoft Learn
 - **Level**: Beginner
 - **Format**: Interactive
 - **Time**: 1-2 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
 
-→ [Start course](https://github.com/skills/copilot-intro)
+→ [Start course](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
 
 ---
 
@@ -134,9 +134,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 - **Certificate**: Yes
 - **Topics**: GitHub Copilot, AI Pair Programming, Prompt Engineering, Professional Development
 
-> 💡 Check company Udemy account for access
-
-→ [View course](https://www.udemy.com/course/github-copilot-complete-guide/)
+> 💡 Search for "GitHub Copilot Complete Guide" in your company's Udemy account or visit Udemy directly for enrollment
 
 
 ---
