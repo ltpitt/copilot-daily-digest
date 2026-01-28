@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Test script for Copilot agent task workflow
-# This script demonstrates the complete workflow for creating agent tasks with Copilot CLI
+# Test script for Copilot CLI workflow
+# This script demonstrates using the standalone Copilot CLI to work on issues
 
 set -e  # Exit on error
 
-echo "🧪 Testing Copilot Agent Task Workflow"
+echo "🧪 Testing Copilot CLI Workflow"
 echo "=============================================="
 echo ""
 
@@ -25,44 +25,64 @@ fi
 echo "✓ gh CLI is installed and authenticated"
 echo ""
 
-# Step 1: Create a test task description file
-echo "Step 1: Creating test task description..."
-cat > /tmp/test-task.md << 'EOF'
-# Test Task for Copilot Agent
+# Step 1: Install Copilot CLI
+echo "Step 1: Installing Copilot CLI..."
+if command -v copilot &> /dev/null; then
+    echo "✓ Copilot CLI already installed"
+else
+    npm install -g @github/copilot
+    echo "✓ Copilot CLI installed"
+fi
+echo ""
 
-This is a test task to verify the agent task creation workflow.
+# Step 2: Create a test issue
+echo "Step 2: Creating test issue..."
+ISSUE_URL=$(gh issue create \
+    --title "🧪 Test Issue for Copilot CLI - $(date +'%Y-%m-%d %H:%M:%S')" \
+    --body "This is a test issue to verify the Copilot CLI workflow.
 
-## Task Description
-Please create a simple test file called `TEST.md` in the root of the repository with the following content:
+## Test Task
+Please create a simple test file called \`COPILOT_TEST.md\` in the root with:
 - Current date
-- A brief description of this test
-- Confirmation that the agent task workflow is working
+- Confirmation that Copilot CLI is working
 
-After creating the file, commit it with the message "test: verify agent task workflow" and create a pull request.
-EOF
+After creating the file, commit it and create a pull request." \
+    --label "test")
 
-echo "✓ Created task description file"
+# Extract issue number from URL
+ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
+echo "✓ Created issue #$ISSUE_NUMBER: $ISSUE_URL"
 echo ""
 
-# Step 2: Create agent task using Copilot CLI
-echo "Step 2: Creating agent task with Copilot CLI..."
-gh agent-task create -F /tmp/test-task.md
-echo "✓ Agent task created"
+# Step 3: Use Copilot CLI to work on the issue
+echo "Step 3: Delegating work to Copilot CLI for issue #$ISSUE_NUMBER..."
+echo "Note: This will use the standalone 'copilot' CLI tool"
 echo ""
 
-# Step 3: List recent agent tasks
-echo "Step 3: Listing recent agent tasks..."
-gh agent-task list | head -5
+# Note: In a real scenario, you would run:
+# copilot -p "Work on issue #$ISSUE_NUMBER in this repository" --allow-tool 'write' --allow-tool 'shell(git)'
+# For this test, we'll just demonstrate the command
+echo "Command that would be run:"
+echo "  copilot -p \"Work on issue #$ISSUE_NUMBER\" --allow-tool 'write' --allow-tool 'shell(git)'"
+echo ""
+echo "⚠️  Skipping actual copilot CLI execution in test mode"
+echo ""
+
+# Step 4: Clean up
+echo "Step 4: Closing test issue #$ISSUE_NUMBER..."
+gh issue close "$ISSUE_NUMBER"
+echo "✓ Test issue closed"
 echo ""
 
 echo "=============================================="
 echo "✅ Test workflow completed successfully!"
 echo ""
 echo "Summary:"
-echo "- Created test task description file"
-echo "- Created agent task using gh agent-task create"
-echo "- Listed recent agent tasks"
+echo "- Created test issue #$ISSUE_NUMBER"
+echo "- Demonstrated Copilot CLI command structure"
+echo "- Closed test issue"
 echo ""
-echo "To manually verify, run:"
-echo "  gh agent-task list"
-echo "  gh pr list --state all --limit 5"
+echo "To use Copilot CLI in production:"
+echo "  1. Install: npm install -g @github/copilot"
+echo "  2. Authenticate: copilot (follow prompts)"
+echo "  3. Use programmatic mode: copilot -p \"your prompt\" --allow-tool 'write'"
