@@ -5,6 +5,34 @@
 
 ---
 
+## Fact-Check: Custom Agent Tools
+
+**Question**: Does GitHub Copilot have `runSubagent` or `agent` tools?
+
+**Answer**: 
+- ✅ **YES**: GitHub Copilot Coding Agent has a `task` tool for invoking custom agents
+- ❌ **NO**: There is NO `runSubagent` tool (this is a naming error in `publisher.agent.md`)
+- ❌ **NO**: There is NO standalone `agent` tool (the correct tool is `task`)
+
+**Evidence**:
+- Custom agents are defined in `.github/agents/*.agent.md` files in this repository
+- Each agent file has metadata: `name`, `description`, and `tools` fields
+- The `task` tool is the standard mechanism for invoking custom agents
+- Parameters: `agent_type` (string), `description` (string), `prompt` (string)
+
+**Correct syntax**:
+```javascript
+task({
+  agent_type: "content-generator",
+  description: "Generate WHATS-NEW.md",
+  prompt: "Create WHATS-NEW.md from data/changes-summary.json..."
+})
+```
+
+**Source**: GitHub Copilot Coding Agent system instructions and `.github/agents/` configuration files in this repository.
+
+---
+
 ## Executive Summary
 
 **Problem**: Only the publisher agent is being used. The other 6 custom agents remain unused.
@@ -37,8 +65,17 @@ Seven custom agents exist in `.github/agents/`:
 
 ### 2. How Custom Agents Should Be Invoked
 
-GitHub Copilot provides a `task` tool for invoking custom agents:
+**FACT-CHECK (Jan 28, 2026)**: GitHub Copilot Coding Agent provides a `task` tool for invoking custom agents.
 
+**Evidence**:
+- The `task` tool is documented in the Copilot system instructions
+- Custom agents are defined in `.github/agents/*.agent.md` files
+- Agent metadata includes `name`, `description`, and `tools` fields
+- The `task` tool accepts `agent_type`, `description`, and `prompt` parameters
+
+**There is NO `runSubagent` tool** - this appears to be a naming error in the publisher agent configuration.
+
+**Correct invocation syntax**:
 ```javascript
 task({
   agent_type: "content-generator",
@@ -47,7 +84,7 @@ task({
 })
 ```
 
-**Available agent types** (from custom agents):
+**Available agent types** (from `.github/agents/` directory):
 - `"change-detector"`
 - `"content-generator"`
 - `"feed-fetcher"`
