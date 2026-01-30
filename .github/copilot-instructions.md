@@ -36,8 +36,6 @@ YOU (This Agent) - same environment, fresh data ready
     └─► Phase 4: Report Completion
 ```
 
-**Key Principle**: `copilot-setup-steps.yml` fetches fresh data before you start. The data is already in `data/` when you begin working.
-
 ---
 
 ## Your Workflow
@@ -61,7 +59,7 @@ data/
 
 **If `data/changes-summary.json` shows `has_changes: false`**: Report "No updates needed" and close the issue.
 
-**If critical data is missing**: Report the missing sources. Do NOT speculate about content.
+**If critical data is missing**: Try fetching it using instructions in `copilot-setup-steps.yml`. In case it's still missing, report the missing sources. Do NOT speculate about content.
 
 ### Phase 2: Generate Content Files
 
