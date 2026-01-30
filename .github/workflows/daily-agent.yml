@@ -21,11 +21,8 @@ jobs:
         run: |
           BODY="Daily Content Update - Generate content from fresh data and update all files in content/ directory. See .github/copilot-instructions.md for workflow details."
           ISSUE_URL=$(gh issue create \
-            --repo ${{ github.repository }} \
-            --title "📰 Content Update - $(date +'%Y-%m-%d')" \
-            --label "content-update" \
-            --label "automation" \
+            --repo "${{ github.repository }}" \
+            --title "Content Update - $(date +'%Y-%m-%d')" \
             --body "$BODY")
           
-          echo "📝 Created issue: ${ISSUE_URL}"
-          echo "🔧 Assign to Copilot in GitHub UI to start content generation."
+          echo "Created issue: ${ISSUE_URL}"
