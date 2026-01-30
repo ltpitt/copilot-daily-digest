@@ -25,7 +25,7 @@ The WHATS-NEW.md file had two critical problems:
 
 ### 1. Data Layer Fix: Blog Date Enrichment
 
-**Created**: `scraper/enrich_blog_dates.py`
+**Created**: `scripts/enrich_blog_dates.py`
 
 **Purpose**: Extract and store publish dates for all blog posts
 
@@ -36,7 +36,7 @@ The WHATS-NEW.md file had two critical problems:
 
 **Output**: `data/blog/url_dates.json` with 30 URLs mapped to ISO dates
 
-**Documentation**: `scraper/README_ENRICH_BLOG_DATES.md`
+**Documentation**: `scripts/README_ENRICH_BLOG_DATES.md`
 
 ### 2. Content Fix: Update WHATS-NEW.md
 
@@ -98,8 +98,8 @@ The WHATS-NEW.md file had two critical problems:
 ## Files Changed
 
 ### New Files Created
-1. `scraper/enrich_blog_dates.py` - Date extraction and enrichment
-2. `scraper/README_ENRICH_BLOG_DATES.md` - Documentation
+1. `scripts/enrich_blog_dates.py` - Date extraction and enrichment
+2. `scripts/README_ENRICH_BLOG_DATES.md` - Documentation
 3. `scripts/validate_whats_new.py` - Automated validation
 4. `scripts/README_VALIDATE_WHATS_NEW.md` - Documentation
 5. `data/blog/url_dates.json` - Blog URL to date mapping
@@ -130,7 +130,7 @@ The WHATS-NEW.md file had two critical problems:
 
 ### For Future Content Generation
 
-1. **Data Layer**: Always run `scraper/enrich_blog_dates.py` before content generation
+1. **Data Layer**: Always run `scripts/enrich_blog_dates.py` before content generation
 2. **Agent Instructions**: Agents MUST follow date requirements in instructions
 3. **Validation**: Run `scripts/validate_whats_new.py` after content generation
 4. **CI/CD**: Can add validation to workflow to catch issues automatically
@@ -139,10 +139,10 @@ The WHATS-NEW.md file had two critical problems:
 
 ```bash
 # 1. Fetch blog posts
-python3 scraper/fetch_blog.py
+python3 scripts/fetch_blog.py
 
 # 2. Enrich with dates
-python3 scraper/enrich_blog_dates.py
+python3 scripts/enrich_blog_dates.py
 
 # 3. Generate content (via agent or manual)
 # Content generation should use data/blog/url_dates.json

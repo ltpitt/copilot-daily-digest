@@ -2,7 +2,7 @@
 
 ## Summary of Changes
 
-We've improved `scraper/generate_videos.py` to make `content/videos.md` more intuitive, easier to navigate, and less repetitive.
+We've improved `scripts/generate_videos.py` to make `content/videos.md` more intuitive, easier to navigate, and less repetitive.
 
 ---
 
@@ -349,7 +349,7 @@ To see the new structure:
 
 ```bash
 cd /home/runner/work/copilot-daily-digest/copilot-daily-digest
-.venv/bin/python scraper/generate_videos.py
+.venv/bin/python scripts/generate_videos.py
 cat content/videos.md
 ```
 

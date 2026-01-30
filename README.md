@@ -92,22 +92,22 @@ export YOUTUBE_API_KEY="your-api-key-here"
 
 ```bash
 # Fetch documentation
-python scraper/fetch_docs.py
+python scripts/fetch_docs.py
 
 # Fetch blog posts
-python scraper/fetch_blog.py
+python scripts/fetch_blog.py
 
 # Fetch YouTube videos
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 
 # Fetch GitHub Next projects (experimental)
-python scraper/fetch_github_next.py
+python scripts/fetch_github_next.py
 
 # Detect changes
-python scraper/detect_changes.py
+python scripts/detect_changes.py
 
 # Generate video page
-python scraper/generate_videos.py
+python scripts/generate_videos.py
 ```
 
 ### Test GitHub Actions Workflow
@@ -184,7 +184,7 @@ copilot-daily-digest/
 │   ├── github-next/        # Experimental projects (with disclaimers)
 │   ├── metadata.json
 │   └── changes-summary.json
-├── scraper/                 # Scraping scripts
+├── scripts/                 # Scraping scripts
 │   ├── fetch_docs.py
 │   ├── fetch_blog.py
 │   ├── fetch_youtube.py
@@ -218,8 +218,6 @@ This digest includes experimental projects from **GitHub Next** (https://githubn
 3. **Clear disclaimers** in every mention
 4. **Project status included** (WIP, Completed, Napkin sketch, etc.)
 5. **Cautious language**: "exploring", "researching", "prototype"
-
-See [scraper/README_FETCH_GITHUB_NEXT.md](scraper/README_FETCH_GITHUB_NEXT.md) for technical details.
 
 ## 🤝 Contributing
 

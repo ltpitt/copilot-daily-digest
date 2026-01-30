@@ -14,7 +14,7 @@ The YouTube scraper implementation has been verified with live data from the Git
 
 **Command:**
 ```bash
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 ```
 
 **Configuration:**
@@ -51,7 +51,7 @@ data/videos/2025-12-06_y0u1MqW4rPU.json
 
 **Command:**
 ```bash
-python scraper/fetch_youtube.py --dry-run
+python scripts/fetch_youtube.py --dry-run
 ```
 
 **Results:**
@@ -75,7 +75,7 @@ python scraper/fetch_youtube.py --dry-run
 
 **Command:**
 ```bash
-python scraper/fetch_youtube.py --max-age-days 7 --dry-run
+python scripts/fetch_youtube.py --max-age-days 7 --dry-run
 ```
 
 **Results:**
@@ -96,7 +96,7 @@ python scraper/fetch_youtube.py --max-age-days 7 --dry-run
 
 **Command:**
 ```bash
-python scraper/fetch_youtube.py --require-keywords --dry-run
+python scripts/fetch_youtube.py --require-keywords --dry-run
 ```
 
 **Results:**
@@ -116,7 +116,7 @@ python scraper/fetch_youtube.py --require-keywords --dry-run
 
 **Command:**
 ```bash
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 ```
 (Run second time with same videos)
 

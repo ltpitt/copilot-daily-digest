@@ -2,13 +2,28 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: 2026-01-28
+**Last Updated**: 2026-01-29
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
 ## January 2026
+
+### January 28, 2026 - New Video Content
+
+**New Video**:
+
+**[Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast](https://www.youtube.com/watch?v=XmCSHr12CO0)**
+- Published: January 28, 2026
+- Duration: 27:50
+- Topics covered:
+  - Securing open source projects (Log4j, GoReleaser, EVCC, ScanAPI)
+  - Hardening GitHub Actions pipelines and adding SBOMs
+  - Incident response planning and security best practices
+  - AI security: using fuzzing, GitHub Copilot, and the Secure Code Game
+  - How AI tools help find vulnerabilities faster
+- Guest maintainers share experiences from GitHub Secure Open Source Fund's security sprint
 
 ### January 28, 2026 - Major Documentation Refresh
 

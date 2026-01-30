@@ -59,14 +59,14 @@ Create a single entry point for engineers to stay current with:
   - Version control for content changes
 
 - [ ] **1.3** Add shared utilities
-  - Create `scraper/utils.py` with common functions
+  - Create `scripts/utils.py` with common functions
   - Implement content hashing/checksums
   - Add date formatting utilities
   - Create file I/O helpers
   - Add error handling and retry logic
 
 - [ ] **1.4** Add GitHub Blog scraper
-  - Create `scraper/fetch_blog.py`
+  - Create `scripts/fetch_blog.py`
   - Scrape `https://github.blog/tag/github-copilot/`
   - Scrape `https://github.blog/changelog/` (Copilot filtered)
   - Extract: title, date, summary, full content, URL
@@ -101,7 +101,7 @@ Create a single entry point for engineers to stay current with:
   - Add API key to GitHub Secrets for Actions
 
 - [ ] **2.2** Create YouTube scraper
-  - Create `scraper/fetch_youtube.py`
+  - Create `scripts/fetch_youtube.py`
   - Fetch videos from GitHub channel (`@GitHub`)
   - Optional: Add `@VisualStudioCode`, `@MSFTReactor`
   - Filter by keywords: "copilot", "ai", "agent", "coding agent"
@@ -364,7 +364,7 @@ copilot-daily-digest/
 │   ├── changelog.md              # Feature timeline (moved from root)
 │   ├── this-week.md              # Weekly highlights (NEW)
 │   └── videos.md                 # Video resources (NEW)
-├── scraper/
+├── scripts/
 │   ├── fetch_docs.py             # Existing docs scraper (updated)
 │   ├── fetch_blog.py             # Blog scraper (NEW)
 │   ├── fetch_youtube.py          # YouTube scraper (NEW)

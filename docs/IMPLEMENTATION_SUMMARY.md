@@ -7,7 +7,7 @@ This document summarizes the implementation of the metadata tracking system for 
 ## Files Created
 
 ### Core Implementation
-1. **`scraper/metadata.py`** (368 lines)
+1. **`scripts/metadata.py`** (368 lines)
    - Complete metadata management system
    - All required utility functions with type hints and docstrings
    - Robust error handling and validation
@@ -19,19 +19,19 @@ This document summarizes the implementation of the metadata tracking system for 
    - Tracks content hashes, video IDs, blog URLs, doc versions, and stats
 
 ### Documentation & Examples
-3. **`scraper/README_METADATA.md`**
+3. **`scripts/README_METADATA.md`**
    - Complete API reference
    - Usage examples
    - Best practices
    - Error handling documentation
 
-4. **`scraper/example_integration.py`**
+4. **`scripts/example_integration.py`**
    - Working example of integration with scraper workflow
    - Demonstrates all key functions
    - Shows real-world usage patterns
 
 ### Testing
-5. **`scraper/test_metadata_system.py`** (531 lines)
+5. **`scripts/test_metadata_system.py`** (531 lines)
    - Comprehensive test suite with 8 test categories
    - 40+ individual test cases
    - Validates all functionality
@@ -41,7 +41,7 @@ This document summarizes the implementation of the metadata tracking system for 
 
 All acceptance criteria from the task have been met:
 
-- ✅ **`scraper/metadata.py` created with all utility functions**
+- ✅ **`scripts/metadata.py` created with all utility functions**
   - `load_metadata()` - Load/create metadata with error recovery
   - `save_metadata()` - Save with automatic timestamp
   - `calculate_hash()` - SHA256 content hashing
@@ -239,7 +239,7 @@ log_summary(summary)
 
 ## Example Usage
 
-See `scraper/example_integration.py` for a complete working example that demonstrates:
+See `scripts/example_integration.py` for a complete working example that demonstrates:
 - Loading metadata before scraping
 - Checking for content changes
 - Tracking videos and blog posts
@@ -248,12 +248,12 @@ See `scraper/example_integration.py` for a complete working example that demonst
 
 To run the example:
 ```bash
-python scraper/example_integration.py
+python scripts/example_integration.py
 ```
 
 To run the test suite:
 ```bash
-python scraper/test_metadata_system.py
+python scripts/test_metadata_system.py
 ```
 
 ## Performance Characteristics
@@ -278,7 +278,7 @@ python scraper/test_metadata_system.py
 The metadata system is complete and ready for integration. Next tasks:
 
 1. **Integrate with existing scrapers**
-   - Update `scraper/fetch_docs.py` to use metadata system
+   - Update `scripts/fetch_docs.py` to use metadata system
    - Add metadata tracking to video fetcher
    - Add metadata tracking to blog fetcher
 

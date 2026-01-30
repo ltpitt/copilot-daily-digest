@@ -10,10 +10,10 @@ Run the scrapers to populate the `data/` directory:
 
 ```bash
 # Run scrapers to populate data/ (you do this, not the agent)
-python scraper/fetch_docs.py
-python scraper/fetch_blog.py
-python scraper/fetch_youtube.py
-python scraper/detect_changes.py
+python scripts/fetch_docs.py
+python scripts/fetch_blog.py
+python scripts/fetch_youtube.py
+python scripts/detect_changes.py
 ```
 
 ### 2. Create test issue on GitHub

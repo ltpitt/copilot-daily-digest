@@ -2,13 +2,13 @@
 
 ## Status: ✅ SUCCEEDED
 
-All requested improvements to `scraper/generate_videos.py` have been successfully implemented.
+All requested improvements to `scripts/generate_videos.py` have been successfully implemented.
 
 ---
 
 ## Files Modified
 
-### 1. `/scraper/generate_videos.py` ✅
+### 1. `/scripts/generate_videos.py` ✅
 **Major improvements to video page generation logic**
 
 #### Changes Made:
@@ -61,7 +61,7 @@ All requested improvements to `scraper/generate_videos.py` have been successfull
 - Empty categories automatically hidden from TOC and page
 - Better visual hierarchy with section headers
 
-### 2. `/scraper/README_GENERATE_VIDEOS.md` ✅
+### 2. `/scripts/README_GENERATE_VIDEOS.md` ✅
 **Updated documentation to reflect new features**
 
 #### Changes Made:
@@ -116,7 +116,7 @@ This was a working draft. The better version is in `/docs/videos-md-improvements
 
 ## Expected Results
 
-When `scraper/generate_videos.py` is run, the new `content/videos.md` will have:
+When `scripts/generate_videos.py` is run, the new `content/videos.md` will have:
 
 1. **Compact statistics callout** at the top instead of separate section at bottom
 2. **"What's New This Week"** section with 4 recent videos (full metadata)
@@ -144,11 +144,11 @@ When `scraper/generate_videos.py` is run, the new `content/videos.md` will have:
 ### 1. Run the Updated Script
 ```bash
 cd /home/runner/work/copilot-daily-digest/copilot-daily-digest
-.venv/bin/python scraper/generate_videos.py
+.venv/bin/python scripts/generate_videos.py
 ```
 
 ### 2. Configure Featured Videos (Optional)
-Edit `scraper/generate_videos.py`:
+Edit `scripts/generate_videos.py`:
 ```python
 FEATURED_VIDEO_IDS = [
     "dI4H5ZyYOx0",  # Assign Linear issues to Copilot coding agent
@@ -165,7 +165,7 @@ cat content/videos.md | head -50
 
 ## Testing Checklist
 
-- [ ] Run `scraper/generate_videos.py`
+- [ ] Run `scripts/generate_videos.py`
 - [ ] Verify `content/videos.md` is generated
 - [ ] Check statistics callout box appears at top
 - [ ] Verify "What's New" section has full metadata
@@ -205,7 +205,7 @@ cat content/videos.md | head -50
 
 1. **Run the script** to regenerate `content/videos.md`:
    ```bash
-   .venv/bin/python scraper/generate_videos.py
+   .venv/bin/python scripts/generate_videos.py
    ```
 
 2. **Review the output** to ensure structure is correct
@@ -214,8 +214,8 @@ cat content/videos.md | head -50
 
 4. **Format code** with Ruff (if available):
    ```bash
-   .venv/bin/ruff format scraper/generate_videos.py
-   .venv/bin/ruff check --fix scraper/generate_videos.py
+   .venv/bin/ruff format scripts/generate_videos.py
+   .venv/bin/ruff check --fix scripts/generate_videos.py
    ```
 
 5. **Commit changes** and update PR
@@ -225,8 +225,8 @@ cat content/videos.md | head -50
 ## Files That Need Attention
 
 ### To Keep
-- ✅ `/scraper/generate_videos.py` (modified)
-- ✅ `/scraper/README_GENERATE_VIDEOS.md` (modified)
+- ✅ `/scripts/generate_videos.py` (modified)
+- ✅ `/scripts/README_GENERATE_VIDEOS.md` (modified)
 - ✅ `/docs/videos-md-improvements.md` (new)
 
 ### To Delete

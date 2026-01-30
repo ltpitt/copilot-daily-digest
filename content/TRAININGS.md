@@ -55,7 +55,7 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
 
-→ [Start course](https://github.com/skills/copilot-intro)
+→ Start course (course no longer available)
 
 ---
 
@@ -136,7 +136,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 > 💡 Check company Udemy account for access
 
-→ [View course](https://www.udemy.com/course/github-copilot-complete-guide/)
+→ View course (may require purchase or login)
 
 
 ---

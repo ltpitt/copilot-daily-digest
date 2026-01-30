@@ -52,11 +52,11 @@ python -c "from scraper.fetch_youtube import load_config; c=load_config(); print
 # Expected: max_age_days=30, require_keywords=False
 
 # 2. Test CLI help
-python scraper/fetch_youtube.py --help
+python scripts/fetch_youtube.py --help
 # Should show all flags: --max-age-days, --require-keywords, --no-require-keywords, --dry-run
 
 # 3. Test mutually exclusive arguments
-python scraper/fetch_youtube.py --require-keywords --no-require-keywords
+python scripts/fetch_youtube.py --require-keywords --no-require-keywords
 # Should error: "not allowed with argument"
 ```
 
@@ -68,7 +68,7 @@ When network access to YouTube is available, you can test with real RSS feeds.
 
 ```bash
 # Test with real RSS feed without writing files
-python scraper/fetch_youtube.py --dry-run
+python scripts/fetch_youtube.py --dry-run
 ```
 
 **Expected output:**
@@ -98,7 +98,7 @@ Videos to be saved:
 
 ```bash
 # Actually save videos to data/videos/
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 ```
 
 **Expected output:**
@@ -120,15 +120,15 @@ python scraper/fetch_youtube.py
 
 ```bash
 # 1. Test custom age filter
-python scraper/fetch_youtube.py --max-age-days 7 --dry-run
+python scripts/fetch_youtube.py --max-age-days 7 --dry-run
 # Should show only videos from last 7 days
 
 # 2. Test with keyword filtering
-python scraper/fetch_youtube.py --require-keywords --dry-run
+python scripts/fetch_youtube.py --require-keywords --dry-run
 # Should show only Copilot/AI-related videos
 
 # 3. Test combined flags
-python scraper/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
+python scripts/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
 # Should show Copilot/AI videos from last 14 days
 ```
 
@@ -178,7 +178,7 @@ Expected: Array of video IDs that were saved
 
 Run the scraper again:
 ```bash
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 ```
 
 Expected output:
@@ -191,7 +191,7 @@ Expected output:
 
 | Command | Age Filter | Keyword Filter | Result |
 |---------|-----------|----------------|--------|
-| `python scraper/fetch_youtube.py` | 30 days | No | All videos from last 30 days |
+| `python scripts/fetch_youtube.py` | 30 days | No | All videos from last 30 days |
 | `--max-age-days 7` | 7 days | No | All videos from last 7 days |
 | `--require-keywords` | 30 days | Yes | Copilot/AI videos from last 30 days |
 | `--dry-run` | (any) | (any) | Preview only, no files written |
@@ -231,7 +231,7 @@ In GitHub Actions, the scraper runs with network access:
 
 ```yaml
 - name: Fetch YouTube Videos
-  run: python scraper/fetch_youtube.py
+  run: python scripts/fetch_youtube.py
   env:
     YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}  # Optional
 ```

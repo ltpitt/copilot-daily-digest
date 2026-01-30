@@ -33,10 +33,10 @@ Use the `--require-keywords` flag to enable filtering for a single run:
 
 ```bash
 # Enable keyword filtering for this run only
-python scraper/fetch_youtube.py --require-keywords
+python scripts/fetch_youtube.py --require-keywords
 
 # Combine with other flags
-python scraper/fetch_youtube.py --require-keywords --max-age-days 7
+python scripts/fetch_youtube.py --require-keywords --max-age-days 7
 ```
 
 **Pros:**
@@ -84,7 +84,7 @@ For GitHub Actions or scheduled runs, you can set the flag in the workflow:
 **`.github/workflows/daily-scraper.yml`** (example):
 ```yaml
 - name: Fetch YouTube Videos
-  run: python scraper/fetch_youtube.py --require-keywords
+  run: python scripts/fetch_youtube.py --require-keywords
 ```
 
 **Pros:**
@@ -150,20 +150,20 @@ To see what difference the keyword filter makes:
 
 ```bash
 # Without keyword filter (current default)
-python scraper/fetch_youtube.py --dry-run
+python scripts/fetch_youtube.py --dry-run
 
 # With keyword filter
-python scraper/fetch_youtube.py --require-keywords --dry-run
+python scripts/fetch_youtube.py --require-keywords --dry-run
 ```
 
 ### 2. Compare Results
 
 ```bash
 # Run without filter and count
-python scraper/fetch_youtube.py --dry-run 2>&1 | grep "Would save"
+python scripts/fetch_youtube.py --dry-run 2>&1 | grep "Would save"
 
 # Run with filter and count
-python scraper/fetch_youtube.py --require-keywords --dry-run 2>&1 | grep "Would save"
+python scripts/fetch_youtube.py --require-keywords --dry-run 2>&1 | grep "Would save"
 ```
 
 ### 3. Check Filter Statistics
@@ -204,13 +204,13 @@ You should enable keyword filtering (`require_keywords: true`) if:
 
 **Monitor regularly:** Check if non-Copilot videos appear:
 ```bash
-python scraper/fetch_youtube.py --dry-run | grep -i "title"
+python scripts/fetch_youtube.py --dry-run | grep -i "title"
 ```
 
 **Enable filtering later** if needed:
 ```bash
 # Quick test
-python scraper/fetch_youtube.py --require-keywords
+python scripts/fetch_youtube.py --require-keywords
 
 # Or edit config/youtube.yml to make it permanent
 ```
@@ -246,16 +246,16 @@ python scraper/fetch_youtube.py --require-keywords
 
 ```bash
 # Current default (all videos)
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 
 # Enable keyword filtering (one time)
-python scraper/fetch_youtube.py --require-keywords
+python scripts/fetch_youtube.py --require-keywords
 
 # Test without saving files
-python scraper/fetch_youtube.py --require-keywords --dry-run
+python scripts/fetch_youtube.py --require-keywords --dry-run
 
 # Stricter age + keyword filter
-python scraper/fetch_youtube.py --require-keywords --max-age-days 7
+python scripts/fetch_youtube.py --require-keywords --max-age-days 7
 
 # View current config
 cat config/youtube.yml | grep -A 10 filters

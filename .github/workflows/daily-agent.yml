@@ -29,24 +29,24 @@ jobs:
       
       # Fetch all content sources
       - name: Fetch GitHub Docs
-        run: python scraper/fetch_docs.py
+        run: python scripts/fetch_docs.py
       
       - name: Fetch GitHub Blog (RSS)
-        run: python scraper/fetch_blog.py
+        run: python scripts/fetch_blog.py
       
       - name: Fetch YouTube Videos (RSS)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python scraper/fetch_youtube.py
+        run: python scripts/fetch_youtube.py
       
       - name: Fetch Training Resources
-        run: python scraper/fetch_trainings.py
+        run: python scripts/fetch_trainings.py
       
       # Detect changes
       - name: Detect Changes
         id: changes
         run: |
-          python scraper/detect_changes.py > changes.txt
+          python scripts/detect_changes.py > changes.txt
           cat changes.txt
           
           # Check if there are changes
@@ -110,122 +110,64 @@ jobs:
             echo "No open content PRs found to update"
           fi
       
-      # Trigger Publisher Agent (only if changes detected)
-      - name: Create Issue for Publisher Agent
+      # Create Issue for Copilot Workspace (Coding Agent)
+      - name: Create Issue for Copilot Coding Agent
         if: steps.changes.outputs.HAS_CHANGES == 'true'
         id: create_issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Read change summary
-          SUMMARY=$(cat data/changes-summary.json | jq -r '.summary_text')
+          # Get change counts from changes-summary.json
+          TOTAL_CHANGES=$(jq -r '.total_changes // 0' data/changes-summary.json)
+          DOCS_CHANGED=$(jq -r '.docs.changed | length // 0' data/changes-summary.json)
+          BLOG_NEW=$(jq -r '.blog.new | length // 0' data/changes-summary.json)
+          VIDEOS_NEW=$(jq -r '.videos.new | length // 0' data/changes-summary.json)
+          TRAININGS_NEW=$(jq -r '.trainings.new | length // 0' data/changes-summary.json)
           
-          # Create issue for Publisher agent and capture the URL
+          # Build summary
+          SUMMARY="**Total Changes**: ${TOTAL_CHANGES}
+          - Documentation: ${DOCS_CHANGED} updated
+          - Blog Posts: ${BLOG_NEW} new
+          - Videos: ${VIDEOS_NEW} new  
+          - Trainings: ${TRAININGS_NEW} new"
+          
+          # Create issue with coordinator agent instruction
           ISSUE_URL=$(gh issue create \
-            --title "📰 Content Update Required - $(date +'%Y-%m-%d')" \
-            --body "## Changes Detected
+            --title "📰 Content Update - $(date +'%Y-%m-%d')" \
+            --label "content-update" \
+            --label "automation" \
+            --body "## 🤖 Automated Content Update Task
 
-          $SUMMARY
+          ### Changes Detected
+          ${SUMMARY}
+
+          ### 📋 Task
+          @coordinator Update the digest with latest changes
+
+          ### ✅ Success Criteria
+          - All content files updated based on data/changes-summary.json
+          - Link validation passed
+          - PR created with descriptive summary
+
+          ### 📚 Reference
+          - See \`.github/copilot-instructions.md\` for workflow
+          - Data available in \`data/\` directory
+          - Coordinate with \`@publisher\` and \`@link-validator\` agents
 
           ---
-
-          Please synthesize **modular, topic-focused** content that helps engineers stay current with GitHub Copilot.
-
-          ### Data Sources Available
-          - **Documentation**: \`data/docs/*.md\` (14 files) - Official GitHub Copilot docs
-          - **Blog Posts**: \`data/blog/*.json\` (19+ files) - Full HTML content with tutorials, best practices, announcements
-          - **Videos**: \`data/videos/*.json\` (6+ files) - Curated Copilot/AI videos from GitHub channel
-          - **Trainings**: \`data/trainings/*.json\` (7+ files) - Curated courses from GitHub Skills, Microsoft Learn, Certifications, Udemy
-          - **Change Detection**: \`data/changes-summary.json\` - What changed since last scrape (with diff summaries)
-          - **Version History**: \`data/metadata.json\` - \`doc_versions[].history[]\` tracks all changes with timestamps
-
-          ### Task: Generate 8 Modular Content Files
-
-          **CRITICAL**: Each file is **self-contained** and **topic-focused**. No mixing of concerns.
-
-          #### 1. \`content/README.md\` - Navigation Hub (50-100 lines max)
-          - Central index linking to all other files
-          - Current stats (N updates, N videos, N trainings)
-          - Official resource links
-          - **NO detailed content** - only links and summaries
-
-          #### 2. \`content/GETTING-STARTED.md\` - Quick Start + Best Practices (200-300 lines)
-          - 5-minute quick setup tutorial
-          - Extract 5-7 actionable best practices from blog posts
-          - Each tip: ❌/✅ comparison + concrete example + source link
-          - Links to VIDEOS.md, TRAININGS.md, WHATS-NEW.md for next steps
-
-          #### 3. \`content/WHATS-NEW.md\` - Latest Updates (300-400 lines)
-          - **This Week**: TOP 3-5 significant changes from last 7 days
-          - **This Month**: TOP 10 significant changes from last 30 days
-          - Auto-expires content older than 30 days (point to CHANGELOG.md)
-          - Format: Feature name + what's new + why it matters + get started links
-
-          #### 4. \`content/VIDEOS.md\` - Video Library
-          - **DO NOT MODIFY** - Auto-generated by \`scraper/generate_videos.py\`
-
-          #### 5. \`content/TRAININGS.md\` - Courses & Certifications (400-500 lines)
-          - Group by provider: GitHub Skills, Microsoft Learn, Certifications, Curated
-          - Each course: Level, duration, cost, description, what you'll learn
-          - Learning paths for beginners and advanced users
-          - Quality filters: Official always included, Udemy only if rating >= 4.5
-
-          #### 6. \`content/CHANGELOG.md\` - Complete Historical Timeline (unlimited)
-          - Reverse chronological, month-by-month
-          - ALL updates: blog posts, doc changes, videos
-          - Never remove old entries (complete historical record)
-
-          #### 7. \`content/COMMANDS.md\` - Quick Reference (200-300 lines)
-          - Slash commands table (extract from copilot-chat.md)
-          - Keyboard shortcuts by IDE (extract from copilot-getting-started.md)
-          - Chat variables table (extract from copilot-chat.md)
-          - Chat participants table (extract from copilot-chat.md)
-
-          #### 8. \`content/REFERENCE.md\` - Complete Docs Index (100-200 lines)
-          - All 14 docs grouped by category
-          - Brief description for each
-          - Last updated timestamps from metadata.json
-          - Links to external resources
-
-          ### Output Requirements
-          - **Modular**: Each file has ONE clear purpose
-          - **Scannable**: Use tables, bullets, emojis sparingly
-          - **Actionable**: Every tip has concrete examples
-          - **Linked**: Every mention links to source
-          - **Fresh**: Auto-expire old content in WHATS-NEW.md
-
-          **Instructions file**: \`.github/copilot-instructions.md\` has complete generation rules for each file
-
-          Create a PR with all 8 files (VIDEOS.md already exists, but check if it needs updating based on recent data).")
           
-          # Extract issue number from URL
+          **Next Step**: Assign this issue to Copilot Workspace to automatically generate a PR.")
+          
+          # Extract issue number
           ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
           echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
-          echo "Created issue #$ISSUE_NUMBER: $ISSUE_URL"
-      
-      # Install and use Copilot CLI to work on the issue
-      - name: Delegate to Copilot CLI
-        if: steps.changes.outputs.HAS_CHANGES == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          ISSUE_NUMBER="${{ steps.create_issue.outputs.ISSUE_NUMBER }}"
-          
-          # Install Copilot CLI
-          echo "Installing GitHub Copilot CLI..."
-          npm install -g @github/copilot
-          
-          # Use Copilot CLI in programmatic mode to work on the issue
-          echo "Delegating work to Copilot CLI for issue #$ISSUE_NUMBER..."
-          copilot -p "I've been assigned issue #$ISSUE_NUMBER in this repository at $(pwd). Please start working on it by reading the issue, creating a new branch, implementing the requested changes, and creating a pull request when done." \
-            --allow-tool 'write' \
-            --allow-tool 'shell(git:*)' \
-            --deny-tool 'shell(git push)' \
-            --deny-tool 'shell(rm)' \
-            --allow-all-urls
-          
-          echo "✓ Copilot CLI task completed for issue #$ISSUE_NUMBER"
+          echo "📝 Created issue #${ISSUE_NUMBER}: ${ISSUE_URL}"
+          echo ""
+          echo "🔧 To complete automation, either:"
+          echo "  1. Manually assign issue to Copilot Workspace in GitHub UI"
+          echo "  2. Configure Copilot Auto-Assignment (Enterprise feature)"
+          echo ""
+          echo "💡 For manual testing, run: @coordinator Update the digest"
       
       - name: No Changes Detected
         if: steps.changes.outputs.HAS_CHANGES == 'false'

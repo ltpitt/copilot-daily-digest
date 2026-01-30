@@ -2,7 +2,7 @@
 
 > Complete index of official GitHub Copilot documentation
 
-**Last Updated**: 2026-01-28
+**Last Updated**: 2026-01-29
 
 This file provides a categorized index of all tracked GitHub Copilot documentation.
 

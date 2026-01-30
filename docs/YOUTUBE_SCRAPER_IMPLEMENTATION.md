@@ -24,7 +24,7 @@ filters:
 
 **Rationale**: The default behavior now returns ALL videos from the last 30 days, matching the requirement for "all the news in github channel in YouTube that are in the last 30 days."
 
-### 2. Code Changes (`scraper/fetch_youtube.py`)
+### 2. Code Changes (`scripts/fetch_youtube.py`)
 
 #### A. CLI Argument Parser
 
@@ -95,7 +95,7 @@ Added clear log messages at each filtering stage:
 - "Filtered by age (N days): X videos from Y total"
 - "Skipping keyword filter, keeping all X videos"
 
-### 3. Documentation Updates (`scraper/README_FETCH_YOUTUBE.md`)
+### 3. Documentation Updates (`scripts/README_FETCH_YOUTUBE.md`)
 
 Added comprehensive sections:
 - **Usage Examples**: All CLI combinations with clear examples
@@ -106,7 +106,7 @@ Added comprehensive sections:
 
 ## Default Behavior
 
-With no arguments, `python scraper/fetch_youtube.py`:
+With no arguments, `python scripts/fetch_youtube.py`:
 
 1. Loads `config/youtube.yml`
 2. Fetches RSS feed from GitHub channel (UC7c3Kb6jYCRj4JOHHZTxKsQ)
@@ -132,14 +132,14 @@ Created test script with mock data (`/tmp/test_youtube_scraper.py`):
 python -c "from scraper.fetch_youtube import load_config; ..."
 
 # Test CLI help
-python scraper/fetch_youtube.py --help
+python scripts/fetch_youtube.py --help
 
 # Test mutually exclusive args
-python scraper/fetch_youtube.py --require-keywords --no-require-keywords
+python scripts/fetch_youtube.py --require-keywords --no-require-keywords
 # (Should error: "not allowed with argument")
 
 # Test dry-run
-python scraper/fetch_youtube.py --dry-run
+python scripts/fetch_youtube.py --dry-run
 ```
 
 ### Security Scan
@@ -151,35 +151,35 @@ CodeQL security analysis: **0 alerts** ✓
 ### Basic Usage (Default: 30 days, no keyword filter)
 
 ```bash
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 ```
 
 ### Dry-Run Preview
 
 ```bash
-python scraper/fetch_youtube.py --dry-run
+python scripts/fetch_youtube.py --dry-run
 ```
 
 ### Custom Age Filter
 
 ```bash
 # Last 7 days
-python scraper/fetch_youtube.py --max-age-days 7
+python scripts/fetch_youtube.py --max-age-days 7
 
 # Last 60 days  
-python scraper/fetch_youtube.py --max-age-days 60
+python scripts/fetch_youtube.py --max-age-days 60
 ```
 
 ### With Keyword Filtering
 
 ```bash
-python scraper/fetch_youtube.py --require-keywords
+python scripts/fetch_youtube.py --require-keywords
 ```
 
 ### Combined
 
 ```bash
-python scraper/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
+python scripts/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
 ```
 
 ## Architecture
@@ -223,8 +223,8 @@ python scraper/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
 ## Files Modified
 
 1. `config/youtube.yml` - Updated defaults (max_age_days: 30, require_keywords: false)
-2. `scraper/fetch_youtube.py` - Added CLI args, dry-run, improved logic
-3. `scraper/README_FETCH_YOUTUBE.md` - Comprehensive documentation
+2. `scripts/fetch_youtube.py` - Added CLI args, dry-run, improved logic
+3. `scripts/README_FETCH_YOUTUBE.md` - Comprehensive documentation
 
 ## Backward Compatibility
 
@@ -252,7 +252,7 @@ To verify the implementation works:
 pip install -r requirements.txt
 
 # 2. Test with dry-run
-python scraper/fetch_youtube.py --dry-run
+python scripts/fetch_youtube.py --dry-run
 
 # Expected output:
 # [INFO] Starting YouTube video scraper...

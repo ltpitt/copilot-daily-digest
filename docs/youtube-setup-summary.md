@@ -147,7 +147,7 @@ From the original task requirements:
 This task (2.1) is now complete. The foundation is ready for:
 
 1. **Task 2.2**: Create YouTube Scraper
-   - Implement `scraper/fetch_youtube.py`
+   - Implement `scripts/fetch_youtube.py`
    - Use RSS feeds by default
    - Optionally enrich with API data
    - Leverage existing metadata system (Task 1.2)
@@ -164,7 +164,7 @@ This task (2.1) is now complete. The foundation is ready for:
 pip install -r requirements.txt
 
 # Run scraper (when implemented in Task 2.2)
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 
 # Works immediately with RSS feeds!
 ```
@@ -179,7 +179,7 @@ export YOUTUBE_API_KEY="your-key-here"
 # Edit config/youtube.yml: api.enabled: true
 
 # 4. Run scraper with enrichment
-python scraper/fetch_youtube.py
+python scripts/fetch_youtube.py
 
 # Gets duration, view counts, etc.
 ```
