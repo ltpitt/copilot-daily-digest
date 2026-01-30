@@ -188,12 +188,11 @@ def check_section_dates(content: str) -> List[str]:
                             f"Section '{section}': '{title}' dated {date_str} is older "
                             f"than 30 days and should be in 'Older Updates'"
                         )
-                elif section == "Older Updates":
-                    if date_obj >= THIRTY_DAYS_AGO:
-                        errors.append(
-                            f"Section '{section}': '{title}' dated {date_str} is within "
-                            f"last 30 days and should be in 'This Week' or 'This Month'"
-                        )
+                elif section == "Older Updates" and date_obj >= THIRTY_DAYS_AGO:
+                    errors.append(
+                        f"Section '{section}': '{title}' dated {date_str} is within "
+                        f"last 30 days and should be in 'This Week' or 'This Month'"
+                    )
             except ValueError:
                 # Skip unparseable dates
                 continue

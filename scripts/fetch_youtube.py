@@ -32,7 +32,7 @@ import yaml
 
 
 # Add parent directory to path to import local modules
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts.metadata import add_video_id
 from scripts.utils import ensure_directory, now_iso, parse_iso, safe_write_file
@@ -607,19 +607,15 @@ def parse_arguments():
         epilog="""
 Examples:
   # Run with defaults (30 days, no keyword filter)
-  python scripts/fetch_youtube.py
-  
-  # Dry-run to see what would be saved
-  python scripts/fetch_youtube.py --dry-run
-  
-  # Fetch videos from last 7 days
-  python scripts/fetch_youtube.py --max-age-days 7
-  
-  # Enable keyword filtering
-  python scripts/fetch_youtube.py --require-keywords
-  
-  # Combine flags
-  python scripts/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
+    python scripts/fetch_youtube.py
+    # Dry-run to see what would be saved
+    python scripts/fetch_youtube.py --dry-run
+    # Fetch videos from last 7 days
+    python scripts/fetch_youtube.py --max-age-days 7
+    # Enable keyword filtering
+    python scripts/fetch_youtube.py --require-keywords
+    # Combine flags
+    python scripts/fetch_youtube.py --max-age-days 14 --require-keywords --dry-run
         """,
     )
 

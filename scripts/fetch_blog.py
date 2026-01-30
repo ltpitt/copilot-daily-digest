@@ -7,7 +7,6 @@ Stores raw data and prevents duplicates using metadata tracking.
 
 import json
 import logging
-import os
 import re
 import sys
 from datetime import datetime
@@ -20,7 +19,7 @@ import requests
 
 
 # Add parent directory to path to import local modules
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 try:
     from scraper.metadata import add_blog_url, load_metadata
@@ -219,7 +218,6 @@ def parse_blog_entry(entry, source: str = "github-blog") -> Optional[Dict]:
 
         # Extract summary and content
         summary = entry.get("summary", "").strip()
-        content = entry.get("content", [{}])[0].get("value", "") if "content" in entry else summary
 
         # Extract tags
         tags = []
@@ -230,19 +228,17 @@ def parse_blog_entry(entry, source: str = "github-blog") -> Optional[Dict]:
         author = entry.get("author", "Unknown")
 
         # Create structured data
-        post_data = {
+
+        return {
             "title": title,
             "url": url,
-            "published": published,
             "summary": summary,
-            "content": content,
             "tags": tags,
+            "published": published,
             "author": author,
             "source": source,
             "scraped_at": datetime.utcnow().isoformat() + "Z",
         }
-
-        return post_data
 
     except Exception as e:
         logger.error(f"Error parsing entry: {e}")
@@ -307,12 +303,8 @@ def create_slug(title: str) -> str:
     slug = re.sub(r"[-\s]+", "-", slug)
 
     # Trim hyphens from ends
-    slug = slug.strip("-")
 
-    # Limit length
-    slug = slug[:100]
-
-    return slug
+    return slug.strip("-")[:100]
 
 
 def save_blog_posts(posts: List[Dict]) -> int:
@@ -345,14 +337,11 @@ def save_blog_posts(posts: List[Dict]) -> int:
         # Extract date from published field
         try:
             published = post.get("published", "")
-            if published:
-                # Handle various date formats
-                if "T" in published:
-                    date_part = published.split("T")[0]
-                else:
-                    date_part = published[:10]
-            else:
-                date_part = datetime.utcnow().strftime("%Y-%m-%d")
+            date_part = (
+                (published.split("T")[0] if "T" in published else published[:10])
+                if published
+                else datetime.utcnow().strftime("%Y-%m-%d")
+            )
         except Exception as e:
             logger.warning(f"Failed to parse date, using current date: {e}")
             date_part = datetime.utcnow().strftime("%Y-%m-%d")

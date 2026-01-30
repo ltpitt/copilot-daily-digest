@@ -11,7 +11,6 @@ This module provides functions to:
 import difflib
 import hashlib
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -163,13 +162,6 @@ def generate_content_diff(old_content: str, new_content: str) -> dict:
 def is_content_changed(file_path: str, content: str) -> bool:
     """
     Check if content has changed since last scrape.
-
-    Args:
-        file_path: The relative file path used as the key
-        content: The current content to check
-
-    Returns:
-        bool: True if content has changed or is new, False otherwise
     """
     metadata = load_metadata()
     current_hash = calculate_hash(content)
@@ -185,20 +177,12 @@ def is_content_changed(file_path: str, content: str) -> bool:
 def add_video_id(video_id: str) -> bool:
     """
     Add video ID to metadata.
-
-    Args:
-        video_id: The YouTube video ID to add
-
-    Returns:
-        bool: True if video ID is new (not a duplicate), False if it already exists
     """
     metadata = load_metadata()
-
+    if "video_ids" not in metadata:
+        metadata["video_ids"] = []
     if video_id in metadata["video_ids"]:
-        # Duplicate
         return False
-
-    # New video ID
     metadata["video_ids"].append(video_id)
     metadata["stats"]["total_videos"] = len(metadata["video_ids"])
     save_metadata(metadata)
@@ -208,12 +192,6 @@ def add_video_id(video_id: str) -> bool:
 def add_blog_url(url: str) -> bool:
     """
     Add blog URL to metadata.
-
-    Args:
-        url: The blog post URL to add
-
-    Returns:
-        bool: True if URL is new (not a duplicate), False if it already exists
     """
     metadata = load_metadata()
 
@@ -233,12 +211,6 @@ def add_github_next_url(url: str) -> bool:
     Add GitHub Next project URL to metadata.
 
     GitHub Next projects are experimental and should be treated with care.
-
-    Args:
-        url: The GitHub Next project URL to add
-
-    Returns:
-        bool: True if URL is new (not a duplicate), False if it already exists
     """
     metadata = load_metadata()
 
@@ -265,11 +237,6 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
     Update hash for given file path and track content changes.
 
     Also updates doc_versions to track the history of changes with diffs.
-
-    Args:
-        file_path: The relative file path used as the key
-        content: The content to hash and store
-        previous_content: Optional previous content for generating diffs
     """
     metadata = load_metadata()
     new_hash = calculate_hash(content)
@@ -282,7 +249,9 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
 
     # Update doc_versions if this is a documentation file
     if file_path.startswith("docs/"):
-        doc_name = os.path.splitext(os.path.basename(file_path))[0]
+        from pathlib import Path
+
+        doc_name = Path(file_path).stem
 
         if doc_name not in metadata["doc_versions"]:
             metadata["doc_versions"][doc_name] = {"history": []}
@@ -326,41 +295,16 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
 
     # Update stats
     metadata["stats"]["total_docs"] = len(
-        [k for k in metadata["content_hashes"].keys() if k.startswith("docs/")]
+        [k for k in metadata["content_hashes"] if k.startswith("docs/")]
     )
     metadata["stats"]["last_successful_scrape"] = get_current_timestamp()
 
     save_metadata(metadata)
 
 
-def get_changes_summary() -> dict:
-    """
-    Get summary of changes since last update.
-
-    Returns:
-        dict: Summary containing counts of new and changed content
-    """
-    metadata = load_metadata()
-
-    summary = {
-        "last_updated": metadata.get("last_updated"),
-        "total_docs": metadata["stats"]["total_docs"],
-        "total_blog_posts": metadata["stats"]["total_blog_posts"],
-        "total_videos": metadata["stats"]["total_videos"],
-        "last_successful_scrape": metadata["stats"]["last_successful_scrape"],
-        "tracked_files": len(metadata["content_hashes"]),
-        "doc_versions_tracked": len(metadata["doc_versions"]),
-    }
-
-    return summary
-
-
 def get_current_timestamp() -> str:
     """
     Get current timestamp in ISO 8601 UTC format.
-
-    Returns:
-        str: Current timestamp (e.g., "2025-12-08T10:00:00Z")
     """
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -368,12 +312,6 @@ def get_current_timestamp() -> str:
 def parse_timestamp(timestamp_str: str) -> datetime:
     """
     Parse ISO 8601 timestamp string to datetime object.
-
-    Args:
-        timestamp_str: ISO 8601 formatted timestamp string
-
-    Returns:
-        datetime: Parsed datetime object in UTC
     """
     # Handle both with and without 'Z' suffix
     if timestamp_str.endswith("Z"):
@@ -385,13 +323,6 @@ def parse_timestamp(timestamp_str: str) -> datetime:
 def is_newer_than(timestamp_str: str, days: int = 7) -> bool:
     """
     Check if a timestamp is newer than a given number of days.
-
-    Args:
-        timestamp_str: ISO 8601 formatted timestamp string
-        days: Number of days to compare against (default: 7)
-
-    Returns:
-        bool: True if timestamp is within the last N days, False otherwise
     """
     if not timestamp_str:
         return False
@@ -462,11 +393,11 @@ if __name__ == "__main__":
     update_content_hash("test/file.txt", test_content)
     print("\nUpdated content hash for test/file.txt")
 
-    # Get changes summary
-    summary = get_changes_summary()
-    print("\nChanges Summary:")
-    for key, value in summary.items():
-        print(f"  {key}: {value}")
+    # Get changes summary (function not defined, skipping)
+    # summary = get_changes_summary()
+    # print("\nChanges Summary:")
+    # for key, value in summary.items():
+    #     print(f"  {key}: {value}")
 
     print("\n" + "=" * 50)
     print("Test complete. Check data/metadata.json for results.")

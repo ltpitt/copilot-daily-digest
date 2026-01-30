@@ -12,7 +12,6 @@ and not treated as official GitHub roadmap or documentation.
 
 import json
 import logging
-import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -26,7 +25,7 @@ from loguru import logger
 
 
 # Add parent directory to path to import local modules
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 try:
     from scraper.metadata import add_github_next_url, load_metadata

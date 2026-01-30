@@ -103,11 +103,7 @@ def should_skip_link(url: str) -> bool:
     url_lower = url.lower()
 
     # Skip certain prefixes
-    for skip in SKIP_LINKS:
-        if url_lower.startswith(skip):
-            return True
-
-    return False
+    return any(url_lower.startswith(skip) for skip in SKIP_LINKS)
 
 
 def heading_to_anchor(heading_text: str) -> str:
@@ -131,9 +127,7 @@ def heading_to_anchor(heading_text: str) -> str:
     anchor = re.sub(r"\s+", "-", anchor)
 
     # Strip leading/trailing hyphens
-    anchor = anchor.strip("-")
-
-    return anchor
+    return anchor.strip("-")
 
 
 def extract_headings(content: str) -> Set[str]:
@@ -193,7 +187,6 @@ def check_emoji_in_linked_headings(content: str, links: List[Tuple[str, str, int
 
     # Check each heading to see if it's a link target and contains emojis
     for match in re.finditer(r"^(#{1,6})\s+(.+)$", content, re.MULTILINE):
-        heading_level = match.group(1)
         heading_text = match.group(2).strip()
         anchor = heading_to_anchor(heading_text)
         line_num = content[: match.start()].count("\n") + 1

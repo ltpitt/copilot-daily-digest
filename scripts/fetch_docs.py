@@ -3,7 +3,6 @@
 Script to fetch and scrape GitHub Copilot documentation for the daily digest.
 """
 
-import os
 import time
 
 import requests
@@ -15,14 +14,16 @@ from metadata import update_content_hash
 def create_output_dir():
     """Create the top-level data/docs directory if it doesn't exist."""
     # Get the absolute path to the project root
-    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    output_dir = os.path.join(project_root, "data/docs")
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    from pathlib import Path
+
+    project_root = Path(__file__).resolve().parent.parent
+    output_dir = project_root / "data" / "docs"
+    if not output_dir.exists():
+        output_dir.mkdir(parents=True)
         logger.info(f"Created output directory: {output_dir}")
     else:
         logger.debug(f"Output directory already exists: {output_dir}")
-    return output_dir
+    return str(output_dir)
 
 
 def fetch_url(url):
@@ -41,12 +42,14 @@ def fetch_url(url):
 
 def save_content(content, filename, output_dir):
     """Save content to a file in the output directory and track changes."""
-    filepath = os.path.join(output_dir, filename)
+    from pathlib import Path
+
+    filepath = str(Path(output_dir) / filename)
     relative_path = f"docs/{filename}"
 
     # Read previous content if file exists
     previous_content = None
-    if os.path.exists(filepath):
+    if Path(filepath).exists():
         try:
             with open(filepath, encoding="utf-8") as f:
                 previous_content = f.read()
@@ -149,8 +152,10 @@ def scrape_copilot_docs():
     # Create a summary file with timestamp
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S UTC")
     summary = f"""# GitHub Copilot Documentation Scrape Summary\n\nLast updated: {timestamp}\nSuccessful fetches: {successful_fetches}/{len(docs_urls)}\n\n## Files scraped:\n"""
+    from pathlib import Path
+
     for filename in docs_urls:
-        if os.path.exists(os.path.join(output_dir, filename)):
+        if (Path(output_dir) / filename).exists():
             summary += f"- {filename}\n"
 
     save_content(summary, "scrape-summary.md", output_dir)
