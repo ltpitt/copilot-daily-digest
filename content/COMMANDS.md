@@ -228,7 +228,7 @@ Choose different AI models based on your subscription:
 
 ---
 
-## 📚 Learn More
+## Learn More
 
 - [Copilot Chat in IDE](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
 - [Best Practices](GETTING-STARTED.md)

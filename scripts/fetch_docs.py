@@ -9,7 +9,6 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from loguru import logger
-
 from metadata import update_content_hash
 
 
@@ -44,22 +43,22 @@ def save_content(content, filename, output_dir):
     """Save content to a file in the output directory and track changes."""
     filepath = os.path.join(output_dir, filename)
     relative_path = f"docs/{filename}"
-    
+
     # Read previous content if file exists
     previous_content = None
     if os.path.exists(filepath):
         try:
-            with open(filepath, "r", encoding="utf-8") as f:
+            with open(filepath, encoding="utf-8") as f:
                 previous_content = f.read()
         except Exception as e:
             logger.warning(f"Could not read previous content for {filename}: {e}")
-    
+
     try:
         # Write new content
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(content)
         logger.success(f"Saved file: {filepath}")
-        
+
         # Update metadata with diff tracking
         update_content_hash(relative_path, content, previous_content)
         logger.debug(f"Updated metadata for {relative_path}")

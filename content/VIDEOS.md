@@ -1,4 +1,4 @@
-# 🎥 GitHub Copilot Video Library
+# GitHub Copilot Video Library
 
 > **Last Updated**: January 29, 2026 at 09:50 UTC
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Quick Navigation
+## Quick Navigation
 
 - [🆕 What's New This Week](#-whats-new-this-week)
 - [📂 Browse by Topic](#-browse-by-topic)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🆕 What's New This Week
+## What's New This Week
 
 *1 video published in the last 7 days*
 
@@ -38,7 +38,7 @@ In this episode guest host, Greg Cochran, from the GitHub Secure Open Source Fun
 
 ---
 
-## 📂 Browse by Topic
+## Browse by Topic
 
 Choose the category that matches what you want to learn:
 
@@ -50,7 +50,7 @@ Choose the category that matches what you want to learn:
 
 **4 videos**
 
-### ✨ Features & Updates
+### Features & Updates
 
 *Discover new features, product announcements, capability releases, and the latest updates.*
 
@@ -132,7 +132,7 @@ Discover the power of agent extensibility with a live demonstration of the GitHu
 ---
 
 
-## ✨ Features & Updates
+## Features & Updates
 
 *Discover new features, product announcements, capability releases, and the latest updates.*
 
@@ -191,7 +191,7 @@ Join us for Rubber Duck Thursdays! A lighthearted and informal stream where we l
 
 ---
 
-## 🔗 More Resources
+## More Resources
 
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [GitHub Blog](https://github.blog/tag/github-copilot/)

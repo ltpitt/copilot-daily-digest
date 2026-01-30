@@ -130,7 +130,7 @@ gh run view
 ./scripts/test_copilot_assignment.sh
 ```
 
-See [Copilot Assignment Testing Guide](docs/COPILOT_ASSIGNMENT_TESTING.md) for detailed testing instructions.
+See Copilot Assignment Testing Guide (link removed: file not found) for detailed testing instructions.
 
 # View latest run
 gh run view

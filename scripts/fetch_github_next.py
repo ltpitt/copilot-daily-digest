@@ -24,6 +24,7 @@ import requests
 from bs4 import BeautifulSoup
 from loguru import logger
 
+
 # Add parent directory to path to import local modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -94,10 +95,10 @@ def fetch_github_next_projects() -> List[Dict]:
 
     try:
         # Fetch the main page
-        headers = {
-            "User-Agent": "Mozilla/5.0 (compatible; GitHub-Copilot-Daily-Digest/1.0)"
-        }
-        response = requests.get(GITHUB_NEXT_URL, headers=headers, timeout=30, verify=certifi.where())
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; GitHub-Copilot-Daily-Digest/1.0)"}
+        response = requests.get(
+            GITHUB_NEXT_URL, headers=headers, timeout=30, verify=certifi.where()
+        )
         response.raise_for_status()
 
         # Parse HTML
@@ -161,7 +162,7 @@ def parse_project_card(link_element) -> Optional[Dict]:
         # Get date
         date_elem = link_element.find("div", class_="text-gh-textLight")
         date_str = date_elem.get_text(strip=True) if date_elem else ""
-        
+
         # Try to parse date to ISO 8601
         date_iso = None
         if date_str:

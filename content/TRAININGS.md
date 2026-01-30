@@ -141,7 +141,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ---
 
-## 📊 Training Summary
+## Training Summary
 
 | Category | Count | Free | Paid |
 |----------|-------|------|------|
@@ -154,7 +154,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 **For Beginners**: Start with free Microsoft Learn and GitHub Skills courses
 **For Teams**: Assign GitHub Skills courses for consistent onboarding

@@ -1,41 +1,30 @@
+
 # GitHub Copilot Daily Digest
 
-> Last updated: 2026-01-29 | Tracking GitHub Copilot updates daily
+Welcome to your daily, modular, and up-to-date resource for all things GitHub Copilot!
 
-Welcome! This repository provides modular, up-to-date documentation for GitHub Copilot engineers.
+## Browse by Topic
+- [Getting Started](GETTING-STARTED.md)
+- [What's New (Last 30 Days)](WHATS-NEW.md)
+- [Videos Library](VIDEOS.md)
+- [Experimental Features](EXPERIMENTAL.md)
+- [Trainings & Certifications](TRAININGS.md)
+- [Changelog (Full History)](CHANGELOG.md)
+- [Commands Reference](COMMANDS.md)
+- [Documentation Index](REFERENCE.md)
 
-## 📚 Browse by Topic
+## Current Stats
+- **Total Updates:** 53 (see [What's New](WHATS-NEW.md))
+- **Videos:** 8 (see [Videos](VIDEOS.md))
+- **Trainings:** 7 (see [Trainings](TRAININGS.md))
+- **Experimental Projects:** 29 (see [Experimental](EXPERIMENTAL.md))
 
-### Getting Started
-- **[Quick Start Guide](GETTING-STARTED.md)** - Set up Copilot in 5 minutes + best practices
-- **[Starter Kit](STARTER-KIT.md)** - Master Copilot: philosophy, workflow, and deep integration
-
-### Stay Current
-- **[What's New](WHATS-NEW.md)** - Latest updates from the last 30 days
-- **[Changelog](CHANGELOG.md)** - Complete historical timeline
-
-### Learn & Practice
-- **[Video Library](VIDEOS.md)** - Curated tutorials and demos
-- **[Training Courses](TRAININGS.md)** - Official courses, certifications, learning paths
-
-### Quick Reference
-- **[Commands & Shortcuts](COMMANDS.md)** - Slash commands, keyboard shortcuts, chat variables
-- **[Complete Reference](REFERENCE.md)** - Full documentation index
-
-## 📊 Current Stats
-
-- **15 updates** in the last 7 days (14 docs + 1 video)
-- **7 training courses** available
-- **14 documentation files** tracked
-- **Last update**: 2026-01-29
-
-## 🔗 Official Resources
-
-- [GitHub Copilot Documentation](https://docs.github.com/copilot)
-- [GitHub Blog - Copilot](https://github.blog/tag/github-copilot/)
-- [GitHub Community Discussions](https://github.com/orgs/community/discussions/categories/copilot)
+## Official Resources
+- [GitHub Copilot Docs](https://docs.github.com/copilot)
+- [GitHub Copilot Blog](https://github.blog/tag/copilot/)
+- [GitHub Next](https://githubnext.com/)
 - [GitHub Skills](https://skills.github.com/)
+- [Microsoft Learn](https://learn.microsoft.com/training/)
 
 ---
-
-*This repository is automatically updated daily. Content is curated for relevance and actionability.*
+_Last updated: January 30, 2026_

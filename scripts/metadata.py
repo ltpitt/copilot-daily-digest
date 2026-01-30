@@ -141,7 +141,7 @@ def generate_content_diff(old_content: str, new_content: str) -> dict:
     # Extract meaningful changes (skip diff headers)
     added = []
     removed = []
-    
+
     for line in diff[2:]:  # Skip the first 2 header lines
         if line.startswith("+") and not line.startswith("+++"):
             added.append(line[1:].strip())
@@ -150,7 +150,7 @@ def generate_content_diff(old_content: str, new_content: str) -> dict:
 
     # Create summary
     summary = f"+{len(added)} lines, -{len(removed)} lines"
-    
+
     return {
         "summary": summary,
         "added": len(added),
@@ -231,7 +231,7 @@ def add_blog_url(url: str) -> bool:
 def add_github_next_url(url: str) -> bool:
     """
     Add GitHub Next project URL to metadata.
-    
+
     GitHub Next projects are experimental and should be treated with care.
 
     Args:
@@ -245,7 +245,7 @@ def add_github_next_url(url: str) -> bool:
     # Ensure github_next_urls key exists (for backwards compatibility)
     if "github_next_urls" not in metadata:
         metadata["github_next_urls"] = []
-    
+
     if "total_github_next_projects" not in metadata["stats"]:
         metadata["stats"]["total_github_next_projects"] = 0
 
@@ -315,12 +315,14 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
         # Append to history (keep last 10 versions)
         if "history" not in metadata["doc_versions"][doc_name]:
             metadata["doc_versions"][doc_name]["history"] = []
-        
+
         metadata["doc_versions"][doc_name]["history"].append(version_entry)
-        
+
         # Keep only last 10 versions to avoid metadata bloat
         if len(metadata["doc_versions"][doc_name]["history"]) > 10:
-            metadata["doc_versions"][doc_name]["history"] = metadata["doc_versions"][doc_name]["history"][-10:]
+            metadata["doc_versions"][doc_name]["history"] = metadata["doc_versions"][doc_name][
+                "history"
+            ][-10:]
 
     # Update stats
     metadata["stats"]["total_docs"] = len(

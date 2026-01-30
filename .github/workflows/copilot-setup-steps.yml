@@ -1,6 +1,7 @@
 name: "Copilot Setup Steps"
 
-# Automatically run the setup steps when changed for validation
+# This workflow runs BEFORE the Copilot coding agent starts working.
+# It prepares the environment with fresh data for the agent to use.
 on:
   workflow_dispatch:
   push:
@@ -30,3 +31,29 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      # Fetch all content sources (data persists for agent)
+      - name: Fetch GitHub Docs
+        run: python scripts/fetch_docs.py
+      
+      - name: Fetch GitHub Blog (RSS)
+        run: python scripts/fetch_blog.py
+      
+      - name: Fetch YouTube Videos (RSS)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/fetch_youtube.py
+      
+      - name: Fetch Training Resources
+        run: python scripts/fetch_trainings.py
+      
+      - name: Fetch GitHub Next Projects
+        run: python scripts/fetch_github_next.py
+      
+      # Enrich data with additional metadata
+      - name: Enrich Blog Dates
+        run: python scripts/enrich_blog_dates.py
+      
+      # Detect changes so agent knows what's new
+      - name: Detect Changes
+        run: python scripts/detect_changes.py

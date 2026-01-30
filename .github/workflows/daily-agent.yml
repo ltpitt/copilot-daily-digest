@@ -1,174 +1,55 @@
 name: Daily Copilot Digest
 
+# Creates an issue daily for Copilot coding agent to process.
+# The agent will run copilot-setup-steps.yml to fetch fresh data before working.
 on:
   schedule:
-    - cron: '14 23 * * *'  # Daily at 1 PM UTC
-  workflow_dispatch:     # Allows manual triggering
+    - cron: '14 23 * * *'  # Daily at 11:14 PM UTC
+  workflow_dispatch:       # Allows manual triggering
 
 permissions:
-  contents: write        # Required to push changes
-  pull-requests: write   # Required for copilot agent
-  issues: write          # Required to create issues
+  issues: write            # Required to create issues
 
 jobs:
-  fetch-and-detect:
+  create-issue:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      
-      # Fetch all content sources
-      - name: Fetch GitHub Docs
-        run: python scripts/fetch_docs.py
-      
-      - name: Fetch GitHub Blog (RSS)
-        run: python scripts/fetch_blog.py
-      
-      - name: Fetch YouTube Videos (RSS)
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python scripts/fetch_youtube.py
-      
-      - name: Fetch Training Resources
-        run: python scripts/fetch_trainings.py
-      
-      # Detect changes
-      - name: Detect Changes
-        id: changes
-        run: |
-          python scripts/detect_changes.py > changes.txt
-          cat changes.txt
-          
-          # Check if there are changes
-          if grep -q '"has_changes": true' data/changes-summary.json; then
-            echo "HAS_CHANGES=true" >> $GITHUB_OUTPUT
-          else
-            echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
-          fi
-      
-      # Commit data files to main
-      - name: Commit Data Files
-        if: steps.changes.outputs.HAS_CHANGES == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git commit -m "chore: update scraped data [$(date +'%Y-%m-%d')]"
-          git push
-      
-      # Update any open content PRs to avoid merge conflicts
-      - name: Update Open Content PRs
-        if: steps.changes.outputs.HAS_CHANGES == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Find open PRs with "Content update" in title
-          OPEN_PRS=$(gh pr list --state open --json number,title --jq '.[] | select(.title | contains("Content update")) | .number')
-          
-          if [ -n "$OPEN_PRS" ]; then
-            echo "Found open content PRs: $OPEN_PRS"
-            for PR_NUMBER in $OPEN_PRS; do
-              echo "Updating PR #$PR_NUMBER with latest main..."
-              
-              # Get PR branch name
-              PR_BRANCH=$(gh pr view "$PR_NUMBER" --json headRefName --jq '.headRefName')
-              
-              # Checkout PR branch and merge main
-              git fetch origin "$PR_BRANCH"
-              git checkout "$PR_BRANCH"
-              
-              # Merge main (use --theirs for metadata conflicts)
-              if git merge main -m "chore: merge main to resolve conflicts"; then
-                echo "✓ Merged main successfully"
-              else
-                # Resolve conflicts by taking newer metadata from main
-                git checkout --theirs data/metadata.json data/changes-summary.json 2>/dev/null || true
-                git add data/metadata.json data/changes-summary.json 2>/dev/null || true
-                git commit -m "chore: merge main and resolve metadata conflicts" 2>/dev/null || true
-              fi
-              
-              # Push updated branch
-              git push origin "$PR_BRANCH" || echo "⚠ Failed to push updates to PR #$PR_NUMBER"
-              
-              # Comment on PR
-              gh pr comment "$PR_NUMBER" --body "🤖 Auto-updated branch with latest data from main to resolve merge conflicts."
-            done
-            
-            # Return to main
-            git checkout main
-          else
-            echo "No open content PRs found to update"
-          fi
-      
-      # Create Issue for Copilot Workspace (Coding Agent)
       - name: Create Issue for Copilot Coding Agent
-        if: steps.changes.outputs.HAS_CHANGES == 'true'
-        id: create_issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Get change counts from changes-summary.json
-          TOTAL_CHANGES=$(jq -r '.total_changes // 0' data/changes-summary.json)
-          DOCS_CHANGED=$(jq -r '.docs.changed | length // 0' data/changes-summary.json)
-          BLOG_NEW=$(jq -r '.blog.new | length // 0' data/changes-summary.json)
-          VIDEOS_NEW=$(jq -r '.videos.new | length // 0' data/changes-summary.json)
-          TRAININGS_NEW=$(jq -r '.trainings.new | length // 0' data/changes-summary.json)
-          
-          # Build summary
-          SUMMARY="**Total Changes**: ${TOTAL_CHANGES}
-          - Documentation: ${DOCS_CHANGED} updated
-          - Blog Posts: ${BLOG_NEW} new
-          - Videos: ${VIDEOS_NEW} new  
-          - Trainings: ${TRAININGS_NEW} new"
-          
-          # Create issue with coordinator agent instruction
+          # Create issue for Copilot coding agent
           ISSUE_URL=$(gh issue create \
+            --repo ${{ github.repository }} \
             --title "📰 Content Update - $(date +'%Y-%m-%d')" \
             --label "content-update" \
             --label "automation" \
-            --body "## 🤖 Automated Content Update Task
+            --body "## 🤖 Daily Content Update Task
 
-          ### Changes Detected
-          ${SUMMARY}
+### 📋 Task
+Generate content from fresh data and update all files in \`content/\` directory.
 
-          ### 📋 Task
-          @coordinator Update the digest with latest changes
+**Follow the workflow in \`.github/copilot-instructions.md\`**:
+1. Verify data availability in \`data/\`
+2. Generate/update all 9 content files
+3. Run validation scripts (\`validate_whats_new.py\`, \`validate_links.py\`)
+4. Fix any issues found
 
-          ### ✅ Success Criteria
-          - All content files updated based on data/changes-summary.json
-          - Link validation passed
-          - PR created with descriptive summary
+### ✅ Success Criteria
+- All content files updated based on \`data/changes-summary.json\`
+- Dates complete and sorted (newest first)
+- Link validation passed
+- GitHub Next content has experimental disclaimers
 
-          ### 📚 Reference
-          - See \`.github/copilot-instructions.md\` for workflow
-          - Data available in \`data/\` directory
-          - Coordinate with \`@publisher\` and \`@link-validator\` agents
+### 📚 Reference
+- Workflow: \`.github/copilot-instructions.md\`
+- Data: \`data/\` directory (fetched by copilot-setup-steps.yml)
+- Content: \`content/\` directory
 
-          ---
+---
+
+**Next Step**: Assign this issue to Copilot to automatically generate a PR.")
           
-          **Next Step**: Assign this issue to Copilot Workspace to automatically generate a PR.")
-          
-          # Extract issue number
-          ISSUE_NUMBER=$(echo "$ISSUE_URL" | sed -n 's|.*/issues/\([0-9]*\)$|\1|p')
-          echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
-          echo "📝 Created issue #${ISSUE_NUMBER}: ${ISSUE_URL}"
-          echo ""
-          echo "🔧 To complete automation, either:"
-          echo "  1. Manually assign issue to Copilot Workspace in GitHub UI"
-          echo "  2. Configure Copilot Auto-Assignment (Enterprise feature)"
-          echo ""
-          echo "💡 For manual testing, run: @coordinator Update the digest"
-      
-      - name: No Changes Detected
-        if: steps.changes.outputs.HAS_CHANGES == 'false'
-        run: echo "ℹ️ No changes detected. Skipping content generation."
+          echo "📝 Created issue: ${ISSUE_URL}"
+          echo "🔧 Assign to Copilot in GitHub UI to start content generation."

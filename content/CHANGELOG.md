@@ -84,7 +84,7 @@ For updates before January 2026, this is a new tracking system. Historical data 
 3. **Categorization**: Changes are grouped by type (docs, blog, videos, trainings)
 4. **Expiration**: Items older than 30 days move from WHATS-NEW.md to this changelog
 
-## 📚 Related Files
+## Related Files
 
 - [What's New](WHATS-NEW.md) - Recent updates (last 30 days)
 - [Documentation Reference](REFERENCE.md) - Complete docs index

@@ -1,63 +1,79 @@
 # Getting Started with GitHub Copilot
 
-> Your 5-minute guide to productive AI pair programming
+> **Last updated:** Jan 30, 2026
 
-## 🚀 Quick Setup
+Welcome! This guide will help you set up GitHub Copilot in 5 minutes and master best practices for real-world productivity.
 
-### 1. Install Copilot in Your IDE
+---
 
-**VS Code**:
-```bash
-# Install extension
-code --install-extension GitHub.copilot
+## 5-Minute Quick Setup
+
+1. **Sign Up for Copilot**
+	- Go to [GitHub Copilot](https://github.com/features/copilot) and choose a plan (Free, Pro, Pro+).
+	- For VS Code, JetBrains, Visual Studio, Xcode, or Eclipse. (Extension links removed: 404)
+3. **Authenticate**
+	- Sign in with your GitHub account and enable Copilot in your IDE.
+4. **Try Your First Prompt**
+	- Open a file and type a comment (e.g., `// Write a function to reverse a string`). Accept the suggestion with `Tab` or use Copilot Chat for more complex tasks.
+
+---
+
+## Best Practices (from Recent Blog Posts)
+
+### 1. **Prompt with Context, Not Just Commands**
+**Problem:** Vague prompts lead to generic code.
+**Solution:** Add context, constraints, and intent.
+**Example:**
+```js
+// BAD: "Write a function to parse JSON."
+// GOOD: "Write a function to parse JSON from a config file, handle errors, and log failures."
 ```
+**Source:** [Copilot Tutorial: Build, Test, Review, and Ship Faster](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-writing-debugging-reviewing-and-shipping-code-faster-with-github-copilot/)
 
-**JetBrains**: Install from Plugins marketplace (Settings → Plugins → search "GitHub Copilot")
-**Visual Studio**: Version 17.14+ includes built-in support
-**Xcode/Eclipse**: Available for Pro/Pro+ subscribers
+### 2. **Break Down Complex Tasks**
+**Problem:** Large prompts overwhelm Copilot.
+**Solution:** Split into smaller, testable steps.
+**Example:**
+1. "Generate Jest tests for userSessionService."
+2. "Add cache-enabled branch coverage."
+**Source:** [Copilot Tutorial](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-writing-debugging-reviewing-and-shipping-code-faster-with-github-copilot/)
 
-### 2. Sign Up for GitHub Copilot
+### 3. **Review and Edit Copilot’s Output**
+**Problem:** AI can make mistakes or miss edge cases.
+**Solution:** Always review, test, and refactor suggestions before merging.
+**Source:** Copilot Best Practices (link removed: 404)
 
-Choose your plan:
-- **Copilot Free** - Limited features to explore without subscribing
-- **Copilot Pro** - Full features, advanced models, higher limits ($10/month)
-- **Copilot Pro+** - All Pro features + priority access to newest models ($15/month)
-- **Copilot Enterprise** - Organization-wide deployment with custom instructions
+### 4. **Use Copilot Chat for Explanations and Refactoring**
+**Problem:** Inline suggestions are limited for large changes.
+**Solution:** Use Copilot Chat to:
+  - Explain code
+  - Refactor functions
+  - Generate documentation
+**Source:** Copilot Best Practices (link removed: 404)
 
-[Sign up at GitHub Copilot Plans](https://docs.github.com/copilot/about-github-copilot/subscription-plans-for-github-copilot)
+### 5. **Leverage Custom Agents and Mission Control**
+**Problem:** Manual workflows are slow for repetitive tasks.
+**Solution:** Use [Mission Control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/) and [custom agents](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/) to automate tests, docs, and refactors.
 
-### 3. Try Your First Inline Suggestion
+### 6. **Document Prompts and Decisions**
+**Problem:** Hard to track what worked and why.
+**Solution:** Keep a log of prompts, results, and adjustments for future reference.
 
-Open any code file and type a comment:
+### 7. **Stay Up-to-Date**
+**Problem:** Features change rapidly.
+**Solution:** Check the [Changelog](CHANGELOG.md) and [What's New](WHATS-NEW.md) weekly.
 
-```javascript
-// Create a function that validates email addresses with regex
-```
+---
 
-Press `Enter` - Copilot suggests the implementation. Press `Tab` to accept.
+## Next Steps
+- [What's New (Last 30 Days)](WHATS-NEW.md)
+- [Video Library](VIDEOS.md)
+- [Trainings & Certifications](TRAININGS.md)
+- [Commands Reference](COMMANDS.md)
+- [Documentation Index](REFERENCE.md)
 
-### 4. Use Chat for Complex Tasks
-
-**Keyboard Shortcuts**:
-- VS Code: `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac)
-- JetBrains: `Alt+C` or `Option+C`
-
-Try this prompt:
-```
-Explain the structure of this codebase and list the main components
-```
-
-### 5. Enable Agent Mode (Advanced)
-
-For autonomous multi-step tasks:
-1. Open Copilot Chat
-2. Select **Agent** from the mode dropdown at the bottom
-3. Ask: "Add Redis caching to userSessionService with 30s TTL"
-4. Copilot determines files, makes changes, and iterates to complete the task
-
-## 💡 Best Practices
-
-### 1. Write Context-Rich Prompts
+---
+_For more, see the [official Copilot docs](https://docs.github.com/copilot) and [blog](https://github.blog/tag/copilot/)._ 
 
 ❌ **Don't**: "Add caching"
 ✅ **Do**: "Add Redis caching to userSessionService with 30s TTL to reduce DB load when handling >1000 requests/min"
@@ -165,14 +181,14 @@ If Copilot's first response isn't helpful:
 
 → [Source: Best Practices - Guide Copilot](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot#guide-copilot-towards-helpful-outputs)
 
-## 🎯 Next Steps
+## Next Steps
 
 1. **Master Prompts**: Read [Prompt Engineering Guide](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 2. **Deep Dive**: Explore the [Starter Kit](STARTER-KIT.md) for workflow integration
 3. **Train**: Take [official courses](TRAININGS.md) for certifications
 4. **Stay Updated**: Bookmark [What's New](WHATS-NEW.md) for latest features
 
-## 📚 Official Resources
+## Official Resources
 
 - [Copilot Documentation](https://docs.github.com/copilot)
 - [Best Practices](https://docs.github.com/copilot/using-github-copilot/best-practices-for-using-github-copilot)
