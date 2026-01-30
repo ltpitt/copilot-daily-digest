@@ -3,9 +3,9 @@ name: Daily Copilot Digest
 # Creates an issue daily for Copilot coding agent to process.
 # The agent will run copilot-setup-steps.yml to fetch fresh data before working.
 on:
+  workflow_dispatch:       # Allow manual triggering
   schedule:
-    - cron: '14 23 * * *'  # Daily at 11:14 PM UTC
-  workflow_dispatch:       # Allows manual triggering
+    - cron: '14 23 * * *'
 
 permissions:
   issues: write            # Required to create issues
