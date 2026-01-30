@@ -22,11 +22,17 @@ Stay up-to-date with GitHub Copilot through automated daily digests that aggrega
 
 ## 📖 Documentation
 
-- **[Main Digest](content/README.md)** - Daily newspaper-style digest with latest updates and highlights
-- **[Starter Kit](content/STARTER-KIT.md)** - Complete getting started guide with step-by-step tutorials
-- **[Changelog](content/CHANGELOG.md)** - Timeline of features and updates
-- **[Commands & Shortcuts](content/COMMANDS.md)** - Quick reference guide
-- **[Video Library](content/VIDEOS.md)** - Curated video tutorials
+Browse the latest Copilot content:
+
+- **[📰 Daily Digest](content/README.md)** - Start here: latest updates, videos, trainings, and resources
+- **[🆕 What's New](content/WHATS-NEW.md)** - Last 30 days of significant updates
+- **[🚀 Getting Started](content/GETTING-STARTED.md)** - Quick setup and best practices
+- **[🎥 Video Library](content/VIDEOS.md)** - Categorized YouTube tutorials
+- **[📚 Trainings](content/TRAININGS.md)** - Courses and learning paths
+- **[🔬 Experiments](content/EXPERIMENTAL.md)** - GitHub Next experimental projects
+- **[📖 Reference](content/REFERENCE.md)** - Complete documentation index
+- **[⌨️ Commands](content/COMMANDS.md)** - Quick reference for shortcuts
+- **[📋 Changelog](content/CHANGELOG.md)** - Full timeline of changes
 
 ## 🚀 How It Works
 
@@ -46,15 +52,17 @@ The repository updates automatically via GitHub Actions:
    - Generate change summary
 
 3. **Generate Content** (if changes detected)
-   - Publisher Agent creates issue
-   - **Issue automatically assigned to @copilot**
+   - Issue created for Copilot Coding Agent
+   - **Assign to @copilot in GitHub UI** to trigger generation
    - Agent generates all content files
    - Agent creates PR for review
 
 4. **Review & Merge**
-   - Review PR created by Publisher Agent
+   - Review PR created by Copilot
    - Merge when ready
    - Updated content goes live
+
+> **Note**: Manual assignment to @copilot is currently required to trigger content generation. Automatic assignment is being improved.
 
 ## 🛠️ Tech Stack
 
@@ -105,35 +113,19 @@ python scripts/fetch_github_next.py
 
 # Detect changes
 python scripts/detect_changes.py
-
-# Generate video page
-python scripts/generate_videos.py
 ```
 
-### Test GitHub Actions Workflow
+### Monitor Workflow
 
 ```bash
-# Manual trigger
-gh workflow run daily-agent.yml
-
-# Monitor workflow
+# List workflow runs
 gh run list --workflow=daily-agent.yml
 
 # View latest run
 gh run view
-```
 
-### Test Copilot Assignment
-
-```bash
-# Test automatic copilot assignment
-./scripts/test_copilot_assignment.sh
-```
-
-See Copilot Assignment Testing Guide (link removed: file not found) for detailed testing instructions.
-
-# View latest run
-gh run view
+# View run logs
+gh run view <run-id> --log
 ```
 
 ## ⚙️ Configuration
