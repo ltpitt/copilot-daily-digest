@@ -9,10 +9,12 @@
 
 ## 🤖 How It Works
 
-1. **Daily scraping** - Fetches content from official sources (docs, blog, YouTube, GitHub Next)
-2. **Change detection** - Identifies what's new since last update
-3. **AI generation** - Copilot Coding Agent generates organized content
-4. **PR creation** - Changes submitted for review and merge
+1. **Daily scraping** - Good old deterministic data fetching from official sources (docs, blog, YouTube, GitHub Next)
+2. **Change detection** - Smart diffing identifies what's actually new since yesterday
+3. **AI generation** - Copilot Coding Agent organizes everything into digestible content
+4. **PR creation** - Automated pull request ready for review and merge
+
+All on autopilot, using Copilot to track... Copilot. Meta? Perhaps. Useful? Absolutely.
 
 ## 📖 [→ Browse the Digest](content/README.md)
 
