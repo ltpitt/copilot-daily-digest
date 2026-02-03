@@ -203,7 +203,9 @@ Brief description emphasizing experimental nature.
 **Structure**:
 - Organized by month (newest first)
 - Each entry: date, type, title, link
-- Never remove old entries
+- **CRITICAL**: Never remove old entries - CHANGELOG preserves FULL history
+- **CRITICAL**: Always merge new data with existing historical data
+- When updating: Add new months at the top, keep all existing months below
 
 ### content/COMMANDS.md
 **Purpose**: Quick reference (200-300 lines)
