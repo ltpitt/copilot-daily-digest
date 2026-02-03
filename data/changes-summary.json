@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-03T11:55:38.343015+00:00",
+  "generated_at": "2026-02-03T23:23:40.381239+00:00",
   "has_changes": true,
-  "total_changes": 19,
+  "total_changes": 18,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-03T11:55:13Z",
+        "timestamp": "2026-02-03T23:23:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-03T11:55:20Z",
+        "timestamp": "2026-02-03T23:23:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-03T11:55:14Z",
+        "timestamp": "2026-02-03T23:23:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-03T11:55:26Z",
+        "timestamp": "2026-02-03T23:23:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-03T11:55:23Z",
+        "timestamp": "2026-02-03T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-03T11:55:08Z",
+        "timestamp": "2026-02-03T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-03T11:55:12Z",
+        "timestamp": "2026-02-03T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-03T11:55:10Z",
+        "timestamp": "2026-02-03T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-03T11:55:21Z",
+        "timestamp": "2026-02-03T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-03T11:55:18Z",
+        "timestamp": "2026-02-03T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-03T11:55:06Z",
+        "timestamp": "2026-02-03T23:23:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-03T11:55:16Z",
+        "timestamp": "2026-02-03T23:23:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-03T11:55:17Z",
+        "timestamp": "2026-02-03T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-03T11:55:25Z",
+        "timestamp": "2026-02-03T23:23:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -113,33 +113,27 @@
     "new_count": 1,
     "new_posts": [
       {
-        "title": "How to maximize GitHub Copilot’s agentic capabilities",
-        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
-        "date": "2026-02-02T17:00:00Z",
-        "summary": "<p>A senior engineer's guide to architecting and extending Copilot's real-world applications.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agen"
+        "title": "The Dependabot Proxy is now open source with an MIT license",
+        "url": "https://github.blog/changelog/2026-02-03-the-dependabot-proxy-is-now-open-source-with-an-mit-license",
+        "date": "2026-02-03T16:48:51Z",
+        "summary": "<p>The Dependabot Proxy is now available as open source under the MIT license. What&#8217;s new You can now: Review the source code to see how authentication works for various package&#8230;</p>\n<p>Th"
       }
     ]
   },
   "videos": {
-    "new_count": 3,
+    "new_count": 2,
     "new_videos": [
       {
-        "title": "How to use the /share command in GitHub Copilot CLI | Demo",
-        "video_id": "E17SXyL53w4",
-        "date": "2026-02-02T15:00:19+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/E17SXyL53w4/hqdefault.jpg"
+        "title": "Anders Hejlsberg on the worst programming language for AI",
+        "video_id": "P_gizaPKgPY",
+        "date": "2026-02-03T17:00:40+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/P_gizaPKgPY/hqdefault.jpg"
       },
       {
-        "title": "Switching models in GitHub Copilot CLI | demo",
-        "video_id": "dpxODnbIQgg",
-        "date": "2026-02-01T15:01:15+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/dpxODnbIQgg/hqdefault.jpg"
-      },
-      {
-        "title": "GitHub’s year in review: accessibility, MCP, and tiny wins | Episode 11 | The GitHub Podcast",
-        "video_id": "DW_vw8BkcBU",
-        "date": "2026-01-31T15:00:23+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/DW_vw8BkcBU/hqdefault.jpg"
+        "title": "Configuring model context protocol in the GitHub Copilot CLI | demo",
+        "video_id": "O73egpvWcpY",
+        "date": "2026-02-03T15:00:44+00:00",
+        "thumbnail": "https://i4.ytimg.com/vi/O73egpvWcpY/hqdefault.jpg"
       }
     ]
   },
@@ -147,105 +141,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 03, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"How to maximize GitHub Copilot’s agentic capabilities\" (2026-02-02)\n\n🎥 Videos: 3 new videos\n  - \"How to use the /share command in GitHub Copilot CLI | Demo\" (2026-02-02)\n  - \"Switching models in GitHub Copilot CLI | demo\" (2026-02-01)\n  - \"GitHub’s year in review: accessibility, MCP, and tiny wins | Episode 11 | The GitHub Podcast\" (2026-01-31)\n\nTotal: 19 changes detected",
+  "summary_text": "Changes detected on February 03, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"The Dependabot Proxy is now open source with an MIT license\" (2026-02-03)\n\n🎥 Videos: 2 new videos\n  - \"Anders Hejlsberg on the worst programming language for AI\" (2026-02-03)\n  - \"Configuring model context protocol in the GitHub Copilot CLI | demo\" (2026-02-03)\n\nTotal: 18 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 18,
+    "total_changes": 17,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-03T11:55:13Z",
+        "timestamp": "2026-02-03T23:23:11Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-03T11:55:20Z",
+        "timestamp": "2026-02-03T23:23:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-03T11:55:14Z",
+        "timestamp": "2026-02-03T23:23:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-03T11:55:26Z",
+        "timestamp": "2026-02-03T23:23:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-03T11:55:23Z",
+        "timestamp": "2026-02-03T23:23:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-03T11:55:08Z",
+        "timestamp": "2026-02-03T23:23:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-03T11:55:12Z",
+        "timestamp": "2026-02-03T23:23:09Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-03T11:55:10Z",
+        "timestamp": "2026-02-03T23:23:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-03T11:55:21Z",
+        "timestamp": "2026-02-03T23:23:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-03T11:55:18Z",
+        "timestamp": "2026-02-03T23:23:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-03T11:55:06Z",
+        "timestamp": "2026-02-03T23:23:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-03T11:55:16Z",
+        "timestamp": "2026-02-03T23:23:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-03T11:55:17Z",
+        "timestamp": "2026-02-03T23:23:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-03T11:55:25Z",
+        "timestamp": "2026-02-03T23:23:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -253,30 +247,24 @@
     ],
     "new_blog_posts": [
       {
-        "title": "How to maximize GitHub Copilot’s agentic capabilities",
-        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
-        "date": "2026-02-02T17:00:00Z",
-        "summary": "<p>A senior engineer's guide to architecting and extending Copilot's real-world applications.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agen"
+        "title": "The Dependabot Proxy is now open source with an MIT license",
+        "url": "https://github.blog/changelog/2026-02-03-the-dependabot-proxy-is-now-open-source-with-an-mit-license",
+        "date": "2026-02-03T16:48:51Z",
+        "summary": "<p>The Dependabot Proxy is now available as open source under the MIT license. What&#8217;s new You can now: Review the source code to see how authentication works for various package&#8230;</p>\n<p>Th"
       }
     ],
     "new_videos": [
       {
-        "title": "How to use the /share command in GitHub Copilot CLI | Demo",
-        "video_id": "E17SXyL53w4",
-        "date": "2026-02-02T15:00:19+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/E17SXyL53w4/hqdefault.jpg"
+        "title": "Anders Hejlsberg on the worst programming language for AI",
+        "video_id": "P_gizaPKgPY",
+        "date": "2026-02-03T17:00:40+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/P_gizaPKgPY/hqdefault.jpg"
       },
       {
-        "title": "Switching models in GitHub Copilot CLI | demo",
-        "video_id": "dpxODnbIQgg",
-        "date": "2026-02-01T15:01:15+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/dpxODnbIQgg/hqdefault.jpg"
-      },
-      {
-        "title": "GitHub’s year in review: accessibility, MCP, and tiny wins | Episode 11 | The GitHub Podcast",
-        "video_id": "DW_vw8BkcBU",
-        "date": "2026-01-31T15:00:23+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/DW_vw8BkcBU/hqdefault.jpg"
+        "title": "Configuring model context protocol in the GitHub Copilot CLI | demo",
+        "video_id": "O73egpvWcpY",
+        "date": "2026-02-03T15:00:44+00:00",
+        "thumbnail": "https://i4.ytimg.com/vi/O73egpvWcpY/hqdefault.jpg"
       }
     ]
   }
