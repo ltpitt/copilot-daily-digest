@@ -218,6 +218,11 @@ def parse_blog_entry(entry, source: str = "github-blog") -> Optional[Dict]:
 
         # Extract summary and content
         summary = entry.get("summary", "").strip()
+        
+        # Extract full content if available (for better summaries)
+        content = ""
+        if "content" in entry and entry.content:
+            content = entry.content[0].get("value", "") if isinstance(entry.content, list) else entry.content.get("value", "")
 
         # Extract tags
         tags = []
@@ -233,6 +238,7 @@ def parse_blog_entry(entry, source: str = "github-blog") -> Optional[Dict]:
             "title": title,
             "url": url,
             "summary": summary,
+            "content": content,
             "tags": tags,
             "published": published,
             "author": author,

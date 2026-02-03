@@ -13,8 +13,8 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - [Documentation Index](REFERENCE.md)
 
 ## Current Stats
-- **Total Updates:** 4 (see [What's New](WHATS-NEW.md))
-- **Videos:** 3 (see [Videos](VIDEOS.md))
+- **Total Updates:** 94 (see [What's New](WHATS-NEW.md))
+- **Videos:** 0 (see [Videos](VIDEOS.md))
 - **Trainings:** 7 (see [Trainings](TRAININGS.md))
 - **Experimental Projects:** 29 (see [Experimental](EXPERIMENTAL.md))
 

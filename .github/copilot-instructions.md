@@ -134,7 +134,7 @@ Provide a summary:
 
 **Structure**:
 - This Week (Last 7 Days): TOP 3-5 most significant
-- This Month (Last 30 Days): TOP 10 most significant
+- Last 30 Days: TOP 10 most significant
 - Older Updates (if relevant)
 - Link to CHANGELOG.md
 
@@ -143,6 +143,37 @@ Provide a summary:
 - NEVER incomplete: "Dec 2025" ❌
 - Sort: newest first (reverse chronological)
 - Use `data/blog/url_dates.json` for date lookups
+
+**Journalistic Writing Requirements**:
+- **NEVER** include "The post X appeared first on The GitHub Blog" or similar boilerplate
+- **ALWAYS** write in journalistic style with proper introductions
+- Each entry must have a clear, readable summary that helps readers decide if they want to click through
+- Summaries should:
+  - Start with the key insight or takeaway
+  - Be 2-3 complete sentences (never cut mid-sentence)
+  - Focus on practical value: what developers will learn or can do
+  - Use active voice and engaging language
+  - End with proper punctuation (no "..." unless intentional ellipsis)
+
+**Format for Each Entry**:
+```markdown
+### [Article Title](url)
+*Date*
+
+Clear 2-3 sentence summary explaining what this is about and why it matters.
+Focuses on practical takeaways. Never includes RSS boilerplate.
+```
+
+**Example - BAD**:
+```
+A senior engineer's guide to architecting and extending Copilot's real-world applications.
+The post How to maximize GitHub Copilot's agentic capabilities appeared first on The GitHub Blog....
+```
+
+**Example - GOOD**:
+```
+Learn how to architect and extend Copilot for real-world engineering workflows. This senior engineer's guide covers building agentic systems that work across multi-file codebases, from controllers to migrations. Discover practical patterns for integrating Copilot into complex projects.
+```
 
 ### content/VIDEOS.md
 **Purpose**: Categorized video library
