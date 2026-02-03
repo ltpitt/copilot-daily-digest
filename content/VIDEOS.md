@@ -1,81 +1,61 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: January 29, 2026 at 09:50 UTC
+> **Last Updated**: February 03, 2026
 
 > **📊 Library Stats**
-> - 📚 **7** total videos
-> - 🆕 **1** new this week
-> - 📂 **Categories**: Getting Started (4), Features & Updates (1), Tutorials (1), Agents (1)
+> - 📚 **3** total videos
+> - 🆕 **3** new this month
+> - 📂 **Categories**: Tutorials (2), Getting Started (1)
 
 ---
 
 ## Quick Navigation
 
-- [🆕 What's New This Week](#-whats-new-this-week)
-- [📂 Browse by Topic](#-browse-by-topic)
-  - [🎓 Getting Started](#getting-started) (4)
-  - [✨ Features & Updates](#features--updates) (1)
-  - [📚 Tutorials](#tutorials) (1)
-  - [🤖 Agents](#agents) (1)
+- [🆕 Recent Uploads](#recent-uploads-last-30-days)
+- [📂 Browse by Category](#browse-by-category)
+  - [Getting Started](#getting-started) (1)
+  - [Tutorials](#tutorials) (2)
 
 ---
 
-## What's New This Week
+## Recent Uploads (Last 30 Days)
 
-*1 video published in the last 7 days*
+*3 videos published in the last 30 days*
 
-### [Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast](https://www.youtube.com/watch?v=XmCSHr12CO0)
+### [How to use the /share command in GitHub Copilot CLI | Demo](https://www.youtube.com/watch?v=E17SXyL53w4)
 
-[![Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast](https://i1.ytimg.com/vi/XmCSHr12CO0/hqdefault.jpg)](https://www.youtube.com/watch?v=XmCSHr12CO0)
+**Published**: Feb 2, 2026 | **Channel**: GitHub
 
-**Published**: Jan 28, 2026 | **Channel**: GitHub
+Did you know you can share your GitHub Copilot CLI sessions with your team? In this demo, @shanselman explores the /share command, which exports your conversation logs and diagrams directly to a gist. We also cover model selection (Claude Opus, Sonnet, etc.) and how to visualize Next.js routing stru...
 
-In this episode guest host, Greg Cochran, from the GitHub Secure Open Source Fund brings together four maintainers who are helping secure the open source projects we all depend on: Christian (Log4j...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=XmCSHr12CO0)
+[Watch on YouTube →](https://www.youtube.com/watch?v=E17SXyL53w4)
 
 ---
 
----
+### [Switching models in GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=dpxODnbIQgg)
 
-## Browse by Topic
+**Published**: Feb 1, 2026 | **Channel**: GitHub
 
-Choose the category that matches what you want to learn:
+@shanselman demonstrates the power of choice in the GitHub Copilot CLI. In this video, he shows how to switch between 14 different models, including Claude Opus 4.5 and GPT 5.2 Codex, to plan and execute a complex upgrade for a Next.js application. He also covers how to adjust reasoning effort and u...
 
-### Getting Started
-
-*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
-
-**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
-
-**4 videos**
-
-### Features & Updates
-
-*Discover new features, product announcements, capability releases, and the latest updates.*
-
-**When to watch**: You want to stay current with new capabilities and improvements.
-
-**1 video**
-
-### Tutorials
-
-*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
-
-**When to watch**: You're ready to dive deep into specific features or workflows.
-
-**1 video**
-
-### Agents
-
-*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
-
-**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
-
-**1 video**
-
+[Watch on YouTube →](https://www.youtube.com/watch?v=dpxODnbIQgg)
 
 ---
+
+### [GitHub’s year in review: accessibility, MCP, and tiny wins | Episode 11 | The GitHub Podcast](https://www.youtube.com/watch?v=DW_vw8BkcBU)
+
+**Published**: Jan 31, 2026 | **Channel**: GitHub
+
+In this year-in-review episode of The GitHub Podcast, Cassidy and Abby are joined by Helen Hou-Sandí, GitHub’s engineering manager for the Accessibility Engineering team and lead developer in the WordPress project.
+
+They dig into Maintainer Tiny Wins, a series of two week long timeboxed improvements...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=DW_vw8BkcBU)
+
+---
+
+## Browse by Category
+
 
 ## Getting Started
 
@@ -83,70 +63,13 @@ Choose the category that matches what you want to learn:
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [🆕 Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast](https://www.youtube.com/watch?v=XmCSHr12CO0)
+### [GitHub’s year in review: accessibility, MCP, and tiny wins | Episode 11 | The GitHub Podcast](https://www.youtube.com/watch?v=DW_vw8BkcBU)
 
-[![Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast](https://i1.ytimg.com/vi/XmCSHr12CO0/hqdefault.jpg)](https://www.youtube.com/watch?v=XmCSHr12CO0)
+**Published**: Jan 31, 2026
 
-**Published**: Jan 28, 2026
+In this year-in-review episode of The GitHub Podcast, Cassidy and Abby are joined by Helen Hou-Sandí, GitHub’s engineering manager for the Accessibility Engineering team and lead developer in the Word...
 
-In this episode guest host, Greg Cochran, from the GitHub Secure Open Source Fund brings together four maintainers who are helping secure the open source projects we all depend on: Christian (Log4j...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=XmCSHr12CO0)
-
----
-
-### [How to close pull requests faster with Copilot code review | GitHub Checkout](https://www.youtube.com/watch?v=8hyvYP5PCks)
-
-[![How to close pull requests faster with Copilot code review | GitHub Checkout](https://i1.ytimg.com/vi/8hyvYP5PCks/hqdefault.jpg)](https://www.youtube.com/watch?v=8hyvYP5PCks)
-
-**Published**: Dec 02, 2025
-
-Code reviews are essential but often time-consuming. Join us for a deep dive into GitHub Copilot code review, an AI assistant designed to increase developer productivity without compromising qualit...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=8hyvYP5PCks)
-
----
-
-### [Assign Linear issues to Copilot coding agent](https://www.youtube.com/watch?v=dI4H5ZyYOx0)
-
-[![Assign Linear issues to Copilot coding agent](https://i1.ytimg.com/vi/dI4H5ZyYOx0/hqdefault.jpg)](https://www.youtube.com/watch?v=dI4H5ZyYOx0)
-
-**Published**: Dec 01, 2025
-
-You can now use the GitHub app for Linear to collaborate with GitHub Copilot right inside your Linear issues. This release introduces the Copilot coding agent, built to translate issues into code a...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dI4H5ZyYOx0)
-
----
-
-### [Extending AI Agents: A live demo of the GitHub MCP Server](https://www.youtube.com/watch?v=LwqUp4Dc1mQ)
-
-[![Extending AI Agents: A live demo of the GitHub MCP Server](https://i1.ytimg.com/vi/LwqUp4Dc1mQ/hqdefault.jpg)](https://www.youtube.com/watch?v=LwqUp4Dc1mQ)
-
-**Published**: Nov 30, 2025
-
-Discover the power of agent extensibility with a live demonstration of the GitHub MCP Server. This demo will showcase how to set up Copilot agent mode to seamlessly interact with GitHub directly fr...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=LwqUp4Dc1mQ)
-
----
-
-
-## Features & Updates
-
-*Discover new features, product announcements, capability releases, and the latest updates.*
-
-**When to watch**: You want to stay current with new capabilities and improvements.
-
-### [How to improve code health with GitHub Code Quality](https://www.youtube.com/watch?v=dlgYCpQI_lU)
-
-[![How to improve code health with GitHub Code Quality](https://i1.ytimg.com/vi/dlgYCpQI_lU/hqdefault.jpg)](https://www.youtube.com/watch?v=dlgYCpQI_lU)
-
-**Published**: Dec 04, 2025
-
-GitHub Code Quality helps you ensure your codebase is reliable, maintainable, and efficient. Whether you're building a new feature, reducing technical debt, or reporting on repository health, Code ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dlgYCpQI_lU)
+[Watch on YouTube →](https://www.youtube.com/watch?v=DW_vw8BkcBU)
 
 ---
 
@@ -157,39 +80,26 @@ GitHub Code Quality helps you ensure your codebase is reliable, maintainable, an
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [The latest in managing and auditing GitHub Copilot agents](https://www.youtube.com/watch?v=boviC841YWs)
+### [How to use the /share command in GitHub Copilot CLI | Demo](https://www.youtube.com/watch?v=E17SXyL53w4)
 
-[![The latest in managing and auditing GitHub Copilot agents](https://i3.ytimg.com/vi/boviC841YWs/hqdefault.jpg)](https://www.youtube.com/watch?v=boviC841YWs)
+**Published**: Feb 2, 2026
 
-**Published**: Dec 03, 2025
+Did you know you can share your GitHub Copilot CLI sessions with your team? In this demo, @shanselman explores the /share command, which exports your conversation logs and diagrams directly to a gist....
 
-As the toolset available to Copilot has become more advanced, so has the toolset available to administrators for governance. The recently launched insights dashboard gives you an overview of the ho...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=boviC841YWs)
+[Watch on YouTube →](https://www.youtube.com/watch?v=E17SXyL53w4)
 
 ---
 
+### [Switching models in GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=dpxODnbIQgg)
 
-## Agents
+**Published**: Feb 1, 2026
 
-*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
+@shanselman demonstrates the power of choice in the GitHub Copilot CLI. In this video, he shows how to switch between 14 different models, including Claude Opus 4.5 and GPT 5.2 Codex, to plan and exec...
 
-**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
-
-### [Rubber Duck Thursdays - Let's build with custom agents (again!)](https://www.youtube.com/watch?v=X9jbNK1006E)
-
-[![Rubber Duck Thursdays - Let's build with custom agents (again!)](https://i1.ytimg.com/vi/X9jbNK1006E/hqdefault.jpg)](https://www.youtube.com/watch?v=X9jbNK1006E)
-
-**Published**: Dec 04, 2025
-
-Join us for Rubber Duck Thursdays! A lighthearted and informal stream where we live code on some projects. Last week, we explored Copilot custom instructions and custom agents. This week, we'll co...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=X9jbNK1006E)
+[Watch on YouTube →](https://www.youtube.com/watch?v=dpxODnbIQgg)
 
 ---
 
-
----
 
 ## More Resources
 
@@ -197,7 +107,3 @@ Join us for Rubber Duck Thursdays! A lighthearted and informal stream where we l
 - [GitHub Blog](https://github.blog/tag/github-copilot/)
 - [GitHub YouTube Channel](https://www.youtube.com/github)
 - [Back to Digest Home](README.md)
-
----
-
-*Page generated on January 29, 2026 at 09:50 UTC*

@@ -1,6 +1,8 @@
 # GitHub Copilot Commands & Shortcuts
 
 > Quick reference for slash commands, keyboard shortcuts, and chat features
+> 
+> **Last Updated**: February 03, 2026
 
 ---
 
@@ -237,4 +239,4 @@ Choose different AI models based on your subscription:
 
 ---
 
-*Command reference updated {last_updated[:10]}. Features vary by IDE and subscription level.*
+*Command reference updated February 03, 2026. Features vary by IDE and subscription level.*
