@@ -152,7 +152,7 @@ def extract_readable_summary(blog_post: Dict) -> str:
     if clean_content and len(clean_content) > 100:
         # Split into sentences (improved sentence splitting)
         # This handles common abbreviations and doesn't split on them
-        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s+', clean_content)
+        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s+', clean_content)
         # Filter out very short sentences (likely fragments)
         good_sentences = [s.strip() for s in sentences if len(s.strip()) > 30]
         
@@ -239,9 +239,13 @@ def main():
                 blog_posts.append(rss_content[url])
             else:
                 # Create minimal entry from URL
+                # Extract title from URL, handling trailing slashes
+                url_clean = url.rstrip('/')
+                slug = url_clean.split('/')[-1] if url_clean else 'update'
+                title = slug.replace('-', ' ').title()
                 blog_posts.append({
                     'url': url,
-                    'title': url.split('/')[-2].replace('-', ' ').title(),
+                    'title': title,
                     'summary': '',
                     'content': ''
                 })
@@ -402,7 +406,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_week = week_items[:5]
     
     if top_week:
-        content += f"### Top {len(top_week)} Updates\n\n"
+        content += f"### Recent Updates\n\n"
         for i, item in enumerate(top_week, 1):
             date_formatted = format_date(item['date'])
             content += f"#### {i}. [{item['title']}]({item['url']})\n"
@@ -450,7 +454,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_month = month_items[:10]
     
     if top_month:
-        content += "### Top 10 Most Significant Updates\n\n"
+        content += "### Significant Updates\n\n"
         for i, item in enumerate(top_month, 1):
             date_formatted = format_date(item['date'])
             content += f"{i}. **[{item['title']}]({item['url']})**\n"

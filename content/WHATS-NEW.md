@@ -10,7 +10,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### Top 5 Updates
+### Recent Updates
 
 #### 1. [The Dependabot Proxy is now open source with an MIT license](https://github.blog/changelog/2026-02-03-the-dependabot-proxy-is-now-open-source-with-an-mit-license)
 *Feb 3, 2026*
@@ -44,7 +44,7 @@ CodeQL is the static analysis engine behind GitHub code scanning, which finds an
 
 ## Last 30 Days
 
-### Top 10 Most Significant Updates
+### Significant Updates
 
 1. **[The Dependabot Proxy is now open source with an MIT license](https://github.blog/changelog/2026-02-03-the-dependabot-proxy-is-now-open-source-with-an-mit-license)**
 	*Feb 3, 2026*
@@ -97,10 +97,10 @@ CodeQL is the static analysis engine behind GitHub code scanning, which finds an
 
 	It's now easier than ever to find exactly the issue you're looking for with our improved search for GitHub Issues. Built on our new semantic index, you can now find results based on the meaning of your query, not just the keywords you use.
 
-10. **[Changelog](https://github.blog/changelog/2026-01-28-acp-support-in-copilot-cli-is-now-in-public-preview)**
+10. **[2026 01 28 Acp Support In Copilot Cli Is Now In Public Preview](https://github.blog/changelog/2026-01-28-acp-support-in-copilot-cli-is-now-in-public-preview)**
 	*Jan 28, 2026*
 
-	Explore the latest update: Changelog.
+	Explore the latest update: 2026 01 28 Acp Support In Copilot Cli Is Now In Public Preview.
 
 ---
 
