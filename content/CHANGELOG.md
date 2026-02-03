@@ -2,94 +2,22 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: 2026-01-29
+**Last Updated**: February 03, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## February 2026
+
+- **Feb 2, 2026** - [How to maximize GitHub Copilot’s agentic capabilities](https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/) (Blog)
+- **Feb 2, 2026** - [How to use the /share command in GitHub Copilot CLI | Demo](https://www.youtube.com/watch?v=E17SXyL53w4) (Video)
+- **Feb 1, 2026** - [Switching models in GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=dpxODnbIQgg) (Video)
+
 ## January 2026
 
-### January 28, 2026 - New Video Content
-
-**New Video**:
-
-**[Inside the GitHub Secure Open Source Fund | Episode 10 | The GitHub Podcast](https://www.youtube.com/watch?v=XmCSHr12CO0)**
-- Published: January 28, 2026
-- Duration: 27:50
-- Topics covered:
-  - Securing open source projects (Log4j, GoReleaser, EVCC, ScanAPI)
-  - Hardening GitHub Actions pipelines and adding SBOMs
-  - Incident response planning and security best practices
-  - AI security: using fuzzing, GitHub Copilot, and the Secure Code Game
-  - How AI tools help find vulnerabilities faster
-- Guest maintainers share experiences from GitHub Secure Open Source Fund's security sprint
-
-### January 28, 2026 - Major Documentation Refresh
-
-**Documentation Updates (14 files)**:
-
-- **Extensions Integration** (`copilot-extensions-integration.md`)
-  - Updated: 2026-01-28
-- **Code Suggestions** (`copilot-code-suggestions.md`)
-  - Updated: 2026-01-28
-- **Custom Instructions** (`copilot-custom-instructions.md`)
-  - Updated: 2026-01-28
-- **Troubleshooting** (`copilot-troubleshooting.md`)
-  - Updated: 2026-01-28
-- **Configuration** (`copilot-configuration.md`)
-  - Updated: 2026-01-28
-- **Getting Started** (`copilot-getting-started.md`)
-  - Updated: 2026-01-28
-- **Extensions Overview** (`copilot-extensions-overview.md`)
-  - Updated: 2026-01-28
-- **Chat** (`copilot-chat.md`)
-  - Updated: 2026-01-28
-- **Managing Organization** (`copilot-managing-organization.md`)
-  - Updated: 2026-01-28
-- **Asking Questions** (`copilot-asking-questions.md`)
-  - Updated: 2026-01-28
-- **Overview** (`copilot-overview.md`)
-  - Updated: 2026-01-28
-- **Best Practices** (`copilot-best-practices.md`)
-  - Updated: 2026-01-28
-- **Prompt Engineering** (`copilot-prompt-engineering.md`)
-  - Updated: 2026-01-28
-- **Responsible Use** (`copilot-responsible-use.md`)
-  - Updated: 2026-01-28
-
-
-**Categories Updated**:
-- Extensions integration and overview
-- Chat functionality and features
-- Code suggestions and completions
-- Configuration and setup
-- Best practices and prompt engineering
-- Troubleshooting guides
-- Organization management
-- Responsible AI use
+- **Jan 31, 2026** - [GitHub’s year in review: accessibility, MCP, and tiny wins | Episode 11 | The GitHub Podcast](https://www.youtube.com/watch?v=DW_vw8BkcBU) (Video)
 
 ---
 
-## Archive
-
-For updates before January 2026, this is a new tracking system. Historical data will be populated as changes are detected going forward.
-
----
-
-## How This Changelog Works
-
-1. **Automatic Detection**: Changes are detected daily by comparing documentation hashes
-2. **Change Summaries**: Each entry includes what changed and when
-3. **Categorization**: Changes are grouped by type (docs, blog, videos, trainings)
-4. **Expiration**: Items older than 30 days move from WHATS-NEW.md to this changelog
-
-## Related Files
-
-- [What's New](WHATS-NEW.md) - Recent updates (last 30 days)
-- [Documentation Reference](REFERENCE.md) - Complete docs index
-- [Training Courses](TRAININGS.md) - Latest courses and certifications
-
----
-
-*This changelog is automatically updated daily based on detected changes.*
+_For recent updates, see [WHATS-NEW.md](WHATS-NEW.md)._

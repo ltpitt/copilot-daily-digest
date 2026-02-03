@@ -1,6 +1,6 @@
 # Getting Started with GitHub Copilot
 
-> **Last updated:** Jan 30, 2026
+> **Last updated:** February 03, 2026
 
 Welcome! This guide will help you set up GitHub Copilot in 5 minutes and master best practices for real-world productivity.
 
@@ -51,15 +51,24 @@ Welcome! This guide will help you set up GitHub Copilot in 5 minutes and master 
   - Generate documentation
 **Source:** Copilot Best Practices (link removed: 404)
 
-### 5. **Leverage Custom Agents and Mission Control**
+### 5. **Maximize Agentic Capabilities with Proper Architecture**
+**Problem:** Copilot agents struggle with poorly structured codebases.
+**Solution:** Design clear interfaces, use descriptive naming, and provide context through comments and documentation. Well-architected code helps agents understand intent and generate better solutions.
+**Example:**
+- Use clear module boundaries
+- Document complex business logic
+- Maintain consistent naming conventions
+**Source:** [How to maximize GitHub Copilot's agentic capabilities](https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/)
+
+### 6. **Leverage Custom Agents and Mission Control**
 **Problem:** Manual workflows are slow for repetitive tasks.
 **Solution:** Use [Mission Control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/) and [custom agents](https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/) to automate tests, docs, and refactors.
 
-### 6. **Document Prompts and Decisions**
+### 7. **Document Prompts and Decisions**
 **Problem:** Hard to track what worked and why.
 **Solution:** Keep a log of prompts, results, and adjustments for future reference.
 
-### 7. **Stay Up-to-Date**
+### 8. **Stay Up-to-Date**
 **Problem:** Features change rapidly.
 **Solution:** Check the [Changelog](CHANGELOG.md) and [What's New](WHATS-NEW.md) weekly.
 
