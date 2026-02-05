@@ -1,6 +1,6 @@
 # Getting Started with GitHub Copilot
 
-> **Last updated:** February 03, 2026
+> **Last updated:** February 05, 2026
 
 Welcome! This guide will help you set up GitHub Copilot in 5 minutes and master best practices for real-world productivity.
 

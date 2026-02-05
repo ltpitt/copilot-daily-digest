@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-03T23:39:45.466253+00:00",
+  "generated_at": "2026-02-05T10:41:43.683973+00:00",
   "has_changes": true,
-  "total_changes": 15,
+  "total_changes": 24,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-03T23:39:24Z",
+        "timestamp": "2026-02-05T10:41:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-03T23:39:30Z",
+        "timestamp": "2026-02-05T10:41:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-03T23:39:25Z",
+        "timestamp": "2026-02-05T10:41:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-03T23:39:34Z",
+        "timestamp": "2026-02-05T10:41:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-03T23:39:32Z",
+        "timestamp": "2026-02-05T10:41:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-03T23:39:21Z",
+        "timestamp": "2026-02-05T10:41:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-03T23:39:23Z",
+        "timestamp": "2026-02-05T10:41:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-03T23:39:22Z",
+        "timestamp": "2026-02-05T10:41:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-03T23:39:31Z",
+        "timestamp": "2026-02-05T10:41:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-03T23:39:29Z",
+        "timestamp": "2026-02-05T10:41:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-03T23:39:20Z",
+        "timestamp": "2026-02-05T10:41:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-03T23:39:26Z",
+        "timestamp": "2026-02-05T10:41:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-03T23:39:28Z",
+        "timestamp": "2026-02-05T10:41:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-03T23:39:33Z",
+        "timestamp": "2026-02-05T10:41:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,122 +110,234 @@
     ]
   },
   "blog": {
-    "new_count": 0,
-    "new_posts": []
+    "new_count": 7,
+    "new_posts": [
+      {
+        "title": "Showing tool calls and other improvements to Copilot chat on the web",
+        "url": "https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web",
+        "date": "2026-02-04T18:17:01Z",
+        "summary": "<p>We&#8217;ve added enhancements to make your GitHub Copilot Chat experience on github.com feel smoother and faster. Tool calls in your chat response You&#8217;ll now see clear tool call details so&#"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio Code v1.109 – January Release",
+        "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
+        "date": "2026-02-04T18:00:01Z",
+        "summary": "<p>This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agen"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio — January update",
+        "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update",
+        "date": "2026-02-04T17:41:21Z",
+        "summary": "<p>January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights Here&#8217;s what&#8217;s new with GitHub Copilot in Visual "
+      },
+      {
+        "title": "Claude and Codex are now available in public preview on GitHub",
+        "url": "https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
+        "date": "2026-02-04T17:00:26Z",
+        "summary": "<p>Claude and Codex coding agents are now in public preview Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Pro+ and Copilot Enterprise customers. You&#8230;</p>\n<p"
+      },
+      {
+        "title": "Simplified Copilot model enablement experience for individual users",
+        "url": "https://github.blog/changelog/2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users",
+        "date": "2026-02-04T02:46:48Z",
+        "summary": "<p>We&#8217;ve made it easier to discover and use the latest models across all Copilot features. If you&#8217;re a Copilot Pro+, Pro, or Free user, newly released models are now available&#8230;</p>\n<"
+      },
+      {
+        "title": "Dependabot now supports OIDC authentication",
+        "url": "https://github.blog/changelog/2026-02-03-dependabot-now-supports-oidc-authentication",
+        "date": "2026-02-03T17:09:59Z",
+        "summary": "<p>Dependabot can now use OpenID Connect (OIDC) to authenticate with private registries, eliminating the need to store long-lived credentials as repository secrets. What&#8217;s new With OIDC-based au"
+      },
+      {
+        "title": "GitHub Mobile: Comment on unchanged lines in pull request files",
+        "url": "https://github.blog/changelog/2026-02-03-github-mobile-comment-on-unchanged-lines-in-pull-request-files",
+        "date": "2026-02-03T13:28:49Z",
+        "summary": "<p>You can now comment anywhere within a changed file on GitHub Mobile. Previously in the Files Changed view, you could only comment on the lines directly surrounding a change. With&#8230;</p>\n<p>The "
+      }
+    ]
   },
   "videos": {
-    "new_count": 0,
-    "new_videos": []
+    "new_count": 2,
+    "new_videos": [
+      {
+        "title": "Can AI actually replace new developers?",
+        "video_id": "esyNFQCZ_TA",
+        "date": "2026-02-04T17:01:09+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/esyNFQCZ_TA/hqdefault.jpg"
+      },
+      {
+        "title": "Use Claude, Codex and Copilot together on GitHub",
+        "video_id": "GuTQDXKwdJQ",
+        "date": "2026-02-04T17:00:23+00:00",
+        "thumbnail": "https://i4.ytimg.com/vi/GuTQDXKwdJQ/hqdefault.jpg"
+      }
+    ]
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 03, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
+  "summary_text": "Changes detected on February 05, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 7 new articles\n  - \"Showing tool calls and other improvements to Copilot chat on the web\" (2026-02-04)\n  - \"GitHub Copilot in Visual Studio Code v1.109 – January Release\" (2026-02-04)\n  - \"GitHub Copilot in Visual Studio — January update\" (2026-02-04)\n  - \"Claude and Codex are now available in public preview on GitHub\" (2026-02-04)\n  - \"Simplified Copilot model enablement experience for individual users\" (2026-02-04)\n\n🎥 Videos: 2 new videos\n  - \"Can AI actually replace new developers?\" (2026-02-04)\n  - \"Use Claude, Codex and Copilot together on GitHub\" (2026-02-04)\n\nTotal: 24 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 14,
+    "total_changes": 23,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-03T23:39:24Z",
+        "timestamp": "2026-02-05T10:41:13Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-03T23:39:30Z",
+        "timestamp": "2026-02-05T10:41:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-03T23:39:25Z",
+        "timestamp": "2026-02-05T10:41:15Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-03T23:39:34Z",
+        "timestamp": "2026-02-05T10:41:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-03T23:39:32Z",
+        "timestamp": "2026-02-05T10:41:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-03T23:39:21Z",
+        "timestamp": "2026-02-05T10:41:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-03T23:39:23Z",
+        "timestamp": "2026-02-05T10:41:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-03T23:39:22Z",
+        "timestamp": "2026-02-05T10:41:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-03T23:39:31Z",
+        "timestamp": "2026-02-05T10:41:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-03T23:39:29Z",
+        "timestamp": "2026-02-05T10:41:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-03T23:39:20Z",
+        "timestamp": "2026-02-05T10:41:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-03T23:39:26Z",
+        "timestamp": "2026-02-05T10:41:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-03T23:39:28Z",
+        "timestamp": "2026-02-05T10:41:18Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-03T23:39:33Z",
+        "timestamp": "2026-02-05T10:41:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [],
-    "new_videos": []
+    "new_blog_posts": [
+      {
+        "title": "Showing tool calls and other improvements to Copilot chat on the web",
+        "url": "https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web",
+        "date": "2026-02-04T18:17:01Z",
+        "summary": "<p>We&#8217;ve added enhancements to make your GitHub Copilot Chat experience on github.com feel smoother and faster. Tool calls in your chat response You&#8217;ll now see clear tool call details so&#"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio Code v1.109 – January Release",
+        "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
+        "date": "2026-02-04T18:00:01Z",
+        "summary": "<p>This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agen"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio — January update",
+        "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update",
+        "date": "2026-02-04T17:41:21Z",
+        "summary": "<p>January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights Here&#8217;s what&#8217;s new with GitHub Copilot in Visual "
+      },
+      {
+        "title": "Claude and Codex are now available in public preview on GitHub",
+        "url": "https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
+        "date": "2026-02-04T17:00:26Z",
+        "summary": "<p>Claude and Codex coding agents are now in public preview Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Pro+ and Copilot Enterprise customers. You&#8230;</p>\n<p"
+      },
+      {
+        "title": "Simplified Copilot model enablement experience for individual users",
+        "url": "https://github.blog/changelog/2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users",
+        "date": "2026-02-04T02:46:48Z",
+        "summary": "<p>We&#8217;ve made it easier to discover and use the latest models across all Copilot features. If you&#8217;re a Copilot Pro+, Pro, or Free user, newly released models are now available&#8230;</p>\n<"
+      },
+      {
+        "title": "Dependabot now supports OIDC authentication",
+        "url": "https://github.blog/changelog/2026-02-03-dependabot-now-supports-oidc-authentication",
+        "date": "2026-02-03T17:09:59Z",
+        "summary": "<p>Dependabot can now use OpenID Connect (OIDC) to authenticate with private registries, eliminating the need to store long-lived credentials as repository secrets. What&#8217;s new With OIDC-based au"
+      },
+      {
+        "title": "GitHub Mobile: Comment on unchanged lines in pull request files",
+        "url": "https://github.blog/changelog/2026-02-03-github-mobile-comment-on-unchanged-lines-in-pull-request-files",
+        "date": "2026-02-03T13:28:49Z",
+        "summary": "<p>You can now comment anywhere within a changed file on GitHub Mobile. Previously in the Files Changed view, you could only comment on the lines directly surrounding a change. With&#8230;</p>\n<p>The "
+      }
+    ],
+    "new_videos": [
+      {
+        "title": "Can AI actually replace new developers?",
+        "video_id": "esyNFQCZ_TA",
+        "date": "2026-02-04T17:01:09+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/esyNFQCZ_TA/hqdefault.jpg"
+      },
+      {
+        "title": "Use Claude, Codex and Copilot together on GitHub",
+        "video_id": "GuTQDXKwdJQ",
+        "date": "2026-02-04T17:00:23+00:00",
+        "thumbnail": "https://i4.ytimg.com/vi/GuTQDXKwdJQ/hqdefault.jpg"
+      }
+    ]
   }
 }

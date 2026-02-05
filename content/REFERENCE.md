@@ -119,4 +119,4 @@ This file provides a categorized index of all tracked GitHub Copilot documentati
 ### Official Resources
 - [GitHub Copilot Documentation](https://docs.github.com/copilot) - Complete official docs
 ---
-*Documentation index updated February 03, 2026. All links verified and current.*
+*Documentation index updated February 05, 2026. All links verified and current.*
