@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: February 03, 2026
+**Last Updated**: February 05, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,33 +12,37 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [The Dependabot Proxy is now open source with an MIT license](https://github.blog/changelog/2026-02-03-the-dependabot-proxy-is-now-open-source-with-an-mit-license)
-*Feb 3, 2026*
+#### 1. [GitHub Copilot in Visual Studio Code v1.109 – January Release](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release)
+*Feb 4, 2026*
 
-The Dependabot Proxy is now available as open source under the MIT license. What's new
-You can now:
+This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agent support for Claude by Anthropic &ndash; right in your IDE. Richer chat interactions with MCP apps enable more tool-driven, interactive Copilot experiences inside VS Code.
 
-Review the source code to see how authentication works for various package managers and Git servers. Submit bug fixes or add support for new package ecosystems.
+#### 2. [Showing tool calls and other improvements to Copilot chat on the web](https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web)
+*Feb 4, 2026*
 
-#### 2. [How to maximize GitHub Copilot’s agentic capabilities](https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/)
-*Feb 2, 2026*
+We've added enhancements to make your GitHub Copilot Chat experience on github.com feel smoother and faster. Tool calls in your chat response
+You'll now see clear tool call details so you can track what's happening in real time when you send Copilot a message. This update helps you:
 
-Modern engineering work rarely lives in a single file. Real systems evolve across years of incrementally layered decisions—some good, some accidental. A single feature request ("Add tagging to notes," "Refactor the validation layer," "Support a new consumer on our API") often touches controllers, domain models, repositories, migrations, tests, documentation, and deployment strategy.
+Understand the steps Copilot is taking to fulfill your request.
 
-#### 3. [arm64 standard runners are now available in private repositories](https://github.blog/changelog/2026-01-29-arm64-standard-runners-are-now-available-in-private-repositories)
-*Jan 29, 2026*
+#### 3. [Claude and Codex are now available in public preview on GitHub](https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github)
+*Feb 4, 2026*
 
-Linux and Windows arm64 standard GitHub-hosted runners are now supported in private repositories. You can now use these free-tier eligible arm64 runners in all repositories, letting you take advantage of the performance benefits of arm64 processors and run native multi-architecture builds without the overhead of virtualization or emulation.
+Claude and Codex coding agents are now in public preview
+Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Pro+ and Copilot Enterprise customers. You can start agent sessions and assign work to these agents from github.com, GitHub Mobile, and VS Code.
 
-#### 4. [Closing down notice of legacy Copilot metrics APIs](https://github.blog/changelog/2026-01-29-closing-down-notice-of-legacy-copilot-metrics-apis)
-*Jan 29, 2026*
+#### 4. [GitHub Copilot in Visual Studio — January update](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update)
+*Feb 4, 2026*
 
-We are closing down three legacy Copilot metrics APIs as part of our transition to newer, more comprehensive usage metrics endpoints. Support for these APIs will be limited, and no new features will be developed. The User-level Feature Engagement Metrics API and Direct Data Access API will sunset on March 2nd, 2026.
+January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights
+Here's what's new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:
 
-#### 5. [CodeQL 2.24.0 adds Swift 6.2 and .NET 10 support, and improves file handling for minified JavaScript](https://github.blog/changelog/2026-01-29-codeql-2-24-0-adds-swift-6-2-support-net-10-compatibility-and-file-handling-for-minified-javascript)
-*Jan 29, 2026*
+Colorized code completions: Code completions now feature syntax highlighting to help you quickly distinguish variables, functions, and other elements.
 
-CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.24.0, which adds support for new language versions, expands framework coverage, and improves query accuracy across multiple languages.
+#### 5. [Can AI actually replace new developers?](https://www.youtube.com/shorts/esyNFQCZ_TA)
+*Feb 4, 2026*
+
+"If AI replaces junior programmers, how do we ever get senior programmers?" Anders Hejlsberg, creator of TypeScript, tackles this critical industry question.
 
 ---
 
@@ -46,61 +50,60 @@ CodeQL is the static analysis engine behind GitHub code scanning, which finds an
 
 ### Significant Updates
 
-1. **[The Dependabot Proxy is now open source with an MIT license](https://github.blog/changelog/2026-02-03-the-dependabot-proxy-is-now-open-source-with-an-mit-license)**
+1. **[GitHub Copilot in Visual Studio Code v1.109 – January Release](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release)**
+	*Feb 4, 2026*
+
+	This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agent support for Claude by Anthropic &ndash; right in your IDE. Richer chat interactions with MCP apps enable more tool-driven, interactive Copilot experiences inside VS Code.
+
+2. **[Showing tool calls and other improvements to Copilot chat on the web](https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web)**
+	*Feb 4, 2026*
+
+	We've added enhancements to make your GitHub Copilot Chat experience on github.com feel smoother and faster. Tool calls in your chat response
+	You'll now see clear tool call details so you can track what's happening in real time when you send Copilot a message. This update helps you:
+	
+	Understand the steps Copilot is taking to fulfill your request.
+
+3. **[Claude and Codex are now available in public preview on GitHub](https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github)**
+	*Feb 4, 2026*
+
+	Claude and Codex coding agents are now in public preview
+	Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Pro+ and Copilot Enterprise customers. You can start agent sessions and assign work to these agents from github.com, GitHub Mobile, and VS Code.
+
+4. **[GitHub Copilot in Visual Studio — January update](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update)**
+	*Feb 4, 2026*
+
+	January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights
+	Here's what's new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:
+	
+	Colorized code completions: Code completions now feature syntax highlighting to help you quickly distinguish variables, functions, and other elements.
+
+5. **[Can AI actually replace new developers?](https://www.youtube.com/shorts/esyNFQCZ_TA)**
+	*Feb 4, 2026*
+
+	"If AI replaces junior programmers, how do we ever get senior programmers?" Anders Hejlsberg, creator of TypeScript, tackles this critical industry question.
+
+6. **[Use Claude, Codex and Copilot together on GitHub](https://www.youtube.com/watch?v=GuTQDXKwdJQ)**
+	*Feb 4, 2026*
+
+	Claude by Anthropic and OpenAI Codex (both in public preview) are now available for Copilot Pro+ and Copilot Enterprise users.
+
+7. **[Dependabot now supports OIDC authentication](https://github.blog/changelog/2026-02-03-dependabot-now-supports-oidc-authentication)**
 	*Feb 3, 2026*
 
-	The Dependabot Proxy is now available as open source under the MIT license. What's new
-	You can now:
+	Dependabot can now use OpenID Connect (OIDC) to authenticate with private registries, eliminating the need to store long-lived credentials as repository secrets. What's new
+	With OIDC-based authentication, Dependabot update jobs can dynamically obtain short-lived credentials from your cloud identity provider, just like GitHub Actions workflows using OIDC federation.
+
+8. **[Simplified Copilot model enablement experience for individual users](https://github.blog/changelog/2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users)**
+	*Feb 3, 2026*
+
+	We've made it easier to discover and use the latest models across all Copilot features. If you're a Copilot Pro+, Pro, or Free user, newly released models are now available directly within Copilot—no need to manage policies or visit your settings pages to access them. With this change:
 	
-	Review the source code to see how authentication works for various package managers and Git servers. Submit bug fixes or add support for new package ecosystems.
+	New models are immediately accessible within Copilot features—no extra clicks or visits to settings required.
 
-2. **[How to maximize GitHub Copilot’s agentic capabilities](https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/)**
-	*Feb 2, 2026*
+9. **[GitHub Mobile: Comment on unchanged lines in pull request files](https://github.blog/changelog/2026-02-03-github-mobile-comment-on-unchanged-lines-in-pull-request-files)**
+	*Feb 3, 2026*
 
-	Modern engineering work rarely lives in a single file. Real systems evolve across years of incrementally layered decisions—some good, some accidental. A single feature request ("Add tagging to notes," "Refactor the validation layer," "Support a new consumer on our API") often touches controllers, domain models, repositories, migrations, tests, documentation, and deployment strategy.
-
-3. **[arm64 standard runners are now available in private repositories](https://github.blog/changelog/2026-01-29-arm64-standard-runners-are-now-available-in-private-repositories)**
-	*Jan 29, 2026*
-
-	Linux and Windows arm64 standard GitHub-hosted runners are now supported in private repositories. You can now use these free-tier eligible arm64 runners in all repositories, letting you take advantage of the performance benefits of arm64 processors and run native multi-architecture builds without the overhead of virtualization or emulation.
-
-4. **[Closing down notice of legacy Copilot metrics APIs](https://github.blog/changelog/2026-01-29-closing-down-notice-of-legacy-copilot-metrics-apis)**
-	*Jan 29, 2026*
-
-	We are closing down three legacy Copilot metrics APIs as part of our transition to newer, more comprehensive usage metrics endpoints. Support for these APIs will be limited, and no new features will be developed. The User-level Feature Engagement Metrics API and Direct Data Access API will sunset on March 2nd, 2026.
-
-5. **[CodeQL 2.24.0 adds Swift 6.2 and .NET 10 support, and improves file handling for minified JavaScript](https://github.blog/changelog/2026-01-29-codeql-2-24-0-adds-swift-6-2-support-net-10-compatibility-and-file-handling-for-minified-javascript)**
-	*Jan 29, 2026*
-
-	CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.24.0, which adds support for new language versions, expands framework coverage, and improves query accuracy across multiple languages.
-
-6. **[Codespaces is now in public preview for GitHub Enterprise with data residency](https://github.blog/changelog/2026-01-29-codespaces-is-now-in-public-preview-for-github-enterprise-with-data-residency)**
-	*Jan 29, 2026*
-
-	GitHub Codespaces is now available in public preview for GitHub Enterprise Cloud with data residency. You can now use secure, configurable, instantly available cloud development environments while maintaining strict compliance with your data residency requirements.
-
-7. **[Copilot metrics in GitHub Enterprise Cloud with data residency in public preview](https://github.blog/changelog/2026-01-29-copilot-metrics-in-github-enterprise-cloud-with-data-residency-in-public-preview)**
-	*Jan 29, 2026*
-
-	We know how important data residency is for compliance and regional requirements. To that point, the Copilot usage, code generation dashboards, and corresponding API are now available to customers on GitHub Enterprise Cloud with data residency.
-
-8. **[GitHub Actions: Smarter editing, clearer debugging, and a new case function](https://github.blog/changelog/2026-01-29-github-actions-smarter-editing-clearer-debugging-and-a-new-case-function)**
-	*Jan 29, 2026*
-
-	We've shipped several improvements to GitHub Actions that make it easier to write, validate, and troubleshoot workflow logic, especially when you rely on if: conditionals to control what runs. Here are some of the new improvements:
-	
-	A new case function for more expressive conditional logic
-	Expanded expression logs so you can see why jobs get skipped.
-
-9. **[Improved search for GitHub Issues in public preview](https://github.blog/changelog/2026-01-29-improved-search-for-github-issues-in-public-preview)**
-	*Jan 29, 2026*
-
-	It's now easier than ever to find exactly the issue you're looking for with our improved search for GitHub Issues. Built on our new semantic index, you can now find results based on the meaning of your query, not just the keywords you use.
-
-10. **[2026 01 28 Acp Support In Copilot Cli Is Now In Public Preview](https://github.blog/changelog/2026-01-28-acp-support-in-copilot-cli-is-now-in-public-preview)**
-	*Jan 28, 2026*
-
-	Explore the latest update: 2026 01 28 Acp Support In Copilot Cli Is Now In Public Preview.
+	You can now comment anywhere within a changed file on GitHub Mobile. Previously in the Files Changed view, you could only comment on the lines directly surrounding a change. With this new feature you can expand the diff to reveal unchanged code and leave a comment or suggested change wherever it's needed!
 
 ---
 
