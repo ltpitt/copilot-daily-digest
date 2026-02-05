@@ -29,7 +29,7 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 
 ---
 
-### [Introduction to GitHub Copilot](https://skills.github.com/)
+### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
 
 **Provider**: GitHub Skills | **Level**: Beginner
 
@@ -39,8 +39,6 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 - **Duration**: 1-2 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
-
-*Note: Visit GitHub Skills to find the latest interactive Copilot courses.*
 
 ---
 
@@ -120,7 +118,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ### Beginner Path
 1. [Introduction to GitHub Copilot (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
-2. [GitHub Skills Interactive Courses](https://skills.github.com/)
+2. [Introduction to GitHub Copilot (GitHub Skills)](https://github.com/skills/copilot-intro)
 3. Practice with hands-on coding
 
 ### Intermediate Path

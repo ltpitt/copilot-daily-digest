@@ -9,11 +9,73 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Any
 import re
+import feedparser
+import certifi
+import requests
 
 # Base paths
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
 CONTENT_DIR = BASE_DIR / "content"
+
+# RSS Feed URLs
+GITHUB_BLOG_FEED = "https://github.blog/tag/github-copilot/feed/"
+GITHUB_CHANGELOG_FEED = "https://github.blog/changelog/feed/"
+
+def fetch_rss_content() -> Dict[str, Dict]:
+    """
+    Fetch current blog content from RSS feeds to supplement missing data files.
+    Returns a dictionary mapping URLs to blog post data with full content.
+    """
+    blog_content = {}
+    
+    try:
+        # Fetch GitHub Blog RSS
+        response = requests.get(GITHUB_BLOG_FEED, timeout=30, verify=certifi.where())
+        feed = feedparser.parse(response.content)
+        
+        for entry in feed.entries:
+            url = entry.get('link', '').strip()
+            if url:
+                # Extract content
+                content = ""
+                if 'content' in entry and entry.content:
+                    content = entry.content[0].get('value', '') if isinstance(entry.content, list) else entry.content.get('value', '')
+                
+                blog_content[url] = {
+                    'title': entry.get('title', '').strip(),
+                    'url': url,
+                    'summary': entry.get('summary', '').strip(),
+                    'content': content,
+                    'published': entry.get('published', '')
+                }
+        
+        # Fetch Changelog RSS
+        response = requests.get(GITHUB_CHANGELOG_FEED, timeout=30, verify=certifi.where())
+        feed = feedparser.parse(response.content)
+        
+        for entry in feed.entries:
+            url = entry.get('link', '').strip()
+            title = entry.get('title', '').lower()
+            # Include all changelog entries (filtering by copilot happens earlier in the pipeline)
+            if url:
+                content = ""
+                if 'content' in entry and entry.content:
+                    content = entry.content[0].get('value', '') if isinstance(entry.content, list) else entry.content.get('value', '')
+                
+                # Only add if not already in blog_content (prefer full blog posts)
+                if url not in blog_content:
+                    blog_content[url] = {
+                        'title': entry.get('title', '').strip(),
+                        'url': url,
+                        'summary': entry.get('summary', '').strip(),
+                        'content': content,
+                        'published': entry.get('published', '')
+                    }
+    except Exception as e:
+        print(f"Warning: Could not fetch RSS content: {e}")
+    
+    return blog_content
 
 def load_json(filepath: Path) -> Dict:
     """Load JSON file."""
@@ -53,6 +115,102 @@ def get_video_category(video: Dict) -> str:
     else:
         return 'Other'
 
+def clean_html(text: str) -> str:
+    """Remove HTML tags and clean up text."""
+    # Remove HTML tags
+    text = re.sub(r'<[^>]+>', '', text)
+    # Clean up HTML entities
+    text = text.replace('&nbsp;', ' ').replace('&#8217;', "'").replace('&mdash;', '—')
+    text = text.replace('&ldquo;', '"').replace('&rdquo;', '"')
+    text = text.replace('&amp;', '&').replace('&rsquo;', "'")
+    return text.strip()
+
+def extract_readable_summary(blog_post: Dict) -> str:
+    """
+    Extract a clean, journalistic summary from a blog post.
+    
+    Returns a 2-3 sentence summary that:
+    - Removes boilerplate ("The post X appeared first on...")
+    - Extracts key content from the full article
+    - Provides enough context for readers to decide if they want to read more
+    """
+    # Try to get content first (better than summary)
+    content = blog_post.get('content', '')
+    summary = blog_post.get('summary', '')
+    
+    # Clean HTML from content
+    clean_content = clean_html(content) if content else ''
+    clean_summary = clean_html(summary) if summary else ''
+    
+    # Remove the RSS boilerplate from summary
+    if clean_summary:
+        # Remove "The post ... appeared first on The GitHub Blog" pattern
+        clean_summary = re.sub(r'The post .+? appeared first on .+?\.', '', clean_summary)
+        clean_summary = clean_summary.strip()
+    
+    # If we have good content, extract first 2-3 sentences
+    if clean_content and len(clean_content) > 100:
+        # Split into sentences (improved sentence splitting)
+        # This handles common abbreviations and doesn't split on them
+        sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s+', clean_content)
+        # Filter out very short sentences (likely fragments)
+        good_sentences = [s.strip() for s in sentences if len(s.strip()) > 30]
+        
+        # Take first 2-3 sentences, up to ~350 characters total
+        result = []
+        char_count = 0
+        for sentence in good_sentences[:5]:  # Look at first 5 sentences
+            sentence_len = len(sentence)
+            # Add sentence if it keeps us under 400 chars and we have < 3 sentences
+            if len(result) < 3 and (char_count + sentence_len) < 400:
+                result.append(sentence)
+                char_count += sentence_len
+            elif len(result) >= 2:  # We have at least 2 sentences, that's enough
+                break
+        
+        if result and len(result) >= 2:
+            return ' '.join(result)
+        elif result and len(result) == 1 and len(result[0]) > 100:
+            # If we only got 1 sentence but it's substantial, use it
+            return result[0]
+    
+    # Fallback to cleaned summary if it exists and is substantial
+    if clean_summary and len(clean_summary) > 50:
+        # Make sure it's not just a title repetition
+        title = blog_post.get('title', '')
+        if title.lower() not in clean_summary.lower() or len(clean_summary) > len(title) + 20:
+            return clean_summary
+    
+    # Last resort: return title with a note
+    title = blog_post.get('title', 'this update')
+    return f"Explore the latest update: {title}."
+
+def clean_video_description(description: str, max_length: int = 200) -> str:
+    """Clean and truncate video description."""
+    if not description:
+        return ""
+    
+    # Clean HTML
+    clean_desc = clean_html(description)
+    
+    # Truncate at sentence boundary if possible
+    if len(clean_desc) > max_length:
+        # Try to find last sentence ending before max_length
+        truncated = clean_desc[:max_length]
+        last_period = truncated.rfind('.')
+        last_exclaim = truncated.rfind('!')
+        last_question = truncated.rfind('?')
+        last_sentence_end = max(last_period, last_exclaim, last_question)
+        
+        if last_sentence_end > max_length * 0.6:  # If we found a good break point
+            return clean_desc[:last_sentence_end + 1]
+        else:
+            # Otherwise truncate at word boundary
+            truncated = clean_desc[:max_length].rsplit(' ', 1)[0]
+            return truncated + "..."
+    
+    return clean_desc
+
 def main():
     """Generate all content files."""
     
@@ -61,11 +219,44 @@ def main():
     changes = load_json(DATA_DIR / "changes-summary.json")
     url_dates = load_json(DATA_DIR / "blog" / "url_dates.json")
     
+    # Fetch current RSS content to supplement blog data
+    print("Fetching fresh RSS content...")
+    rss_content = fetch_rss_content()
+    print(f"Fetched {len(rss_content)} blog posts from RSS")
+    
     # Load all data files
     blog_posts = load_all_json_in_dir(DATA_DIR / "blog")
     videos = load_all_json_in_dir(DATA_DIR / "videos")
     trainings = load_all_json_in_dir(DATA_DIR / "trainings")
     github_next = load_all_json_in_dir(DATA_DIR / "github-next")
+    
+    # If we don't have blog post files, create them from url_dates and RSS
+    if not blog_posts:
+        print("No blog post files found, creating from URL dates and RSS...")
+        blog_posts = []
+        for url, date_str in url_dates['url_dates'].items():
+            if url in rss_content:
+                blog_posts.append(rss_content[url])
+            else:
+                # Create minimal entry from URL
+                # Extract title from URL, handling trailing slashes
+                url_clean = url.rstrip('/')
+                slug = url_clean.split('/')[-1] if url_clean else 'update'
+                title = slug.replace('-', ' ').title()
+                blog_posts.append({
+                    'url': url,
+                    'title': title,
+                    'summary': '',
+                    'content': ''
+                })
+    else:
+        # Enrich existing blog posts with RSS content
+        for post in blog_posts:
+            url = post.get('url', '')
+            if url in rss_content and not post.get('content'):
+                post['content'] = rss_content[url].get('content', '')
+                if not post.get('summary'):
+                    post['summary'] = rss_content[url].get('summary', '')
     
     # Sort videos by date (newest first)
     videos.sort(key=lambda x: x.get('published', ''), reverse=True)
@@ -196,7 +387,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
             'type': 'blog',
             'title': post['title'],
             'url': post['url'],
-            'summary': post.get('summary', '')
+            'post': post  # Store full post for summary extraction
         })
     
     for video in videos_7d:
@@ -205,7 +396,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
             'type': 'video',
             'title': video['title'],
             'url': video['url'],
-            'description': video.get('description', '')[:200] + '...'
+            'description': video.get('description', '')
         })
     
     # Sort by date (newest first)
@@ -215,24 +406,25 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_week = week_items[:5]
     
     if top_week:
-        content += f"### Top {len(top_week)} Updates\n\n"
+        content += f"### Recent Updates\n\n"
         for i, item in enumerate(top_week, 1):
             date_formatted = format_date(item['date'])
             content += f"#### {i}. [{item['title']}]({item['url']})\n"
-            content += f"*{date_formatted}*\n"
+            content += f"*{date_formatted}*\n\n"
             if item['type'] == 'blog':
-                # Clean HTML from summary
-                summary = re.sub(r'<[^>]+>', '', item.get('summary', ''))
-                summary = summary.replace('&nbsp;', ' ').replace('&#8217;', "'").strip()
-                if summary:
-                    content += f"{summary[:300]}...\n"
+                # Use improved summary extraction
+                summary = extract_readable_summary(item['post'])
+                content += f"{summary}\n"
             else:
-                content += f"{item.get('description', '')}\n"
+                # Clean video description
+                desc = clean_video_description(item.get('description', ''), max_length=250)
+                if desc:
+                    content += f"{desc}\n"
             content += "\n"
     else:
         content += "No updates this week.\n\n"
     
-    content += "---\n\n## This Month (Last 30 Days)\n\n"
+    content += "---\n\n## Last 30 Days\n\n"
     
     # Combine all 30-day items
     month_items = []
@@ -243,7 +435,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
             'type': 'blog',
             'title': post['title'],
             'url': post['url'],
-            'summary': post.get('summary', '')
+            'post': post
         })
     
     for video in videos_30d:
@@ -262,23 +454,25 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_month = month_items[:10]
     
     if top_month:
-        content += "### Top 10 Most Significant Updates\n\n"
+        content += "### Significant Updates\n\n"
         for i, item in enumerate(top_month, 1):
             date_formatted = format_date(item['date'])
             content += f"{i}. **[{item['title']}]({item['url']})**\n"
-            content += f"\t*{date_formatted}*\n"
+            content += f"\t*{date_formatted}*\n\n"
             if item['type'] == 'blog':
-                summary = re.sub(r'<[^>]+>', '', item.get('summary', ''))
-                summary = summary.replace('&nbsp;', ' ').replace('&#8217;', "'").strip()
-                if summary:
-                    content += f"\t{summary[:200]}...\n"
+                # Use improved summary extraction
+                summary = extract_readable_summary(item['post'])
+                # Indent for markdown list
+                indented_summary = '\t' + summary.replace('\n', '\n\t')
+                content += f"{indented_summary}\n"
             else:
-                desc = item.get('description', '')[:200]
+                # Clean video description
+                desc = clean_video_description(item.get('description', ''), max_length=200)
                 if desc:
-                    content += f"\t{desc}...\n"
+                    content += f"\t{desc}\n"
             content += "\n"
     else:
-        content += "No updates this month.\n\n"
+        content += "No updates in the last 30 days.\n\n"
     
     content += """---
 
