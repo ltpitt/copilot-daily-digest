@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: February 05, 2026
+**Last Updated**: February 7, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,14 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## February 2026
 
+- **Feb 7, 2026** - [CodeQL 2.24.1 improves Maven private registry support and improves query accuracy](https://github.blog/changelog/2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy) (Blog)
+- **Feb 6, 2026** - [The Download: OpenClaw AI agents, Last of Babel 7, GitHub Actions & more](https://www.youtube.com/watch?v=0FH_v8iQM5Q) (Video)
+- **Feb 6, 2026** - [See what the Reddit community built with Copilot SDK](https://www.youtube.com/shorts/exlDbnUtSdY) (Video)
+- **Feb 5, 2026** - [Claude Opus 4.6 is now generally available for GitHub Copilot](https://github.blog/changelog/2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot) (Blog)
+- **Feb 5, 2026** - [GitHub Actions: Self-hosted runner minimum version enforcement extended](https://github.blog/changelog/2026-02-05-github-actions-self-hosted-runner-minimum-version-enforcement-extended) (Blog)
+- **Feb 5, 2026** - [GitHub Actions: Early February 2026 updates](https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates) (Blog)
+- **Feb 5, 2026** - [5 quality of life updates for open source maintainers | GitHub Checkout](https://www.youtube.com/watch?v=CKNe3gBnzrc) (Video)
+- **Feb 5, 2026** - [GitHub Copilot SDK demo: Creating "Flight School"](https://www.youtube.com/watch?v=ct_Ymw9RexM) (Video)
 - **Feb 4, 2026** - [GitHub Copilot in Visual Studio Code v1.109 – January Release](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release) (Blog)
 - **Feb 4, 2026** - [Showing tool calls and other improvements to Copilot chat on the web](https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web) (Blog)
 - **Feb 4, 2026** - [Claude and Codex are now available in public preview on GitHub](https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github) (Blog)

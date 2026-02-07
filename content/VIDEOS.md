@@ -1,87 +1,51 @@
-# GitHub Copilot Video Library
+# GitHub Copilot Videos Library
 
-> **Last Updated**: February 05, 2026
+> Curated collection of video tutorials, demos, and updates
 
-> **📊 Library Stats**
-> - 📚 **2** total videos
-> - 🆕 **2** new this month
-> - 📂 **Categories**: Other (1), Tutorials (1)
+**Last Updated**: February 7, 2026
 
 ---
 
-## Quick Navigation
+## Statistics
 
-- [🆕 Recent Uploads](#recent-uploads-last-30-days)
-- [📂 Browse by Category](#browse-by-category)
-  - [Tutorials](#tutorials) (1)
-  - [Other](#other) (1)
+- **Total Videos**: 4
+- **Recent Uploads** (Last 30 Days): 0
+- **Categories**: 4
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*2 videos published in the last 30 days*
-
-### [Can AI actually replace new developers?](https://www.youtube.com/shorts/esyNFQCZ_TA)
-
-**Published**: Feb 4, 2026 | **Channel**: GitHub
-
-"If AI replaces junior programmers, how do we ever get senior programmers?" Anders Hejlsberg, creator of TypeScript, tackles this critical industry question. He discusses the "narrowing of the pyramid" and the challenge of raising the next generation of engineers when AI handles the base-level work....
-
-[Watch on YouTube →](https://www.youtube.com/shorts/esyNFQCZ_TA)
 
 ---
 
-### [Use Claude, Codex and Copilot together on GitHub](https://www.youtube.com/watch?v=GuTQDXKwdJQ)
+## By Category
 
-**Published**: Feb 4, 2026 | **Channel**: GitHub
+### Getting Started (1 videos)
 
-Claude by Anthropic and OpenAI Codex (both in public preview) are now available for Copilot Pro+ and Copilot Enterprise users. In this video, we show you how to run multiple coding agents—GitHub Copilot, Claude, or Codex—side by side directly inside GitHub and Visual Studio Code and Mobile. Get revi...
+- [The Download: OpenClaw AI agents, Last of Babel 7, GitHub Actions & more](https://www.youtube.com/watch?v=0FH_v8iQM5Q) - *Feb 6, 2026*
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=GuTQDXKwdJQ)
+### Features & Updates (1 videos)
 
----
+- [5 quality of life updates for open source maintainers | GitHub Checkout](https://www.youtube.com/watch?v=CKNe3gBnzrc) - *Feb 5, 2026*
 
-## Browse by Category
+### Tutorials (1 videos)
 
+- [GitHub Copilot SDK demo: Creating "Flight School"](https://www.youtube.com/watch?v=ct_Ymw9RexM) - *Feb 5, 2026*
 
-## Tutorials
+### Agents (1 videos)
 
-*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
-
-**When to watch**: You're ready to dive deep into specific features or workflows.
-
-### [Use Claude, Codex and Copilot together on GitHub](https://www.youtube.com/watch?v=GuTQDXKwdJQ)
-
-**Published**: Feb 4, 2026
-
-Claude by Anthropic and OpenAI Codex (both in public preview) are now available for Copilot Pro+ and Copilot Enterprise users. In this video, we show you how to run multiple coding agents—GitHub Copil...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=GuTQDXKwdJQ)
+- [See what the Reddit community built with Copilot SDK](https://www.youtube.com/shorts/exlDbnUtSdY) - *Feb 6, 2026*
 
 ---
 
+## More Videos
 
-## Other
-
-*Additional videos that don't fit into other categories.*
-
-**When to watch**: You're looking for miscellaneous Copilot content.
-
-### [Can AI actually replace new developers?](https://www.youtube.com/shorts/esyNFQCZ_TA)
-
-**Published**: Feb 4, 2026
-
-"If AI replaces junior programmers, how do we ever get senior programmers?" Anders Hejlsberg, creator of TypeScript, tackles this critical industry question. He discusses the "narrowing of the pyramid...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/esyNFQCZ_TA)
+For the complete collection, visit:
+- [GitHub YouTube Channel](https://www.youtube.com/@GitHub)
+- [GitHub Copilot Playlist](https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml5Q7VGguY)
 
 ---
 
+_Videos are automatically updated daily from the official GitHub YouTube channel._
 
-## More Resources
-
-- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
-- [GitHub Blog](https://github.blog/tag/github-copilot/)
-- [GitHub YouTube Channel](https://www.youtube.com/github)
-- [Back to Digest Home](README.md)
