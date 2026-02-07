@@ -3,20 +3,20 @@
 Welcome to your daily, modular, and up-to-date resource for all things GitHub Copilot!
 
 ## Browse by Topic
-- [Getting Started](GETTING-STARTED.md)
-- [What's New (Last 30 Days)](WHATS-NEW.md)
-- [Videos Library](VIDEOS.md)
-- [Experimental Features](EXPERIMENTAL.md)
-- [Trainings & Certifications](TRAININGS.md)
-- [Changelog (Full History)](CHANGELOG.md)
-- [Commands Reference](COMMANDS.md)
-- [Documentation Index](REFERENCE.md)
+- [Getting Started](GETTING-STARTED.md) - Quick setup and best practices
+- [What's New (Last 30 Days)](WHATS-NEW.md) - Latest updates and features
+- [Videos Library](VIDEOS.md) - Video tutorials and demos
+- [Experimental Features](EXPERIMENTAL.md) - GitHub Next projects
+- [Trainings & Certifications](TRAININGS.md) - Courses and learning paths
+- [Changelog (Full History)](CHANGELOG.md) - Complete historical timeline
+- [Commands Reference](COMMANDS.md) - Slash commands and shortcuts
+- [Documentation Index](REFERENCE.md) - Official docs organized by topic
 
 ## Current Stats
-- **Total Updates:** 9 (see [What's New](WHATS-NEW.md))
-- **Videos:** 2 (see [Videos](VIDEOS.md))
-- **Trainings:** 7 (see [Trainings](TRAININGS.md))
-- **Experimental Projects:** 29 (see [Experimental](EXPERIMENTAL.md))
+- **Total Updates:** 23 in the last 30 days (see [What's New](WHATS-NEW.md))
+- **Recent Videos:** 4 new videos this week (see [Videos](VIDEOS.md))
+- **Trainings:** 7 courses available (see [Trainings](TRAININGS.md))
+- **Experimental Projects:** 29 GitHub Next projects (see [Experimental](EXPERIMENTAL.md))
 
 ## Official Resources
 - [GitHub Copilot Docs](https://docs.github.com/copilot)
@@ -26,4 +26,4 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - [Microsoft Learn](https://learn.microsoft.com/training/)
 
 ---
-_Last updated: February 05, 2026_
+_Last updated: February 7, 2026_
