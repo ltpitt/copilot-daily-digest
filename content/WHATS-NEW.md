@@ -58,9 +58,7 @@ Chris Reddington demonstrates "Flight School," a custom Next.js application buil
 
 ## Last 30 Days
 
-### Significant Updates
-
-All updates from this week plus older updates are shown in [CHANGELOG.md](CHANGELOG.md).
+All recent updates are shown in "This Week" section above. For older updates, see [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
