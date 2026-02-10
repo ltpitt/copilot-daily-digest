@@ -2,7 +2,7 @@
 
 > Quick setup guide and battle-tested best practices from the community
 
-**Last Updated**: February 7, 2026
+**Last Updated**: February 10, 2026
 
 This guide helps you get productive with GitHub Copilot in minutes, then level up with proven best practices.
 

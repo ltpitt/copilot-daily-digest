@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: February 7, 2026
+**Last Updated**: February 10, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,12 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## February 2026
 
+- **Feb 10, 2026** - [Track additional Dependabot configuration changes in audit logs](https://github.blog/changelog/2026-02-10-track-additional-dependabot-configuration-changes-in-audit-logs) (Blog)
+- **Feb 9, 2026** - [GitHub Issues now uses semantic search](https://www.youtube.com/shorts/CkipZAiH8RE) (Video)
+- **Feb 9, 2026** - [GPT-5.3-Codex is now generally available for GitHub Copilot](https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot) (Blog)
+- **Feb 9, 2026** - [GitHub Apps can now utilize public preview Enterprise Teams APIs via fine-grained permissions](https://github.blog/changelog/2026-02-09-github-apps-can-now-utilize-public-preview-enterprise-teams-apis-via-fine-grained-permissions) (Blog)
+- **Feb 7, 2026** - [Fast mode for Claude Opus 4.6 is now in preview for GitHub Copilot](https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot) (Blog)
+- **Feb 7, 2026** - [OpenClaw: Self-hosted AI agents on your infrastructure](https://www.youtube.com/shorts/6bBqno3tp-A) (Video)
 - **Feb 7, 2026** - [CodeQL 2.24.1 improves Maven private registry support and improves query accuracy](https://github.blog/changelog/2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy) (Blog)
 - **Feb 6, 2026** - [The Download: OpenClaw AI agents, Last of Babel 7, GitHub Actions & more](https://www.youtube.com/watch?v=0FH_v8iQM5Q) (Video)
 - **Feb 6, 2026** - [See what the Reddit community built with Copilot SDK](https://www.youtube.com/shorts/exlDbnUtSdY) (Video)

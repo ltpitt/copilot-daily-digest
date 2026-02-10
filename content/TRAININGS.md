@@ -2,7 +2,7 @@
 
 > Comprehensive learning paths for GitHub Copilot
 
-**Last Updated**: February 7, 2026
+**Last Updated**: February 10, 2026
 
 Master GitHub Copilot through official courses, certifications, and curated learning resources.
 
