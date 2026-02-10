@@ -1,242 +1,193 @@
-# GitHub Copilot Commands & Shortcuts
+# Commands Reference
 
-> Quick reference for slash commands, keyboard shortcuts, and chat features
-> 
-> **Last Updated**: February 03, 2026
+> Quick reference for GitHub Copilot slash commands, shortcuts, and variables
+
+**Last Updated**: February 7, 2026
 
 ---
 
 ## Slash Commands
 
-Slash commands help you accomplish common tasks quickly. Type `/` in Copilot Chat to see all available commands.
+Use slash commands in Copilot Chat for specific tasks.
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `/explain` | Explain selected code or concepts | `/explain What does this regex do?` |
-| `/fix` | Suggest fixes for problems in code | `/fix Why is this function throwing errors?` |
-| `/tests` | Generate unit tests for selected code | `/tests Generate tests with edge cases` |
-| `/doc` | Add documentation comments | `/doc Add JSDoc comments to this function` |
-| `/clear` | Clear the chat conversation | `/clear` |
-| `/help` | Get help with Copilot features | `/help` |
-
-### Using Slash Commands
-
-**VS Code / JetBrains**: Type `/` in the chat prompt box, then select from the dropdown or continue typing.
-
-**Example Workflow**:
-1. Select a function
-2. Open Copilot Chat (`Ctrl+I` or `Cmd+I`)
-3. Type `/tests` and press Enter
-4. Copilot generates comprehensive unit tests
-
----
-
-## Chat Participants
-
-Chat participants scope your prompt to specific domains. Type `@` in chat to see available participants.
-
-| Participant | Purpose | Example |
-|-------------|---------|---------|
-| `@workspace` | Ask about your entire codebase | `@workspace Where is user authentication handled?` |
-| `@terminal` | Get help with shell commands | `@terminal How do I recursively delete .log files?` |
-| `@vscode` | VS Code settings and features | `@vscode How do I enable auto-save?` |
-
-**Note**: Copilot can often infer the right participant automatically from your natural language prompt.
-
----
-
-## Chat Variables
-
-Chat variables include specific context in your prompts. Type `#` in chat to see available variables.
-
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `#file` | Reference a specific file | `#file:database.js How does connection pooling work?` |
-| `#selection` | Reference selected code | `Refactor #selection to use async/await` |
-| `#codebase` | Include entire codebase context | `#codebase What is the main architecture pattern?` |
-| `#editor` | Reference current editor content | `Add error handling to #editor` |
+| `/explain` | Explain selected code | Select code, then `/explain` |
+| `/fix` | Suggest fixes for problems | `/fix this bug` |
+| `/tests` | Generate unit tests | `/tests for this function` |
+| `/doc` | Add documentation comments | `/doc for this class` |
+| `/simplify` | Simplify complex code | `/simplify this logic` |
+| `/review` | Review code for improvements | `/review security issues` |
+| `/new` | Scaffold new code | `/new React component` |
+| `/terminal` | Explain terminal commands | `/terminal git rebase` |
 
 ---
 
 ## Keyboard Shortcuts
 
-### VS Code
+### Visual Studio Code
 
 | Action | Windows/Linux | macOS |
 |--------|---------------|-------|
-| Open Copilot Chat | `Ctrl+I` | `Cmd+I` |
-| Accept suggestion | `Tab` | `Tab` |
-| Reject suggestion | `Esc` | `Esc` |
+| Trigger inline suggestion | `Tab` | `Tab` |
+| Dismiss inline suggestion | `Esc` | `Esc` |
 | Next suggestion | `Alt+]` | `Option+]` |
 | Previous suggestion | `Alt+[` | `Option+[` |
-| Trigger inline suggestion | `Alt+\` | `Option+\` |
-| Open chat view | `Ctrl+Alt+I` | `Cmd+Option+I` |
-
-### JetBrains IDEs
-
-| Action | Windows/Linux | macOS |
-|--------|---------------|-------|
-| Open Copilot Chat | `Alt+C` | `Option+C` |
-| Accept suggestion | `Tab` | `Tab` |
-| Reject suggestion | `Esc` | `Esc` |
-| Next suggestion | `Alt+]` | `Option+]` |
-| Previous suggestion | `Alt+[` | `Option+[` |
+| Show all suggestions | `Ctrl+Enter` | `Cmd+Enter` |
+| Open Copilot Chat | `Ctrl+Shift+I` | `Cmd+Shift+I` |
+| Accept word | `Ctrl+→` | `Cmd+→` |
+| Accept line | `Ctrl+End` | `Cmd+End` |
 
 ### Visual Studio
 
-| Action | Windows |
-|--------|---------|
+| Action | Shortcut |
+|--------|----------|
+| Trigger inline suggestion | `Tab` |
+| Dismiss inline suggestion | `Esc` |
+| Next suggestion | `Alt+.` |
+| Previous suggestion | `Alt+,` |
+| Show all suggestions | `Ctrl+Alt+Enter` |
 | Open Copilot Chat | `Alt+/` |
-| Accept suggestion | `Tab` or `Enter` |
-| Reject suggestion | `Esc` |
+
+### JetBrains IDEs
+
+| Action | Shortcut |
+|--------|----------|
+| Trigger inline suggestion | `Tab` |
+| Dismiss inline suggestion | `Esc` |
+| Next suggestion | `Alt+]` |
+| Previous suggestion | `Alt+[` |
+| Open Copilot panel | `Alt+Shift+O` |
 
 ---
 
-## Copilot Chat Modes
+## Chat Variables
 
-Switch between modes using the dropdown at the bottom of the chat view.
+Use variables in Copilot Chat to reference specific context.
 
-| Mode | Purpose | Best For |
-|------|---------|----------|
-| **Ask** | Get answers and code suggestions | Questions, explanations, small code snippets |
-| **Edit** | Controlled multi-file edits | Specific updates to a defined set of files |
-| **Agent** | Autonomous task completion | Complex multi-step tasks with iterations |
-| **Plan** | Create implementation plans | Large features requiring detailed planning |
-
-### Mode Selection Guide
-
-**Use Ask Mode when**:
-- Learning how something works
-- Getting quick code snippets
-- Asking about best practices
-
-**Use Edit Mode when**:
-- Making specific changes to known files
-- You want full control over LLM requests
-- Iterating on defined edits
-
-**Use Agent Mode when**:
-- Task is complex and multi-step
-- You want Copilot to determine necessary steps
-- Integrating with external tools (MCP servers)
-
-**Use Plan Mode when**:
-- Starting a large feature
-- Need to review requirements before coding
-- Want a detailed implementation roadmap
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `#file` | Reference a specific file | `#file:package.json explain dependencies` |
+| `#selection` | Reference selected code | `#selection fix this error` |
+| `#terminalLastCommand` | Reference last terminal command | `#terminalLastCommand what went wrong?` |
+| `#terminalSelection` | Reference selected terminal output | `#terminalSelection explain this error` |
+| `#codebase` | Reference entire codebase | `#codebase where is authentication handled?` |
+| `#git` | Reference git context | `#git summarize recent changes` |
 
 ---
 
-## Common Prompt Patterns
+## Chat Participants
 
-### Code Generation
-```
-Create a REST API endpoint for user registration with:
-- Email validation
-- Password hashing (bcrypt)
-- JWT token generation
-- Error handling for duplicate emails
-```
+Use participants to route requests to specialized agents.
 
-### Code Explanation
-```
-@workspace /explain
-Explain the authentication flow from login to protected route access
-```
+| Participant | Purpose | Example |
+|-------------|---------|---------|
+| `@workspace` | Workspace-aware questions | `@workspace how do I add a new API route?` |
+| `@vscode` | VS Code questions | `@vscode how do I change the theme?` |
+| `@terminal` | Terminal and shell help | `@terminal how do I find large files?` |
+| `@github` | GitHub-specific questions | `@github create a pull request` |
 
-### Refactoring
-```
-Refactor #selection to:
-1. Use TypeScript interfaces
-2. Add input validation
-3. Implement error handling
-4. Add comprehensive JSDoc comments
-```
+---
 
-### Testing
-```
-/tests
-Generate unit tests for the PaymentService class including:
-- Successful payment processing
-- Invalid card handling
-- Network timeout scenarios
-- Idempotency checks
+## CLI Commands
+
+GitHub Copilot CLI provides terminal assistance.
+
+### Installation
+
+```bash
+# Install via GitHub CLI
+gh extension install github/gh-copilot
+
+# Or install directly
+npm install -g @githubnext/github-copilot-cli
 ```
 
-### Debugging
+### Usage
+
+```bash
+# Get help with commands
+gh copilot suggest "find all large files"
+
+# Explain commands
+gh copilot explain "git rebase -i HEAD~3"
+
+# Interactive mode
+gh copilot
 ```
-/fix
-This function throws "Cannot read property 'length' of undefined"
-when the input array is empty. Fix it with proper null checks.
+
+### Common Patterns
+
+```bash
+# Git operations
+gh copilot suggest "undo last commit"
+gh copilot suggest "list all branches"
+
+# File operations
+gh copilot suggest "find files modified in last week"
+gh copilot suggest "delete node_modules recursively"
+
+# System operations
+gh copilot suggest "check disk space"
+gh copilot suggest "find process using port 3000"
 ```
 
 ---
 
-## Agent Mode Features
+## Model Selection
 
-### Subagents
+Choose different AI models for different tasks.
 
-Delegate complex tasks to isolated agents with their own context.
+| Model | Best For | When to Use |
+|-------|----------|-------------|
+| **GPT-5.2** | General coding | Default for most tasks |
+| **GPT-5.1 Codex Max** | Large refactoring | Complex multi-file changes |
+| **Claude Opus 4.6** | Agentic workflows | Planning and tool-heavy tasks |
+| **Gemini 3 Pro** | Performance | Speed-critical operations |
 
-**Enable**: Click tools icon → Enable `runSubagent` tool
+Access model picker:
+- VS Code: Click model name in Copilot Chat
+- Visual Studio: Settings → Copilot → Models
+- GitHub.com: Chat settings
 
-**Usage**:
+---
+
+## Tips & Tricks
+
+### Be Specific
 ```
-Use the testing subagent to write comprehensive tests
-for the authentication module
+❌ "make it better"
+✅ "refactor this function to use async/await and add error handling"
 ```
 
-**Automatic Delegation**: Copilot can automatically choose the right subagent based on your request.
+### Provide Context
+```
+❌ "create a form"
+✅ "create a React form component with validation using React Hook Form"
+```
+
+### Use Examples
+```
+"Create a function like getUserById() but for posts, called getPostById()"
+```
+
+### Iterate
+```
+1. "create a login form"
+2. "add email validation"
+3. "add password strength indicator"
+4. "add remember me checkbox"
+```
 
 ---
 
-## Model Context Protocol (MCP) Servers
+## Additional Resources
 
-Connect Copilot to external tools and data sources.
-
-**Available in**: VS Code, JetBrains, Visual Studio, Eclipse
-
-**Example Use Cases**:
-- Database queries
-- API integrations
-- Custom tool integrations
-
-→ [Learn more about MCP](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
+- [Copilot Documentation](https://docs.github.com/copilot)
+- [Keyboard Shortcuts Guide](https://code.visualstudio.com/docs/copilot/copilot-vscode-features#_keyboard-shortcuts)
+- [Chat Reference](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
+- [CLI Documentation](https://docs.github.com/copilot/github-copilot-in-the-cli)
 
 ---
 
-## AI Models
-
-Choose different AI models based on your subscription:
-
-| Model | Speed | Capability | Best For |
-|-------|-------|------------|----------|
-| GPT-4o | Fast | High | Most tasks, balanced performance |
-| o1-preview | Medium | Highest | Complex reasoning, planning |
-| o1-mini | Fast | High | Quick tasks, iterations |
-| Claude 3.5 Sonnet | Fast | High | Code generation, analysis |
-
-**How to switch**: Click model selector in Copilot Chat (Pro/Pro+ subscribers)
-
----
-
-## Tips for Effective Commands
-
-1. **Be Specific**: Include requirements, constraints, and expected output
-2. **Use Examples**: Show input/output examples for clarity
-3. **Iterate**: Refine prompts if first response isn't helpful
-4. **Combine Tools**: Use slash commands + chat variables + participants together
-5. **Review Output**: Always understand and test generated code
-
----
-
-## Learn More
-
-- [Copilot Chat in IDE](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
-- [Best Practices](GETTING-STARTED.md)
-- [Prompt Engineering](https://docs.github.com/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
-- [Complete Documentation](REFERENCE.md)
-
----
-
-*Command reference updated February 05, 2026. Features vary by IDE and subscription level.*
+_Commands and shortcuts are updated regularly. Check your IDE's Copilot documentation for the latest._
