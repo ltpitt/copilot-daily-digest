@@ -2,7 +2,7 @@
 
 > Organized index of official GitHub Copilot documentation
 
-**Last Updated**: February 10, 2026
+**Last Updated**: February 11, 2026
 
 Quick access to official documentation organized by topic.
 
@@ -43,6 +43,7 @@ Quick access to official documentation organized by topic.
 - [Configuring network settings](https://docs.github.com/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot)
 - [Configuring your editor](https://docs.github.com/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment)
 - [Managing Copilot policies](https://docs.github.com/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise)
+- [Custom instructions](https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
 
 ---
 
@@ -114,4 +115,4 @@ Quick access to official documentation organized by topic.
 
 ---
 
-_Documentation is maintained by GitHub and updated regularly. Links verified February 10, 2026._
+_Documentation is maintained by GitHub and updated regularly. Links verified February 11, 2026._
