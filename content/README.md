@@ -14,7 +14,7 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 
 ## Current Stats
 - **Total Updates:** 58 in the last 30 days (see [What's New](WHATS-NEW.md))
-- **Documentation:** 14 docs updated today (see [Reference](REFERENCE.md))
+- **Documentation:** 14 docs recently updated (see [Reference](REFERENCE.md))
 - **Trainings:** 7 courses available (see [Trainings](TRAININGS.md))
 - **Experimental Projects:** 31 GitHub Next projects (see [Experimental](EXPERIMENTAL.md))
 

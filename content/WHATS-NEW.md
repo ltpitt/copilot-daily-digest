@@ -10,17 +10,17 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### [GPT 5 3 Codex is Now Generally Available for GitHub Copilot](https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot)
+### [GPT-5.3-Codex is Now Generally Available for GitHub Copilot](https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot)
 *Feb 9, 2026*
 
 OpenAI's GPT-5.3-Codex, their latest agentic coding model, rolls out to GitHub Copilot with new benchmark high scores in coding and agentic capabilities. The model delivers up to 25% faster performance than GPT-5.2-Codex on agentic coding tasks with enhanced reasoning for complex, tool-driven workflows. Available across VS Code, github.com, GitHub Mobile, and GitHub CLI for all Copilot tiers.
 
-### [Claude Opus 4 6 Fast is Now in Public Preview for GitHub Copilot](https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot)
+### [Claude Opus 4.6 Fast is Now in Public Preview for GitHub Copilot](https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot)
 *Feb 7, 2026*
 
 Fast mode for Claude Opus 4.6 launches in research preview, delivering output token speeds up to 2.5x faster while maintaining the same intelligence as the standard model. This experimental high-speed option is available for Copilot Pro+ and Enterprise users in VS Code and Copilot CLI. The early release focuses on significantly faster inference for agentic coding workflows.
 
-### [Claude Opus 4 6 is Now Generally Available for GitHub Copilot](https://github.blog/changelog/2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot)
+### [Claude Opus 4.6 is Now Generally Available for GitHub Copilot](https://github.blog/changelog/2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot)
 *Feb 5, 2026*
 
 Anthropic's Claude Opus 4.6 rolls out to GitHub Copilot users across all tiers with enhanced capabilities for agentic coding workflows. Early testing shows the model excels in complex tasks requiring planning and tool calling. Available in VS Code, Visual Studio, github.com, GitHub Mobile, and GitHub CLI for Pro, Pro+, Business, and Enterprise subscribers.
@@ -30,7 +30,7 @@ Anthropic's Claude Opus 4.6 rolls out to GitHub Copilot users across all tiers w
 
 GitHub Copilot chat on the web now displays tool calls transparently, helping users understand how the AI interacts with GitHub features. The update includes improved response formatting, better code block rendering, and enhanced conversation management. Users can see when Copilot searches repositories, analyzes code, or accesses GitHub APIs.
 
-### [GitHub Copilot in Visual Studio Code v1 109 January Release](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release)
+### [GitHub Copilot in Visual Studio Code v1.109 January Release](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release)
 *Feb 4, 2026*
 
 The January 2026 release of GitHub Copilot for VS Code brings enhanced model selection, improved chat experiences, and new code editing capabilities. Updates include streamlined model picker UI, better inline chat positioning, and C++ code editing tools in public preview. Users gain more control over AI interactions with improved context management and response handling.
@@ -129,7 +129,7 @@ Latest updates and improvements. Check out the announcement for full details.
 
 Latest updates and improvements. Check out the announcement for full details.
 
-### [GPT 5 2 Codex is Now Generally Available in GitHub Copilot](https://github.blog/changelog/2026-01-14-gpt-5-2-codex-is-now-generally-available-in-github-copilot)
+### [GPT-5.2-Codex is Now Generally Available in GitHub Copilot](https://github.blog/changelog/2026-01-14-gpt-5-2-codex-is-now-generally-available-in-github-copilot)
 *Jan 14, 2026*
 
 Latest updates and improvements. Check out the announcement for full details.
