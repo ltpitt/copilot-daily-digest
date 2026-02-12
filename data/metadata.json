@@ -122,7 +122,7 @@
     "https://github.blog/changelog/2026-02-09-github-apps-can-now-utilize-public-preview-enterprise-teams-apis-via-fine-grained-permissions",
     "https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot"
   ],
-  "last_updated": "2026-02-12T09:23:54.578101+00:00",
+  "last_updated": "2026-02-12T09:53:40.879797+00:00",
   "version": "1.0.0",
   "content_hashes": {
     "docs/copilot-overview.md": "0032c7cbdd8bfffe1d8fe3313dcacd5ffd0c0f048ed6010be3f699df4cbdc51f",
@@ -139,7 +139,7 @@
     "docs/copilot-configuration.md": "de4838401fc9faad49936213cb4f74a9bf0771ece6bceb384fadf2e5cc1122cd",
     "docs/copilot-responsible-use.md": "6b80a44b4621e2c1257e590f43df25f3165d74bea10afeb159fd2e12908f7b65",
     "docs/copilot-troubleshooting.md": "ca2e2bf6d6d95f26f1f8ba46cbedad952addc0a55f43cc0e002116ba3f43b5fd",
-    "docs/scrape-summary.md": "dad0a4e35745ede5d5406da3e48d7e07ff59996602dd8a02f31ba1d000246024",
+    "docs/scrape-summary.md": "27d1ed36663ae49a97e8f8cdaea6befa85e6107163cdc4bfb2b33e5b8a55ae46",
     "test/file.txt": "40304ec7054d8d6820e06f19eda6a3ea067e5a959ce88fe4fb15fe4921937a14"
   },
   "video_ids": [
@@ -203,14 +203,8 @@
     "copilot-overview": {
       "current_hash": "0032c7cbdd8bfffe1d8fe3313dcacd5ffd0c0f048ed6010be3f699df4cbdc51f",
       "previous_hash": "0032c7cbdd8bfffe1d8fe3313dcacd5ffd0c0f048ed6010be3f699df4cbdc51f",
-      "last_changed": "2026-02-12T09:23:29Z",
+      "last_changed": "2026-02-12T09:53:19Z",
       "history": [
-        {
-          "hash": "0032c7cbdd8bfffe1d8fe3313dcacd5ffd0c0f048ed6010be3f699df4cbdc51f",
-          "timestamp": "2026-01-30T12:49:57Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "0032c7cbdd8bfffe1d8fe3313dcacd5ffd0c0f048ed6010be3f699df4cbdc51f",
           "timestamp": "2026-01-30T23:51:19Z",
@@ -264,20 +258,20 @@
           "timestamp": "2026-02-12T09:23:29Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "0032c7cbdd8bfffe1d8fe3313dcacd5ffd0c0f048ed6010be3f699df4cbdc51f",
+          "timestamp": "2026-02-12T09:53:19Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-getting-started": {
       "current_hash": "aebc8523ceccc4358955ceb86ce8356597c2c5221bc1315cce44808ee01b033d",
       "previous_hash": "aebc8523ceccc4358955ceb86ce8356597c2c5221bc1315cce44808ee01b033d",
-      "last_changed": "2026-02-12T09:23:31Z",
+      "last_changed": "2026-02-12T09:53:20Z",
       "history": [
-        {
-          "hash": "aebc8523ceccc4358955ceb86ce8356597c2c5221bc1315cce44808ee01b033d",
-          "timestamp": "2026-01-30T12:49:58Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "aebc8523ceccc4358955ceb86ce8356597c2c5221bc1315cce44808ee01b033d",
           "timestamp": "2026-01-30T23:51:22Z",
@@ -331,20 +325,20 @@
           "timestamp": "2026-02-12T09:23:31Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "aebc8523ceccc4358955ceb86ce8356597c2c5221bc1315cce44808ee01b033d",
+          "timestamp": "2026-02-12T09:53:20Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-chat": {
       "current_hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
       "previous_hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
-      "last_changed": "2026-02-12T09:23:32Z",
+      "last_changed": "2026-02-12T09:53:21Z",
       "history": [
-        {
-          "hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
-          "timestamp": "2026-01-30T12:50:00Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
           "timestamp": "2026-01-30T23:51:27Z",
@@ -398,20 +392,20 @@
           "timestamp": "2026-02-12T09:23:32Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
+          "timestamp": "2026-02-12T09:53:21Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-extensions-overview": {
       "current_hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
       "previous_hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
-      "last_changed": "2026-02-12T09:23:33Z",
+      "last_changed": "2026-02-12T09:53:22Z",
       "history": [
-        {
-          "hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
-          "timestamp": "2026-01-30T12:50:02Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
           "timestamp": "2026-01-30T23:51:30Z",
@@ -465,20 +459,20 @@
           "timestamp": "2026-02-12T09:23:33Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
+          "timestamp": "2026-02-12T09:53:22Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-extensions-integration": {
       "current_hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
       "previous_hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
-      "last_changed": "2026-02-12T09:23:34Z",
+      "last_changed": "2026-02-12T09:53:23Z",
       "history": [
-        {
-          "hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
-          "timestamp": "2026-01-30T12:50:04Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
           "timestamp": "2026-01-30T23:51:32Z",
@@ -532,20 +526,20 @@
           "timestamp": "2026-02-12T09:23:34Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "360ff0ee9419d642de41d278e02ea2039798fc828b4dec2f801c90213ce1254b",
+          "timestamp": "2026-02-12T09:53:23Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-custom-instructions": {
       "current_hash": "993f9b5cd388895f8ea86888e0b51bf9d49338f8548db712fec6071f12bfc771",
       "previous_hash": "993f9b5cd388895f8ea86888e0b51bf9d49338f8548db712fec6071f12bfc771",
-      "last_changed": "2026-02-12T09:23:36Z",
+      "last_changed": "2026-02-12T09:53:25Z",
       "history": [
-        {
-          "hash": "a4dc3a8316ed6eea85429dd902680f8db7906bf95acc2936dc5be3acebd42289",
-          "timestamp": "2026-01-30T12:50:06Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "a4dc3a8316ed6eea85429dd902680f8db7906bf95acc2936dc5be3acebd42289",
           "timestamp": "2026-01-30T23:51:33Z",
@@ -599,20 +593,20 @@
           "timestamp": "2026-02-12T09:23:36Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "993f9b5cd388895f8ea86888e0b51bf9d49338f8548db712fec6071f12bfc771",
+          "timestamp": "2026-02-12T09:53:25Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-best-practices": {
       "current_hash": "02c63b7ed6a9b05b80d46477fdc09f66dbd7bd5945561a6e04d51c786262829c",
       "previous_hash": "02c63b7ed6a9b05b80d46477fdc09f66dbd7bd5945561a6e04d51c786262829c",
-      "last_changed": "2026-02-12T09:23:38Z",
+      "last_changed": "2026-02-12T09:53:26Z",
       "history": [
-        {
-          "hash": "02c63b7ed6a9b05b80d46477fdc09f66dbd7bd5945561a6e04d51c786262829c",
-          "timestamp": "2026-01-30T12:50:08Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "02c63b7ed6a9b05b80d46477fdc09f66dbd7bd5945561a6e04d51c786262829c",
           "timestamp": "2026-01-30T23:51:35Z",
@@ -666,20 +660,20 @@
           "timestamp": "2026-02-12T09:23:38Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "02c63b7ed6a9b05b80d46477fdc09f66dbd7bd5945561a6e04d51c786262829c",
+          "timestamp": "2026-02-12T09:53:26Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-prompt-engineering": {
       "current_hash": "9e5f91bbbe536c23989991cc9ff7b327455bed98c871e4be9bf5ee739bb96014",
       "previous_hash": "9e5f91bbbe536c23989991cc9ff7b327455bed98c871e4be9bf5ee739bb96014",
-      "last_changed": "2026-02-12T09:23:40Z",
+      "last_changed": "2026-02-12T09:53:27Z",
       "history": [
-        {
-          "hash": "1fbb6c780dcfcf19f4759d82aa33aaa9dd18a9bd7f1f979d9580a3bd9d2eba27",
-          "timestamp": "2026-01-30T12:50:10Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "1fbb6c780dcfcf19f4759d82aa33aaa9dd18a9bd7f1f979d9580a3bd9d2eba27",
           "timestamp": "2026-01-30T23:51:37Z",
@@ -733,20 +727,20 @@
           "timestamp": "2026-02-12T09:23:40Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "9e5f91bbbe536c23989991cc9ff7b327455bed98c871e4be9bf5ee739bb96014",
+          "timestamp": "2026-02-12T09:53:27Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-asking-questions": {
       "current_hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
       "previous_hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
-      "last_changed": "2026-02-12T09:23:41Z",
+      "last_changed": "2026-02-12T09:53:28Z",
       "history": [
-        {
-          "hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
-          "timestamp": "2026-01-30T12:50:12Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
           "timestamp": "2026-01-30T23:51:42Z",
@@ -800,20 +794,20 @@
           "timestamp": "2026-02-12T09:23:41Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "fe9dc49178c7f76f82b0b2b13a716ecd438e6d82e44f1fa040f177affd856590",
+          "timestamp": "2026-02-12T09:53:28Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-code-suggestions": {
       "current_hash": "c4d0bfbf182c962cc830f163622cb33dcfeb98ceab868d7bc3724a3986312aa0",
       "previous_hash": "c4d0bfbf182c962cc830f163622cb33dcfeb98ceab868d7bc3724a3986312aa0",
-      "last_changed": "2026-02-12T09:23:43Z",
+      "last_changed": "2026-02-12T09:53:29Z",
       "history": [
-        {
-          "hash": "c4d0bfbf182c962cc830f163622cb33dcfeb98ceab868d7bc3724a3986312aa0",
-          "timestamp": "2026-01-30T12:50:15Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "0369f9ba868c711df44299ce5b25a0f7a7b2a1817f715857ae2ea40b9c69c0cc",
           "timestamp": "2026-01-30T23:52:04Z",
@@ -867,20 +861,20 @@
           "timestamp": "2026-02-12T09:23:43Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "c4d0bfbf182c962cc830f163622cb33dcfeb98ceab868d7bc3724a3986312aa0",
+          "timestamp": "2026-02-12T09:53:29Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-managing-organization": {
       "current_hash": "015feb3c93afae11726a2d1358d9171a4c25aa6e4a66274efcbf62821866eef3",
       "previous_hash": "015feb3c93afae11726a2d1358d9171a4c25aa6e4a66274efcbf62821866eef3",
-      "last_changed": "2026-02-12T09:23:44Z",
+      "last_changed": "2026-02-12T09:53:30Z",
       "history": [
-        {
-          "hash": "3e282514cf6d3c5acbcc74e41a477c7b239f533fb7bdb3db2a28e4a12f9fa799",
-          "timestamp": "2026-01-30T12:50:17Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "3e282514cf6d3c5acbcc74e41a477c7b239f533fb7bdb3db2a28e4a12f9fa799",
           "timestamp": "2026-01-30T23:52:18Z",
@@ -934,20 +928,20 @@
           "timestamp": "2026-02-12T09:23:44Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "015feb3c93afae11726a2d1358d9171a4c25aa6e4a66274efcbf62821866eef3",
+          "timestamp": "2026-02-12T09:53:30Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-configuration": {
       "current_hash": "de4838401fc9faad49936213cb4f74a9bf0771ece6bceb384fadf2e5cc1122cd",
       "previous_hash": "de4838401fc9faad49936213cb4f74a9bf0771ece6bceb384fadf2e5cc1122cd",
-      "last_changed": "2026-02-12T09:23:45Z",
+      "last_changed": "2026-02-12T09:53:32Z",
       "history": [
-        {
-          "hash": "de4838401fc9faad49936213cb4f74a9bf0771ece6bceb384fadf2e5cc1122cd",
-          "timestamp": "2026-01-30T12:50:19Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "0257514e86e78a0949a45a0a32f59e175867507ae6aadf155150a46ec4def4c8",
           "timestamp": "2026-01-30T23:52:35Z",
@@ -1001,20 +995,20 @@
           "timestamp": "2026-02-12T09:23:45Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "de4838401fc9faad49936213cb4f74a9bf0771ece6bceb384fadf2e5cc1122cd",
+          "timestamp": "2026-02-12T09:53:32Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-responsible-use": {
       "current_hash": "6b80a44b4621e2c1257e590f43df25f3165d74bea10afeb159fd2e12908f7b65",
       "previous_hash": "6b80a44b4621e2c1257e590f43df25f3165d74bea10afeb159fd2e12908f7b65",
-      "last_changed": "2026-02-12T09:23:47Z",
+      "last_changed": "2026-02-12T09:53:34Z",
       "history": [
-        {
-          "hash": "6b80a44b4621e2c1257e590f43df25f3165d74bea10afeb159fd2e12908f7b65",
-          "timestamp": "2026-01-30T12:50:21Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "6b80a44b4621e2c1257e590f43df25f3165d74bea10afeb159fd2e12908f7b65",
           "timestamp": "2026-01-30T23:52:39Z",
@@ -1068,20 +1062,20 @@
           "timestamp": "2026-02-12T09:23:47Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "6b80a44b4621e2c1257e590f43df25f3165d74bea10afeb159fd2e12908f7b65",
+          "timestamp": "2026-02-12T09:53:34Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "copilot-troubleshooting": {
       "current_hash": "ca2e2bf6d6d95f26f1f8ba46cbedad952addc0a55f43cc0e002116ba3f43b5fd",
       "previous_hash": "ca2e2bf6d6d95f26f1f8ba46cbedad952addc0a55f43cc0e002116ba3f43b5fd",
-      "last_changed": "2026-02-12T09:23:48Z",
+      "last_changed": "2026-02-12T09:53:35Z",
       "history": [
-        {
-          "hash": "ca2e2bf6d6d95f26f1f8ba46cbedad952addc0a55f43cc0e002116ba3f43b5fd",
-          "timestamp": "2026-01-30T12:50:23Z",
-          "changed": false,
-          "has_diff": false
-        },
         {
           "hash": "14465db2fcfe30cd480229e3a650b5227f5247cd1a2052b8e29ad40c1c83c8a2",
           "timestamp": "2026-01-30T23:52:56Z",
@@ -1135,23 +1129,20 @@
           "timestamp": "2026-02-12T09:23:48Z",
           "changed": false,
           "has_diff": false
+        },
+        {
+          "hash": "ca2e2bf6d6d95f26f1f8ba46cbedad952addc0a55f43cc0e002116ba3f43b5fd",
+          "timestamp": "2026-02-12T09:53:35Z",
+          "changed": false,
+          "has_diff": false
         }
       ]
     },
     "scrape-summary": {
-      "current_hash": "dad0a4e35745ede5d5406da3e48d7e07ff59996602dd8a02f31ba1d000246024",
-      "previous_hash": "63d45b27e6b502c7a370658cef24dc3234f46d5a0612f7d845eaa591724a4790",
-      "last_changed": "2026-02-12T09:23:49Z",
+      "current_hash": "27d1ed36663ae49a97e8f8cdaea6befa85e6107163cdc4bfb2b33e5b8a55ae46",
+      "previous_hash": "dad0a4e35745ede5d5406da3e48d7e07ff59996602dd8a02f31ba1d000246024",
+      "last_changed": "2026-02-12T09:53:36Z",
       "history": [
-        {
-          "hash": "d0a5ff7de3706a13a15d0434e6dc1fe9650988323ec593094a6342bd49216b18",
-          "timestamp": "2026-01-30T12:50:24Z",
-          "changed": true,
-          "diff_summary": "+1 lines, -1 lines",
-          "added_lines": 1,
-          "removed_lines": 1,
-          "has_diff": true
-        },
         {
           "hash": "5cc6be53acbe86520f0bb8ac836e0f8336cb46dbb993fbf8426d19b5e48ebfc1",
           "timestamp": "2026-01-30T23:52:57Z",
@@ -1205,6 +1196,12 @@
           "timestamp": "2026-02-12T09:23:49Z",
           "changed": true,
           "has_diff": false
+        },
+        {
+          "hash": "27d1ed36663ae49a97e8f8cdaea6befa85e6107163cdc4bfb2b33e5b8a55ae46",
+          "timestamp": "2026-02-12T09:53:36Z",
+          "changed": true,
+          "has_diff": false
         }
       ]
     }
@@ -1213,7 +1210,7 @@
     "total_docs": 15,
     "total_blog_posts": 104,
     "total_videos": 55,
-    "last_successful_scrape": "2026-02-12T09:23:49Z",
+    "last_successful_scrape": "2026-02-12T09:53:36Z",
     "total_github_next_projects": 29
   },
   "github_next_urls": [
