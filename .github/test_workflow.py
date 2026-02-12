@@ -89,7 +89,8 @@ def validate_workflow():
         print("✓ Error handling is implemented")
     
     # 6. Check triggers
-    triggers = workflow.get(True, workflow.get('on', {}))
+    # Note: 'on' is a Python keyword, so YAML loader uses True as key
+    triggers = workflow.get(True, {}) if True in workflow else workflow.get('on', {})
     if 'workflow_dispatch' not in triggers:
         warnings.append("Consider adding 'workflow_dispatch' for manual triggering")
     else:
