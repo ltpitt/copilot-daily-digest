@@ -185,9 +185,8 @@ When discussing GitHub Next projects:
 
 ## Stay Informed
 
-- **Blog**: [GitHub Next Blog](https://githubnext.com/blog)
 - **Newsletter**: [Subscribe to updates](https://githubnext.com/#newsletter)
-- **Twitter**: [@GitHubNext](https://twitter.com/GitHubNext)
+- **Main Site**: [GitHub Next](https://githubnext.com/)
 
 ---
 
