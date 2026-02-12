@@ -16,6 +16,7 @@ jobs:
     
     steps:
       - name: Create Issue for Copilot Coding Agent
+        id: create-issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -26,3 +27,36 @@ jobs:
             --body "$BODY")
           
           echo "Created issue: ${ISSUE_URL}"
+          
+          # Extract issue number from URL
+          ISSUE_NUMBER=$(echo "$ISSUE_URL" | grep -oP '(?<=/issues/)\d+$')
+          echo "issue_number=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
+          echo "issue_url=$ISSUE_URL" >> $GITHUB_OUTPUT
+      
+      - name: Assign Issue to Copilot
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = ${{ steps.create-issue.outputs.issue_number }};
+            const assignee = 'copilot-swe-agent[bot]';
+            
+            try {
+              console.log(`Attempting to assign issue #${issueNumber} to ${assignee}...`);
+              
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                assignees: [assignee]
+              });
+              
+              console.log(`✓ Successfully assigned ${assignee} to issue #${issueNumber}`);
+            } catch (error) {
+              console.error(`✗ Failed to assign ${assignee} to issue #${issueNumber}`);
+              console.error(`Error: ${error.message}`);
+              
+              // Log error but don't fail the workflow
+              // The issue was created successfully, assignment is optional
+              core.warning(`Assignment failed: ${error.message}`);
+            }
