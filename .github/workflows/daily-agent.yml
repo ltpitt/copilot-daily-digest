@@ -5,7 +5,7 @@ name: Daily Copilot Digest
 on:
   workflow_dispatch:       # Allow manual triggering
   schedule:
-    - cron: '0 7 * * 5'     # 5 = Friday (UTC)
+    - cron: '0 7 * * 5'
 
 permissions:
   issues: write            # Required to create issues
