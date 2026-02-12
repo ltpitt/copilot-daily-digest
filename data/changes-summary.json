@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-12T09:24:02.752558+00:00",
+  "generated_at": "2026-02-12T09:53:49.944925+00:00",
   "has_changes": true,
-  "total_changes": 16,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-12T09:23:34Z",
+        "timestamp": "2026-02-12T09:53:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-12T09:23:43Z",
+        "timestamp": "2026-02-12T09:53:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-12T09:23:36Z",
+        "timestamp": "2026-02-12T09:53:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-12T09:23:48Z",
+        "timestamp": "2026-02-12T09:53:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-12T09:23:45Z",
+        "timestamp": "2026-02-12T09:53:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-12T09:23:31Z",
+        "timestamp": "2026-02-12T09:53:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-12T09:23:33Z",
+        "timestamp": "2026-02-12T09:53:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-12T09:23:32Z",
+        "timestamp": "2026-02-12T09:53:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-12T09:23:44Z",
+        "timestamp": "2026-02-12T09:53:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-12T09:23:41Z",
+        "timestamp": "2026-02-12T09:53:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-12T09:23:29Z",
+        "timestamp": "2026-02-12T09:53:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-12T09:23:38Z",
+        "timestamp": "2026-02-12T09:53:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-12T09:23:40Z",
+        "timestamp": "2026-02-12T09:53:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-12T09:23:47Z",
+        "timestamp": "2026-02-12T09:53:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -114,132 +114,118 @@
     "new_posts": []
   },
   "videos": {
-    "new_count": 1,
-    "new_videos": [
-      {
-        "title": "How global tech talent is advancing with GitHub Copilot | GitHub x Andela",
-        "video_id": "iuGAfugNahs",
-        "date": "2026-02-11T19:15:41+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/iuGAfugNahs/hqdefault.jpg"
-      }
-    ]
+    "new_count": 0,
+    "new_videos": []
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 12, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n🎥 Videos: 1 new video\n  - \"How global tech talent is advancing with GitHub Copilot | GitHub x Andela\" (2026-02-11)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on February 12, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 15,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-12T09:23:34Z",
+        "timestamp": "2026-02-12T09:53:23Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-12T09:23:43Z",
+        "timestamp": "2026-02-12T09:53:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-12T09:23:36Z",
+        "timestamp": "2026-02-12T09:53:25Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-12T09:23:48Z",
+        "timestamp": "2026-02-12T09:53:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-12T09:23:45Z",
+        "timestamp": "2026-02-12T09:53:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-12T09:23:31Z",
+        "timestamp": "2026-02-12T09:53:20Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-12T09:23:33Z",
+        "timestamp": "2026-02-12T09:53:22Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-12T09:23:32Z",
+        "timestamp": "2026-02-12T09:53:21Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-12T09:23:44Z",
+        "timestamp": "2026-02-12T09:53:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-12T09:23:41Z",
+        "timestamp": "2026-02-12T09:53:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-12T09:23:29Z",
+        "timestamp": "2026-02-12T09:53:19Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-12T09:23:38Z",
+        "timestamp": "2026-02-12T09:53:26Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-12T09:23:40Z",
+        "timestamp": "2026-02-12T09:53:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-12T09:23:47Z",
+        "timestamp": "2026-02-12T09:53:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
     "new_blog_posts": [],
-    "new_videos": [
-      {
-        "title": "How global tech talent is advancing with GitHub Copilot | GitHub x Andela",
-        "video_id": "iuGAfugNahs",
-        "date": "2026-02-11T19:15:41+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/iuGAfugNahs/hqdefault.jpg"
-      }
-    ]
+    "new_videos": []
   }
 }

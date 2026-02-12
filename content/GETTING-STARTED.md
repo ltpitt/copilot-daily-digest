@@ -2,7 +2,7 @@
 
 > Quick setup guide and battle-tested best practices from the community
 
-**Last Updated**: February 10, 2026
+**Last Updated**: February 12, 2026
 
 This guide helps you get productive with GitHub Copilot in minutes, then level up with proven best practices.
 
@@ -19,7 +19,7 @@ This guide helps you get productive with GitHub Copilot in minutes, then level u
 ### Step 2: Install in Your IDE
 Choose your preferred development environment:
 
-- **VS Code**: Install the [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- **VS Code**: Install the [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 - **Visual Studio**: Available in Visual Studio 2022 17.4+
 - **JetBrains IDEs**: Install via the [JetBrains marketplace](https://plugins.jetbrains.com/plugin/17718-github-copilot)
 - **Neovim**: Use the [Copilot.vim plugin](https://github.com/github/copilot.vim)
@@ -133,7 +133,7 @@ query = "SELECT * FROM users WHERE id = %s"  # ✅ Parameterized query
 cursor.execute(query, (user_id,))
 ```
 
-**Source**: [Responsible use of GitHub Copilot](https://docs.github.com/copilot/responsible-use-of-github-copilot/responsible-use-of-github-copilot-features)
+**Source**: [Responsible use of GitHub Copilot](https://docs.github.com/copilot/responsible-use-of-github-copilot-features)
 
 ### 6. Use Slash Commands for Specific Tasks
 
@@ -163,13 +163,13 @@ cursor.execute(query, (user_id,))
 // For agentic workflows: Claude or GPT-5.2
 ```
 
-**Source**: [Supported AI models in GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide/about-github-copilot-chat#supported-models)
+**Source**: [Supported AI models in GitHub Copilot](https://docs.github.com/copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization)
 
 ---
 
 ## Next Steps
 
-- **Explore advanced features**: [Copilot Extensions](https://docs.github.com/copilot/github-copilot-extensions)
+- **Explore advanced features**: [Copilot Extensions](https://docs.github.com/copilot/building-copilot-extensions)
 - **Watch tutorials**: [Videos Library](VIDEOS.md)
 - **Take a course**: [Trainings & Certifications](TRAININGS.md)
 - **Stay updated**: [What's New](WHATS-NEW.md)
