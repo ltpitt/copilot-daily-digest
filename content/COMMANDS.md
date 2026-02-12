@@ -2,7 +2,7 @@
 
 > Quick reference for GitHub Copilot slash commands, shortcuts, and variables
 
-**Last Updated**: February 10, 2026
+**Last Updated**: February 12, 2026
 
 ---
 
