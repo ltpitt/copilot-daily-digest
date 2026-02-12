@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-10T14:34:10.608806+00:00",
+  "generated_at": "2026-02-12T09:24:02.752558+00:00",
   "has_changes": true,
-  "total_changes": 21,
+  "total_changes": 16,
   "docs": {
     "changed": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-10T14:33:45Z",
+        "timestamp": "2026-02-12T09:23:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-10T14:33:51Z",
+        "timestamp": "2026-02-12T09:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-10T14:33:46Z",
+        "timestamp": "2026-02-12T09:23:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-10T14:33:56Z",
+        "timestamp": "2026-02-12T09:23:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-10T14:33:53Z",
+        "timestamp": "2026-02-12T09:23:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-10T14:33:41Z",
+        "timestamp": "2026-02-12T09:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-10T14:33:44Z",
+        "timestamp": "2026-02-12T09:23:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-10T14:33:43Z",
+        "timestamp": "2026-02-12T09:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-10T14:33:52Z",
+        "timestamp": "2026-02-12T09:23:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-10T14:33:50Z",
+        "timestamp": "2026-02-12T09:23:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-10T14:33:40Z",
+        "timestamp": "2026-02-12T09:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-10T14:33:47Z",
+        "timestamp": "2026-02-12T09:23:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-10T14:33:48Z",
+        "timestamp": "2026-02-12T09:23:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-10T14:33:54Z",
+        "timestamp": "2026-02-12T09:23:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,48 +110,17 @@
     ]
   },
   "blog": {
-    "new_count": 4,
-    "new_posts": [
-      {
-        "title": "Track additional Dependabot configuration changes in audit logs",
-        "url": "https://github.blog/changelog/2026-02-10-track-additional-dependabot-configuration-changes-in-audit-logs",
-        "date": "2026-02-10T14:13:08Z",
-        "summary": "<p>Two new event types are now available to track changes to Dependabot settings through your organization and enterprise audit logs. Dependabot vulnerability updates toggle logs when someone enables "
-      },
-      {
-        "title": "GPT-5.3-Codex is now generally available for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot",
-        "date": "2026-02-09T17:41:21Z",
-        "summary": "<p>GPT-5.3-Codex, OpenAI&#8217;s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, GPT-5.3-Codex reaches new high scores on benchmarks we use to evaluate coding, age"
-      },
-      {
-        "title": "GitHub Apps can now utilize public preview Enterprise Teams APIs via fine-grained permissions",
-        "url": "https://github.blog/changelog/2026-02-09-github-apps-can-now-utilize-public-preview-enterprise-teams-apis-via-fine-grained-permissions",
-        "date": "2026-02-09T14:03:31Z",
-        "summary": "<p>GitHub Enterprise administrators can now use GitHub Apps with the enterprise teams fine-grained permissions to access Enterprise Teams API endpoints. Previously, these endpoints required a personal"
-      },
-      {
-        "title": "Fast mode for Claude Opus 4.6 is now in preview for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot",
-        "date": "2026-02-07T16:02:23Z",
-        "summary": "<p>Fast mode for Claude Opus 4.6 is now rolling out in a research preview on GitHub Copilot. This high-speed option delivers output token speeds up to 2.5x faster, while maintaining&#8230;</p>\n<p>The "
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
-    "new_count": 2,
+    "new_count": 1,
     "new_videos": [
       {
-        "title": "GitHub Issues now uses semantic search",
-        "video_id": "CkipZAiH8RE",
-        "date": "2026-02-09T20:00:14+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/CkipZAiH8RE/hqdefault.jpg"
-      },
-      {
-        "title": "OpenClaw: Self-hosted AI agents on your infrastructure",
-        "video_id": "6bBqno3tp-A",
-        "date": "2026-02-07T15:00:12+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/6bBqno3tp-A/hqdefault.jpg"
+        "title": "How global tech talent is advancing with GitHub Copilot | GitHub x Andela",
+        "video_id": "iuGAfugNahs",
+        "date": "2026-02-11T19:15:41+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/iuGAfugNahs/hqdefault.jpg"
       }
     ]
   },
@@ -159,148 +128,117 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 10, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 4 new articles\n  - \"Track additional Dependabot configuration changes in audit logs\" (2026-02-10)\n  - \"GPT-5.3-Codex is now generally available for GitHub Copilot\" (2026-02-09)\n  - \"GitHub Apps can now utilize public preview Enterprise Teams APIs via fine-grained permissions\" (2026-02-09)\n  - \"Fast mode for Claude Opus 4.6 is now in preview for GitHub Copilot\" (2026-02-07)\n\n🎥 Videos: 2 new videos\n  - \"GitHub Issues now uses semantic search\" (2026-02-09)\n  - \"OpenClaw: Self-hosted AI agents on your infrastructure\" (2026-02-07)\n\nTotal: 21 changes detected",
+  "summary_text": "Changes detected on February 12, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-extensions-integration.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - scrape-summary.md: File deleted\n\n🎥 Videos: 1 new video\n  - \"How global tech talent is advancing with GitHub Copilot | GitHub x Andela\" (2026-02-11)\n\nTotal: 16 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 20,
+    "total_changes": 15,
     "new_docs": [
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-10T14:33:45Z",
+        "timestamp": "2026-02-12T09:23:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-10T14:33:51Z",
+        "timestamp": "2026-02-12T09:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-10T14:33:46Z",
+        "timestamp": "2026-02-12T09:23:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-10T14:33:56Z",
+        "timestamp": "2026-02-12T09:23:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-10T14:33:53Z",
+        "timestamp": "2026-02-12T09:23:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-10T14:33:41Z",
+        "timestamp": "2026-02-12T09:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-10T14:33:44Z",
+        "timestamp": "2026-02-12T09:23:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-10T14:33:43Z",
+        "timestamp": "2026-02-12T09:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-10T14:33:52Z",
+        "timestamp": "2026-02-12T09:23:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-10T14:33:50Z",
+        "timestamp": "2026-02-12T09:23:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-10T14:33:40Z",
+        "timestamp": "2026-02-12T09:23:29Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-10T14:33:47Z",
+        "timestamp": "2026-02-12T09:23:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-10T14:33:48Z",
+        "timestamp": "2026-02-12T09:23:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-10T14:33:54Z",
+        "timestamp": "2026-02-12T09:23:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "Track additional Dependabot configuration changes in audit logs",
-        "url": "https://github.blog/changelog/2026-02-10-track-additional-dependabot-configuration-changes-in-audit-logs",
-        "date": "2026-02-10T14:13:08Z",
-        "summary": "<p>Two new event types are now available to track changes to Dependabot settings through your organization and enterprise audit logs. Dependabot vulnerability updates toggle logs when someone enables "
-      },
-      {
-        "title": "GPT-5.3-Codex is now generally available for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot",
-        "date": "2026-02-09T17:41:21Z",
-        "summary": "<p>GPT-5.3-Codex, OpenAI&#8217;s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, GPT-5.3-Codex reaches new high scores on benchmarks we use to evaluate coding, age"
-      },
-      {
-        "title": "GitHub Apps can now utilize public preview Enterprise Teams APIs via fine-grained permissions",
-        "url": "https://github.blog/changelog/2026-02-09-github-apps-can-now-utilize-public-preview-enterprise-teams-apis-via-fine-grained-permissions",
-        "date": "2026-02-09T14:03:31Z",
-        "summary": "<p>GitHub Enterprise administrators can now use GitHub Apps with the enterprise teams fine-grained permissions to access Enterprise Teams API endpoints. Previously, these endpoints required a personal"
-      },
-      {
-        "title": "Fast mode for Claude Opus 4.6 is now in preview for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot",
-        "date": "2026-02-07T16:02:23Z",
-        "summary": "<p>Fast mode for Claude Opus 4.6 is now rolling out in a research preview on GitHub Copilot. This high-speed option delivers output token speeds up to 2.5x faster, while maintaining&#8230;</p>\n<p>The "
-      }
-    ],
+    "new_blog_posts": [],
     "new_videos": [
       {
-        "title": "GitHub Issues now uses semantic search",
-        "video_id": "CkipZAiH8RE",
-        "date": "2026-02-09T20:00:14+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/CkipZAiH8RE/hqdefault.jpg"
-      },
-      {
-        "title": "OpenClaw: Self-hosted AI agents on your infrastructure",
-        "video_id": "6bBqno3tp-A",
-        "date": "2026-02-07T15:00:12+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/6bBqno3tp-A/hqdefault.jpg"
+        "title": "How global tech talent is advancing with GitHub Copilot | GitHub x Andela",
+        "video_id": "iuGAfugNahs",
+        "date": "2026-02-11T19:15:41+00:00",
+        "thumbnail": "https://i2.ytimg.com/vi/iuGAfugNahs/hqdefault.jpg"
       }
     ]
   }
