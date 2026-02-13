@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: February 12, 2026
+**Last Updated**: February 13, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,7 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## February 2026
 
+- **Feb 11, 2026** - [GitHub Mobile: Model picker for Copilot coding agent](https://github.blog/changelog/2026-02-11-github-mobile-model-picker-for-copilot-coding-agent) (Blog)
 - **Feb 10, 2026** - [Track additional Dependabot configuration changes in audit logs](https://github.blog/changelog/2026-02-10-track-additional-dependabot-configuration-changes-in-audit-logs) (Blog)
 - **Feb 9, 2026** - [GitHub Issues now uses semantic search](https://www.youtube.com/shorts/CkipZAiH8RE) (Video)
 - **Feb 9, 2026** - [GPT-5.3-Codex is now generally available for GitHub Copilot](https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot) (Blog)

@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: February 12, 2026
+**Last Updated**: February 13, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -11,6 +11,11 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 ## This Week (Last 7 Days)
 
 ### Recent Blog Posts
+
+### [GitHub Mobile: Model picker for Copilot coding agent](https://github.blog/changelog/2026-02-11-github-mobile-model-picker-for-copilot-coding-agent)
+*Feb 11, 2026*
+
+Copilot Pro and Pro+ subscribers can now choose a model when starting a Copilot coding agent session in the GitHub Mobile app. You can quickly match the model to the task at hand without needing to switch to desktop. Select from Auto, Claude Opus 4.5, Claude Opus 4.6, Claude Sonnet 4.5, GPT-5.1-Codex-Max, or GPT-5.2-Codex directly in the mobile app.
 
 ### [Track additional Dependabot configuration changes in audit logs](https://github.blog/changelog/2026-02-10-track-additional-dependabot-configuration-changes-in-audit-logs)
 *Feb 10, 2026*
