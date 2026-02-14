@@ -2,7 +2,7 @@
 
 > Quick setup guide and battle-tested best practices from the community
 
-**Last Updated**: February 12, 2026
+**Last Updated**: February 13, 2026
 
 This guide helps you get productive with GitHub Copilot in minutes, then level up with proven best practices.
 
@@ -19,7 +19,7 @@ This guide helps you get productive with GitHub Copilot in minutes, then level u
 ### Step 2: Install in Your IDE
 Choose your preferred development environment:
 
-- **VS Code**: Install the [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+- **VS Code**: Install the [GitHub Copilot extension](https://docs.github.com/copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment?tool=vscode)
 - **Visual Studio**: Available in Visual Studio 2022 17.4+
 - **JetBrains IDEs**: Install via the [JetBrains marketplace](https://plugins.jetbrains.com/plugin/17718-github-copilot)
 - **Neovim**: Use the [Copilot.vim plugin](https://github.com/github/copilot.vim)
