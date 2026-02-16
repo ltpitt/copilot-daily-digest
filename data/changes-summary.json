@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-16T08:14:15.093945+00:00",
+  "generated_at": "2026-02-16T08:23:56.854785+00:00",
   "has_changes": true,
-  "total_changes": 24,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-16T08:13:39Z",
+        "timestamp": "2026-02-16T08:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-16T08:13:46Z",
+        "timestamp": "2026-02-16T08:23:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-16T08:13:51Z",
+        "timestamp": "2026-02-16T08:23:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-16T08:13:44Z",
+        "timestamp": "2026-02-16T08:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-16T08:13:59Z",
+        "timestamp": "2026-02-16T08:23:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-16T08:13:45Z",
+        "timestamp": "2026-02-16T08:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-16T08:13:55Z",
+        "timestamp": "2026-02-16T08:23:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-16T08:13:40Z",
+        "timestamp": "2026-02-16T08:23:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-16T08:13:48Z",
+        "timestamp": "2026-02-16T08:23:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-16T08:13:57Z",
+        "timestamp": "2026-02-16T08:23:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-16T08:14:00Z",
+        "timestamp": "2026-02-16T08:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-16T08:13:50Z",
+        "timestamp": "2026-02-16T08:23:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-16T08:13:53Z",
+        "timestamp": "2026-02-16T08:23:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-16T08:13:42Z",
+        "timestamp": "2026-02-16T08:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,234 +110,122 @@
     ]
   },
   "blog": {
-    "new_count": 6,
-    "new_posts": [
-      {
-        "title": "New features and improvements in GitHub Copilot in JetBrains IDEs",
-        "url": "https://github.blog/changelog/2026-02-13-new-features-and-improvements-in-github-copilot-in-jetbrains-ides-2",
-        "date": "2026-02-14T02:11:06Z",
-        "summary": "<p>This update brings several improvements to GitHub Copilot in JetBrains IDEs. These include support for Agent Skills in preview, several user experience improvements across inline chat and settings,"
-      },
-      {
-        "title": "Updated GitHub status page experience",
-        "url": "https://github.blog/changelog/2026-02-13-updated-status-experience",
-        "date": "2026-02-14T00:16:35Z",
-        "summary": "<p>We&#8217;ve updated the GitHub status page to make incident information easier to find and more useful during an active event. The status site now includes a&#8239;90-day historical view of availab"
-      },
-      {
-        "title": "New repository settings for configuring pull request access",
-        "url": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access",
-        "date": "2026-02-13T18:12:55Z",
-        "summary": "<p>Maintainers now have more control over how repositories accept contributions. Two new settings let you manage pull requests to better match your project&#8217;s needs. Disable pull requests entirel"
-      },
-      {
-        "title": "Network configuration changes for Copilot coding agent",
-        "url": "https://github.blog/changelog/2026-02-13-network-configuration-changes-for-copilot-coding-agent",
-        "date": "2026-02-13T15:37:05Z",
-        "summary": "<p>Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions."
-      },
-      {
-        "title": "GitHub Agentic Workflows are now in technical preview",
-        "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview",
-        "date": "2026-02-13T14:00:26Z",
-        "summary": "<p>GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent&#"
-      },
-      {
-        "title": "Automate repository tasks with GitHub Agentic Workflows",
-        "url": "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
-        "date": "2026-02-13T14:00:00Z",
-        "summary": "<p>Discover GitHub Agentic Workflows, now in technical preview. Build automations using coding agents in GitHub Actions to handle triage, documentation, code quality, and more.</p>\n<p>The post <a href"
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
-    "new_count": 3,
-    "new_videos": [
-      {
-        "title": "How TypeScript's creator uses AI",
-        "video_id": "2djTIalOr1M",
-        "date": "2026-02-14T17:00:03+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/2djTIalOr1M/hqdefault.jpg"
-      },
-      {
-        "title": "Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production",
-        "video_id": "tZ4FdO-zjeE",
-        "date": "2026-02-14T07:03:15+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/tZ4FdO-zjeE/hqdefault.jpg"
-      },
-      {
-        "title": "Introducing GitHub Agentic Workflows | intent-driven repository automation",
-        "video_id": "3_i03fGXs9U",
-        "date": "2026-02-13T14:03:23+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/3_i03fGXs9U/hqdefault.jpg"
-      }
-    ]
+    "new_count": 0,
+    "new_videos": []
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 16, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-chat.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 6 new articles\n  - \"New features and improvements in GitHub Copilot in JetBrains IDEs\" (2026-02-14)\n  - \"Updated GitHub status page experience\" (2026-02-14)\n  - \"New repository settings for configuring pull request access\" (2026-02-13)\n  - \"Network configuration changes for Copilot coding agent\" (2026-02-13)\n  - \"GitHub Agentic Workflows are now in technical preview\" (2026-02-13)\n\n🎥 Videos: 3 new videos\n  - \"How TypeScript's creator uses AI\" (2026-02-14)\n  - \"Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production\" (2026-02-14)\n  - \"Introducing GitHub Agentic Workflows | intent-driven repository automation\" (2026-02-13)\n\nTotal: 24 changes detected",
+  "summary_text": "Changes detected on February 16, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-chat.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 23,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-16T08:13:39Z",
+        "timestamp": "2026-02-16T08:23:27Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-16T08:13:46Z",
+        "timestamp": "2026-02-16T08:23:33Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-16T08:13:51Z",
+        "timestamp": "2026-02-16T08:23:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-16T08:13:44Z",
+        "timestamp": "2026-02-16T08:23:31Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-16T08:13:59Z",
+        "timestamp": "2026-02-16T08:23:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-16T08:13:45Z",
+        "timestamp": "2026-02-16T08:23:32Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-16T08:13:55Z",
+        "timestamp": "2026-02-16T08:23:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-16T08:13:40Z",
+        "timestamp": "2026-02-16T08:23:28Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-16T08:13:48Z",
+        "timestamp": "2026-02-16T08:23:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-16T08:13:57Z",
+        "timestamp": "2026-02-16T08:23:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-16T08:14:00Z",
+        "timestamp": "2026-02-16T08:23:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-16T08:13:50Z",
+        "timestamp": "2026-02-16T08:23:35Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-16T08:13:53Z",
+        "timestamp": "2026-02-16T08:23:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-16T08:13:42Z",
+        "timestamp": "2026-02-16T08:23:30Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "New features and improvements in GitHub Copilot in JetBrains IDEs",
-        "url": "https://github.blog/changelog/2026-02-13-new-features-and-improvements-in-github-copilot-in-jetbrains-ides-2",
-        "date": "2026-02-14T02:11:06Z",
-        "summary": "<p>This update brings several improvements to GitHub Copilot in JetBrains IDEs. These include support for Agent Skills in preview, several user experience improvements across inline chat and settings,"
-      },
-      {
-        "title": "Updated GitHub status page experience",
-        "url": "https://github.blog/changelog/2026-02-13-updated-status-experience",
-        "date": "2026-02-14T00:16:35Z",
-        "summary": "<p>We&#8217;ve updated the GitHub status page to make incident information easier to find and more useful during an active event. The status site now includes a&#8239;90-day historical view of availab"
-      },
-      {
-        "title": "New repository settings for configuring pull request access",
-        "url": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access",
-        "date": "2026-02-13T18:12:55Z",
-        "summary": "<p>Maintainers now have more control over how repositories accept contributions. Two new settings let you manage pull requests to better match your project&#8217;s needs. Disable pull requests entirel"
-      },
-      {
-        "title": "Network configuration changes for Copilot coding agent",
-        "url": "https://github.blog/changelog/2026-02-13-network-configuration-changes-for-copilot-coding-agent",
-        "date": "2026-02-13T15:37:05Z",
-        "summary": "<p>Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions."
-      },
-      {
-        "title": "GitHub Agentic Workflows are now in technical preview",
-        "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview",
-        "date": "2026-02-13T14:00:26Z",
-        "summary": "<p>GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent&#"
-      },
-      {
-        "title": "Automate repository tasks with GitHub Agentic Workflows",
-        "url": "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
-        "date": "2026-02-13T14:00:00Z",
-        "summary": "<p>Discover GitHub Agentic Workflows, now in technical preview. Build automations using coding agents in GitHub Actions to handle triage, documentation, code quality, and more.</p>\n<p>The post <a href"
-      }
-    ],
-    "new_videos": [
-      {
-        "title": "How TypeScript's creator uses AI",
-        "video_id": "2djTIalOr1M",
-        "date": "2026-02-14T17:00:03+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/2djTIalOr1M/hqdefault.jpg"
-      },
-      {
-        "title": "Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production",
-        "video_id": "tZ4FdO-zjeE",
-        "date": "2026-02-14T07:03:15+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/tZ4FdO-zjeE/hqdefault.jpg"
-      },
-      {
-        "title": "Introducing GitHub Agentic Workflows | intent-driven repository automation",
-        "video_id": "3_i03fGXs9U",
-        "date": "2026-02-13T14:03:23+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/3_i03fGXs9U/hqdefault.jpg"
-      }
-    ]
+    "new_blog_posts": [],
+    "new_videos": []
   }
 }

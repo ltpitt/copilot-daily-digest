@@ -57,3 +57,8 @@ jobs:
       # Detect changes so agent knows what's new
       - name: Detect Changes
         run: python scripts/detect_changes.py
+      
+      # Generate content files from fresh data
+      # This ensures content is always up-to-date after data fetching
+      - name: Generate Content Files
+        run: python scripts/generate_content.py
