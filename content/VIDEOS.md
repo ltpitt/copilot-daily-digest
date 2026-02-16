@@ -1,83 +1,115 @@
-# GitHub Copilot Videos Library
+# GitHub Copilot Video Library
 
-> Curated collection of video tutorials, demos, and updates
+> **Last Updated**: February 16, 2026
 
-**Last Updated**: February 13, 2026
+> **📊 Library Stats**
+> - 📚 **3** total videos
+> - 🆕 **3** new this month
+> - 📂 **Categories**: Other (1), Agents (1), Getting Started (1)
 
 ---
 
-## Statistics
+## Quick Navigation
 
-- **Total Videos**: 6
-- **Recent Uploads** (Last 30 Days): 6
-- **Categories**: 4
+- [🆕 Recent Uploads](#recent-uploads-last-30-days)
+- [📂 Browse by Category](#browse-by-category)
+  - [Getting Started](#getting-started) (1)
+  - [Agents](#agents) (1)
+  - [Other](#other) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-### [GitHub Issues now uses semantic search](https://www.youtube.com/shorts/CkipZAiH8RE)
-*Feb 9, 2026*
+*3 videos published in the last 30 days*
 
-GitHub's improved search for issues in public preview uses semantic search to understand query intent, delivering 39% better results than traditional keyword-based search.
+### [How TypeScript's creator uses AI](https://www.youtube.com/shorts/2djTIalOr1M)
 
-### [OpenClaw: Self-hosted AI agents on your infrastructure](https://www.youtube.com/shorts/6bBqno3tp-A)
-*Feb 7, 2026*
+**Published**: Feb 14, 2026 | **Channel**: GitHub
 
-OpenClaw is an open agent platform for running AI assistants on your own infrastructure with integrations for WhatsApp, Discord, and Slack.
+"In the ideal world, AI helps us get rid of all the toil." Anders Hejlsberg explains how the TypeScript team uses AI to handle the boring, repetitive tasks, like porting hundreds of pull requests from their old codebase to the new one. He shares a key lesson for all developers: identify the unintere...
 
-### [The Download: OpenClaw AI agents, Last of Babel 7, GitHub Actions & more](https://www.youtube.com/watch?v=0FH_v8iQM5Q)
-*Feb 6, 2026*
-
-This week's Download covers semantic search for GitHub Issues, GitHub Actions updates including a new case function, and Dependabot Proxy going open source.
-
-### [See what the Reddit community built with Copilot SDK](https://www.youtube.com/shorts/exlDbnUtSdY)
-*Feb 6, 2026*
-
-Highlights from a weekend build challenge showcasing innovative projects using the GitHub Copilot SDK.
-
-### [5 quality of life updates for open source maintainers | GitHub Checkout](https://www.youtube.com/watch?v=CKNe3gBnzrc)
-*Feb 5, 2026*
-
-Five recent high-impact improvements for open source maintainers including web-based merge conflict resolution.
-
-### [GitHub Copilot SDK demo: Creating "Flight School"](https://www.youtube.com/watch?v=ct_Ymw9RexM)
-*Feb 5, 2026*
-
-Custom Next.js application built with the GitHub Copilot SDK demonstrating agentic workflows.
+[Watch on YouTube →](https://www.youtube.com/shorts/2djTIalOr1M)
 
 ---
 
-## By Category
+### [Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production](https://www.youtube.com/watch?v=tZ4FdO-zjeE)
 
-### Getting Started (2 videos)
+**Published**: Feb 14, 2026 | **Channel**: GitHub
 
-- [The Download: OpenClaw AI agents, Last of Babel 7, GitHub Actions & more](https://www.youtube.com/watch?v=0FH_v8iQM5Q) - *Feb 6, 2026*
-- [GitHub Issues now uses semantic search](https://www.youtube.com/shorts/CkipZAiH8RE) - *Feb 9, 2026*
+Join us on Open Source Friday to explore Caracal - a runtime execution authority layer for AI agents in production. Caracal is bridges the gap between deploying agents and safely scaling them toward autonomy and enables agents to act with confidence....
 
-### Features & Updates (2 videos)
-
-- [GitHub Issues now uses semantic search](https://www.youtube.com/shorts/CkipZAiH8RE) - *Feb 9, 2026*
-- [5 quality of life updates for open source maintainers | GitHub Checkout](https://www.youtube.com/watch?v=CKNe3gBnzrc) - *Feb 5, 2026*
-
-### Tutorials (1 videos)
-
-- [GitHub Copilot SDK demo: Creating "Flight School"](https://www.youtube.com/watch?v=ct_Ymw9RexM) - *Feb 5, 2026*
-
-### Agents (2 videos)
-
-- [See what the Reddit community built with Copilot SDK](https://www.youtube.com/shorts/exlDbnUtSdY) - *Feb 6, 2026*
-- [OpenClaw: Self-hosted AI agents on your infrastructure](https://www.youtube.com/shorts/6bBqno3tp-A) - *Feb 7, 2026*
+[Watch on YouTube →](https://www.youtube.com/watch?v=tZ4FdO-zjeE)
 
 ---
 
-## More Videos
+### [Introducing GitHub Agentic Workflows | intent-driven repository automation](https://www.youtube.com/watch?v=3_i03fGXs9U)
 
-For the complete collection, visit:
-- [GitHub YouTube Channel](https://www.youtube.com/@GitHub)
-- [GitHub Copilot Playlist](https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml5Q7VGguY)
+**Published**: Feb 13, 2026 | **Channel**: GitHub
+
+We asked the question: what does repository automation look like in the era of AI coding agents, and how can this be made safe and secure with sufficient guardrails? Introducing GitHub Agentic Workflows: automated intent-driven repository workflows that run in GitHub Actions. We’re bringing modern c...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=3_i03fGXs9U)
 
 ---
 
-_Videos are automatically updated daily from the official GitHub YouTube channel._
+## Browse by Category
 
+
+## Getting Started
+
+*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
+
+**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
+
+### [Introducing GitHub Agentic Workflows | intent-driven repository automation](https://www.youtube.com/watch?v=3_i03fGXs9U)
+
+**Published**: Feb 13, 2026
+
+We asked the question: what does repository automation look like in the era of AI coding agents, and how can this be made safe and secure with sufficient guardrails? Introducing GitHub Agentic Workflo...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=3_i03fGXs9U)
+
+---
+
+
+## Agents
+
+*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
+
+**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
+
+### [Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production](https://www.youtube.com/watch?v=tZ4FdO-zjeE)
+
+**Published**: Feb 14, 2026
+
+Join us on Open Source Friday to explore Caracal - a runtime execution authority layer for AI agents in production. Caracal is bridges the gap between deploying agents and safely scaling them toward a...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=tZ4FdO-zjeE)
+
+---
+
+
+## Other
+
+*Additional videos that don't fit into other categories.*
+
+**When to watch**: You're looking for miscellaneous Copilot content.
+
+### [How TypeScript's creator uses AI](https://www.youtube.com/shorts/2djTIalOr1M)
+
+**Published**: Feb 14, 2026
+
+"In the ideal world, AI helps us get rid of all the toil." Anders Hejlsberg explains how the TypeScript team uses AI to handle the boring, repetitive tasks, like porting hundreds of pull requests from...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/2djTIalOr1M)
+
+---
+
+
+## More Resources
+
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [GitHub Blog](https://github.blog/tag/github-copilot/)
+- [GitHub YouTube Channel](https://www.youtube.com/github)
+- [Back to Digest Home](README.md)

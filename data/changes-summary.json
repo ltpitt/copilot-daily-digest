@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-13T07:25:35.048142+00:00",
+  "generated_at": "2026-02-16T08:42:06.612290+00:00",
   "has_changes": true,
-  "total_changes": 16,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-13T07:25:00Z",
+        "timestamp": "2026-02-16T08:41:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-13T07:25:07Z",
+        "timestamp": "2026-02-16T08:41:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-13T07:25:12Z",
+        "timestamp": "2026-02-16T08:41:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-13T07:25:04Z",
+        "timestamp": "2026-02-16T08:41:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-13T07:25:19Z",
+        "timestamp": "2026-02-16T08:41:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-13T07:25:06Z",
+        "timestamp": "2026-02-16T08:41:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-13T07:25:16Z",
+        "timestamp": "2026-02-16T08:41:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-13T07:25:02Z",
+        "timestamp": "2026-02-16T08:41:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-13T07:25:08Z",
+        "timestamp": "2026-02-16T08:41:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-13T07:25:18Z",
+        "timestamp": "2026-02-16T08:41:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-13T07:25:21Z",
+        "timestamp": "2026-02-16T08:41:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-13T07:25:10Z",
+        "timestamp": "2026-02-16T08:41:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-13T07:25:14Z",
+        "timestamp": "2026-02-16T08:41:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-13T07:25:03Z",
+        "timestamp": "2026-02-16T08:41:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,15 +110,8 @@
     ]
   },
   "blog": {
-    "new_count": 1,
-    "new_posts": [
-      {
-        "title": "GitHub Mobile: Model picker for Copilot coding agent",
-        "url": "https://github.blog/changelog/2026-02-11-github-mobile-model-picker-for-copilot-coding-agent",
-        "date": "2026-02-11T18:14:50Z",
-        "summary": "<p>Copilot Pro and Pro+ subscribers can now choose a model when starting a Copilot coding agent session in the GitHub Mobile app. You can quickly match the model to the&#8230;</p>\n<p>The post <a href="
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
     "new_count": 0,
@@ -128,118 +121,111 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 13, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-chat.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"GitHub Mobile: Model picker for Copilot coding agent\" (2026-02-11)\n\nTotal: 16 changes detected",
+  "summary_text": "Changes detected on February 16, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-chat.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 15,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-13T07:25:00Z",
+        "timestamp": "2026-02-16T08:41:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-13T07:25:07Z",
+        "timestamp": "2026-02-16T08:41:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-13T07:25:12Z",
+        "timestamp": "2026-02-16T08:41:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-13T07:25:04Z",
+        "timestamp": "2026-02-16T08:41:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-13T07:25:19Z",
+        "timestamp": "2026-02-16T08:41:51Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-13T07:25:06Z",
+        "timestamp": "2026-02-16T08:41:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-13T07:25:16Z",
+        "timestamp": "2026-02-16T08:41:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-13T07:25:02Z",
+        "timestamp": "2026-02-16T08:41:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-13T07:25:08Z",
+        "timestamp": "2026-02-16T08:41:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-13T07:25:18Z",
+        "timestamp": "2026-02-16T08:41:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-13T07:25:21Z",
+        "timestamp": "2026-02-16T08:41:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-13T07:25:10Z",
+        "timestamp": "2026-02-16T08:41:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-13T07:25:14Z",
+        "timestamp": "2026-02-16T08:41:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-13T07:25:03Z",
+        "timestamp": "2026-02-16T08:41:40Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "GitHub Mobile: Model picker for Copilot coding agent",
-        "url": "https://github.blog/changelog/2026-02-11-github-mobile-model-picker-for-copilot-coding-agent",
-        "date": "2026-02-11T18:14:50Z",
-        "summary": "<p>Copilot Pro and Pro+ subscribers can now choose a model when starting a Copilot coding agent session in the GitHub Mobile app. You can quickly match the model to the&#8230;</p>\n<p>The post <a href="
-      }
-    ],
+    "new_blog_posts": [],
     "new_videos": []
   }
 }

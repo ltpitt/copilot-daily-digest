@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: February 13, 2026
+**Last Updated**: February 16, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -10,135 +10,93 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### Recent Blog Posts
+### Recent Updates
 
-### [GitHub Mobile: Model picker for Copilot coding agent](https://github.blog/changelog/2026-02-11-github-mobile-model-picker-for-copilot-coding-agent)
-*Feb 11, 2026*
+#### 1. [How TypeScript's creator uses AI](https://www.youtube.com/shorts/2djTIalOr1M)
+*Feb 14, 2026*
 
-Copilot Pro and Pro+ subscribers can now choose a model when starting a Copilot coding agent session in the GitHub Mobile app. You can quickly match the model to the task at hand without needing to switch to desktop. Select from Auto, Claude Opus 4.5, Claude Opus 4.6, Claude Sonnet 4.5, GPT-5.1-Codex-Max, or GPT-5.2-Codex directly in the mobile app.
+"In the ideal world, AI helps us get rid of all the toil." Anders Hejlsberg explains how the TypeScript team uses AI to handle the boring, repetitive tasks, like porting hundreds of pull requests from their old codebase to the new one.
 
-### [Track additional Dependabot configuration changes in audit logs](https://github.blog/changelog/2026-02-10-track-additional-dependabot-configuration-changes-in-audit-logs)
-*Feb 10, 2026*
+#### 2. [Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production](https://www.youtube.com/watch?v=tZ4FdO-zjeE)
+*Feb 14, 2026*
 
-Two new event types enable tracking of Dependabot configuration changes through organization and enterprise audit logs. Teams can now monitor when vulnerability updates are toggled and when self-hosted runner configurations change. Each event captures the actor and timestamp, helping organizations maintain compliance, identify unauthorized modifications, and perform security investigations.
+Join us on Open Source Friday to explore Caracal - a runtime execution authority layer for AI agents in production. Caracal is bridges the gap between deploying agents and safely scaling them toward autonomy and enables agents to act with confidence.
 
-### [GPT-5.3-Codex is now generally available for GitHub Copilot](https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot)
-*Feb 9, 2026*
+#### 3. [New repository settings for configuring pull request access](https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access)
+*Feb 13, 2026*
 
-OpenAI's GPT-5.3-Codex, their latest agentic coding model, rolls out to GitHub Copilot with new benchmark high scores in coding and agentic capabilities. The model delivers up to 25% faster performance than GPT-5.2-Codex on agentic coding tasks with enhanced reasoning for complex, tool-driven workflows. Available across Visual Studio Code, github.com, GitHub Mobile, and GitHub CLI for Copilot Pro, Pro+, Business, and Enterprise users.
+Maintainers now have more control over how repositories accept contributions. Two new settings let you manage pull requests to better match your project's needs. Disable pull requests entirely
+You can now turn off pull requests entirely from your repository's Settings, just like you can with wikis, issues, discussions, and projects.
 
-### [GitHub Apps can now utilize public preview Enterprise Teams APIs via fine-grained permissions](https://github.blog/changelog/2026-02-09-github-apps-can-now-utilize-public-preview-enterprise-teams-apis-via-fine-grained-permissions)
-*Feb 9, 2026*
+#### 4. [Automate repository tasks with GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/)
+*Feb 13, 2026*
 
-GitHub Enterprise administrators gain a more secure way to manage teams programmatically through GitHub Apps with new enterprise teams fine-grained permissions. The update replaces the previous requirement for personal access tokens with read and write access levels. Enterprise administrators can now securely perform create, update, and delete operations at scale through app integrations.
+Discover GitHub Agentic Workflows, now in technical preview. Build automations using coding agents in GitHub Actions to handle triage, documentation, code quality, and more. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance.
 
-### [Fast mode for Claude Opus 4.6 is now in preview for GitHub Copilot](https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot)
-*Feb 7, 2026*
+#### 5. [Updated GitHub status page experience](https://github.blog/changelog/2026-02-13-updated-status-experience)
+*Feb 13, 2026*
 
-Fast mode for Claude Opus 4.6 launches in research preview, delivering output token speeds up to 2.5x faster while maintaining the same intelligence as the standard model. This experimental high-speed option is available for Copilot Pro+ and Enterprise users in Visual Studio Code and Copilot CLI. The early release focuses on significantly faster inference for agentic coding workflows.
-
-### [Claude Opus 4.6 is now generally available for GitHub Copilot](https://github.blog/changelog/2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot)
-*Feb 5, 2026*
-
-Anthropic's Claude Opus 4.6 is now rolling out to GitHub Copilot users across all tiers. Early testing shows this model excels in agentic coding workflows, particularly for complex tasks requiring planning and tool calling. Available in Visual Studio Code, Visual Studio, github.com, GitHub Mobile, and GitHub CLI, the model offers enhanced capabilities for Pro, Pro+, Business, and Enterprise subscribers.
-
-### [Claude Opus 4.6 is now generally available for GitHub Copilot](https://github.blog/changelog/2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot)
-*Feb 5, 2026*
-
-Anthropic's Claude Opus 4.6 is now rolling out to GitHub Copilot users across all tiers. Early testing shows this model excels in agentic coding workflows, particularly for complex tasks requiring planning and tool calling. Available in Visual Studio Code, Visual Studio, github.com, GitHub Mobile, and GitHub CLI, the model offers enhanced capabilities for Pro, Pro+, Business, and Enterprise subscribers.
-
-### [GitHub Actions: Self-hosted runner minimum version enforcement extended](https://github.blog/changelog/2026-02-05-github-actions-self-hosted-runner-minimum-version-enforcement-extended)
-*Feb 5, 2026*
-
-GitHub has extended the deadline for self-hosted runner version enforcement by one week to March 16, 2026. Runners must upgrade to v2.329.0 or later before the deadline. A brownout period begins February 16 with scheduled configuration blocks to help identify runners needing updates, giving teams more time to prepare their infrastructure.
-
-### [GitHub Actions: Early February 2026 updates](https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates)
-*Feb 5, 2026*
-
-GitHub Actions introduces major capabilities this month including a new runner scale set client for custom autoscaling solutions without Kubernetes. Action allowlisting is now available across all GitHub plans, bringing security controls to Free and Team customers. New Windows Server 2025 with Visual Studio 2026 and macOS 26 Intel runner images are available in public preview.
-
-### Recent Videos
-
-### [GitHub Issues now uses semantic search](https://www.youtube.com/shorts/CkipZAiH8RE)
-*Feb 9, 2026*
-
-GitHub releases an improved search for issues in public preview, utilizing semantic search to understand query intent beyond exact keywords. Testing shows this natural language approach is 39% better than traditional search, eliminating zero-result frustrations when users don't use exact terminology.
-
-### [OpenClaw: Self-hosted AI agents on your infrastructure](https://www.youtube.com/shorts/6bBqno3tp-A)
-*Feb 7, 2026*
-
-Discover OpenClaw, the open agent platform that lets you run AI assistants on your own infrastructure, laptop, or home lab. Learn how it integrates with apps like WhatsApp, Discord, and Slack, and why it grew to over 100,000 GitHub stars in less than three months.
-
-### [See what the Reddit community built with Copilot SDK](https://www.youtube.com/shorts/exlDbnUtSdY)
-*Feb 6, 2026*
-
-Highlights from a weekend build challenge where the Reddit community created innovative projects using the GitHub Copilot SDK. Featured projects include an autonomous agent playing Stardew Valley and a fully functional AI-powered web browser, showcasing the SDK's capabilities.
-
-### [5 quality of life updates for open source maintainers | GitHub Checkout](https://www.youtube.com/watch?v=CKNe3gBnzrc)
-*Feb 5, 2026*
-
-Andrea and Camilla walk through five recent high-impact improvements for open source maintainers. Updates include a new web interface for resolving merge conflicts, native WebP image support, clearer PR reviewer status, a new tab for contributing guidelines, and the removal of 6 million spam notifications.
-
-### [GitHub Copilot SDK demo: Creating "Flight School"](https://www.youtube.com/watch?v=ct_Ymw9RexM)
-*Feb 5, 2026*
-
-Chris Reddington demonstrates "Flight School," a custom Next.js application built with the GitHub Copilot SDK. The app generates daily coding challenges based on his GitHub profile, evaluates solutions against test cases, and automatically exports projects to new repositories using agentic workflows.
+We've updated the GitHub status page to make incident information easier to find and more useful during an active event. The status site now includes a&#8239;90-day historical view of availability&#8239;and clearer linking between availability trends and the incidents that occurred on specific days. This change rolled out to all regions in which GitHub operates.
 
 ---
 
 ## Last 30 Days
 
-### [CodeQL 2.24.1 improves Maven private registry support and improves query accuracy](https://github.blog/changelog/2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy)
-*Feb 6, 2026*
+### Significant Updates
 
-CodeQL 2.24.1 enhances GitHub code scanning with improved Maven private registry support and enhanced query accuracy across multiple languages. This release adds support for Kotlin 2.3.0, C23/C++26 preprocessor directives, and introduces an experimental prompt injection detection query for Python. The update reduces false positives in buffer overflow detection and improves security analysis for Java, C/C++, C#, and Python code.
+1. **[How TypeScript's creator uses AI](https://www.youtube.com/shorts/2djTIalOr1M)**
+	*Feb 14, 2026*
 
-### [GitHub Copilot in Visual Studio Code v1.109 – January Release](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release)
-*Feb 4, 2026*
+	"In the ideal world, AI helps us get rid of all the toil." Anders Hejlsberg explains how the TypeScript team uses AI to handle the boring, repetitive tasks, like porting hundreds of pull requests...
 
-The January 2026 release of GitHub Copilot for VS Code brings enhanced model selection, improved chat experiences, and new code editing capabilities. Updates include streamlined model picker UI, better inline chat positioning, and C++ code editing tools in public preview. Users gain more control over AI interactions with improved context management and response handling.
+2. **[Open Source Friday with Caracal - a runtime execution authority layer for AI agents in production](https://www.youtube.com/watch?v=tZ4FdO-zjeE)**
+	*Feb 14, 2026*
 
-### [Showing tool calls and other improvements to Copilot chat on the web](https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web)
-*Feb 4, 2026*
+	Join us on Open Source Friday to explore Caracal - a runtime execution authority layer for AI agents in production. Caracal is bridges the gap between deploying agents and safely scaling them toward...
 
-GitHub Copilot chat on the web now displays tool calls transparently, helping users understand how the AI interacts with GitHub features. The update includes improved response formatting, better code block rendering, and enhanced conversation management. Users can see when Copilot searches repositories, analyzes code, or accesses GitHub APIs.
+3. **[New repository settings for configuring pull request access](https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access)**
+	*Feb 13, 2026*
 
-### [Claude and Codex are now available in public preview on GitHub](https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github)
-*Feb 4, 2026*
+	Maintainers now have more control over how repositories accept contributions. Two new settings let you manage pull requests to better match your project's needs. Disable pull requests entirely
+	You can now turn off pull requests entirely from your repository's Settings, just like you can with wikis, issues, discussions, and projects.
 
-GitHub introduces Claude and Codex models in public preview for github.com users, expanding AI capabilities beyond the traditional IDE experience. Users can now select between different AI models directly on GitHub, enabling model comparison and specialized workflows. This release makes advanced language models accessible across pull requests, issues, and discussions.
+4. **[Automate repository tasks with GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/)**
+	*Feb 13, 2026*
 
-### [GitHub Copilot in Visual Studio — January update](https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update)
-*Feb 4, 2026*
+	Discover GitHub Agentic Workflows, now in technical preview. Build automations using coding agents in GitHub Actions to handle triage, documentation, code quality, and more. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance.
 
-Visual Studio's January Copilot update delivers improved IntelliSense integration, enhanced debugging assistance, and better multi-file context awareness. The release includes refined code completion suggestions, improved solution-wide understanding, and streamlined chat interactions. Developers working in large codebases gain better contextual suggestions across their entire solution.
+5. **[Updated GitHub status page experience](https://github.blog/changelog/2026-02-13-updated-status-experience)**
+	*Feb 13, 2026*
 
-### [Simplified Copilot model enablement experience for individual users](https://github.blog/changelog/2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users)
-*Feb 3, 2026*
+	We've updated the GitHub status page to make incident information easier to find and more useful during an active event. The status site now includes a&#8239;90-day historical view of availability&#8239;and clearer linking between availability trends and the incidents that occurred on specific days. This change rolled out to all regions in which GitHub operates.
 
-Individual Copilot users now enjoy a streamlined experience for discovering and enabling AI models. The new interface provides clear model descriptions, capability comparisons, and one-click enablement. Users can easily experiment with different models without navigating complex settings, making it simpler to find the best AI assistant for their workflow.
+6. **[Network configuration changes for Copilot coding agent](https://github.blog/changelog/2026-02-13-network-configuration-changes-for-copilot-coding-agent)**
+	*Feb 13, 2026*
 
-### [How to maximize GitHub Copilot's agentic capabilities](https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/)
-*Feb 2, 2026*
+	Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions. Once Copilot finishes work, it opens a pull request and requests your review.
 
-Learn how to architect and extend Copilot for real-world engineering workflows. This senior engineer's guide covers building agentic systems that work across multi-file codebases, from controllers to migrations. Discover practical patterns for integrating Copilot into complex projects and maximizing its autonomous capabilities.
+7. **[New features and improvements in GitHub Copilot in JetBrains IDEs](https://github.blog/changelog/2026-02-13-new-features-and-improvements-in-github-copilot-in-jetbrains-ides-2)**
+	*Feb 13, 2026*
 
-### [Power agentic workflows in your terminal with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/)
-*Jan 26, 2026*
+	This update brings several improvements to GitHub Copilot in JetBrains IDEs. These include support for Agent Skills in preview, several user experience improvements across inline chat and settings, and quality enhancements for a smoother development workflow. [NOTE]
+	  Agent Skills support in Copilot for JetBrains IDEs is currently in public preview.
 
-Discover how GitHub Copilot CLI enables agentic workflows directly in your terminal environment. Learn to automate complex multi-step operations, chain commands intelligently, and let Copilot handle intricate shell scripting. This guide demonstrates real-world examples of terminal-based automation that save hours of manual work.
+8. **[GitHub Agentic Workflows are now in technical preview](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview)**
+	*Feb 13, 2026*
 
-### [A cheat sheet to slash commands in GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)
-*Jan 21, 2026*
+	GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance.
 
-Master GitHub Copilot CLI with this comprehensive guide to slash commands. From git operations to file management, learn the most powerful shortcuts for terminal productivity. This cheat sheet covers essential commands, practical examples, and pro tips for integrating Copilot CLI into your daily development workflow.
+9. **[Introducing GitHub Agentic Workflows | intent-driven repository automation](https://www.youtube.com/watch?v=3_i03fGXs9U)**
+	*Feb 13, 2026*
 
-### [Building an agentic memory system for GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/)
-*Jan 15, 2026*
+	We asked the question: what does repository automation look like in the era of AI coding agents, and how can this be made safe and secure with sufficient guardrails?
 
-Explore the architecture behind Copilot's memory system that enables personalized, context-aware coding assistance. This technical deep dive explains how Copilot remembers your preferences, coding patterns, and project context across sessions. Learn about the engineering challenges and solutions that make persistent AI memory possible.
+---
+
+## Older Updates
+
+See [CHANGELOG.md](CHANGELOG.md) for the full historical timeline.
 
 ---
 
 _All dates are complete and sorted newest first. For a full list of updates, see [CHANGELOG.md](CHANGELOG.md)._
-
