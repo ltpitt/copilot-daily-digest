@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: February 16, 2026
+> **Last Updated**: February 20, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -16,19 +16,6 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ## Official GitHub Courses
 
-### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
-
-**Provider**: GitHub Skills | **Level**: Beginner
-
-Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
-
-- **Format**: Interactive
-- **Duration**: 1-2 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
-
----
-
 ### [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
 
 **Provider**: GitHub Skills | **Level**: Intermediate
@@ -39,6 +26,19 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 - **Duration**: 2-3 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Team Collaboration, Coding Agent
+
+---
+
+### [Introduction to GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)
+
+**Provider**: GitHub Skills | **Level**: Beginner
+
+Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
+
+- **Format**: Interactive
+- **Duration**: 1-2 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
 
 ---
 
@@ -55,19 +55,6 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 ---
 
 ## Microsoft Learn Modules
-
-### [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
-
-**Provider**: Microsoft Learn | **Level**: Beginner
-
-Discover how GitHub Copilot can help you code faster and more efficiently. Learn about AI-powered code suggestions and how to integrate Copilot into your workflow.
-
-- **Format**: Self-paced
-- **Duration**: 30 minutes
-- **Cost**: Free
-- **Topics**: GitHub Copilot, AI, Code Generation
-
----
 
 ### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
 
@@ -95,6 +82,19 @@ Demonstrate your ability to use GitHub Copilot to develop code by creating a con
 
 ---
 
+### [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+
+**Provider**: Microsoft Learn | **Level**: Beginner
+
+Discover how GitHub Copilot can help you code faster and more efficiently. Learn about AI-powered code suggestions and how to integrate Copilot into your workflow.
+
+- **Format**: Self-paced
+- **Duration**: 30 minutes
+- **Cost**: Free
+- **Topics**: GitHub Copilot, AI, Code Generation
+
+---
+
 ## Curated Courses
 
 ### [GitHub Copilot: The Complete Masterclass](https://www.udemy.com/course/github-copilot-complete-guide/)
@@ -118,7 +118,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ### Beginner Path
 1. [Introduction to GitHub Copilot (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
-2. [Introduction to GitHub Copilot (GitHub Skills)](https://github.com/skills/copilot-intro)
+2. [Introduction to GitHub Copilot (GitHub Skills)](https://github.com/skills/getting-started-with-github-copilot)
 3. Practice with hands-on coding
 
 ### Intermediate Path

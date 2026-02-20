@@ -169,7 +169,7 @@ cursor.execute(query, (user_id,))
 
 ## Next Steps
 
-- **Explore advanced features**: [Copilot Extensions](https://docs.github.com/copilot/building-copilot-extensions)
+- **Explore advanced features**: [Copilot Extensions](https://docs.github.com/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
 - **Watch tutorials**: [Videos Library](VIDEOS.md)
 - **Take a course**: [Trainings & Certifications](TRAININGS.md)
 - **Stay updated**: [What's New](WHATS-NEW.md)
