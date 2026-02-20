@@ -2,7 +2,7 @@
 
 > Organized index of official GitHub Copilot documentation
 
-**Last Updated**: February 13, 2026
+**Last Updated**: February 20, 2026
 
 Quick access to official documentation organized by topic.
 
@@ -11,7 +11,7 @@ Quick access to official documentation organized by topic.
 ## Getting Started
 
 - [Overview of GitHub Copilot](https://docs.github.com/copilot/about-github-copilot)
-- [Getting started with GitHub Copilot](https://docs.github.com/copilot/getting-started)
+- [Getting started with GitHub Copilot](https://docs.github.com/copilot/quickstart)
 - [Quickstart for GitHub Copilot](https://docs.github.com/copilot/quickstart)
 - [Setting up GitHub Copilot](https://docs.github.com/copilot/setting-up-github-copilot)
 
@@ -24,9 +24,9 @@ Quick access to official documentation organized by topic.
 - [Code completion features](https://docs.github.com/copilot/using-github-copilot)
 
 ### Copilot Chat
-- [About GitHub Copilot Chat](https://docs.github.com/copilot/github-copilot-chat)
+- [About GitHub Copilot Chat](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
 - [Using Copilot Chat in your IDE](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
-- [Copilot Chat on GitHub.com](https://docs.github.com/copilot/using-github-copilot/using-github-copilot-chat-in-githubcom)
+- [Copilot Chat on GitHub.com](https://docs.github.com/copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom)
 
 ---
 
@@ -48,15 +48,15 @@ Quick access to official documentation organized by topic.
 
 ## Extensions & Integrations
 
-- [About GitHub Copilot Extensions](https://docs.github.com/copilot/github-copilot-extensions)
-- [Building Copilot Extensions](https://docs.github.com/copilot/building-copilot-extensions)
+- [About GitHub Copilot Extensions](https://docs.github.com/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
+- [Building Copilot Extensions](https://docs.github.com/copilot/building-copilot-extensions/about-building-copilot-extensions)
 
 ---
 
 ## Administration
 
 ### For Organizations
-- [Managing Copilot for your organization](https://docs.github.com/copilot/managing-copilot/managing-copilot-for-your-organization)
+- [Managing Copilot for your organization](https://docs.github.com/copilot/managing-copilot/managing-github-copilot-in-your-organization)
 - [Setting up Copilot for your organization](https://docs.github.com/copilot/setting-up-github-copilot/setting-up-github-copilot-for-your-organization)
 
 ### For Enterprises
@@ -75,7 +75,7 @@ Quick access to official documentation organized by topic.
 
 ## Security & Privacy
 
-- [Privacy and data usage](https://docs.github.com/copilot/privacy-and-github-copilot)
+- [Privacy and data usage](https://docs.github.com/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide)
 - [Responsible use of GitHub Copilot](https://docs.github.com/copilot/responsible-use-of-github-copilot-features)
 
 ---
@@ -90,4 +90,4 @@ Quick access to official documentation organized by topic.
 
 ---
 
-_Documentation is maintained by GitHub and updated regularly. Links verified February 12, 2026._
+_Documentation is maintained by GitHub and updated regularly. Links verified February 20, 2026._

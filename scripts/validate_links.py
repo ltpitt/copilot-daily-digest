@@ -140,6 +140,8 @@ def extract_headings(content: str) -> Set[str]:
     # Match markdown headings: ## Heading Text
     for match in re.finditer(r"^#{1,6}\s+(.+)$", content, re.MULTILINE):
         heading_text = match.group(1).strip()
+        # Strip markdown link syntax: [text](url) → text
+        heading_text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", heading_text)
         anchor = heading_to_anchor(heading_text)
         anchors.add(anchor)
 
