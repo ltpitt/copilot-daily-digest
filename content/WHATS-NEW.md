@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: February 20, 2026
+**Last Updated**: February 25, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,31 +12,33 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [Access all pull request comments without leaving the new Files changed page](https://github.blog/changelog/2026-02-19-access-all-pull-request-comments-without-leaving-the-new-files-changed-page)
-*Feb 19, 2026*
+#### 1. [GitHub Copilot CLI is now generally available](https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available)
+*Feb 25, 2026*
 
-When reviewing a pull request, it's common to move back and forth between the "Files changed" and the "Conversation" pages just to understand the full context. With this update, you no longer need to switch tabs to follow the discussion.
+GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all paid Copilot subscribers. Since launching in public preview in September 2025, we've shipped hundreds of improvements shaped by your feedback.
 
-#### 2. [Selected Anthropic and OpenAI models are now deprecated](https://github.blog/changelog/2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated)
-*Feb 19, 2026*
+#### 2. [GitHub introduces agentic workflows](https://www.youtube.com/shorts/eHN3w3fRb_M)
+*Feb 25, 2026*
 
-Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you'll see the model in the Copilot Chat model selector in VS Code and on github.com.
+GitHub has introduced agentic workflows, users can describe tasks in a markdown file, which compiles into a GitHub Actions workflow. These workflows can be executed by ai agents whether it's Copilot, Claude Code, or OpenAI Codex.
 
-#### 3. [Gemini 3.1 Pro is now in public preview in GitHub Copilot](https://github.blog/changelog/2026-02-19-gemini-3-1-pro-is-now-in-public-preview-in-github-copilot)
-*Feb 19, 2026*
+#### 3. [🐤 Jueves de Quack - Intro al Copilot CLI 🐤](https://www.youtube.com/watch?v=vkMLCIaoADI)
+*Feb 25, 2026*
 
-Gemini 3.1 Pro, Google's latest agentic coding model, is now rolling out in GitHub Copilot. In early testing,  this model excels on effective and efficient edit-then-test loops with high tool precision, achieving strong resolution success with fewer tool calls per benchmark.
+GitHub Copilot ya no vive solo en el editor. También está en la terminal.
 
-#### 4. [Pull request throughput and time to merge available in Copilot usage metrics API](https://github.blog/changelog/2026-02-19-pull-request-throughput-and-time-to-merge-available-in-copilot-usage-metrics-api)
-*Feb 19, 2026*
+En este stream vamos a empezar desde cero con el GitHub Copilot CLI: qué es, cómo funciona, y cómo puedes usarlo para convertir instrucciones en comandos reales, entender...
 
-You can now use GitHub's Copilot usage metrics APIs to better understand how Copilot influences pull request outcomes across your organization, from review suggestions to merged pull requests. How it works
-New enterprise-level API metrics cover pull request review suggestions and acceptance, pull requests created with Copilot coding agent that got merged, and pull request cycle time.
+#### 4. [Dependabot can group updates by dependency name across multiple directories](https://github.blog/changelog/2026-02-24-dependabot-can-group-updates-by-dependency-name-across-multiple-directories)
+*Feb 24, 2026*
 
-#### 5. [GitHub Copilot support in Zed generally available](https://github.blog/changelog/2026-02-19-github-copilot-support-in-zed-generally-available)
-*Feb 19, 2026*
+Dependabot now supports grouping updates by dependency name across multiple directories, making it easier to manage dependency upgrades in repositories with more than one package or service. What's changed
+Previously, Dependabot generated a separate pull request for each directory where a dependency needed updating.
 
-GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with Zed. GitHub Copilot now fully supports authentication with Zed through a formal partnership, allowing you to use your existing Copilot subscription across more of your development workflow. Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter.
+#### 5. [Repository dashboard is now generally available](https://github.blog/changelog/2026-02-24-repository-dashboard-is-now-generally-available)
+*Feb 24, 2026*
+
+The repository dashboard is now generally available. Originally introduced in public preview, the dashboard makes it easy to find, filter, and save custom views of repositories you have access to.
 
 ---
 
@@ -44,52 +46,63 @@ GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enter
 
 ### Significant Updates
 
-1. **[Access all pull request comments without leaving the new Files changed page](https://github.blog/changelog/2026-02-19-access-all-pull-request-comments-without-leaving-the-new-files-changed-page)**
-	*Feb 19, 2026*
+1. **[GitHub Copilot CLI is now generally available](https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available)**
+	*Feb 25, 2026*
 
-	When reviewing a pull request, it's common to move back and forth between the "Files changed" and the "Conversation" pages just to understand the full context. With this update, you no longer need to switch tabs to follow the discussion.
+	GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all paid Copilot subscribers. Since launching in public preview in September 2025, we've shipped hundreds of improvements shaped by your feedback.
 
-2. **[Selected Anthropic and OpenAI models are now deprecated](https://github.blog/changelog/2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated)**
-	*Feb 19, 2026*
+2. **[GitHub introduces agentic workflows](https://www.youtube.com/shorts/eHN3w3fRb_M)**
+	*Feb 25, 2026*
 
-	Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you'll see the model in the Copilot Chat model selector in VS Code and on github.com.
+	GitHub has introduced agentic workflows, users can describe tasks in a markdown file, which compiles into a GitHub Actions workflow.
 
-3. **[Gemini 3.1 Pro is now in public preview in GitHub Copilot](https://github.blog/changelog/2026-02-19-gemini-3-1-pro-is-now-in-public-preview-in-github-copilot)**
-	*Feb 19, 2026*
+3. **[🐤 Jueves de Quack - Intro al Copilot CLI 🐤](https://www.youtube.com/watch?v=vkMLCIaoADI)**
+	*Feb 25, 2026*
 
-	Gemini 3.1 Pro, Google's latest agentic coding model, is now rolling out in GitHub Copilot. In early testing,  this model excels on effective and efficient edit-then-test loops with high tool precision, achieving strong resolution success with fewer tool calls per benchmark.
+	GitHub Copilot ya no vive solo en el editor. También está en la terminal.
 
-4. **[Pull request throughput and time to merge available in Copilot usage metrics API](https://github.blog/changelog/2026-02-19-pull-request-throughput-and-time-to-merge-available-in-copilot-usage-metrics-api)**
-	*Feb 19, 2026*
+En este stream vamos a empezar desde cero con el GitHub Copilot CLI: qué es, cómo funciona, y cómo puedes usarlo para...
 
-	You can now use GitHub's Copilot usage metrics APIs to better understand how Copilot influences pull request outcomes across your organization, from review suggestions to merged pull requests. How it works
-	New enterprise-level API metrics cover pull request review suggestions and acceptance, pull requests created with Copilot coding agent that got merged, and pull request cycle time.
+4. **[Dependabot can group updates by dependency name across multiple directories](https://github.blog/changelog/2026-02-24-dependabot-can-group-updates-by-dependency-name-across-multiple-directories)**
+	*Feb 24, 2026*
 
-5. **[GitHub Copilot support in Zed generally available](https://github.blog/changelog/2026-02-19-github-copilot-support-in-zed-generally-available)**
-	*Feb 19, 2026*
+	Dependabot now supports grouping updates by dependency name across multiple directories, making it easier to manage dependency upgrades in repositories with more than one package or service. What's changed
+	Previously, Dependabot generated a separate pull request for each directory where a dependency needed updating.
 
-	GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with Zed. GitHub Copilot now fully supports authentication with Zed through a formal partnership, allowing you to use your existing Copilot subscription across more of your development workflow. Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter.
+5. **[Repository dashboard is now generally available](https://github.blog/changelog/2026-02-24-repository-dashboard-is-now-generally-available)**
+	*Feb 24, 2026*
 
-6. **[GitHub Projects: Import items based on a query and hierarchy view improvements](https://github.blog/changelog/2026-02-19-github-projects-import-items-based-on-a-query-and-hierarchy-view-improvements)**
-	*Feb 19, 2026*
+	The repository dashboard is now generally available. Originally introduced in public preview, the dashboard makes it easy to find, filter, and save custom views of repositories you have access to.
 
-	Import project items with a search query
-	When creating a new project, you can now add items using a search query, in addition to importing directly from a repository. This search supports the same filters available on the Issues page, including AND / OR keywords and nested queries, making it easier to start a project with exactly the items you want.
+6. **[GitHub Enterprise Server 3.20 release candidate is available](https://github.blog/changelog/2026-02-24-github-enterprise-server-3-20-release-candidate-is-available)**
+	*Feb 24, 2026*
 
-7. **[Workflow dispatch API now returns run IDs](https://github.blog/changelog/2026-02-19-workflow-dispatch-api-now-returns-run-ids)**
-	*Feb 19, 2026*
+	GitHub Enterprise Server (GHES) 3.20 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.20 release:
+	
+	The improved merge experience on the pull request page is now generally available. This is designed to help you better understand the state of your pull request and get it merged faster.
 
-	When you trigger a workflow using the GitHub Actions workflow dispatch API endpoint, you'll now have the option to receive metadata in the response that helps you map your request to the corresponding workflow run. Previously, this endpoint returned only a 204 No Content status code.
+7. **[Multi-agent workflows often fail. Here’s how to engineer ones that don’t.](https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/)**
+	*Feb 24, 2026*
 
-8. **[Copilot coding agent model picker for Copilot Business and Enterprise](https://github.blog/changelog/2026-02-19-model-picker-for-copilot-coding-agent-for-copilot-business-and-enterprise-users)**
-	*Feb 19, 2026*
+	If you've built a multi-agent workflow, you've probably seen it fail in a way that's hard to explain. The system completes, and agents take actions. But somewhere along the way, something subtle goes wrong.
 
-	Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment in the cloud. Once Copilot finishes work, it opens a pull request and requests your review.
+8. **[GitHub Code Quality: Organization-level dashboard in public preview](https://github.blog/changelog/2026-02-24-github-code-quality-organization-level-dashboard-in-public-preview)**
+	*Feb 24, 2026*
 
-9. **[Use Copilot coding agent with Windows projects](https://github.blog/changelog/2026-02-18-use-copilot-coding-agent-with-windows-projects)**
-	*Feb 18, 2026*
+	GitHub Code Quality now includes an organization-level dashboard in public preview. It gives organization owners, administrators, and developers a view of code health across repositories where code quality is enabled. To view the dashboard, go to the "Code quality" section under the organization-level Security tab.
 
-	Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions. By default, the agent use a Linux development environment.
+9. **[CodeQL adds Go 1.26 and Kotlin 2.3.10 support and improves query accuracy](https://github.blog/changelog/2026-02-24-codeql-adds-go-1-26-and-kotlin-2-3-10-support-and-improves-query-accuracy)**
+	*Feb 24, 2026*
+
+	CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've released CodeQL 2.24.2, which adds support for Go 1.26 and Kotlin 2.3.10 and includes improvements that enhance the accuracy of your code scanning results. Language and framework support
+	Go
+	
+	Go 1.26 is now supported for analysis.
+
+10. **[Enterprise-defined custom organization roles are generally available](https://github.blog/changelog/2026-02-23-enterprise-defined-custom-organization-roles-are-generally-available)**
+	*Feb 23, 2026*
+
+	Managing role-based access standards across many organizations can be challenging, whether administration is centralized or decentralized in your enterprise. Enterprise administrators can now create a set of custom organization roles available across all organizations in the enterprise.
 
 ---
 
