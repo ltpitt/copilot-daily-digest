@@ -259,12 +259,12 @@ Agent Mode: "Format all changed files, fix ESLint warnings, update README"
 
 **Day 1-2: Setup & Basics**
 1. Install Copilot in your IDE
-2. Complete [Introduction to GitHub Copilot](TRAININGS.md#introduction-to-github-copilot-beginner) (30 min)
+2. Complete [Introduction to GitHub Copilot](TRAININGS.md#introduction-to-github-copilot) (30 min)
 3. Practice inline suggestions on small tasks
 4. Try 5 different slash commands
 
 **Day 3-4: Chat & Prompts**
-1. Complete [GitHub Skills: Copilot Intro](TRAININGS.md#introduction-to-github-copilot-beginner) (1-2 hours)
+1. Complete [GitHub Skills: Copilot Intro](TRAININGS.md#introduction-to-github-copilot) (1-2 hours)
 2. Practice asking questions about your codebase
 3. Use chat variables: `#file`, `#selection`, `#codebase`
 4. Experiment with different prompt styles
@@ -278,7 +278,7 @@ Agent Mode: "Format all changed files, fix ESLint warnings, update README"
 ### Week 2: Intermediate Skills
 
 **Day 1-2: Advanced Features**
-1. Start [GitHub Copilot Fundamentals](TRAININGS.md#github-copilot-fundamentals-intermediate) (2-3 hours)
+1. Start [GitHub Copilot Fundamentals](TRAININGS.md#github-copilot-fundamentals) (2-3 hours)
 2. Learn Edit Mode for controlled multi-file changes
 3. Practice using chat participants: `@workspace`, `@terminal`
 
@@ -296,8 +296,8 @@ Agent Mode: "Format all changed files, fix ESLint warnings, update README"
 ### Week 3-4: Mastery
 
 **Ongoing Practice**:
-1. Complete [Expand Your Team with Copilot](TRAININGS.md#expand-your-team-with-copilot-intermediate) (2-3 hours)
-2. Take [Challenge Project: Build a Minigame](TRAININGS.md#challenge-project---build-a-minigame-with-github-copilot-intermediate) (1-2 hours)
+1. Complete [Expand Your Team with Copilot](TRAININGS.md#expand-your-team-with-copilot) (2-3 hours)
+2. Take [Challenge Project: Build a Minigame](TRAININGS.md#challenge-project---build-a-minigame-with-github-copilot) (1-2 hours)
 3. Experiment with Plan Mode for large features
 4. Integrate Copilot into your daily workflow
 
@@ -314,13 +314,13 @@ Agent Mode: "Format all changed files, fix ESLint warnings, update README"
 ### Official Free Courses
 
 **Start Here** (Total: 3-6 hours):
-1. [Introduction to GitHub Copilot](TRAININGS.md#introduction-to-github-copilot-beginner) - 30 min
-2. [GitHub Skills: Copilot Intro](TRAININGS.md#introduction-to-github-copilot-beginner) - 1-2 hours
-3. [GitHub Copilot Fundamentals](TRAININGS.md#github-copilot-fundamentals-intermediate) - 2-3 hours
+1. [Introduction to GitHub Copilot](TRAININGS.md#introduction-to-github-copilot) - 30 min
+2. [GitHub Skills: Copilot Intro](TRAININGS.md#introduction-to-github-copilot) - 1-2 hours
+3. [GitHub Copilot Fundamentals](TRAININGS.md#github-copilot-fundamentals) - 2-3 hours
 
 **Next Level** (Total: 4-6 hours):
-1. [Expand Your Team with Copilot](TRAININGS.md#expand-your-team-with-copilot-intermediate) - 2-3 hours
-2. [Challenge Project: Build a Minigame](TRAININGS.md#challenge-project---build-a-minigame-with-github-copilot-intermediate) - 1-2 hours
+1. [Expand Your Team with Copilot](TRAININGS.md#expand-your-team-with-copilot) - 2-3 hours
+2. [Challenge Project: Build a Minigame](TRAININGS.md#challenge-project---build-a-minigame-with-github-copilot) - 1-2 hours
 
 ### Certification Path
 

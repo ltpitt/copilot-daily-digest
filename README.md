@@ -9,7 +9,7 @@
 
 ## 🤖 How It Works
 
-1. **Daily scraping** - Good old deterministic data fetching from official sources (docs, blog, YouTube, GitHub Next)
+1. **Weekly scraping** - Good old deterministic data fetching from official sources (docs, blog, YouTube, GitHub Next) on Friday morning, when the GitHub release cycle for the week is complete
 2. **Change detection** - Smart diffing identifies what's actually new since yesterday
 3. **AI generation** - Copilot Coding Agent organizes everything into digestible content
 4. **PR creation** - Automated pull request ready for review and merge
