@@ -179,7 +179,7 @@ They do not represent official product roadmap.
 
 ### 🧪 [Project Name] (Status: WIP)
 Brief description emphasizing experimental nature.
-→ [Try it out](url)
+→ [Try it out](#)
 
 ## Archived Experiments
 [Completed or inactive projects]
@@ -253,8 +253,8 @@ GitHub strips emojis from anchor IDs. Do NOT use emojis in headings that are lin
 [Jump](#official-github-courses)
 
 <!-- ❌ WRONG -->
-## 🎓 Official GitHub Courses
-[Jump](#official-github-courses)  <!-- Link fails -->
+## Official GitHub Courses (Do not use emoji: 🎓)
+[Jump](#official-github-courses)  <!-- Link fails if emoji in heading -->
 ```
 
 ---

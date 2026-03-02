@@ -11,7 +11,6 @@ This module provides functions to:
 import difflib
 import hashlib
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -282,7 +281,7 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
 
     # Update doc_versions if this is a documentation file
     if file_path.startswith("docs/"):
-        doc_name = os.path.splitext(os.path.basename(file_path))[0]
+        doc_name = Path(file_path).stem
 
         if doc_name not in metadata["doc_versions"]:
             metadata["doc_versions"][doc_name] = {"history": []}
@@ -326,7 +325,7 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
 
     # Update stats
     metadata["stats"]["total_docs"] = len(
-        [k for k in metadata["content_hashes"].keys() if k.startswith("docs/")]
+        [k for k in metadata["content_hashes"] if k.startswith("docs/")]
     )
     metadata["stats"]["last_successful_scrape"] = get_current_timestamp()
 
@@ -342,7 +341,7 @@ def get_changes_summary() -> dict:
     """
     metadata = load_metadata()
 
-    summary = {
+    return {
         "last_updated": metadata.get("last_updated"),
         "total_docs": metadata["stats"]["total_docs"],
         "total_blog_posts": metadata["stats"]["total_blog_posts"],
@@ -352,7 +351,6 @@ def get_changes_summary() -> dict:
         "doc_versions_tracked": len(metadata["doc_versions"]),
     }
 
-    return summary
 
 
 def get_current_timestamp() -> str:

@@ -120,7 +120,7 @@ def fetch_json(url: str, retries: int = 3) -> dict:
     except json.JSONDecodeError as e:
         error_msg = f"Failed to parse JSON from {url}: {str(e)}"
         logger.error(error_msg)
-        raise ParsingError(error_msg)
+        raise ParsingError(error_msg) from e
 
 
 def is_url_accessible(url: str) -> bool:
@@ -256,8 +256,7 @@ def now_iso() -> str:
     Returns:
         str: ISO 8601 timestamp (e.g., '2025-12-08T15:30:00Z')
     """
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    return timestamp
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def parse_iso(timestamp: str) -> datetime:
@@ -416,8 +415,7 @@ def slugify(text: str) -> str:
     # Remove consecutive hyphens
     text = re.sub(r"-+", "-", text)
     # Remove leading/trailing hyphens
-    text = text.strip("-")
-    return text
+    return text.strip("-")
 
 
 # ============================================================================
@@ -449,7 +447,7 @@ def handle_scraper_error(func: Callable) -> Callable:
         except Exception as e:
             logger.error(f"Unexpected error in {func.__name__}: {str(e)}")
             logger.exception("Full traceback:")
-            raise ScraperError(f"Unexpected error in {func.__name__}: {str(e)}")
+            raise ScraperError(f"Unexpected error in {func.__name__}: {str(e)}") from e
 
     wrapper.__name__ = func.__name__
     wrapper.__doc__ = func.__doc__

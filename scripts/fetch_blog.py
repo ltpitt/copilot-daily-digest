@@ -7,7 +7,6 @@ Stores raw data and prevents duplicates using metadata tracking.
 
 import json
 import logging
-import os
 import re
 import sys
 from datetime import datetime
@@ -20,7 +19,7 @@ import requests
 
 
 # Add parent directory to path to import local modules
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 try:
     from scraper.metadata import add_blog_url, load_metadata
@@ -230,7 +229,7 @@ def parse_blog_entry(entry, source: str = "github-blog") -> Optional[Dict]:
         author = entry.get("author", "Unknown")
 
         # Create structured data
-        post_data = {
+        return {
             "title": title,
             "url": url,
             "published": published,
@@ -242,7 +241,6 @@ def parse_blog_entry(entry, source: str = "github-blog") -> Optional[Dict]:
             "scraped_at": datetime.utcnow().isoformat() + "Z",
         }
 
-        return post_data
 
     except Exception as e:
         logger.error(f"Error parsing entry: {e}")
@@ -310,9 +308,8 @@ def create_slug(title: str) -> str:
     slug = slug.strip("-")
 
     # Limit length
-    slug = slug[:100]
+    return slug[:100]
 
-    return slug
 
 
 def save_blog_posts(posts: List[Dict]) -> int:
@@ -347,10 +344,7 @@ def save_blog_posts(posts: List[Dict]) -> int:
             published = post.get("published", "")
             if published:
                 # Handle various date formats
-                if "T" in published:
-                    date_part = published.split("T")[0]
-                else:
-                    date_part = published[:10]
+                date_part = published.split("T")[0] if "T" in published else published[:10]
             else:
                 date_part = datetime.utcnow().strftime("%Y-%m-%d")
         except Exception as e:
