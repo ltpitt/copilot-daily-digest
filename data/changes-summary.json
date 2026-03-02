@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-02-25T18:06:45.558472+00:00",
+  "generated_at": "2026-02-27T07:23:04.932803+00:00",
   "has_changes": true,
-  "total_changes": 32,
+  "total_changes": 29,
   "docs": {
     "changed": [
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-25T18:06:08Z",
+        "timestamp": "2026-02-27T07:22:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-25T18:06:16Z",
+        "timestamp": "2026-02-27T07:22:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-25T18:06:21Z",
+        "timestamp": "2026-02-27T07:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-25T18:06:13Z",
+        "timestamp": "2026-02-27T07:22:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-25T18:06:27Z",
+        "timestamp": "2026-02-27T07:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-25T18:06:14Z",
+        "timestamp": "2026-02-27T07:22:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-25T18:06:24Z",
+        "timestamp": "2026-02-27T07:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-25T18:06:09Z",
+        "timestamp": "2026-02-27T07:22:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-25T18:06:18Z",
+        "timestamp": "2026-02-27T07:22:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-25T18:06:26Z",
+        "timestamp": "2026-02-27T07:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-25T18:06:29Z",
+        "timestamp": "2026-02-27T07:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-25T18:06:19Z",
+        "timestamp": "2026-02-27T07:22:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-25T18:06:22Z",
+        "timestamp": "2026-02-27T07:22:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-25T18:06:12Z",
+        "timestamp": "2026-02-27T07:22:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,114 +110,96 @@
     ]
   },
   "blog": {
-    "new_count": 10,
+    "new_count": 11,
     "new_posts": [
       {
-        "title": "GitHub Copilot CLI is now generally available",
-        "url": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available",
-        "date": "2026-02-25T17:01:29Z",
-        "summary": "<p>GitHub Copilot CLI&#8212;the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line&#8212;is now generally available for all paid Copilot subscribers. Si"
+        "title": "GitHub Actions now supports uploading and downloading non-zipped artifacts",
+        "url": "https://github.blog/changelog/2026-02-26-github-actions-now-supports-uploading-and-downloading-non-zipped-artifacts",
+        "date": "2026-02-26T22:36:48Z",
+        "summary": "<p>GitHub Actions now supports uploading and downloading non-zipped artifacts within workflows. Previously, when you uploaded an artifact using the actions/upload-artifact action it was automatically "
       },
       {
-        "title": "GitHub Enterprise Server 3.20 release candidate is available",
-        "url": "https://github.blog/changelog/2026-02-24-github-enterprise-server-3-20-release-candidate-is-available",
-        "date": "2026-02-24T23:37:14Z",
-        "summary": "<p>GitHub Enterprise Server (GHES) 3.20 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.20 release: The improved merge"
+        "title": "What’s new with GitHub Copilot coding agent",
+        "url": "https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/",
+        "date": "2026-02-26T20:47:02Z",
+        "summary": "<p>GitHub Copilot coding agent now includes a model picker, self-review, built-in security scanning, custom agents, and CLI handoff. Here's what's new and how to use it. </p>\n<p>The post <a href=\"http"
       },
       {
-        "title": "CodeQL adds Go 1.26 and Kotlin 2.3.10 support and improves query accuracy",
-        "url": "https://github.blog/changelog/2026-02-24-codeql-adds-go-1-26-and-kotlin-2-3-10-support-and-improves-query-accuracy",
-        "date": "2026-02-24T22:20:46Z",
-        "summary": "<p>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve released CodeQL 2.24.2, which adds support for Go 1.26 and&#82"
+        "title": "Copilot metrics report URLs update",
+        "url": "https://github.blog/changelog/2026-02-26-copilot-metrics-report-urls-update",
+        "date": "2026-02-26T20:11:34Z",
+        "summary": "<p>The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven&#8217;t changed. Action&#8230;</p>"
       },
       {
-        "title": "Dependabot can group updates by dependency name across multiple directories",
-        "url": "https://github.blog/changelog/2026-02-24-dependabot-can-group-updates-by-dependency-name-across-multiple-directories",
-        "date": "2026-02-24T21:28:17Z",
-        "summary": "<p>Dependabot now supports grouping updates by dependency name across multiple directories, making it easier to manage dependency upgrades in repositories with more than one package or service. What&#"
+        "title": "Enterprise AI Controls & agent control plane now generally available",
+        "url": "https://github.blog/changelog/2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available",
+        "date": "2026-02-26T20:10:23Z",
+        "summary": "<p>We are now announcing general availability of GitHub&#8217;s Enterprise AI Controls and agent control plane, a suite of enterprise governance features designed to give GitHub Enterprise administrat"
       },
       {
-        "title": "GitHub Code Quality: Organization-level dashboard in public preview",
-        "url": "https://github.blog/changelog/2026-02-24-github-code-quality-organization-level-dashboard-in-public-preview",
-        "date": "2026-02-24T19:49:29Z",
-        "summary": "<p>GitHub Code Quality now includes an organization-level dashboard in public preview. It gives organization owners, administrators, and developers a view of code health across repositories where code"
+        "title": "Claude and Codex now available for Copilot Business & Pro users",
+        "url": "https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users",
+        "date": "2026-02-26T17:18:39Z",
+        "summary": "<p>Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Business and Copilot Pro customers. Copilot Enterprise and Pro+ customers received access earlier this month, and"
       },
       {
-        "title": "Repository dashboard is now generally available",
-        "url": "https://github.blog/changelog/2026-02-24-repository-dashboard-is-now-generally-available",
-        "date": "2026-02-24T18:49:44Z",
-        "summary": "<p>The repository dashboard is now generally available. Originally introduced in public preview, the dashboard makes it easy to find, filter, and save custom views of repositories you have access to.&"
+        "title": "macos-26 is now generally available for GitHub-hosted runners",
+        "url": "https://github.blog/changelog/2026-02-26-macos-26-is-now-generally-available-for-github-hosted-runners",
+        "date": "2026-02-26T16:00:59Z",
+        "summary": "<p>The macOS 26 runner image is now generally available for GitHub Actions. Previously in public preview, macOS 26 runners give you a fully supported environment for building and testing apps&#8230;</"
       },
       {
-        "title": "Multi-agent workflows often fail. Here’s how to engineer ones that don’t.",
-        "url": "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
-        "date": "2026-02-24T16:00:00Z",
-        "summary": "<p>Most multi-agent workflow failures come down to missing structure, not model capability. Learn the three engineering patterns that make agent systems reliable.</p>\n<p>The post <a href=\"https://gith"
+        "title": "Copilot Content Exclusion REST API in public preview",
+        "url": "https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview",
+        "date": "2026-02-26T15:37:48Z",
+        "summary": "<p>Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and"
       },
       {
-        "title": "Enterprise-defined custom organization roles are generally available",
-        "url": "https://github.blog/changelog/2026-02-23-enterprise-defined-custom-organization-roles-are-generally-available",
-        "date": "2026-02-24T02:33:02Z",
-        "summary": "<p>Managing role-based access standards across many organizations can be challenging, whether administration is centralized or decentralized in your enterprise. Enterprise administrators can now creat"
+        "title": "GitHub Mobile: Track coding agent progress in real time with Live Notifications",
+        "url": "https://github.blog/changelog/2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications",
+        "date": "2026-02-26T10:58:22Z",
+        "summary": "<p>Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you&#8217;re on&#8230"
       },
       {
-        "title": "Enterprise team support in organization APIs",
-        "url": "https://github.blog/changelog/2026-02-23-enterprise-team-support-in-organization-apis",
-        "date": "2026-02-23T16:25:07Z",
-        "summary": "<p>Organization owners within GitHub Enterprise can now discover and interact with both enterprise teams and organization teams through existing organization API endpoints. Previously, retrieving a co"
+        "title": "Improved search on the issues dashboard",
+        "url": "https://github.blog/changelog/2026-02-26-improved-search-on-the-issues-dashboard",
+        "date": "2026-02-26T09:29:08Z",
+        "summary": "<p>The new GitHub Issues semantic search will be rolling out to public preview on the issues dashboard over the coming week, meaning you can use natural language to find relevant&#8230;</p>\n<p>The pos"
       },
       {
-        "title": "Organization-level Copilot usage metrics dashboard available in public preview",
-        "url": "https://github.blog/changelog/2026-02-20-organization-level-copilot-usage-metrics-dashboard-available-in-public-preview",
-        "date": "2026-02-20T19:01:39Z",
-        "summary": "<p>Until now, Copilot usage metrics dashboards were only available at the enterprise level. With this release, organization owners can view GitHub Copilot usage metrics for their organization directly"
+        "title": "Generate pull request titles with Copilot on the web",
+        "url": "https://github.blog/changelog/2026-02-25-generate-pull-request-titles-with-copilot-on-the-web",
+        "date": "2026-02-25T23:51:39Z",
+        "summary": "<p>You can now use GitHub Copilot to generate titles for your pull requests (PRs) on github.com. How it works When you open a new PR or edit an existing PR&#8230;</p>\n<p>The post <a href=\"https://gith"
+      },
+      {
+        "title": "GPT-5.3-Codex is now available in github.com, GitHub Mobile, and Visual Studio",
+        "url": "https://github.blog/changelog/2026-02-25-gpt-5-3-codex-is-now-available-in-github-com-github-mobile-and-visual-studio",
+        "date": "2026-02-25T23:25:30Z",
+        "summary": "<p>GPT-5.3-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, GitHu"
       }
     ]
   },
   "videos": {
-    "new_count": 7,
+    "new_count": 3,
     "new_videos": [
       {
-        "title": "GitHub introduces agentic workflows",
-        "video_id": "eHN3w3fRb_M",
-        "date": "2026-02-25T17:01:06+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/eHN3w3fRb_M/hqdefault.jpg"
+        "title": "Code & Community with Copilot CLI",
+        "video_id": "bRtK041JFFE",
+        "date": "2026-02-26T19:53:26+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/bRtK041JFFE/hqdefault.jpg"
       },
       {
-        "title": "🐤 Jueves de Quack - Intro al Copilot CLI 🐤",
-        "video_id": "vkMLCIaoADI",
-        "date": "2026-02-25T13:55:14+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/vkMLCIaoADI/hqdefault.jpg"
+        "title": "GitHub for Beginners is back!",
+        "video_id": "Dypm17qVYQk",
+        "date": "2026-02-26T18:54:56+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/Dypm17qVYQk/hqdefault.jpg"
       },
       {
-        "title": "New GitHub features to prevent unwanted pull requests",
-        "video_id": "Jr3CwgsKO1U",
-        "date": "2026-02-23T18:00:24+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/Jr3CwgsKO1U/hqdefault.jpg"
-      },
-      {
-        "title": "Open Source Friday with GitHub Secure OSS Fund",
-        "video_id": "l8gSLQIBdjE",
-        "date": "2026-02-21T01:17:40+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/l8gSLQIBdjE/hqdefault.jpg"
-      },
-      {
-        "title": "The Download: Agentic Workflows, new AI models, OpenClaw news & more",
-        "video_id": "f6F7yQUd8rs",
-        "date": "2026-02-20T15:01:10+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/f6F7yQUd8rs/hqdefault.jpg"
-      },
-      {
-        "title": "Rubber Duck Thursdays | Let's talk about GitHub Agentic Workflows!",
-        "video_id": "Dw2S-VQDvhs",
-        "date": "2026-02-20T08:13:41+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/Dw2S-VQDvhs/hqdefault.jpg"
-      },
-      {
-        "title": "VS Code Live: Agent Sessions Day",
-        "video_id": "Osvu53c0yYg",
-        "date": "2026-02-19T20:28:00+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/Osvu53c0yYg/hqdefault.jpg"
+        "title": "How I built an AI Python tutor with the GitHub Copilot SDK",
+        "video_id": "N3my6W_Rdwg",
+        "date": "2026-02-26T17:00:37+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/N3my6W_Rdwg/hqdefault.jpg"
       }
     ]
   },
@@ -225,105 +207,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on February 25, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-chat.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 10 new articles\n  - \"GitHub Copilot CLI is now generally available\" (2026-02-25)\n  - \"GitHub Enterprise Server 3.20 release candidate is available\" (2026-02-24)\n  - \"CodeQL adds Go 1.26 and Kotlin 2.3.10 support and improves query accuracy\" (2026-02-24)\n  - \"Dependabot can group updates by dependency name across multiple directories\" (2026-02-24)\n  - \"GitHub Code Quality: Organization-level dashboard in public preview\" (2026-02-24)\n\n🎥 Videos: 7 new videos\n  - \"GitHub introduces agentic workflows\" (2026-02-25)\n  - \"🐤 Jueves de Quack - Intro al Copilot CLI 🐤\" (2026-02-25)\n  - \"New GitHub features to prevent unwanted pull requests\" (2026-02-23)\n  - \"Open Source Friday with GitHub Secure OSS Fund\" (2026-02-21)\n  - \"The Download: Agentic Workflows, new AI models, OpenClaw news & more\" (2026-02-20)\n\nTotal: 32 changes detected",
+  "summary_text": "Changes detected on February 27, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-chat.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 11 new articles\n  - \"GitHub Actions now supports uploading and downloading non-zipped artifacts\" (2026-02-26)\n  - \"What’s new with GitHub Copilot coding agent\" (2026-02-26)\n  - \"Copilot metrics report URLs update\" (2026-02-26)\n  - \"Enterprise AI Controls & agent control plane now generally available\" (2026-02-26)\n  - \"Claude and Codex now available for Copilot Business & Pro users\" (2026-02-26)\n\n🎥 Videos: 3 new videos\n  - \"Code & Community with Copilot CLI\" (2026-02-26)\n  - \"GitHub for Beginners is back!\" (2026-02-26)\n  - \"How I built an AI Python tutor with the GitHub Copilot SDK\" (2026-02-26)\n\nTotal: 29 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 31,
+    "total_changes": 28,
     "new_docs": [
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-02-25T18:06:08Z",
+        "timestamp": "2026-02-27T07:22:34Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-02-25T18:06:16Z",
+        "timestamp": "2026-02-27T07:22:41Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-02-25T18:06:21Z",
+        "timestamp": "2026-02-27T07:22:44Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-02-25T18:06:13Z",
+        "timestamp": "2026-02-27T07:22:38Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-02-25T18:06:27Z",
+        "timestamp": "2026-02-27T07:22:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-02-25T18:06:14Z",
+        "timestamp": "2026-02-27T07:22:39Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-02-25T18:06:24Z",
+        "timestamp": "2026-02-27T07:22:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-02-25T18:06:09Z",
+        "timestamp": "2026-02-27T07:22:36Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-02-25T18:06:18Z",
+        "timestamp": "2026-02-27T07:22:42Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-02-25T18:06:26Z",
+        "timestamp": "2026-02-27T07:22:49Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-02-25T18:06:29Z",
+        "timestamp": "2026-02-27T07:22:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-02-25T18:06:19Z",
+        "timestamp": "2026-02-27T07:22:43Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-02-25T18:06:22Z",
+        "timestamp": "2026-02-27T07:22:45Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-02-25T18:06:12Z",
+        "timestamp": "2026-02-27T07:22:37Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -331,108 +313,90 @@
     ],
     "new_blog_posts": [
       {
-        "title": "GitHub Copilot CLI is now generally available",
-        "url": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available",
-        "date": "2026-02-25T17:01:29Z",
-        "summary": "<p>GitHub Copilot CLI&#8212;the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line&#8212;is now generally available for all paid Copilot subscribers. Si"
+        "title": "GitHub Actions now supports uploading and downloading non-zipped artifacts",
+        "url": "https://github.blog/changelog/2026-02-26-github-actions-now-supports-uploading-and-downloading-non-zipped-artifacts",
+        "date": "2026-02-26T22:36:48Z",
+        "summary": "<p>GitHub Actions now supports uploading and downloading non-zipped artifacts within workflows. Previously, when you uploaded an artifact using the actions/upload-artifact action it was automatically "
       },
       {
-        "title": "GitHub Enterprise Server 3.20 release candidate is available",
-        "url": "https://github.blog/changelog/2026-02-24-github-enterprise-server-3-20-release-candidate-is-available",
-        "date": "2026-02-24T23:37:14Z",
-        "summary": "<p>GitHub Enterprise Server (GHES) 3.20 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.20 release: The improved merge"
+        "title": "What’s new with GitHub Copilot coding agent",
+        "url": "https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/",
+        "date": "2026-02-26T20:47:02Z",
+        "summary": "<p>GitHub Copilot coding agent now includes a model picker, self-review, built-in security scanning, custom agents, and CLI handoff. Here's what's new and how to use it. </p>\n<p>The post <a href=\"http"
       },
       {
-        "title": "CodeQL adds Go 1.26 and Kotlin 2.3.10 support and improves query accuracy",
-        "url": "https://github.blog/changelog/2026-02-24-codeql-adds-go-1-26-and-kotlin-2-3-10-support-and-improves-query-accuracy",
-        "date": "2026-02-24T22:20:46Z",
-        "summary": "<p>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve released CodeQL 2.24.2, which adds support for Go 1.26 and&#82"
+        "title": "Copilot metrics report URLs update",
+        "url": "https://github.blog/changelog/2026-02-26-copilot-metrics-report-urls-update",
+        "date": "2026-02-26T20:11:34Z",
+        "summary": "<p>The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven&#8217;t changed. Action&#8230;</p>"
       },
       {
-        "title": "Dependabot can group updates by dependency name across multiple directories",
-        "url": "https://github.blog/changelog/2026-02-24-dependabot-can-group-updates-by-dependency-name-across-multiple-directories",
-        "date": "2026-02-24T21:28:17Z",
-        "summary": "<p>Dependabot now supports grouping updates by dependency name across multiple directories, making it easier to manage dependency upgrades in repositories with more than one package or service. What&#"
+        "title": "Enterprise AI Controls & agent control plane now generally available",
+        "url": "https://github.blog/changelog/2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available",
+        "date": "2026-02-26T20:10:23Z",
+        "summary": "<p>We are now announcing general availability of GitHub&#8217;s Enterprise AI Controls and agent control plane, a suite of enterprise governance features designed to give GitHub Enterprise administrat"
       },
       {
-        "title": "GitHub Code Quality: Organization-level dashboard in public preview",
-        "url": "https://github.blog/changelog/2026-02-24-github-code-quality-organization-level-dashboard-in-public-preview",
-        "date": "2026-02-24T19:49:29Z",
-        "summary": "<p>GitHub Code Quality now includes an organization-level dashboard in public preview. It gives organization owners, administrators, and developers a view of code health across repositories where code"
+        "title": "Claude and Codex now available for Copilot Business & Pro users",
+        "url": "https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users",
+        "date": "2026-02-26T17:18:39Z",
+        "summary": "<p>Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Business and Copilot Pro customers. Copilot Enterprise and Pro+ customers received access earlier this month, and"
       },
       {
-        "title": "Repository dashboard is now generally available",
-        "url": "https://github.blog/changelog/2026-02-24-repository-dashboard-is-now-generally-available",
-        "date": "2026-02-24T18:49:44Z",
-        "summary": "<p>The repository dashboard is now generally available. Originally introduced in public preview, the dashboard makes it easy to find, filter, and save custom views of repositories you have access to.&"
+        "title": "macos-26 is now generally available for GitHub-hosted runners",
+        "url": "https://github.blog/changelog/2026-02-26-macos-26-is-now-generally-available-for-github-hosted-runners",
+        "date": "2026-02-26T16:00:59Z",
+        "summary": "<p>The macOS 26 runner image is now generally available for GitHub Actions. Previously in public preview, macOS 26 runners give you a fully supported environment for building and testing apps&#8230;</"
       },
       {
-        "title": "Multi-agent workflows often fail. Here’s how to engineer ones that don’t.",
-        "url": "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
-        "date": "2026-02-24T16:00:00Z",
-        "summary": "<p>Most multi-agent workflow failures come down to missing structure, not model capability. Learn the three engineering patterns that make agent systems reliable.</p>\n<p>The post <a href=\"https://gith"
+        "title": "Copilot Content Exclusion REST API in public preview",
+        "url": "https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview",
+        "date": "2026-02-26T15:37:48Z",
+        "summary": "<p>Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and"
       },
       {
-        "title": "Enterprise-defined custom organization roles are generally available",
-        "url": "https://github.blog/changelog/2026-02-23-enterprise-defined-custom-organization-roles-are-generally-available",
-        "date": "2026-02-24T02:33:02Z",
-        "summary": "<p>Managing role-based access standards across many organizations can be challenging, whether administration is centralized or decentralized in your enterprise. Enterprise administrators can now creat"
+        "title": "GitHub Mobile: Track coding agent progress in real time with Live Notifications",
+        "url": "https://github.blog/changelog/2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications",
+        "date": "2026-02-26T10:58:22Z",
+        "summary": "<p>Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you&#8217;re on&#8230"
       },
       {
-        "title": "Enterprise team support in organization APIs",
-        "url": "https://github.blog/changelog/2026-02-23-enterprise-team-support-in-organization-apis",
-        "date": "2026-02-23T16:25:07Z",
-        "summary": "<p>Organization owners within GitHub Enterprise can now discover and interact with both enterprise teams and organization teams through existing organization API endpoints. Previously, retrieving a co"
+        "title": "Improved search on the issues dashboard",
+        "url": "https://github.blog/changelog/2026-02-26-improved-search-on-the-issues-dashboard",
+        "date": "2026-02-26T09:29:08Z",
+        "summary": "<p>The new GitHub Issues semantic search will be rolling out to public preview on the issues dashboard over the coming week, meaning you can use natural language to find relevant&#8230;</p>\n<p>The pos"
       },
       {
-        "title": "Organization-level Copilot usage metrics dashboard available in public preview",
-        "url": "https://github.blog/changelog/2026-02-20-organization-level-copilot-usage-metrics-dashboard-available-in-public-preview",
-        "date": "2026-02-20T19:01:39Z",
-        "summary": "<p>Until now, Copilot usage metrics dashboards were only available at the enterprise level. With this release, organization owners can view GitHub Copilot usage metrics for their organization directly"
+        "title": "Generate pull request titles with Copilot on the web",
+        "url": "https://github.blog/changelog/2026-02-25-generate-pull-request-titles-with-copilot-on-the-web",
+        "date": "2026-02-25T23:51:39Z",
+        "summary": "<p>You can now use GitHub Copilot to generate titles for your pull requests (PRs) on github.com. How it works When you open a new PR or edit an existing PR&#8230;</p>\n<p>The post <a href=\"https://gith"
+      },
+      {
+        "title": "GPT-5.3-Codex is now available in github.com, GitHub Mobile, and Visual Studio",
+        "url": "https://github.blog/changelog/2026-02-25-gpt-5-3-codex-is-now-available-in-github-com-github-mobile-and-visual-studio",
+        "date": "2026-02-25T23:25:30Z",
+        "summary": "<p>GPT-5.3-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You&#8217;ll now be able to access the model in GitHub Copilot Chat on github.com, GitHu"
       }
     ],
     "new_videos": [
       {
-        "title": "GitHub introduces agentic workflows",
-        "video_id": "eHN3w3fRb_M",
-        "date": "2026-02-25T17:01:06+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/eHN3w3fRb_M/hqdefault.jpg"
+        "title": "Code & Community with Copilot CLI",
+        "video_id": "bRtK041JFFE",
+        "date": "2026-02-26T19:53:26+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/bRtK041JFFE/hqdefault.jpg"
       },
       {
-        "title": "🐤 Jueves de Quack - Intro al Copilot CLI 🐤",
-        "video_id": "vkMLCIaoADI",
-        "date": "2026-02-25T13:55:14+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/vkMLCIaoADI/hqdefault.jpg"
+        "title": "GitHub for Beginners is back!",
+        "video_id": "Dypm17qVYQk",
+        "date": "2026-02-26T18:54:56+00:00",
+        "thumbnail": "https://i1.ytimg.com/vi/Dypm17qVYQk/hqdefault.jpg"
       },
       {
-        "title": "New GitHub features to prevent unwanted pull requests",
-        "video_id": "Jr3CwgsKO1U",
-        "date": "2026-02-23T18:00:24+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/Jr3CwgsKO1U/hqdefault.jpg"
-      },
-      {
-        "title": "Open Source Friday with GitHub Secure OSS Fund",
-        "video_id": "l8gSLQIBdjE",
-        "date": "2026-02-21T01:17:40+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/l8gSLQIBdjE/hqdefault.jpg"
-      },
-      {
-        "title": "The Download: Agentic Workflows, new AI models, OpenClaw news & more",
-        "video_id": "f6F7yQUd8rs",
-        "date": "2026-02-20T15:01:10+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/f6F7yQUd8rs/hqdefault.jpg"
-      },
-      {
-        "title": "Rubber Duck Thursdays | Let's talk about GitHub Agentic Workflows!",
-        "video_id": "Dw2S-VQDvhs",
-        "date": "2026-02-20T08:13:41+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/Dw2S-VQDvhs/hqdefault.jpg"
-      },
-      {
-        "title": "VS Code Live: Agent Sessions Day",
-        "video_id": "Osvu53c0yYg",
-        "date": "2026-02-19T20:28:00+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/Osvu53c0yYg/hqdefault.jpg"
+        "title": "How I built an AI Python tutor with the GitHub Copilot SDK",
+        "video_id": "N3my6W_Rdwg",
+        "date": "2026-02-26T17:00:37+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/N3my6W_Rdwg/hqdefault.jpg"
       }
     ]
   }

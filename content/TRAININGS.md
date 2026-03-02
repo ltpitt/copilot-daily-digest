@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: February 25, 2026
+> **Last Updated**: February 27, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -16,7 +16,7 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ## Official GitHub Courses
 
-### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
+### [Introduction to GitHub Copilot](https://skills.github.com/)
 
 **Provider**: GitHub Skills | **Level**: Beginner
 
@@ -118,7 +118,7 @@ Master GitHub Copilot from basics to advanced. Learn AI pair programming, prompt
 
 ### Beginner Path
 1. [Introduction to GitHub Copilot (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
-2. [Introduction to GitHub Copilot (GitHub Skills)](https://github.com/skills/copilot-intro)
+2. [Introduction to GitHub Copilot (GitHub Skills)](https://skills.github.com/)
 3. Practice with hands-on coding
 
 ### Intermediate Path

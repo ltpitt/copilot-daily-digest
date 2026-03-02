@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: February 25, 2026
+**Last Updated**: February 27, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,33 +12,30 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [GitHub Copilot CLI is now generally available](https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available)
-*Feb 25, 2026*
+#### 1. [What’s new with GitHub Copilot coding agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/)
+*Feb 26, 2026*
 
-GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all paid Copilot subscribers. Since launching in public preview in September 2025, we've shipped hundreds of improvements shaped by your feedback.
+You open an issue before lunch. By the time you're back, there's a pull request waiting. That's what GitHub Copilot coding agent is built for.
 
-#### 2. [GitHub introduces agentic workflows](https://www.youtube.com/shorts/eHN3w3fRb_M)
-*Feb 25, 2026*
+#### 2. [Copilot Content Exclusion REST API in public preview](https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview)
+*Feb 26, 2026*
 
-GitHub has introduced agentic workflows, users can describe tasks in a markdown file, which compiles into a GitHub Actions workflow. These workflows can be executed by ai agents whether it's Copilot, Claude Code, or OpenAI Codex.
+Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and supports GET and SET operations at both the organization and enterprise levels, enabling easier automation and governance at scale.
 
-#### 3. [🐤 Jueves de Quack - Intro al Copilot CLI 🐤](https://www.youtube.com/watch?v=vkMLCIaoADI)
-*Feb 25, 2026*
+#### 3. [GitHub Mobile: Track coding agent progress in real time with Live Notifications](https://github.blog/changelog/2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications)
+*Feb 26, 2026*
 
-GitHub Copilot ya no vive solo en el editor. También está en la terminal.
+Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you're on the go. Agent sessions started from GitHub.com, GitHub Mobile, or the CLI can surface real-time updates directly on your phone.
 
-En este stream vamos a empezar desde cero con el GitHub Copilot CLI: qué es, cómo funciona, y cómo puedes usarlo para convertir instrucciones en comandos reales, entender...
+#### 4. [Enterprise AI Controls & agent control plane now generally available](https://github.blog/changelog/2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available)
+*Feb 26, 2026*
 
-#### 4. [Dependabot can group updates by dependency name across multiple directories](https://github.blog/changelog/2026-02-24-dependabot-can-group-updates-by-dependency-name-across-multiple-directories)
-*Feb 24, 2026*
+We are now announcing general availability of GitHub's Enterprise AI Controls and agent control plane, a suite of enterprise governance features designed to give GitHub Enterprise administrators deeper control and greater auditability around the use of AI controls and agents across their environments.
 
-Dependabot now supports grouping updates by dependency name across multiple directories, making it easier to manage dependency upgrades in repositories with more than one package or service. What's changed
-Previously, Dependabot generated a separate pull request for each directory where a dependency needed updating.
+#### 5. [Claude and Codex now available for Copilot Business & Pro users](https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users)
+*Feb 26, 2026*
 
-#### 5. [Repository dashboard is now generally available](https://github.blog/changelog/2026-02-24-repository-dashboard-is-now-generally-available)
-*Feb 24, 2026*
-
-The repository dashboard is now generally available. Originally introduced in public preview, the dashboard makes it easy to find, filter, and save custom views of repositories you have access to.
+Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Business and Copilot Pro customers. Copilot Enterprise and Pro+ customers received access earlier this month, and today we're expanding availability to more teams. You can run Claude, Codex, and Copilot directly inside github.com, GitHub Mobile, and VS Code, all within your existing GitHub workflows.
 
 ---
 
@@ -46,63 +43,57 @@ The repository dashboard is now generally available. Originally introduced in pu
 
 ### Significant Updates
 
-1. **[GitHub Copilot CLI is now generally available](https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available)**
-	*Feb 25, 2026*
+1. **[What’s new with GitHub Copilot coding agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/)**
+	*Feb 26, 2026*
 
-	GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all paid Copilot subscribers. Since launching in public preview in September 2025, we've shipped hundreds of improvements shaped by your feedback.
+	You open an issue before lunch. By the time you're back, there's a pull request waiting. That's what GitHub Copilot coding agent is built for.
 
-2. **[GitHub introduces agentic workflows](https://www.youtube.com/shorts/eHN3w3fRb_M)**
-	*Feb 25, 2026*
+2. **[Copilot Content Exclusion REST API in public preview](https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview)**
+	*Feb 26, 2026*
 
-	GitHub has introduced agentic workflows, users can describe tasks in a markdown file, which compiles into a GitHub Actions workflow.
+	Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and supports GET and SET operations at both the organization and enterprise levels, enabling easier automation and governance at scale.
 
-3. **[🐤 Jueves de Quack - Intro al Copilot CLI 🐤](https://www.youtube.com/watch?v=vkMLCIaoADI)**
-	*Feb 25, 2026*
+3. **[GitHub Mobile: Track coding agent progress in real time with Live Notifications](https://github.blog/changelog/2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications)**
+	*Feb 26, 2026*
 
-	GitHub Copilot ya no vive solo en el editor. También está en la terminal.
+	Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you're on the go. Agent sessions started from GitHub.com, GitHub Mobile, or the CLI can surface real-time updates directly on your phone.
 
-En este stream vamos a empezar desde cero con el GitHub Copilot CLI: qué es, cómo funciona, y cómo puedes usarlo para...
+4. **[Enterprise AI Controls & agent control plane now generally available](https://github.blog/changelog/2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available)**
+	*Feb 26, 2026*
 
-4. **[Dependabot can group updates by dependency name across multiple directories](https://github.blog/changelog/2026-02-24-dependabot-can-group-updates-by-dependency-name-across-multiple-directories)**
-	*Feb 24, 2026*
+	We are now announcing general availability of GitHub's Enterprise AI Controls and agent control plane, a suite of enterprise governance features designed to give GitHub Enterprise administrators deeper control and greater auditability around the use of AI controls and agents across their environments.
 
-	Dependabot now supports grouping updates by dependency name across multiple directories, making it easier to manage dependency upgrades in repositories with more than one package or service. What's changed
-	Previously, Dependabot generated a separate pull request for each directory where a dependency needed updating.
+5. **[Claude and Codex now available for Copilot Business & Pro users](https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users)**
+	*Feb 26, 2026*
 
-5. **[Repository dashboard is now generally available](https://github.blog/changelog/2026-02-24-repository-dashboard-is-now-generally-available)**
-	*Feb 24, 2026*
+	Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Business and Copilot Pro customers. Copilot Enterprise and Pro+ customers received access earlier this month, and today we're expanding availability to more teams. You can run Claude, Codex, and Copilot directly inside github.com, GitHub Mobile, and VS Code, all within your existing GitHub workflows.
 
-	The repository dashboard is now generally available. Originally introduced in public preview, the dashboard makes it easy to find, filter, and save custom views of repositories you have access to.
+6. **[GitHub Actions now supports uploading and downloading non-zipped artifacts](https://github.blog/changelog/2026-02-26-github-actions-now-supports-uploading-and-downloading-non-zipped-artifacts)**
+	*Feb 26, 2026*
 
-6. **[GitHub Enterprise Server 3.20 release candidate is available](https://github.blog/changelog/2026-02-24-github-enterprise-server-3-20-release-candidate-is-available)**
-	*Feb 24, 2026*
+	GitHub Actions now supports uploading and downloading non-zipped artifacts within workflows. Previously, when you uploaded an artifact using the actions/upload-artifact action it was automatically zipped. Downloading it using the actions/download-artifact action or directly from the browser would download this file zipped.
 
-	GitHub Enterprise Server (GHES) 3.20 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.20 release:
+7. **[Copilot metrics report URLs update](https://github.blog/changelog/2026-02-26-copilot-metrics-report-urls-update)**
+	*Feb 26, 2026*
+
+	The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven't changed. Action required
 	
-	The improved merge experience on the pull request page is now generally available. This is designed to help you better understand the state of your pull request and get it merged faster.
+	If your firewall rules allowlist specific CDN domains, add copilot-reports-production-*.b01.azurefd.net alongside the existing copilot-reports-*.b01.azurefd.net pattern.
 
-7. **[Multi-agent workflows often fail. Here’s how to engineer ones that don’t.](https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/)**
-	*Feb 24, 2026*
+8. **[macos-26 is now generally available for GitHub-hosted runners](https://github.blog/changelog/2026-02-26-macos-26-is-now-generally-available-for-github-hosted-runners)**
+	*Feb 26, 2026*
 
-	If you've built a multi-agent workflow, you've probably seen it fail in a way that's hard to explain. The system completes, and agents take actions. But somewhere along the way, something subtle goes wrong.
+	The macOS 26 runner image is now generally available for GitHub Actions. Previously in public preview, macOS 26 runners give you a fully supported environment for building and testing apps with the latest macOS and Xcode tooling. macOS 26 runners run natively on Apple Silicon (arm64) and also support Intel (x64).
 
-8. **[GitHub Code Quality: Organization-level dashboard in public preview](https://github.blog/changelog/2026-02-24-github-code-quality-organization-level-dashboard-in-public-preview)**
-	*Feb 24, 2026*
+9. **[Improved search on the issues dashboard](https://github.blog/changelog/2026-02-26-improved-search-on-the-issues-dashboard)**
+	*Feb 26, 2026*
 
-	GitHub Code Quality now includes an organization-level dashboard in public preview. It gives organization owners, administrators, and developers a view of code health across repositories where code quality is enabled. To view the dashboard, go to the "Code quality" section under the organization-level Security tab.
+	The new GitHub Issues semantic search will be rolling out to public preview on the issues dashboard over the coming week, meaning you can use natural language to find relevant issues across repositories. This follows our release in January of the improved search for the issues index.
 
-9. **[CodeQL adds Go 1.26 and Kotlin 2.3.10 support and improves query accuracy](https://github.blog/changelog/2026-02-24-codeql-adds-go-1-26-and-kotlin-2-3-10-support-and-improves-query-accuracy)**
-	*Feb 24, 2026*
+10. **[Code & Community with Copilot CLI](https://www.youtube.com/watch?v=bRtK041JFFE)**
+	*Feb 26, 2026*
 
-	CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've released CodeQL 2.24.2, which adds support for Go 1.26 and Kotlin 2.3.10 and includes improvements that enhance the accuracy of your code scanning results. Language and framework support
-	Go
-	
-	Go 1.26 is now supported for analysis.
-
-10. **[Enterprise-defined custom organization roles are generally available](https://github.blog/changelog/2026-02-23-enterprise-defined-custom-organization-roles-are-generally-available)**
-	*Feb 23, 2026*
-
-	Managing role-based access standards across many organizations can be challenging, whether administration is centralized or decentralized in your enterprise. Enterprise administrators can now create a set of custom organization roles available across all organizations in the enterprise.
+	GitHub Copilot CLI just went generally available, and we are going live to break it down with Ryan Hecht. This is not just "ask AI to write a shell command.
 
 ---
 
