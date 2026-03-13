@@ -15,8 +15,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 #### 1. [Copilot auto model selection is generally available in JetBrains IDEs](https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides)
 *Mar 12, 2026*
 
-GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. How it works
-Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits.
+GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits.
 
 #### 2. [Continuous AI for accessibility: How GitHub transforms feedback into inclusion](https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/)
 *Mar 12, 2026*
@@ -47,8 +46,7 @@ GitHub Actions OpenID Connect (OIDC) tokens now support repository custom proper
 1. **[Copilot auto model selection is generally available in JetBrains IDEs](https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides)**
 	*Mar 12, 2026*
 
-	GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. How it works
-	Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits.
+	GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits.
 
 2. **[Continuous AI for accessibility: How GitHub transforms feedback into inclusion](https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/)**
 	*Mar 12, 2026*
@@ -78,7 +76,7 @@ GitHub Actions OpenID Connect (OIDC) tokens now support repository custom proper
 7. **[Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides)**
 	*Mar 11, 2026*
 
-	This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP.
+	This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. You can define your hooks.json file with the name of your choice in the .github/hooks/ folder of your repository.
 
 8. **[Request Copilot code review from GitHub CLI](https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli)**
 	*Mar 11, 2026*
@@ -88,8 +86,7 @@ GitHub Actions OpenID Connect (OIDC) tokens now support repository custom proper
 9. **[Explore a repository using Copilot on the web](https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web)**
 	*Mar 11, 2026*
 
-	We've made it easier to explore a repository's file structure when you chat with Copilot on the web. What's changed
-	Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it's never been easier to jump between files and ask Copilot the right questions in context.
+	We've made it easier to explore a repository's file structure when you chat with Copilot on the web. Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it's never been easier to jump between files and ask Copilot the right questions in context.
 
 10. **[Fix issues faster using Copilot CLI fleet command](https://www.youtube.com/shorts/lHtQPImRJSc)**
 	*Mar 11, 2026*

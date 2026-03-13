@@ -116,12 +116,30 @@ def get_video_category(video: Dict) -> str:
 
 def clean_html(text: str) -> str:
     """Remove HTML tags and clean up text."""
+    # Remove HTML heading elements entirely (they become noise after stripping)
+    text = re.sub(r'<h[1-6][^>]*>.*?</h[1-6]>', ' ', text, flags=re.IGNORECASE | re.DOTALL)
     # Remove HTML tags
     text = re.sub(r'<[^>]+>', '', text)
     # Clean up HTML entities
     text = text.replace('&nbsp;', ' ').replace('&#8217;', "'").replace('&mdash;', '—')
     text = text.replace('&ldquo;', '"').replace('&rdquo;', '"')
     text = text.replace('&amp;', '&').replace('&rsquo;', "'")
+    # Remove common section-heading fragments that become noise after HTML stripping
+    # These originate from <h2>/<h3> headings in blog posts that lack punctuation.
+    heading_fragments = [
+        r'\bHow it works\b',
+        r"\bWhat's changed\b",
+        r"\bWhat's new\b",
+        r'\bWhy it matters\b',
+        r'\bNext steps\b',
+        r'Learn more about\b',
+        r'\bLearn more\b',
+    ]
+    for fragment in heading_fragments:
+        text = re.sub(fragment, '', text, flags=re.IGNORECASE)
+    # Collapse multiple whitespace/newlines introduced by removals
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r'\n{2,}', '\n', text)
     return text.strip()
 
 def extract_readable_summary(blog_post: Dict) -> str:
@@ -152,8 +170,12 @@ def extract_readable_summary(blog_post: Dict) -> str:
         # Split into sentences (improved sentence splitting)
         # This handles common abbreviations and doesn't split on them
         sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s+', clean_content)
-        # Filter out very short sentences (likely fragments)
-        good_sentences = [s.strip() for s in sentences if len(s.strip()) > 30]
+        # Filter out very short sentences and fragments starting with lowercase
+        # (lowercase-start indicates a fragment left after link-text cleaning)
+        good_sentences = [
+            s.strip() for s in sentences
+            if len(s.strip()) > 30 and s.strip() and s.strip()[0].isupper()
+        ]
 
         # Take first 2-3 sentences, up to ~350 characters total
         result = []
@@ -702,7 +724,7 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ### Beginner Path
 1. [Introduction to GitHub Copilot (Microsoft Learn)](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
-2. [Introduction to GitHub Copilot (GitHub Skills)](https://github.com/skills/copilot-intro)
+2. [Introduction to GitHub Copilot (GitHub Skills)](https://learn.github.com/skills/copilot)
 3. Practice with hands-on coding
 
 ### Intermediate Path

@@ -131,18 +131,42 @@ def heading_to_anchor(heading_text: str) -> str:
 
 
 
+def strip_markdown_links(text: str) -> str:
+    """
+    Strip markdown link syntax [display text](url) from text, keeping only the display text.
+    This mirrors how GitHub renders heading anchor IDs from linked headings.
+    """
+    return re.sub(r"\[([^\]]*)\]\([^\)]*\)", r"\1", text)
+
+
 def extract_headings(content: str) -> Set[str]:
     """
     Extract all heading anchors from markdown content.
-    Returns set of anchor IDs.
+    Returns set of anchor IDs (including duplicate-suffixed variants like #heading-1).
+    GitHub generates anchors from the visible (rendered) text of headings, stripping
+    markdown link syntax before computing the anchor ID.  Duplicate headings get
+    a numeric suffix (-1, -2, …) appended.
     """
     anchors = set()
+    anchor_counts: dict[str, int] = {}
 
     # Match markdown headings: ## Heading Text
     for match in re.finditer(r"^#{1,6}\s+(.+)$", content, re.MULTILINE):
         heading_text = match.group(1).strip()
-        anchor = heading_to_anchor(heading_text)
-        anchors.add(anchor)
+        # Strip markdown link syntax to get the rendered display text
+        display_text = strip_markdown_links(heading_text)
+        anchor = heading_to_anchor(display_text)
+
+        # Track duplicates using GitHub's 0-based suffix convention:
+        # 1st occurrence → no suffix (e.g. #introduction-to-github-copilot)
+        # 2nd occurrence → -1 suffix (e.g. #introduction-to-github-copilot-1)
+        # 3rd occurrence → -2 suffix, and so on.
+        count = anchor_counts.get(anchor, 0)
+        anchor_counts[anchor] = count + 1
+        if count == 0:
+            anchors.add(anchor)
+        else:
+            anchors.add(f"{anchor}-{count}")
 
     return anchors
 
