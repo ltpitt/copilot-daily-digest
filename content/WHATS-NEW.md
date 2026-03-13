@@ -2,74 +2,103 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: March 06, 2026
+**Last Updated**: March 13, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
-## This Week
+## This Week (Last 7 Days)
 
-### [GPT-5.4 is generally available in GitHub Copilot](https://github.blog/changelog/2026-03-05-gpt-5-4-is-generally-available-in-github-copilot) (Mar 5, 2026)
+### Recent Updates
 
-OpenAI's latest agentic coding model, GPT-5.4, is now rolling out in GitHub Copilot for all users. In early testing across real-world, agentic, and software development benchmarks, GPT-5.4 consistently achieves new success rates while demonstrating enhanced logical reasoning and multi-step task execution. This makes it particularly powerful for complex, tool-dependent coding workflows.
+#### 1. [Copilot auto model selection is generally available in JetBrains IDEs](https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides)
+*Mar 12, 2026*
 
-### [Copilot code review now runs on an agentic architecture](https://github.blog/changelog/2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture) (Mar 5, 2026)
+GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits.
 
-Copilot code review has graduated from public preview to general availability for all Copilot Pro, Pro+, Business, and Enterprise users, now running on a new agentic tool-calling architecture. The system retrieves repository context and reasons holistically across changes, enabling much higher-quality review comments. Since launch last April, usage has grown 10X and now accounts for more than one in five code reviews on GitHub.
+#### 2. [Continuous AI for accessibility: How GitHub transforms feedback into inclusion](https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/)
+*Mar 12, 2026*
 
-### [60 million Copilot code reviews and counting](https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/) (Mar 5, 2026)
+For years, accessibility feedback at GitHub didn't have a clear place to go. Unlike typical product feedback, accessibility issues don't belong to any single team—they cut across the entire ecosystem. For example, a screen reader user might report a broken workflow that touches navigation, authentication, and settings.
 
-GitHub Copilot code review has surpassed 60 million reviews since its launch last April, now accounting for more than one in five code reviews on GitHub. The team shares how they scaled the system with continuous quality experiments and a new agentic architecture that retrieves repository context and reasons across the full scope of a pull request's changes.
+#### 3. [REST API version 2026-03-10 is now available](https://github.blog/changelog/2026-03-12-rest-api-version-2026-03-10-is-now-available)
+*Mar 12, 2026*
 
-### [GitHub Copilot coding agent for Jira is now in public preview](https://github.blog/changelog/2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview) (Mar 5, 2026)
+Previously, we introduced calendar-based versioning for our REST API, giving us a path to evolving our API while giving integrators plenty of time and clear guidance for upgrading. Now, we're releasing calendar version 2026-03-10, the newest version of the GitHub REST API. This is the first calendar version to include breaking changes.
 
-Developers can now assign Jira issues directly to GitHub Copilot coding agent to receive AI-generated draft pull requests in their GitHub repository. Copilot autonomously analyzes the Jira issue's description and comments for context, implements the required changes, and opens a draft pull request — bridging the gap between project management and code delivery.
+#### 4. [Issue fields: Structured issue metadata is in public preview](https://github.blog/changelog/2026-03-12-issue-fields-structured-issue-metadata-is-in-public-preview)
+*Mar 12, 2026*
 
-### [Pick a model for @copilot in pull request comments](https://github.blog/changelog/2026-03-05-pick-a-model-for-copilot-in-pull-request-comments) (Mar 5, 2026)
+Issue fields are now available in public preview for select GitHub organizations. If you've been using labels like priority/p0 or severity/high to track structured data in issues, you know the limitations: no types, no validation, no consistency across repositories, and no way to report on them.
 
-You can now choose which AI model powers Copilot when mentioning @copilot in pull request comments, giving you more control over the trade-offs between speed and capability. This works in both human-created and Copilot-created pull requests, where Copilot operates in its own development environment via GitHub Actions to make changes, run builds, and execute tests.
+#### 5. [Actions OIDC tokens now support repository custom properties](https://github.blog/changelog/2026-03-12-actions-oidc-tokens-now-support-repository-custom-properties)
+*Mar 12, 2026*
 
-### [Discover and manage agent activity with new session filters](https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters) (Mar 5, 2026)
-
-GitHub Enterprise's AI Controls and agent control plane now includes additional session filters to help administrators discover and manage agent activity at scale. New filters let you search by repository (where the agent session occurred) and by user (who initiated the session), making it easier to audit and govern autonomous agent usage across your enterprise.
-
-### [Quick access to merge status in pull requests is in public preview](https://github.blog/changelog/2026-03-05-quick-access-to-merge-status-in-pull-requests-in-public-preview) (Mar 5, 2026)
-
-GitHub is rolling out a persistent merge status indicator at the top of every pull request page, now available in public preview. Developers can check merge readiness from anywhere in the PR experience — including the new "Files changed" page — and quickly identify blockers or missing approvals without scrolling to the bottom of the conversation.
-
-### [Add images to agent sessions](https://github.blog/changelog/2026-03-05-add-images-to-agent-sessions) (Mar 5, 2026)
-
-Agent sessions on GitHub.com now support image input, letting you kick off a session from a screenshot, mockup, or diagram. Simply paste, drag, or click the image icon in the Agents tab to include an image as context, helping Copilot understand visual requirements and UI specifications from the very start of a session.
-
-### [Copilot usage metrics now includes user-level GitHub Copilot CLI activity](https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity) (Mar 5, 2026)
-
-Following last week's enterprise-level CLI telemetry release, GitHub is expanding coverage to the user level in Copilot usage metrics. Admins can now see which individual users are active CLI users, view CLI-specific request and session counts, and identify where additional enablement or support is needed across their organization.
-
-### [Scaling AI opportunity across the globe: Learnings from GitHub and Andela](https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/) (Mar 5, 2026)
-
-GitHub and Andela share insights from helping developers in Africa, South America, and Southeast Asia learn AI-assisted coding tools inside real production workflows. The collaboration highlights how structured enablement programs and access to tools like GitHub Copilot can bridge the technology gap for talented developers in underserved regions.
-
-### [Hierarchy view improvements and file uploads in issue forms](https://github.blog/changelog/2026-03-05-hierarchy-view-improvements-and-file-uploads-in-issue-forms) (Mar 5, 2026)
-
-GitHub Projects' hierarchy view has received several community-requested improvements: you can now filter sub-issues, reorder items within the hierarchy, and get better visual clarity on parent-child relationships. Additionally, issue forms now support file uploads, allowing teams to attach relevant files directly when creating issues.
-
-### [Lock and unlock draft repository security advisories](https://github.blog/changelog/2026-03-04-lock-and-unlock-draft-repository-security-advisories) (Mar 4, 2026)
-
-Repository administrators can now lock draft security advisories and private vulnerability reports to prevent collaborators from editing advisory content or metadata while a review is in progress. When locked, only repository administrators retain the ability to make changes, providing better governance over sensitive security disclosure workflows.
-
-### [Join or host a GitHub Copilot Dev Days event near you](https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/) (Mar 3, 2026)
-
-GitHub Copilot Dev Days is a global series of hands-on, in-person, community-led events designed to help developers explore AI-assisted coding in real-world workflows. Whether you want to attend or host an event in your city, GitHub provides resources and support to help communities around the world get hands-on experience with Copilot.
+GitHub Actions OpenID Connect (OIDC) tokens now support repository custom properties as claims. Additionally, a new settings page is available in public preview, making it easy to configure OIDC token claims directly from your repository, organization, or enterprise settings while adding properties to the claim.
 
 ---
 
-## This Month
+## Last 30 Days
 
-### [From idea to pull request: A practical guide to building with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/) (Feb 27, 2026)
+### Significant Updates
 
-This practical guide walks developers through using GitHub Copilot CLI to move from an idea to a reviewable pull request, covering how CLI-driven development flows naturally into your IDE and GitHub. The guide demonstrates how to express intent in natural language, have Copilot generate and refine code, and produce changes ready for team review — all from the terminal.
+1. **[Copilot auto model selection is generally available in JetBrains IDEs](https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides)**
+	*Mar 12, 2026*
+
+	GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits.
+
+2. **[Continuous AI for accessibility: How GitHub transforms feedback into inclusion](https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/)**
+	*Mar 12, 2026*
+
+	For years, accessibility feedback at GitHub didn't have a clear place to go. Unlike typical product feedback, accessibility issues don't belong to any single team—they cut across the entire ecosystem. For example, a screen reader user might report a broken workflow that touches navigation, authentication, and settings.
+
+3. **[REST API version 2026-03-10 is now available](https://github.blog/changelog/2026-03-12-rest-api-version-2026-03-10-is-now-available)**
+	*Mar 12, 2026*
+
+	Previously, we introduced calendar-based versioning for our REST API, giving us a path to evolving our API while giving integrators plenty of time and clear guidance for upgrading. Now, we're releasing calendar version 2026-03-10, the newest version of the GitHub REST API. This is the first calendar version to include breaking changes.
+
+4. **[Issue fields: Structured issue metadata is in public preview](https://github.blog/changelog/2026-03-12-issue-fields-structured-issue-metadata-is-in-public-preview)**
+	*Mar 12, 2026*
+
+	Issue fields are now available in public preview for select GitHub organizations. If you've been using labels like priority/p0 or severity/high to track structured data in issues, you know the limitations: no types, no validation, no consistency across repositories, and no way to report on them.
+
+5. **[Actions OIDC tokens now support repository custom properties](https://github.blog/changelog/2026-03-12-actions-oidc-tokens-now-support-repository-custom-properties)**
+	*Mar 12, 2026*
+
+	GitHub Actions OpenID Connect (OIDC) tokens now support repository custom properties as claims. Additionally, a new settings page is available in public preview, making it easy to configure OIDC token claims directly from your repository, organization, or enterprise settings while adding properties to the claim.
+
+6. **[Interactive vs non-interactive modes | Copilot CLI for beginners](https://www.youtube.com/watch?v=bdIJkGr2NV0)**
+	*Mar 12, 2026*
+
+	Want to know the fastest way to prompt GitHub Copilot from your terminal? In this beginner tutorial, we explore the two main modes of the Copilot CLI.
+
+7. **[Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides)**
+	*Mar 11, 2026*
+
+	This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. You can define your hooks.json file with the name of your choice in the .github/hooks/ folder of your repository.
+
+8. **[Request Copilot code review from GitHub CLI](https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli)**
+	*Mar 11, 2026*
+
+	You can now request a review from GitHub Copilot directly from your terminal using the GitHub CLI. Whether you're editing an existing pull request or creating a new one, Copilot is available as a reviewer option in gh pr edit and gh pr create. There's no need to switch to the browser.
+
+9. **[Explore a repository using Copilot on the web](https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web)**
+	*Mar 11, 2026*
+
+	We've made it easier to explore a repository's file structure when you chat with Copilot on the web. Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it's never been easier to jump between files and ask Copilot the right questions in context.
+
+10. **[Fix issues faster using Copilot CLI fleet command](https://www.youtube.com/shorts/lHtQPImRJSc)**
+	*Mar 11, 2026*
+
+	Want to speed up your open source maintenance? The GitHub Copilot CLI has a /fleet command that lets you assign multiple agents to different tasks simultaneously.
 
 ---
 
-See [CHANGELOG.md](CHANGELOG.md) for the full historical timeline of updates.
+## Older Updates
+
+See [CHANGELOG.md](CHANGELOG.md) for the full historical timeline.
+
+---
+
+_All dates are complete and sorted newest first. For a full list of updates, see [CHANGELOG.md](CHANGELOG.md)._
