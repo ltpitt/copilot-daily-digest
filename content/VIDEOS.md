@@ -3,7 +3,7 @@
 > **Last Updated**: March 16, 2026
 
 > **📊 Library Stats**
-> - 📚 **1** total videos
+> - 📚 **76** total videos
 > - 🆕 **1** new this month
 > - 📂 **Categories**: Getting Started (1)
 
