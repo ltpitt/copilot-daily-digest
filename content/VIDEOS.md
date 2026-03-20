@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: March 13, 2026
+> **Last Updated**: March 20, 2026
 
 > **📊 Library Stats**
-> - 📚 **7** total videos
-> - 🆕 **7** new this month
-> - 📂 **Categories**: Getting Started (3), Features & Updates (3), Other (1)
+> - 📚 **6** total videos
+> - 🆕 **6** new this month
+> - 📂 **Categories**: Agents (1), Features & Updates (2), Getting Started (3)
 
 ---
 
@@ -14,84 +14,74 @@
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
   - [Getting Started](#getting-started) (3)
-  - [Features & Updates](#features--updates) (3)
-  - [Other](#other) (1)
+  - [Features & Updates](#features--updates) (2)
+  - [Agents](#agents) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*7 videos published in the last 30 days*
+*6 videos published in the last 30 days*
 
-### [Interactive vs non-interactive modes | Copilot CLI for beginners](https://www.youtube.com/watch?v=bdIJkGr2NV0)
+### [Eliminate tech debt with the GitHub Copilot coding agent](https://www.youtube.com/shorts/fiq-pNjOb3U)
 
-**Published**: Mar 12, 2026 | **Channel**: GitHub
+**Published**: Mar 19, 2026 | **Channel**: GitHub
 
-Want to know the fastest way to prompt GitHub Copilot from your terminal? In this beginner tutorial, we explore the two main modes of the Copilot CLI. Discover how to use the interactive mode to have GitHub Copilot run your project locally or use the non-interactive mode with the -p flag for quick s...
+Stop letting tech debt slow down your engineering team. The GitHub Copilot coding agent is always available to take on the repetitive tasks you never have time to prioritize. Hand off bug fixes, test coverage, and minor text updates so your team can focus on what really matters. Let AI handle the he...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=bdIJkGr2NV0)
-
----
-
-### [Fix issues faster using Copilot CLI fleet command](https://www.youtube.com/shorts/lHtQPImRJSc)
-
-**Published**: Mar 11, 2026 | **Channel**: GitHub
-
-Want to speed up your open source maintenance? The GitHub Copilot CLI has a /fleet command that lets you assign multiple agents to different tasks simultaneously. Watch how a single prompt can solve multiple issues at once. Install the CLI on your preferred OS and see how much time you can save.
-
-Wo...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/lHtQPImRJSc)
+[Watch on YouTube →](https://www.youtube.com/shorts/fiq-pNjOb3U)
 
 ---
 
-### [How to use the fleet command in Copilot CLI | GitHub demo](https://www.youtube.com/watch?v=BviR6Me36gI)
+### [How to query your Copilot CLI session history | Advanced tips & tricks](https://www.youtube.com/watch?v=XHTc6XF0gdk)
 
-**Published**: Mar 10, 2026 | **Channel**: GitHub
+**Published**: Mar 18, 2026 | **Channel**: GitHub
 
-Open source maintenance doesn't have to drain your time or mental energy. In this quick tutorial, we demonstrate how to use the new /fleet command in GitHub Copilot CLI to handle routine repository updates. Watch as Cassidy instructs multiple AI agents in parallel to solve an existing issue and upgr...
+Evan Boyle from the GitHub Copilot CLI team shares advanced tips to level up your terminal workflow. Learn how to query your local SQLite database to pull up session history and recover context from past bug fixes. You can even ask Copilot to analyze your prompting habits to help you write better co...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=BviR6Me36gI)
-
----
-
-### [GitHub Copilot CLI solved my issues so I could practice singing](https://www.youtube.com/shorts/1npISWbvle4)
-
-**Published**: Mar 10, 2026 | **Channel**: GitHub
-
-Stop wasting time on manual dependency updates and let AI do the work. The GitHub Copilot CLI makes repository maintenance fast, easy, and completely cross-platform. See how saving time on the boring stuff gives you more room to do what you love. Drop a comment and tell us what you'd do with your sa...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/1npISWbvle4)
+[Watch on YouTube →](https://www.youtube.com/watch?v=XHTc6XF0gdk)
 
 ---
 
-### [Learn to use an AI agent in your terminal | Copilot CLI for beginners](https://www.youtube.com/shorts/yXZVNfnAoCk)
+### [How to get a multi-agent code review in Copilot CLI](https://www.youtube.com/watch?v=qRXztN1hi1M)
 
-**Published**: Mar 9, 2026 | **Channel**: GitHub
+**Published**: Mar 17, 2026 | **Channel**: GitHub
 
-There is an AI agent in your terminal now. Welcome to Copilot CLI for Beginners, a new series where we walk you through the GitHub Copilot CLI step by step. We will cover everything from building features to reviewing code, all explained in plain English. Subscribe so you don't miss the first episod...
+Evan Boyle from the Copilot CLI team shares an advanced tip to improve your code quality before you even open a pull request. Learn how to use the /review command to check for bugs, security issues, and performance problems. Discover how to use multiple models like Gemini, Codex, and Opus simultaneo...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/yXZVNfnAoCk)
-
----
-
-### [Getting started with GitHub Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=BDxRhhs36ns)
-
-**Published**: Mar 9, 2026 | **Channel**: GitHub
-
-In this video, we’ll cover the essentials of getting started with your new terminal-based AI coding assistant: the GitHub Copilot CLI. You will learn how to install using npm, authenticate with your GitHub account, and grant folder permissions. We also run through your very first prompts to generate...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=BDxRhhs36ns)
+[Watch on YouTube →](https://www.youtube.com/watch?v=qRXztN1hi1M)
 
 ---
 
-### [The new GitHub repository dashboard is here](https://www.youtube.com/shorts/4zSz192sdG4)
+### [The powerful GitHub folder most developers ignore](https://www.youtube.com/shorts/X4XiMKott2E)
 
-**Published**: Mar 8, 2026 | **Channel**: GitHub
+**Published**: Mar 16, 2026 | **Channel**: GitHub
 
-Tired of treating your personal and work codebases like a scavenger hunt? The GitHub repository dashboard is now generally available to help you find, filter, and save custom views of your projects. You can search using the command palette, filter by language or organization, and even bookmark your ...
+Did you know the .github folder can automate your CI/CD, create issue templates, and even control how GitHub Copilot writes code? In this Short, we break down why this often-overlooked folder is essential for managing your repositories. If you are part of an organization, you can even apply these ru...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/4zSz192sdG4)
+[Watch on YouTube →](https://www.youtube.com/shorts/X4XiMKott2E)
+
+---
+
+### [How to use GitHub Actions | GitHub for Beginners](https://www.youtube.com/watch?v=BQrohJ3PT7I)
+
+**Published**: Mar 16, 2026 | **Channel**: GitHub
+
+Welcome back to GitHub for Beginners! In this episode, Kedasha and Glenda teach you everything you need to know to get started with GitHub Actions. Learn the core concepts of CI/CD and follow along as we build a real workflow to automatically label new issues in your repository. 
+
+Gitfolio: https://...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=BQrohJ3PT7I)
+
+---
+
+### [Giving a robot dog a personality using GitHub Copilot](https://www.youtube.com/watch?v=rUxB9M69e_Y)
+
+**Published**: Mar 14, 2026 | **Channel**: GitHub
+
+In this video, we experiment with GitHub Copilot to see if it can program a robot dog to act like a real pup. Watch as we build a script that triggers a custom greeting sequence whenever the Raspberry Pi 5 camera detects a human face. By feeding Copilot a file with example servo movements, it succes...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=rUxB9M69e_Y)
 
 ---
 
@@ -104,33 +94,33 @@ Tired of treating your personal and work codebases like a scavenger hunt? The Gi
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [Interactive vs non-interactive modes | Copilot CLI for beginners](https://www.youtube.com/watch?v=bdIJkGr2NV0)
+### [The powerful GitHub folder most developers ignore](https://www.youtube.com/shorts/X4XiMKott2E)
 
-**Published**: Mar 12, 2026
+**Published**: Mar 16, 2026
 
-Want to know the fastest way to prompt GitHub Copilot from your terminal? In this beginner tutorial, we explore the two main modes of the Copilot CLI. Discover how to use the interactive mode to have ...
+Did you know the .github folder can automate your CI/CD, create issue templates, and even control how GitHub Copilot writes code? In this Short, we break down why this often-overlooked folder is essen...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=bdIJkGr2NV0)
-
----
-
-### [Learn to use an AI agent in your terminal | Copilot CLI for beginners](https://www.youtube.com/shorts/yXZVNfnAoCk)
-
-**Published**: Mar 9, 2026
-
-There is an AI agent in your terminal now. Welcome to Copilot CLI for Beginners, a new series where we walk you through the GitHub Copilot CLI step by step. We will cover everything from building feat...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/yXZVNfnAoCk)
+[Watch on YouTube →](https://www.youtube.com/shorts/X4XiMKott2E)
 
 ---
 
-### [Getting started with GitHub Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=BDxRhhs36ns)
+### [How to use GitHub Actions | GitHub for Beginners](https://www.youtube.com/watch?v=BQrohJ3PT7I)
 
-**Published**: Mar 9, 2026
+**Published**: Mar 16, 2026
 
-In this video, we’ll cover the essentials of getting started with your new terminal-based AI coding assistant: the GitHub Copilot CLI. You will learn how to install using npm, authenticate with your G...
+Welcome back to GitHub for Beginners! In this episode, Kedasha and Glenda teach you everything you need to know to get started with GitHub Actions. Learn the core concepts of CI/CD and follow along as...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=BDxRhhs36ns)
+[Watch on YouTube →](https://www.youtube.com/watch?v=BQrohJ3PT7I)
+
+---
+
+### [Giving a robot dog a personality using GitHub Copilot](https://www.youtube.com/watch?v=rUxB9M69e_Y)
+
+**Published**: Mar 14, 2026
+
+In this video, we experiment with GitHub Copilot to see if it can program a robot dog to act like a real pup. Watch as we build a script that triggers a custom greeting sequence whenever the Raspberry...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=rUxB9M69e_Y)
 
 ---
 
@@ -141,50 +131,40 @@ In this video, we’ll cover the essentials of getting started with your new ter
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Fix issues faster using Copilot CLI fleet command](https://www.youtube.com/shorts/lHtQPImRJSc)
+### [How to query your Copilot CLI session history | Advanced tips & tricks](https://www.youtube.com/watch?v=XHTc6XF0gdk)
 
-**Published**: Mar 11, 2026
+**Published**: Mar 18, 2026
 
-Want to speed up your open source maintenance? The GitHub Copilot CLI has a /fleet command that lets you assign multiple agents to different tasks simultaneously. Watch how a single prompt can solve m...
+Evan Boyle from the GitHub Copilot CLI team shares advanced tips to level up your terminal workflow. Learn how to query your local SQLite database to pull up session history and recover context from p...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/lHtQPImRJSc)
-
----
-
-### [How to use the fleet command in Copilot CLI | GitHub demo](https://www.youtube.com/watch?v=BviR6Me36gI)
-
-**Published**: Mar 10, 2026
-
-Open source maintenance doesn't have to drain your time or mental energy. In this quick tutorial, we demonstrate how to use the new /fleet command in GitHub Copilot CLI to handle routine repository up...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=BviR6Me36gI)
+[Watch on YouTube →](https://www.youtube.com/watch?v=XHTc6XF0gdk)
 
 ---
 
-### [GitHub Copilot CLI solved my issues so I could practice singing](https://www.youtube.com/shorts/1npISWbvle4)
+### [How to get a multi-agent code review in Copilot CLI](https://www.youtube.com/watch?v=qRXztN1hi1M)
 
-**Published**: Mar 10, 2026
+**Published**: Mar 17, 2026
 
-Stop wasting time on manual dependency updates and let AI do the work. The GitHub Copilot CLI makes repository maintenance fast, easy, and completely cross-platform. See how saving time on the boring ...
+Evan Boyle from the Copilot CLI team shares an advanced tip to improve your code quality before you even open a pull request. Learn how to use the /review command to check for bugs, security issues, a...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/1npISWbvle4)
+[Watch on YouTube →](https://www.youtube.com/watch?v=qRXztN1hi1M)
 
 ---
 
 
-## Other
+## Agents
 
-*Additional videos that don't fit into other categories.*
+*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
 
-**When to watch**: You're looking for miscellaneous Copilot content.
+**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [The new GitHub repository dashboard is here](https://www.youtube.com/shorts/4zSz192sdG4)
+### [Eliminate tech debt with the GitHub Copilot coding agent](https://www.youtube.com/shorts/fiq-pNjOb3U)
 
-**Published**: Mar 8, 2026
+**Published**: Mar 19, 2026
 
-Tired of treating your personal and work codebases like a scavenger hunt? The GitHub repository dashboard is now generally available to help you find, filter, and save custom views of your projects. Y...
+Stop letting tech debt slow down your engineering team. The GitHub Copilot coding agent is always available to take on the repetitive tasks you never have time to prioritize. Hand off bug fixes, test ...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/4zSz192sdG4)
+[Watch on YouTube →](https://www.youtube.com/shorts/fiq-pNjOb3U)
 
 ---
 
