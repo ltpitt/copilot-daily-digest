@@ -119,7 +119,7 @@ def fetch_github_skills() -> List[Dict]:
             "id": "github-skills-copilot-intro",
             "title": "Introduction to GitHub Copilot",
             "description": "Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.",
-            "url": "https://github.com/skills/copilot-intro",
+            "url": "https://learn.github.com/skills/copilot",
             "provider": "GitHub Skills",
             "level": "Beginner",
             "topics": ["GitHub Copilot", "AI Pair Programming", "Code Completion"],
