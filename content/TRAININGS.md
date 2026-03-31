@@ -16,7 +16,7 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ## Official GitHub Courses
 
-### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
+### [Introduction to GitHub Copilot](https://skills.github.com/)
 
 **Provider**: GitHub Skills | **Level**: Beginner
 

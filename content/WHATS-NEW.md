@@ -76,13 +76,7 @@ Copilot coding agent can now resolve merge conflicts on pull requests. To ask Co
 7. **[Gemini 3 Pro deprecated](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated)**
 	*Mar 26, 2026*
 
-	We have deprecated Gemini 3 Pro across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, March 26, 2026. Model
-	Deprecation date
-	Suggested alternative
-	Gemini 3 Pro
-	2026-03-26
-	Gemini 3.1 Pro
-	Please update your workflows and integrations to use supported models.
+	GitHub has deprecated Gemini 3 Pro across all Copilot experiences — including Chat, inline edits, ask mode, agent mode, and code completions — effective March 26, 2026. Users should migrate to Gemini 3.1 Pro as the recommended alternative. Please update your workflows and integrations to use supported models.
 
 8. **[Credential revocation API now supports GitHub OAuth and GitHub app credentials](https://github.blog/changelog/2026-03-26-credential-revocation-api-now-supports-github-oauth-and-github-app-credentials)**
 	*Mar 26, 2026*
@@ -97,8 +91,7 @@ Copilot coding agent can now resolve merge conflicts on pull requests. To ask Co
 10. **[View Agentic Workflow configs in the Actions run summary](https://github.blog/changelog/2026-03-26-view-agentic-workflow-configs-in-the-actions-run-summary)**
 	*Mar 26, 2026*
 
-	You can now view your Agentic Workflow markdown configs directly in the GitHub Actions run summary for any agentic workflow. This update makes it easier to review runs by:
-	Reducing the need to switch between pages. Showing the exact configuration used when the workflow ran.
+	You can now view your Agentic Workflow markdown configs directly in the GitHub Actions run summary for any agentic workflow. This update makes it easier to review runs by reducing the need to switch between pages and showing the exact configuration used when the workflow ran.
 
 ---
 
