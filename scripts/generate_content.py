@@ -249,6 +249,12 @@ def main():
     trainings = load_all_json_in_dir(DATA_DIR / "trainings")
     github_next = load_all_json_in_dir(DATA_DIR / "github-next")
 
+    # Load metadata for cumulative counts (e.g. total videos tracked over all time)
+    metadata = {}
+    metadata_path = DATA_DIR / "metadata.json"
+    if metadata_path.exists():
+        metadata = load_json(metadata_path)
+
     # If we don't have blog post files, create them from url_dates and RSS
     if not blog_posts:
         print("No blog post files found, creating from URL dates and RSS...")
@@ -323,7 +329,8 @@ def main():
     generate_whats_new(recent_blog_7d, recent_blog_30d, recent_videos_7d, recent_videos_30d, url_dates, last_updated)
 
     # Generate VIDEOS.md
-    generate_videos(videos, last_updated)
+    total_videos_tracked = len(metadata.get('video_ids', [])) or len(videos)
+    generate_videos(videos, last_updated, total_videos_tracked)
 
     # Generate TRAININGS.md
     generate_trainings(trainings, last_updated)
@@ -507,7 +514,7 @@ _All dates are complete and sorted newest first. For a full list of updates, see
     with open(CONTENT_DIR / "WHATS-NEW.md", 'w', encoding='utf-8') as f:
         f.write(content.strip() + '\n')
 
-def generate_videos(videos, last_updated):
+def generate_videos(videos, last_updated, total_videos_tracked=None):
     """Generate VIDEOS.md."""
     print("  - VIDEOS.md")
 
@@ -528,12 +535,15 @@ def generate_videos(videos, last_updated):
     thirty_days_ago = now - timedelta(days=30)
     recent_videos = [v for v in videos if datetime.fromisoformat(v['published'].replace('Z', '+00:00')) >= thirty_days_ago]
 
+    # Use metadata-tracked total if available, otherwise fall back to current data count
+    display_total = total_videos_tracked if total_videos_tracked is not None else len(videos)
+
     content = f"""# GitHub Copilot Video Library
 
 > **Last Updated**: {last_updated}
 
 > **📊 Library Stats**
-> - 📚 **{len(videos)}** total videos
+> - 📚 **{display_total}** total videos
 > - 🆕 **{len(recent_videos)}** new this month
 > - 📂 **Categories**: {', '.join([f'{cat} ({count})' for cat, count in category_counts.items()])}
 
@@ -820,14 +830,14 @@ They do not represent official product roadmap.
         f.write(content.strip() + '\n')
 
 def generate_changelog(blog_posts, videos, url_dates, last_updated):
-    """Generate CHANGELOG.md."""
+    """Generate CHANGELOG.md, preserving all historical entries."""
     print("  - CHANGELOG.md")
 
-    # Combine blog and video items
-    all_items = []
+    # Combine new blog and video items
+    new_items = []
 
     for post in blog_posts:
-        all_items.append({
+        new_items.append({
             'date': post['date_iso'],
             'type': 'Blog',
             'title': post['title'],
@@ -835,12 +845,50 @@ def generate_changelog(blog_posts, videos, url_dates, last_updated):
         })
 
     for video in videos:
-        all_items.append({
+        new_items.append({
             'date': video['published'][:10],
             'type': 'Video',
             'title': video['title'],
             'url': video['url']
         })
+
+    # Parse existing CHANGELOG.md to extract historical entries
+    existing_items = []
+    changelog_path = CONTENT_DIR / "CHANGELOG.md"
+    if changelog_path.exists():
+        existing_content = changelog_path.read_text(encoding='utf-8')
+        # Match lines like: - **Mar 14, 2026** - [Title](url) (Type)
+        entry_pattern = re.compile(
+            r'- \*\*([A-Za-z]+ \d+, \d{4})\*\* - \[([^\]]+)\]\(([^)]+)\) \((\w+)\)'
+        )
+        month_map = {m: i for i, m in enumerate(
+            ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'], 1
+        )}
+        for match in entry_pattern.finditer(existing_content):
+            date_str, title, url, entry_type = match.groups()
+            # Parse "Mar 14, 2026" -> "2026-03-14"
+            try:
+                parts = date_str.replace(',', '').split()
+                if len(parts) == 3:
+                    month_num = month_map.get(parts[0][:3], 0)
+                    if month_num:
+                        iso_date = f"{parts[2]}-{month_num:02d}-{int(parts[1]):02d}"
+                        existing_items.append({
+                            'date': iso_date,
+                            'type': entry_type,
+                            'title': title,
+                            'url': url
+                        })
+            except (ValueError, IndexError):
+                pass
+
+    # Merge: existing items + new items, deduplicated by URL
+    seen_urls = set()
+    all_items = []
+    for item in existing_items + new_items:
+        if item['url'] not in seen_urls:
+            seen_urls.add(item['url'])
+            all_items.append(item)
 
     # Sort by date (newest first)
     all_items.sort(key=lambda x: x['date'], reverse=True)

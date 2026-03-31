@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: March 13, 2026
+**Last Updated**: March 16, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,10 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## March 2026
 
+- **Mar 14, 2026** - [Giving a robot dog a personality using GitHub Copilot](https://www.youtube.com/watch?v=rUxB9M69e_Y) (Video)
+- **Mar 13, 2026** - [Optionally skip approval for Copilot coding agent Actions workflows](https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows) (Blog)
+- **Mar 13, 2026** - [Updates to GitHub Copilot for students](https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students) (Blog)
+- **Mar 13, 2026** - [Self-hosted runner minimum version enforcement paused](https://github.blog/changelog/2026-03-13-self-hosted-runner-minimum-version-enforcement-paused) (Blog)
 - **Mar 12, 2026** - [Copilot auto model selection is generally available in JetBrains IDEs](https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides) (Blog)
 - **Mar 12, 2026** - [Continuous AI for accessibility: How GitHub transforms feedback into inclusion](https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/) (Blog)
 - **Mar 12, 2026** - [REST API version 2026-03-10 is now available](https://github.blog/changelog/2026-03-12-rest-api-version-2026-03-10-is-now-available) (Blog)
