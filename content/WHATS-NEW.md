@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: March 16, 2026
+**Last Updated**: March 31, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,25 +12,30 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [Giving a robot dog a personality using GitHub Copilot](https://www.youtube.com/watch?v=rUxB9M69e_Y)
-*Mar 14, 2026*
+#### 1. [Create issues from Slack with Copilot](https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot)
+*Mar 30, 2026*
 
-In this video, we experiment with GitHub Copilot to see if it can program a robot dog to act like a real pup. Watch as we build a script that triggers a custom greeting sequence whenever the Raspberry Pi 5 camera detects a human face.
+You can now create GitHub Issues directly from Slack using natural language with the GitHub app for Slack. Mention @GitHub in any channel, describe the work you need to track, and the app creates structured issues in your repository. The app can even create sub-issues with proper hierarchy.
 
-#### 2. [Optionally skip approval for Copilot coding agent Actions workflows](https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows)
-*Mar 13, 2026*
+#### 2. [Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA)
+*Mar 30, 2026*
 
-When Copilot coding agent opens a pull request or pushes changes, Copilot is treated like an outside contributor in an open source project. GitHub Actions workflows do not run until approved by a human with the Approve and run workflows button.
+Welcome back to GitHub for Beginners! In this episode, we cover the essentials of getting started with GitHub security. Learn why securing your code matters and how to easily fix vulnerabilities in your repositories.
 
-#### 3. [Updates to GitHub Copilot for students](https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students)
-*Mar 13, 2026*
+#### 3. [Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU)
+*Mar 27, 2026*
 
-Starting today, students with GitHub Education benefits are now on the new GitHub Copilot Student plan. As part of this transition, we've updated the available model lineup. The new GitHub Copilot Student plan allows us to focus on building a long-term, sustainable Copilot experience tailored for students with continued investment in AI-native learning tools.
+Have you tried GitHub agentic workflows yet? This new feature allows you to author intent-driven repository workflows using plain Markdown and execute them with coding agents in GitHub Actions.
 
-#### 4. [Self-hosted runner minimum version enforcement paused](https://github.blog/changelog/2026-03-13-self-hosted-runner-minimum-version-enforcement-paused)
-*Mar 13, 2026*
+#### 4. [Custom images for GitHub-hosted runners are now generally available](https://github.blog/changelog/2026-03-26-custom-images-for-github-hosted-runners-are-now-generally-available)
+*Mar 26, 2026*
 
-We're temporarily pausing GitHub Actions enforcement of the minimum self-hosted runner version requirement (v2.329.0) scheduled to take effect on March 16, 2026. Runners below v2.329.0 can still register and configure during this period. We'll publish an updated timeline and enforcement plan in the coming weeks.
+Custom images for GitHub-hosted runners are now generally available. Originally introduced in public preview in October 2025, this feature lets you start with a GitHub-curated base image and build your own virtual machine image tailored to your workflow needs.
+
+#### 5. [Ask @copilot to resolve merge conflicts on pull requests](https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests)
+*Mar 26, 2026*
+
+Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts. The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push.
 
 ---
 
@@ -38,25 +43,55 @@ We're temporarily pausing GitHub Actions enforcement of the minimum self-hosted 
 
 ### Significant Updates
 
-1. **[Giving a robot dog a personality using GitHub Copilot](https://www.youtube.com/watch?v=rUxB9M69e_Y)**
-	*Mar 14, 2026*
+1. **[Create issues from Slack with Copilot](https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot)**
+	*Mar 30, 2026*
 
-	In this video, we experiment with GitHub Copilot to see if it can program a robot dog to act like a real pup. Watch as we build a script that triggers a custom greeting sequence whenever the...
+	You can now create GitHub Issues directly from Slack using natural language with the GitHub app for Slack. Mention @GitHub in any channel, describe the work you need to track, and the app creates structured issues in your repository. The app can even create sub-issues with proper hierarchy.
 
-2. **[Optionally skip approval for Copilot coding agent Actions workflows](https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows)**
-	*Mar 13, 2026*
+2. **[Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA)**
+	*Mar 30, 2026*
 
-	When Copilot coding agent opens a pull request or pushes changes, Copilot is treated like an outside contributor in an open source project. GitHub Actions workflows do not run until approved by a human with the Approve and run workflows button.
+	Welcome back to GitHub for Beginners! In this episode, we cover the essentials of getting started with GitHub security. Learn why securing your code matters and how to easily fix vulnerabilities in...
 
-3. **[Updates to GitHub Copilot for students](https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students)**
-	*Mar 13, 2026*
+3. **[Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU)**
+	*Mar 27, 2026*
 
-	Starting today, students with GitHub Education benefits are now on the new GitHub Copilot Student plan. As part of this transition, we've updated the available model lineup. The new GitHub Copilot Student plan allows us to focus on building a long-term, sustainable Copilot experience tailored for students with continued investment in AI-native learning tools.
+	Have you tried GitHub agentic workflows yet? This new feature allows you to author intent-driven repository workflows using plain Markdown and execute them with coding agents in GitHub Actions.
 
-4. **[Self-hosted runner minimum version enforcement paused](https://github.blog/changelog/2026-03-13-self-hosted-runner-minimum-version-enforcement-paused)**
-	*Mar 13, 2026*
+4. **[Custom images for GitHub-hosted runners are now generally available](https://github.blog/changelog/2026-03-26-custom-images-for-github-hosted-runners-are-now-generally-available)**
+	*Mar 26, 2026*
 
-	We're temporarily pausing GitHub Actions enforcement of the minimum self-hosted runner version requirement (v2.329.0) scheduled to take effect on March 16, 2026. Runners below v2.329.0 can still register and configure during this period. We'll publish an updated timeline and enforcement plan in the coming weeks.
+	Custom images for GitHub-hosted runners are now generally available. Originally introduced in public preview in October 2025, this feature lets you start with a GitHub-curated base image and build your own virtual machine image tailored to your workflow needs.
+
+5. **[Ask @copilot to resolve merge conflicts on pull requests](https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests)**
+	*Mar 26, 2026*
+
+	Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts. The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push.
+
+6. **[Agent activity in GitHub Issues and Projects](https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects)**
+	*Mar 26, 2026*
+
+	Today, we're shipping two new features that bring agent activity directly into your planning workflows. When a coding agent (e.g., Copilot, Claude, or Codex) is assigned to an issue, its session now appears directly under the assignee in the sidebar. Each session shows a live status: "queued", "working", "waiting for review", or "completed".
+
+7. **[Gemini 3 Pro deprecated](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated)**
+	*Mar 26, 2026*
+
+	GitHub has deprecated Gemini 3 Pro across all Copilot experiences — including Chat, inline edits, ask mode, agent mode, and code completions — effective March 26, 2026. Users should migrate to Gemini 3.1 Pro as the recommended alternative. Please update your workflows and integrations to use supported models.
+
+8. **[Credential revocation API now supports GitHub OAuth and GitHub app credentials](https://github.blog/changelog/2026-03-26-credential-revocation-api-now-supports-github-oauth-and-github-app-credentials)**
+	*Mar 26, 2026*
+
+	We've extended the Credential revocation API to support additional token types, enabling you to programmatically revoke any exposed credentials found on repositories or elsewhere. This helps you quickly limit the impact of credential exposure and improve the security of the software ecosystem.
+
+9. **[New pull requests dashboard is in public preview](https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview)**
+	*Mar 26, 2026*
+
+	A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. Filter by repository or how recently a pull request was updated to focus on what matters most.
+
+10. **[View Agentic Workflow configs in the Actions run summary](https://github.blog/changelog/2026-03-26-view-agentic-workflow-configs-in-the-actions-run-summary)**
+	*Mar 26, 2026*
+
+	You can now view your Agentic Workflow markdown configs directly in the GitHub Actions run summary for any agentic workflow. This update makes it easier to review runs by reducing the need to switch between pages and showing the exact configuration used when the workflow ran.
 
 ---
 
