@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: March 16, 2026
+**Last Updated**: March 31, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,23 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## March 2026
 
+- **Mar 30, 2026** - [Create issues from Slack with Copilot](https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot) (Blog)
+- **Mar 30, 2026** - [Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA) (Video)
+- **Mar 27, 2026** - [Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU) (Video)
+- **Mar 26, 2026** - [Custom images for GitHub-hosted runners are now generally available](https://github.blog/changelog/2026-03-26-custom-images-for-github-hosted-runners-are-now-generally-available) (Blog)
+- **Mar 26, 2026** - [Ask @copilot to resolve merge conflicts on pull requests](https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests) (Blog)
+- **Mar 26, 2026** - [Agent activity in GitHub Issues and Projects](https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects) (Blog)
+- **Mar 26, 2026** - [Gemini 3 Pro deprecated](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated) (Blog)
+- **Mar 26, 2026** - [Credential revocation API now supports GitHub OAuth and GitHub app credentials](https://github.blog/changelog/2026-03-26-credential-revocation-api-now-supports-github-oauth-and-github-app-credentials) (Blog)
+- **Mar 26, 2026** - [New pull requests dashboard is in public preview](https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview) (Blog)
+- **Mar 26, 2026** - [View Agentic Workflow configs in the Actions run summary](https://github.blog/changelog/2026-03-26-view-agentic-workflow-configs-in-the-actions-run-summary) (Blog)
+- **Mar 25, 2026** - [GitHub Copilot for Jira — Public preview enhancements](https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements) (Blog)
+- **Mar 25, 2026** - [Updates to our Privacy Statement and Terms of Service: How we use your data](https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data) (Blog)
+- **Mar 25, 2026** - [What is MCP and how does it work with AI?](https://www.youtube.com/watch?v=lFQz1hugvHo) (Video)
+- **Mar 23, 2026** - [A beginner's guide to Copilot CLI slash commands](https://www.youtube.com/watch?v=-Yavis20B4Q) (Video)
+- **Mar 21, 2026** - [Perplexity just announced an AI personal computer](https://www.youtube.com/shorts/gaDKGrStr3E) (Video)
+- **Mar 19, 2026** - [How Squad runs coordinated AI agents inside your repository](https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/) (Blog)
+- **Mar 17, 2026** - [Investing in the people shaping open source and securing the future together](https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/) (Blog)
 - **Mar 14, 2026** - [Giving a robot dog a personality using GitHub Copilot](https://www.youtube.com/watch?v=rUxB9M69e_Y) (Video)
 - **Mar 13, 2026** - [Optionally skip approval for Copilot coding agent Actions workflows](https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows) (Blog)
 - **Mar 13, 2026** - [Updates to GitHub Copilot for students](https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students) (Blog)
