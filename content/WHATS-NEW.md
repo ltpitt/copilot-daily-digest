@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: March 31, 2026
+**Last Updated**: April 08, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,30 +12,30 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [Create issues from Slack with Copilot](https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot)
-*Mar 30, 2026*
+#### 1. [Code scanning: Batch apply security alert suggestions on pull requests](https://github.blog/changelog/2026-04-07-code-scanning-batch-apply-security-alert-suggestions-on-pull-requests)
+*Apr 7, 2026*
 
-You can now create GitHub Issues directly from Slack using natural language with the GitHub app for Slack. Mention @GitHub in any channel, describe the work you need to track, and the app creates structured issues in your repository. The app can even create sub-issues with proper hierarchy.
+GitHub code scanning alerts on pull requests are now easier to address with bulk actions. You can now apply fixes for code scanning alerts in the Files changed tab by adding them to a batch, helping you interact with multiple alerts faster.
 
-#### 2. [Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA)
-*Mar 30, 2026*
+#### 2. [Dependabot alerts are now assignable to AI agents for remediation](https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation)
+*Apr 7, 2026*
 
-Welcome back to GitHub for Beginners! In this episode, we cover the essentials of getting started with GitHub security. Learn why securing your code matters and how to easily fix vulnerabilities in your repositories.
+Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex, to analyze the vulnerability and open a draft pull request with a proposed fix.
 
-#### 3. [Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU)
-*Mar 27, 2026*
+#### 3. [Dependabot version updates now support the Nix ecosystem](https://github.blog/changelog/2026-04-07-dependabot-version-updates-now-support-the-nix-ecosystem)
+*Apr 7, 2026*
 
-Have you tried GitHub agentic workflows yet? This new feature allows you to author intent-driven repository workflows using plain Markdown and execute them with coding agents in GitHub Actions.
+Dependabot now supports Nix flakes. Add nix as a package ecosystem in your dependabot.yml file. Dependabot will then monitor your flake.lock inputs and open pull requests when newer commits are available upstream.
 
-#### 4. [Custom images for GitHub-hosted runners are now generally available](https://github.blog/changelog/2026-03-26-custom-images-for-github-hosted-runners-are-now-generally-available)
-*Mar 26, 2026*
+#### 4. [Prioritize security alerts with runtime context from Dynatrace](https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace)
+*Apr 7, 2026*
 
-Custom images for GitHub-hosted runners are now generally available. Originally introduced in public preview in October 2025, this feature lets you start with a GitHub-curated base image and build your own virtual machine image tailored to your workflow needs.
+You can now use runtime context from Dynatrace to prioritize GitHub Advanced Security alerts based on deployed artifacts and runtime risk in your Kubernetes environment. When you connect Dynatrace to GitHub, you'll see deployment context for container images that Dynatrace maps to your repositories, along with runtime risk signals.
 
-#### 5. [Ask @copilot to resolve merge conflicts on pull requests](https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests)
-*Mar 26, 2026*
+#### 5. [Copilot CLI now supports BYOK and local models](https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models)
+*Apr 7, 2026*
 
-Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts. The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push.
+GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and providers you're already paying for, operate in air-gapped environments, and maintain direct control over your LLM spend, all while keeping the same agentic terminal experience.
 
 ---
 
@@ -43,55 +43,55 @@ Copilot coding agent can now resolve merge conflicts on pull requests. To ask Co
 
 ### Significant Updates
 
-1. **[Create issues from Slack with Copilot](https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot)**
-	*Mar 30, 2026*
+1. **[Code scanning: Batch apply security alert suggestions on pull requests](https://github.blog/changelog/2026-04-07-code-scanning-batch-apply-security-alert-suggestions-on-pull-requests)**
+	*Apr 7, 2026*
 
-	You can now create GitHub Issues directly from Slack using natural language with the GitHub app for Slack. Mention @GitHub in any channel, describe the work you need to track, and the app creates structured issues in your repository. The app can even create sub-issues with proper hierarchy.
+	GitHub code scanning alerts on pull requests are now easier to address with bulk actions. You can now apply fixes for code scanning alerts in the Files changed tab by adding them to a batch, helping you interact with multiple alerts faster.
 
-2. **[Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA)**
-	*Mar 30, 2026*
+2. **[Dependabot alerts are now assignable to AI agents for remediation](https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation)**
+	*Apr 7, 2026*
 
-	Welcome back to GitHub for Beginners! In this episode, we cover the essentials of getting started with GitHub security. Learn why securing your code matters and how to easily fix vulnerabilities in...
+	Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex, to analyze the vulnerability and open a draft pull request with a proposed fix.
 
-3. **[Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU)**
-	*Mar 27, 2026*
+3. **[Dependabot version updates now support the Nix ecosystem](https://github.blog/changelog/2026-04-07-dependabot-version-updates-now-support-the-nix-ecosystem)**
+	*Apr 7, 2026*
 
-	Have you tried GitHub agentic workflows yet? This new feature allows you to author intent-driven repository workflows using plain Markdown and execute them with coding agents in GitHub Actions.
+	Dependabot now supports Nix flakes. Add nix as a package ecosystem in your dependabot.yml file. Dependabot will then monitor your flake.lock inputs and open pull requests when newer commits are available upstream.
 
-4. **[Custom images for GitHub-hosted runners are now generally available](https://github.blog/changelog/2026-03-26-custom-images-for-github-hosted-runners-are-now-generally-available)**
-	*Mar 26, 2026*
+4. **[Prioritize security alerts with runtime context from Dynatrace](https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace)**
+	*Apr 7, 2026*
 
-	Custom images for GitHub-hosted runners are now generally available. Originally introduced in public preview in October 2025, this feature lets you start with a GitHub-curated base image and build your own virtual machine image tailored to your workflow needs.
+	You can now use runtime context from Dynatrace to prioritize GitHub Advanced Security alerts based on deployed artifacts and runtime risk in your Kubernetes environment. When you connect Dynatrace to GitHub, you'll see deployment context for container images that Dynatrace maps to your repositories, along with runtime risk signals.
 
-5. **[Ask @copilot to resolve merge conflicts on pull requests](https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests)**
-	*Mar 26, 2026*
+5. **[Copilot CLI now supports BYOK and local models](https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models)**
+	*Apr 7, 2026*
 
-	Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts. The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push.
+	GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and providers you're already paying for, operate in air-gapped environments, and maintain direct control over your LLM spend, all while keeping the same agentic terminal experience.
 
-6. **[Agent activity in GitHub Issues and Projects](https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects)**
-	*Mar 26, 2026*
+6. **[npm trusted publishing now supports CircleCI](https://github.blog/changelog/2026-04-06-npm-trusted-publishing-now-supports-circleci)**
+	*Apr 6, 2026*
 
-	Today, we're shipping two new features that bring agent activity directly into your planning workflows. When a coding agent (e.g., Copilot, Claude, or Codex) is assigned to an issue, its session now appears directly under the assignee in the sidebar. Each session shows a live status: "queued", "working", "waiting for review", or "completed".
+	Maintainers publishing from CircleCI workflows can now eliminate stored credentials entirely and authenticate directly through their CI/CD pipeline. With this expansion, trusted publishing now covers a large majority of npm publishers by CI provider. Configuration is available through the npm website and the npm trust CLI command.
 
-7. **[Gemini 3 Pro deprecated](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated)**
-	*Mar 26, 2026*
+7. **[Copilot usage metrics now identify active and passive Copilot code review users](https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users)**
+	*Apr 6, 2026*
 
-	GitHub has deprecated Gemini 3 Pro across all Copilot experiences — including Chat, inline edits, ask mode, agent mode, and code completions — effective March 26, 2026. Users should migrate to Gemini 3.1 Pro as the recommended alternative. Please update your workflows and integrations to use supported models.
+	Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement.
 
-8. **[Credential revocation API now supports GitHub OAuth and GitHub app credentials](https://github.blog/changelog/2026-03-26-credential-revocation-api-now-supports-github-oauth-and-github-app-credentials)**
-	*Mar 26, 2026*
+8. **[GitHub Copilot CLI combines model families for a second opinion](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/)**
+	*Apr 6, 2026*
 
-	We've extended the Credential revocation API to support additional token types, enabling you to programmatically revoke any exposed credentials found on repositories or elsewhere. This helps you quickly limit the impact of credential exposure and improve the security of the software ecosystem.
+	When you ask a coding agent to build a data pipeline, it may not use the best structure. But what if the agent got a second opinion before it executed the plan? Today, in GitHub Copilot CLI, we're introducing Rubber Duck in experimental mode.
 
-9. **[New pull requests dashboard is in public preview](https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview)**
-	*Mar 26, 2026*
+9. **[Organization firewall settings for Copilot cloud agent](https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent)**
+	*Apr 3, 2026*
 
-	A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. Filter by repository or how recently a pull request was updated to focus on what matters most.
+	Copilot cloud agent includes a built-in agent firewall to control Copilot's internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the repository level by repository admins. Organization admins can now manage the agent firewall across all repositories in their organization.
 
-10. **[View Agentic Workflow configs in the Actions run summary](https://github.blog/changelog/2026-03-26-view-agentic-workflow-configs-in-the-actions-run-summary)**
-	*Mar 26, 2026*
+10. **[Organization runner controls for Copilot cloud agent](https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent)**
+	*Apr 3, 2026*
 
-	You can now view your Agentic Workflow markdown configs directly in the GitHub Actions run summary for any agentic workflow. This update makes it easier to review runs by reducing the need to switch between pages and showing the exact configuration used when the workflow ran.
+	Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams can also customize the agent environment to use large runners or self-hosted runners for faster performance, access to internal resources, and more.
 
 ---
 

@@ -2,14 +2,30 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: March 31, 2026
+**Last Updated**: April 08, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## April 2026
+
+- **Apr 7, 2026** - [Code scanning: Batch apply security alert suggestions on pull requests](https://github.blog/changelog/2026-04-07-code-scanning-batch-apply-security-alert-suggestions-on-pull-requests) (Blog)
+- **Apr 7, 2026** - [Dependabot alerts are now assignable to AI agents for remediation](https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation) (Blog)
+- **Apr 7, 2026** - [Dependabot version updates now support the Nix ecosystem](https://github.blog/changelog/2026-04-07-dependabot-version-updates-now-support-the-nix-ecosystem) (Blog)
+- **Apr 7, 2026** - [Prioritize security alerts with runtime context from Dynatrace](https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace) (Blog)
+- **Apr 7, 2026** - [Copilot CLI now supports BYOK and local models](https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models) (Blog)
+- **Apr 6, 2026** - [npm trusted publishing now supports CircleCI](https://github.blog/changelog/2026-04-06-npm-trusted-publishing-now-supports-circleci) (Blog)
+- **Apr 6, 2026** - [Copilot usage metrics now identify active and passive Copilot code review users](https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users) (Blog)
+- **Apr 6, 2026** - [GitHub Copilot CLI combines model families for a second opinion](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/) (Blog)
+- **Apr 3, 2026** - [Organization firewall settings for Copilot cloud agent](https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent) (Blog)
+- **Apr 3, 2026** - [Organization runner controls for Copilot cloud agent](https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent) (Blog)
+- **Apr 3, 2026** - [GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated](https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated) (Blog)
+- **Apr 1, 2026** - [Run multiple agents at once with /fleet in Copilot CLI](https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/) (Blog)
+
 ## March 2026
 
+- **Mar 31, 2026** - [Agent-driven development in Copilot Applied Science](https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/) (Blog)
 - **Mar 30, 2026** - [Create issues from Slack with Copilot](https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot) (Blog)
 - **Mar 30, 2026** - [Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA) (Video)
 - **Mar 27, 2026** - [Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU) (Video)

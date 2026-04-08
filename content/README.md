@@ -13,10 +13,10 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - [Documentation Index](REFERENCE.md)
 
 ## Current Stats
-- **Total Updates:** 17 (see [What's New](WHATS-NEW.md))
-- **Videos:** 5 (see [Videos](VIDEOS.md))
+- **Total Updates:** 13 (see [What's New](WHATS-NEW.md))
+- **Videos:** 0 (see [Videos](VIDEOS.md))
 - **Trainings:** 7 (see [Trainings](TRAININGS.md))
-- **Experimental Projects:** 30 (see [Experimental](EXPERIMENTAL.md))
+- **Experimental Projects:** 29 (see [Experimental](EXPERIMENTAL.md))
 
 ## Official Resources
 - [GitHub Copilot Docs](https://docs.github.com/copilot)
@@ -26,4 +26,4 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - [Microsoft Learn](https://learn.microsoft.com/training/)
 
 ---
-_Last updated: March 31, 2026_
+_Last updated: April 08, 2026_
