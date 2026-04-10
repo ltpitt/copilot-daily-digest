@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: March 31, 2026
+> **Last Updated**: April 10, 2026
 
 > **📊 Library Stats**
-> - 📚 **81** total videos
-> - 🆕 **5** new this month
-> - 📂 **Categories**: Getting Started (2), Features & Updates (1), Agents (1), Other (1)
+> - 📚 **88** total videos
+> - 🆕 **7** new this month
+> - 📂 **Categories**: Other (3), Agents (1), Features & Updates (1), Tutorials (1), Getting Started (1)
 
 ---
 
@@ -13,68 +13,87 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (2)
+  - [Getting Started](#getting-started) (1)
   - [Features & Updates](#features--updates) (1)
+  - [Tutorials](#tutorials) (1)
   - [Agents](#agents) (1)
-  - [Other](#other) (1)
+  - [Other](#other) (3)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*5 videos published in the last 30 days*
+*7 videos published in the last 30 days*
 
-### [Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA)
+### [Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc)
 
-**Published**: Mar 30, 2026 | **Channel**: GitHub
+**Published**: Apr 10, 2026 | **Channel**: GitHub
 
-Welcome back to GitHub for Beginners! In this episode, we cover the essentials of getting started with GitHub security. Learn why securing your code matters and how to easily fix vulnerabilities in your repositories. We walk you through built-in tools like secret scanning, Dependabot, code scanning,...
+Hoy exploramos GitHub Copilot CLI, la herramienta que está revolucionando cómo desarrollamos desde la terminal. Además, iniciamos el proyecto "Open Source Hunt" basado en la discusión comunitaria con @sergio-jc. https://github.com/githubevents/jueves-de-quack/discussions/2...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=zhxXaFzzJYA)
-
----
-
-### [Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU)
-
-**Published**: Mar 27, 2026 | **Channel**: GitHub
-
-Have you tried GitHub agentic workflows yet? This new feature allows you to author intent-driven repository workflows using plain Markdown and execute them with coding agents in GitHub Actions. From generating daily maintainer reports to proposing fixes for CI failures, you can automate almost anyth...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/XH8oKA-ZYbU)
+[Watch on YouTube →](https://www.youtube.com/watch?v=xoMYRAZRcsc)
 
 ---
 
-### [What is MCP and how does it work with AI?](https://www.youtube.com/watch?v=lFQz1hugvHo)
+### [Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI)
 
-**Published**: Mar 25, 2026 | **Channel**: GitHub
+**Published**: Apr 10, 2026 | **Channel**: GitHub
 
-Curious about how AI agents interact with the outside world? In this highlight from GitHub Universe 2025, we break down the Model Context Protocol (MCP) and how it helps models access private or recently published data. Learn how GitHub collaborated with Anthropic to take ownership of the official M...
+Guess what - there is a new rubber-duck agent in Copilot CLI, and we are going to talk about it....
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=lFQz1hugvHo)
-
----
-
-### [A beginner's guide to Copilot CLI slash commands](https://www.youtube.com/watch?v=-Yavis20B4Q)
-
-**Published**: Mar 23, 2026 | **Channel**: GitHub
-
-Welcome to episode 3 of the GitHub Copilot CLI for beginners series! In this video, we explore how to use slash commands to control your terminal AI agent. Learn how to switch models with /model, check token usage with /context, and resume past sessions with /resume. Master these commands to keep yo...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=-Yavis20B4Q)
+[Watch on YouTube →](https://www.youtube.com/watch?v=XxOU1V9iwDI)
 
 ---
 
-### [Perplexity just announced an AI personal computer](https://www.youtube.com/shorts/gaDKGrStr3E)
+### [Copilot CLI update: chronicle, plugins, and fleet mode | GitHub Checkout](https://www.youtube.com/watch?v=9oAcwmrUE44)
 
-**Published**: Mar 21, 2026 | **Channel**: GitHub
+**Published**: Apr 9, 2026 | **Channel**: GitHub
 
-Have you heard about the new Perplexity personal computer? They are taking a standard Mac mini and integrating their AI directly into the environment so it is always on. The goal is to move your AI sessions out of the browser and into your local files. 
+Welcome back to GitHub Checkout! In this episode, we sit down with Copilot CLI Product Manager Ryan Hecht to explore the latest experimental features. We dive into the new plugin marketplace, the powerful /chronicle slash command for self-healing prompts, and how to run Claude Opus 4.6, GPT-5.4, and...
 
-#Perplexity #AI #MacMini
+[Watch on YouTube →](https://www.youtube.com/watch?v=9oAcwmrUE44)
 
-Stay up-to-date on ...
+---
 
-[Watch on YouTube →](https://www.youtube.com/shorts/gaDKGrStr3E)
+### [Why you should speak at GitHub Universe 2026](https://www.youtube.com/watch?v=TW2QzGA087Q)
+
+**Published**: Apr 8, 2026 | **Channel**: GitHub
+
+GitHub Universe is coming back to San Francisco on October 28 and 29, 2026. The call for sessions is officially open from April 8 to May 1, and we are looking for speakers to shape the conversation. Whether you want to host a demo, share thought leadership, or lead interactive learning, we want to h...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=TW2QzGA087Q)
+
+---
+
+### [How to use MCP servers with GitHub Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=DtQjVIRRszM)
+
+**Published**: Apr 7, 2026 | **Channel**: GitHub
+
+In episode 5 of the GitHub Copilot CLI for beginners series, we dive into the model context protocol (MCP). Learn how to give your AI agent access to external documentation, databases, and testing tools. We walk you through using the /mcp command to set up both local and remote servers. Watch as we ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=DtQjVIRRszM)
+
+---
+
+### [Turn your GitHub profile into a 3D city](https://www.youtube.com/shorts/34nTbYNWm4c)
+
+**Published**: Apr 6, 2026 | **Channel**: GitHub
+
+We are exploring Git City, an open-source project that transforms your GitHub profile into a 3D pixel art city. Your contributions determine building height, while your repository count sets the width and your stars light up the windows. It is built with Next.js 15 and Three.js, offering a unique wa...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/34nTbYNWm4c)
+
+---
+
+### [Not sure where to start with the GitHub Copilot SDK?](https://www.youtube.com/shorts/R5ouLL_UA3o)
+
+**Published**: Apr 3, 2026 | **Channel**: GitHub
+
+Here’s a meal planning app our advocate Olivia Guzzardo was able to build as some inspiration :sparkles:
+
+It’s now in public preview. Try it out and let us know what you come up with. https://github.com/github/copilot-sdk?utm_source=social-youtube-meal-planner&amp;utm_medium=social&amp;utm_campaign=...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/R5ouLL_UA3o)
 
 ---
 
@@ -87,23 +106,13 @@ Stay up-to-date on ...
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [Getting started with GitHub security | GitHub for Beginners](https://www.youtube.com/watch?v=zhxXaFzzJYA)
+### [How to use MCP servers with GitHub Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=DtQjVIRRszM)
 
-**Published**: Mar 30, 2026
+**Published**: Apr 7, 2026
 
-Welcome back to GitHub for Beginners! In this episode, we cover the essentials of getting started with GitHub security. Learn why securing your code matters and how to easily fix vulnerabilities in yo...
+In episode 5 of the GitHub Copilot CLI for beginners series, we dive into the model context protocol (MCP). Learn how to give your AI agent access to external documentation, databases, and testing too...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=zhxXaFzzJYA)
-
----
-
-### [A beginner's guide to Copilot CLI slash commands](https://www.youtube.com/watch?v=-Yavis20B4Q)
-
-**Published**: Mar 23, 2026
-
-Welcome to episode 3 of the GitHub Copilot CLI for beginners series! In this video, we explore how to use slash commands to control your terminal AI agent. Learn how to switch models with /model, chec...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=-Yavis20B4Q)
+[Watch on YouTube →](https://www.youtube.com/watch?v=DtQjVIRRszM)
 
 ---
 
@@ -114,13 +123,30 @@ Welcome to episode 3 of the GitHub Copilot CLI for beginners series! In this vid
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Automate your repo with GitHub agentic workflows](https://www.youtube.com/shorts/XH8oKA-ZYbU)
+### [Copilot CLI update: chronicle, plugins, and fleet mode | GitHub Checkout](https://www.youtube.com/watch?v=9oAcwmrUE44)
 
-**Published**: Mar 27, 2026
+**Published**: Apr 9, 2026
 
-Have you tried GitHub agentic workflows yet? This new feature allows you to author intent-driven repository workflows using plain Markdown and execute them with coding agents in GitHub Actions. From g...
+Welcome back to GitHub Checkout! In this episode, we sit down with Copilot CLI Product Manager Ryan Hecht to explore the latest experimental features. We dive into the new plugin marketplace, the powe...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/XH8oKA-ZYbU)
+[Watch on YouTube →](https://www.youtube.com/watch?v=9oAcwmrUE44)
+
+---
+
+
+## Tutorials
+
+*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
+
+**When to watch**: You're ready to dive deep into specific features or workflows.
+
+### [Why you should speak at GitHub Universe 2026](https://www.youtube.com/watch?v=TW2QzGA087Q)
+
+**Published**: Apr 8, 2026
+
+GitHub Universe is coming back to San Francisco on October 28 and 29, 2026. The call for sessions is officially open from April 8 to May 1, and we are looking for speakers to shape the conversation. W...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=TW2QzGA087Q)
 
 ---
 
@@ -131,13 +157,13 @@ Have you tried GitHub agentic workflows yet? This new feature allows you to auth
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [What is MCP and how does it work with AI?](https://www.youtube.com/watch?v=lFQz1hugvHo)
+### [Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI)
 
-**Published**: Mar 25, 2026
+**Published**: Apr 10, 2026
 
-Curious about how AI agents interact with the outside world? In this highlight from GitHub Universe 2025, we break down the Model Context Protocol (MCP) and how it helps models access private or recen...
+Guess what - there is a new rubber-duck agent in Copilot CLI, and we are going to talk about it....
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=lFQz1hugvHo)
+[Watch on YouTube →](https://www.youtube.com/watch?v=XxOU1V9iwDI)
 
 ---
 
@@ -148,13 +174,35 @@ Curious about how AI agents interact with the outside world? In this highlight f
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [Perplexity just announced an AI personal computer](https://www.youtube.com/shorts/gaDKGrStr3E)
+### [Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc)
 
-**Published**: Mar 21, 2026
+**Published**: Apr 10, 2026
 
-Have you heard about the new Perplexity personal computer? They are taking a standard Mac mini and integrating their AI directly into the environment so it is always on. The goal is to move your AI se...
+Hoy exploramos GitHub Copilot CLI, la herramienta que está revolucionando cómo desarrollamos desde la terminal. Además, iniciamos el proyecto "Open Source Hunt" basado en la discusión comunitaria con ...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/gaDKGrStr3E)
+[Watch on YouTube →](https://www.youtube.com/watch?v=xoMYRAZRcsc)
+
+---
+
+### [Turn your GitHub profile into a 3D city](https://www.youtube.com/shorts/34nTbYNWm4c)
+
+**Published**: Apr 6, 2026
+
+We are exploring Git City, an open-source project that transforms your GitHub profile into a 3D pixel art city. Your contributions determine building height, while your repository count sets the width...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/34nTbYNWm4c)
+
+---
+
+### [Not sure where to start with the GitHub Copilot SDK?](https://www.youtube.com/shorts/R5ouLL_UA3o)
+
+**Published**: Apr 3, 2026
+
+Here’s a meal planning app our advocate Olivia Guzzardo was able to build as some inspiration :sparkles:
+
+It’s now in public preview. Try it out and let us know what you come up with. https://github.c...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/R5ouLL_UA3o)
 
 ---
 
