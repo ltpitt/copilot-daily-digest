@@ -71,7 +71,7 @@ This update brings release tracking closer to your issues, configurable defaults
 6. **[Ask Copilot in security assessments now available](https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available)**
 	*Apr 9, 2026*
 
-	Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided . To , visit our docs about running a Code Security risk assessment or secret risk assessment. The post Ask Copilot in security assessments now available appeared first on The GitHub Blog.
+	Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next steps. This feature helps teams quickly understand and act on security findings without leaving their workflow. For more details, visit the GitHub docs on running a Code Security risk assessment or secret risk assessment.
 
 7. **[Copilot CLI update: chronicle, plugins, and fleet mode | GitHub Checkout](https://www.youtube.com/watch?v=9oAcwmrUE44)**
 	*Apr 9, 2026*

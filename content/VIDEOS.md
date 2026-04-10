@@ -91,7 +91,7 @@ We are exploring Git City, an open-source project that transforms your GitHub pr
 
 Here’s a meal planning app our advocate Olivia Guzzardo was able to build as some inspiration :sparkles:
 
-It’s now in public preview. Try it out and let us know what you come up with. https://github.com/github/copilot-sdk?utm_source=social-youtube-meal-planner&amp;utm_medium=social&amp;utm_campaign=...
+It’s now in public preview. Try it out and let us know what you come up with. https://github.com/github/copilot-sdk?utm_source=social-youtube-meal-planner&utm_medium=social&utm_campaign=...
 
 [Watch on YouTube →](https://www.youtube.com/shorts/R5ouLL_UA3o)
 
