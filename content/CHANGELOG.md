@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: April 10, 2026
+**Last Updated**: April 17, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,8 +10,26 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## April 2026
 
+- **Apr 16, 2026** - [Manage agent skills with GitHub CLI](https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli) (Blog)
+- **Apr 16, 2026** - [Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar) (Blog)
+- **Apr 16, 2026** - [Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available) (Blog)
+- **Apr 16, 2026** - [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY) (Video)
+- **Apr 15, 2026** - [CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates) (Blog)
+- **Apr 15, 2026** - [Build a personal organization command center with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/) (Blog)
+- **Apr 15, 2026** - [Enable Copilot cloud agent via custom properties](https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties) (Blog)
+- **Apr 15, 2026** - [How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M) (Video)
+- **Apr 14, 2026** - [Deployment context in repository properties and alerts](https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts) (Blog)
+- **Apr 14, 2026** - [Secret scanning pattern updates and product improvements](https://github.blog/changelog/2026-04-14-secret-scanning-pattern-updates-and-product-improvements) (Blog)
+- **Apr 14, 2026** - [Dependabot and code scanning: Org-level private registries](https://github.blog/changelog/2026-04-14-dependabot-and-code-scanning-org-level-private-registries) (Blog)
+- **Apr 14, 2026** - [Link code scanning alerts to GitHub Issues](https://github.blog/changelog/2026-04-14-link-code-scanning-alerts-to-github-issues) (Blog)
+- **Apr 14, 2026** - [OIDC support for Dependabot and code scanning](https://github.blog/changelog/2026-04-14-oidc-support-for-dependabot-and-code-scanning) (Blog)
+- **Apr 14, 2026** - [How to access your Copilot CLI session from anywhere](https://www.youtube.com/watch?v=dRSHSZ53c1g) (Video)
+- **Apr 13, 2026** - [Getting started with GitHub Pages for beginners | Tutorial](https://www.youtube.com/watch?v=b2r9Cdvssi0) (Video)
+- **Apr 11, 2026** - [GitHub Constellation India 2026 — Keynote: AI. Developers. The Future.](https://www.youtube.com/watch?v=QNbJoEx36jA) (Video)
 - **Apr 10, 2026** - [Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc) (Video)
 - **Apr 10, 2026** - [Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI) (Video)
+- **Apr 10, 2026** - [GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/) (Blog)
+- **Apr 10, 2026** - [Turning a codebase into an 80s dungeon crawler with Copilot CLI](https://www.youtube.com/watch?v=WekOupjeM6E) (Video)
 - **Apr 9, 2026** - [New Low Quality option in the Hide comment menu](https://github.blog/changelog/2026-04-09-new-low-quality-option-in-the-hide-comment-menu) (Blog)
 - **Apr 9, 2026** - [Repository member role labels now in pull request list view](https://github.blog/changelog/2026-04-09-repository-member-role-labels-now-in-pull-request-list-view) (Blog)
 - **Apr 9, 2026** - [Release information in issue sidebar and default values for project fields](https://github.blog/changelog/2026-04-09-release-info-in-issue-sidebar-and-project-defaults) (Blog)

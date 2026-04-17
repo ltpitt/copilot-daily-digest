@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: April 10, 2026
+> **Last Updated**: April 17, 2026
 
 > **📊 Library Stats**
-> - 📚 **88** total videos
-> - 🆕 **7** new this month
-> - 📂 **Categories**: Other (3), Agents (1), Features & Updates (1), Tutorials (1), Getting Started (1)
+> - 📚 **94** total videos
+> - 🆕 **6** new this month
+> - 📂 **Categories**: Getting Started (2), Features & Updates (2), Agents (1), Extensions (1)
 
 ---
 
@@ -13,87 +13,76 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Features & Updates](#features--updates) (1)
-  - [Tutorials](#tutorials) (1)
+  - [Getting Started](#getting-started) (2)
+  - [Features & Updates](#features--updates) (2)
   - [Agents](#agents) (1)
-  - [Other](#other) (3)
+  - [Extensions](#extensions) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*7 videos published in the last 30 days*
+*6 videos published in the last 30 days*
 
-### [Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc)
+### [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
+
+**Published**: Apr 16, 2026 | **Channel**: GitHub
+
+In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. We walk you through setting up instructions, skills, and custom agents to ensure Copilot follows your team's exact coding standards. Learn how to generate project-level instructi...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=-yKALFS5ewY)
+
+---
+
+### [How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M)
+
+**Published**: Apr 15, 2026 | **Channel**: GitHub
+
+Meet Brittany Ellich, a Staff Software Engineer here at GitHub, and explore the custom productivity tool she built using the GitHub Copilot CLI. Because she prefers visual interfaces over the command line, she used GitHub Copilot to vibe code a personalized command center. Her app features an AI cha...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=BDZKubrUO1M)
+
+---
+
+### [How to access your Copilot CLI session from anywhere](https://www.youtube.com/watch?v=dRSHSZ53c1g)
+
+**Published**: Apr 14, 2026 | **Channel**: GitHub
+
+Need to step away from your desk but want to keep working? The new remote feature for GitHub Copilot CLI lets you access your active terminal session from any device with a browser. Learn how to remote control your session allowing you to manage your work wherever and whenever you need to. 
+
+#GitHub...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=dRSHSZ53c1g)
+
+---
+
+### [Getting started with GitHub Pages for beginners | Tutorial](https://www.youtube.com/watch?v=b2r9Cdvssi0)
+
+**Published**: Apr 13, 2026 | **Channel**: GitHub
+
+Did you know you can host your static websites completely for free? This episode of our beginner series covers everything you need to know about getting started with GitHub Pages. Follow along as we select a project, set up deployment through GitHub Actions, and configure a custom domain. It is a gr...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=b2r9Cdvssi0)
+
+---
+
+### [GitHub Constellation India 2026 — Keynote: AI. Developers. The Future.](https://www.youtube.com/watch?v=QNbJoEx36jA)
+
+**Published**: Apr 11, 2026 | **Channel**: GitHub
+
+Join us live from Bengaluru for the GitHub Constellation India 2026 keynote. Hear from Jay Parikh (Executive Vice President, Microsoft) and Kyle Daigle (Chief Operating Officer, GitHub) as they share what's next for AI-powered development — from GitHub Copilot to intelligent agents reshaping how sof...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=QNbJoEx36jA)
+
+---
+
+### [Turning a codebase into an 80s dungeon crawler with Copilot CLI](https://www.youtube.com/watch?v=WekOupjeM6E)
 
 **Published**: Apr 10, 2026 | **Channel**: GitHub
 
-Hoy exploramos GitHub Copilot CLI, la herramienta que está revolucionando cómo desarrollamos desde la terminal. Además, iniciamos el proyecto "Open Source Hunt" basado en la discusión comunitaria con @sergio-jc. https://github.com/githubevents/jueves-de-quack/discussions/2...
+What if you could turn your GitHub repo into a procedurally generated roguelike adventure game for your terminal? In this overview, Lee Reilly (Program Manager | Dungeon Master) uses GitHub Copilot CLI to build GH-Dungeons, a terminal-based roguelike and GitHub CLI extension where your repository be...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=xoMYRAZRcsc)
-
----
-
-### [Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI)
-
-**Published**: Apr 10, 2026 | **Channel**: GitHub
-
-Guess what - there is a new rubber-duck agent in Copilot CLI, and we are going to talk about it....
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=XxOU1V9iwDI)
-
----
-
-### [Copilot CLI update: chronicle, plugins, and fleet mode | GitHub Checkout](https://www.youtube.com/watch?v=9oAcwmrUE44)
-
-**Published**: Apr 9, 2026 | **Channel**: GitHub
-
-Welcome back to GitHub Checkout! In this episode, we sit down with Copilot CLI Product Manager Ryan Hecht to explore the latest experimental features. We dive into the new plugin marketplace, the powerful /chronicle slash command for self-healing prompts, and how to run Claude Opus 4.6, GPT-5.4, and...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=9oAcwmrUE44)
-
----
-
-### [Why you should speak at GitHub Universe 2026](https://www.youtube.com/watch?v=TW2QzGA087Q)
-
-**Published**: Apr 8, 2026 | **Channel**: GitHub
-
-GitHub Universe is coming back to San Francisco on October 28 and 29, 2026. The call for sessions is officially open from April 8 to May 1, and we are looking for speakers to shape the conversation. Whether you want to host a demo, share thought leadership, or lead interactive learning, we want to h...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=TW2QzGA087Q)
-
----
-
-### [How to use MCP servers with GitHub Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=DtQjVIRRszM)
-
-**Published**: Apr 7, 2026 | **Channel**: GitHub
-
-In episode 5 of the GitHub Copilot CLI for beginners series, we dive into the model context protocol (MCP). Learn how to give your AI agent access to external documentation, databases, and testing tools. We walk you through using the /mcp command to set up both local and remote servers. Watch as we ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=DtQjVIRRszM)
-
----
-
-### [Turn your GitHub profile into a 3D city](https://www.youtube.com/shorts/34nTbYNWm4c)
-
-**Published**: Apr 6, 2026 | **Channel**: GitHub
-
-We are exploring Git City, an open-source project that transforms your GitHub profile into a 3D pixel art city. Your contributions determine building height, while your repository count sets the width and your stars light up the windows. It is built with Next.js 15 and Three.js, offering a unique wa...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/34nTbYNWm4c)
-
----
-
-### [Not sure where to start with the GitHub Copilot SDK?](https://www.youtube.com/shorts/R5ouLL_UA3o)
-
-**Published**: Apr 3, 2026 | **Channel**: GitHub
-
-Here’s a meal planning app our advocate Olivia Guzzardo was able to build as some inspiration :sparkles:
-
-It’s now in public preview. Try it out and let us know what you come up with. https://github.com/github/copilot-sdk?utm_source=social-youtube-meal-planner&utm_medium=social&utm_campaign=...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/R5ouLL_UA3o)
+[Watch on YouTube →](https://www.youtube.com/watch?v=WekOupjeM6E)
 
 ---
 
@@ -106,13 +95,23 @@ It’s now in public preview. Try it out and let us know what you come up with. 
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [How to use MCP servers with GitHub Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=DtQjVIRRszM)
+### [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
 
-**Published**: Apr 7, 2026
+**Published**: Apr 16, 2026
 
-In episode 5 of the GitHub Copilot CLI for beginners series, we dive into the model context protocol (MCP). Learn how to give your AI agent access to external documentation, databases, and testing too...
+In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. We walk you through setting up instructions, skills, and custom agents to ensu...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=DtQjVIRRszM)
+[Watch on YouTube →](https://www.youtube.com/watch?v=-yKALFS5ewY)
+
+---
+
+### [Getting started with GitHub Pages for beginners | Tutorial](https://www.youtube.com/watch?v=b2r9Cdvssi0)
+
+**Published**: Apr 13, 2026
+
+Did you know you can host your static websites completely for free? This episode of our beginner series covers everything you need to know about getting started with GitHub Pages. Follow along as we s...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=b2r9Cdvssi0)
 
 ---
 
@@ -123,30 +122,23 @@ In episode 5 of the GitHub Copilot CLI for beginners series, we dive into the mo
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Copilot CLI update: chronicle, plugins, and fleet mode | GitHub Checkout](https://www.youtube.com/watch?v=9oAcwmrUE44)
+### [How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M)
 
-**Published**: Apr 9, 2026
+**Published**: Apr 15, 2026
 
-Welcome back to GitHub Checkout! In this episode, we sit down with Copilot CLI Product Manager Ryan Hecht to explore the latest experimental features. We dive into the new plugin marketplace, the powe...
+Meet Brittany Ellich, a Staff Software Engineer here at GitHub, and explore the custom productivity tool she built using the GitHub Copilot CLI. Because she prefers visual interfaces over the command ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=9oAcwmrUE44)
+[Watch on YouTube →](https://www.youtube.com/watch?v=BDZKubrUO1M)
 
 ---
 
+### [How to access your Copilot CLI session from anywhere](https://www.youtube.com/watch?v=dRSHSZ53c1g)
 
-## Tutorials
+**Published**: Apr 14, 2026
 
-*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
+Need to step away from your desk but want to keep working? The new remote feature for GitHub Copilot CLI lets you access your active terminal session from any device with a browser. Learn how to remot...
 
-**When to watch**: You're ready to dive deep into specific features or workflows.
-
-### [Why you should speak at GitHub Universe 2026](https://www.youtube.com/watch?v=TW2QzGA087Q)
-
-**Published**: Apr 8, 2026
-
-GitHub Universe is coming back to San Francisco on October 28 and 29, 2026. The call for sessions is officially open from April 8 to May 1, and we are looking for speakers to shape the conversation. W...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=TW2QzGA087Q)
+[Watch on YouTube →](https://www.youtube.com/watch?v=dRSHSZ53c1g)
 
 ---
 
@@ -157,52 +149,30 @@ GitHub Universe is coming back to San Francisco on October 28 and 29, 2026. The 
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI)
+### [GitHub Constellation India 2026 — Keynote: AI. Developers. The Future.](https://www.youtube.com/watch?v=QNbJoEx36jA)
+
+**Published**: Apr 11, 2026
+
+Join us live from Bengaluru for the GitHub Constellation India 2026 keynote. Hear from Jay Parikh (Executive Vice President, Microsoft) and Kyle Daigle (Chief Operating Officer, GitHub) as they share ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=QNbJoEx36jA)
+
+---
+
+
+## Extensions
+
+*Learn about Copilot extensions, integrations, APIs, and third-party plugins.*
+
+**When to watch**: You want to extend Copilot or integrate it with other tools.
+
+### [Turning a codebase into an 80s dungeon crawler with Copilot CLI](https://www.youtube.com/watch?v=WekOupjeM6E)
 
 **Published**: Apr 10, 2026
 
-Guess what - there is a new rubber-duck agent in Copilot CLI, and we are going to talk about it....
+What if you could turn your GitHub repo into a procedurally generated roguelike adventure game for your terminal? In this overview, Lee Reilly (Program Manager | Dungeon Master) uses GitHub Copilot CL...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=XxOU1V9iwDI)
-
----
-
-
-## Other
-
-*Additional videos that don't fit into other categories.*
-
-**When to watch**: You're looking for miscellaneous Copilot content.
-
-### [Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc)
-
-**Published**: Apr 10, 2026
-
-Hoy exploramos GitHub Copilot CLI, la herramienta que está revolucionando cómo desarrollamos desde la terminal. Además, iniciamos el proyecto "Open Source Hunt" basado en la discusión comunitaria con ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=xoMYRAZRcsc)
-
----
-
-### [Turn your GitHub profile into a 3D city](https://www.youtube.com/shorts/34nTbYNWm4c)
-
-**Published**: Apr 6, 2026
-
-We are exploring Git City, an open-source project that transforms your GitHub profile into a 3D pixel art city. Your contributions determine building height, while your repository count sets the width...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/34nTbYNWm4c)
-
----
-
-### [Not sure where to start with the GitHub Copilot SDK?](https://www.youtube.com/shorts/R5ouLL_UA3o)
-
-**Published**: Apr 3, 2026
-
-Here’s a meal planning app our advocate Olivia Guzzardo was able to build as some inspiration :sparkles:
-
-It’s now in public preview. Try it out and let us know what you come up with. https://github.c...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/R5ouLL_UA3o)
+[Watch on YouTube →](https://www.youtube.com/watch?v=WekOupjeM6E)
 
 ---
 
