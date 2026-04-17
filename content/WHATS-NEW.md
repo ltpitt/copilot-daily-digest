@@ -20,7 +20,7 @@ Agent skills are reshaping how developers work with AI coding agents. Today we'r
 #### 2. [Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar)
 *Apr 16, 2026*
 
-GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings &gt; Rules tab.
+GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings > Rules tab.
 
 #### 3. [Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available)
 *Apr 16, 2026*
@@ -30,7 +30,7 @@ Claude Opus 4.7, Anthropic's latest Opus model, is now rolling out on GitHub Cop
 #### 4. [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
 *Apr 16, 2026*
 
-In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. We walk you through setting up instructions, skills, and custom agents to ensure Copilot follows your team's exact coding...
+In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. Learn how to generate project-level instructions, automate pull requests with agent skills, and run specialized tasks like accessibility reviews. These tools work in perfect harmony to keep your codebase consistent.
 
 #### 5. [CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates)
 *Apr 15, 2026*
@@ -52,7 +52,7 @@ Kotlin versions up to 2.3.20 are now supported for analysis.
 2. **[Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar)**
 	*Apr 16, 2026*
 
-	GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings &gt; Rules tab.
+	GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings > Rules tab.
 
 3. **[Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available)**
 	*Apr 16, 2026*
@@ -62,7 +62,7 @@ Kotlin versions up to 2.3.20 are now supported for analysis.
 4. **[How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)**
 	*Apr 16, 2026*
 
-	In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. We walk you through setting up instructions, skills, and custom agents to...
+	In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. Learn how to generate project-level instructions, automate pull requests with agent skills, and run specialized tasks like accessibility reviews. These tools work in perfect harmony to keep your codebase consistent.
 
 5. **[CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates)**
 	*Apr 15, 2026*
@@ -73,7 +73,7 @@ Kotlin versions up to 2.3.20 are now supported for analysis.
 6. **[Build a personal organization command center with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/)**
 	*Apr 15, 2026*
 
-	What if you could remove the struggle of context switching across several apps, bringing them together into one place? Meet Brittany Ellich, Staff Software Engineer, and the productivity tool she built to streamline her work. We sat down with Brittany to learn about this project&ndash;what she built, how she did it, and how AI supported the development process from ideation to implementation.
+	What if you could remove the struggle of context switching across several apps, bringing them together into one place? Meet Brittany Ellich, Staff Software Engineer, and the productivity tool she built to streamline her work. We sat down with Brittany to learn about this project – what she built, how she did it, and how AI supported the development process from ideation to implementation.
 
 7. **[Enable Copilot cloud agent via custom properties](https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties)**
 	*Apr 15, 2026*
