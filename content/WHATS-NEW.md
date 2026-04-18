@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: April 10, 2026
+**Last Updated**: April 17, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,30 +12,31 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc)
-*Apr 10, 2026*
+#### 1. [Manage agent skills with GitHub CLI](https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli)
+*Apr 16, 2026*
 
-Hoy exploramos GitHub Copilot CLI, la herramienta que está revolucionando cómo desarrollamos desde la terminal. Además, iniciamos el proyecto "Open Source Hunt" basado en la discusión comunitaria con @sergio-jc. https://github.
+Agent skills are reshaping how developers work with AI coding agents. Today we're launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks.
 
-#### 2. [Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI)
-*Apr 10, 2026*
+#### 2. [Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar)
+*Apr 16, 2026*
 
-Guess what - there is a new rubber-duck agent in Copilot CLI, and we are going to talk about it.
+GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings > Rules tab.
 
-#### 3. [New Low Quality option in the Hide comment menu](https://github.blog/changelog/2026-04-09-new-low-quality-option-in-the-hide-comment-menu)
-*Apr 9, 2026*
+#### 3. [Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available)
+*Apr 16, 2026*
 
-GitHub moderators can now classify hidden comments as Low Quality, a new option in the Hide comment dropdown menu available across issues, discussions, pull requests, and commits. The new Low Quality classifier gives moderators a more precise tool to accurately categorize these comments during moderation. Navigate to any comment on an issue, discussion, pull request, or commit.
+Claude Opus 4.7, Anthropic's latest Opus model, is now rolling out on GitHub Copilot. In our early testing, Opus 4.7 delivers stronger multi-step task performance and more reliable agentic execution, building on the coding strategy strengths of its predecessor. It also shows meaningful improvement in long-horizon reasoning and complex, tool-dependent workflows.
 
-#### 4. [Repository member role labels now in pull request list view](https://github.blog/changelog/2026-04-09-repository-member-role-labels-now-in-pull-request-list-view)
-*Apr 9, 2026*
+#### 4. [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
+*Apr 16, 2026*
 
-You can now see repository member role labels directly in the pull request list view for public repositories. Role labels, such as First-time contributor, Contributor, and Member, now appear inline with other pull request metadata in the list view.
+In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. Learn how to generate project-level instructions, automate pull requests with agent skills, and run specialized tasks like accessibility reviews. These tools work in perfect harmony to keep your codebase consistent.
 
-#### 5. [Release information in issue sidebar and default values for project fields](https://github.blog/changelog/2026-04-09-release-info-in-issue-sidebar-and-project-defaults)
-*Apr 9, 2026*
+#### 5. [CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates)
+*Apr 15, 2026*
 
-This update brings release tracking closer to your issues, configurable defaults for project fields, and faster navigation across related issues. When an issue is linked by a pull request, the "Development" section now shows the first release that shipped that pull request, directly beneath the pull request reference.
+CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.25.2, which brings a new Kotlin version update, various accuracy improvements, and a set of security severity score adjustments across multiple languages. Java/Kotlin
+Kotlin versions up to 2.3.20 are now supported for analysis.
 
 ---
 
@@ -43,55 +44,56 @@ This update brings release tracking closer to your issues, configurable defaults
 
 ### Significant Updates
 
-1. **[Jueves de Quack - Lo nuevo en GitHub Copilot CLI](https://www.youtube.com/watch?v=xoMYRAZRcsc)**
-	*Apr 10, 2026*
+1. **[Manage agent skills with GitHub CLI](https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli)**
+	*Apr 16, 2026*
 
-	Hoy exploramos GitHub Copilot CLI, la herramienta que está revolucionando cómo desarrollamos desde la terminal. Además, iniciamos el proyecto "Open Source Hunt" basado en la discusión comunitaria con...
+	Agent skills are reshaping how developers work with AI coding agents. Today we're launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks.
 
-2. **[Rubber Duck Thursdays | Rubber-Duck Agent](https://www.youtube.com/watch?v=XxOU1V9iwDI)**
-	*Apr 10, 2026*
+2. **[Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar)**
+	*Apr 16, 2026*
 
-	Guess what - there is a new rubber-duck agent in Copilot CLI, and we are going to talk about it.
+	GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings > Rules tab.
 
-3. **[New Low Quality option in the Hide comment menu](https://github.blog/changelog/2026-04-09-new-low-quality-option-in-the-hide-comment-menu)**
-	*Apr 9, 2026*
+3. **[Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available)**
+	*Apr 16, 2026*
 
-	GitHub moderators can now classify hidden comments as Low Quality, a new option in the Hide comment dropdown menu available across issues, discussions, pull requests, and commits. The new Low Quality classifier gives moderators a more precise tool to accurately categorize these comments during moderation. Navigate to any comment on an issue, discussion, pull request, or commit.
+	Claude Opus 4.7, Anthropic's latest Opus model, is now rolling out on GitHub Copilot. In our early testing, Opus 4.7 delivers stronger multi-step task performance and more reliable agentic execution, building on the coding strategy strengths of its predecessor. It also shows meaningful improvement in long-horizon reasoning and complex, tool-dependent workflows.
 
-4. **[Repository member role labels now in pull request list view](https://github.blog/changelog/2026-04-09-repository-member-role-labels-now-in-pull-request-list-view)**
-	*Apr 9, 2026*
+4. **[How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)**
+	*Apr 16, 2026*
 
-	You can now see repository member role labels directly in the pull request list view for public repositories. Role labels, such as First-time contributor, Contributor, and Member, now appear inline with other pull request metadata in the list view.
+	In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. Learn how to generate project-level instructions, automate pull requests with agent skills, and run specialized tasks like accessibility reviews. These tools work in perfect harmony to keep your codebase consistent.
 
-5. **[Release information in issue sidebar and default values for project fields](https://github.blog/changelog/2026-04-09-release-info-in-issue-sidebar-and-project-defaults)**
-	*Apr 9, 2026*
+5. **[CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates)**
+	*Apr 15, 2026*
 
-	This update brings release tracking closer to your issues, configurable defaults for project fields, and faster navigation across related issues. When an issue is linked by a pull request, the "Development" section now shows the first release that shipped that pull request, directly beneath the pull request reference.
+	CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.25.2, which brings a new Kotlin version update, various accuracy improvements, and a set of security severity score adjustments across multiple languages. Java/Kotlin
+	Kotlin versions up to 2.3.20 are now supported for analysis.
 
-6. **[Ask Copilot in security assessments now available](https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available)**
-	*Apr 9, 2026*
+6. **[Build a personal organization command center with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/)**
+	*Apr 15, 2026*
 
-	Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next steps. This feature helps teams quickly understand and act on security findings without leaving their workflow. For more details, visit the GitHub docs on running a Code Security risk assessment or secret risk assessment.
+	What if you could remove the struggle of context switching across several apps, bringing them together into one place? Meet Brittany Ellich, Staff Software Engineer, and the productivity tool she built to streamline her work. We sat down with Brittany to learn about this project – what she built, how she did it, and how AI supported the development process from ideation to implementation.
 
-7. **[Copilot CLI update: chronicle, plugins, and fleet mode | GitHub Checkout](https://www.youtube.com/watch?v=9oAcwmrUE44)**
-	*Apr 9, 2026*
+7. **[Enable Copilot cloud agent via custom properties](https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties)**
+	*Apr 15, 2026*
 
-	Welcome back to GitHub Checkout! In this episode, we sit down with Copilot CLI Product Manager Ryan Hecht to explore the latest experimental features.
+	You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties.
 
-8. **[Code Security risk assessment available for organizations](https://github.blog/changelog/2026-04-08-code-security-risk-assessment-available-for-organizations)**
-	*Apr 8, 2026*
+8. **[How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M)**
+	*Apr 15, 2026*
 
-	Organization admins and security managers can now run a free Code Security risk assessment to review security vulnerabilities across their organization. The assessment summarizes vulnerabilities by severity, rule type, and programming language. It includes remediation guidance, highlighting where Copilot Autofix can automatically suggest fixes.
+	Meet Brittany Ellich, a Staff Software Engineer here at GitHub, and explore the custom productivity tool she built using the GitHub Copilot CLI.
 
-9. **[GitHub Mobile: Research and code with Copilot cloud agent anywhere](https://github.blog/changelog/2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere)**
-	*Apr 8, 2026*
+9. **[Deployment context in repository properties and alerts](https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts)**
+	*Apr 14, 2026*
 
-	Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you're away from your desk. Ask Copilot to research your codebase, generate an implementation plan before writing code, and make code changes on a branch without immediately opening a pull request.
+	Artifact and deployment context now appears in two new places: repository properties and security alert pages. Two new built-in repository properties—deployable and deployed—are now available. These properties reflect existing artifact and deployment metadata, so you don't need to manually maintain lists of which repositories are actively deployed.
 
-10. **[New PGP signing key for GitHub CLI Linux packages](https://github.blog/changelog/2026-04-08-new-pgp-signing-key-for-github-cli-linux-packages)**
-	*Apr 8, 2026*
+10. **[Secret scanning pattern updates and product improvements](https://github.blog/changelog/2026-04-14-secret-scanning-pattern-updates-and-product-improvements)**
+	*Apr 14, 2026*
 
-	We've published an updated PGP keyring for GitHub CLI's Linux package repositories. The keyring now includes both the current signing key and a new replacement key. If you've already rerun the Linux installation steps since the new keyring was published, you're covered and don't need to take any action.
+	This week, we're rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers.
 
 ---
 

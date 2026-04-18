@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: April 10, 2026
+> **Last Updated**: April 17, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -29,7 +29,7 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 
 ---
 
-### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
+### [Introduction to GitHub Copilot](https://learn.github.com/skills/copilot)
 
 **Provider**: GitHub Skills | **Level**: Beginner
 
