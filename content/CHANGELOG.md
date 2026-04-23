@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: April 17, 2026
+**Last Updated**: April 23, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,22 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## April 2026
 
+- **Apr 23, 2026** - [Copilot cloud agent fields added to usage metrics](https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics) (Blog)
+- **Apr 23, 2026** - [Better debugging with GitHub Copilot on the web](https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web) (Blog)
+- **Apr 23, 2026** - [Dependabot-based dependency graphs for Python](https://github.blog/changelog/2026-04-23-dependabot-graphs-for-python) (Blog)
+- **Apr 23, 2026** - [Fixing merge conflicts and PRs with Copilot cloud agent | GitHub Checkout](https://www.youtube.com/watch?v=ws_3hiXLKjQ) (Video)
+- **Apr 22, 2026** - [Pausing new self-serve signups for GitHub Copilot Business](https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business) (Blog)
+- **Apr 22, 2026** - [Bring your own language model key in VS Code now available](https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available) (Blog)
+- **Apr 22, 2026** - [Copilot code review user counts now aggregate in usage metrics API](https://github.blog/changelog/2026-04-22-copilot-code-review-user-counts-now-aggregate-in-usage-metrics-api) (Blog)
+- **Apr 22, 2026** - [GitHub Copilot for Jira: Our latest enhancements](https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements) (Blog)
+- **Apr 22, 2026** - [Upcoming change to Copilot usage metrics report download URLs](https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls) (Blog)
+- **Apr 22, 2026** - [GitHub CLI: Opt-out usage telemetry](https://github.blog/changelog/2026-04-22-github-cli-opt-out-usage-telemetry) (Blog)
+- **Apr 22, 2026** - [Build a Personal Assistant with GitHub Copilot SDK + Copilot CLI](https://www.youtube.com/watch?v=5TN6l7JGWvs) (Video)
+- **Apr 21, 2026** - [How to use MCPUI and Goose to manage GitHub issues](https://www.youtube.com/watch?v=Vd1y45pMRCk) (Video)
+- **Apr 20, 2026** - [How to host a website for free with GitHub pages](https://www.youtube.com/shorts/rrbBawUqoJg) (Video)
+- **Apr 19, 2026** - [AI bots are protecting each other from deletion](https://www.youtube.com/shorts/2Z8GN960ORQ) (Video)
+- **Apr 17, 2026** - [Building an emoji list generator with the GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/) (Blog)
+- **Apr 17, 2026** - [The Download: Copilot SDK, Claude Mythos, AI models are protecting each other & more](https://www.youtube.com/watch?v=0vvY2AGg4sM) (Video)
 - **Apr 16, 2026** - [Manage agent skills with GitHub CLI](https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli) (Blog)
 - **Apr 16, 2026** - [Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar) (Blog)
 - **Apr 16, 2026** - [Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available) (Blog)
