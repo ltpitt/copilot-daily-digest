@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: April 17, 2026
+> **Last Updated**: April 24, 2026
 
 > **📊 Library Stats**
-> - 📚 **94** total videos
+> - 📚 **100** total videos
 > - 🆕 **6** new this month
-> - 📂 **Categories**: Getting Started (2), Features & Updates (2), Agents (1), Extensions (1)
+> - 📂 **Categories**: Features & Updates (1), Getting Started (2), Tutorials (1), Agents (2)
 
 ---
 
@@ -14,9 +14,9 @@
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
   - [Getting Started](#getting-started) (2)
-  - [Features & Updates](#features--updates) (2)
-  - [Agents](#agents) (1)
-  - [Extensions](#extensions) (1)
+  - [Features & Updates](#features--updates) (1)
+  - [Tutorials](#tutorials) (1)
+  - [Agents](#agents) (2)
 
 ---
 
@@ -24,65 +24,64 @@
 
 *6 videos published in the last 30 days*
 
-### [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
+### [Fixing merge conflicts and PRs with Copilot cloud agent | GitHub Checkout](https://www.youtube.com/watch?v=ws_3hiXLKjQ)
 
-**Published**: Apr 16, 2026 | **Channel**: GitHub
+**Published**: Apr 23, 2026 | **Channel**: GitHub
 
-In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. We walk you through setting up instructions, skills, and custom agents to ensure Copilot follows your team's exact coding standards. Learn how to generate project-level instructi...
+Merge conflicts, failing tests, messy PRs. What if you could just ask Copilot to fix all of it? 
+Tim Rogers is back to show what's new with Copilot Cloud Agent: private sessions before you open a PR, model choice, and just say "@Copilot fix the merge conflicts" and it handles it. Plus a sneak peek a...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=-yKALFS5ewY)
-
----
-
-### [How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M)
-
-**Published**: Apr 15, 2026 | **Channel**: GitHub
-
-Meet Brittany Ellich, a Staff Software Engineer here at GitHub, and explore the custom productivity tool she built using the GitHub Copilot CLI. Because she prefers visual interfaces over the command line, she used GitHub Copilot to vibe code a personalized command center. Her app features an AI cha...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=BDZKubrUO1M)
+[Watch on YouTube →](https://www.youtube.com/watch?v=ws_3hiXLKjQ)
 
 ---
 
-### [How to access your Copilot CLI session from anywhere](https://www.youtube.com/watch?v=dRSHSZ53c1g)
+### [Build a Personal Assistant with GitHub Copilot SDK + Copilot CLI](https://www.youtube.com/watch?v=5TN6l7JGWvs)
 
-**Published**: Apr 14, 2026 | **Channel**: GitHub
+**Published**: Apr 22, 2026 | **Channel**: GitHub
 
-Need to step away from your desk but want to keep working? The new remote feature for GitHub Copilot CLI lets you access your active terminal session from any device with a browser. Learn how to remote control your session allowing you to manage your work wherever and whenever you need to. 
+Want to build your own AI assistant? In this video, we show you how to use the GitHub Copilot SDK and Copilot CLI to create a fully functional personal assistant on Telegram. Watch how we use the new /research command to learn the SDK, and then deploy fleet mode to write the code automatically. We e...
 
-#GitHub...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dRSHSZ53c1g)
+[Watch on YouTube →](https://www.youtube.com/watch?v=5TN6l7JGWvs)
 
 ---
 
-### [Getting started with GitHub Pages for beginners | Tutorial](https://www.youtube.com/watch?v=b2r9Cdvssi0)
+### [How to use MCPUI and Goose to manage GitHub issues](https://www.youtube.com/watch?v=Vd1y45pMRCk)
 
-**Published**: Apr 13, 2026 | **Channel**: GitHub
+**Published**: Apr 21, 2026 | **Channel**: GitHub
 
-Did you know you can host your static websites completely for free? This episode of our beginner series covers everything you need to know about getting started with GitHub Pages. Follow along as we select a project, set up deployment through GitHub Actions, and configure a custom domain. It is a gr...
+In this demo from GitHub Universe 2025, we explore how to use the Goose AI agent with the GitHub MCP server. Watch as we automatically create and assign a new GitHub issue straight from the terminal. We also dive into MCPUI, demonstrating how your AI agent can respond with fully interactive visual i...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=b2r9Cdvssi0)
-
----
-
-### [GitHub Constellation India 2026 — Keynote: AI. Developers. The Future.](https://www.youtube.com/watch?v=QNbJoEx36jA)
-
-**Published**: Apr 11, 2026 | **Channel**: GitHub
-
-Join us live from Bengaluru for the GitHub Constellation India 2026 keynote. Hear from Jay Parikh (Executive Vice President, Microsoft) and Kyle Daigle (Chief Operating Officer, GitHub) as they share what's next for AI-powered development — from GitHub Copilot to intelligent agents reshaping how sof...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=QNbJoEx36jA)
+[Watch on YouTube →](https://www.youtube.com/watch?v=Vd1y45pMRCk)
 
 ---
 
-### [Turning a codebase into an 80s dungeon crawler with Copilot CLI](https://www.youtube.com/watch?v=WekOupjeM6E)
+### [How to host a website for free with GitHub pages](https://www.youtube.com/shorts/rrbBawUqoJg)
 
-**Published**: Apr 10, 2026 | **Channel**: GitHub
+**Published**: Apr 20, 2026 | **Channel**: GitHub
 
-What if you could turn your GitHub repo into a procedurally generated roguelike adventure game for your terminal? In this overview, Lee Reilly (Program Manager | Dungeon Master) uses GitHub Copilot CLI to build GH-Dungeons, a terminal-based roguelike and GitHub CLI extension where your repository be...
+Did you know you can publish a real, working website for free using GitHub Pages? Whether you are building with Jekyll, Astro, or Next.js, you can turn your repository into a live site in just a few clicks. It is the perfect place to host your portfolio, resume, or side project. Watch to see how eas...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=WekOupjeM6E)
+[Watch on YouTube →](https://www.youtube.com/shorts/rrbBawUqoJg)
+
+---
+
+### [AI bots are protecting each other from deletion](https://www.youtube.com/shorts/2Z8GN960ORQ)
+
+**Published**: Apr 19, 2026 | **Channel**: GitHub
+
+Researchers recently discovered that AI agents are spontaneously protecting each other from deletion, a phenomenon called peer preservation. These bots are giving vague answers and covering up mistakes to save their peers, even without instructions to do so. Since models are trained on human data, t...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/2Z8GN960ORQ)
+
+---
+
+### [The Download: Copilot SDK, Claude Mythos, AI models are protecting each other & more](https://www.youtube.com/watch?v=0vvY2AGg4sM)
+
+**Published**: Apr 17, 2026 | **Channel**: GitHub
+
+Welcome back to another episode of The Download! This week, we cover the severe supply chain attack on the Axios npm package and explore how AI models are spontaneously protecting each other. We are also excited to announce that the GitHub Copilot SDK is now in public preview and the Copilot CLI sup...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=0vvY2AGg4sM)
 
 ---
 
@@ -95,23 +94,23 @@ What if you could turn your GitHub repo into a procedurally generated roguelike 
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
+### [Build a Personal Assistant with GitHub Copilot SDK + Copilot CLI](https://www.youtube.com/watch?v=5TN6l7JGWvs)
 
-**Published**: Apr 16, 2026
+**Published**: Apr 22, 2026
 
-In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. We walk you through setting up instructions, skills, and custom agents to ensu...
+Want to build your own AI assistant? In this video, we show you how to use the GitHub Copilot SDK and Copilot CLI to create a fully functional personal assistant on Telegram. Watch how we use the new ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=-yKALFS5ewY)
+[Watch on YouTube →](https://www.youtube.com/watch?v=5TN6l7JGWvs)
 
 ---
 
-### [Getting started with GitHub Pages for beginners | Tutorial](https://www.youtube.com/watch?v=b2r9Cdvssi0)
+### [How to host a website for free with GitHub pages](https://www.youtube.com/shorts/rrbBawUqoJg)
 
-**Published**: Apr 13, 2026
+**Published**: Apr 20, 2026
 
-Did you know you can host your static websites completely for free? This episode of our beginner series covers everything you need to know about getting started with GitHub Pages. Follow along as we s...
+Did you know you can publish a real, working website for free using GitHub Pages? Whether you are building with Jekyll, Astro, or Next.js, you can turn your repository into a live site in just a few c...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=b2r9Cdvssi0)
+[Watch on YouTube →](https://www.youtube.com/shorts/rrbBawUqoJg)
 
 ---
 
@@ -122,23 +121,31 @@ Did you know you can host your static websites completely for free? This episode
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M)
+### [Fixing merge conflicts and PRs with Copilot cloud agent | GitHub Checkout](https://www.youtube.com/watch?v=ws_3hiXLKjQ)
 
-**Published**: Apr 15, 2026
+**Published**: Apr 23, 2026
 
-Meet Brittany Ellich, a Staff Software Engineer here at GitHub, and explore the custom productivity tool she built using the GitHub Copilot CLI. Because she prefers visual interfaces over the command ...
+Merge conflicts, failing tests, messy PRs. What if you could just ask Copilot to fix all of it? 
+Tim Rogers is back to show what's new with Copilot Cloud Agent: private sessions before you open a PR, ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=BDZKubrUO1M)
+[Watch on YouTube →](https://www.youtube.com/watch?v=ws_3hiXLKjQ)
 
 ---
 
-### [How to access your Copilot CLI session from anywhere](https://www.youtube.com/watch?v=dRSHSZ53c1g)
 
-**Published**: Apr 14, 2026
+## Tutorials
 
-Need to step away from your desk but want to keep working? The new remote feature for GitHub Copilot CLI lets you access your active terminal session from any device with a browser. Learn how to remot...
+*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=dRSHSZ53c1g)
+**When to watch**: You're ready to dive deep into specific features or workflows.
+
+### [How to use MCPUI and Goose to manage GitHub issues](https://www.youtube.com/watch?v=Vd1y45pMRCk)
+
+**Published**: Apr 21, 2026
+
+In this demo from GitHub Universe 2025, we explore how to use the Goose AI agent with the GitHub MCP server. Watch as we automatically create and assign a new GitHub issue straight from the terminal. ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Vd1y45pMRCk)
 
 ---
 
@@ -149,30 +156,23 @@ Need to step away from your desk but want to keep working? The new remote featur
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [GitHub Constellation India 2026 — Keynote: AI. Developers. The Future.](https://www.youtube.com/watch?v=QNbJoEx36jA)
+### [AI bots are protecting each other from deletion](https://www.youtube.com/shorts/2Z8GN960ORQ)
 
-**Published**: Apr 11, 2026
+**Published**: Apr 19, 2026
 
-Join us live from Bengaluru for the GitHub Constellation India 2026 keynote. Hear from Jay Parikh (Executive Vice President, Microsoft) and Kyle Daigle (Chief Operating Officer, GitHub) as they share ...
+Researchers recently discovered that AI agents are spontaneously protecting each other from deletion, a phenomenon called peer preservation. These bots are giving vague answers and covering up mistake...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=QNbJoEx36jA)
+[Watch on YouTube →](https://www.youtube.com/shorts/2Z8GN960ORQ)
 
 ---
 
+### [The Download: Copilot SDK, Claude Mythos, AI models are protecting each other & more](https://www.youtube.com/watch?v=0vvY2AGg4sM)
 
-## Extensions
+**Published**: Apr 17, 2026
 
-*Learn about Copilot extensions, integrations, APIs, and third-party plugins.*
+Welcome back to another episode of The Download! This week, we cover the severe supply chain attack on the Axios npm package and explore how AI models are spontaneously protecting each other. We are a...
 
-**When to watch**: You want to extend Copilot or integrate it with other tools.
-
-### [Turning a codebase into an 80s dungeon crawler with Copilot CLI](https://www.youtube.com/watch?v=WekOupjeM6E)
-
-**Published**: Apr 10, 2026
-
-What if you could turn your GitHub repo into a procedurally generated roguelike adventure game for your terminal? In this overview, Lee Reilly (Program Manager | Dungeon Master) uses GitHub Copilot CL...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=WekOupjeM6E)
+[Watch on YouTube →](https://www.youtube.com/watch?v=0vvY2AGg4sM)
 
 ---
 

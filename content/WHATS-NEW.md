@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: April 17, 2026
+**Last Updated**: April 24, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,31 +12,30 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [Manage agent skills with GitHub CLI](https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli)
-*Apr 16, 2026*
+#### 1. [Copilot cloud agent fields added to usage metrics](https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics)
+*Apr 23, 2026*
 
-Agent skills are reshaping how developers work with AI coding agents. Today we're launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks.
+Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name.
 
-#### 2. [Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar)
-*Apr 16, 2026*
+#### 2. [Better debugging with GitHub Copilot on the web](https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web)
+*Apr 23, 2026*
 
-GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings > Rules tab.
+GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository's code context, helping you move from "where it crashed" to "why it happened".
 
-#### 3. [Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available)
-*Apr 16, 2026*
+#### 3. [Dependabot-based dependency graphs for Python](https://github.blog/changelog/2026-04-23-dependabot-graphs-for-python)
+*Apr 23, 2026*
 
-Claude Opus 4.7, Anthropic's latest Opus model, is now rolling out on GitHub Copilot. In our early testing, Opus 4.7 delivers stronger multi-step task performance and more reliable agentic execution, building on the coding strategy strengths of its predecessor. It also shows meaningful improvement in long-horizon reasoning and complex, tool-dependent workflows.
+Python projects will now see more complete and accurate transitive dependency trees in their dependency graphs and Software Bills of Materials (SBOMs). This feature is based on a new type of Dependabot job that builds a dependency snapshot and uploads it to the Dependency Submission API.
 
-#### 4. [How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)
-*Apr 16, 2026*
+#### 4. [View and manage agent sessions from issues and projects](https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects)
+*Apr 23, 2026*
 
-In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. Learn how to generate project-level instructions, automate pull requests with agent skills, and run specialized tasks like accessibility reviews. These tools work in perfect harmony to keep your codebase consistent.
+You can now view and steer cloud agent sessions directly from issues and projects, giving you better visibility into agent activity without leaving your workflow. Session pill on issues: A new header pill on issues shows all active and completed agent sessions at a glance.
 
-#### 5. [CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates)
-*Apr 15, 2026*
+#### 5. [Copilot Chat improvements for pull requests](https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests)
+*Apr 23, 2026*
 
-CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.25.2, which brings a new Kotlin version update, various accuracy improvements, and a set of security severity score adjustments across multiple languages. Java/Kotlin
-Kotlin versions up to 2.3.20 are now supported for analysis.
+GitHub Copilot Chat now provides richer context and new capabilities when you're working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface.
 
 ---
 
@@ -44,56 +43,56 @@ Kotlin versions up to 2.3.20 are now supported for analysis.
 
 ### Significant Updates
 
-1. **[Manage agent skills with GitHub CLI](https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli)**
-	*Apr 16, 2026*
+1. **[Copilot cloud agent fields added to usage metrics](https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics)**
+	*Apr 23, 2026*
 
-	Agent skills are reshaping how developers work with AI coding agents. Today we're launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks.
+	Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name.
 
-2. **[Rule insights dashboard and unified filter bar](https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar)**
-	*Apr 16, 2026*
+2. **[Better debugging with GitHub Copilot on the web](https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web)**
+	*Apr 23, 2026*
 
-	GitHub repository rulesets are powerful, but it hasn't been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without digging through data in the rule insights page. The new rule insights dashboard is now available in your repository's Settings > Rules tab.
+	GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository's code context, helping you move from "where it crashed" to "why it happened".
 
-3. **[Claude Opus 4.7 is generally available](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available)**
-	*Apr 16, 2026*
+3. **[Dependabot-based dependency graphs for Python](https://github.blog/changelog/2026-04-23-dependabot-graphs-for-python)**
+	*Apr 23, 2026*
 
-	Claude Opus 4.7, Anthropic's latest Opus model, is now rolling out on GitHub Copilot. In our early testing, Opus 4.7 delivers stronger multi-step task performance and more reliable agentic execution, building on the coding strategy strengths of its predecessor. It also shows meaningful improvement in long-horizon reasoning and complex, tool-dependent workflows.
+	Python projects will now see more complete and accurate transitive dependency trees in their dependency graphs and Software Bills of Materials (SBOMs). This feature is based on a new type of Dependabot job that builds a dependency snapshot and uploads it to the Dependency Submission API.
 
-4. **[How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners](https://www.youtube.com/watch?v=-yKALFS5ewY)**
-	*Apr 16, 2026*
+4. **[View and manage agent sessions from issues and projects](https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects)**
+	*Apr 23, 2026*
 
-	In episode 6 of our GitHub Copilot CLI for beginners series, we explore how to deeply customize your AI coding assistant. Learn how to generate project-level instructions, automate pull requests with agent skills, and run specialized tasks like accessibility reviews. These tools work in perfect harmony to keep your codebase consistent.
+	You can now view and steer cloud agent sessions directly from issues and projects, giving you better visibility into agent activity without leaving your workflow. Session pill on issues: A new header pill on issues shows all active and completed agent sessions at a glance.
 
-5. **[CodeQL 2.25.2 adds Kotlin 2.3.20 support and other updates](https://github.blog/changelog/2026-04-15-codeql-2-25-2-adds-kotlin-2-3-20-support-and-other-updates)**
-	*Apr 15, 2026*
+5. **[Copilot Chat improvements for pull requests](https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests)**
+	*Apr 23, 2026*
 
-	CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.25.2, which brings a new Kotlin version update, various accuracy improvements, and a set of security severity score adjustments across multiple languages. Java/Kotlin
-	Kotlin versions up to 2.3.20 are now supported for analysis.
+	GitHub Copilot Chat now provides richer context and new capabilities when you're working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface.
 
-6. **[Build a personal organization command center with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/)**
-	*Apr 15, 2026*
+6. **[Global pull requests dashboard moves to opt-out public preview](https://github.blog/changelog/2026-04-23-global-pull-requests-dashboard-moves-to-opt-out-public-preview)**
+	*Apr 23, 2026*
 
-	What if you could remove the struggle of context switching across several apps, bringing them together into one place? Meet Brittany Ellich, Staff Software Engineer, and the productivity tool she built to streamline her work. We sat down with Brittany to learn about this project – what she built, how she did it, and how AI supported the development process from ideation to implementation.
+	The new global pull requests dashboard will be on by default for all GitHub users as the new experience transitions to an opt-out public preview. The new dashboard and inbox view give you a unified place to manage all of your pull requests. Since the opt-in preview launched, we've shipped a wave of improvements based on your feedback.
 
-7. **[Enable Copilot cloud agent via custom properties](https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties)**
-	*Apr 15, 2026*
+7. **[Fixing merge conflicts and PRs with Copilot cloud agent | GitHub Checkout](https://www.youtube.com/watch?v=ws_3hiXLKjQ)**
+	*Apr 23, 2026*
 
-	You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties.
+	Merge conflicts, failing tests, messy PRs. What if you could just ask Copilot to fix all of it? 
+Tim Rogers is back to show with Copilot Cloud Agent: private sessions before you open a PR, model...
 
-8. **[How a GitHub engineer built an AI Productivity hub with Copilot CLI](https://www.youtube.com/watch?v=BDZKubrUO1M)**
-	*Apr 15, 2026*
+8. **[Pausing new self-serve signups for GitHub Copilot Business](https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business)**
+	*Apr 22, 2026*
 
-	Meet Brittany Ellich, a Staff Software Engineer here at GitHub, and explore the custom productivity tool she built using the GitHub Copilot CLI.
+	As part of our ongoing efforts to ensure a reliable and sustainable Copilot experience for all users, we are pausing new self-serve signups for GitHub Copilot Business for organizations on GitHub Free and GitHub Team plans. Existing Copilot Business customers are not affected and can continue adding seats and using the service as they normally would.
 
-9. **[Deployment context in repository properties and alerts](https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts)**
-	*Apr 14, 2026*
+9. **[GitHub Copilot for Jira: Our latest enhancements](https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements)**
+	*Apr 22, 2026*
 
-	Artifact and deployment context now appears in two new places: repository properties and security alert pages. Two new built-in repository properties—deployable and deployed—are now available. These properties reflect existing artifact and deployment metadata, so you don't need to manually maintain lists of which repositories are actively deployed.
+	Since our last update, we've continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how Copilot works within their existing Jira workflows. You can now specify in the Jira ticket a custom agent from your GitHub repository to be used when fulfilling the task.
 
-10. **[Secret scanning pattern updates and product improvements](https://github.blog/changelog/2026-04-14-secret-scanning-pattern-updates-and-product-improvements)**
-	*Apr 14, 2026*
+10. **[Upcoming change to Copilot usage metrics report download URLs](https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls)**
+	*Apr 22, 2026*
 
-	This week, we're rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers.
+	We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make firewall and proxy allowlist management easier for enterprise customers.
 
 ---
 
