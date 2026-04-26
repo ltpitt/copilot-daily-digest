@@ -452,26 +452,31 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
     content += "---\n\n## Last 30 Days\n\n"
 
-    # Combine all 30-day items
+    # Collect URLs already shown in "This Week" so we don't repeat them below
+    shown_urls = {item['url'] for item in top_week}
+
+    # Combine all 30-day items, excluding anything already featured above
     month_items = []
 
     for post in blog_30d:
-        month_items.append({
-            'date': post['date_iso'],
-            'type': 'blog',
-            'title': post['title'],
-            'url': post['url'],
-            'post': post
-        })
+        if post['url'] not in shown_urls:
+            month_items.append({
+                'date': post['date_iso'],
+                'type': 'blog',
+                'title': post['title'],
+                'url': post['url'],
+                'post': post
+            })
 
     for video in videos_30d:
-        month_items.append({
-            'date': video['published'][:10],
-            'type': 'video',
-            'title': video['title'],
-            'url': video['url'],
-            'description': video.get('description', '')
-        })
+        if video['url'] not in shown_urls:
+            month_items.append({
+                'date': video['published'][:10],
+                'type': 'video',
+                'title': video['title'],
+                'url': video['url'],
+                'description': video.get('description', '')
+            })
 
     # Sort by date (newest first)
     month_items.sort(key=lambda x: x['date'], reverse=True)
@@ -498,7 +503,10 @@ This page highlights significant Copilot updates from the past 30 days. Content 
                     content += f"\t{desc}\n"
             content += "\n"
     else:
-        content += "No updates in the last 30 days.\n\n"
+        if top_week:
+            content += "All recent updates are featured in the **This Week** section above.\n\n"
+        else:
+            content += "No updates in the last 30 days.\n\n"
 
     content += """---
 
