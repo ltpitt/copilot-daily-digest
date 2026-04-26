@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: April 24, 2026
+**Last Updated**: April 26, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,10 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## April 2026
 
+- **Apr 24, 2026** - [Notice about upcoming new format for GitHub App installation tokens](https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens) (Blog)
+- **Apr 24, 2026** - [GPT-5.5 is generally available for GitHub Copilot](https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot) (Blog)
+- **Apr 24, 2026** - [Changes to notification retention and archived repository watches](https://github.blog/changelog/2026-04-24-changes-to-notification-retention-and-archived-repository-watches) (Blog)
+- **Apr 24, 2026** - [Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs](https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides) (Blog)
 - **Apr 23, 2026** - [Copilot cloud agent fields added to usage metrics](https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics) (Blog)
 - **Apr 23, 2026** - [Better debugging with GitHub Copilot on the web](https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web) (Blog)
 - **Apr 23, 2026** - [Dependabot-based dependency graphs for Python](https://github.blog/changelog/2026-04-23-dependabot-graphs-for-python) (Blog)
