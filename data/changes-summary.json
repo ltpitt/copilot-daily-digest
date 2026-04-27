@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-04-26T01:34:31.008640+00:00",
+  "generated_at": "2026-04-27T21:18:25.392875+00:00",
   "has_changes": true,
-  "total_changes": 19,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-04-26T01:34:04Z",
+        "timestamp": "2026-04-27T21:18:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-04-26T01:33:51Z",
+        "timestamp": "2026-04-27T21:17:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-04-26T01:34:11Z",
+        "timestamp": "2026-04-27T21:18:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-04-26T01:34:01Z",
+        "timestamp": "2026-04-27T21:17:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-04-26T01:33:59Z",
+        "timestamp": "2026-04-27T21:17:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-04-26T01:34:09Z",
+        "timestamp": "2026-04-27T21:18:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-04-26T01:34:03Z",
+        "timestamp": "2026-04-27T21:17:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-04-26T01:34:06Z",
+        "timestamp": "2026-04-27T21:18:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-04-26T01:33:54Z",
+        "timestamp": "2026-04-27T21:17:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-04-26T01:33:52Z",
+        "timestamp": "2026-04-27T21:17:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-04-26T01:34:00Z",
+        "timestamp": "2026-04-27T21:17:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-04-26T01:33:56Z",
+        "timestamp": "2026-04-27T21:17:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-04-26T01:34:07Z",
+        "timestamp": "2026-04-27T21:18:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-04-26T01:33:57Z",
+        "timestamp": "2026-04-27T21:17:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,33 +110,8 @@
     ]
   },
   "blog": {
-    "new_count": 4,
-    "new_posts": [
-      {
-        "title": "Notice about upcoming new format for GitHub App installation tokens",
-        "url": "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-        "date": "2026-04-24T21:49:19Z",
-        "summary": "<p>Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant&#8230;</p>\n<p>"
-      },
-      {
-        "title": "Changes to notification retention and archived repository watches",
-        "url": "https://github.blog/changelog/2026-04-24-changes-to-notification-retention-and-archived-repository-watches",
-        "date": "2026-04-24T20:16:31Z",
-        "summary": "<p>Two updates will change the way GitHub notifications and repository watches are retained. These updates are rolling out soon, and are expected to be completed over the next few months.&#8230;</p>\n<"
-      },
-      {
-        "title": "GPT-5.5 is generally available for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-        "date": "2026-04-24T17:19:34Z",
-        "summary": "<p>GPT-5.5, OpenAI&#8217;s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resol"
-      },
-      {
-        "title": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs",
-        "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
-        "date": "2026-04-24T15:43:08Z",
-        "summary": "<p>This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes se"
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
     "new_count": 0,
@@ -146,136 +121,111 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on April 26, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 4 new articles\n  - \"Notice about upcoming new format for GitHub App installation tokens\" (2026-04-24)\n  - \"Changes to notification retention and archived repository watches\" (2026-04-24)\n  - \"GPT-5.5 is generally available for GitHub Copilot\" (2026-04-24)\n  - \"Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs\" (2026-04-24)\n\nTotal: 19 changes detected",
+  "summary_text": "Changes detected on April 27, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 18,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-04-26T01:34:04Z",
+        "timestamp": "2026-04-27T21:18:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-04-26T01:33:51Z",
+        "timestamp": "2026-04-27T21:17:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-04-26T01:34:11Z",
+        "timestamp": "2026-04-27T21:18:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-04-26T01:34:01Z",
+        "timestamp": "2026-04-27T21:17:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-04-26T01:33:59Z",
+        "timestamp": "2026-04-27T21:17:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-04-26T01:34:09Z",
+        "timestamp": "2026-04-27T21:18:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-04-26T01:34:03Z",
+        "timestamp": "2026-04-27T21:17:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-04-26T01:34:06Z",
+        "timestamp": "2026-04-27T21:18:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-04-26T01:33:54Z",
+        "timestamp": "2026-04-27T21:17:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-04-26T01:33:52Z",
+        "timestamp": "2026-04-27T21:17:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-04-26T01:34:00Z",
+        "timestamp": "2026-04-27T21:17:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-04-26T01:33:56Z",
+        "timestamp": "2026-04-27T21:17:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-04-26T01:34:07Z",
+        "timestamp": "2026-04-27T21:18:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-04-26T01:33:57Z",
+        "timestamp": "2026-04-27T21:17:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "Notice about upcoming new format for GitHub App installation tokens",
-        "url": "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-        "date": "2026-04-24T21:49:19Z",
-        "summary": "<p>Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant&#8230;</p>\n<p>"
-      },
-      {
-        "title": "Changes to notification retention and archived repository watches",
-        "url": "https://github.blog/changelog/2026-04-24-changes-to-notification-retention-and-archived-repository-watches",
-        "date": "2026-04-24T20:16:31Z",
-        "summary": "<p>Two updates will change the way GitHub notifications and repository watches are retained. These updates are rolling out soon, and are expected to be completed over the next few months.&#8230;</p>\n<"
-      },
-      {
-        "title": "GPT-5.5 is generally available for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-        "date": "2026-04-24T17:19:34Z",
-        "summary": "<p>GPT-5.5, OpenAI&#8217;s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resol"
-      },
-      {
-        "title": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs",
-        "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
-        "date": "2026-04-24T15:43:08Z",
-        "summary": "<p>This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes se"
-      }
-    ],
+    "new_blog_posts": [],
     "new_videos": []
   }
 }
