@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-04-27T21:10:39.596310+00:00",
+  "generated_at": "2026-04-27T21:18:25.392875+00:00",
   "has_changes": true,
-  "total_changes": 19,
+  "total_changes": 15,
   "docs": {
     "changed": [
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-04-27T21:10:18Z",
+        "timestamp": "2026-04-27T21:18:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-04-27T21:10:03Z",
+        "timestamp": "2026-04-27T21:17:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-04-27T21:10:25Z",
+        "timestamp": "2026-04-27T21:18:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-04-27T21:10:15Z",
+        "timestamp": "2026-04-27T21:17:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-04-27T21:10:12Z",
+        "timestamp": "2026-04-27T21:17:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-04-27T21:10:23Z",
+        "timestamp": "2026-04-27T21:18:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-04-27T21:10:16Z",
+        "timestamp": "2026-04-27T21:17:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-04-27T21:10:20Z",
+        "timestamp": "2026-04-27T21:18:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-04-27T21:10:07Z",
+        "timestamp": "2026-04-27T21:17:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-04-27T21:10:05Z",
+        "timestamp": "2026-04-27T21:17:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-04-27T21:10:13Z",
+        "timestamp": "2026-04-27T21:17:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-04-27T21:10:09Z",
+        "timestamp": "2026-04-27T21:17:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-04-27T21:10:22Z",
+        "timestamp": "2026-04-27T21:18:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-04-27T21:10:10Z",
+        "timestamp": "2026-04-27T21:17:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,174 +110,122 @@
     ]
   },
   "blog": {
-    "new_count": 3,
-    "new_posts": [
-      {
-        "title": "Copilot Student GPT-5.3-Codex removal from model picker",
-        "url": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-        "date": "2026-04-27T17:01:58Z",
-        "summary": "<p>Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each&#823"
-      },
-      {
-        "title": "Copilot cloud agent starts 20% faster with Actions custom images",
-        "url": "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
-        "date": "2026-04-27T16:01:40Z",
-        "summary": "<p>Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task&#8230;</p>\n<p>T"
-      },
-      {
-        "title": "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026",
-        "url": "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
-        "date": "2026-04-27T15:59:24Z",
-        "summary": "<p>Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, espe"
-      }
-    ]
+    "new_count": 0,
+    "new_posts": []
   },
   "videos": {
-    "new_count": 1,
-    "new_videos": [
-      {
-        "title": "Getting started with Markdown on GitHub",
-        "video_id": "LxeclcePg-c",
-        "date": "2026-04-27T15:00:37+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/LxeclcePg-c/hqdefault.jpg"
-      }
-    ]
+    "new_count": 0,
+    "new_videos": []
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on April 27, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 3 new articles\n  - \"Copilot Student GPT-5.3-Codex removal from model picker\" (2026-04-27)\n  - \"Copilot cloud agent starts 20% faster with Actions custom images\" (2026-04-27)\n  - \"GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026\" (2026-04-27)\n\n🎥 Videos: 1 new video\n  - \"Getting started with Markdown on GitHub\" (2026-04-27)\n\nTotal: 19 changes detected",
+  "summary_text": "Changes detected on April 27, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 18,
+    "total_changes": 14,
     "new_docs": [
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-04-27T21:10:18Z",
+        "timestamp": "2026-04-27T21:18:01Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-04-27T21:10:03Z",
+        "timestamp": "2026-04-27T21:17:47Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-04-27T21:10:25Z",
+        "timestamp": "2026-04-27T21:18:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-04-27T21:10:15Z",
+        "timestamp": "2026-04-27T21:17:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-04-27T21:10:12Z",
+        "timestamp": "2026-04-27T21:17:55Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-04-27T21:10:23Z",
+        "timestamp": "2026-04-27T21:18:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-04-27T21:10:16Z",
+        "timestamp": "2026-04-27T21:17:59Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-04-27T21:10:20Z",
+        "timestamp": "2026-04-27T21:18:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-04-27T21:10:07Z",
+        "timestamp": "2026-04-27T21:17:50Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-04-27T21:10:05Z",
+        "timestamp": "2026-04-27T21:17:48Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-04-27T21:10:13Z",
+        "timestamp": "2026-04-27T21:17:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-04-27T21:10:09Z",
+        "timestamp": "2026-04-27T21:17:52Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-04-27T21:10:22Z",
+        "timestamp": "2026-04-27T21:18:04Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-04-27T21:10:10Z",
+        "timestamp": "2026-04-27T21:17:53Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       }
     ],
-    "new_blog_posts": [
-      {
-        "title": "Copilot Student GPT-5.3-Codex removal from model picker",
-        "url": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-        "date": "2026-04-27T17:01:58Z",
-        "summary": "<p>Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each&#823"
-      },
-      {
-        "title": "Copilot cloud agent starts 20% faster with Actions custom images",
-        "url": "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
-        "date": "2026-04-27T16:01:40Z",
-        "summary": "<p>Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task&#8230;</p>\n<p>T"
-      },
-      {
-        "title": "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026",
-        "url": "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
-        "date": "2026-04-27T15:59:24Z",
-        "summary": "<p>Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, espe"
-      }
-    ],
-    "new_videos": [
-      {
-        "title": "Getting started with Markdown on GitHub",
-        "video_id": "LxeclcePg-c",
-        "date": "2026-04-27T15:00:37+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/LxeclcePg-c/hqdefault.jpg"
-      }
-    ]
+    "new_blog_posts": [],
+    "new_videos": []
   }
 }
