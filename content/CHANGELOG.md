@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: April 26, 2026
+**Last Updated**: April 27, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,10 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## April 2026
 
+- **Apr 27, 2026** - [GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026) (Blog)
+- **Apr 27, 2026** - [Copilot Student GPT-5.3-Codex removal from model picker](https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker) (Blog)
+- **Apr 27, 2026** - [Copilot cloud agent starts 20% faster with Actions custom images](https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images) (Blog)
+- **Apr 27, 2026** - [Getting started with Markdown on GitHub](https://www.youtube.com/watch?v=LxeclcePg-c) (Video)
 - **Apr 24, 2026** - [Notice about upcoming new format for GitHub App installation tokens](https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens) (Blog)
 - **Apr 24, 2026** - [GPT-5.5 is generally available for GitHub Copilot](https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot) (Blog)
 - **Apr 24, 2026** - [Changes to notification retention and archived repository watches](https://github.blog/changelog/2026-04-24-changes-to-notification-retention-and-archived-repository-watches) (Blog)
