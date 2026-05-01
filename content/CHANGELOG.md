@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: April 27, 2026
+**Last Updated**: May 01, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,9 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## April 2026
 
+- **Apr 30, 2026** - [GitHub Copilot in Visual Studio — April update](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update) (Blog)
+- **Apr 30, 2026** - [How to use hooks in the GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=bglVc9HDfwg) (Video)
+- **Apr 29, 2026** - [Let Copilot CLI write your next pull request](https://www.youtube.com/shorts/pVM2TdotQy0) (Video)
 - **Apr 27, 2026** - [GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026) (Blog)
 - **Apr 27, 2026** - [Copilot Student GPT-5.3-Codex removal from model picker](https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker) (Blog)
 - **Apr 27, 2026** - [Copilot cloud agent starts 20% faster with Actions custom images](https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images) (Blog)
