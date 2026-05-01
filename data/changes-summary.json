@@ -113,10 +113,10 @@
     "new_count": 1,
     "new_posts": [
       {
-        "title": "GitHub Copilot in Visual Studio — April update",
+        "title": "GitHub Copilot in Visual Studio \u2014 April update",
         "url": "https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update",
         "date": "2026-04-30T15:00:18Z",
-        "summary": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates&#82"
+        "summary": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates..."
       }
     ]
   },
@@ -141,7 +141,7 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on May 01, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 1 new article\n  - \"GitHub Copilot in Visual Studio — April update\" (2026-04-30)\n\n🎥 Videos: 2 new videos\n  - \"How to use hooks in the GitHub Copilot CLI | demo\" (2026-04-30)\n  - \"Let Copilot CLI write your next pull request\" (2026-04-29)\n\nTotal: 18 changes detected",
+  "summary_text": "Changes detected on May 01, 2026:\n\n\ud83d\udcc4 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\n\ud83d\udcdd Blog Posts: 1 new article\n  - \"GitHub Copilot in Visual Studio \u2014 April update\" (2026-04-30)\n\n\ud83c\udfa5 Videos: 2 new videos\n  - \"How to use hooks in the GitHub Copilot CLI | demo\" (2026-04-30)\n  - \"Let Copilot CLI write your next pull request\" (2026-04-29)\n\nTotal: 18 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
     "total_changes": 17,
@@ -247,10 +247,10 @@
     ],
     "new_blog_posts": [
       {
-        "title": "GitHub Copilot in Visual Studio — April update",
+        "title": "GitHub Copilot in Visual Studio \u2014 April update",
         "url": "https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update",
         "date": "2026-04-30T15:00:18Z",
-        "summary": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates&#82"
+        "summary": "<p>The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates..."
       }
     ],
     "new_videos": [
