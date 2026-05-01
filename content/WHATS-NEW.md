@@ -15,7 +15,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 #### 1. [GitHub Copilot in Visual Studio — April update](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update)
 *Apr 30, 2026*
 
-The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior. Here's with GitHub Copilot in Visual Studio 2026.
+The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior. Here's what's new with GitHub Copilot in Visual Studio 2026.
 
 #### 2. [How to use hooks in the GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=bglVc9HDfwg)
 *Apr 30, 2026*
