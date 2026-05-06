@@ -59,6 +59,41 @@ Si dejas que el agente decida todo, el proyecto pierde el rumbo.
 
 	Welcome back to The Download. This week, we cover France's massive move to migrate its government ministries to Linux for digital sovereignty.
 
+4. **[GitHub Copilot in Visual Studio — April update](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update)**
+	*Apr 30, 2026*
+
+	The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior. Here's what's new with GitHub Copilot in Visual Studio 2026.
+
+5. **[Copilot cloud agent starts 20% faster with Actions custom images](https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images)**
+	*Apr 27, 2026*
+
+	Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task from the Agents tab, or mention @copilot in a pull request, the agent spins up a cloud-based environment to do its work.
+
+6. **[Copilot Student GPT-5.3-Codex removal from model picker](https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker)**
+	*Apr 27, 2026*
+
+	Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each request with the strongest model for the job, which means less time toggling settings and more time coding.
+
+7. **[GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026)**
+	*Apr 27, 2026*
+
+	Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare. The sections below outline what is changing, why, and how to plan accordingly.
+
+8. **[Changes to Notification Retention and Archived Repository Watches](https://github.blog/changelog/2026-04-24-changes-to-notification-retention-and-archived-repository-watches)**
+	*Apr 24, 2026*
+
+	GitHub has updated its notification retention policy and behavior for archived repository watches. Developers can check the changelog for details on what changes and how to update their notification preferences accordingly.
+
+9. **[GPT-5.5 Is Generally Available for GitHub Copilot](https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot)**
+	*Apr 24, 2026*
+
+	OpenAI's GPT-5.5 model is now generally available across all GitHub Copilot experiences. Developers can select it from the model picker in Copilot Chat and benefit from its improved reasoning and code generation capabilities.
+
+10. **[Inline Agent Mode in Preview and More in GitHub Copilot for JetBrains IDEs](https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides)**
+	*Apr 24, 2026*
+
+	JetBrains IDE users can now try the new inline agent mode in public preview, bringing agentic Copilot capabilities directly into the editor. This release also includes additional improvements and refinements to the GitHub Copilot experience across the JetBrains IDE family.
+
 ---
 
 ## Older Updates
