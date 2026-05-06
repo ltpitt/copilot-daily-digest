@@ -255,6 +255,14 @@ def main():
     if metadata_path.exists():
         metadata = load_json(metadata_path)
 
+    def _title_from_url(url: str) -> str:
+        """Extract a readable title from a URL slug, stripping date prefixes."""
+        url_clean = url.rstrip('/')
+        slug = url_clean.split('/')[-1] if url_clean else 'update'
+        # Remove YYYY-MM-DD- date prefix common in changelog URLs
+        slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', slug)
+        return slug.replace('-', ' ').title()
+
     # If we don't have blog post files, create them from url_dates and RSS
     if not blog_posts:
         print("No blog post files found, creating from URL dates and RSS...")
@@ -264,24 +272,35 @@ def main():
                 blog_posts.append(rss_content[url])
             else:
                 # Create minimal entry from URL
-                # Extract title from URL, handling trailing slashes
-                url_clean = url.rstrip('/')
-                slug = url_clean.split('/')[-1] if url_clean else 'update'
-                title = slug.replace('-', ' ').title()
                 blog_posts.append({
                     'url': url,
-                    'title': title,
+                    'title': _title_from_url(url),
                     'summary': '',
                     'content': ''
                 })
     else:
         # Enrich existing blog posts with RSS content
+        existing_urls = {post.get('url', '') for post in blog_posts}
         for post in blog_posts:
             url = post.get('url', '')
             if url in rss_content and not post.get('content'):
                 post['content'] = rss_content[url].get('content', '')
                 if not post.get('summary'):
                     post['summary'] = rss_content[url].get('summary', '')
+
+        # Also add posts from url_dates.json that aren't covered by existing JSON files
+        for url, _date_str in url_dates['url_dates'].items():
+            if url not in existing_urls:
+                if url in rss_content:
+                    blog_posts.append(rss_content[url])
+                else:
+                    # Create minimal entry from URL
+                    blog_posts.append({
+                        'url': url,
+                        'title': _title_from_url(url),
+                        'summary': '',
+                        'content': ''
+                    })
 
     # Sort videos by date (newest first)
     videos.sort(key=lambda x: x.get('published', ''), reverse=True)

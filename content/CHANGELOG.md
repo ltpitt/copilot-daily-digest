@@ -2,11 +2,22 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: May 01, 2026
+**Last Updated**: May 06, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
+
+## May 2026
+
+- **May 5, 2026** - [Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available](https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available) (Blog)
+- **May 5, 2026** - [Dependency scanning with GitHub MCP Server is in public preview](https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview) (Blog)
+- **May 5, 2026** - [Secret scanning with GitHub MCP Server is now generally available](https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available) (Blog)
+- **May 5, 2026** - [Deprecation notice: code_scanning_upload field will be removed from rate_limit API endpoint](https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint) (Blog)
+- **May 5, 2026** - [What is TanStack AI? The new open source toolkit](https://www.youtube.com/shorts/wS8CV85RTO8) (Video)
+- **May 4, 2026** - [Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI](https://www.youtube.com/watch?v=FXu1WpzSsIU) (Video)
+- **May 1, 2026** - [Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex](https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex) (Blog)
+- **May 1, 2026** - [The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more](https://www.youtube.com/watch?v=PpL7vQupWqM) (Video)
 
 ## April 2026
 
