@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: May 01, 2026
+> **Last Updated**: May 06, 2026
 
 > **📊 Library Stats**
-> - 📚 **103** total videos
-> - 🆕 **2** new this month
-> - 📂 **Categories**: Tutorials (1), Getting Started (1)
+> - 📚 **106** total videos
+> - 🆕 **3** new this month
+> - 📂 **Categories**: Features & Updates (2), Agents (1)
 
 ---
 
@@ -13,68 +13,92 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Tutorials](#tutorials) (1)
+  - [Features & Updates](#features--updates) (2)
+  - [Agents](#agents) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*2 videos published in the last 30 days*
+*3 videos published in the last 30 days*
 
-### [How to use hooks in the GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=bglVc9HDfwg)
+### [What is TanStack AI? The new open source toolkit](https://www.youtube.com/shorts/wS8CV85RTO8)
 
-**Published**: Apr 30, 2026 | **Channel**: GitHub
+**Published**: May 5, 2026 | **Channel**: GitHub
 
-Hooks are one of the most powerful tools in the GitHub Copilot CLI, but they can be confusing at first. In this video, we break down the entire agent lifecycle to show you exactly how and when hooks fire. You will learn about events like session start, pre tool use, and user prompt submitted. Watch ...
+The team behind some of the most popular React libraries just released the alpha for TanStack AI. Dubbed the "Switzerland of AI tooling," this open source, framework-agnostic toolkit lets you build AI applications without vendor lock-in. We are especially excited about its isomorphic tools, giving d...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=bglVc9HDfwg)
+[Watch on YouTube →](https://www.youtube.com/shorts/wS8CV85RTO8)
 
 ---
 
-### [Let Copilot CLI write your next pull request](https://www.youtube.com/shorts/pVM2TdotQy0)
+### [Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI](https://www.youtube.com/watch?v=FXu1WpzSsIU)
 
-**Published**: Apr 29, 2026 | **Channel**: GitHub
+**Published**: May 4, 2026 | **Channel**: GitHub
 
-Creating a pull request doesn't just mean pushing code; it means following team rules, issue templates, and contribution guidelines. Thankfully, you can use a defined skill in the GitHub Copilot CLI to handle all of this automatically. Watch how Copilot scans your repository to create the perfect PR...
+Spec-Driven Development: el SPEC.md como cerebro de tus agentes Invitada: Lesly Zerna, desarrolladora de currículo en DeepLearning.AI
 
-[Watch on YouTube →](https://www.youtube.com/shorts/pVM2TdotQy0)
+Si dejas que el agente decida todo, el proyecto pierde el rumbo. En este stream te mostramos cómo usar un archivo SPEC.md como única fuente de verdad para tus agente...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=FXu1WpzSsIU)
+
+---
+
+### [The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more](https://www.youtube.com/watch?v=PpL7vQupWqM)
+
+**Published**: May 1, 2026 | **Channel**: GitHub
+
+Welcome back to The Download. This week, we cover France's massive move to migrate its government ministries to Linux for digital sovereignty. We also look at Canonical's push for local AI inference in Ubuntu and the impressive cost cuts in the new DeepSeek v4 release. Plus, we explore TanStack AI's...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=PpL7vQupWqM)
 
 ---
 
 ## Browse by Category
 
 
-## Getting Started
+## Features & Updates
 
-*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
+*Discover new features, product announcements, capability releases, and the latest updates.*
 
-**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
+**When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Let Copilot CLI write your next pull request](https://www.youtube.com/shorts/pVM2TdotQy0)
+### [What is TanStack AI? The new open source toolkit](https://www.youtube.com/shorts/wS8CV85RTO8)
 
-**Published**: Apr 29, 2026
+**Published**: May 5, 2026
 
-Creating a pull request doesn't just mean pushing code; it means following team rules, issue templates, and contribution guidelines. Thankfully, you can use a defined skill in the GitHub Copilot CLI t...
+The team behind some of the most popular React libraries just released the alpha for TanStack AI. Dubbed the "Switzerland of AI tooling," this open source, framework-agnostic toolkit lets you build AI...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/pVM2TdotQy0)
+[Watch on YouTube →](https://www.youtube.com/shorts/wS8CV85RTO8)
+
+---
+
+### [The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more](https://www.youtube.com/watch?v=PpL7vQupWqM)
+
+**Published**: May 1, 2026
+
+Welcome back to The Download. This week, we cover France's massive move to migrate its government ministries to Linux for digital sovereignty. We also look at Canonical's push for local AI inference i...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=PpL7vQupWqM)
 
 ---
 
 
-## Tutorials
+## Agents
 
-*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
+*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
 
-**When to watch**: You're ready to dive deep into specific features or workflows.
+**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [How to use hooks in the GitHub Copilot CLI | demo](https://www.youtube.com/watch?v=bglVc9HDfwg)
+### [Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI](https://www.youtube.com/watch?v=FXu1WpzSsIU)
 
-**Published**: Apr 30, 2026
+**Published**: May 4, 2026
 
-Hooks are one of the most powerful tools in the GitHub Copilot CLI, but they can be confusing at first. In this video, we break down the entire agent lifecycle to show you exactly how and when hooks f...
+Spec-Driven Development: el SPEC.md como cerebro de tus agentes Invitada: Lesly Zerna, desarrolladora de currículo en DeepLearning.AI
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=bglVc9HDfwg)
+Si dejas que el agente decida todo, el proyecto pierde el rumbo. ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=FXu1WpzSsIU)
 
 ---
 
