@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: May 06, 2026
+> **Last Updated**: May 08, 2026
 
 > **📊 Library Stats**
-> - 📚 **106** total videos
-> - 🆕 **3** new this month
-> - 📂 **Categories**: Features & Updates (2), Agents (1)
+> - 📚 **108** total videos
+> - 🆕 **2** new this month
+> - 📂 **Categories**: Agents (1), Getting Started (1)
 
 ---
 
@@ -13,73 +13,51 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Features & Updates](#features--updates) (2)
+  - [Getting Started](#getting-started) (1)
   - [Agents](#agents) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*3 videos published in the last 30 days*
+*2 videos published in the last 30 days*
 
-### [What is TanStack AI? The new open source toolkit](https://www.youtube.com/shorts/wS8CV85RTO8)
+### [Rubber Duck Thursdays: Building an AI agent app](https://www.youtube.com/watch?v=zG6PJHVaUxs)
 
-**Published**: May 5, 2026 | **Channel**: GitHub
+**Published**: May 7, 2026 | **Channel**: GitHub
 
-The team behind some of the most popular React libraries just released the alpha for TanStack AI. Dubbed the "Switzerland of AI tooling," this open source, framework-agnostic toolkit lets you build AI applications without vendor lock-in. We are especially excited about its isomorphic tools, giving d...
+In this stream we'll walk through build an agent for a fictional company that we can deploy to production...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/wS8CV85RTO8)
-
----
-
-### [Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI](https://www.youtube.com/watch?v=FXu1WpzSsIU)
-
-**Published**: May 4, 2026 | **Channel**: GitHub
-
-Spec-Driven Development: el SPEC.md como cerebro de tus agentes Invitada: Lesly Zerna, desarrolladora de currículo en DeepLearning.AI
-
-Si dejas que el agente decida todo, el proyecto pierde el rumbo. En este stream te mostramos cómo usar un archivo SPEC.md como única fuente de verdad para tus agente...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=FXu1WpzSsIU)
+[Watch on YouTube →](https://www.youtube.com/watch?v=zG6PJHVaUxs)
 
 ---
 
-### [The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more](https://www.youtube.com/watch?v=PpL7vQupWqM)
+### [How to plan projects with GitHub Copilot CLI](https://www.youtube.com/shorts/CIgdAO8mbw0)
 
-**Published**: May 1, 2026 | **Channel**: GitHub
+**Published**: May 6, 2026 | **Channel**: GitHub
 
-Welcome back to The Download. This week, we cover France's massive move to migrate its government ministries to Linux for digital sovereignty. We also look at Canonical's push for local AI inference in Ubuntu and the impressive cost cuts in the new DeepSeek v4 release. Plus, we explore TanStack AI's...
+Knowing what to build is easy, but figuring out how to build it can be tricky. In this short, we show you how to use the plan feature in the GitHub Copilot CLI to map out your next project. Copilot will ask follow-up questions to clarify your goals and help you find the best approach. Once the plan ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=PpL7vQupWqM)
+[Watch on YouTube →](https://www.youtube.com/shorts/CIgdAO8mbw0)
 
 ---
 
 ## Browse by Category
 
 
-## Features & Updates
+## Getting Started
 
-*Discover new features, product announcements, capability releases, and the latest updates.*
+*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
 
-**When to watch**: You want to stay current with new capabilities and improvements.
+**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [What is TanStack AI? The new open source toolkit](https://www.youtube.com/shorts/wS8CV85RTO8)
+### [How to plan projects with GitHub Copilot CLI](https://www.youtube.com/shorts/CIgdAO8mbw0)
 
-**Published**: May 5, 2026
+**Published**: May 6, 2026
 
-The team behind some of the most popular React libraries just released the alpha for TanStack AI. Dubbed the "Switzerland of AI tooling," this open source, framework-agnostic toolkit lets you build AI...
+Knowing what to build is easy, but figuring out how to build it can be tricky. In this short, we show you how to use the plan feature in the GitHub Copilot CLI to map out your next project. Copilot wi...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/wS8CV85RTO8)
-
----
-
-### [The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more](https://www.youtube.com/watch?v=PpL7vQupWqM)
-
-**Published**: May 1, 2026
-
-Welcome back to The Download. This week, we cover France's massive move to migrate its government ministries to Linux for digital sovereignty. We also look at Canonical's push for local AI inference i...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=PpL7vQupWqM)
+[Watch on YouTube →](https://www.youtube.com/shorts/CIgdAO8mbw0)
 
 ---
 
@@ -90,15 +68,13 @@ Welcome back to The Download. This week, we cover France's massive move to migra
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI](https://www.youtube.com/watch?v=FXu1WpzSsIU)
+### [Rubber Duck Thursdays: Building an AI agent app](https://www.youtube.com/watch?v=zG6PJHVaUxs)
 
-**Published**: May 4, 2026
+**Published**: May 7, 2026
 
-Spec-Driven Development: el SPEC.md como cerebro de tus agentes Invitada: Lesly Zerna, desarrolladora de currículo en DeepLearning.AI
+In this stream we'll walk through build an agent for a fictional company that we can deploy to production...
 
-Si dejas que el agente decida todo, el proyecto pierde el rumbo. ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=FXu1WpzSsIU)
+[Watch on YouTube →](https://www.youtube.com/watch?v=zG6PJHVaUxs)
 
 ---
 
