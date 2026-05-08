@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: May 06, 2026
+**Last Updated**: May 08, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,18 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## May 2026
 
+- **May 7, 2026** - [Agent pull requests are everywhere. Here’s how to review them.](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/) (Blog)
+- **May 7, 2026** - [Upcoming deprecation of GPT-4.1](https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1) (Blog)
+- **May 7, 2026** - [Enterprise Live Migrations is now in public preview](https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview) (Blog)
+- **May 7, 2026** - [Claude Sonnet 4 deprecated](https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated) (Blog)
+- **May 7, 2026** - [Rubber Duck in GitHub Copilot CLI now supports more models](https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models) (Blog)
+- **May 7, 2026** - [Repository rulesets: User bypass and branch renaming](https://github.blog/changelog/2026-05-07-repository-rulesets-user-bypass-and-branch-renaming) (Blog)
+- **May 7, 2026** - [Rubber Duck Thursdays: Building an AI agent app](https://www.youtube.com/watch?v=zG6PJHVaUxs) (Video)
+- **May 6, 2026** - [Validating agentic behavior when “correct” isn’t deterministic](https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/) (Blog)
+- **May 6, 2026** - [Enterprise-managed plugins in GitHub Copilot CLI are now in public preview](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview) (Blog)
+- **May 6, 2026** - [GitHub Copilot in Visual Studio Code, April releases](https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases) (Blog)
+- **May 6, 2026** - [Search and filter bar for repository security advisories](https://github.blog/changelog/2026-05-06-search-and-filter-bar-for-repository-security-advisories) (Blog)
+- **May 6, 2026** - [How to plan projects with GitHub Copilot CLI](https://www.youtube.com/shorts/CIgdAO8mbw0) (Video)
 - **May 5, 2026** - [Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available](https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available) (Blog)
 - **May 5, 2026** - [Dependency scanning with GitHub MCP Server is in public preview](https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview) (Blog)
 - **May 5, 2026** - [Secret scanning with GitHub MCP Server is now generally available](https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available) (Blog)

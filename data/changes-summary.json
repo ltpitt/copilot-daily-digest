@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-05-06T08:31:32.915746+00:00",
+  "generated_at": "2026-05-08T07:36:36.564738+00:00",
   "has_changes": true,
-  "total_changes": 23,
+  "total_changes": 27,
   "docs": {
     "changed": [
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-05-06T08:31:06Z",
+        "timestamp": "2026-05-08T07:36:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-05-06T08:30:50Z",
+        "timestamp": "2026-05-08T07:35:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-05-06T08:31:15Z",
+        "timestamp": "2026-05-08T07:36:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-05-06T08:31:03Z",
+        "timestamp": "2026-05-08T07:36:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-05-06T08:30:59Z",
+        "timestamp": "2026-05-08T07:36:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-05-06T08:31:13Z",
+        "timestamp": "2026-05-08T07:36:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-05-06T08:31:04Z",
+        "timestamp": "2026-05-08T07:36:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-05-06T08:31:08Z",
+        "timestamp": "2026-05-08T07:36:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-05-06T08:30:53Z",
+        "timestamp": "2026-05-08T07:36:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-05-06T08:30:51Z",
+        "timestamp": "2026-05-08T07:35:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-05-06T08:31:01Z",
+        "timestamp": "2026-05-08T07:36:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-05-06T08:30:56Z",
+        "timestamp": "2026-05-08T07:36:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-05-06T08:31:11Z",
+        "timestamp": "2026-05-08T07:36:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-05-06T08:30:57Z",
+        "timestamp": "2026-05-08T07:36:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -110,60 +110,84 @@
     ]
   },
   "blog": {
-    "new_count": 5,
+    "new_count": 10,
     "new_posts": [
       {
-        "title": "Secret scanning with GitHub MCP Server is now generally available",
-        "url": "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
-        "date": "2026-05-05T22:04:32Z",
-        "summary": "<p>GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or&#8230;</p>\n<p>"
+        "title": "Upcoming deprecation of GPT-4.1",
+        "url": "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
+        "date": "2026-05-08T00:22:08Z",
+        "summary": "<p>We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Sug"
       },
       {
-        "title": "Dependency scanning with GitHub MCP Server is in public preview",
-        "url": "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
-        "date": "2026-05-05T20:45:38Z",
-        "summary": "<p>The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You&#8217;ll catch known vulnerabilities while you write code with&#8230;<"
+        "title": "Claude Sonnet 4 deprecated",
+        "url": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
+        "date": "2026-05-07T22:30:23Z",
+        "summary": "<p>We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date"
       },
       {
-        "title": "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available",
-        "url": "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
-        "date": "2026-05-05T14:24:24Z",
-        "summary": "<p>This integration is now generally available. Since entering public preview, we&#8217;ve heard valuable feedback from customers, and we&#8217;ve shipped follow-up improvements that bring artifact an"
+        "title": "Enterprise Live Migrations is now in public preview",
+        "url": "https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview",
+        "date": "2026-05-07T20:28:33Z",
+        "summary": "<p>Enterprise Live Migrations (ELM) is now available in public preview. ELM gives enterprise administrators a new way to migrate repositories from GitHub Enterprise Server (GHES) to GitHub Enterprise "
       },
       {
-        "title": "Deprecation notice: code_scanning_upload field will be removed from rate_limit API endpoint",
-        "url": "https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint",
-        "date": "2026-05-05T13:14:30Z",
-        "summary": "<p>On May 19, 2026, we&#8217;ll remove the code_scanning_upload field from the rate_limit REST API endpoint response. Why did we make this change? The code_scanning_upload field in the rate_limit resp"
+        "title": "Agent pull requests are everywhere. Here’s how to review them.",
+        "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+        "date": "2026-05-07T19:00:00Z",
+        "summary": "<p>A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships.</p>\n<p>The post <a href=\"https://github.blog/ai-a"
       },
       {
-        "title": "Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex",
-        "url": "https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
-        "date": "2026-05-01T21:30:12Z",
-        "summary": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), with the exception of GPT-5.2-Codex i"
+        "title": "Rubber Duck in GitHub Copilot CLI now supports more models",
+        "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+        "date": "2026-05-07T14:49:28Z",
+        "summary": "<p>Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude&#8230;</p>\n<"
+      },
+      {
+        "title": "Repository rulesets: User bypass and branch renaming",
+        "url": "https://github.blog/changelog/2026-05-07-repository-rulesets-user-bypass-and-branch-renaming",
+        "date": "2026-05-07T14:13:48Z",
+        "summary": "<p>GitHub repository rulesets now support two frequently requested features: adding individual users as bypass actors and renaming branches covered by organization rulesets. Add individual users as by"
+      },
+      {
+        "title": "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview",
+        "url": "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+        "date": "2026-05-06T22:20:44Z",
+        "summary": "<p>Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every u"
+      },
+      {
+        "title": "Validating agentic behavior when “correct” isn’t deterministic",
+        "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+        "date": "2026-05-06T21:16:31Z",
+        "summary": "<p>How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio Code, April releases",
+        "url": "https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases",
+        "date": "2026-05-06T17:55:26Z",
+        "summary": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning&#8230;<"
+      },
+      {
+        "title": "Search and filter bar for repository security advisories",
+        "url": "https://github.blog/changelog/2026-05-06-search-and-filter-bar-for-repository-security-advisories",
+        "date": "2026-05-06T15:35:47Z",
+        "summary": "<p>You can now search and filter security advisories directly from your repository&#8217;s Security tab. Use the new search bar and filters at the top of the advisory list to find&#8230;</p>\n<p>The po"
       }
     ]
   },
   "videos": {
-    "new_count": 3,
+    "new_count": 2,
     "new_videos": [
       {
-        "title": "What is TanStack AI? The new open source toolkit",
-        "video_id": "wS8CV85RTO8",
-        "date": "2026-05-05T19:00:50+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/wS8CV85RTO8/hqdefault.jpg"
+        "title": "Rubber Duck Thursdays: Building an AI agent app",
+        "video_id": "zG6PJHVaUxs",
+        "date": "2026-05-07T23:11:44+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/zG6PJHVaUxs/hqdefault.jpg"
       },
       {
-        "title": "Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI",
-        "video_id": "FXu1WpzSsIU",
-        "date": "2026-05-04T16:20:56+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/FXu1WpzSsIU/hqdefault.jpg"
-      },
-      {
-        "title": "The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more",
-        "video_id": "PpL7vQupWqM",
-        "date": "2026-05-01T17:51:04+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/PpL7vQupWqM/hqdefault.jpg"
+        "title": "How to plan projects with GitHub Copilot CLI",
+        "video_id": "CIgdAO8mbw0",
+        "date": "2026-05-06T15:00:31+00:00",
+        "thumbnail": "https://i4.ytimg.com/vi/CIgdAO8mbw0/hqdefault.jpg"
       }
     ]
   },
@@ -171,105 +195,105 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on May 06, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 5 new articles\n  - \"Secret scanning with GitHub MCP Server is now generally available\" (2026-05-05)\n  - \"Dependency scanning with GitHub MCP Server is in public preview\" (2026-05-05)\n  - \"Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available\" (2026-05-05)\n  - \"Deprecation notice: code_scanning_upload field will be removed from rate_limit API endpoint\" (2026-05-05)\n  - \"Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex\" (2026-05-01)\n\n🎥 Videos: 3 new videos\n  - \"What is TanStack AI? The new open source toolkit\" (2026-05-05)\n  - \"Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI\" (2026-05-04)\n  - \"The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more\" (2026-05-01)\n\nTotal: 23 changes detected",
+  "summary_text": "Changes detected on May 08, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-code-suggestions.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-best-practices.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 10 new articles\n  - \"Upcoming deprecation of GPT-4.1\" (2026-05-08)\n  - \"Claude Sonnet 4 deprecated\" (2026-05-07)\n  - \"Enterprise Live Migrations is now in public preview\" (2026-05-07)\n  - \"Agent pull requests are everywhere. Here’s how to review them.\" (2026-05-07)\n  - \"Rubber Duck in GitHub Copilot CLI now supports more models\" (2026-05-07)\n\n🎥 Videos: 2 new videos\n  - \"Rubber Duck Thursdays: Building an AI agent app\" (2026-05-07)\n  - \"How to plan projects with GitHub Copilot CLI\" (2026-05-06)\n\nTotal: 27 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 22,
+    "total_changes": 26,
     "new_docs": [
       {
         "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-05-06T08:31:06Z",
+        "timestamp": "2026-05-08T07:36:10Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-overview.md",
-        "timestamp": "2026-05-06T08:30:50Z",
+        "timestamp": "2026-05-08T07:35:56Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-05-06T08:31:15Z",
+        "timestamp": "2026-05-08T07:36:17Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-05-06T08:31:03Z",
+        "timestamp": "2026-05-08T07:36:07Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-05-06T08:30:59Z",
+        "timestamp": "2026-05-08T07:36:05Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-05-06T08:31:13Z",
+        "timestamp": "2026-05-08T07:36:16Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-05-06T08:31:04Z",
+        "timestamp": "2026-05-08T07:36:08Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-05-06T08:31:08Z",
+        "timestamp": "2026-05-08T07:36:12Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-chat.md",
-        "timestamp": "2026-05-06T08:30:53Z",
+        "timestamp": "2026-05-08T07:36:00Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-getting-started.md",
-        "timestamp": "2026-05-06T08:30:51Z",
+        "timestamp": "2026-05-08T07:35:58Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-best-practices.md",
-        "timestamp": "2026-05-06T08:31:01Z",
+        "timestamp": "2026-05-08T07:36:06Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-05-06T08:30:56Z",
+        "timestamp": "2026-05-08T07:36:02Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-configuration.md",
-        "timestamp": "2026-05-06T08:31:11Z",
+        "timestamp": "2026-05-08T07:36:14Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
       },
       {
         "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-05-06T08:30:57Z",
+        "timestamp": "2026-05-08T07:36:03Z",
         "diff_summary": "",
         "added_lines": 0,
         "removed_lines": 0
@@ -277,54 +301,78 @@
     ],
     "new_blog_posts": [
       {
-        "title": "Secret scanning with GitHub MCP Server is now generally available",
-        "url": "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
-        "date": "2026-05-05T22:04:32Z",
-        "summary": "<p>GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or&#8230;</p>\n<p>"
+        "title": "Upcoming deprecation of GPT-4.1",
+        "url": "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
+        "date": "2026-05-08T00:22:08Z",
+        "summary": "<p>We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Sug"
       },
       {
-        "title": "Dependency scanning with GitHub MCP Server is in public preview",
-        "url": "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
-        "date": "2026-05-05T20:45:38Z",
-        "summary": "<p>The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You&#8217;ll catch known vulnerabilities while you write code with&#8230;<"
+        "title": "Claude Sonnet 4 deprecated",
+        "url": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
+        "date": "2026-05-07T22:30:23Z",
+        "summary": "<p>We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date"
       },
       {
-        "title": "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available",
-        "url": "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
-        "date": "2026-05-05T14:24:24Z",
-        "summary": "<p>This integration is now generally available. Since entering public preview, we&#8217;ve heard valuable feedback from customers, and we&#8217;ve shipped follow-up improvements that bring artifact an"
+        "title": "Enterprise Live Migrations is now in public preview",
+        "url": "https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview",
+        "date": "2026-05-07T20:28:33Z",
+        "summary": "<p>Enterprise Live Migrations (ELM) is now available in public preview. ELM gives enterprise administrators a new way to migrate repositories from GitHub Enterprise Server (GHES) to GitHub Enterprise "
       },
       {
-        "title": "Deprecation notice: code_scanning_upload field will be removed from rate_limit API endpoint",
-        "url": "https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint",
-        "date": "2026-05-05T13:14:30Z",
-        "summary": "<p>On May 19, 2026, we&#8217;ll remove the code_scanning_upload field from the rate_limit REST API endpoint response. Why did we make this change? The code_scanning_upload field in the rate_limit resp"
+        "title": "Agent pull requests are everywhere. Here’s how to review them.",
+        "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+        "date": "2026-05-07T19:00:00Z",
+        "summary": "<p>A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships.</p>\n<p>The post <a href=\"https://github.blog/ai-a"
       },
       {
-        "title": "Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex",
-        "url": "https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
-        "date": "2026-05-01T21:30:12Z",
-        "summary": "<p>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), with the exception of GPT-5.2-Codex i"
+        "title": "Rubber Duck in GitHub Copilot CLI now supports more models",
+        "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+        "date": "2026-05-07T14:49:28Z",
+        "summary": "<p>Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude&#8230;</p>\n<"
+      },
+      {
+        "title": "Repository rulesets: User bypass and branch renaming",
+        "url": "https://github.blog/changelog/2026-05-07-repository-rulesets-user-bypass-and-branch-renaming",
+        "date": "2026-05-07T14:13:48Z",
+        "summary": "<p>GitHub repository rulesets now support two frequently requested features: adding individual users as bypass actors and renaming branches covered by organization rulesets. Add individual users as by"
+      },
+      {
+        "title": "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview",
+        "url": "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+        "date": "2026-05-06T22:20:44Z",
+        "summary": "<p>Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every u"
+      },
+      {
+        "title": "Validating agentic behavior when “correct” isn’t deterministic",
+        "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+        "date": "2026-05-06T21:16:31Z",
+        "summary": "<p>How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/"
+      },
+      {
+        "title": "GitHub Copilot in Visual Studio Code, April releases",
+        "url": "https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases",
+        "date": "2026-05-06T17:55:26Z",
+        "summary": "<p>VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning&#8230;<"
+      },
+      {
+        "title": "Search and filter bar for repository security advisories",
+        "url": "https://github.blog/changelog/2026-05-06-search-and-filter-bar-for-repository-security-advisories",
+        "date": "2026-05-06T15:35:47Z",
+        "summary": "<p>You can now search and filter security advisories directly from your repository&#8217;s Security tab. Use the new search bar and filters at the top of the advisory list to find&#8230;</p>\n<p>The po"
       }
     ],
     "new_videos": [
       {
-        "title": "What is TanStack AI? The new open source toolkit",
-        "video_id": "wS8CV85RTO8",
-        "date": "2026-05-05T19:00:50+00:00",
-        "thumbnail": "https://i4.ytimg.com/vi/wS8CV85RTO8/hqdefault.jpg"
+        "title": "Rubber Duck Thursdays: Building an AI agent app",
+        "video_id": "zG6PJHVaUxs",
+        "date": "2026-05-07T23:11:44+00:00",
+        "thumbnail": "https://i3.ytimg.com/vi/zG6PJHVaUxs/hqdefault.jpg"
       },
       {
-        "title": "Jueves de Quack con Lesly Zerna, desarrolladora de currículo en DeepLearning.AI",
-        "video_id": "FXu1WpzSsIU",
-        "date": "2026-05-04T16:20:56+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/FXu1WpzSsIU/hqdefault.jpg"
-      },
-      {
-        "title": "The Download: Linux 486 retirement, DeepSeek v4, TanStack AI & more",
-        "video_id": "PpL7vQupWqM",
-        "date": "2026-05-01T17:51:04+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/PpL7vQupWqM/hqdefault.jpg"
+        "title": "How to plan projects with GitHub Copilot CLI",
+        "video_id": "CIgdAO8mbw0",
+        "date": "2026-05-06T15:00:31+00:00",
+        "thumbnail": "https://i4.ytimg.com/vi/CIgdAO8mbw0/hqdefault.jpg"
       }
     ]
   }
