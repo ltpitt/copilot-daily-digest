@@ -20,14 +20,7 @@ You've probably already approved one without realizing it. But it was agent-gene
 #### 2. [Upcoming deprecation of GPT-4.1](https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1)
 *May 7, 2026*
 
-We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026:
-Model
-Deprecation date
-Suggested alternative
-GPT-4.1
-2026-06-01
-GPT-5.5
-Please update your workflows and integrations to use supported models before these dates.
+GitHub will deprecate GPT-4.1 across all Copilot experiences on June 1, 2026. Teams should migrate prompts, automations, and integrations to GPT-5.5 before the cutoff to avoid disruptions. This changelog entry outlines the timeline and the supported replacement model.
 
 #### 3. [Enterprise Live Migrations is now in public preview](https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview)
 *May 7, 2026*
@@ -37,13 +30,7 @@ Enterprise Live Migrations (ELM) is now available in public preview. ELM gives e
 #### 4. [Claude Sonnet 4 deprecated](https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated)
 *May 7, 2026*
 
-We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model
-Deprecation date
-Suggested alternative
-Claude Sonnet 4
-2026-05-06
-Claude Sonnet 4.6
-Please update your workflows and integrations to use supported models.
+GitHub has deprecated Claude Sonnet 4 across Copilot experiences as of May 6, 2026. If your team still depends on that model, you should move to Claude Sonnet 4.6 to stay on a supported path. The update clarifies where this change applies, including chat, completions, and agent workflows.
 
 #### 5. [Rubber Duck in GitHub Copilot CLI now supports more models](https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models)
 *May 7, 2026*
@@ -94,7 +81,7 @@ Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now availab
 8. **[Code To Cloud Risk Visibility With Microsoft Defender For Cloud Is Now Generally Available](https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available)**
 	*May 5, 2026*
 
-	Explore the latest update: Code To Cloud Risk Visibility With Microsoft Defender For Cloud Is Now Generally Available.
+	GitHub and Microsoft Defender for Cloud now provide generally available code-to-cloud risk visibility. Security teams can connect findings across development and runtime contexts to prioritize risks earlier in the delivery lifecycle.
 
 9. **[Dependency scanning with GitHub MCP Server is in public preview](https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview)**
 	*May 5, 2026*
@@ -104,7 +91,7 @@ Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now availab
 10. **[Deprecation Notice Code_Scanning_Upload Field Will Be Removed From Rate_Limit Api Endpoint](https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint)**
 	*May 5, 2026*
 
-	Explore the latest update: Deprecation Notice Code_Scanning_Upload Field Will Be Removed From Rate_Limit Api Endpoint.
+	GitHub announced the upcoming removal of the `code_scanning_upload` field from the `rate_limit` API endpoint. If you monitor API limits programmatically, update your tooling now so deprecation does not break dashboards or alerts.
 
 ---
 

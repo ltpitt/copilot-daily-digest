@@ -26,7 +26,7 @@
 
 **Published**: May 7, 2026 | **Channel**: GitHub
 
-In this stream we'll walk through build an agent for a fictional company that we can deploy to production...
+In this stream, the GitHub team walks through building an agent for a fictional company and deploying it to production.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=zG6PJHVaUxs)
 
@@ -36,7 +36,7 @@ In this stream we'll walk through build an agent for a fictional company that we
 
 **Published**: May 6, 2026 | **Channel**: GitHub
 
-Knowing what to build is easy, but figuring out how to build it can be tricky. In this short, we show you how to use the plan feature in the GitHub Copilot CLI to map out your next project. Copilot will ask follow-up questions to clarify your goals and help you find the best approach. Once the plan ...
+Knowing what to build is easy, but figuring out how to build it can be tricky. This short shows how to use the GitHub Copilot CLI planning flow to define goals, answer follow-up questions, and create a practical implementation plan.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/CIgdAO8mbw0)
 
@@ -55,7 +55,7 @@ Knowing what to build is easy, but figuring out how to build it can be tricky. I
 
 **Published**: May 6, 2026
 
-Knowing what to build is easy, but figuring out how to build it can be tricky. In this short, we show you how to use the plan feature in the GitHub Copilot CLI to map out your next project. Copilot wi...
+Knowing what to build is easy, but figuring out how to build it can be tricky. This short shows how to use the GitHub Copilot CLI planning flow to define goals, answer follow-up questions, and create a practical implementation plan.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/CIgdAO8mbw0)
 
@@ -72,7 +72,7 @@ Knowing what to build is easy, but figuring out how to build it can be tricky. I
 
 **Published**: May 7, 2026
 
-In this stream we'll walk through build an agent for a fictional company that we can deploy to production...
+In this stream, the GitHub team walks through building an agent for a fictional company and deploying it to production.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=zG6PJHVaUxs)
 
