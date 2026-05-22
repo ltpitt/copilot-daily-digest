@@ -21,7 +21,7 @@ In this stream we'll talk about the different ways we can build agents!
 *May 22, 2026*
 
 En vivo explicando cómo optimizar GitHub Copilot en la era UBB — cómo acotar contexto, elegir el modo correcto y sacarle más provecho sin gastar de más.
-Guía rápida + checklist EN/ES: https://gh.
+La sesión comparte tácticas prácticas para mejorar resultados con mejor contexto, modos adecuados y control de presupuesto en equipos bilingües.
 
 #### 3. [Issue fields are now in public preview for all organizations](https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations)
 *May 21, 2026*
@@ -47,7 +47,7 @@ In this stream we'll talk about the different ways we can build agents!
 1. **[Getting More from Every Copilot Interaction](https://www.youtube.com/watch?v=ITxzBiTBZW0)**
 	*May 21, 2026*
 
-	A 1-hour stream on Copilot best practices for the UBB era. Marco Olivo, Francesco Lana, and Andrea Griffiths are walking through the workflows that move the needle: getting code-first answers,...
+	A 1-hour stream focused on practical Copilot workflows for the UBB era. Marco Olivo, Francesco Lana, and Andrea Griffiths cover prompt patterns, context strategies, and review habits that help teams get higher-quality code-first results.
 
 2. **[Auto model selection now routes based on your task in VS Code](https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code)**
 	*May 20, 2026*
