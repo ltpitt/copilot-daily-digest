@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: May 08, 2026
+**Last Updated**: May 22, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,31 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## May 2026
 
+- **May 22, 2026** - [Replay: Rubber Duck Thursdays: Building Agents with Copilot](https://www.youtube.com/watch?v=xY5WvpHbHaA) (Video)
+- **May 22, 2026** - [Jueves de Quack - GitHub Copilot en la era UBB: contexto, modos y presupuesto](https://www.youtube.com/watch?v=GXkZIzvRxNQ) (Video)
+- **May 21, 2026** - [Issue fields are now in public preview for all organizations](https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations) (Blog)
+- **May 21, 2026** - [GitHub Copilot for Eclipse is open source](https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source) (Blog)
+- **May 21, 2026** - [Rubber Duck Thursdays: Building Agents with Copilot](https://www.youtube.com/watch?v=0ZjZwru71zw) (Video)
+- **May 21, 2026** - [Getting More from Every Copilot Interaction](https://www.youtube.com/watch?v=ITxzBiTBZW0) (Video)
+- **May 20, 2026** - [Auto model selection now routes based on your task in VS Code](https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code) (Blog)
+- **May 20, 2026** - [Semantic issue search in Copilot Chat](https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat) (Blog)
+- **May 20, 2026** - [Updates to available models in Copilot on web](https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web) (Blog)
+- **May 20, 2026** - [Copilot usage metrics reports now use GitHub-owned download URLs](https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls) (Blog)
+- **May 20, 2026** - [LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ 🦞](https://www.youtube.com/watch?v=VZ9LgdU7_2k) (Video)
+- **May 19, 2026** - [Expanded OIDC support for Dependabot and code scanning](https://github.blog/changelog/2026-05-19-expanded-oidc-support-for-dependabot-and-code-scanning) (Blog)
+- **May 19, 2026** - [Upcoming deprecation of Python 3.9 for Dependabot](https://github.blog/changelog/2026-05-19-upcoming-deprecation-of-python-3-9-for-dependabot) (Blog)
+- **May 19, 2026** - [Gemini 3.5 Flash is generally available for GitHub Copilot](https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot) (Blog)
+- **May 19, 2026** - [Easily apply Copilot code review feedback with Copilot cloud agent](https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent) (Blog)
+- **May 19, 2026** - [How Copilot auto mode selects the best AI model | GitHub Checkout](https://www.youtube.com/watch?v=a-c1M8QwK84) (Video)
+- **May 18, 2026** - [Take your local GitHub sessions anywhere](https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/) (Blog)
+- **May 18, 2026** - [Take GitHub Copilot on the go with remote control](https://www.youtube.com/watch?v=IfZglrnVkPA) (Video)
+- **May 18, 2026** - [GitHub is coming to Microsoft Build 2026](https://www.youtube.com/shorts/ToRMxNvQnPE) (Video)
+- **May 17, 2026** - [Create GitHub repositories from the mobile app](https://www.youtube.com/shorts/HyOWj3ldwFY) (Video)
+- **May 16, 2026** - [A tiny React alternative built with AI](https://www.youtube.com/shorts/dlSfOx8pUpk) (Video)
+- **May 16, 2026** - [Open Source Friday: Mozilla AI | Project cq](https://www.youtube.com/watch?v=1fdWVSi3gEs) (Video)
+- **May 15, 2026** - [Building a general-purpose accessibility agent—and what we learned in the process](https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/) (Blog)
+- **May 15, 2026** - [The Download: Microsoft Build, GitHub mobile, open source keyboards & more](https://www.youtube.com/watch?v=kBWrbvJoto4) (Video)
+- **May 12, 2026** - [Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/) (Blog)
 - **May 7, 2026** - [Agent pull requests are everywhere. Here’s how to review them.](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/) (Blog)
 - **May 7, 2026** - [Upcoming deprecation of GPT-4.1](https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1) (Blog)
 - **May 7, 2026** - [Enterprise Live Migrations is now in public preview](https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview) (Blog)

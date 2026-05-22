@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: May 08, 2026
+> **Last Updated**: May 22, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -16,6 +16,19 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ## Official GitHub Courses
 
+### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
+
+**Provider**: GitHub Skills | **Level**: Beginner
+
+Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
+
+- **Format**: Interactive
+- **Duration**: 1-2 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
+
+---
+
 ### [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
 
 **Provider**: GitHub Skills | **Level**: Intermediate
@@ -26,19 +39,6 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 - **Duration**: 2-3 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Team Collaboration, Coding Agent
-
----
-
-### [Introduction to GitHub Copilot](https://learn.github.com/skills/copilot)
-
-**Provider**: GitHub Skills | **Level**: Beginner
-
-Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
-
-- **Format**: Interactive
-- **Duration**: 1-2 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
 
 ---
 
@@ -69,19 +69,6 @@ Discover how GitHub Copilot can help you code faster and more efficiently. Learn
 
 ---
 
-### [Challenge project - Build a minigame with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)
-
-**Provider**: Microsoft Learn | **Level**: Intermediate
-
-Demonstrate your ability to use GitHub Copilot to develop code by creating a console minigame in C#.
-
-- **Format**: Challenge Project
-- **Duration**: 1-2 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, C#, Game Development, Hands-on
-
----
-
 ### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
 
 **Provider**: Microsoft Learn | **Level**: Intermediate
@@ -92,6 +79,19 @@ Master the fundamentals of GitHub Copilot. Learn how to write better prompts, us
 - **Duration**: 2-3 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, Prompt Engineering, AI Testing, Documentation
+
+---
+
+### [Challenge project - Build a minigame with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)
+
+**Provider**: Microsoft Learn | **Level**: Intermediate
+
+Demonstrate your ability to use GitHub Copilot to develop code by creating a console minigame in C#.
+
+- **Format**: Challenge Project
+- **Duration**: 1-2 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, C#, Game Development, Hands-on
 
 ---
 

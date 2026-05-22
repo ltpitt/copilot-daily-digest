@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: May 08, 2026
+**Last Updated**: May 22, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,30 +12,31 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [Agent pull requests are everywhere. Here’s how to review them.](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/)
-*May 7, 2026*
+#### 1. [Replay: Rubber Duck Thursdays: Building Agents with Copilot](https://www.youtube.com/watch?v=xY5WvpHbHaA)
+*May 22, 2026*
 
-You've probably already approved one without realizing it. But it was agent-generated—and that ease of approval is exactly the problem. A January 2026 study, "More Code, Less Reuse", found that agent-generated code introduces more redundancy and more technical debt per change than human-written code.
+In this stream we'll talk about the different ways we can build agents!
 
-#### 2. [Upcoming deprecation of GPT-4.1](https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1)
-*May 7, 2026*
+#### 2. [Jueves de Quack - GitHub Copilot en la era UBB: contexto, modos y presupuesto](https://www.youtube.com/watch?v=GXkZIzvRxNQ)
+*May 22, 2026*
 
-GitHub will deprecate GPT-4.1 across all Copilot experiences on June 1, 2026. Teams should migrate prompts, automations, and integrations to GPT-5.5 before the cutoff to avoid disruptions. This changelog entry outlines the timeline and the supported replacement model.
+En vivo explicando cómo optimizar GitHub Copilot en la era UBB — cómo acotar contexto, elegir el modo correcto y sacarle más provecho sin gastar de más.
+Guía rápida + checklist EN/ES: https://gh.
 
-#### 3. [Enterprise Live Migrations is now in public preview](https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview)
-*May 7, 2026*
+#### 3. [Issue fields are now in public preview for all organizations](https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations)
+*May 21, 2026*
 
-Enterprise Live Migrations (ELM) is now available in public preview. ELM gives enterprise administrators a new way to migrate repositories from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with data residency, without the extended code freezes and business disruption that come with traditional migrations.
+Issue fields are now available in public preview to all GitHub organizations on github.com and GitHub Enterprise Cloud with data residency. When you define typed metadata like Priority, Effort, or any custom field at the org level, and it automatically shows up on every issue, in every repository.
 
-#### 4. [Claude Sonnet 4 deprecated](https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated)
-*May 7, 2026*
+#### 4. [GitHub Copilot for Eclipse is open source](https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source)
+*May 21, 2026*
 
-GitHub has deprecated Claude Sonnet 4 across Copilot experiences as of May 6, 2026. If your team still depends on that model, you should move to Claude Sonnet 4.6 to stay on a supported path. The update clarifies where this change applies, including chat, completions, and agent workflows.
+Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in the Eclipse ecosystem. By open sourcing the plugin, we're inviting the community to explore, learn from, and contribute to how AI-powered developer experiences are built inside Eclipse.
 
-#### 5. [Rubber Duck in GitHub Copilot CLI now supports more models](https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models)
-*May 7, 2026*
+#### 5. [Rubber Duck Thursdays: Building Agents with Copilot](https://www.youtube.com/watch?v=0ZjZwru71zw)
+*May 21, 2026*
 
-Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude as their orchestrator, we've upgraded the GPT model used to seek a second opinion. The same second-opinion benefits (architectural catches, subtle bugs, and cross-file conflicts) now apply to GPT-driven sessions.
+In this stream we'll talk about the different ways we can build agents!
 
 ---
 
@@ -43,55 +44,55 @@ Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now availab
 
 ### Significant Updates
 
-1. **[Repository rulesets: User bypass and branch renaming](https://github.blog/changelog/2026-05-07-repository-rulesets-user-bypass-and-branch-renaming)**
-	*May 7, 2026*
+1. **[Getting More from Every Copilot Interaction](https://www.youtube.com/watch?v=ITxzBiTBZW0)**
+	*May 21, 2026*
 
-	GitHub repository rulesets now support two frequently requested features: adding individual users as bypass actors and renaming branches covered by organization rulesets. You can now add individual users as bypass actors on repository-level rulesets through the UI, REST API, and GraphQL.
+	A 1-hour stream on Copilot best practices for the UBB era. Marco Olivo, Francesco Lana, and Andrea Griffiths are walking through the workflows that move the needle: getting code-first answers,...
 
-2. **[Rubber Duck Thursdays: Building an AI agent app](https://www.youtube.com/watch?v=zG6PJHVaUxs)**
-	*May 7, 2026*
+2. **[Auto model selection now routes based on your task in VS Code](https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code)**
+	*May 20, 2026*
 
-	In this stream we'll walk through build an agent for a fictional company that we can deploy to production
+	GitHub Copilot auto model selection now routes to the best model for your task, using utilization and model health metrics for a high quality, reliable, and token-efficient experience. Transparency: You can see which model was used by hovering over the model response. Stay in control: Switch between Auto and any specific model at any time.
 
-3. **[Validating agentic behavior when “correct” isn’t deterministic](https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/)**
-	*May 6, 2026*
+3. **[Semantic issue search in Copilot Chat](https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat)**
+	*May 20, 2026*
 
-	Modern software testing is built on a fragile assumption: correct behavior is repeatable. For deterministic code, that assumption mostly holds. But for autonomous agents like Github Copilot Coding Agent (aka Agent Mode), especially as we explore the frontiers of integrated "Computer Use," that assumption breaks down almost immediately.
+	You can use natural language in GitHub Copilot Chat on web to quickly find, group, and analyze issues, with context-aware results powered by a new semantic issues index. Instead of relying only on exact matches and manual filters, Copilot Chat can now understand the intent of your query and surface issues that are semantically related even when they are worded differently.
 
-4. **[Enterprise-managed plugins in GitHub Copilot CLI are now in public preview](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview)**
-	*May 6, 2026*
+4. **[Updates to available models in Copilot on web](https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web)**
+	*May 20, 2026*
 
-	Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user's Copilot CLI client.
+	We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses. While model choice is valuable, we are limiting the list of available models on github.com so that we can consistently ensure reliable responses. All Gemini models and several other models (e.g., GPT-5.2 Codex and GPT-5.4 nano) have been removed from Copilot Chat on the web.
 
-5. **[GitHub Copilot in Visual Studio Code, April releases](https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases)**
-	*May 6, 2026*
+5. **[Copilot usage metrics reports now use GitHub-owned download URLs](https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls)**
+	*May 20, 2026*
 
-	VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repos and orgs.
+	As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and makes firewall and proxy allowlist management easier for enterprise customers.
 
-6. **[Search and filter bar for repository security advisories](https://github.blog/changelog/2026-05-06-search-and-filter-bar-for-repository-security-advisories)**
-	*May 6, 2026*
+6. **[LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ 🦞](https://www.youtube.com/watch?v=VZ9LgdU7_2k)**
+	*May 20, 2026*
 
-	You can now search and filter security advisories directly from your repository's Security tab. Use the new search bar and filters at the top of the advisory list to find advisories by keyword (sort, package, ecosystems, severity) so you spend less time scrolling and more time responding to what matters.
+	Live from GitHub HQ in San Francisco. The ClawFather Peter Steinberger and OpenClaw Foundation cofounder Dave Morin go fireside at 6 PM PT.
 
-7. **[How to plan projects with GitHub Copilot CLI](https://www.youtube.com/shorts/CIgdAO8mbw0)**
-	*May 6, 2026*
+7. **[Expanded OIDC support for Dependabot and code scanning](https://github.blog/changelog/2026-05-19-expanded-oidc-support-for-dependabot-and-code-scanning)**
+	*May 19, 2026*
 
-	Knowing what to build is easy, but figuring out how to build it can be tricky. In this short, we show you how to use the plan feature in the GitHub Copilot CLI to map out your next project.
+	Dependabot and code scanning now support OpenID Connect (OIDC) authentication for private registries configured at the organization level for two additional registries: Cloudsmith and Google Artifact Registry. Organization administrators can configure OIDC-based credentials for private registries across their organization.
 
-8. **[Code To Cloud Risk Visibility With Microsoft Defender For Cloud Is Now Generally Available](https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available)**
-	*May 5, 2026*
+8. **[Upcoming deprecation of Python 3.9 for Dependabot](https://github.blog/changelog/2026-05-19-upcoming-deprecation-of-python-3-9-for-dependabot)**
+	*May 19, 2026*
 
-	GitHub and Microsoft Defender for Cloud now provide generally available code-to-cloud risk visibility. Security teams can connect findings across development and runtime contexts to prioritize risks earlier in the delivery lifecycle.
+	On June 23, 2026, Dependabot will no longer support Python version 3.9, which has reached its end-of-life. If you continue to use Python 3.9, there's a risk that Dependabot will not create pull requests to update dependencies. If this affects you, please update to a supported release of Python.
 
-9. **[Dependency scanning with GitHub MCP Server is in public preview](https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview)**
-	*May 5, 2026*
+9. **[Gemini 3.5 Flash is generally available for GitHub Copilot](https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot)**
+	*May 19, 2026*
 
-	The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You'll catch known vulnerabilities while you write code with MCP-compatible IDEs and AI coding agents. It's now in public preview for repositories with Dependabot alerts enabled.
+	Gemini 3.5 Flash, Google's latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost with strong tool use, fast response times, and high cache efficiency that make it well-suited for fast, iterative agentic coding workflows.
 
-10. **[Deprecation Notice Code_Scanning_Upload Field Will Be Removed From Rate_Limit Api Endpoint](https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint)**
-	*May 5, 2026*
+10. **[Easily apply Copilot code review feedback with Copilot cloud agent](https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent)**
+	*May 19, 2026*
 
-	GitHub announced the upcoming removal of the `code_scanning_upload` field from the `rate_limit` API endpoint. If you monitor API limits programmatically, update your tooling now so deprecation does not break dashboards or alerts.
+	Copilot code review's previous Implement suggestion button has now been renamed to Fix with Copilot and updated to support a UI dialog for more control over how suggestions are applied. Now you can define what happens next and control how the fix should be applied.
 
 ---
 

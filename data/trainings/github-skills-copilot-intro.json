@@ -2,7 +2,7 @@
   "id": "github-skills-copilot-intro",
   "title": "Introduction to GitHub Copilot",
   "description": "Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.",
-  "url": "https://learn.github.com/skills/copilot",
+  "url": "https://github.com/skills/copilot-intro",
   "provider": "GitHub Skills",
   "level": "Beginner",
   "topics": [
@@ -14,6 +14,6 @@
   "is_free": true,
   "certification": false,
   "estimated_time": "1-2 hours",
-  "last_verified": "2026-05-08T07:36:23.486176+00:00",
-  "fetched_at": "2026-05-08T07:36:23.486809+00:00"
+  "last_verified": "2026-05-22T08:11:07.862759+00:00",
+  "fetched_at": "2026-05-22T08:11:07.863299+00:00"
 }
