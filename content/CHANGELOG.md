@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: May 08, 2026
+**Last Updated**: May 18, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,17 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## May 2026
 
+- **May 17, 2026** - [GPT-5.3-Codex is now the base model for Copilot Business and Enterprise](https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise) (Blog)
+- **May 15, 2026** - [GitHub App installation tokens: Per-request override header](https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header) (Blog)
+- **May 15, 2026** - [Copilot Memory supports user preferences for Pro, Pro+ users](https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users) (Blog)
+- **May 15, 2026** - [Grok Code Fast 1 deprecated](https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated) (Blog)
+- **May 15, 2026** - [Building a general-purpose accessibility agent—and what we learned in the process](https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/) (Blog)
+- **May 14, 2026** - [Team-level Copilot usage metrics now available via API](https://github.blog/changelog/2026-05-14-team-level-copilot-usage-metrics-now-available-via-api) (Blog)
+- **May 14, 2026** - [GitHub Actions: Upcoming image migrations](https://github.blog/changelog/2026-05-14-github-actions-upcoming-image-migrations) (Blog)
+- **May 14, 2026** - [GitHub Copilot app is now available in technical preview](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview) (Blog)
+- **May 14, 2026** - [Copilot cloud agent supports auto model selection](https://github.blog/changelog/2026-05-14-copilot-cloud-agent-supports-auto-model-selection) (Blog)
+- **May 13, 2026** - [Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs](https://github.blog/changelog/2026-05-13-introducing-copilot-cli-agent-and-unified-sessions-view-in-github-copilot-for-jetbrains-ides) (Blog)
+- **May 12, 2026** - [Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/) (Blog)
 - **May 7, 2026** - [Agent pull requests are everywhere. Here’s how to review them.](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/) (Blog)
 - **May 7, 2026** - [Upcoming deprecation of GPT-4.1](https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1) (Blog)
 - **May 7, 2026** - [Enterprise Live Migrations is now in public preview](https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview) (Blog)
