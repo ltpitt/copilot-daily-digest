@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: May 18, 2026
+**Last Updated**: May 29, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,25 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## May 2026
 
+- **May 28, 2026** - [Hard budget limits now available for GitHub Advanced Security](https://github.blog/changelog/2026-05-28-hard-budget-limits-now-available-for-github-advanced-security) (Blog)
+- **May 28, 2026** - [CodeQL 2.25.5 improves query accuracy for GitHub Actions](https://github.blog/changelog/2026-05-28-codeql-2-25-5-improves-query-accuracy-for-github-actions) (Blog)
+- **May 28, 2026** - [Claude Opus 4.8 is generally available for GitHub Copilot](https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot) (Blog)
+- **May 28, 2026** - [Microsoft Build 2026 Day 2 LIVE | GitHub Copilot, VS Code, and more](https://www.youtube.com/watch?v=qV5TLeafojY) (Video)
+- **May 27, 2026** - [Build with the Copilot CLI - Mona Mayhem](https://www.youtube.com/watch?v=c2QeGuWPnSw) (Video)
+- **May 27, 2026** - [Boost Productivity with Copilot in Visual Studio](https://www.youtube.com/watch?v=nM2JHaaNbwg) (Video)
+- **May 27, 2026** - [Less // TODO: more done with GitHub Copilot CLI](https://www.youtube.com/watch?v=zS_40Tfl75w) (Video)
+- **May 27, 2026** - [GitHub Copilot: Your AI Companion for Every Workflow](https://www.youtube.com/watch?v=DGt21BUu7qQ) (Video)
+- **May 27, 2026** - [GitHub Copilot Dev Days](https://www.youtube.com/watch?v=L4kig78ld58) (Video)
+- **May 27, 2026** - [Step away from your desk with Copilot remote sessions](https://www.youtube.com/watch?v=xElLjXPC_Dg) (Video)
+- **May 26, 2026** - [GitHub Code Quality: Repository Enablement API](https://github.blog/changelog/2026-05-26-github-code-quality-repository-enablement-api) (Blog)
+- **May 26, 2026** - [GitHub Classroom sign-ups are no longer available](https://github.blog/changelog/2026-05-26-github-classroom-sign-ups-are-no-longer-available) (Blog)
+- **May 26, 2026** - [Filter secret scanning approval requests by sort order and bypass status](https://github.blog/changelog/2026-05-26-filter-secret-scanning-approval-requests-by-sort-order-and-bypass-status) (Blog)
+- **May 26, 2026** - [Dependabot version updates now support the sbt ecosystem](https://github.blog/changelog/2026-05-26-dependabot-version-updates-now-support-the-sbt-ecosystem) (Blog)
+- **May 26, 2026** - [Copilot Memory has more controls for deletion, scope, and the Copilot CLI](https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli) (Blog)
+- **May 26, 2026** - [Code coverage on pull requests is now in public preview](https://github.blog/changelog/2026-05-26-code-coverage-in-pull-requests-is-now-in-public-preview) (Blog)
+- **May 26, 2026** - [Target Copilot models to organizations with model rules](https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules) (Blog)
+- **May 22, 2026** - [GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row](https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/) (Blog)
+- **May 18, 2026** - [Take your local GitHub sessions anywhere](https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/) (Blog)
 - **May 17, 2026** - [GPT-5.3-Codex is now the base model for Copilot Business and Enterprise](https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise) (Blog)
 - **May 15, 2026** - [GitHub App installation tokens: Per-request override header](https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header) (Blog)
 - **May 15, 2026** - [Copilot Memory supports user preferences for Pro, Pro+ users](https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users) (Blog)
