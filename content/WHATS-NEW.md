@@ -15,13 +15,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 #### 1. [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc)
 *Jun 5, 2026*
 
-▬▬▬▬▬▬ WANT TO ? 🚀 ▬▬▬▬▬▬ 
-▬▬▬▬▬▬ TIMESTAMPS ⌚ ▬▬▬▬▬▬ 
-Stay up-to-date on all things GitHub by connecting with us:
-YouTube: https://gh.io/subgithub
-Blog: https://github.blog
-X: https://twitter.com/github
-LinkedIn: https://linkedin.
+GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows. A great watch if you want to see the new Copilot App in action before setting it up yourself.
 
 #### 2. [Copilot Chat brings richer context to pull requests](https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests)
 *Jun 4, 2026*

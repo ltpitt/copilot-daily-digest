@@ -29,19 +29,7 @@
 
 **Published**: Jun 5, 2026 | **Channel**: GitHub
 
-▬▬▬▬▬▬ WANT TO LEARN MORE? 🚀  ▬▬▬▬▬▬ 
-
-
-▬▬▬▬▬▬  TIMESTAMPS ⌚  ▬▬▬▬▬▬ 
-
-
-Stay up-to-date on all things GitHub by connecting with us:
-
-YouTube: https://gh.io/subgithub
-Blog: https://github.blog
-X: https://twitter.com/github
-LinkedIn: https://linkedin.com/company/github
-Insider newsletter: https://reso...
+GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=fpP20wKaKRc)
 
@@ -206,17 +194,7 @@ Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside
 
 **Published**: Jun 5, 2026
 
-▬▬▬▬▬▬ WANT TO LEARN MORE? 🚀  ▬▬▬▬▬▬ 
-
-
-▬▬▬▬▬▬  TIMESTAMPS ⌚  ▬▬▬▬▬▬ 
-
-
-Stay up-to-date on all things GitHub by connecting with us:
-
-YouTube: https://gh.io/subgithub
-Blog: https://github.blog
-X: https...
+GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=fpP20wKaKRc)
 

@@ -29,7 +29,7 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 
 ---
 
-### [Introduction to GitHub Copilot](https://github.com/skills/copilot-intro)
+### [Introduction to GitHub Copilot](https://github.com/skills/)
 
 **Provider**: GitHub Skills | **Level**: Beginner
 
