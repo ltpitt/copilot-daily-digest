@@ -13,7 +13,7 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - [Documentation Index](REFERENCE.md)
 
 ## Current Stats
-- **Total Updates:** 251 (see [What's New](WHATS-NEW.md))
+- **Total Updates:** 261 (see [What's New](WHATS-NEW.md))
 - **Videos:** 7 (see [Videos](VIDEOS.md))
 - **Trainings:** 7 (see [Trainings](TRAININGS.md))
 - **Experimental Projects:** 29 (see [Experimental](EXPERIMENTAL.md))
@@ -26,4 +26,4 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - [Microsoft Learn](https://learn.microsoft.com/training/)
 
 ---
-_Last updated: May 29, 2026_
+_Last updated: June 05, 2026_

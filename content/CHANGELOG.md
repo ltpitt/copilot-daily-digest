@@ -2,11 +2,32 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: May 29, 2026
+**Last Updated**: June 05, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
+
+## June 2026
+
+- **Jun 5, 2026** - [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc) (Video)
+- **Jun 4, 2026** - [Copilot Chat brings richer context to pull requests](https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests) (Blog)
+- **Jun 4, 2026** - [Agent tasks REST API now available for Copilot Pro, Pro+, and Max](https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max) (Blog)
+- **Jun 4, 2026** - [Larger context windows and configurable reasoning levels for GitHub Copilot](https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot) (Blog)
+- **Jun 4, 2026** - [Enterprise Teams is now generally available](https://github.blog/changelog/2026-06-04-enterprise-teams-is-now-generally-available) (Blog)
+- **Jun 4, 2026** - [Fix with Copilot for failing Actions now in Pro, Pro+, and Max](https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max) (Blog)
+- **Jun 4, 2026** - [GitHub Copilot in Visual Studio — May update](https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update) (Blog)
+- **Jun 4, 2026** - [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=xUx6EnTU7HE) (Video)
+- **Jun 4, 2026** - [Why you need to be at GitHub Universe 2026](https://www.youtube.com/watch?v=8k7HnPZTBpM) (Video)
+- **Jun 4, 2026** - [LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ](https://www.youtube.com/watch?v=K-pnIgkDxSc) (Video)
+- **Jun 3, 2026** - [GitHub Copilot in Visual Studio Code, May releases](https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases) (Blog)
+- **Jun 3, 2026** - [4 GitHub updates from Microsoft Build](https://www.youtube.com/shorts/8OcHV-Yo5Ac) (Video)
+- **Jun 3, 2026** - [How to run GitHub Copilot in local and cloud sandboxes | demo](https://www.youtube.com/watch?v=J8laUDXs08c) (Video)
+- **Jun 2, 2026** - [GitHub Copilot app: The agent-native desktop experience](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/) (Blog)
+- **Jun 2, 2026** - [Copilot SDK is now generally available](https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available) (Blog)
+- **Jun 2, 2026** - [Expanded technical preview availability for the GitHub Copilot app](https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app) (Blog)
+- **Jun 2, 2026** - [GPT-4.1 deprecated](https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated) (Blog)
+- **Jun 2, 2026** - [How to ship from issue to merge with the GitHub Copilot app | demo](https://www.youtube.com/watch?v=mv6MMQ2j128) (Video)
 
 ## May 2026
 

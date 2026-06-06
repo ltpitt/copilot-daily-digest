@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: May 29, 2026
+> **Last Updated**: June 05, 2026
 
 > **📊 Library Stats**
-> - 📚 **115** total videos
+> - 📚 **122** total videos
 > - 🆕 **7** new this month
-> - 📂 **Categories**: Features & Updates (7)
+> - 📂 **Categories**: Other (2), Agents (2), Getting Started (1), Features & Updates (1), Tutorials (1)
 
 ---
 
@@ -13,7 +13,11 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Features & Updates](#features--updates) (7)
+  - [Getting Started](#getting-started) (1)
+  - [Features & Updates](#features--updates) (1)
+  - [Tutorials](#tutorials) (1)
+  - [Agents](#agents) (2)
+  - [Other](#other) (2)
 
 ---
 
@@ -21,86 +25,100 @@
 
 *7 videos published in the last 30 days*
 
-### [Microsoft Build 2026 Day 2 LIVE | GitHub Copilot, VS Code, and more](https://www.youtube.com/watch?v=qV5TLeafojY)
+### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc)
 
-**Published**: May 28, 2026 | **Channel**: GitHub
+**Published**: Jun 5, 2026 | **Channel**: GitHub
 
-A full day of what's new in GitHub Copilot and VS Code, straight from the people building it. New features, live demos, and a few surprises you won't want to miss.
- 
-Starts 9:00 AM PT. 
+GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows.
 
-Stay up-to-date on all things GitHub by connecting with us:
-
-YouTube: https://gh.io/subgithub
-Blog: https://githu...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=qV5TLeafojY)
+[Watch on YouTube →](https://www.youtube.com/watch?v=fpP20wKaKRc)
 
 ---
 
-### [Build with the Copilot CLI - Mona Mayhem](https://www.youtube.com/watch?v=c2QeGuWPnSw)
+### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=xUx6EnTU7HE)
 
-**Published**: May 27, 2026 | **Channel**: GitHub
+**Published**: Jun 4, 2026 | **Channel**: GitHub
 
-Build a hands-on project with GitHub Copilot CLI by creating a “battle” website that compares two GitHub profiles and their contributions. Starting from an empty folder, we’ll use Copilot to scaffold, iterate, and connect a complete backend and frontend experience. By the end, you’ll have a fully ru...
+In this stream we'll experiment with the new GitHub Copilot App. We'll also discuss everything announced by GitHub at Microsoft Build!...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=c2QeGuWPnSw)
-
----
-
-### [Boost Productivity with Copilot in Visual Studio](https://www.youtube.com/watch?v=nM2JHaaNbwg)
-
-**Published**: May 27, 2026 | **Channel**: GitHub
-
-Explore Visual Studio 2026 and the advanced enterprise features designed to help C# and C++ developers build, debug, and modernize applications with confidence. This session will dive into powerful profiling and diagnostics tools, enhanced debugging workflows, and practical ways to identify performa...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=nM2JHaaNbwg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=xUx6EnTU7HE)
 
 ---
 
-### [Less // TODO: more done with GitHub Copilot CLI](https://www.youtube.com/watch?v=zS_40Tfl75w)
+### [Why you need to be at GitHub Universe 2026](https://www.youtube.com/watch?v=8k7HnPZTBpM)
 
-**Published**: May 27, 2026 | **Channel**: GitHub
+**Published**: Jun 4, 2026 | **Channel**: GitHub
 
-Take a deeper dive into GitHub Copilot CLI and how it helps developers move from // TODOs to completed work faster. We’ll explore practical ideas for using Copilot in the terminal across everyday developer workloads, from understanding commands to scaffolding, debugging, and automating repetitive ta...
+GitHub Universe is where builders become orchestrators. Join us October 28-29 in San Francisco for our flagship developer event uniting people, agents, and the world’s code.   
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=zS_40Tfl75w)
+Connect with your people and spark the conversations that can change your career. Find your footing and your flow, as we c...
 
----
-
-### [GitHub Copilot: Your AI Companion for Every Workflow](https://www.youtube.com/watch?v=DGt21BUu7qQ)
-
-**Published**: May 27, 2026 | **Channel**: GitHub
-
-Explore the world of GitHub Copilot and how it fits into every part of the developer workflow. See how Copilot integrates with the CLI, VS Code, Visual Studio, and other popular code editors to help you move faster from idea to implementation. We’ll take a whirlwind tour of the end-to-end dev experi...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=DGt21BUu7qQ)
+[Watch on YouTube →](https://www.youtube.com/watch?v=8k7HnPZTBpM)
 
 ---
 
-### [GitHub Copilot Dev Days](https://www.youtube.com/watch?v=L4kig78ld58)
+### [LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ](https://www.youtube.com/watch?v=K-pnIgkDxSc)
 
-**Published**: May 27, 2026 | **Channel**: GitHub
+**Published**: Jun 4, 2026 | **Channel**: GitHub
 
-GitHub Copilot Dev Days was a series of community-led events organized around the world, dedicated to the future of AI-powered development with GitHub Copilot. Now, this experience is coming to an online edition focused on modern workflows, agentic development, and hands-on skilling.
+Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside to talk building agentic systems in the open. After that, a panel with the maintainers who are actually shipping the stack. Then lightning talks from people running OpenClaw in production.
 
-9:00 AM - GitH...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=L4kig78ld58)
+
+#OpenClaw #AIAgents #Develo...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=K-pnIgkDxSc)
 
 ---
 
-### [Step away from your desk with Copilot remote sessions](https://www.youtube.com/watch?v=xElLjXPC_Dg)
+### [4 GitHub updates from Microsoft Build](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
 
-**Published**: May 27, 2026 | **Channel**: GitHub
+**Published**: Jun 3, 2026 | **Channel**: GitHub
 
-You can now continue your Copilot CLI, VS Code, and JetBrains sessions from anywhere. With the new remote control feature, simply type /remote on to access your agent via your phone or web browser. We made it easy to approve tool calls, review diffs, and queue messages right from the GitHub mobile a...
+At Microsoft Build, GitHub announced major updates to help developers work seamlessly alongside AI agents. We launched the new GitHub Copilot app, a dedicated desktop experience to manage your agents from issue to pull request. We also introduced voice mode and the Rubber Duck agent for Copilot CLI....
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=xElLjXPC_Dg)
+[Watch on YouTube →](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
+
+---
+
+### [How to run GitHub Copilot in local and cloud sandboxes | demo](https://www.youtube.com/watch?v=J8laUDXs08c)
+
+**Published**: Jun 3, 2026 | **Channel**: GitHub
+
+GitHub Copilot can now run in an isolated sandbox environment, either locally or in the cloud. In this demo, we walk through how to use the /sandbox enable command to create a controlled space for code execution. You will also learn how to configure local permissions, including network and file syst...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=J8laUDXs08c)
+
+---
+
+### [How to ship from issue to merge with the GitHub Copilot app | demo](https://www.youtube.com/watch?v=mv6MMQ2j128)
+
+**Published**: Jun 2, 2026 | **Channel**: GitHub
+
+Switching between pull requests and issues usually means losing context and wasting time. In this demo, we show how the new GitHub Copilot app keeps all your work in one place. By using isolated work trees, you can manage multiple active branches without ever stashing changes. Watch as we use agent ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=mv6MMQ2j128)
 
 ---
 
 ## Browse by Category
+
+
+## Getting Started
+
+*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
+
+**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
+
+### [4 GitHub updates from Microsoft Build](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
+
+**Published**: Jun 3, 2026
+
+At Microsoft Build, GitHub announced major updates to help developers work seamlessly alongside AI agents. We launched the new GitHub Copilot app, a dedicated desktop experience to manage your agents ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
+
+---
 
 
 ## Features & Updates
@@ -109,77 +127,86 @@ You can now continue your Copilot CLI, VS Code, and JetBrains sessions from anyw
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Microsoft Build 2026 Day 2 LIVE | GitHub Copilot, VS Code, and more](https://www.youtube.com/watch?v=qV5TLeafojY)
+### [How to run GitHub Copilot in local and cloud sandboxes | demo](https://www.youtube.com/watch?v=J8laUDXs08c)
 
-**Published**: May 28, 2026
+**Published**: Jun 3, 2026
 
-A full day of what's new in GitHub Copilot and VS Code, straight from the people building it. New features, live demos, and a few surprises you won't want to miss.
- 
-Starts 9:00 AM PT. 
+GitHub Copilot can now run in an isolated sandbox environment, either locally or in the cloud. In this demo, we walk through how to use the /sandbox enable command to create a controlled space for cod...
 
-Stay up-to-da...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=qV5TLeafojY)
+[Watch on YouTube →](https://www.youtube.com/watch?v=J8laUDXs08c)
 
 ---
 
-### [Build with the Copilot CLI - Mona Mayhem](https://www.youtube.com/watch?v=c2QeGuWPnSw)
 
-**Published**: May 27, 2026
+## Tutorials
 
-Build a hands-on project with GitHub Copilot CLI by creating a “battle” website that compares two GitHub profiles and their contributions. Starting from an empty folder, we’ll use Copilot to scaffold,...
+*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=c2QeGuWPnSw)
+**When to watch**: You're ready to dive deep into specific features or workflows.
 
----
+### [How to ship from issue to merge with the GitHub Copilot app | demo](https://www.youtube.com/watch?v=mv6MMQ2j128)
 
-### [Boost Productivity with Copilot in Visual Studio](https://www.youtube.com/watch?v=nM2JHaaNbwg)
+**Published**: Jun 2, 2026
 
-**Published**: May 27, 2026
+Switching between pull requests and issues usually means losing context and wasting time. In this demo, we show how the new GitHub Copilot app keeps all your work in one place. By using isolated work ...
 
-Explore Visual Studio 2026 and the advanced enterprise features designed to help C# and C++ developers build, debug, and modernize applications with confidence. This session will dive into powerful pr...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=nM2JHaaNbwg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=mv6MMQ2j128)
 
 ---
 
-### [Less // TODO: more done with GitHub Copilot CLI](https://www.youtube.com/watch?v=zS_40Tfl75w)
 
-**Published**: May 27, 2026
+## Agents
 
-Take a deeper dive into GitHub Copilot CLI and how it helps developers move from // TODOs to completed work faster. We’ll explore practical ideas for using Copilot in the terminal across everyday deve...
+*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=zS_40Tfl75w)
+**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
----
+### [Why you need to be at GitHub Universe 2026](https://www.youtube.com/watch?v=8k7HnPZTBpM)
 
-### [GitHub Copilot: Your AI Companion for Every Workflow](https://www.youtube.com/watch?v=DGt21BUu7qQ)
+**Published**: Jun 4, 2026
 
-**Published**: May 27, 2026
+GitHub Universe is where builders become orchestrators. Join us October 28-29 in San Francisco for our flagship developer event uniting people, agents, and the world’s code.   
 
-Explore the world of GitHub Copilot and how it fits into every part of the developer workflow. See how Copilot integrates with the CLI, VS Code, Visual Studio, and other popular code editors to help y...
+Connect with your peop...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=DGt21BUu7qQ)
-
----
-
-### [GitHub Copilot Dev Days](https://www.youtube.com/watch?v=L4kig78ld58)
-
-**Published**: May 27, 2026
-
-GitHub Copilot Dev Days was a series of community-led events organized around the world, dedicated to the future of AI-powered development with GitHub Copilot. Now, this experience is coming to an onl...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=L4kig78ld58)
+[Watch on YouTube →](https://www.youtube.com/watch?v=8k7HnPZTBpM)
 
 ---
 
-### [Step away from your desk with Copilot remote sessions](https://www.youtube.com/watch?v=xElLjXPC_Dg)
+### [LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ](https://www.youtube.com/watch?v=K-pnIgkDxSc)
 
-**Published**: May 27, 2026
+**Published**: Jun 4, 2026
 
-You can now continue your Copilot CLI, VS Code, and JetBrains sessions from anywhere. With the new remote control feature, simply type /remote on to access your agent via your phone or web browser. We...
+Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside to talk building agentic systems in the open. After that, a panel with the maintainers who are actually shipping the st...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=xElLjXPC_Dg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=K-pnIgkDxSc)
+
+---
+
+
+## Other
+
+*Additional videos that don't fit into other categories.*
+
+**When to watch**: You're looking for miscellaneous Copilot content.
+
+### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc)
+
+**Published**: Jun 5, 2026
+
+GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=fpP20wKaKRc)
+
+---
+
+### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=xUx6EnTU7HE)
+
+**Published**: Jun 4, 2026
+
+In this stream we'll experiment with the new GitHub Copilot App. We'll also discuss everything announced by GitHub at Microsoft Build!...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=xUx6EnTU7HE)
 
 ---
 

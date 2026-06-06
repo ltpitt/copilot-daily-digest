@@ -3,7 +3,7 @@
 > **About GitHub Next**: GitHub's research lab exploring future possibilities.
 > These are experimental prototypes, not production features.
 
-**Last Updated**: May 29, 2026
+**Last Updated**: June 05, 2026
 
 **⚠️ Important**: Projects here are research experiments. Many are discontinued.
 They do not represent official product roadmap.
@@ -20,13 +20,13 @@ Exploring LLM-powered automation in platform-based software collaboration
 
 ### [GitHub Copilot Radar](https://githubnext.com/projects/copilot-radar/) (Status: WIP)
 
-GitHub Copilot Radar is a code navigation tool that shows developers the most relevant line to their position in the code. It’s jump-to-definition on (neural) steroids.
+GitHub Copilot Radar is a code navigation tool that shows developers the most relevant line to their position in the code. It's jump-to-definition on (neural) steroids.
 
 → [Explore this experiment](https://githubnext.com/projects/copilot-radar/)
 
 ### [Learning Sandbox](https://githubnext.com/projects/learning-sandbox/) (Status: Research prototype)
 
-Can we make it easy and fun to learn as we build? We’re exploring ways to create personalized, interactive learning environments that integrate into your daily workflow.
+Can we make it easy and fun to learn as we build? We're exploring ways to create personalized, interactive learning environments that integrate into your daily workflow.
 
 → [Explore this experiment](https://githubnext.com/projects/learning-sandbox/)
 
@@ -120,7 +120,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot for Docs](https://githubnext.com/projects/copilot-for-docs/)
 
-How would it feel to have an expert on hand at all times? We built a tool that uses relevant information from a project’s documentation to answer questions or explain concepts.
+How would it feel to have an expert on hand at all times? We built a tool that uses relevant information from a project's documentation to answer questions or explain concepts.
 
 This experiment has graduated to a production feature.
 
