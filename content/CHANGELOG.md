@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: June 05, 2026
+**Last Updated**: June 12, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,7 +10,25 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## June 2026
 
+- **Jun 11, 2026** - [Agentic workflows no longer need a personal access token](https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token) (Blog)
+- **Jun 11, 2026** - [New runner images in public preview](https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview) (Blog)
+- **Jun 11, 2026** - [Copilot CLI: Configure everything from one place with /settings](https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings) (Blog)
+- **Jun 11, 2026** - [AI usage report updates](https://github.blog/changelog/2026-06-11-ai-usage-report-updates) (Blog)
+- **Jun 11, 2026** - [GitHub Enterprise Server 3.21 is now generally available](https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available) (Blog)
+- **Jun 11, 2026** - [Bot-created pull requests can run workflows if approved](https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved) (Blog)
+- **Jun 11, 2026** - [GitHub Agentic Workflows is now in public preview](https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview) (Blog)
+- **Jun 10, 2026** - [Copilot Chat now sees your agent sessions](https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions) (Blog)
+- **Jun 10, 2026** - [Give GitHub Copilot CLI real code intelligence with language servers](https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/) (Blog)
+- **Jun 10, 2026** - [Manage sub-issues, types, and dependencies from GitHub CLI](https://github.blog/changelog/2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli) (Blog)
+- **Jun 9, 2026** - [From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/) (Blog)
+- **Jun 9, 2026** - [Jueves de Quack: De pilotos a escala: GitHub Copilot en itti](https://www.youtube.com/watch?v=Z5Nf-xXupzQ) (Video)
+- **Jun 9, 2026** - [How to undo a mistake on GitHub](https://www.youtube.com/shorts/a1oRZ1kAA6M) (Video)
+- **Jun 8, 2026** - [Answering the most common GitHub beginner questions](https://www.youtube.com/watch?v=ZgARMqR3qq8) (Video)
+- **Jun 7, 2026** - [Check out the new GitHub shop spring collection](https://www.youtube.com/shorts/y3apXW8bFNg) (Video)
+- **Jun 6, 2026** - [Open Source Friday: Governance for  AI agents with Imran Siddique](https://www.youtube.com/watch?v=bIioEmT2KEM) (Video)
 - **Jun 5, 2026** - [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc) (Video)
+- **Jun 5, 2026** - [How to extend Copilot code review with MCP and custom skills | demo](https://www.youtube.com/watch?v=JRDN_-4E9ts) (Video)
+- **Jun 5, 2026** - [How OpenClaw maintainer Brad uses the GitHub Copilot app](https://www.youtube.com/shorts/8-QHjgHxWU0) (Video)
 - **Jun 4, 2026** - [Copilot Chat brings richer context to pull requests](https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests) (Blog)
 - **Jun 4, 2026** - [Agent tasks REST API now available for Copilot Pro, Pro+, and Max](https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max) (Blog)
 - **Jun 4, 2026** - [Larger context windows and configurable reasoning levels for GitHub Copilot](https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot) (Blog)

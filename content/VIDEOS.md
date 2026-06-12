@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: June 05, 2026
+> **Last Updated**: June 12, 2026
 
 > **📊 Library Stats**
-> - 📚 **122** total videos
+> - 📚 **129** total videos
 > - 🆕 **7** new this month
-> - 📂 **Categories**: Other (2), Agents (2), Getting Started (1), Features & Updates (1), Tutorials (1)
+> - 📂 **Categories**: Other (3), Getting Started (2), Agents (1), Tutorials (1)
 
 ---
 
@@ -13,11 +13,10 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Features & Updates](#features--updates) (1)
+  - [Getting Started](#getting-started) (2)
   - [Tutorials](#tutorials) (1)
-  - [Agents](#agents) (2)
-  - [Other](#other) (2)
+  - [Agents](#agents) (1)
+  - [Other](#other) (3)
 
 ---
 
@@ -25,79 +24,73 @@
 
 *7 videos published in the last 30 days*
 
-### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc)
+### [Jueves de Quack: De pilotos a escala: GitHub Copilot en itti](https://www.youtube.com/watch?v=Z5Nf-xXupzQ)
+
+**Published**: Jun 9, 2026 | **Channel**: GitHub
+
+En itti se propusieron un reto ambicioso: aumentar la productividad del ciclo de desarrollo en un 40%. En esta sesión, Javier Durán, Senior Manager AI en itti, compartirá cómo el equipo está usando GitHub Copilot y flujos agénticos, qué aprendizajes obtuvieron y cómo se están preparando para escalar...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Z5Nf-xXupzQ)
+
+---
+
+### [How to undo a mistake on GitHub](https://www.youtube.com/shorts/a1oRZ1kAA6M)
+
+**Published**: Jun 9, 2026 | **Channel**: GitHub
+
+Accidentally committed code you didn't mean to? Don't stress, because GitHub has a few easy ways to help you undo it depending on your workflow. If you have already pushed your changes, you can simply click revert to create a quick fix. If you haven't pushed yet, we share the exact terminal command ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/a1oRZ1kAA6M)
+
+---
+
+### [Answering the most common GitHub beginner questions](https://www.youtube.com/watch?v=ZgARMqR3qq8)
+
+**Published**: Jun 8, 2026 | **Channel**: GitHub
+
+Welcome back to GitHub for beginners! In this episode, our engineers sit down to answer the most frequently asked questions we get from new developers. We walk you through exactly how to add your SSH key or personal access token (PAT) to GitHub. We also clear up the confusion around merging versus r...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=ZgARMqR3qq8)
+
+---
+
+### [Check out the new GitHub shop spring collection](https://www.youtube.com/shorts/y3apXW8bFNg)
+
+**Published**: Jun 7, 2026 | **Channel**: GitHub
+
+The GitHub shop is officially launching its new spring 2026 collection, and it is built for wherever developers end up, not just sitting at a desk. In this short, we share a quick look at some of our favorite new samples, from classic slides and t-shirts to stylish navy blue hats. We even have match...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/y3apXW8bFNg)
+
+---
+
+### [Open Source Friday: Governance for  AI agents with Imran Siddique](https://www.youtube.com/watch?v=bIioEmT2KEM)
+
+**Published**: Jun 6, 2026 | **Channel**: GitHub
+
+Your AI agents call tools, query databases, and make decisions on their own. Prompts aren't a control surface. Imran Siddique joins Open Source Friday to walk through microsoft/agent-governance-toolkit — policy, identity, sandboxing, and tamper-evident audit for agents in production. https://gh.io/a...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=bIioEmT2KEM)
+
+---
+
+### [How to extend Copilot code review with MCP and custom skills | demo](https://www.youtube.com/watch?v=JRDN_-4E9ts)
 
 **Published**: Jun 5, 2026 | **Channel**: GitHub
 
-GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows.
+Most AI code reviewers only look at the diff, leaving them only with your internal systems and guidelines. You can now extend GitHub Copilot code review using Model Context Protocol (MCP) and custom agent skills to include your team's specific context. By connecting external documentation and defini...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=fpP20wKaKRc)
-
----
-
-### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=xUx6EnTU7HE)
-
-**Published**: Jun 4, 2026 | **Channel**: GitHub
-
-In this stream we'll experiment with the new GitHub Copilot App. We'll also discuss everything announced by GitHub at Microsoft Build!...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=xUx6EnTU7HE)
+[Watch on YouTube →](https://www.youtube.com/watch?v=JRDN_-4E9ts)
 
 ---
 
-### [Why you need to be at GitHub Universe 2026](https://www.youtube.com/watch?v=8k7HnPZTBpM)
+### [How OpenClaw maintainer Brad uses the GitHub Copilot app](https://www.youtube.com/shorts/8-QHjgHxWU0)
 
-**Published**: Jun 4, 2026 | **Channel**: GitHub
+**Published**: Jun 5, 2026 | **Channel**: GitHub
 
-GitHub Universe is where builders become orchestrators. Join us October 28-29 in San Francisco for our flagship developer event uniting people, agents, and the world’s code.   
+At Microsoft Build, we caught up with Brad, an OpenClaw maintainer, to discuss his experience using the new GitHub Copilot app. He shares how the app helps him prioritize thousands of issues and pull requests for his open source projects. With access to multiple major models in one subscription, Cop...
 
-Connect with your people and spark the conversations that can change your career. Find your footing and your flow, as we c...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=8k7HnPZTBpM)
-
----
-
-### [LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ](https://www.youtube.com/watch?v=K-pnIgkDxSc)
-
-**Published**: Jun 4, 2026 | **Channel**: GitHub
-
-Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside to talk building agentic systems in the open. After that, a panel with the maintainers who are actually shipping the stack. Then lightning talks from people running OpenClaw in production.
-
-
-
-#OpenClaw #AIAgents #Develo...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=K-pnIgkDxSc)
-
----
-
-### [4 GitHub updates from Microsoft Build](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
-
-**Published**: Jun 3, 2026 | **Channel**: GitHub
-
-At Microsoft Build, GitHub announced major updates to help developers work seamlessly alongside AI agents. We launched the new GitHub Copilot app, a dedicated desktop experience to manage your agents from issue to pull request. We also introduced voice mode and the Rubber Duck agent for Copilot CLI....
-
-[Watch on YouTube →](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
-
----
-
-### [How to run GitHub Copilot in local and cloud sandboxes | demo](https://www.youtube.com/watch?v=J8laUDXs08c)
-
-**Published**: Jun 3, 2026 | **Channel**: GitHub
-
-GitHub Copilot can now run in an isolated sandbox environment, either locally or in the cloud. In this demo, we walk through how to use the /sandbox enable command to create a controlled space for code execution. You will also learn how to configure local permissions, including network and file syst...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=J8laUDXs08c)
-
----
-
-### [How to ship from issue to merge with the GitHub Copilot app | demo](https://www.youtube.com/watch?v=mv6MMQ2j128)
-
-**Published**: Jun 2, 2026 | **Channel**: GitHub
-
-Switching between pull requests and issues usually means losing context and wasting time. In this demo, we show how the new GitHub Copilot app keeps all your work in one place. By using isolated work trees, you can manage multiple active branches without ever stashing changes. Watch as we use agent ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=mv6MMQ2j128)
+[Watch on YouTube →](https://www.youtube.com/shorts/8-QHjgHxWU0)
 
 ---
 
@@ -110,30 +103,23 @@ Switching between pull requests and issues usually means losing context and wast
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [4 GitHub updates from Microsoft Build](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
+### [How to undo a mistake on GitHub](https://www.youtube.com/shorts/a1oRZ1kAA6M)
 
-**Published**: Jun 3, 2026
+**Published**: Jun 9, 2026
 
-At Microsoft Build, GitHub announced major updates to help developers work seamlessly alongside AI agents. We launched the new GitHub Copilot app, a dedicated desktop experience to manage your agents ...
+Accidentally committed code you didn't mean to? Don't stress, because GitHub has a few easy ways to help you undo it depending on your workflow. If you have already pushed your changes, you can simply...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/8OcHV-Yo5Ac)
+[Watch on YouTube →](https://www.youtube.com/shorts/a1oRZ1kAA6M)
 
 ---
 
+### [Answering the most common GitHub beginner questions](https://www.youtube.com/watch?v=ZgARMqR3qq8)
 
-## Features & Updates
+**Published**: Jun 8, 2026
 
-*Discover new features, product announcements, capability releases, and the latest updates.*
+Welcome back to GitHub for beginners! In this episode, our engineers sit down to answer the most frequently asked questions we get from new developers. We walk you through exactly how to add your SSH ...
 
-**When to watch**: You want to stay current with new capabilities and improvements.
-
-### [How to run GitHub Copilot in local and cloud sandboxes | demo](https://www.youtube.com/watch?v=J8laUDXs08c)
-
-**Published**: Jun 3, 2026
-
-GitHub Copilot can now run in an isolated sandbox environment, either locally or in the cloud. In this demo, we walk through how to use the /sandbox enable command to create a controlled space for cod...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=J8laUDXs08c)
+[Watch on YouTube →](https://www.youtube.com/watch?v=ZgARMqR3qq8)
 
 ---
 
@@ -144,13 +130,13 @@ GitHub Copilot can now run in an isolated sandbox environment, either locally or
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [How to ship from issue to merge with the GitHub Copilot app | demo](https://www.youtube.com/watch?v=mv6MMQ2j128)
+### [How to extend Copilot code review with MCP and custom skills | demo](https://www.youtube.com/watch?v=JRDN_-4E9ts)
 
-**Published**: Jun 2, 2026
+**Published**: Jun 5, 2026
 
-Switching between pull requests and issues usually means losing context and wasting time. In this demo, we show how the new GitHub Copilot app keeps all your work in one place. By using isolated work ...
+Most AI code reviewers only look at the diff, leaving them only with your internal systems and guidelines. You can now extend GitHub Copilot code review using Model Context Protocol (MCP) and custom a...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=mv6MMQ2j128)
+[Watch on YouTube →](https://www.youtube.com/watch?v=JRDN_-4E9ts)
 
 ---
 
@@ -161,25 +147,13 @@ Switching between pull requests and issues usually means losing context and wast
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [Why you need to be at GitHub Universe 2026](https://www.youtube.com/watch?v=8k7HnPZTBpM)
+### [Open Source Friday: Governance for  AI agents with Imran Siddique](https://www.youtube.com/watch?v=bIioEmT2KEM)
 
-**Published**: Jun 4, 2026
+**Published**: Jun 6, 2026
 
-GitHub Universe is where builders become orchestrators. Join us October 28-29 in San Francisco for our flagship developer event uniting people, agents, and the world’s code.   
+Your AI agents call tools, query databases, and make decisions on their own. Prompts aren't a control surface. Imran Siddique joins Open Source Friday to walk through microsoft/agent-governance-toolki...
 
-Connect with your peop...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=8k7HnPZTBpM)
-
----
-
-### [LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ](https://www.youtube.com/watch?v=K-pnIgkDxSc)
-
-**Published**: Jun 4, 2026
-
-Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside to talk building agentic systems in the open. After that, a panel with the maintainers who are actually shipping the st...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=K-pnIgkDxSc)
+[Watch on YouTube →](https://www.youtube.com/watch?v=bIioEmT2KEM)
 
 ---
 
@@ -190,23 +164,33 @@ Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc)
+### [Jueves de Quack: De pilotos a escala: GitHub Copilot en itti](https://www.youtube.com/watch?v=Z5Nf-xXupzQ)
 
-**Published**: Jun 5, 2026
+**Published**: Jun 9, 2026
 
-GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows.
+En itti se propusieron un reto ambicioso: aumentar la productividad del ciclo de desarrollo en un 40%. En esta sesión, Javier Durán, Senior Manager AI en itti, compartirá cómo el equipo está usando Gi...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=fpP20wKaKRc)
+[Watch on YouTube →](https://www.youtube.com/watch?v=Z5Nf-xXupzQ)
 
 ---
 
-### [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=xUx6EnTU7HE)
+### [Check out the new GitHub shop spring collection](https://www.youtube.com/shorts/y3apXW8bFNg)
 
-**Published**: Jun 4, 2026
+**Published**: Jun 7, 2026
 
-In this stream we'll experiment with the new GitHub Copilot App. We'll also discuss everything announced by GitHub at Microsoft Build!...
+The GitHub shop is officially launching its new spring 2026 collection, and it is built for wherever developers end up, not just sitting at a desk. In this short, we share a quick look at some of our ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=xUx6EnTU7HE)
+[Watch on YouTube →](https://www.youtube.com/shorts/y3apXW8bFNg)
+
+---
+
+### [How OpenClaw maintainer Brad uses the GitHub Copilot app](https://www.youtube.com/shorts/8-QHjgHxWU0)
+
+**Published**: Jun 5, 2026
+
+At Microsoft Build, we caught up with Brad, an OpenClaw maintainer, to discuss his experience using the new GitHub Copilot app. He shares how the app helps him prioritize thousands of issues and pull ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/8-QHjgHxWU0)
 
 ---
 
