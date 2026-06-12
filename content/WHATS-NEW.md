@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: June 05, 2026
+**Last Updated**: June 12, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,30 +12,31 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ### Recent Updates
 
-#### 1. [RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=fpP20wKaKRc)
-*Jun 5, 2026*
+#### 1. [Agentic workflows no longer need a personal access token](https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token)
+*Jun 11, 2026*
 
-GitHub's live stream dives hands-on into the new GitHub Copilot App, the agent-native desktop experience unveiled at Microsoft Build 2026. Watch the team explore how the app brings agents, issues, and pull requests together in a single workspace for smoother, faster workflows. A great watch if you want to see the new Copilot App in action before setting it up yourself.
+You can now use GitHub Agentic Workflows with GitHub Actions's built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.
 
-#### 2. [Copilot Chat brings richer context to pull requests](https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests)
-*Jun 4, 2026*
+#### 2. [New runner images in public preview](https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview)
+*Jun 11, 2026*
 
-GitHub Copilot Chat now provides richer context and new capabilities when you're working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license. You can view your conversation directly alongside your conversation with Copilot.
+Two new GitHub-hosted runner images for GitHub Actions are now available in public preview for all users, giving you early access to test your workflows on the latest platforms before they reach general availability. The Ubuntu 26.04 image is now available for both x64 and arm64 architectures. To start using it, update your workflow file to use runs-on: ubuntu-26.04 or runs-on: ubuntu-26.04-arm.
 
-#### 3. [Agent tasks REST API now available for Copilot Pro, Pro+, and Max](https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max)
-*Jun 4, 2026*
+#### 3. [Copilot CLI: Configure everything from one place with /settings](https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings)
+*Jun 11, 2026*
 
-Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request. The API makes it easy to weave Copilot cloud agent into custom automations.
+GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required manually editing your settings file into a single, discoverable surface.
 
-#### 4. [Larger context windows and configurable reasoning levels for GitHub Copilot](https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot)
-*Jun 4, 2026*
+#### 4. [AI usage report updates](https://github.blog/changelog/2026-06-11-ai-usage-report-updates)
+*Jun 11, 2026*
 
-GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work. A one-million-token context window means users can now work across larger codebases, longer documents, and complex multi-file projects without losing context.
+Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount for the dollar amount. These fields now provide the same signal that aic_quantity and aic_gross_amount previously provided during the preview period.
 
-#### 5. [Enterprise Teams is now generally available](https://github.blog/changelog/2026-06-04-enterprise-teams-is-now-generally-available)
-*Jun 4, 2026*
+#### 5. [GitHub Enterprise Server 3.21 is now generally available](https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available)
+*Jun 11, 2026*
 
-Enterprise Teams is now generally available on GitHub Enterprise Cloud. First announced in public preview last September, enterprise teams let enterprise admins define a group of users once at the enterprise account and assign that group to roles across every organization in the enterprise. There's no longer a need to recreate or reconcile the same team in each org.
+GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release:
+Organization custom properties are now generally available, giving enterprise administrators a way to tag organizations with metadata and automatically target enterprise rulesets.
 
 ---
 
@@ -43,55 +44,55 @@ Enterprise Teams is now generally available on GitHub Enterprise Cloud. First an
 
 ### Significant Updates
 
-1. **[Fix with Copilot for failing Actions now in Pro, Pro+, and Max](https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max)**
-	*Jun 4, 2026*
+1. **[Bot-created pull requests can run workflows if approved](https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved)**
+	*Jun 11, 2026*
 
-	When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it's done. It does all this from its own cloud-based development environment.
+	Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically run workflows which may have access to sensitive information. This matches the behavior of Copilot-generated pull requests.
 
-2. **[GitHub Copilot in Visual Studio — May update](https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update)**
-	*Jun 4, 2026*
+2. **[GitHub Agentic Workflows is now in public preview](https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview)**
+	*Jun 11, 2026*
 
-	May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Here's for all GitHub Copilot users in Visual Studio 2026.
+	GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside GitHub Actions. Define your automation in natural language Markdown files, and GitHub Agentic Workflows compiles them into standard Actions YAML.
 
-3. **[RDT: Lets try out the new GitHub Copilot App!](https://www.youtube.com/watch?v=xUx6EnTU7HE)**
-	*Jun 4, 2026*
+3. **[Copilot Chat now sees your agent sessions](https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions)**
+	*Jun 10, 2026*
 
-	In this stream we'll experiment with the new GitHub Copilot App. We'll also discuss everything announced by GitHub at Microsoft Build!
+	We've improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We've also enabled new functionality which allows you to search and query past agent sessions in chat. When you kick off an agent session by asking chat to create a session, create a pull request, or do deep research on a repository, chat now reflects the status of your in-progress session.
 
-4. **[Why you need to be at GitHub Universe 2026](https://www.youtube.com/watch?v=8k7HnPZTBpM)**
-	*Jun 4, 2026*
+4. **[Give GitHub Copilot CLI real code intelligence with language servers](https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/)**
+	*Jun 10, 2026*
 
-	GitHub Universe is where builders become orchestrators. Join us October 28-29 in San Francisco for our flagship developer event uniting people, agents, and the world’s code.
+	Ever watched GitHub Copilot CLI extract a JAR file to a temporary directory, grep through .class files, and piece together an API signature from raw bytecode? The agent is resourceful, but without a language server, that's the best it can do. The Language Server Protocol (LSP) is the standard that powers go to definition, find references, and type resolution in editors like VS Code.
 
-5. **[LIVE: Peter Steinberger & Dave Morin | OpenClaw Fireside @ GitHub HQ](https://www.youtube.com/watch?v=K-pnIgkDxSc)**
-	*Jun 4, 2026*
+5. **[Manage sub-issues, types, and dependencies from GitHub CLI](https://github.blog/changelog/2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli)**
+	*Jun 10, 2026*
 
-	Peter Steinberger and OpenClaw Foundation cofounder Dave Morin sit down fireside to talk building agentic systems in the open.
+	GitHub CLI now exposes issue types, parent and sub-issue relationships, and issue dependencies directly from the terminal. This means you can structure and track work without dropping into the browser or writing raw gh api scripts. These are exactly the workflows that both developers, and the coding agents that increasingly rely on gh as their interface to GitHub, run every day.
 
-6. **[GitHub Copilot in Visual Studio Code, May releases](https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases)**
-	*Jun 3, 2026*
+6. **[From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/)**
+	*Jun 9, 2026*
 
-	VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026. In May, we made the Agents window available in VS Code Stable as a preview, giving users an agent-first experience focused on completing tasks rather than editing code.
+	Developers work across many surfaces like the CLI, IDE, and GitHub. The terminal is often where they turn to move fast, automate tasks, or work directly with systems and scripts. Tools like the GitHub Copilot CLI already make this easier.
 
-7. **[4 GitHub updates from Microsoft Build](https://www.youtube.com/shorts/8OcHV-Yo5Ac)**
-	*Jun 3, 2026*
+7. **[Jueves de Quack: De pilotos a escala: GitHub Copilot en itti](https://www.youtube.com/watch?v=Z5Nf-xXupzQ)**
+	*Jun 9, 2026*
 
-	At Microsoft Build, GitHub announced major updates to help developers work seamlessly alongside AI agents. We launched the new GitHub Copilot app, a dedicated desktop experience to manage your agents...
+	En itti se propusieron un reto ambicioso: aumentar la productividad del ciclo de desarrollo en un 40%. En esta sesión, Javier Durán, Senior Manager AI en itti, compartirá cómo el equipo está usando...
 
-8. **[How to run GitHub Copilot in local and cloud sandboxes | demo](https://www.youtube.com/watch?v=J8laUDXs08c)**
-	*Jun 3, 2026*
+8. **[How to undo a mistake on GitHub](https://www.youtube.com/shorts/a1oRZ1kAA6M)**
+	*Jun 9, 2026*
 
-	GitHub Copilot can now run in an isolated sandbox environment, either locally or in the cloud. In this demo, we walk through how to use the /sandbox enable command to create a controlled space for...
+	Accidentally committed code you didn't mean to? Don't stress, because GitHub has a few easy ways to help you undo it depending on your workflow.
 
-9. **[GitHub Copilot app: The agent-native desktop experience](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/)**
-	*Jun 2, 2026*
+9. **[Answering the most common GitHub beginner questions](https://www.youtube.com/watch?v=ZgARMqR3qq8)**
+	*Jun 8, 2026*
 
-	While the agentic shift has made development faster, it's also led to disjointed workflows, more context switching, and too much time spent reviewing agent-generated code. If agents are going to be a durable part of how software gets built, they need a real place in the developer workflow. Yet most developer tools were not designed for directing multiple agents in parallel.
+	Welcome back to GitHub for beginners! In this episode, our engineers sit down to answer the most frequently asked questions we get from new developers.
 
-10. **[Copilot SDK is now generally available](https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available)**
-	*Jun 2, 2026*
+10. **[Check out the new GitHub shop spring collection](https://www.youtube.com/shorts/y3apXW8bFNg)**
+	*Jun 7, 2026*
 
-	The GitHub Copilot SDK is now generally available. You can embed GitHub Copilot's agentic engine into your own applications, services, and developer tools with a stable API and production-ready support.
+	The GitHub shop is officially launching its new spring 2026 collection, and it is built for wherever developers end up, not just sitting at a desk.
 
 ---
 
