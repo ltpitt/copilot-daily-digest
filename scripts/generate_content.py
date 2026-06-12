@@ -22,6 +22,7 @@ CONTENT_DIR = BASE_DIR / "content"
 # RSS Feed URLs
 GITHUB_BLOG_FEED = "https://github.blog/tag/github-copilot/feed/"
 GITHUB_CHANGELOG_FEED = "https://github.blog/changelog/feed/"
+GITHUB_COPILOT_CHANGELOG_FEED = "https://github.blog/changelog/label/copilot/feed/"
 
 def fetch_rss_content() -> Dict[str, Dict]:
     """
@@ -51,20 +52,19 @@ def fetch_rss_content() -> Dict[str, Dict]:
                     'published': entry.get('published', '')
                 }
 
-        # Fetch Changelog RSS
-        response = requests.get(GITHUB_CHANGELOG_FEED, timeout=30, verify=certifi.where())
-        feed = feedparser.parse(response.content)
+        # Fetch Copilot-specific changelog first (pre-filtered by GitHub label),
+        # then fall back to general changelog for any additional entries.
+        for feed_url in [GITHUB_COPILOT_CHANGELOG_FEED, GITHUB_CHANGELOG_FEED]:
+            response = requests.get(feed_url, timeout=30, verify=certifi.where())
+            feed = feedparser.parse(response.content)
 
-        for entry in feed.entries:
-            url = entry.get('link', '').strip()
-            # Include all changelog entries (filtering by copilot happens earlier in the pipeline)
-            if url:
-                content = ""
-                if 'content' in entry and entry.content:
-                    content = entry.content[0].get('value', '') if isinstance(entry.content, list) else entry.content.get('value', '')
+            for entry in feed.entries:
+                url = entry.get('link', '').strip()
+                if url and url not in blog_content:
+                    content = ""
+                    if 'content' in entry and entry.content:
+                        content = entry.content[0].get('value', '') if isinstance(entry.content, list) else entry.content.get('value', '')
 
-                # Only add if not already in blog_content (prefer full blog posts)
-                if url not in blog_content:
                     blog_content[url] = {
                         'title': entry.get('title', '').strip(),
                         'url': url,

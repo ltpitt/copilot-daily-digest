@@ -84,6 +84,7 @@ logger = logging.getLogger(__name__)
 # RSS Feed URLs
 GITHUB_BLOG_FEED = "https://github.blog/tag/github-copilot/feed/"
 GITHUB_CHANGELOG_FEED = "https://github.blog/changelog/feed/"
+GITHUB_COPILOT_CHANGELOG_FEED = "https://github.blog/changelog/label/copilot/feed/"
 
 # Keywords for filtering Copilot-related content
 COPILOT_KEYWORDS = ["copilot", "ai", "agent", "coding agent", "workspace agent", "extensions"]
@@ -175,6 +176,50 @@ def fetch_github_changelog() -> List[Dict]:
 
     except Exception as e:
         logger.error(f"Failed to fetch GitHub Changelog RSS feed: {e}")
+        return []
+
+
+def fetch_github_copilot_changelog() -> List[Dict]:
+    """
+    Fetch GitHub Changelog entries labelled 'copilot' via RSS.
+
+    This feed is pre-filtered by GitHub to only include Copilot-related
+    entries, so keyword filtering is not required for these results.
+
+    Returns:
+        List of parsed changelog entries
+    """
+    logger.info("Fetching GitHub Copilot Changelog RSS feed...")
+
+    try:
+        response = requests.get(GITHUB_COPILOT_CHANGELOG_FEED, timeout=30, verify=certifi.where())
+        response.raise_for_status()
+
+        feed = feedparser.parse(response.content)
+
+        if feed.bozo:
+            logger.warning(f"Feed parsing warning: {feed.get('bozo_exception', 'Unknown')}")
+
+        if not feed.entries:
+            logger.warning("No entries found in GitHub Copilot Changelog feed")
+            return []
+
+        logger.info(f"Found {len(feed.entries)} entries in GitHub Copilot Changelog feed")
+
+        entries = []
+        for entry in feed.entries:
+            try:
+                parsed = parse_blog_entry(entry, source="github-changelog")
+                if parsed:
+                    entries.append(parsed)
+            except Exception as e:
+                logger.error(f"Failed to parse Copilot changelog entry: {e}")
+                continue
+
+        return entries
+
+    except Exception as e:
+        logger.error(f"Failed to fetch GitHub Copilot Changelog RSS feed: {e}")
         return []
 
 
@@ -387,23 +432,39 @@ def main():
     """
     logger.info("Starting GitHub Blog scraper...")
 
-    # Fetch blog posts
+    # Fetch blog posts (already Copilot-specific via tag)
     blog_posts = fetch_github_blog()
 
-    # Fetch changelog entries
+    # Fetch Copilot-specific changelog entries (pre-filtered by GitHub label)
+    copilot_changelog = fetch_github_copilot_changelog()
+
+    # Fetch general changelog entries (needs keyword filtering)
     changelog_entries = fetch_github_changelog()
 
-    # Combine all entries
+    # Filter blog posts and general changelog for Copilot relevance
     all_entries = blog_posts + changelog_entries
 
-    if not all_entries:
+    if not all_entries and not copilot_changelog:
         logger.warning("No entries fetched from any source")
         return 0
 
-    logger.info(f"Total entries fetched: {len(all_entries)}")
+    logger.info(f"Total entries fetched: {len(all_entries) + len(copilot_changelog)}")
 
-    # Filter for Copilot-related content
+    # Filter blog + general changelog for Copilot-related content
     copilot_posts = filter_copilot_content(all_entries)
+
+    # Merge Copilot changelog entries (already pre-filtered), deduplicating by URL
+    existing_urls = {post.get("url") for post in copilot_posts}
+    added = 0
+    for entry in copilot_changelog:
+        url = entry.get("url")
+        if url and url not in existing_urls:
+            copilot_posts.append(entry)
+            existing_urls.add(url)
+            added += 1
+
+    if added:
+        logger.info(f"Added {added} additional entries from Copilot Changelog feed")
 
     if not copilot_posts:
         logger.warning("No Copilot-related posts found after filtering")
