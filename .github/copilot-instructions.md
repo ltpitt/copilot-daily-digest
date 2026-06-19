@@ -189,7 +189,7 @@ Provide a summary:
 
 **Format for Each Entry**:
 ```markdown
-### [Article Title](url)
+### [Article Title](https://github.blog/)
 *Date*
 
 Clear 2-3 sentence summary explaining what this is about and why it matters.

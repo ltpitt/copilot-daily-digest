@@ -15,8 +15,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 #### 1. [GitHub Copilot App Launch - Rubber Duck Takeover!](https://www.youtube.com/watch?v=JXw9QXlV50s)
 *Jun 19, 2026*
 
-Get the app - https://gh.io/app
-We’re excited to introduce the general availability of the GitHub Copilot app—a brand-new, native desktop experience that brings agent-driven development directly into your workflow.
+This launch video introduces the generally available GitHub Copilot app for desktop. It highlights a native experience for agent-driven development and where to download the app to get started quickly.
 
 #### 2. [Jueves de Quack: GitHub Copilot App](https://www.youtube.com/watch?v=JAk2Df7sCc4)
 *Jun 19, 2026*
@@ -67,14 +66,7 @@ You can now quickly jump between repositories without leaving your current page.
 5. **[Upcoming deprecation of Opus 4.6 (fast)](https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast)**
 	*Jun 18, 2026*
 
-	We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026:
-	Model
-	Deprecation date
-	Suggested alternative
-	Opus 4.6 (fast)
-	6-29-2026
-	Opus 4.8 (fast)
-	Please update your workflows and integrations to use the supported model before these dates.
+	GitHub will deprecate Opus 4.6 (fast) across Copilot experiences on June 29, 2026. Teams using this model should migrate workflows and integrations to Opus 4.8 (fast) before the cutoff to avoid disruptions.
 
 6. **[Actions: Build custom images from custom images](https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images)**
 	*Jun 18, 2026*
@@ -84,7 +76,7 @@ You can now quickly jump between repositories without leaving your current page.
 7. **[MAI-Code-1-Flash available on more Copilot surfaces](https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces)**
 	*Jun 18, 2026*
 
-	MAI&#8209;Code&#8209;1&#8209;Flash, Microsoft's purpose&#8209;built small coding model, is now available across additional GitHub Copilot surfaces. It's also designed and tuned specifically for GitHub Copilot. MAI&#8209;Code&#8209;1&#8209;Flash is available in Copilot Free, Student, Pro, Pro+, and Max plans.
+	MAI-Code-1-Flash, Microsoft's purpose-built small coding model, is now available across additional GitHub Copilot surfaces. The model is tuned specifically for Copilot and is available in Free, Student, Pro, Pro+, and Max plans.
 
 8. **[RDT: Exploring the GitHub Copilot App](https://www.youtube.com/watch?v=WSjY59L6mSc)**
 	*Jun 18, 2026*
@@ -94,7 +86,7 @@ You can now quickly jump between repositories without leaving your current page.
 9. **[Introducing Copilot CLI and agentic features in JetBrains IDEs](https://www.youtube.com/watch?v=ZpnR3GEah_4)**
 	*Jun 18, 2026*
 
-	Bring the power of agentic development directly into your favorite JetBrains IDEs. In this walkthrough, we demonstrate how to connect the new GitHub Copilot CLI integration within IntelliJ IDEA to...
+	This walkthrough shows how to bring agentic development capabilities into JetBrains IDEs. It demonstrates connecting GitHub Copilot CLI integration in IntelliJ IDEA and using it in day-to-day development workflows.
 
 10. **[GitHub Copilot app generally available](https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available)**
 	*Jun 17, 2026*
