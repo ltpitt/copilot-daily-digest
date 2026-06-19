@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: June 12, 2026
+**Last Updated**: June 19, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,34 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## June 2026
 
+- **Jun 19, 2026** - [GitHub Copilot App Launch - Rubber Duck Takeover!](https://www.youtube.com/watch?v=JXw9QXlV50s) (Video)
+- **Jun 19, 2026** - [Jueves de Quack: GitHub Copilot App](https://www.youtube.com/watch?v=JAk2Df7sCc4) (Video)
+- **Jun 18, 2026** - [Copilot code review: AGENTS.md support and UI improvements](https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements) (Blog)
+- **Jun 18, 2026** - [Generated release notes credit you for Copilot pull requests](https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests) (Blog)
+- **Jun 18, 2026** - [Repository switcher generally available in global navigation](https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation) (Blog)
+- **Jun 18, 2026** - [Control who and what triggers GitHub Actions workflows](https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows) (Blog)
+- **Jun 18, 2026** - [Copilot-authored pull requests now included in author searches](https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches) (Blog)
+- **Jun 18, 2026** - [Safer pull_request_target defaults for GitHub Actions checkout](https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout) (Blog)
+- **Jun 18, 2026** - [Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues](https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues) (Blog)
+- **Jun 18, 2026** - [Upcoming deprecation of Opus 4.6 (fast)](https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast) (Blog)
+- **Jun 18, 2026** - [Actions: Build custom images from custom images](https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images) (Blog)
+- **Jun 18, 2026** - [MAI-Code-1-Flash available on more Copilot surfaces](https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces) (Blog)
+- **Jun 18, 2026** - [RDT: Exploring the GitHub Copilot App](https://www.youtube.com/watch?v=WSjY59L6mSc) (Video)
+- **Jun 18, 2026** - [Introducing Copilot CLI and agentic features in JetBrains IDEs](https://www.youtube.com/watch?v=ZpnR3GEah_4) (Video)
+- **Jun 17, 2026** - [GitHub Copilot app generally available](https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available) (Blog)
+- **Jun 17, 2026** - [Enterprise-managed settings now support bypass permission controls](https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls) (Blog)
+- **Jun 17, 2026** - [Getting more from each token: How Copilot improves context handling and model routing](https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/) (Blog)
+- **Jun 17, 2026** - [Agent finder for GitHub Copilot now available](https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available) (Blog)
+- **Jun 17, 2026** - [Auto mode in Copilot Chat available for all users](https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users) (Blog)
+- **Jun 17, 2026** - [Copilot individual plan sign-ups are reopening](https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening) (Blog)
+- **Jun 17, 2026** - [How ASOS ships code faster with GitHub Copilot](https://www.youtube.com/watch?v=akGV_IoNoAs) (Video)
+- **Jun 16, 2026** - [What are git worktrees, and why should I use them?](https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/) (Blog)
+- **Jun 16, 2026** - [How to take work from issue to merge with the GitHub Copilot app](https://www.youtube.com/watch?v=M0l6qfwxVos) (Video)
+- **Jun 15, 2026** - [GitHub Copilot CLI for Beginners: Overview of common slash commands](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/) (Blog)
+- **Jun 15, 2026** - [Exploring the agent-first GitHub Copilot desktop app | GitHub Checkout](https://www.youtube.com/watch?v=UzYm0kyVY9s) (Video)
+- **Jun 13, 2026** - [Why you need to try the GitHub Copilot desktop app](https://www.youtube.com/shorts/9jBkYXi4nmA) (Video)
+- **Jun 13, 2026** - [What can you do with the GitHub Copilot app?](https://www.youtube.com/shorts/c6W_KvHkQ7M) (Video)
+- **Jun 12, 2026** - [The Download: Claude Fable 5, new Copilot features, Microsoft Build recap & more](https://www.youtube.com/watch?v=IN-YYcNgUSU) (Video)
 - **Jun 11, 2026** - [Agentic workflows no longer need a personal access token](https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token) (Blog)
 - **Jun 11, 2026** - [New runner images in public preview](https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview) (Blog)
 - **Jun 11, 2026** - [Copilot CLI: Configure everything from one place with /settings](https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings) (Blog)
