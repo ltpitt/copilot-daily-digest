@@ -3,7 +3,7 @@
 > **About GitHub Next**: GitHub's research lab exploring future possibilities.
 > These are experimental prototypes, not production features.
 
-**Last Updated**: June 12, 2026
+**Last Updated**: June 26, 2026
 
 **⚠️ Important**: Projects here are research experiments. Many are discontinued.
 They do not represent official product roadmap.

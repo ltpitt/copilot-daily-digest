@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: June 12, 2026
+**Last Updated**: June 26, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,37 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## June 2026
 
+- **Jun 25, 2026** - [Actions steps can now be run in parallel](https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel) (Blog)
+- **Jun 25, 2026** - [Copilot code review: Analysis depth and efficiency updates](https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates) (Blog)
+- **Jun 25, 2026** - [GitHub Copilot for Jira is now generally available](https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available) (Blog)
+- **Jun 25, 2026** - [Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI](https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli) (Blog)
+- **Jun 25, 2026** - [Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks](https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/) (Blog)
+- **Jun 25, 2026** - [More control over your GitHub-hosted runners](https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners) (Blog)
+- **Jun 25, 2026** - [npm adds preventive account protection for high-impact accounts](https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts) (Blog)
+- **Jun 25, 2026** - [Red Hat Enterprise Linux runner images are now in public preview](https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview) (Blog)
+- **Jun 24, 2026** - [Changes to model selection for Free and Student plans](https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans) (Blog)
+- **Jun 24, 2026** - [Self-service credential revocation for incident response](https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response) (Blog)
+- **Jun 24, 2026** - [How physicists at CERN use GitHub to analyze data](https://www.youtube.com/shorts/Ci8etZO6zyo) (Video)
+- **Jun 23, 2026** - [I automated my job (and it made me a better leader)](https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/) (Blog)
+- **Jun 23, 2026** - [GitHub Copilot app support for BYOK](https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok) (Blog)
+- **Jun 23, 2026** - [Copilot CLI: New terminal interface is generally available](https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available) (Blog)
+- **Jun 23, 2026** - [New in GitHub Copilot CLI: Bring GitHub right into your terminal](https://www.youtube.com/watch?v=YpgA1hJsNF8) (Video)
+- **Jun 23, 2026** - [Let's Learn GitHub Copilot App](https://www.youtube.com/watch?v=SsFU0w3KrI4) (Video)
+- **Jun 22, 2026** - [New features and Claude as agent provider preview in JetBrains IDEs](https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides) (Blog)
+- **Jun 22, 2026** - [Automating daily workflows with the GitHub Copilot app and MCP](https://www.youtube.com/watch?v=usXv9jJWjvI) (Video)
+- **Jun 21, 2026** - [Ultimate GitHub Copilot CLI tutorial for beginners](https://www.youtube.com/watch?v=rheqk-L7Yes) (Video)
+- **Jun 19, 2026** - [How we built an internal data analytics agent](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/) (Blog)
+- **Jun 19, 2026** - [AI credits consumed per user now in the Copilot usage metrics API](https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api) (Blog)
+- **Jun 19, 2026** - [Can the GitHub Copilot app run Doom?](https://www.youtube.com/shorts/aYM1hT0ms2M) (Video)
+- **Jun 19, 2026** - [GitHub Copilot App Launch - Rubber Duck Takeover!](https://www.youtube.com/watch?v=JXw9QXlV50s) (Video)
+- **Jun 19, 2026** - [Jueves de Quack: GitHub Copilot App](https://www.youtube.com/watch?v=JAk2Df7sCc4) (Video)
+- **Jun 18, 2026** - [Upcoming deprecation of Opus 4.6 (fast)](https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast) (Blog)
+- **Jun 18, 2026** - [MAI-Code-1-Flash available on more Copilot surfaces](https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces) (Blog)
+- **Jun 18, 2026** - [RDT: Exploring the GitHub Copilot App](https://www.youtube.com/watch?v=WSjY59L6mSc) (Video)
+- **Jun 18, 2026** - [Introducing Copilot CLI and agentic features in JetBrains IDEs](https://www.youtube.com/watch?v=ZpnR3GEah_4) (Video)
+- **Jun 17, 2026** - [Getting more from each token: How Copilot improves context handling and model routing](https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/) (Blog)
+- **Jun 16, 2026** - [What are git worktrees, and why should I use them?](https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/) (Blog)
+- **Jun 15, 2026** - [GitHub Copilot CLI for Beginners: Overview of common slash commands](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/) (Blog)
 - **Jun 11, 2026** - [Agentic workflows no longer need a personal access token](https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token) (Blog)
 - **Jun 11, 2026** - [New runner images in public preview](https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview) (Blog)
 - **Jun 11, 2026** - [Copilot CLI: Configure everything from one place with /settings](https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings) (Blog)
