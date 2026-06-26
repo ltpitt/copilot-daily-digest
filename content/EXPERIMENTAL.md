@@ -3,10 +3,10 @@
 > **About GitHub Next**: GitHub's research lab exploring future possibilities.
 > These are experimental prototypes, not production features.
 
-**Last Updated**: June 12, 2026
+**Last Updated**: June 26, 2026
 
 **⚠️ Important**: Projects here are research experiments. Many are discontinued.
-They do not represent official product roadmap.
+They do not represent the official product roadmap.
 
 ---
 
@@ -14,79 +14,79 @@ They do not represent official product roadmap.
 
 ### [GitHub Copilot Radar](https://githubnext.com/projects/copilot-radar/) (Status: WIP)
 
-GitHub Copilot Radar is a code navigation tool that shows developers the most relevant line to their position in the code. Itâs jump-to-definition on (neural) steroids.
+Research prototype exploring code navigation by surfacing the most relevant line for your current position in a file. It is effectively an experiment in making jump-to-definition feel more context-aware and intelligent.
 
 → [Explore this experiment](https://githubnext.com/projects/copilot-radar/)
 
 ### [Continuous AI](https://githubnext.com/projects/continuous-ai/) (Status: WIP)
 
-Exploring LLM-powered automation in platform-based software collaboration
+Research prototype exploring LLM-powered automation in platform-based software collaboration.
 
 → [Explore this experiment](https://githubnext.com/projects/continuous-ai/)
 
 ### [Discovery Agent](https://githubnext.com/projects/discovery-agent/) (Status: Research prototype)
 
-Agentic Setup, Build, and Testing of Repositories.
+Research prototype exploring agent-driven setup, build, and testing workflows for repositories.
 
 → [Explore this experiment](https://githubnext.com/projects/discovery-agent/)
 
 ### [Learning Sandbox](https://githubnext.com/projects/learning-sandbox/) (Status: Research prototype)
 
-Can we make it easy and fun to learn as we build? Weâre exploring ways to create personalized, interactive learning environments that integrate into your daily workflow.
+Research prototype exploring personalized, interactive learning environments that fit directly into a developer's workflow while they build.
 
 → [Explore this experiment](https://githubnext.com/projects/learning-sandbox/)
 
 ### [Agentic Workflows](https://githubnext.com/projects/agentic-workflows/) (Status: Research prototype)
 
-Towards NaturalâLanguage Programming for GitHub Actions
+Research prototype exploring natural-language programming concepts for GitHub Actions workflows.
 
 → [Explore this experiment](https://githubnext.com/projects/agentic-workflows/)
 
 ### [Vitale](https://githubnext.com/projects/vitale/) (Status: Research prototype)
 
-Live notebooks in VS Code for JavaScript/TypeScript, web development, and AI experimentation
+Research prototype exploring live notebooks in VS Code for JavaScript, TypeScript, web development, and AI experimentation.
 
 → [Explore this experiment](https://githubnext.com/projects/vitale/)
 
 ### [Incremental CodeQL](https://githubnext.com/projects/incremental-codeql/) (Status: Research prototype)
 
-Faster feedback about security vulnerabilities on your PRs.
+Research prototype exploring faster feedback loops for security vulnerabilities on pull requests.
 
 → [Explore this experiment](https://githubnext.com/projects/incremental-codeql/)
 
 ### [Mosaic](https://githubnext.com/projects/mosaic/) (Status: Research prototype)
 
-Can we derive personalized design systems from sources of inspiration?
+Research prototype exploring how personalized design systems might be derived from source inspiration.
 
 → [Explore this experiment](https://githubnext.com/projects/mosaic/)
 
 ### [Realtime GitHub](https://githubnext.com/projects/rtgh/) (Status: Research prototype)
 
-Multiplayer collaboration for your whole repo.
+Research prototype exploring multiplayer collaboration across an entire repository.
 
 → [Explore this experiment](https://githubnext.com/projects/rtgh/)
 
 ### [SpecLang](https://githubnext.com/projects/speclang/) (Status: Research prototype)
 
-Can we develop software entirely in natural language, and an AI-powered toolchain manage the implementation?
+Research prototype exploring whether natural-language specifications can drive a full software implementation toolchain.
 
 → [Explore this experiment](https://githubnext.com/projects/speclang/)
 
 ### [Code Atlas](https://githubnext.com/projects/code-atlas/) (Status: Napkin sketch)
 
-How can we make LLM responses more robust and easier to understand by combining their fluid reasoning with rigid structure?
+Napkin-sketch experiment exploring how structured outputs could make LLM responses more robust and easier to understand.
 
 → [Explore this experiment](https://githubnext.com/projects/code-atlas/)
 
 ### [Collaborative Workspaces](https://githubnext.com/projects/workspaces/) (Status: Napkin sketch)
 
-As we increasingly work together remotely, how might we unify our workflows to enable remote collaboration for developers? GitHub Next explores what "working together" means, beyond multiple cursors and a shared code editor.
+Napkin-sketch experiment exploring remote collaboration workflows that go beyond multiple cursors and a shared editor.
 
 → [Explore this experiment](https://githubnext.com/projects/workspaces/)
 
 ### [Project Copernicus](https://githubnext.com/projects/copernicus/) (Status: Napkin sketch)
 
-Exploring LLM-powered navigation for your codebase
+Napkin-sketch experiment exploring LLM-powered navigation across a codebase.
 
 → [Explore this experiment](https://githubnext.com/projects/copernicus/)
 
@@ -120,7 +120,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot Completions in the CLI](https://githubnext.com/projects/copilot-completions-cli/)
 
-Ever having trouble remembering that shell command or this obscure flag? Don't worry: we're building GitHub Copilot assistance right into your terminal
+This experiment graduated into a production feature that brings GitHub Copilot assistance directly into the terminal.
 
 This experiment has graduated to a production feature.
 
@@ -144,7 +144,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot for Docs](https://githubnext.com/projects/copilot-for-docs/)
 
-How would it feel to have an expert on hand at all times? We built a tool that uses relevant information from a projectâs documentation to answer questions or explain concepts.
+This experiment graduated into a production feature that uses project documentation to answer questions and explain concepts in context.
 
 This experiment has graduated to a production feature.
 

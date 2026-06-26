@@ -83,7 +83,16 @@ def extract_links(content: str, file_path: Path) -> List[Tuple[str, str, int]]:
     # Split content into lines for line number tracking
     lines = content.split("\n")
 
+    in_code_fence = False
+
     for line_num, line in enumerate(lines, 1):
+        if line.lstrip().startswith("```"):
+            in_code_fence = not in_code_fence
+            continue
+
+        if in_code_fence:
+            continue
+
         # Extract markdown links [text](url)
         for match in re.finditer(MD_LINK_PATTERN, line):
             link_text = match.group(1)
