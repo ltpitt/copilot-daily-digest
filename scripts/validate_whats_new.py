@@ -27,7 +27,9 @@ WHATS_NEW_FILE = REPO_ROOT / "content" / "WHATS-NEW.md"
 # Regex patterns
 COMPLETE_DATE_PATTERN = r"([A-Z][a-z]{2}) (\d{1,2}), (\d{4})"  # "Dec 8, 2025"
 INCOMPLETE_DATE_PATTERN = r"([A-Z][a-z]{2}) (\d{4})"  # "Dec 2025" (no day)
-HEADING_PATTERN = r"^###\s+(.+?)\s+\((.+?)\)"  # "### Title (Date)"
+LEGACY_HEADING_PATTERN = r"^###\s+(.+?)\s+\((.+?)\)\s*$"  # "### Title (Date)"
+LINK_HEADING_PATTERN = r"^###\s+\[(.+?)\]\((.+?)\)\s*$"  # "### [Title](url)"
+DATE_LINE_PATTERN = rf"^\*({COMPLETE_DATE_PATTERN})\*\s*$"  # "*Dec 8, 2025*"
 
 # Date ranges
 NOW = datetime.now()
@@ -61,12 +63,28 @@ def extract_articles(content: str) -> List[Tuple[str, str, int]]:
         List of (title, date_string, line_number) tuples
     """
     articles = []
-    for i, line in enumerate(content.split("\n"), start=1):
-        match = re.match(HEADING_PATTERN, line)
-        if match:
-            title = match.group(1)
-            date_str = match.group(2)
-            articles.append((title, date_str, i))
+    lines = content.split("\n")
+    for i, line in enumerate(lines, start=1):
+        legacy_match = re.match(LEGACY_HEADING_PATTERN, line)
+        if legacy_match:
+            articles.append((legacy_match.group(1), legacy_match.group(2), i))
+            continue
+
+        link_match = re.match(LINK_HEADING_PATTERN, line)
+        if not link_match:
+            continue
+
+        title = link_match.group(1)
+        for offset in range(1, 4):
+            if i - 1 + offset >= len(lines):
+                break
+            next_line = lines[i - 1 + offset].strip()
+            if not next_line:
+                continue
+            date_match = re.match(DATE_LINE_PATTERN, next_line)
+            if date_match:
+                articles.append((title, date_match.group(1), i))
+            break
     return articles
 
 
@@ -150,20 +168,20 @@ def check_section_dates(content: str) -> List[str]:
     errors = []
 
     # Split content into sections
-    sections = {"This Week": [], "This Month": [], "Older Updates": []}
+    sections = {"This Week": [], "Last 30 Days": [], "Older Updates": []}
 
     current_section = None
-    for line in content.split("\n"):
+    articles_by_line = {line_num: (title, date_str) for title, date_str, line_num in extract_articles(content)}
+
+    for line_num, line in enumerate(content.split("\n"), start=1):
         if "## This Week" in line:
             current_section = "This Week"
-        elif "## This Month" in line:
-            current_section = "This Month"
+        elif "## This Month" in line or "## Last 30 Days" in line:
+            current_section = "Last 30 Days"
         elif "## Older Updates" in line:
             current_section = "Older Updates"
-        elif current_section and re.match(HEADING_PATTERN, line):
-            match = re.match(HEADING_PATTERN, line)
-            if match:
-                sections[current_section].append((match.group(1), match.group(2)))
+        elif current_section and line_num in articles_by_line:
+            sections[current_section].append(articles_by_line[line_num])
 
     # Validate dates in each section
     for section, articles in sections.items():
@@ -177,13 +195,8 @@ def check_section_dates(content: str) -> List[str]:
                             f"Section '{section}': '{title}' dated {date_str} is older "
                             f"than 7 days and should be in 'This Month' or 'Older Updates'"
                         )
-                elif section == "This Month":
-                    if date_obj >= SEVEN_DAYS_AGO:
-                        errors.append(
-                            f"Section '{section}': '{title}' dated {date_str} is within "
-                            f"last 7 days and should be in 'This Week'"
-                        )
-                    elif date_obj < THIRTY_DAYS_AGO:
+                elif section == "Last 30 Days":
+                    if date_obj < THIRTY_DAYS_AGO:
                         errors.append(
                             f"Section '{section}': '{title}' dated {date_str} is older "
                             f"than 30 days and should be in 'Older Updates'"
@@ -215,6 +228,10 @@ def main():
     # Extract articles
     articles = extract_articles(content)
     print(f"✓ Found {len(articles)} articles")
+
+    if not articles:
+        print("❌ VALIDATION FAILED: no WHATS-NEW articles were found")
+        return 1
 
     # Run validations
     all_errors = []
