@@ -124,6 +124,10 @@ def clean_html(text: str) -> str:
     text = text.replace('&nbsp;', ' ').replace('&#8217;', "'").replace('&mdash;', '—')
     text = text.replace('&ldquo;', '"').replace('&rdquo;', '"')
     text = text.replace('&amp;', '&').replace('&rsquo;', "'")
+    # Fix common mojibake from Windows-1252 characters decoded as latin-1
+    text = text.replace('\u00e2\u0080\u0099', "'").replace('\u00e2\u0080\u009c', '"').replace('\u00e2\u0080\u009d', '"')
+    text = text.replace('\u00e2\u0080\u0094', '—').replace('\u00e2\u0080\u0093', '–')
+    text = text.replace('\u00e2\u0080\u0091', '-').replace('\u00e2\u0080\u0092', '-')
     # Remove common section-heading fragments that become noise after HTML stripping
     # These originate from <h2>/<h3> headings in blog posts that lack punctuation.
     heading_fragments = [
@@ -820,7 +824,7 @@ They do not represent official product roadmap.
         if status in by_status:
             for project in by_status[status]:
                 content += f"### [{project['title']}]({project['url']}) (Status: {status})\n\n"
-                content += f"{project['description']}\n\n"
+                content += f"{clean_html(project['description'])}\n\n"
                 content += f"→ [Explore this experiment]({project['url']})\n\n"
 
     content += "---\n\n## Product (Graduated from Experiments)\n\n"
@@ -828,7 +832,7 @@ They do not represent official product roadmap.
     if 'Product' in by_status:
         for project in by_status['Product']:
             content += f"### [{project['title']}]({project['url']})\n\n"
-            content += f"{project['description']}\n\n"
+            content += f"{clean_html(project['description'])}\n\n"
             content += "This experiment has graduated to a production feature.\n\n"
             content += f"→ [Learn more]({project['url']})\n\n"
 
@@ -837,7 +841,7 @@ They do not represent official product roadmap.
     if 'Completed' in by_status:
         for project in by_status['Completed']:
             content += f"### [{project['title']}]({project['url']})\n\n"
-            content += f"{project['description']}\n\n"
+            content += f"{clean_html(project['description'])}\n\n"
 
     content += """---
 
