@@ -140,6 +140,9 @@ def clean_html(text: str) -> str:
     # Collapse multiple whitespace/newlines introduced by removals
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n{2,}', '\n', text)
+    # Fix punctuation artifacts like double commas from removed fragments
+    text = re.sub(r',\s*,', ',', text)
+    text = re.sub(r',\s*\.', '.', text)
     return text.strip()
 
 def extract_readable_summary(blog_post: Dict) -> str:
@@ -451,10 +454,9 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_week = week_items[:5]
 
     if top_week:
-        content += "### Recent Updates\n\n"
-        for i, item in enumerate(top_week, 1):
+        for item in top_week:
             date_formatted = format_date(item['date'])
-            content += f"#### {i}. [{item['title']}]({item['url']})\n"
+            content += f"### [{item['title']}]({item['url']})\n"
             content += f"*{date_formatted}*\n\n"
             if item['type'] == 'blog':
                 # Use improved summary extraction
@@ -504,22 +506,19 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_month = month_items[:10]
 
     if top_month:
-        content += "### Significant Updates\n\n"
-        for i, item in enumerate(top_month, 1):
+        for item in top_month:
             date_formatted = format_date(item['date'])
-            content += f"{i}. **[{item['title']}]({item['url']})**\n"
-            content += f"\t*{date_formatted}*\n\n"
+            content += f"### [{item['title']}]({item['url']})\n"
+            content += f"*{date_formatted}*\n\n"
             if item['type'] == 'blog':
                 # Use improved summary extraction
                 summary = extract_readable_summary(item['post'])
-                # Indent for markdown list
-                indented_summary = '\t' + summary.replace('\n', '\n\t')
-                content += f"{indented_summary}\n"
+                content += f"{summary}\n"
             else:
                 # Clean video description
                 desc = clean_video_description(item.get('description', ''), max_length=200)
                 if desc:
-                    content += f"\t{desc}\n"
+                    content += f"{desc}\n"
             content += "\n"
     else:
         if top_week:
