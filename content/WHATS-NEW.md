@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: June 26, 2026
+**Last Updated**: July 03, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -10,84 +10,84 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### [Actions steps can now be run in parallel](https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel)
-*Jun 25, 2026*
+### [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo)
+*Jul 3, 2026*
 
-GitHub Actions now lets you run workflow steps concurrently with native `background`, `wait`, and `wait-all` support. Teams can speed up long workflows without falling back to shell hacks that mix logs together and make failures harder to debug.
+We're going to talk through the GitHub Changelog, and experiment with some new tools.
 
-### [Copilot code review: Analysis depth and efficiency updates](https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates)
-*Jun 25, 2026*
+### [Improved accuracy and coverage in Copilot usage metrics reports](https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports)
+*Jul 2, 2026*
 
-Copilot code review now relies on the built-in file exploration tools from the Copilot CLI and SDK, which improves cost efficiency without changing how you request reviews. Organizations testing Medium analysis depth also get more control over how deeply reviews investigate a change.
+We've made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only through server-side telemetry now have their IDE identified, and AI credit consumption is now attributed more completely. GitHub Copilot CLI now reports suggested lines of code.
 
-### [GitHub Copilot for Jira is now generally available](https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available)
-*Jun 25, 2026*
+### [Copilot agent session streaming is now in public preview](https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview)
+*Jul 2, 2026*
 
-GitHub Copilot for Jira has reached general availability after adding model selection, Confluence context through MCP, custom agents, and richer Jira-specific guidance. The GA release also focuses on giving teams more visibility and control over agent sessions tied to planning work.
+You can choose to access this data via a streaming endpoint or the REST API. To enable this, go to the Copilot subpage in AI Controls and select Enable everywhere for both "Copilot Usage Records Streaming" and "Copilot Usage Records API". You can initiate a streaming connection to an event collector or SIEM tool of your choice from your audit log settings.
 
-### [Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI](https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli)
-*Jun 25, 2026*
+### [Issue fields are now generally available](https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available)
+*Jul 2, 2026*
 
-Enterprise admins can now restrict plugin installation in VS Code and the GitHub Copilot CLI to approved marketplaces only. This preview setting gives security and platform teams a cleaner way to enforce tool governance before plugins ever run.
+Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23. Issue fields bring structured, typed metadata to issues, making it easy to track priority, effort, dates, and custom values consistently across your organization.
 
-### [Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks](https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/)
-*Jun 25, 2026*
+### [Copilot CLI no longer needs a personal access token in GitHub Actions](https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions)
+*Jul 2, 2026*
 
-GitHub shared new benchmark results showing how its agentic harness balances task success, token efficiency, and model flexibility across more than 20 supported models. The post is especially useful if you want to understand how Copilot's shared SDK layer shapes real-world agent performance beyond raw model quality.
+You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.
 
 ---
 
 ## Last 30 Days
 
-### [More control over your GitHub-hosted runners](https://github.blog/changelog/2026-06-25-more-control-over-your-github-hosted-runners)
-*Jun 25, 2026*
+### [Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash](https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash)
+*Jul 2, 2026*
 
-GitHub Actions administrators can now disable standard runner labels and add macOS runners to runner groups. The update makes it easier to lock down access, manage concurrency, and apply tighter governance to hosted infrastructure.
+Copilot Enterprise administrators may need to enable access to the alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you'll see the model in the Copilot Chat model selector in VS Code and on github.com.
 
-### [npm adds preventive account protection for high-impact accounts](https://github.blog/changelog/2026-06-25-npm-adds-preventive-account-protection-for-high-impact-accounts)
-*Jun 25, 2026*
+### [Cost centers now support AI credit pools](https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps)
+*Jul 2, 2026*
 
-npm now places high-impact accounts into a 72-hour read-only state after sensitive changes such as email updates or 2FA recovery. That safeguard is designed to slow account takeovers and reduce the chance that attackers can quickly publish malicious packages.
+You can now cap how much of your enterprise's monthly included AI credits a cost center can use. This is available through the REST API today. Management in the cost center settings UI is coming soon.
 
-### [Red Hat Enterprise Linux runner images are now in public preview](https://github.blog/changelog/2026-06-25-red-hat-enterprise-linux-runner-images-are-now-in-public-preview)
-*Jun 25, 2026*
+### [Secret scanning public monitoring for enterprises](https://github.blog/changelog/2026-07-01-secret-scanning-public-monitoring-for-enterprises)
+*Jul 1, 2026*
 
-GitHub-hosted larger runners now offer RHEL 9 and RHEL 10 images in public preview. Organizations that standardize on Red Hat can use those images as a base for custom runner environments without maintaining their own infrastructure.
+GitHub is committed to empowering the developer community by helping organizations recognize and address the risks of secret leaks wherever they happen. We believe every enterprise should know the moment its secrets leak in public, no matter where it happens on GitHub. That's why public monitoring is now in public preview for enterprises with GitHub Secret Protection, at no additional cost.
 
-### [Changes to model selection for Free and Student plans](https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans)
-*Jun 24, 2026*
+### [Enterprise managed-settings.json is generally available](https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available)
+*Jul 1, 2026*
 
-Copilot Free and Student plans now use auto model selection as the only model-picking experience. The change simplifies onboarding by letting Copilot choose the best available model for each task while keeping plan-specific access rules in place.
+GitHub Enterprise Cloud customers can configure AI standards through a managed-settings.json file maintained in a .github-private repository in a selected organization. This allows the enterprise to define new governance and extensibility flows that apply to Copilot clients such as VS Code or Copilot CLI.
 
-### [Self-service credential revocation for incident response](https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response)
-*Jun 24, 2026*
+### [Kimi K2.7 Code is generally available in GitHub Copilot](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot)
+*Jul 1, 2026*
 
-GitHub Enterprise owners can now trigger break-glass credential revocation when an account or token is compromised. This gives incident responders a faster path to shutting down access across an enterprise before an active attack spreads.
+Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows. Kimi K2.7 Code is hosted by GitHub on Microsoft Azure.
 
-### [How physicists at CERN use GitHub to analyze data](https://www.youtube.com/shorts/Ci8etZO6zyo)
-*Jun 24, 2026*
+### [New C++ language server config skill for Copilot CLI](https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli)
+*Jul 1, 2026*
 
-This short video shows how CERN researchers use GitHub to coordinate open source analysis at massive scale. It is a quick reminder that collaborative review, shared code, and transparent workflows matter well beyond traditional software teams.
+The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code.
 
-### [I automated my job (and it made me a better leader)](https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/)
-*Jun 23, 2026*
+### [GitHub Models is being fully retired on July 30, 2026](https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026)
+*Jul 1, 2026*
 
-This leadership-focused essay explains how a senior engineering leader uses dozens of small automations to reduce coordination overhead. It offers practical ideas for turning scattered status checks and follow-ups into repeatable workflows that protect time for deeper work.
+In June, we announced that we are retiring GitHub Models and closed it to new customers. We're now sharing the timeline for the next step: GitHub Models will be fully retired on July 30, 2026. After that date, GitHub Models—including the playground, model catalog, inference API, and bring your own key (BYOK)—will no longer be available to any customer.
 
-### [GitHub Copilot app support for BYOK](https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok)
-*Jun 23, 2026*
+### [Enterprises can default to auto model selection](https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection)
+*Jul 1, 2026*
 
-The GitHub Copilot app now supports bring your own key, letting you run agent sessions against model providers you already manage. Models from those providers show up directly in the picker, while keys stay stored in the local OS keychain instead of being exposed in the UI.
+Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to .github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default.
 
-### [Copilot CLI: New terminal interface is generally available](https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available)
-*Jun 23, 2026*
+### [Copilot vision is generally available](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available)
+*Jul 1, 2026*
 
-The redesigned GitHub Copilot CLI interface is now generally available with tabs for issues, pull requests, and other GitHub workflows. It turns the terminal into a more complete control surface for coding, reviewing, and repository management without constant context switching.
+Copilot vision is now generally available. You can attach images and PDFs directly to your chat prompts so Copilot can reason about what it sees alongside your code.
 
-### [New in GitHub Copilot CLI: Bring GitHub right into your terminal](https://www.youtube.com/watch?v=YpgA1hJsNF8)
-*Jun 23, 2026*
+### [GitHub Copilot Agent is now available in JetBrains AI Assistant](https://www.youtube.com/watch?v=JsRhoZJAIF4)
+*Jun 30, 2026*
 
-This walkthrough demos the new Copilot CLI terminal experience in action, including the tabbed interface, slash commands, and built-in GitHub workflows. Watch it if you want a quick visual tour of how the updated CLI supports end-to-end work from the command line.
+JetBrains fans, you can now add GitHub Copilot natively via AI Assistant into your favorite IDE. Using the new agent client protocol support, integrating Copilot takes just a few clicks from the AI...
 
 ---
 

@@ -124,6 +124,10 @@ def clean_html(text: str) -> str:
     text = text.replace('&nbsp;', ' ').replace('&#8217;', "'").replace('&mdash;', '—')
     text = text.replace('&ldquo;', '"').replace('&rdquo;', '"')
     text = text.replace('&amp;', '&').replace('&rsquo;', "'")
+    # Fix common mojibake from Windows-1252 characters decoded as latin-1
+    text = text.replace('\u00e2\u0080\u0099', "'").replace('\u00e2\u0080\u009c', '"').replace('\u00e2\u0080\u009d', '"')
+    text = text.replace('\u00e2\u0080\u0094', '—').replace('\u00e2\u0080\u0093', '–')
+    text = text.replace('\u00e2\u0080\u0091', '-').replace('\u00e2\u0080\u0092', '-')
     # Remove common section-heading fragments that become noise after HTML stripping
     # These originate from <h2>/<h3> headings in blog posts that lack punctuation.
     heading_fragments = [
@@ -140,6 +144,9 @@ def clean_html(text: str) -> str:
     # Collapse multiple whitespace/newlines introduced by removals
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n{2,}', '\n', text)
+    # Fix punctuation artifacts like double commas from removed fragments
+    text = re.sub(r',\s*,', ',', text)
+    text = re.sub(r',\s*\.', '.', text)
     return text.strip()
 
 def extract_readable_summary(blog_post: Dict) -> str:
@@ -451,10 +458,9 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_week = week_items[:5]
 
     if top_week:
-        content += "### Recent Updates\n\n"
-        for i, item in enumerate(top_week, 1):
+        for item in top_week:
             date_formatted = format_date(item['date'])
-            content += f"#### {i}. [{item['title']}]({item['url']})\n"
+            content += f"### [{item['title']}]({item['url']})\n"
             content += f"*{date_formatted}*\n\n"
             if item['type'] == 'blog':
                 # Use improved summary extraction
@@ -504,22 +510,19 @@ This page highlights significant Copilot updates from the past 30 days. Content 
     top_month = month_items[:10]
 
     if top_month:
-        content += "### Significant Updates\n\n"
-        for i, item in enumerate(top_month, 1):
+        for item in top_month:
             date_formatted = format_date(item['date'])
-            content += f"{i}. **[{item['title']}]({item['url']})**\n"
-            content += f"\t*{date_formatted}*\n\n"
+            content += f"### [{item['title']}]({item['url']})\n"
+            content += f"*{date_formatted}*\n\n"
             if item['type'] == 'blog':
                 # Use improved summary extraction
                 summary = extract_readable_summary(item['post'])
-                # Indent for markdown list
-                indented_summary = '\t' + summary.replace('\n', '\n\t')
-                content += f"{indented_summary}\n"
+                content += f"{summary}\n"
             else:
                 # Clean video description
                 desc = clean_video_description(item.get('description', ''), max_length=200)
                 if desc:
-                    content += f"\t{desc}\n"
+                    content += f"{desc}\n"
             content += "\n"
     else:
         if top_week:
@@ -821,7 +824,7 @@ They do not represent official product roadmap.
         if status in by_status:
             for project in by_status[status]:
                 content += f"### [{project['title']}]({project['url']}) (Status: {status})\n\n"
-                content += f"{project['description']}\n\n"
+                content += f"{clean_html(project['description'])}\n\n"
                 content += f"→ [Explore this experiment]({project['url']})\n\n"
 
     content += "---\n\n## Product (Graduated from Experiments)\n\n"
@@ -829,7 +832,7 @@ They do not represent official product roadmap.
     if 'Product' in by_status:
         for project in by_status['Product']:
             content += f"### [{project['title']}]({project['url']})\n\n"
-            content += f"{project['description']}\n\n"
+            content += f"{clean_html(project['description'])}\n\n"
             content += "This experiment has graduated to a production feature.\n\n"
             content += f"→ [Learn more]({project['url']})\n\n"
 
@@ -838,7 +841,7 @@ They do not represent official product roadmap.
     if 'Completed' in by_status:
         for project in by_status['Completed']:
             content += f"### [{project['title']}]({project['url']})\n\n"
-            content += f"{project['description']}\n\n"
+            content += f"{clean_html(project['description'])}\n\n"
 
     content += """---
 

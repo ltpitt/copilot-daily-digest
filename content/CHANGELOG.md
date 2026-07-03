@@ -2,14 +2,36 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: June 26, 2026
+**Last Updated**: July 03, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## July 2026
+
+- **Jul 3, 2026** - [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo) (Video)
+- **Jul 2, 2026** - [Improved accuracy and coverage in Copilot usage metrics reports](https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports) (Blog)
+- **Jul 2, 2026** - [Copilot agent session streaming is now in public preview](https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview) (Blog)
+- **Jul 2, 2026** - [Issue fields are now generally available](https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available) (Blog)
+- **Jul 2, 2026** - [Copilot CLI no longer needs a personal access token in GitHub Actions](https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions) (Blog)
+- **Jul 2, 2026** - [Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash](https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash) (Blog)
+- **Jul 2, 2026** - [Cost centers now support AI credit pools](https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps) (Blog)
+- **Jul 1, 2026** - [Secret scanning public monitoring for enterprises](https://github.blog/changelog/2026-07-01-secret-scanning-public-monitoring-for-enterprises) (Blog)
+- **Jul 1, 2026** - [Enterprise managed-settings.json is generally available](https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available) (Blog)
+- **Jul 1, 2026** - [Kimi K2.7 Code is generally available in GitHub Copilot](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot) (Blog)
+- **Jul 1, 2026** - [New C++ language server config skill for Copilot CLI](https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli) (Blog)
+- **Jul 1, 2026** - [GitHub Models is being fully retired on July 30, 2026](https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026) (Blog)
+- **Jul 1, 2026** - [Enterprises can default to auto model selection](https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection) (Blog)
+- **Jul 1, 2026** - [Copilot vision is generally available](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available) (Blog)
+
 ## June 2026
 
+- **Jun 30, 2026** - [GitHub Copilot Agent is now available in JetBrains AI Assistant](https://www.youtube.com/watch?v=JsRhoZJAIF4) (Video)
+- **Jun 29, 2026** - [How to use the new impeccable skill in the GitHub Copilot app](https://www.youtube.com/watch?v=CRSV0euIn7M) (Video)
+- **Jun 28, 2026** - [How to automate your feedback loop with GitHub Copilot app](https://www.youtube.com/shorts/fwyFMou6nyw) (Video)
+- **Jun 27, 2026** - [Why you need the new GitHub Copilot desktop app](https://www.youtube.com/shorts/An2_I0FV3uc) (Video)
+- **Jun 26, 2026** - [The Download: GitHub Copilot app, Anthropic news, and Minecraft](https://www.youtube.com/watch?v=Emflh0fnRCw) (Video)
 - **Jun 25, 2026** - [Actions steps can now be run in parallel](https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel) (Blog)
 - **Jun 25, 2026** - [Copilot code review: Analysis depth and efficiency updates](https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates) (Blog)
 - **Jun 25, 2026** - [GitHub Copilot for Jira is now generally available](https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available) (Blog)
