@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: June 26, 2026
+> **Last Updated**: July 03, 2026
 
 > **📊 Library Stats**
-> - 📚 **139** total videos
-> - 🆕 **10** new this month
-> - 📂 **Categories**: Other (3), Features & Updates (2), Getting Started (4), Agents (1)
+> - 📚 **145** total videos
+> - 🆕 **6** new this month
+> - 📂 **Categories**: Features & Updates (2), Agents (2), Tutorials (2)
 
 ---
 
@@ -13,164 +13,78 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (4)
   - [Features & Updates](#features--updates) (2)
-  - [Agents](#agents) (1)
-  - [Other](#other) (3)
+  - [Tutorials](#tutorials) (2)
+  - [Agents](#agents) (2)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*10 videos published in the last 30 days*
+*6 videos published in the last 30 days*
 
-### [How physicists at CERN use GitHub to analyze data](https://www.youtube.com/shorts/Ci8etZO6zyo)
+### [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo)
 
-**Published**: Jun 24, 2026 | **Channel**: GitHub
+**Published**: Jul 3, 2026 | **Channel**: GitHub
 
-This short spotlights how CERN researchers use GitHub to share code, review changes, and coordinate large-scale scientific analysis. It is a concise example of collaborative development practices powering work far beyond traditional app teams.
+We're going to talk through the GitHub Changelog, what's new, and experiment with some new tools....
 
-[Watch on YouTube →](https://www.youtube.com/shorts/Ci8etZO6zyo)
-
----
-
-### [New in GitHub Copilot CLI: Bring GitHub right into your terminal](https://www.youtube.com/watch?v=YpgA1hJsNF8)
-
-**Published**: Jun 23, 2026 | **Channel**: GitHub
-
-This walkthrough introduces the new GitHub Copilot CLI terminal interface, including tabs for issues, pull requests, and gists. It also shows how slash commands and in-terminal GitHub actions reduce the need to jump back to the browser.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=YpgA1hJsNF8)
+[Watch on YouTube →](https://www.youtube.com/watch?v=cCFKtW5UiTo)
 
 ---
 
-### [Let's Learn GitHub Copilot App](https://www.youtube.com/watch?v=SsFU0w3KrI4)
+### [GitHub Copilot Agent is now available in JetBrains AI Assistant](https://www.youtube.com/watch?v=JsRhoZJAIF4)
 
-**Published**: Jun 23, 2026 | **Channel**: GitHub
+**Published**: Jun 30, 2026 | **Channel**: GitHub
 
-This beginner-friendly session introduces the GitHub Copilot app as a hub for moving from issue to pull request. It explains how parallel agent sessions can help teams explore, implement, and review work without constantly switching tools.
+JetBrains fans, you can now add GitHub Copilot natively via AI Assistant into your favorite IDE. Using the new agent client protocol support, integrating Copilot takes just a few clicks from the AI agents tab. Once enabled, you can use the familiar chat window to summarize projects, check your READM...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=SsFU0w3KrI4)
-
----
-
-### [Automating daily workflows with the GitHub Copilot app and MCP](https://www.youtube.com/watch?v=usXv9jJWjvI)
-
-**Published**: Jun 22, 2026 | **Channel**: GitHub
-
-This demo shows how the GitHub Copilot app and MCP integrations can automate a morning workflow with scheduled jobs, prioritized triage, and a daily brief. It is a practical look at turning repetitive coordination work into an agent-assisted routine.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=usXv9jJWjvI)
+[Watch on YouTube →](https://www.youtube.com/watch?v=JsRhoZJAIF4)
 
 ---
 
-### [Ultimate GitHub Copilot CLI tutorial for beginners](https://www.youtube.com/watch?v=rheqk-L7Yes)
+### [How to use the new impeccable skill in the GitHub Copilot app](https://www.youtube.com/watch?v=CRSV0euIn7M)
 
-**Published**: Jun 21, 2026 | **Channel**: GitHub
+**Published**: Jun 29, 2026 | **Channel**: GitHub
 
-This long-form beginner tutorial covers Copilot CLI setup, interactive and non-interactive use, slash commands, MCP servers, and agent workflows. It is a good single starting point if you want a broad introduction to using Copilot from the terminal.
+The GitHub Copilot app now features a built-in impeccable skill to help you polish your projects. In this video, we use it as a design partner to upgrade the UI of PocketCal, an open-source web app. The /impeccable skill allows the agent to update fonts, improve drag-and-drop features, and refine ev...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=rheqk-L7Yes)
-
----
-
-### [Can the GitHub Copilot app run Doom?](https://www.youtube.com/shorts/aYM1hT0ms2M)
-
-**Published**: Jun 19, 2026 | **Channel**: GitHub
-
-This short playfully tests the new GitHub Copilot app by asking it to spin up a Doom-focused canvas and get the game running. It doubles as a fast demo of how flexible the app's agent-first workspace can be.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/aYM1hT0ms2M)
+[Watch on YouTube →](https://www.youtube.com/watch?v=CRSV0euIn7M)
 
 ---
 
-### [GitHub Copilot App Launch - Rubber Duck Takeover!](https://www.youtube.com/watch?v=JXw9QXlV50s)
+### [How to automate your feedback loop with GitHub Copilot app](https://www.youtube.com/shorts/fwyFMou6nyw)
 
-**Published**: Jun 19, 2026 | **Channel**: GitHub
+**Published**: Jun 28, 2026 | **Channel**: GitHub
 
-This launch video introduces the general availability of the GitHub Copilot app and its desktop workflow for issue-to-merge development. It highlights parallel sessions, customizable skills, and a unified workspace that keeps repository context close at hand.
+Managing community feedback does not have to be a full-time manual chore. See how we use GitHub Copilot app to constantly monitor multiple communication streams and repository boards at once. With a simple prompt, you can tell your agent to refresh your repository and watch it sort everything into a...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=JXw9QXlV50s)
-
----
-
-### [Jueves de Quack: GitHub Copilot App](https://www.youtube.com/watch?v=JAk2Df7sCc4)
-
-**Published**: Jun 19, 2026 | **Channel**: GitHub
-
-This Spanish-language session introduces the new GitHub Copilot app and walks through what it enables for day-to-day development. Watch it if you want an overview of the product from a community-focused presentation.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=JAk2Df7sCc4)
+[Watch on YouTube →](https://www.youtube.com/shorts/fwyFMou6nyw)
 
 ---
 
-### [RDT: Exploring the GitHub Copilot App](https://www.youtube.com/watch?v=WSjY59L6mSc)
+### [Why you need the new GitHub Copilot desktop app](https://www.youtube.com/shorts/An2_I0FV3uc)
 
-**Published**: Jun 18, 2026 | **Channel**: GitHub
+**Published**: Jun 27, 2026 | **Channel**: GitHub
 
-This stream explores the GitHub Copilot app live and shows how the new desktop experience supports agent-driven work. It is useful if you prefer seeing the interface and workflow discussed in a more informal format.
+The GitHub Copilot app is officially generally available for macOS, Windows, and Linux. Built as an agent-native desktop experience, it serves as your control center across all GitHub primitives. Stop losing track of context when running multiple agents across different repositories. Watch how isola...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=WSjY59L6mSc)
+[Watch on YouTube →](https://www.youtube.com/shorts/An2_I0FV3uc)
 
 ---
 
-### [Introducing Copilot CLI and agentic features in JetBrains IDEs](https://www.youtube.com/watch?v=ZpnR3GEah_4)
+### [The Download: GitHub Copilot app, Anthropic news, and Minecraft](https://www.youtube.com/watch?v=Emflh0fnRCw)
 
-**Published**: Jun 18, 2026 | **Channel**: GitHub
+**Published**: Jun 26, 2026 | **Channel**: GitHub
 
-This walkthrough shows how JetBrains users can connect Copilot CLI to agentic workflows directly inside their IDE. It covers ask, plan, and agent modes, plus customization and debug tooling for more advanced setups.
+Welcome to another episode of The Download with GPS! This week, we cover the general availability of the new GitHub Copilot desktop app, designed to be your control center for managing multiple AI agents safely. We also discuss the US government directive that led Anthropic to pull their Fable 5 and...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=ZpnR3GEah_4)
+[Watch on YouTube →](https://www.youtube.com/watch?v=Emflh0fnRCw)
 
 ---
 
 ## Browse by Category
 
-## Getting Started
-
-*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
-
-**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
-
-### [Let's Learn GitHub Copilot App](https://www.youtube.com/watch?v=SsFU0w3KrI4)
-
-**Published**: Jun 23, 2026
-
-This beginner-friendly session introduces the GitHub Copilot app as a hub for moving from issue to pull request. It explains how parallel agent sessions can help teams explore, implement, and review work without constantly switching tools.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=SsFU0w3KrI4)
-
----
-
-### [Ultimate GitHub Copilot CLI tutorial for beginners](https://www.youtube.com/watch?v=rheqk-L7Yes)
-
-**Published**: Jun 21, 2026
-
-This long-form beginner tutorial covers Copilot CLI setup, interactive and non-interactive use, slash commands, MCP servers, and agent workflows. It is a good single starting point if you want a broad introduction to using Copilot from the terminal.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=rheqk-L7Yes)
-
----
-
-### [GitHub Copilot App Launch - Rubber Duck Takeover!](https://www.youtube.com/watch?v=JXw9QXlV50s)
-
-**Published**: Jun 19, 2026
-
-This launch video introduces the general availability of the GitHub Copilot app and its desktop workflow for issue-to-merge development. It highlights parallel sessions, customizable skills, and a unified workspace that keeps repository context close at hand.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=JXw9QXlV50s)
-
----
-
-### [Introducing Copilot CLI and agentic features in JetBrains IDEs](https://www.youtube.com/watch?v=ZpnR3GEah_4)
-
-**Published**: Jun 18, 2026
-
-This walkthrough shows how JetBrains users can connect Copilot CLI to agentic workflows directly inside their IDE. It covers ask, plan, and agent modes, plus customization and debug tooling for more advanced setups.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=ZpnR3GEah_4)
-
----
 
 ## Features & Updates
 
@@ -178,25 +92,53 @@ This walkthrough shows how JetBrains users can connect Copilot CLI to agentic wo
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [New in GitHub Copilot CLI: Bring GitHub right into your terminal](https://www.youtube.com/watch?v=YpgA1hJsNF8)
+### [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo)
 
-**Published**: Jun 23, 2026
+**Published**: Jul 3, 2026
 
-This walkthrough introduces the new GitHub Copilot CLI terminal interface, including tabs for issues, pull requests, and gists. It also shows how slash commands and in-terminal GitHub actions reduce the need to jump back to the browser.
+We're going to talk through the GitHub Changelog, what's new, and experiment with some new tools....
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=YpgA1hJsNF8)
+[Watch on YouTube →](https://www.youtube.com/watch?v=cCFKtW5UiTo)
+
+---
+
+### [How to use the new impeccable skill in the GitHub Copilot app](https://www.youtube.com/watch?v=CRSV0euIn7M)
+
+**Published**: Jun 29, 2026
+
+The GitHub Copilot app now features a built-in impeccable skill to help you polish your projects. In this video, we use it as a design partner to upgrade the UI of PocketCal, an open-source web app. T...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=CRSV0euIn7M)
 
 ---
 
-### [Automating daily workflows with the GitHub Copilot app and MCP](https://www.youtube.com/watch?v=usXv9jJWjvI)
 
-**Published**: Jun 22, 2026
+## Tutorials
 
-This demo shows how the GitHub Copilot app and MCP integrations can automate a morning workflow with scheduled jobs, prioritized triage, and a daily brief. It is a practical look at turning repetitive coordination work into an agent-assisted routine.
+*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=usXv9jJWjvI)
+**When to watch**: You're ready to dive deep into specific features or workflows.
+
+### [How to automate your feedback loop with GitHub Copilot app](https://www.youtube.com/shorts/fwyFMou6nyw)
+
+**Published**: Jun 28, 2026
+
+Managing community feedback does not have to be a full-time manual chore. See how we use GitHub Copilot app to constantly monitor multiple communication streams and repository boards at once. With a s...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/fwyFMou6nyw)
 
 ---
+
+### [The Download: GitHub Copilot app, Anthropic news, and Minecraft](https://www.youtube.com/watch?v=Emflh0fnRCw)
+
+**Published**: Jun 26, 2026
+
+Welcome to another episode of The Download with GPS! This week, we cover the general availability of the new GitHub Copilot desktop app, designed to be your control center for managing multiple AI age...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Emflh0fnRCw)
+
+---
+
 
 ## Agents
 
@@ -204,51 +146,26 @@ This demo shows how the GitHub Copilot app and MCP integrations can automate a m
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [Can the GitHub Copilot app run Doom?](https://www.youtube.com/shorts/aYM1hT0ms2M)
+### [GitHub Copilot Agent is now available in JetBrains AI Assistant](https://www.youtube.com/watch?v=JsRhoZJAIF4)
 
-**Published**: Jun 19, 2026
+**Published**: Jun 30, 2026
 
-This short playfully tests the new GitHub Copilot app by asking it to spin up a Doom-focused canvas and get the game running. It doubles as a fast demo of how flexible the app's agent-first workspace can be.
+JetBrains fans, you can now add GitHub Copilot natively via AI Assistant into your favorite IDE. Using the new agent client protocol support, integrating Copilot takes just a few clicks from the AI ag...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/aYM1hT0ms2M)
-
----
-
-## Other
-
-*Additional videos that don't fit into other categories.*
-
-**When to watch**: You're looking for miscellaneous Copilot content.
-
-### [How physicists at CERN use GitHub to analyze data](https://www.youtube.com/shorts/Ci8etZO6zyo)
-
-**Published**: Jun 24, 2026
-
-This short spotlights how CERN researchers use GitHub to share code, review changes, and coordinate large-scale scientific analysis. It is a concise example of collaborative development practices powering work far beyond traditional app teams.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/Ci8etZO6zyo)
+[Watch on YouTube →](https://www.youtube.com/watch?v=JsRhoZJAIF4)
 
 ---
 
-### [Jueves de Quack: GitHub Copilot App](https://www.youtube.com/watch?v=JAk2Df7sCc4)
+### [Why you need the new GitHub Copilot desktop app](https://www.youtube.com/shorts/An2_I0FV3uc)
 
-**Published**: Jun 19, 2026
+**Published**: Jun 27, 2026
 
-This Spanish-language session introduces the new GitHub Copilot app and walks through what it enables for day-to-day development. Watch it if you want an overview of the product from a community-focused presentation.
+The GitHub Copilot app is officially generally available for macOS, Windows, and Linux. Built as an agent-native desktop experience, it serves as your control center across all GitHub primitives. Stop...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=JAk2Df7sCc4)
-
----
-
-### [RDT: Exploring the GitHub Copilot App](https://www.youtube.com/watch?v=WSjY59L6mSc)
-
-**Published**: Jun 18, 2026
-
-This stream explores the GitHub Copilot app live and shows how the new desktop experience supports agent-driven work. It is useful if you prefer seeing the interface and workflow discussed in a more informal format.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=WSjY59L6mSc)
+[Watch on YouTube →](https://www.youtube.com/shorts/An2_I0FV3uc)
 
 ---
+
 
 ## More Resources
 
