@@ -26,7 +26,7 @@
 
 **Published**: Jul 9, 2026 | **Channel**: GitHub
 
-The GitHub Copilot app now supports bring your own key (BYOK), allowing you to connect custom model providers directly to your workflow. In this tutorial, we show you how to set up local models using Ollama and switch between them in the model picker. You can even run parallel sessions mixing GitHub...
+This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
 
@@ -36,7 +36,7 @@ The GitHub Copilot app now supports bring your own key (BYOK), allowing you to c
 
 **Published**: Jul 8, 2026 | **Channel**: GitHub
 
-Managing GitHub Copilot across a large enterprise requires flexible budgeting that aligns with your organizational structure. In this video, we show you how to map enterprise teams to cost centers so membership stays synchronized automatically. Learn how to configure cost center AI credit pools, app...
+This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=AzuGe_cuCvg)
 
@@ -46,7 +46,7 @@ Managing GitHub Copilot across a large enterprise requires flexible budgeting th
 
 **Published**: Jul 7, 2026 | **Channel**: GitHub
 
-GitHub Copilot just added Kimi K2.7 Code by Moonshot AI to the model lineup. As our very first open-weight model in the Copilot model picker, it offers powerful agentic coding capabilities at a highly efficient price point. Watch Burke Holland explain how to enable it in your model picker and see ho...
+Burke Holland demos Kimi K2.7 Code, GitHub Copilot's first open-weight model, and shows how to enable it from the model picker. The video also walks through using it against a full product requirements document so you can see where it fits in agentic coding workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=uY6tE2SuOP0)
 
@@ -56,7 +56,7 @@ GitHub Copilot just added Kimi K2.7 Code by Moonshot AI to the model lineup. As 
 
 **Published**: Jul 3, 2026 | **Channel**: GitHub
 
-GitHub Copilot code review now offers medium depth reviews in public preview. This update routes your pull requests to a higher reasoning model for longer, more thorough analysis of complex logic, security-sensitive code, and cross-service changes. Watch this quick walkthrough to see how repository ...
+This walkthrough shows how medium-depth Copilot code review uses a higher-reasoning model for more thorough pull request analysis. It also demonstrates the sort of subtle logic bug the feature can catch in complex or security-sensitive changes.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
@@ -75,7 +75,7 @@ GitHub Copilot code review now offers medium depth reviews in public preview. Th
 
 **Published**: Jul 9, 2026
 
-The GitHub Copilot app now supports bring your own key (BYOK), allowing you to connect custom model providers directly to your workflow. In this tutorial, we show you how to set up local models using ...
+This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
 
@@ -85,7 +85,7 @@ The GitHub Copilot app now supports bring your own key (BYOK), allowing you to c
 
 **Published**: Jul 8, 2026
 
-Managing GitHub Copilot across a large enterprise requires flexible budgeting that aligns with your organizational structure. In this video, we show you how to map enterprise teams to cost centers so ...
+This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=AzuGe_cuCvg)
 
@@ -102,7 +102,7 @@ Managing GitHub Copilot across a large enterprise requires flexible budgeting th
 
 **Published**: Jul 7, 2026
 
-GitHub Copilot just added Kimi K2.7 Code by Moonshot AI to the model lineup. As our very first open-weight model in the Copilot model picker, it offers powerful agentic coding capabilities at a highly...
+Burke Holland demos Kimi K2.7 Code, GitHub Copilot's first open-weight model, and shows how to enable it from the model picker. The video also walks through using it against a full product requirements document so you can see where it fits in agentic coding workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=uY6tE2SuOP0)
 
@@ -112,7 +112,7 @@ GitHub Copilot just added Kimi K2.7 Code by Moonshot AI to the model lineup. As 
 
 **Published**: Jul 3, 2026
 
-GitHub Copilot code review now offers medium depth reviews in public preview. This update routes your pull requests to a higher reasoning model for longer, more thorough analysis of complex logic, sec...
+This walkthrough shows how medium-depth Copilot code review uses a higher-reasoning model for more thorough pull request analysis. It also demonstrates the sort of subtle logic bug the feature can catch in complex or security-sensitive changes.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
