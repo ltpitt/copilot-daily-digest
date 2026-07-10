@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: July 03, 2026
+**Last Updated**: July 10, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,7 +10,27 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## July 2026
 
+- **Jul 9, 2026** - [Organization-level targeting for GitHub Code Quality](https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality) (Blog)
+- **Jul 9, 2026** - [OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot](https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot) (Blog)
+- **Jul 9, 2026** - [Ask Copilot for a repository overview](https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview) (Blog)
+- **Jul 9, 2026** - [Bring Your Own Key to the GitHub Copilot app, now available for all Copilot plans](https://www.youtube.com/watch?v=r1Sy8ij_xWQ) (Video)
+- **Jul 8, 2026** - [Innersource security advisories are generally available](https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available) (Blog)
+- **Jul 8, 2026** - [setup-java v5.5.0: signature verification, Kona JDK, and Maven fixes](https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes) (Blog)
+- **Jul 8, 2026** - [GitHub Copilot in Visual Studio Code, June 2026 releases](https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases) (Blog)
+- **Jul 8, 2026** - [GitHub Mobile: Fix merge conflicts with Copilot cloud agent](https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent) (Blog)
+- **Jul 8, 2026** - [Deploy managed Copilot settings via MDM in VS Code and CLI](https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli) (Blog)
+- **Jul 8, 2026** - [npm install-time security and GAT bypass2fa deprecation](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation) (Blog)
+- **Jul 8, 2026** - [Enterprise-managed OpenTelemetry export for VS Code and CLI](https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli) (Blog)
+- **Jul 8, 2026** - [How GitHub Copilot enables zero DNS configuration for GitHub Pages](https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/) (Blog)
+- **Jul 8, 2026** - [How to manage Copilot spend across your enterprise](https://www.youtube.com/watch?v=AzuGe_cuCvg) (Video)
+- **Jul 7, 2026** - [Add review cycles and time to adoption phases in the usage API](https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api) (Blog)
+- **Jul 7, 2026** - [Kimi K2.7 now available for Copilot Business and Enterprise](https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise) (Blog)
+- **Jul 7, 2026** - [GitHub Copilot app available to all](https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all) (Blog)
+- **Jul 7, 2026** - [Per-user budgets for cost centers in the billing UI](https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui) (Blog)
+- **Jul 7, 2026** - [Codex as agent provider and agentic enhancements in JetBrains IDEs](https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides) (Blog)
+- **Jul 7, 2026** - [Kimi K2.7 Code: The first open-weight model in GitHub Copilot](https://www.youtube.com/watch?v=uY6tE2SuOP0) (Video)
 - **Jul 3, 2026** - [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo) (Video)
+- **Jul 3, 2026** - [Catching complex bugs with GitHub Copilot medium depth code review](https://www.youtube.com/watch?v=LGQOu08rR_o) (Video)
 - **Jul 2, 2026** - [Improved accuracy and coverage in Copilot usage metrics reports](https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports) (Blog)
 - **Jul 2, 2026** - [Copilot agent session streaming is now in public preview](https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview) (Blog)
 - **Jul 2, 2026** - [Issue fields are now generally available](https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available) (Blog)
