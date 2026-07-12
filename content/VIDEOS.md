@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: July 03, 2026
+> **Last Updated**: July 10, 2026
 
 > **📊 Library Stats**
-> - 📚 **145** total videos
-> - 🆕 **6** new this month
-> - 📂 **Categories**: Features & Updates (2), Agents (2), Tutorials (2)
+> - 📚 **149** total videos
+> - 🆕 **4** new this month
+> - 📂 **Categories**: Features & Updates (2), Tutorials (2)
 
 ---
 
@@ -15,71 +15,50 @@
 - [📂 Browse by Category](#browse-by-category)
   - [Features & Updates](#features--updates) (2)
   - [Tutorials](#tutorials) (2)
-  - [Agents](#agents) (2)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*6 videos published in the last 30 days*
+*4 videos published in the last 30 days*
 
-### [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo)
+### [Bring Your Own Key to the GitHub Copilot app, now available for all Copilot plans](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
+
+**Published**: Jul 9, 2026 | **Channel**: GitHub
+
+This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
+
+---
+
+### [How to manage Copilot spend across your enterprise](https://www.youtube.com/watch?v=AzuGe_cuCvg)
+
+**Published**: Jul 8, 2026 | **Channel**: GitHub
+
+This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=AzuGe_cuCvg)
+
+---
+
+### [Kimi K2.7 Code: The first open-weight model in GitHub Copilot](https://www.youtube.com/watch?v=uY6tE2SuOP0)
+
+**Published**: Jul 7, 2026 | **Channel**: GitHub
+
+Burke Holland demos Kimi K2.7 Code, GitHub Copilot's first open-weight model, and shows how to enable it from the model picker. The video also walks through using it against a full product requirements document so you can see where it fits in agentic coding workflows.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=uY6tE2SuOP0)
+
+---
+
+### [Catching complex bugs with GitHub Copilot medium depth code review](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
 **Published**: Jul 3, 2026 | **Channel**: GitHub
 
-We're going to talk through the GitHub Changelog, what's new, and experiment with some new tools....
+This walkthrough shows how medium-depth Copilot code review uses a higher-reasoning model for more thorough pull request analysis. It also demonstrates the sort of subtle logic bug the feature can catch in complex or security-sensitive changes.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=cCFKtW5UiTo)
-
----
-
-### [GitHub Copilot Agent is now available in JetBrains AI Assistant](https://www.youtube.com/watch?v=JsRhoZJAIF4)
-
-**Published**: Jun 30, 2026 | **Channel**: GitHub
-
-JetBrains fans, you can now add GitHub Copilot natively via AI Assistant into your favorite IDE. Using the new agent client protocol support, integrating Copilot takes just a few clicks from the AI agents tab. Once enabled, you can use the familiar chat window to summarize projects, check your READM...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=JsRhoZJAIF4)
-
----
-
-### [How to use the new impeccable skill in the GitHub Copilot app](https://www.youtube.com/watch?v=CRSV0euIn7M)
-
-**Published**: Jun 29, 2026 | **Channel**: GitHub
-
-The GitHub Copilot app now features a built-in impeccable skill to help you polish your projects. In this video, we use it as a design partner to upgrade the UI of PocketCal, an open-source web app. The /impeccable skill allows the agent to update fonts, improve drag-and-drop features, and refine ev...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=CRSV0euIn7M)
-
----
-
-### [How to automate your feedback loop with GitHub Copilot app](https://www.youtube.com/shorts/fwyFMou6nyw)
-
-**Published**: Jun 28, 2026 | **Channel**: GitHub
-
-Managing community feedback does not have to be a full-time manual chore. See how we use GitHub Copilot app to constantly monitor multiple communication streams and repository boards at once. With a simple prompt, you can tell your agent to refresh your repository and watch it sort everything into a...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/fwyFMou6nyw)
-
----
-
-### [Why you need the new GitHub Copilot desktop app](https://www.youtube.com/shorts/An2_I0FV3uc)
-
-**Published**: Jun 27, 2026 | **Channel**: GitHub
-
-The GitHub Copilot app is officially generally available for macOS, Windows, and Linux. Built as an agent-native desktop experience, it serves as your control center across all GitHub primitives. Stop losing track of context when running multiple agents across different repositories. Watch how isola...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/An2_I0FV3uc)
-
----
-
-### [The Download: GitHub Copilot app, Anthropic news, and Minecraft](https://www.youtube.com/watch?v=Emflh0fnRCw)
-
-**Published**: Jun 26, 2026 | **Channel**: GitHub
-
-Welcome to another episode of The Download with GPS! This week, we cover the general availability of the new GitHub Copilot desktop app, designed to be your control center for managing multiple AI agents safely. We also discuss the US government directive that led Anthropic to pull their Fable 5 and...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=Emflh0fnRCw)
+[Watch on YouTube →](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
 ---
 
@@ -92,23 +71,23 @@ Welcome to another episode of The Download with GPS! This week, we cover the gen
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Rubber Duck Thursdays! Let's play with canvases in the GitHub Copilot app!](https://www.youtube.com/watch?v=cCFKtW5UiTo)
+### [Bring Your Own Key to the GitHub Copilot app, now available for all Copilot plans](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
 
-**Published**: Jul 3, 2026
+**Published**: Jul 9, 2026
 
-We're going to talk through the GitHub Changelog, what's new, and experiment with some new tools....
+This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=cCFKtW5UiTo)
+[Watch on YouTube →](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
 
 ---
 
-### [How to use the new impeccable skill in the GitHub Copilot app](https://www.youtube.com/watch?v=CRSV0euIn7M)
+### [How to manage Copilot spend across your enterprise](https://www.youtube.com/watch?v=AzuGe_cuCvg)
 
-**Published**: Jun 29, 2026
+**Published**: Jul 8, 2026
 
-The GitHub Copilot app now features a built-in impeccable skill to help you polish your projects. In this video, we use it as a design partner to upgrade the UI of PocketCal, an open-source web app. T...
+This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=CRSV0euIn7M)
+[Watch on YouTube →](https://www.youtube.com/watch?v=AzuGe_cuCvg)
 
 ---
 
@@ -119,50 +98,23 @@ The GitHub Copilot app now features a built-in impeccable skill to help you poli
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [How to automate your feedback loop with GitHub Copilot app](https://www.youtube.com/shorts/fwyFMou6nyw)
+### [Kimi K2.7 Code: The first open-weight model in GitHub Copilot](https://www.youtube.com/watch?v=uY6tE2SuOP0)
 
-**Published**: Jun 28, 2026
+**Published**: Jul 7, 2026
 
-Managing community feedback does not have to be a full-time manual chore. See how we use GitHub Copilot app to constantly monitor multiple communication streams and repository boards at once. With a s...
+Burke Holland demos Kimi K2.7 Code, GitHub Copilot's first open-weight model, and shows how to enable it from the model picker. The video also walks through using it against a full product requirements document so you can see where it fits in agentic coding workflows.
 
-[Watch on YouTube →](https://www.youtube.com/shorts/fwyFMou6nyw)
-
----
-
-### [The Download: GitHub Copilot app, Anthropic news, and Minecraft](https://www.youtube.com/watch?v=Emflh0fnRCw)
-
-**Published**: Jun 26, 2026
-
-Welcome to another episode of The Download with GPS! This week, we cover the general availability of the new GitHub Copilot desktop app, designed to be your control center for managing multiple AI age...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=Emflh0fnRCw)
+[Watch on YouTube →](https://www.youtube.com/watch?v=uY6tE2SuOP0)
 
 ---
 
+### [Catching complex bugs with GitHub Copilot medium depth code review](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
-## Agents
+**Published**: Jul 3, 2026
 
-*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
+This walkthrough shows how medium-depth Copilot code review uses a higher-reasoning model for more thorough pull request analysis. It also demonstrates the sort of subtle logic bug the feature can catch in complex or security-sensitive changes.
 
-**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
-
-### [GitHub Copilot Agent is now available in JetBrains AI Assistant](https://www.youtube.com/watch?v=JsRhoZJAIF4)
-
-**Published**: Jun 30, 2026
-
-JetBrains fans, you can now add GitHub Copilot natively via AI Assistant into your favorite IDE. Using the new agent client protocol support, integrating Copilot takes just a few clicks from the AI ag...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=JsRhoZJAIF4)
-
----
-
-### [Why you need the new GitHub Copilot desktop app](https://www.youtube.com/shorts/An2_I0FV3uc)
-
-**Published**: Jun 27, 2026
-
-The GitHub Copilot app is officially generally available for macOS, Windows, and Linux. Built as an agent-native desktop experience, it serves as your control center across all GitHub primitives. Stop...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/An2_I0FV3uc)
+[Watch on YouTube →](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
 ---
 
