@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: July 10, 2026
+**Last Updated**: July 17, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -10,84 +10,86 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### [Organization-level targeting for GitHub Code Quality](https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality)
-*Jul 9, 2026*
+### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+*Jul 17, 2026*
 
-Organization owners can now roll GitHub Code Quality out gradually by targeting specific repositories instead of the entire organization at once. The new controls make it easier to pilot quality rules with selected repository groups, including groups defined by custom properties.
+Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App.
 
-### [OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot](https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot)
-*Jul 9, 2026*
+### [Repository admins can archive pull requests](https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests)
+*Jul 16, 2026*
 
-GitHub Copilot now offers OpenAI's GPT-5.6 family, giving developers three model options tuned for different workloads. Sol targets deep reasoning, Terra is positioned for everyday agentic coding, and Luna offers a faster, more cost-efficient option.
+Repository admins can now archive pull requests to remove them from public view without permanently deleting them. When a pull request is archived, it is closed and locked. Pull requests can be archived in bulk or on an individual basis.
 
-### [Ask Copilot for a repository overview](https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview)
-*Jul 9, 2026*
+### [Xcode 27 runner image now in public preview](https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview)
+*Jul 16, 2026*
 
-Copilot can now generate a high-level overview when you open an unfamiliar repository on github.com. That gives developers a faster way to understand a project's structure and purpose before they start digging through files.
+You can now build and test your Apple applications against Xcode 27 on GitHub-hosted macOS runners. This is now available in public preview. With early access to the latest Xcode toolchain and Apple SDKs, you can validate your apps against the newest tools, catch compatibility issues sooner, and keep your CI/CD pipelines current.
 
-### [Bring Your Own Key to the GitHub Copilot app, now available for all Copilot plans](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
-*Jul 9, 2026*
+### [Advanced search for Projects is generally available](https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available)
+*Jul 16, 2026*
 
-This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
+The filter bar in GitHub Projects views now supports advanced search, so you can build the exact view you need with logical AND and OR instead of maintaining a separate view for every question. Just type an expression using OR, AND in the filter bar of any project view. You can now filter pull request items in your projects views by their review state using the new reviews: search filter.
 
-### [Innersource security advisories are generally available](https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available)
-*Jul 8, 2026*
+### [Improvements to secret scanning and public monitoring](https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring)
+*Jul 15, 2026*
 
-GitHub Advanced Security enterprise customers can now publish internal security advisories for enterprise-owned repositories. The release adds a private advisory workflow plus REST API support for creating, updating, and withdrawing those vulnerability records.
+This week, we're rolling out several improvements to secret scanning and public monitoring:
+Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend. Secret scanning now blocks VolcEngine secrets with push protection by default.
 
 ---
 
 ## Last 30 Days
 
-### [setup-java v5.5.0: signature verification, Kona JDK, and Maven fixes](https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes)
-*Jul 8, 2026*
+### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+*Jul 15, 2026*
 
-The latest `actions/setup-java` release adds GPG signature verification for downloaded JDKs, support for Kona JDK, and several Maven usability improvements. Teams using GitHub Actions can tighten Java install security while picking up a handful of dependency-management fixes.
+Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course.
 
-### [GitHub Copilot in Visual Studio Code, June 2026 releases](https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases)
-*Jul 8, 2026*
+### [Security reviews now available in the GitHub Copilot app](https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app)
+*Jul 14, 2026*
 
-This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. Highlights focus on smoother agent workflows, clearer usage visibility, and more flexible model selection for daily Copilot use inside the editor.
+You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow. Actionable suggestions you can apply and reverify without leaving Copilot.
 
-### [GitHub Mobile: Fix merge conflicts with Copilot cloud agent](https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent)
-*Jul 8, 2026*
+### [GitHub Copilot for JetBrains expands BYOK capabilities](https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities)
+*Jul 14, 2026*
 
-GitHub Mobile now lets you invoke Copilot cloud agent to resolve pull request merge conflicts from your phone. That gives reviewers and maintainers a practical way to unblock pull requests without waiting to get back to a desktop.
+This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software. We've expanded bring your own key support with custom endpoints.
 
-### [Deploy managed Copilot settings via MDM in VS Code and CLI](https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli)
-*Jul 8, 2026*
+### [Dependabot version updates introduce default package cooldown](https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown)
+*Jul 14, 2026*
 
-Enterprise admins can now deliver Copilot settings through native MDM systems and file-based configuration for VS Code and Copilot CLI. That extends centralized policy control to devices that need local management in addition to server-managed settings.
+Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. New releases are a common entry point for supply chain attacks where a compromised or broken version can reach your dependency updates before maintainers and the community have caught it.
 
-### [npm install-time security and GAT bypass2fa deprecation](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation)
-*Jul 8, 2026*
+### [Code scanning shows AI security detections on pull requests](https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests)
+*Jul 14, 2026*
 
-npm v12 turns on the install-time security protections announced in June and starts deprecating the most sensitive bypass2fa uses for granular access tokens. Teams upgrading get stronger default package-install safeguards and early notice on upcoming token-policy changes.
+GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detections help teams identify and address potential issues in parts of the codebase that previously had no native scanning coverage, all before code is merged.
 
-### [Enterprise-managed OpenTelemetry export for VS Code and CLI](https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli)
-*Jul 8, 2026*
+### [GitHub Copilot in Visual Studio — June update](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update)
+*Jul 14, 2026*
 
-Organizations can now centrally define where Copilot sends OpenTelemetry data for VS Code and Copilot CLI. This helps enterprises route telemetry to approved collectors without asking each developer to hand-configure OTEL environment variables.
+June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Here's with GitHub Copilot in Visual Studio 2026.
 
-### [How GitHub Copilot enables zero DNS configuration for GitHub Pages](https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/)
-*Jul 8, 2026*
+### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+*Jul 13, 2026*
 
-This engineering deep dive explains how Copilot can take a repository from empty state to a live custom domain with HTTPS in minutes. It is useful for developers who want to understand the GitHub Pages workflow without manually editing DNS records.
+GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows.
 
-### [How to manage Copilot spend across your enterprise](https://www.youtube.com/watch?v=AzuGe_cuCvg)
-*Jul 8, 2026*
+### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
+*Jul 12, 2026*
 
-This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
+GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all...
 
-### [Add review cycles and time to adoption phases in the usage API](https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api)
-*Jul 7, 2026*
+### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
+*Jul 11, 2026*
 
-The Copilot usage metrics API now includes review-cycle counts and time-to-review metrics for each AI adoption phase. That gives enterprise and organization teams a clearer view of how code review speed changes as adoption grows.
+The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding...
 
-### [Kimi K2.7 now available for Copilot Business and Enterprise](https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise)
-*Jul 7, 2026*
+### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
+*Jul 11, 2026*
 
-Kimi K2.7 Code is now available to Copilot Business and Enterprise, expanding the open-weight model beyond individual paid plans. Organizations can now evaluate the model for broader agentic coding workflows without waiting for a separate rollout.
+What does open source maintenance actually look like once a project starts to scale?
+In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.
 
 ---
 
