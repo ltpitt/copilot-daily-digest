@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: July 10, 2026
+**Last Updated**: July 17, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,24 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## July 2026
 
+- **Jul 17, 2026** - [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU) (Video)
+- **Jul 16, 2026** - [Repository admins can archive pull requests](https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests) (Blog)
+- **Jul 16, 2026** - [Xcode 27 runner image now in public preview](https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview) (Blog)
+- **Jul 16, 2026** - [Advanced search for Projects is generally available](https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available) (Blog)
+- **Jul 15, 2026** - [Improvements to secret scanning and public monitoring](https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring) (Blog)
+- **Jul 15, 2026** - [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo) (Video)
+- **Jul 14, 2026** - [Security reviews now available in the GitHub Copilot app](https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app) (Blog)
+- **Jul 14, 2026** - [GitHub Copilot for JetBrains expands BYOK capabilities](https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities) (Blog)
+- **Jul 14, 2026** - [Dependabot version updates introduce default package cooldown](https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown) (Blog)
+- **Jul 14, 2026** - [Code scanning shows AI security detections on pull requests](https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests) (Blog)
+- **Jul 14, 2026** - [GitHub Copilot in Visual Studio — June update](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update) (Blog)
+- **Jul 13, 2026** - [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE) (Video)
+- **Jul 12, 2026** - [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus) (Video)
+- **Jul 11, 2026** - [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4) (Video)
+- **Jul 11, 2026** - [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE) (Video)
+- **Jul 10, 2026** - [Better tools made Copilot code review worse. Here’s how we actually improved it.](https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/) (Blog)
+- **Jul 10, 2026** - [Agentic autofix for code scanning alerts in public preview](https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview) (Blog)
+- **Jul 10, 2026** - [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk) (Video)
 - **Jul 9, 2026** - [Organization-level targeting for GitHub Code Quality](https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality) (Blog)
 - **Jul 9, 2026** - [OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot](https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot) (Blog)
 - **Jul 9, 2026** - [Ask Copilot for a repository overview](https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview) (Blog)

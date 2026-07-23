@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: July 10, 2026
+> **Last Updated**: July 17, 2026
 
 > **📊 Library Stats**
-> - 📚 **149** total videos
-> - 🆕 **4** new this month
-> - 📂 **Categories**: Features & Updates (2), Tutorials (2)
+> - 📚 **156** total videos
+> - 🆕 **7** new this month
+> - 📂 **Categories**: Other (3), Getting Started (1), Tutorials (1), Features & Updates (2)
 
 ---
 
@@ -13,56 +13,107 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
+  - [Getting Started](#getting-started) (1)
   - [Features & Updates](#features--updates) (2)
-  - [Tutorials](#tutorials) (2)
+  - [Tutorials](#tutorials) (1)
+  - [Other](#other) (3)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*4 videos published in the last 30 days*
+*7 videos published in the last 30 days*
 
-### [Bring Your Own Key to the GitHub Copilot app, now available for all Copilot plans](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
+### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
 
-**Published**: Jul 9, 2026 | **Channel**: GitHub
+**Published**: Jul 17, 2026 | **Channel**: GitHub
 
-This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
+Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App....
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
-
----
-
-### [How to manage Copilot spend across your enterprise](https://www.youtube.com/watch?v=AzuGe_cuCvg)
-
-**Published**: Jul 8, 2026 | **Channel**: GitHub
-
-This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=AzuGe_cuCvg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=OD11Ubt5YCU)
 
 ---
 
-### [Kimi K2.7 Code: The first open-weight model in GitHub Copilot](https://www.youtube.com/watch?v=uY6tE2SuOP0)
+### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
 
-**Published**: Jul 7, 2026 | **Channel**: GitHub
+**Published**: Jul 15, 2026 | **Channel**: GitHub
 
-Burke Holland demos Kimi K2.7 Code, GitHub Copilot's first open-weight model, and shows how to enable it from the model picker. The video also walks through using it against a full product requirements document so you can see where it fits in agentic coding workflows.
+Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course. You will learn how to organize tasks with issues and projects, automate your workflows with GitHub Actions, and secure your ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=uY6tE2SuOP0)
+[Watch on YouTube →](https://www.youtube.com/watch?v=zZuqjoLEYzo)
 
 ---
 
-### [Catching complex bugs with GitHub Copilot medium depth code review](https://www.youtube.com/watch?v=LGQOu08rR_o)
+### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
 
-**Published**: Jul 3, 2026 | **Channel**: GitHub
+**Published**: Jul 13, 2026 | **Channel**: GitHub
 
-This walkthrough shows how medium-depth Copilot code review uses a higher-reasoning model for more thorough pull request analysis. It also demonstrates the sort of subtle logic bug the feature can catch in complex or security-sensitive changes.
+GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows. When a user reported that green and gray PR checkmarks were indistinguishable, the team realized it was actually a parsing issue. By grouping reviewers based on their impact ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=LGQOu08rR_o)
+[Watch on YouTube →](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+
+---
+
+### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
+
+**Published**: Jul 12, 2026 | **Channel**: GitHub
+
+GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all your repositories. Plus, with integration into the repo issues list, you can see all your metadata at...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/rmzu6Eovgus)
+
+---
+
+### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
+
+**Published**: Jul 11, 2026 | **Channel**: GitHub
+
+The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding sessions with just a few clicks. It also features bring your own key support, allowing you to use the...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/39COZk07Ks4)
+
+---
+
+### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
+
+**Published**: Jul 11, 2026 | **Channel**: GitHub
+
+What does open source maintenance actually look like once a project starts to scale?
+
+In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.ai built the systems behind a fast-growing open source AI project. We’ll dig into contributor workflows, paid quests, AI-assisted PR ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=apxwKja5JWE)
+
+---
+
+### [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+
+**Published**: Jul 10, 2026 | **Channel**: GitHub
+
+Welcome to another episode of The Download! This week, we cover the general availability of the GitHub Copilot app, which now supports free and education plans alongside the bring your own key feature. We also dive into the new GitHub issue fields that let you track structured metadata across your r...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
 
 ---
 
 ## Browse by Category
+
+
+## Getting Started
+
+*New to GitHub Copilot? Start here with introductory content and beginner-friendly guides.*
+
+**When to watch**: You're exploring Copilot for the first time or onboarding new team members.
+
+### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+
+**Published**: Jul 15, 2026
+
+Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course. You will learn how to or...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+
+---
 
 
 ## Features & Updates
@@ -71,23 +122,23 @@ This walkthrough shows how medium-depth Copilot code review uses a higher-reason
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Bring Your Own Key to the GitHub Copilot app, now available for all Copilot plans](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
+### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
 
-**Published**: Jul 9, 2026
+**Published**: Jul 11, 2026
 
-This walkthrough shows how to connect your own model providers to the GitHub Copilot app with bring your own key (BYOK). It covers local Ollama setup, switching models from the picker, and mixing self-hosted and GitHub-hosted sessions.
+The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding s...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=r1Sy8ij_xWQ)
+[Watch on YouTube →](https://www.youtube.com/shorts/39COZk07Ks4)
 
 ---
 
-### [How to manage Copilot spend across your enterprise](https://www.youtube.com/watch?v=AzuGe_cuCvg)
+### [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
 
-**Published**: Jul 8, 2026
+**Published**: Jul 10, 2026
 
-This video walks enterprise admins through cost centers, AI credit pools, and user-level spending caps for Copilot. It is a practical guide to aligning budgets with team structure while keeping membership and spending controls in sync.
+Welcome to another episode of The Download! This week, we cover the general availability of the GitHub Copilot app, which now supports free and education plans alongside the bring your own key feature...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=AzuGe_cuCvg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
 
 ---
 
@@ -98,23 +149,52 @@ This video walks enterprise admins through cost centers, AI credit pools, and us
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [Kimi K2.7 Code: The first open-weight model in GitHub Copilot](https://www.youtube.com/watch?v=uY6tE2SuOP0)
+### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
 
-**Published**: Jul 7, 2026
+**Published**: Jul 12, 2026
 
-Burke Holland demos Kimi K2.7 Code, GitHub Copilot's first open-weight model, and shows how to enable it from the model picker. The video also walks through using it against a full product requirements document so you can see where it fits in agentic coding workflows.
+GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all y...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=uY6tE2SuOP0)
+[Watch on YouTube →](https://www.youtube.com/shorts/rmzu6Eovgus)
 
 ---
 
-### [Catching complex bugs with GitHub Copilot medium depth code review](https://www.youtube.com/watch?v=LGQOu08rR_o)
 
-**Published**: Jul 3, 2026
+## Other
 
-This walkthrough shows how medium-depth Copilot code review uses a higher-reasoning model for more thorough pull request analysis. It also demonstrates the sort of subtle logic bug the feature can catch in complex or security-sensitive changes.
+*Additional videos that don't fit into other categories.*
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=LGQOu08rR_o)
+**When to watch**: You're looking for miscellaneous Copilot content.
+
+### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+
+**Published**: Jul 17, 2026
+
+Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App....
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+
+---
+
+### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+
+**Published**: Jul 13, 2026
+
+GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows. When a user reported that green and gray PR checkmarks were indistinguisha...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+
+---
+
+### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
+
+**Published**: Jul 11, 2026
+
+What does open source maintenance actually look like once a project starts to scale?
+
+In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.ai built the systems behind a fas...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=apxwKja5JWE)
 
 ---
 
