@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: July 17, 2026
+**Last Updated**: July 24, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,7 +10,28 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## July 2026
 
+- **Jul 23, 2026** - [Agent automation controls in GitHub Issues in public preview](https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview) (Blog)
+- **Jul 23, 2026** - [Copilot cloud agent for Linear is now generally available](https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available) (Blog)
+- **Jul 23, 2026** - [GitHub MCP Server supports the next MCP specification](https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification) (Blog)
+- **Jul 23, 2026** - [GitHub Mobile: Fix failing Actions checks with Copilot cloud agent](https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent) (Blog)
+- **Jul 23, 2026** - [Let's build a personal assistant with Copilot CLI](https://www.youtube.com/watch?v=t2XxVXnZD6s) (Video)
+- **Jul 23, 2026** - [Customize your GitHub Copilot for Jira experience](https://www.youtube.com/watch?v=0Q5nBOEMcXA) (Video)
+- **Jul 22, 2026** - [Upcoming GHES change impacting uploading support bundles](https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles) (Blog)
+- **Jul 22, 2026** - [Copilot vs. raw API access: What are you actually paying for?](https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/) (Blog)
+- **Jul 22, 2026** - [New Copilot usage metrics impact dashboard](https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard) (Blog)
+- **Jul 22, 2026** - [How to turn Jira tickets into draft PRs with GitHub Copilot](https://www.youtube.com/watch?v=GyapkL6LVZk) (Video)
+- **Jul 21, 2026** - [Gemini 3.6 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot) (Blog)
+- **Jul 21, 2026** - [How to build interactive experiences with canvases](https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/) (Blog)
+- **Jul 21, 2026** - [How to run multiple AI coding agents in parallel](https://www.youtube.com/shorts/w3lDhsZ1pfo) (Video)
+- **Jul 21, 2026** - [Meet the GitHub Copilot app: Your new AI desktop assistant](https://www.youtube.com/watch?v=LsA4vIX_3UY) (Video)
+- **Jul 20, 2026** - [AI credit pools for cost centers in the billing UI](https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui) (Blog)
+- **Jul 20, 2026** - [Copilot users can now see AI credits used per billing cycle](https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle) (Blog)
+- **Jul 20, 2026** - [How to use GitHub Code Quality to ship reliable code](https://www.youtube.com/watch?v=NNSghZ84GSU) (Video)
 - **Jul 17, 2026** - [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU) (Video)
+- **Jul 17, 2026** - [Repository-level GitHub Copilot usage metrics generally available](https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available) (Blog)
+- **Jul 17, 2026** - [GitHub Copilot app now available in the usage metrics API](https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api) (Blog)
+- **Jul 17, 2026** - [Copilot code review: Customization and configurability improvements](https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements) (Blog)
+- **Jul 17, 2026** - [Set up GitHub Copilot for Jira in under 3 minutes](https://www.youtube.com/watch?v=NsnAdCgh6cg) (Video)
 - **Jul 16, 2026** - [Repository admins can archive pull requests](https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests) (Blog)
 - **Jul 16, 2026** - [Xcode 27 runner image now in public preview](https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview) (Blog)
 - **Jul 16, 2026** - [Advanced search for Projects is generally available](https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available) (Blog)
