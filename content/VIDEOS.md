@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: July 17, 2026
+> **Last Updated**: July 31, 2026
 
 > **📊 Library Stats**
-> - 📚 **156** total videos
+> - 📚 **163** total videos
 > - 🆕 **7** new this month
-> - 📂 **Categories**: Other (3), Getting Started (1), Tutorials (1), Features & Updates (2)
+> - 📂 **Categories**: Other (1), Features & Updates (3), Getting Started (2), Agents (1)
 
 ---
 
@@ -13,10 +13,10 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Features & Updates](#features--updates) (2)
-  - [Tutorials](#tutorials) (1)
-  - [Other](#other) (3)
+  - [Getting Started](#getting-started) (2)
+  - [Features & Updates](#features--updates) (3)
+  - [Agents](#agents) (1)
+  - [Other](#other) (1)
 
 ---
 
@@ -24,75 +24,73 @@
 
 *7 videos published in the last 30 days*
 
-### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+### [Stacked PRs are LIVE on GitHub! | Rubber Duck Thursdays](https://www.youtube.com/watch?v=6SMrPRb-vdY)
 
-**Published**: Jul 17, 2026 | **Channel**: GitHub
+**Published**: Jul 31, 2026 | **Channel**: GitHub
 
-Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App....
+Come hang out with the team and talk about Stacked PRs!...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=OD11Ubt5YCU)
-
----
-
-### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
-
-**Published**: Jul 15, 2026 | **Channel**: GitHub
-
-Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course. You will learn how to organize tasks with issues and projects, automate your workflows with GitHub Actions, and secure your ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+[Watch on YouTube →](https://www.youtube.com/watch?v=6SMrPRb-vdY)
 
 ---
 
-### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+### [RDT: Building agent Skills and the new MCP release](https://www.youtube.com/watch?v=2AZJbyD-9ME)
 
-**Published**: Jul 13, 2026 | **Channel**: GitHub
+**Published**: Jul 30, 2026 | **Channel**: GitHub
 
-GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows. When a user reported that green and gray PR checkmarks were indistinguishable, the team realized it was actually a parsing issue. By grouping reviewers based on their impact ...
+In this stream we'll learn what an agent Skill is and how to build one in GitHub Copilot. We'll also discuss the new release of MCP that came out this week...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
-
----
-
-### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
-
-**Published**: Jul 12, 2026 | **Channel**: GitHub
-
-GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all your repositories. Plus, with integration into the repo issues list, you can see all your metadata at...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/rmzu6Eovgus)
+[Watch on YouTube →](https://www.youtube.com/watch?v=2AZJbyD-9ME)
 
 ---
 
-### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
+### [GitHub stacked PRs are now available](https://www.youtube.com/watch?v=kzQzmL2o8vk)
 
-**Published**: Jul 11, 2026 | **Channel**: GitHub
+**Published**: Jul 30, 2026 | **Channel**: GitHub
 
-The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding sessions with just a few clicks. It also features bring your own key support, allowing you to use the...
+Have you ever started with one small feature and ended up with a massive pull request? Large PRs are slower to review, harder to debug, and often lead to misunderstandings. Today, we are announcing GitHub stacked PRs to help you break down your work into clean, manageable layers. Watch this video to...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/39COZk07Ks4)
-
----
-
-### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
-
-**Published**: Jul 11, 2026 | **Channel**: GitHub
-
-What does open source maintenance actually look like once a project starts to scale?
-
-In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.ai built the systems behind a fast-growing open source AI project. We’ll dig into contributor workflows, paid quests, AI-assisted PR ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=apxwKja5JWE)
+[Watch on YouTube →](https://www.youtube.com/watch?v=kzQzmL2o8vk)
 
 ---
 
-### [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+### [How to set up custom themes, sounds, and MCP servers in the GitHub Copilot app](https://www.youtube.com/watch?v=qEeo__k2IIg)
 
-**Published**: Jul 10, 2026 | **Channel**: GitHub
+**Published**: Jul 29, 2026 | **Channel**: GitHub
 
-Welcome to another episode of The Download! This week, we cover the general availability of the GitHub Copilot app, which now supports free and education plans alongside the bring your own key feature. We also dive into the new GitHub issue fields that let you track structured metadata across your r...
+Tired of default app settings? In this video, we show you how to fully customize the GitHub Copilot app to match your personal workflow. Learn how to change themes and notification sounds, configure voice dictation models, and plug in custom MCP servers or local AI models via bring your own key. We ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+[Watch on YouTube →](https://www.youtube.com/watch?v=qEeo__k2IIg)
+
+---
+
+### [Write your first prompt in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=WrMt6T8yu18)
+
+**Published**: Jul 28, 2026 | **Channel**: GitHub
+
+Opening a new tool can feel intimidating, but starting a session in the GitHub Copilot app is simple. In this episode, we walk through how to write your very first prompt and add a project context using a local folder or a GitHub repository. We also explore how to select different AI models and use ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=WrMt6T8yu18)
+
+---
+
+### [The Download: Kimi K3, TypeScript 7 native compiler, VS Code agent host & more](https://www.youtube.com/watch?v=KYJwda0NXGs)
+
+**Published**: Jul 24, 2026 | **Channel**: GitHub
+
+Welcome back to another episode of The Download! This week, we cover TypeScript 7 shipping a new native Go compiler that delivers massive 8x to 12x speedups for large codebases. We also explore VS Code 1.129's dedicated agent host runtime, Kimi K3's 2.8 trillion parameter model, and the open sourcin...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=KYJwda0NXGs)
+
+---
+
+### [Let's build a personal assistant with Copilot CLI](https://www.youtube.com/watch?v=t2XxVXnZD6s)
+
+**Published**: Jul 23, 2026 | **Channel**: GitHub
+
+In this stream we'll experiment with building a personal assistant with GitHub Copilot CLI. We'll use workflows and experiment with features....
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=t2XxVXnZD6s)
 
 ---
 
@@ -105,13 +103,23 @@ Welcome to another episode of The Download! This week, we cover the general avai
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+### [How to set up custom themes, sounds, and MCP servers in the GitHub Copilot app](https://www.youtube.com/watch?v=qEeo__k2IIg)
 
-**Published**: Jul 15, 2026
+**Published**: Jul 29, 2026
 
-Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course. You will learn how to or...
+Tired of default app settings? In this video, we show you how to fully customize the GitHub Copilot app to match your personal workflow. Learn how to change themes and notification sounds, configure v...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+[Watch on YouTube →](https://www.youtube.com/watch?v=qEeo__k2IIg)
+
+---
+
+### [Write your first prompt in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=WrMt6T8yu18)
+
+**Published**: Jul 28, 2026
+
+Opening a new tool can feel intimidating, but starting a session in the GitHub Copilot app is simple. In this episode, we walk through how to write your very first prompt and add a project context usi...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=WrMt6T8yu18)
 
 ---
 
@@ -122,40 +130,50 @@ Ready to start your journey as a developer? This complete compilation brings tog
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
+### [RDT: Building agent Skills and the new MCP release](https://www.youtube.com/watch?v=2AZJbyD-9ME)
 
-**Published**: Jul 11, 2026
+**Published**: Jul 30, 2026
 
-The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding s...
+In this stream we'll learn what an agent Skill is and how to build one in GitHub Copilot. We'll also discuss the new release of MCP that came out this week...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/39COZk07Ks4)
-
----
-
-### [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
-
-**Published**: Jul 10, 2026
-
-Welcome to another episode of The Download! This week, we cover the general availability of the GitHub Copilot app, which now supports free and education plans alongside the bring your own key feature...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+[Watch on YouTube →](https://www.youtube.com/watch?v=2AZJbyD-9ME)
 
 ---
 
+### [GitHub stacked PRs are now available](https://www.youtube.com/watch?v=kzQzmL2o8vk)
 
-## Tutorials
+**Published**: Jul 30, 2026
 
-*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
+Have you ever started with one small feature and ended up with a massive pull request? Large PRs are slower to review, harder to debug, and often lead to misunderstandings. Today, we are announcing Gi...
 
-**When to watch**: You're ready to dive deep into specific features or workflows.
+[Watch on YouTube →](https://www.youtube.com/watch?v=kzQzmL2o8vk)
 
-### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
+---
 
-**Published**: Jul 12, 2026
+### [Let's build a personal assistant with Copilot CLI](https://www.youtube.com/watch?v=t2XxVXnZD6s)
 
-GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all y...
+**Published**: Jul 23, 2026
 
-[Watch on YouTube →](https://www.youtube.com/shorts/rmzu6Eovgus)
+In this stream we'll experiment with building a personal assistant with GitHub Copilot CLI. We'll use workflows and experiment with features....
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=t2XxVXnZD6s)
+
+---
+
+
+## Agents
+
+*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
+
+**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
+
+### [The Download: Kimi K3, TypeScript 7 native compiler, VS Code agent host & more](https://www.youtube.com/watch?v=KYJwda0NXGs)
+
+**Published**: Jul 24, 2026
+
+Welcome back to another episode of The Download! This week, we cover TypeScript 7 shipping a new native Go compiler that delivers massive 8x to 12x speedups for large codebases. We also explore VS Cod...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=KYJwda0NXGs)
 
 ---
 
@@ -166,35 +184,13 @@ GitHub issue fields are officially generally available for everyone. You can now
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+### [Stacked PRs are LIVE on GitHub! | Rubber Duck Thursdays](https://www.youtube.com/watch?v=6SMrPRb-vdY)
 
-**Published**: Jul 17, 2026
+**Published**: Jul 31, 2026
 
-Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App....
+Come hang out with the team and talk about Stacked PRs!...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=OD11Ubt5YCU)
-
----
-
-### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
-
-**Published**: Jul 13, 2026
-
-GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows. When a user reported that green and gray PR checkmarks were indistinguisha...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
-
----
-
-### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
-
-**Published**: Jul 11, 2026
-
-What does open source maintenance actually look like once a project starts to scale?
-
-In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.ai built the systems behind a fas...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=apxwKja5JWE)
+[Watch on YouTube →](https://www.youtube.com/watch?v=6SMrPRb-vdY)
 
 ---
 
