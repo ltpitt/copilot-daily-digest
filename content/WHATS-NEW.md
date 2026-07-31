@@ -13,7 +13,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 ### [Stacked PRs are LIVE on GitHub! | Rubber Duck Thursdays](https://www.youtube.com/watch?v=6SMrPRb-vdY)
 *Jul 31, 2026*
 
-Come hang out with the team and talk about Stacked PRs!
+This Rubber Duck Thursdays session walks through how stacked pull requests are changing day-to-day review workflows on GitHub. You'll see practical guidance for splitting large changes into smaller, reviewable layers and keeping delivery momentum.
 
 ### [Stacked pull requests are now in public preview](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview)
 *Jul 30, 2026*
@@ -23,7 +23,7 @@ Stacked pull requests break large changes into small, reviewable pull requests. 
 ### [Stacked sessions and pull requests in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/)
 *Jul 30, 2026*
 
-I want you to look at this screenshot for a moment from the GitHub Copilot app. It's a small one, it's got a lot of icons, and it tells the most glorious story that I'm really excited about. This image is a set of stacked sessions.
+This engineering deep dive shows how stacked sessions and stacked pull requests work together in the GitHub Copilot app. It explains how to break a modernization effort into linked, manageable steps so teams can review and ship incrementally.
 
 ### [Reference same-repository actions with self-repository syntax](https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax)
 *Jul 30, 2026*
@@ -42,7 +42,7 @@ As of July 30, 2026, GitHub Models is now retired. The playground, model catalog
 ### [GitHub Copilot in Visual Studio — July update](https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update)
 *Jul 30, 2026*
 
-July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the .NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Here's with GitHub Copilot in Visual Studio 2026.
+The July Visual Studio update introduces a Copilot SDK-based agent, integrated .NET and Azure expertise, and more controls for team-specific workflows. It highlights practical improvements that make Copilot in Visual Studio easier to tailor for enterprise development.
 
 ### [GitHub Copilot in Visual Studio Code, July 2026 releases](https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases)
 *Jul 30, 2026*
@@ -57,7 +57,7 @@ Enterprises and organizations can now restrict which devices are eligible to hos
 ### [RDT: Building agent Skills and the new MCP release](https://www.youtube.com/watch?v=2AZJbyD-9ME)
 *Jul 30, 2026*
 
-In this stream we'll learn what an agent Skill is and how to build one in GitHub Copilot. We'll also discuss the new release of MCP that came out this week
+This session explains what Copilot agent skills are and demonstrates how to build one for real workflows. It also covers key updates in the latest MCP release so teams can connect more tooling into Copilot-driven development.
 
 ### [GitHub stacked PRs are now available](https://www.youtube.com/watch?v=kzQzmL2o8vk)
 *Jul 30, 2026*
@@ -82,7 +82,7 @@ CodeQL is the static analysis engine behind GitHub code scanning, which finds an
 ### [How to set up custom themes, sounds, and MCP servers in the GitHub Copilot app](https://www.youtube.com/watch?v=qEeo__k2IIg)
 *Jul 29, 2026*
 
-Tired of default app settings? In this video, we show you how to fully customize the GitHub Copilot app to match your personal workflow.
+This tutorial covers customizing the GitHub Copilot app with themes, sounds, and MCP server integrations. It gives a practical walkthrough for adapting the app to your team's preferences and existing toolchain.
 
 ### [GitHub Copilot app usage metrics now expand across report rollups](https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups)
 *Jul 28, 2026*
