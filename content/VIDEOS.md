@@ -27,7 +27,7 @@
 
 **Published**: Aug 6, 2026 | **Channel**: GitHub
 
-Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other. Learn how to install the gh-stack CLI extension, navigate layers with t...
+Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other. Learn how to install the gh-stack CLI extension, navigate layers with the terminal UI, and leverage Copilot to auto-generate tests within your stack. See how easy it is to ship code piece by piece and merge an entire stack in one click.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=jMuoFUzxB8g)
 
@@ -37,7 +37,7 @@ Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product
 
 **Published**: Aug 5, 2026 | **Channel**: GitHub
 
-When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis. Watch how this tool helps the legal team check complex clau...
+When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis. Watch how this tool helps the legal team check complex clauses and act on AI outputs with confidence. Now, every lawyer at GitHub is using the terminal to streamline their daily workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=-32wLbC973w)
 
@@ -47,7 +47,7 @@ When the cost of error is high, trust is everything. Dan, Director, Senior Corpo
 
 **Published**: Aug 4, 2026 | **Channel**: GitHub
 
-Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Page...
+Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Pages to design and deploy software without waiting for engineering resources.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=nzj0JOlyhOE)
 
@@ -57,7 +57,7 @@ Victoria is an operations manager on the GitHub legal team with no technical bac
 
 **Published**: Aug 4, 2026 | **Channel**: GitHub
 
-Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and ...
+Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and table layouts, and kick off agent sessions directly from your work items.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=h9g4umRfgn0)
 
@@ -67,9 +67,7 @@ Managing multiple tasks across repositories can quickly feel overwhelming. In ep
 
 **Published**: Aug 3, 2026 | **Channel**: GitHub
 
-Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub’s biggest developer event of the year.
-
-We’ll share the speakers, sessions, and surprises headed to San Francisco this October 28–29. Plus, we’re announcing a new community opportuni...
+Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub's biggest developer event of the year. We'll share the speakers, sessions, and surprises headed to San Francisco this October 28–29. Plus, we're announcing a new community opportunity to help shape GitHub Universe.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=THXbfE7m9iM)
 
@@ -79,7 +77,7 @@ We’ll share the speakers, sessions, and surprises headed to San Francisco this
 
 **Published**: Aug 3, 2026 | **Channel**: GitHub
 
-When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We demonstrate how gh stack modify allows you to fold redundant layers together and rename them before sub...
+When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We demonstrate how gh stack modify allows you to fold redundant layers together and rename them before submitting. Once ready, use gh stack submit to open your pull requests and merge them sequentially on GitHub.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=VpK0vATl3FA)
 
@@ -89,7 +87,7 @@ When working with stacked PRs, every layer needs to make sense on its own. In th
 
 **Published**: Aug 2, 2026 | **Channel**: GitHub
 
-In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, extensible framework that developers can truly build on. From tweaking core components to architecti...
+In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, extensible framework that developers can truly build on. From tweaking core components to architecting substantial applications, it opens up new possibilities for open source software.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/fj2_OcZbumE)
 
@@ -99,7 +97,7 @@ In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like
 
 **Published**: Aug 1, 2026 | **Channel**: GitHub
 
-Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply talk through your ideas and watch as your voice is instantly converted into text. Stop staring at a bl...
+Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply talk through your ideas and watch as your voice is instantly converted into text. Stop staring at a blank prompt box; check out our Copilot app beginner series to learn how natural voice prompting can be!
 
 [Watch on YouTube →](https://www.youtube.com/shorts/BOSujC3TrjU)
 
@@ -118,7 +116,7 @@ Inspiration is messy, and typing out complex thoughts can slow you down. In this
 
 **Published**: Aug 6, 2026
 
-Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that...
+Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other. Learn how to install the gh-stack CLI extension, navigate layers with the terminal UI, and leverage Copilot to auto-generate tests within your stack. See how easy it is to ship code piece by piece and merge an entire stack in one click.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=jMuoFUzxB8g)
 
@@ -128,7 +126,7 @@ Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product
 
 **Published**: Aug 4, 2026
 
-Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission ...
+Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and table layouts, and kick off agent sessions directly from your work items.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=h9g4umRfgn0)
 
@@ -138,7 +136,7 @@ Managing multiple tasks across repositories can quickly feel overwhelming. In ep
 
 **Published**: Aug 1, 2026
 
-Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply ta...
+Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply talk through your ideas and watch as your voice is instantly converted into text. Stop staring at a blank prompt box; check out our Copilot app beginner series to learn how natural voice prompting can be!
 
 [Watch on YouTube →](https://www.youtube.com/shorts/BOSujC3TrjU)
 
@@ -155,7 +153,7 @@ Inspiration is messy, and typing out complex thoughts can slow you down. In this
 
 **Published**: Aug 3, 2026
 
-When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We dem...
+When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We demonstrate how gh stack modify allows you to fold redundant layers together and rename them before submitting. Once ready, use gh stack submit to open your pull requests and merge them sequentially on GitHub.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=VpK0vATl3FA)
 
@@ -172,7 +170,7 @@ When working with stacked PRs, every layer needs to make sense on its own. In th
 
 **Published**: Aug 5, 2026
 
-When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of...
+When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis. Watch how this tool helps the legal team check complex clauses and act on AI outputs with confidence. Now, every lawyer at GitHub is using the terminal to streamline their daily workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=-32wLbC973w)
 
@@ -182,7 +180,7 @@ When the cost of error is high, trust is everything. Dan, Director, Senior Corpo
 
 **Published**: Aug 4, 2026
 
-Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovati...
+Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Pages to design and deploy software without waiting for engineering resources.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=nzj0JOlyhOE)
 
@@ -192,9 +190,7 @@ Victoria is an operations manager on the GitHub legal team with no technical bac
 
 **Published**: Aug 3, 2026
 
-Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub’s biggest developer event of the year.
-
-We’ll share the speakers, sessions, and su...
+Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub's biggest developer event of the year. We'll share the speakers, sessions, and surprises headed to San Francisco this October 28–29. Plus, we're announcing a new community opportunity to help shape GitHub Universe.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=THXbfE7m9iM)
 
@@ -204,7 +200,7 @@ We’ll share the speakers, sessions, and su...
 
 **Published**: Aug 2, 2026
 
-In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, ...
+In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, extensible framework that developers can truly build on. From tweaking core components to architecting substantial applications, it opens up new possibilities for open source software.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/fj2_OcZbumE)
 
