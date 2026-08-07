@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: July 17, 2026
+> **Last Updated**: August 07, 2026
 
 > **📊 Library Stats**
-> - 📚 **156** total videos
-> - 🆕 **7** new this month
-> - 📂 **Categories**: Other (3), Getting Started (1), Tutorials (1), Features & Updates (2)
+> - 📚 **164** total videos
+> - 🆕 **8** new this month
+> - 📂 **Categories**: Getting Started (3), Other (4), Tutorials (1)
 
 ---
 
@@ -13,86 +13,95 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Features & Updates](#features--updates) (2)
+  - [Getting Started](#getting-started) (3)
   - [Tutorials](#tutorials) (1)
-  - [Other](#other) (3)
+  - [Other](#other) (4)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*7 videos published in the last 30 days*
+*8 videos published in the last 30 days*
 
-### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+### [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g)
 
-**Published**: Jul 17, 2026 | **Channel**: GitHub
+**Published**: Aug 6, 2026 | **Channel**: GitHub
 
-Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App....
+Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other. Learn how to install the gh-stack CLI extension, navigate layers with t...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=OD11Ubt5YCU)
-
----
-
-### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
-
-**Published**: Jul 15, 2026 | **Channel**: GitHub
-
-Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course. You will learn how to organize tasks with issues and projects, automate your workflows with GitHub Actions, and secure your ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+[Watch on YouTube →](https://www.youtube.com/watch?v=jMuoFUzxB8g)
 
 ---
 
-### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+### [How a GitHub lawyer uses Copilot CLI to verify AI outputs](https://www.youtube.com/watch?v=-32wLbC973w)
 
-**Published**: Jul 13, 2026 | **Channel**: GitHub
+**Published**: Aug 5, 2026 | **Channel**: GitHub
 
-GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows. When a user reported that green and gray PR checkmarks were indistinguishable, the team realized it was actually a parsing issue. By grouping reviewers based on their impact ...
+When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis. Watch how this tool helps the legal team check complex clau...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
-
----
-
-### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
-
-**Published**: Jul 12, 2026 | **Channel**: GitHub
-
-GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all your repositories. Plus, with integration into the repo issues list, you can see all your metadata at...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/rmzu6Eovgus)
+[Watch on YouTube →](https://www.youtube.com/watch?v=-32wLbC973w)
 
 ---
 
-### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
+### [How a lawyer built an internal tool using GitHub Copilot CLI](https://www.youtube.com/watch?v=nzj0JOlyhOE)
 
-**Published**: Jul 11, 2026 | **Channel**: GitHub
+**Published**: Aug 4, 2026 | **Channel**: GitHub
 
-The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding sessions with just a few clicks. It also features bring your own key support, allowing you to use the...
+Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Page...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/39COZk07Ks4)
-
----
-
-### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
-
-**Published**: Jul 11, 2026 | **Channel**: GitHub
-
-What does open source maintenance actually look like once a project starts to scale?
-
-In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.ai built the systems behind a fast-growing open source AI project. We’ll dig into contributor workflows, paid quests, AI-assisted PR ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=apxwKja5JWE)
+[Watch on YouTube →](https://www.youtube.com/watch?v=nzj0JOlyhOE)
 
 ---
 
-### [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+### [The My work tab: your mission control in the GitHub Copilot app](https://www.youtube.com/watch?v=h9g4umRfgn0)
 
-**Published**: Jul 10, 2026 | **Channel**: GitHub
+**Published**: Aug 4, 2026 | **Channel**: GitHub
 
-Welcome to another episode of The Download! This week, we cover the general availability of the GitHub Copilot app, which now supports free and education plans alongside the bring your own key feature. We also dive into the new GitHub issue fields that let you track structured metadata across your r...
+Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+[Watch on YouTube →](https://www.youtube.com/watch?v=h9g4umRfgn0)
+
+---
+
+### [Inside GitHub Universe 2026](https://www.youtube.com/watch?v=THXbfE7m9iM)
+
+**Published**: Aug 3, 2026 | **Channel**: GitHub
+
+Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub’s biggest developer event of the year.
+
+We’ll share the speakers, sessions, and surprises headed to San Francisco this October 28–29. Plus, we’re announcing a new community opportuni...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=THXbfE7m9iM)
+
+---
+
+### [How to modify and submit stacked PRs with the GitHub CLI](https://www.youtube.com/watch?v=VpK0vATl3FA)
+
+**Published**: Aug 3, 2026 | **Channel**: GitHub
+
+When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We demonstrate how gh stack modify allows you to fold redundant layers together and rename them before sub...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=VpK0vATl3FA)
+
+---
+
+### [Why OpenClaw feels like the Linux of AI](https://www.youtube.com/shorts/fj2_OcZbumE)
+
+**Published**: Aug 2, 2026 | **Channel**: GitHub
+
+In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, extensible framework that developers can truly build on. From tweaking core components to architecti...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/fj2_OcZbumE)
+
+---
+
+### [How to use voice prompting in the GitHub Copilot app](https://www.youtube.com/shorts/BOSujC3TrjU)
+
+**Published**: Aug 1, 2026 | **Channel**: GitHub
+
+Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply talk through your ideas and watch as your voice is instantly converted into text. Stop staring at a bl...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/BOSujC3TrjU)
 
 ---
 
@@ -105,40 +114,33 @@ Welcome to another episode of The Download! This week, we cover the general avai
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [A complete beginner's guide to mastering GitHub](https://www.youtube.com/watch?v=zZuqjoLEYzo)
+### [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g)
 
-**Published**: Jul 15, 2026
+**Published**: Aug 6, 2026
 
-Ready to start your journey as a developer? This complete compilation brings together every episode of our GitHub for beginners series season 3 into one ultimate crash course. You will learn how to or...
+Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=zZuqjoLEYzo)
-
----
-
-
-## Features & Updates
-
-*Discover new features, product announcements, capability releases, and the latest updates.*
-
-**When to watch**: You want to stay current with new capabilities and improvements.
-
-### [GitHub Copilot app is now available on free plans](https://www.youtube.com/shorts/39COZk07Ks4)
-
-**Published**: Jul 11, 2026
-
-The GitHub Copilot app is officially available across every plan, now including Copilot Free and GitHub Education. Built for macOS, Windows, and Linux, the desktop app lets you launch agentic coding s...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/39COZk07Ks4)
+[Watch on YouTube →](https://www.youtube.com/watch?v=jMuoFUzxB8g)
 
 ---
 
-### [The Download: GitHub Copilot app, GitHub Universe, new HTTP query method & more](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+### [The My work tab: your mission control in the GitHub Copilot app](https://www.youtube.com/watch?v=h9g4umRfgn0)
 
-**Published**: Jul 10, 2026
+**Published**: Aug 4, 2026
 
-Welcome to another episode of The Download! This week, we cover the general availability of the GitHub Copilot app, which now supports free and education plans alongside the bring your own key feature...
+Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=ZOqn2ZfoRQk)
+[Watch on YouTube →](https://www.youtube.com/watch?v=h9g4umRfgn0)
+
+---
+
+### [How to use voice prompting in the GitHub Copilot app](https://www.youtube.com/shorts/BOSujC3TrjU)
+
+**Published**: Aug 1, 2026
+
+Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply ta...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/BOSujC3TrjU)
 
 ---
 
@@ -149,13 +151,13 @@ Welcome to another episode of The Download! This week, we cover the general avai
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [GitHub issue fields are now generally available](https://www.youtube.com/shorts/rmzu6Eovgus)
+### [How to modify and submit stacked PRs with the GitHub CLI](https://www.youtube.com/watch?v=VpK0vATl3FA)
 
-**Published**: Jul 12, 2026
+**Published**: Aug 3, 2026
 
-GitHub issue fields are officially generally available for everyone. You can now bring structured, typed metadata to your issues to easily track priority, effort, dates, and custom values across all y...
+When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We dem...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/rmzu6Eovgus)
+[Watch on YouTube →](https://www.youtube.com/watch?v=VpK0vATl3FA)
 
 ---
 
@@ -166,35 +168,45 @@ GitHub issue fields are officially generally available for everyone. You can now
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU)
+### [How a GitHub lawyer uses Copilot CLI to verify AI outputs](https://www.youtube.com/watch?v=-32wLbC973w)
 
-**Published**: Jul 17, 2026
+**Published**: Aug 5, 2026
 
-Join us live as we try out the new GPT-5.6 models (Luna, Terra, Sol) in the GitHub Copilot App....
+When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=OD11Ubt5YCU)
-
----
-
-### [Fixing accessibility issues on GitHub pull requests](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
-
-**Published**: Jul 13, 2026
-
-GitHub engineering manager Helen Hou-Sandí shares how the Maintainer Tiny Wins initiative is improving open source workflows. When a user reported that green and gray PR checkmarks were indistinguisha...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=WBPFJ9OhtEE)
+[Watch on YouTube →](https://www.youtube.com/watch?v=-32wLbC973w)
 
 ---
 
-### [Open Source Friday: Building the Contributor Pipeline at Pollinations.ai](https://www.youtube.com/watch?v=apxwKja5JWE)
+### [How a lawyer built an internal tool using GitHub Copilot CLI](https://www.youtube.com/watch?v=nzj0JOlyhOE)
 
-**Published**: Jul 11, 2026
+**Published**: Aug 4, 2026
 
-What does open source maintenance actually look like once a project starts to scale?
+Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovati...
 
-In this Open Source Friday stream, Ayushman Bhattacharya shares how Pollinations.ai built the systems behind a fas...
+[Watch on YouTube →](https://www.youtube.com/watch?v=nzj0JOlyhOE)
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=apxwKja5JWE)
+---
+
+### [Inside GitHub Universe 2026](https://www.youtube.com/watch?v=THXbfE7m9iM)
+
+**Published**: Aug 3, 2026
+
+Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub’s biggest developer event of the year.
+
+We’ll share the speakers, sessions, and su...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=THXbfE7m9iM)
+
+---
+
+### [Why OpenClaw feels like the Linux of AI](https://www.youtube.com/shorts/fj2_OcZbumE)
+
+**Published**: Aug 2, 2026
+
+In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/fj2_OcZbumE)
 
 ---
 
