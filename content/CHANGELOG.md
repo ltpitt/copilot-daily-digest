@@ -2,14 +2,46 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: July 17, 2026
+**Last Updated**: August 07, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## August 2026
+
+- **Aug 6, 2026** - [A guide to slash commands in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/) (Blog)
+- **Aug 6, 2026** - [Kimi K3 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot) (Blog)
+- **Aug 6, 2026** - [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g) (Video)
+- **Aug 5, 2026** - [How a GitHub lawyer uses Copilot CLI to verify AI outputs](https://www.youtube.com/watch?v=-32wLbC973w) (Video)
+- **Aug 4, 2026** - [How the GitHub legal team used Copilot CLI to streamline their workflows](https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/) (Blog)
+- **Aug 4, 2026** - [Retiring the Copilot Billing Preview app](https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app) (Blog)
+- **Aug 4, 2026** - [Code coverage automatic enablement in Code Quality settings](https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings) (Blog)
+- **Aug 4, 2026** - [Customize code scanning default setup at scale](https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale) (Blog)
+- **Aug 4, 2026** - [Customize Dependabot pull request branch names](https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names) (Blog)
+- **Aug 4, 2026** - [Upcoming deprecation of GitHub Spark on github.com](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com) (Blog)
+- **Aug 4, 2026** - [CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support](https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support) (Blog)
+- **Aug 4, 2026** - [How a lawyer built an internal tool using GitHub Copilot CLI](https://www.youtube.com/watch?v=nzj0JOlyhOE) (Video)
+- **Aug 4, 2026** - [The My work tab: your mission control in the GitHub Copilot app](https://www.youtube.com/watch?v=h9g4umRfgn0) (Video)
+- **Aug 3, 2026** - [Customize the reasoning level for Copilot cloud agent](https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent) (Blog)
+- **Aug 3, 2026** - [Trigger Copilot automations with comments](https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments) (Blog)
+- **Aug 3, 2026** - [Enterprise team specialization for managed settings](https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings) (Blog)
+- **Aug 3, 2026** - [Inside GitHub Universe 2026](https://www.youtube.com/watch?v=THXbfE7m9iM) (Video)
+- **Aug 3, 2026** - [How to modify and submit stacked PRs with the GitHub CLI](https://www.youtube.com/watch?v=VpK0vATl3FA) (Video)
+- **Aug 2, 2026** - [Why OpenClaw feels like the Linux of AI](https://www.youtube.com/shorts/fj2_OcZbumE) (Video)
+- **Aug 1, 2026** - [How to use voice prompting in the GitHub Copilot app](https://www.youtube.com/shorts/BOSujC3TrjU) (Video)
+
 ## July 2026
 
+- **Jul 31, 2026** - [Enterprise teams model policy targeting in public preview](https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview) (Blog)
+- **Jul 31, 2026** - [Gemini 2.5 Pro and Gemini 3 Flash deprecated](https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated) (Blog)
+- **Jul 31, 2026** - [Upcoming August 2026 model deprecations in GitHub Copilot](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot) (Blog)
+- **Jul 30, 2026** - [Stacked sessions and pull requests in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/) (Blog)
+- **Jul 30, 2026** - [GitHub Copilot in Visual Studio — July update](https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update) (Blog)
+- **Jul 27, 2026** - [GitHub Copilot app for Beginners: Getting started](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/) (Blog)
+- **Jul 27, 2026** - [The harness is all you need (mostly)](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/) (Blog)
+- **Jul 22, 2026** - [Copilot vs. raw API access: What are you actually paying for?](https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/) (Blog)
+- **Jul 21, 2026** - [How to build interactive experiences with canvases](https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/) (Blog)
 - **Jul 17, 2026** - [Rubber Duck Thursday: GPT 5.6 models in GitHub Copilot](https://www.youtube.com/watch?v=OD11Ubt5YCU) (Video)
 - **Jul 16, 2026** - [Repository admins can archive pull requests](https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests) (Blog)
 - **Jul 16, 2026** - [Xcode 27 runner image now in public preview](https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview) (Blog)
