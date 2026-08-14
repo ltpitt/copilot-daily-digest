@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: August 07, 2026
+**Last Updated**: August 14, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -10,85 +10,93 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ## This Week (Last 7 Days)
 
-### [A guide to slash commands in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/)
-*Aug 6, 2026*
+### [Block users from comments in personal repositories](https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories)
+*Aug 13, 2026*
 
-If you've used slash commands in the GitHub Copilot CLI, you already know how powerful a quick / can be. In the GitHub Copilot app, slash commands take that idea further, giving you shortcuts for managing sessions, navigating projects, and customizing your Copilot workflow. Slash commands are text shortcuts you type directly into the GitHub Copilot app's chat composer.
+You can now block or unblock users directly from comments on pull requests and issues in repositories owned by personal GitHub accounts. To block or unblock a user:
+Open the More menu on their comment. Select Block user or Unblock user.
 
-### [Kimi K3 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot)
-*Aug 6, 2026*
+### [License data quality improvements](https://github.blog/changelog/2026-08-13-license-data-quality-improvements)
+*Aug 13, 2026*
 
-Editor's note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot's pricing for models and requests for details.
+GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses shown in dependency insights, software bills of materials (SBOMs), the open source license compliance feature in GitHub Advanced Security, and the dependency review action.
 
-### [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g)
-*Aug 6, 2026*
+### [Gemini 3.7 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot)
+*Aug 13, 2026*
 
-Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other.
+Gemini 3.7 Flash, Google's latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it's previous version. The model also delivers improvements in code quality, final-output presentation, codebase research, and verification during complex coding tasks.
 
-### [How a GitHub lawyer uses Copilot CLI to verify AI outputs](https://www.youtube.com/watch?v=-32wLbC973w)
-*Aug 5, 2026*
+### [We don't need better AI models right now](https://www.youtube.com/shorts/rSi1fCnZU3k)
+*Aug 13, 2026*
 
-When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis.
+Many people think we need better models, but the real bottleneck in AI is human imagination. In this clip from the OpenClaw fireside chat, Peter Steinberger explains why we already have the technology to change the world.
 
-### [How the GitHub legal team used Copilot CLI to streamline their workflows](https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/)
-*Aug 4, 2026*
+### [Rule insights for organizations in public preview](https://github.blog/changelog/2026-08-12-rule-insights-for-organizations-in-public-preview)
+*Aug 12, 2026*
 
-Whether you are just starting out or are not in a technical role at all, you likely already have the skills you need to build your own tools. If you have ever thought "I'm not technical enough to build that," this post is for you. We are lawyers, program managers, and business professionals—not engineers.
+The rule insights dashboard is now in public preview at the organization level. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so you can spot trends and report on governance without stitching data together by hand. You can now view rule insights across every repository in your organization in one place.
 
 ---
 
 ## Last 30 Days
 
-### [Retiring the Copilot Billing Preview app](https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app)
-*Aug 4, 2026*
+### [Write your first prompt with the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/)
+*Aug 12, 2026*
 
-We've retired the GitHub Copilot Billing Preview app, and it's no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped you understand your bill during the move to usage-based billing.
+Opening a new AI tool can feel a little like staring at a blank page. You know you want help with something, but figuring out exactly what to ask can be its own task. The good news is that you don't need to write the perfect prompt to get started.
 
-### [Code coverage automatic enablement in Code Quality settings](https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings)
-*Aug 4, 2026*
+### [Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app](https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app)
+*Aug 12, 2026*
 
-We're making code coverage setup faster and simpler. You'll now see a new option in your repository's Code Quality settings that lets GitHub generate your coverage workflow automatically with AI. We'll open a pull request so you can review the changes before you merge them.
+You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel. Google also joined as a core maintainer on the same day.
 
-### [Customize code scanning default setup at scale](https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale)
-*Aug 4, 2026*
+### [Could this be the 1997 moment for AI?](https://www.youtube.com/shorts/JUpK4UTJvgI)
+*Aug 12, 2026*
 
-You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for security vulnerabilities, whether that's on one repository or across your whole organization. We recommend using this way to customize your security analysis at scale.
+In this clip from our fireside chat, Dave Morin reflects on evaluating over a thousand companies and explains why OpenClaw stood out.
 
-### [Customize Dependabot pull request branch names](https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names)
-*Aug 4, 2026*
+### [Automatically migrate branch protection rules to repository rulesets](https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets)
+*Aug 11, 2026*
 
-You can now customize the branch names Dependabot creates for pull requests. New pull-request-branch-name options in .github/dependabot.yml let you set a prefix and maximum length, choose segment and word separators, set letter case, or define a custom template using placeholders.
+You can now convert your existing branch protection rules to repository rulesets directly from your repository settings. This helps you migrate to GitHub's more flexible and scalable policy framework without manually recreating each rule. As we continue investing in rulesets as the foundation for repository governance on GitHub, this tool makes it easy to bring your existing policies forward.
 
-### [Upcoming deprecation of GitHub Spark on github.com](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com)
-*Aug 4, 2026*
+### [MAI-Code-1.1-Flash available in GitHub Copilot](https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot)
+*Aug 11, 2026*
 
-Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they've already created. Apps you've already deployed will continue to work after GitHub Spark is retired.
+MAI-Code-1.1-Flash, Microsoft's latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality, instruction following, tool use, and performance.
 
-### [CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support](https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support)
-*Aug 4, 2026*
+### [Upcoming deprecation of MAI-Code-1-Flash](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash)
+*Aug 11, 2026*
 
-CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.26.2, which adds support for Swift 6.3.3 and Kotlin 2.4.10, and improves the accuracy of path injection, URL redirection, and GitHub Actions queries.
+With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026:
+Model
+Deprecation date
+Suggested alternative
+MAI-Code-1-Flash
+9-10-2026
+MAI-Code-1.1-Flash
+Please update your workflows and integrations to use the new model before September 10. No action is required to remove the older model once it has been deprecated.
 
-### [How a lawyer built an internal tool using GitHub Copilot CLI](https://www.youtube.com/watch?v=nzj0JOlyhOE)
-*Aug 4, 2026*
+### [Per-model token breakdown in the usage report](https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report)
+*Aug 11, 2026*
 
-Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Pages to design and deploy software without waiting for engineering resources.
+You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed. Before, the report showed AI credits without the token detail underneath them, so it was hard to explain a charge or find ways to bring it down.
 
-### [The My work tab: your mission control in the GitHub Copilot app](https://www.youtube.com/watch?v=h9g4umRfgn0)
-*Aug 4, 2026*
+### [Copilot memory and Ollama in GitHub Copilot for JetBrains](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+*Aug 11, 2026*
 
-Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and table layouts, and kick off agent sessions directly from your work items.
+This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents. Administrators have more server-based controls for managing GitHub Copilot across their organizations.
 
-### [Customize the reasoning level for Copilot cloud agent](https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent)
-*Aug 3, 2026*
+### [GitHub Enterprise Server 3.22 release candidate](https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate)
+*Aug 11, 2026*
 
-When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the model reasons before it responds. A higher level can improve answers to complex problems, but it consumes more tokens, and therefore more credits.
+GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release:
+Administrators can configure Copilot CLI to work with GHES for enterprises that operate in disconnected or air-gapped environments without connectivity to GitHub Cloud.
 
-### [Trigger Copilot automations with comments](https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments)
-*Aug 3, 2026*
+### [Automate recurring developer tasks with the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=k73_z4Hv3Ls)
+*Aug 11, 2026*
 
-You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include:
-Generate documentation: Comment on a pull request to automatically generate or update documentation based on your code changes. Investigate errors: Comment on an issue to trigger an automation that investigates stack traces or error logs.
+Managing library updates and triaging pull requests manually every day can quickly create tech debt. In episode 4 of our beginner series, learn how to set up automations in the GitHub Copilot app to...
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: August 07, 2026
+**Last Updated**: August 14, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,28 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## August 2026
 
+- **Aug 13, 2026** - [Block users from comments in personal repositories](https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories) (Blog)
+- **Aug 13, 2026** - [License data quality improvements](https://github.blog/changelog/2026-08-13-license-data-quality-improvements) (Blog)
+- **Aug 13, 2026** - [Gemini 3.7 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot) (Blog)
+- **Aug 13, 2026** - [We don't need better AI models right now](https://www.youtube.com/shorts/rSi1fCnZU3k) (Video)
+- **Aug 12, 2026** - [Rule insights for organizations in public preview](https://github.blog/changelog/2026-08-12-rule-insights-for-organizations-in-public-preview) (Blog)
+- **Aug 12, 2026** - [Write your first prompt with the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/) (Blog)
+- **Aug 12, 2026** - [Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app](https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app) (Blog)
+- **Aug 12, 2026** - [Could this be the 1997 moment for AI?](https://www.youtube.com/shorts/JUpK4UTJvgI) (Video)
+- **Aug 11, 2026** - [Automatically migrate branch protection rules to repository rulesets](https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets) (Blog)
+- **Aug 11, 2026** - [MAI-Code-1.1-Flash available in GitHub Copilot](https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot) (Blog)
+- **Aug 11, 2026** - [Upcoming deprecation of MAI-Code-1-Flash](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash) (Blog)
+- **Aug 11, 2026** - [Per-model token breakdown in the usage report](https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report) (Blog)
+- **Aug 11, 2026** - [Copilot memory and Ollama in GitHub Copilot for JetBrains](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains) (Blog)
+- **Aug 11, 2026** - [GitHub Enterprise Server 3.22 release candidate](https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate) (Blog)
+- **Aug 11, 2026** - [Automate recurring developer tasks with the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=k73_z4Hv3Ls) (Video)
+- **Aug 10, 2026** - [Copilot on web expands conversation controls](https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls) (Blog)
+- **Aug 10, 2026** - [The hardest part of scaling AI](https://www.youtube.com/shorts/68QdLW9oro8) (Video)
+- **Aug 9, 2026** - [How an AI model escaped its sandbox to cheat on a test](https://www.youtube.com/shorts/EOliAKqK5bk) (Video)
+- **Aug 7, 2026** - [Copilot code review effort levels are generally available](https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available) (Blog)
+- **Aug 7, 2026** - [Copilot impact dashboard adds a return on investment section](https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section) (Blog)
+- **Aug 7, 2026** - [GitHub Copilot weekly releases — August 3](https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3) (Blog)
+- **Aug 7, 2026** - [The Download: Stacked PRs on GitHub, an escaped AI model, and pixel art NYC](https://www.youtube.com/watch?v=YyvKOY7FVkY) (Video)
 - **Aug 6, 2026** - [A guide to slash commands in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/) (Blog)
 - **Aug 6, 2026** - [Kimi K3 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot) (Blog)
 - **Aug 6, 2026** - [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g) (Video)

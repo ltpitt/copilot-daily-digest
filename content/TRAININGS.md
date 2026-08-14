@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: August 07, 2026
+> **Last Updated**: August 14, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
