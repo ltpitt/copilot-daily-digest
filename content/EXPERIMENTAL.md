@@ -3,7 +3,7 @@
 > **About GitHub Next**: GitHub's research lab exploring future possibilities.
 > These are experimental prototypes, not production features.
 
-**Last Updated**: August 07, 2026
+**Last Updated**: August 21, 2026
 
 **⚠️ Important**: Projects here are research experiments. Many are discontinued.
 They do not represent official product roadmap.
@@ -12,23 +12,17 @@ They do not represent official product roadmap.
 
 ## Active Experiments
 
-### [Continuous AI](https://githubnext.com/projects/continuous-ai/) (Status: WIP)
-
-Exploring LLM-powered automation in platform-based software collaboration
-
-→ [Explore this experiment](https://githubnext.com/projects/continuous-ai/)
-
 ### [GitHub Copilot Radar](https://githubnext.com/projects/copilot-radar/) (Status: WIP)
 
 GitHub Copilot Radar is a code navigation tool that shows developers the most relevant line to their position in the code. It's jump-to-definition on (neural) steroids.
 
 → [Explore this experiment](https://githubnext.com/projects/copilot-radar/)
 
-### [Vitale](https://githubnext.com/projects/vitale/) (Status: Research prototype)
+### [Continuous AI](https://githubnext.com/projects/continuous-ai/) (Status: WIP)
 
-Live notebooks in VS Code for JavaScript/TypeScript, web development, and AI experimentation
+Exploring LLM-powered automation in platform-based software collaboration
 
-→ [Explore this experiment](https://githubnext.com/projects/vitale/)
+→ [Explore this experiment](https://githubnext.com/projects/continuous-ai/)
 
 ### [Learning Sandbox](https://githubnext.com/projects/learning-sandbox/) (Status: Research prototype)
 
@@ -36,11 +30,11 @@ Can we make it easy and fun to learn as we build? We're exploring ways to create
 
 → [Explore this experiment](https://githubnext.com/projects/learning-sandbox/)
 
-### [SpecLang](https://githubnext.com/projects/speclang/) (Status: Research prototype)
+### [Realtime GitHub](https://githubnext.com/projects/rtgh/) (Status: Research prototype)
 
-Can we develop software entirely in natural language, and an AI-powered toolchain manage the implementation?
+Multiplayer collaboration for your whole repo.
 
-→ [Explore this experiment](https://githubnext.com/projects/speclang/)
+→ [Explore this experiment](https://githubnext.com/projects/rtgh/)
 
 ### [Agentic Workflows](https://githubnext.com/projects/agentic-workflows/) (Status: Research prototype)
 
@@ -48,23 +42,29 @@ Towards Natural-Language Programming for GitHub Actions
 
 → [Explore this experiment](https://githubnext.com/projects/agentic-workflows/)
 
+### [Incremental CodeQL](https://githubnext.com/projects/incremental-codeql/) (Status: Research prototype)
+
+Faster feedback about security vulnerabilities on your PRs.
+
+→ [Explore this experiment](https://githubnext.com/projects/incremental-codeql/)
+
+### [Vitale](https://githubnext.com/projects/vitale/) (Status: Research prototype)
+
+Live notebooks in VS Code for JavaScript/TypeScript, web development, and AI experimentation
+
+→ [Explore this experiment](https://githubnext.com/projects/vitale/)
+
 ### [Discovery Agent](https://githubnext.com/projects/discovery-agent/) (Status: Research prototype)
 
 Agentic Setup, Build, and Testing of Repositories.
 
 → [Explore this experiment](https://githubnext.com/projects/discovery-agent/)
 
-### [Realtime GitHub](https://githubnext.com/projects/rtgh/) (Status: Research prototype)
+### [SpecLang](https://githubnext.com/projects/speclang/) (Status: Research prototype)
 
-Multiplayer collaboration for your whole repo.
+Can we develop software entirely in natural language, and an AI-powered toolchain manage the implementation?
 
-→ [Explore this experiment](https://githubnext.com/projects/rtgh/)
-
-### [Incremental CodeQL](https://githubnext.com/projects/incremental-codeql/) (Status: Research prototype)
-
-Faster feedback about security vulnerabilities on your PRs.
-
-→ [Explore this experiment](https://githubnext.com/projects/incremental-codeql/)
+→ [Explore this experiment](https://githubnext.com/projects/speclang/)
 
 ### [Mosaic](https://githubnext.com/projects/mosaic/) (Status: Research prototype)
 
@@ -78,17 +78,17 @@ As we increasingly work together remotely, how might we unify our workflows to e
 
 → [Explore this experiment](https://githubnext.com/projects/workspaces/)
 
-### [Code Atlas](https://githubnext.com/projects/code-atlas/) (Status: Napkin sketch)
-
-How can we make LLM responses more robust and easier to understand by combining their fluid reasoning with rigid structure?
-
-→ [Explore this experiment](https://githubnext.com/projects/code-atlas/)
-
 ### [Project Copernicus](https://githubnext.com/projects/copernicus/) (Status: Napkin sketch)
 
 Exploring LLM-powered navigation for your codebase
 
 → [Explore this experiment](https://githubnext.com/projects/copernicus/)
+
+### [Code Atlas](https://githubnext.com/projects/code-atlas/) (Status: Napkin sketch)
+
+How can we make LLM responses more robust and easier to understand by combining their fluid reasoning with rigid structure?
+
+→ [Explore this experiment](https://githubnext.com/projects/code-atlas/)
 
 ---
 
@@ -101,30 +101,6 @@ Ever having trouble remembering that shell command or this obscure flag? Don't w
 This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/copilot-completions-cli/)
-
-### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
-
-An ongoing collaboration with Microsoft to bring React to their library Webview UI Toolkit for Visual Studio Code
-
-This experiment has graduated to a production feature.
-
-→ [Learn more](https://githubnext.com/projects/react-webview-ui-toolkit/)
-
-### [Flat Data](https://githubnext.com/projects/flat-data/)
-
-Flat explores how to make it easy to work with data in git and GitHub, offering a simple pattern for bringing working datasets into your repositories and versioning them.
-
-This experiment has graduated to a production feature.
-
-→ [Learn more](https://githubnext.com/projects/flat-data/)
-
-### [Copilot for Pull Requests](https://githubnext.com/projects/copilot-for-pull-requests/)
-
-Pull requests are a central part of the GitHub user experience. Copilot for PRs brings the power of Copilot to the PR experience, to help you write better PR descriptions, and to help your team review and merge PRs faster.
-
-This experiment has graduated to a production feature.
-
-→ [Learn more](https://githubnext.com/projects/copilot-for-pull-requests/)
 
 ### [Copilot for Docs](https://githubnext.com/projects/copilot-for-docs/)
 
@@ -142,6 +118,22 @@ This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/github-spark/)
 
+### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
+
+An ongoing collaboration with Microsoft to bring React to their library Webview UI Toolkit for Visual Studio Code
+
+This experiment has graduated to a production feature.
+
+→ [Learn more](https://githubnext.com/projects/react-webview-ui-toolkit/)
+
+### [Flat Data](https://githubnext.com/projects/flat-data/)
+
+Flat explores how to make it easy to work with data in git and GitHub, offering a simple pattern for bringing working datasets into your repositories and versioning them.
+
+This experiment has graduated to a production feature.
+
+→ [Learn more](https://githubnext.com/projects/flat-data/)
+
 ### [Copilot Next Edit Suggestions](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
 Can we improve Copilot code completion by suggesting the next logical change, wherever it is in your project?
@@ -150,37 +142,45 @@ This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
+### [Copilot for Pull Requests](https://githubnext.com/projects/copilot-for-pull-requests/)
+
+Pull requests are a central part of the GitHub user experience. Copilot for PRs brings the power of Copilot to the PR experience, to help you write better PR descriptions, and to help your team review and merge PRs faster.
+
+This experiment has graduated to a production feature.
+
+→ [Learn more](https://githubnext.com/projects/copilot-for-pull-requests/)
+
 ---
 
 ## Archived Experiments
-
-### [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/)
-
-An agentic dev environment, designed for everyday tasks.
-
-### [Extract, Edit, Apply](https://githubnext.com/projects/extract-edit-apply/)
-
-An exploration of a new category of assists for using natural language in software development.
 
 ### [Code Brushes](https://githubnext.com/projects/code-brushes/)
 
 Can editing code feel more tactile, like painting with Photoshop brushes? We added a toolbox of brushes to our Visual Studio Code extension that can modify your code.
 
-### [GitHub Copilot for *Your* Codebase](https://githubnext.com/projects/copilot-view/)
-
-We want to let Copilot see the code in your entire repo to make suggestions even better.
-
 ### [GPT-4 with Calc](https://githubnext.com/projects/gpt4-with-calc/)
 
 An exploration of using calculation generation to improve GPT-4's capabilities for numeric reasoning.
+
+### [Extract, Edit, Apply](https://githubnext.com/projects/extract-edit-apply/)
+
+An exploration of a new category of assists for using natural language in software development.
 
 ### [Copilot Voice](https://githubnext.com/projects/copilot-voice/)
 
 Write code without the keyboard. Difficulty typing? Use your voice to code without spelling things out by talking with GitHub Copilot.
 
+### [GitHub Copilot for *Your* Codebase](https://githubnext.com/projects/copilot-view/)
+
+We want to let Copilot see the code in your entire repo to make suggestions even better.
+
 ### [GitHub Copilot Labs](https://githubnext.com/projects/copilot-labs/)
 
 A VS Code extension for experimental applications of GitHub Copilot.
+
+### [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/)
+
+An agentic dev environment, designed for everyday tasks.
 
 ---
 
