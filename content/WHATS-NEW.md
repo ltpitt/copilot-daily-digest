@@ -18,7 +18,7 @@ The Windows 11 arm64 image with Visual Studio 2026 is now generally available on
 ### [Pinning saved views to the repository issues sidebar is generally available and more](https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar)
 *Aug 20, 2026*
 
-You can now pin saved views&#8288; to the repository issues sidebar, making the views you use most just one click away, even when the sidebar is collapsed. You can now see profile avatars for reactions on issues.
+You can now pin saved views to the repository issues sidebar, making the views you use most just one click away, even when the sidebar is collapsed. You can now see profile avatars for reactions on issues.
 
 ### [Track GitHub Code Quality enablement changes in the audit log](https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log)
 *Aug 20, 2026*
@@ -34,7 +34,7 @@ A dedicated workflow path for code quality CodeQL actions workflows is now gener
 ### [Code scanning adds a mitigated alert dismissal reason](https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason)
 *Aug 20, 2026*
 
-You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network policy, mitigate its risk. For more information, see resolving code scanning alerts. The post Code scanning adds a mitigated alert dismissal reason appeared first on The GitHub Blog.
+You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network policy, mitigate its risk. For more information, see resolving code scanning alerts.
 
 ---
 
