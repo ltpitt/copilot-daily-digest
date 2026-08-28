@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: August 07, 2026
+> **Last Updated**: August 28, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -56,19 +56,6 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 
 ## Microsoft Learn Modules
 
-### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
-
-**Provider**: Microsoft Learn | **Level**: Intermediate
-
-Master the fundamentals of GitHub Copilot. Learn how to write better prompts, use chat features, and leverage AI for testing and documentation.
-
-- **Format**: Learning Path
-- **Duration**: 2-3 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, Prompt Engineering, AI Testing, Documentation
-
----
-
 ### [Challenge project - Build a minigame with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)
 
 **Provider**: Microsoft Learn | **Level**: Intermediate
@@ -79,6 +66,19 @@ Demonstrate your ability to use GitHub Copilot to develop code by creating a con
 - **Duration**: 1-2 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, C#, Game Development, Hands-on
+
+---
+
+### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
+
+**Provider**: Microsoft Learn | **Level**: Intermediate
+
+Master the fundamentals of GitHub Copilot. Learn how to write better prompts, use chat features, and leverage AI for testing and documentation.
+
+- **Format**: Learning Path
+- **Duration**: 2-3 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, Prompt Engineering, AI Testing, Documentation
 
 ---
 
