@@ -13,10 +13,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 ### [Copilot code review: Resolution reasons and expanded capabilities](https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities)
 *Aug 27, 2026*
 
-Copilot code review can now review two types of pull requests it didn't cover before:
-Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent
-Very large pull requests
-Additionally, you can now submit the reason for why you're resolving a particular Copilot code review comment. To , see Copilot code review without a Copilot license.
+Copilot code review now supports automatic reviews on bot-authored pull requests, including those created by the Copilot cloud agent. It also adds support for very large pull requests, expanding where teams can rely on automated review feedback. You can now record a resolution reason when dismissing a Copilot code review comment for better review traceability.
 
 ### [Better label management on issues is generally available](https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available)
 *Aug 27, 2026*
@@ -31,7 +28,7 @@ Starting October 1, 2026, checks, workflow runs, and statuses will be governed b
 ### [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
 *Aug 27, 2026*
 
-In this stream we will try out the GitHub Copilot Teams and Slack Integration
+This livestream walks through the new GitHub Copilot integration for Microsoft Teams and Slack. It shows how teams can bring Copilot-assisted collaboration into day-to-day communication channels. Watch for practical examples of keeping code discussions and agentic workflows connected across tools.
 
 ### [GitHub Apps can now access enterprise billing data](https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data)
 *Aug 26, 2026*
@@ -50,7 +47,7 @@ You can now opt individual plugin marketplaces into automatic updates by setting
 ### [GitHub Copilot app for Beginners: Automate Dependabot pull request triage](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/)
 *Aug 26, 2026*
 
-I might be biased, but I think Dependabot is pretty amazing. It helps keep my projects up to date, ensuring I'm always using secure libraries. But because there're frequently new vulnerabilities, there're frequently new pull requests from Dependabot.
+This beginner-focused guide shows how to use the GitHub Copilot app to triage Dependabot pull requests faster. It covers practical ways to evaluate update urgency, reduce review noise, and make safer merge decisions. Teams managing high dependency volume can use this workflow to stay secure without slowing delivery.
 
 ### [Global model policy generally available](https://github.blog/changelog/2026-08-26-global-model-policy-generally-available)
 *Aug 26, 2026*
@@ -75,22 +72,22 @@ The rule insights dashboard is now generally available at both the repository an
 ### [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw)
 *Aug 25, 2026*
 
-When an AI agent makes a change, checking that code usually means bouncing between your editor, terminal, and browser. In episode 6 of our beginner series, we explore the built-in panels of the...
+This beginner video demonstrates how to review AI-generated changes using the diff, terminal, and browser views in the GitHub Copilot app. It explains how to validate code updates without constantly switching tools. New users will learn a repeatable workflow for faster and safer change verification.
 
 ### [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY)
 *Aug 24, 2026*
 
-Building software on GitHub means navigating tiny details every single day. In this clip from the GitHub Podcast, Cassidy Williams highlights the GitHub Tiny Wins team, a group dedicated to fixing...
+This short highlights GitHub’s Tiny Wins team and how it removes everyday friction in developer workflows. It shares examples of incremental product improvements that collectively save time for maintainers and contributors. The clip offers a useful lens on how small platform changes can create outsized productivity gains.
 
 ### [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k)
 *Aug 23, 2026*
 
-Picking a local AI model can be a messy decision, and tokens per second does not tell the full story. local.ai compares task quality, end-to-end task time, hardware cost, and electricity cost on the...
+This video introduces local.ai, a benchmarking approach for evaluating local AI models beyond raw token speed. It compares task quality, total runtime, hardware costs, and energy usage to guide model selection. Developers experimenting with on-device AI can use these tradeoffs to choose a model that matches real-world constraints.
 
 ### [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM)
 *Aug 22, 2026*
 
-GitHub OAuth apps now support 8-hour access tokens paired with 6-month refresh tokens. In this changelog update, learn how to configure the offline_access scope and shorten token lifespans for better...
+This changelog video explains new OAuth capabilities, including short-lived access tokens and long-lived refresh tokens. It also covers support for multiple callback URLs, which helps teams manage development, staging, and production app environments. The update improves both security posture and deployment flexibility for GitHub OAuth apps.
 
 ---
 
