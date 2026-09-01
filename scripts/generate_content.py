@@ -54,7 +54,7 @@ IMPACT_CATEGORIES = [
         "🔒",
         ["credential revocation", "revocation", "deauthoriz", "bypass2fa", "bypass 2fa", "mandatory 2fa"],
     ),
-    ("Policy/Billing", "📋", ["billing preview", "pricing", "usage-based billing", "quota"]),
+    ("Policy/Billing", "📋", ["policies and billing", "billing preview", "pricing", "usage-based billing", "quota"]),
 ]
 
 

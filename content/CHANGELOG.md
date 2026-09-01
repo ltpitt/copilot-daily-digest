@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: August 28, 2026
+**Last Updated**: September 01, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,10 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## August 2026
 
+- **Aug 31, 2026** - [GitHub Copilot in VS Code, August 2026 releases](https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases) (Blog)
+- **Aug 28, 2026** - [GitHub Copilot in Visual Studio — August update](https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2) (Blog)
+- **Aug 28, 2026** - [GitHub Copilot weekly releases — August 24](https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24) (Blog)
+- **Aug 28, 2026** - [Upcoming changes to GitHub Copilot policies and billing](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing) (Blog)
 - **Aug 27, 2026** - [Copilot code review: Resolution reasons and expanded capabilities](https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities) (Blog)
 - **Aug 27, 2026** - [Better label management on issues is generally available](https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available) (Blog)
 - **Aug 27, 2026** - [Actions retention will cover checks, workflow runs, and statuses](https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses) (Blog)
@@ -23,6 +27,7 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 - **Aug 25, 2026** - [Rule insights dashboard generally available](https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available) (Blog)
 - **Aug 25, 2026** - [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw) (Video)
 - **Aug 24, 2026** - [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY) (Video)
+- **Aug 24, 2026** - [Copilot harness generally available in Copilot for JetBrains](https://github.blog/changelog/2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains) (Blog)
 - **Aug 23, 2026** - [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k) (Video)
 - **Aug 22, 2026** - [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM) (Video)
 - **Aug 21, 2026** - [Shared agentic work with GitHub Copilot in Microsoft Teams](https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams) (Blog)
