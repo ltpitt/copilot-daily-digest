@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: August 07, 2026
+**Last Updated**: August 28, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,32 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## August 2026
 
+- **Aug 27, 2026** - [Copilot code review: Resolution reasons and expanded capabilities](https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities) (Blog)
+- **Aug 27, 2026** - [Better label management on issues is generally available](https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available) (Blog)
+- **Aug 27, 2026** - [Actions retention will cover checks, workflow runs, and statuses](https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses) (Blog)
+- **Aug 27, 2026** - [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A) (Video)
+- **Aug 26, 2026** - [GitHub Apps can now access enterprise billing data](https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data) (Blog)
+- **Aug 26, 2026** - [Enterprise-managed settings now support autoUpdate for plugin marketplaces](https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces) (Blog)
+- **Aug 26, 2026** - [GitHub Copilot app for Beginners: Automate Dependabot pull request triage](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/) (Blog)
+- **Aug 26, 2026** - [Global model policy generally available](https://github.blog/changelog/2026-08-26-global-model-policy-generally-available) (Blog)
+- **Aug 25, 2026** - [GitHub Copilot app Customize tab is generally available](https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available) (Blog)
+- **Aug 25, 2026** - [Block users directly from security advisories](https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories) (Blog)
+- **Aug 25, 2026** - [Rule insights dashboard generally available](https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available) (Blog)
+- **Aug 25, 2026** - [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw) (Video)
+- **Aug 24, 2026** - [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY) (Video)
+- **Aug 23, 2026** - [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k) (Video)
+- **Aug 22, 2026** - [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM) (Video)
+- **Aug 21, 2026** - [Shared agentic work with GitHub Copilot in Microsoft Teams](https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams) (Blog)
+- **Aug 21, 2026** - [The new GitHub Copilot experience in Slack](https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack) (Blog)
+- **Aug 21, 2026** - [The Download: GitHub OAuth refresh tokens, Cloudflare MCP detection, terminal animations & more](https://www.youtube.com/watch?v=BwhlIP-0m2c) (Video)
+- **Aug 19, 2026** - [GitHub Copilot app for Beginners: Managing your work](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/) (Blog)
+- **Aug 18, 2026** - [Enterprise managed settings in GitHub Copilot for JetBrains](https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains) (Blog)
+- **Aug 17, 2026** - [How canvases make agentic workflows visible, steerable, and cost-efficient](https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/) (Blog)
+- **Aug 14, 2026** - [How to bring your software delivery workflow into GitHub with agent apps](https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/) (Blog)
+- **Aug 14, 2026** - [Grok 4.6 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot) (Blog)
+- **Aug 13, 2026** - [Gemini 3.7 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot) (Blog)
+- **Aug 13, 2026** - [GitHub Copilot weekly releases — August 10](https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10) (Blog)
+- **Aug 12, 2026** - [GitHub Copilot app for Beginners: Write your first prompt](https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/) (Blog)
 - **Aug 6, 2026** - [A guide to slash commands in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/) (Blog)
 - **Aug 6, 2026** - [Kimi K3 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot) (Blog)
 - **Aug 6, 2026** - [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g) (Video)

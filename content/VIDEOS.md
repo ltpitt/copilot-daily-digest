@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: August 07, 2026
+> **Last Updated**: August 28, 2026
 
 > **📊 Library Stats**
-> - 📚 **164** total videos
-> - 🆕 **8** new this month
-> - 📂 **Categories**: Getting Started (3), Other (4), Tutorials (1)
+> - 📚 **170** total videos
+> - 🆕 **6** new this month
+> - 📂 **Categories**: Extensions (1), Getting Started (1), Tutorials (2), Other (1), Features & Updates (1)
 
 ---
 
@@ -13,93 +13,75 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (3)
-  - [Tutorials](#tutorials) (1)
-  - [Other](#other) (4)
+  - [Getting Started](#getting-started) (1)
+  - [Features & Updates](#features--updates) (1)
+  - [Tutorials](#tutorials) (2)
+  - [Extensions](#extensions) (1)
+  - [Other](#other) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*8 videos published in the last 30 days*
+*6 videos published in the last 30 days*
 
-### [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g)
+### [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
 
-**Published**: Aug 6, 2026 | **Channel**: GitHub
+**Published**: Aug 27, 2026 | **Channel**: GitHub
 
-Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other. Learn how to install the gh-stack CLI extension, navigate layers with the terminal UI, and leverage Copilot to auto-generate tests within your stack. See how easy it is to ship code piece by piece and merge an entire stack in one click.
+In this stream we will try out the GitHub Copilot Teams and Slack Integration...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=jMuoFUzxB8g)
-
----
-
-### [How a GitHub lawyer uses Copilot CLI to verify AI outputs](https://www.youtube.com/watch?v=-32wLbC973w)
-
-**Published**: Aug 5, 2026 | **Channel**: GitHub
-
-When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis. Watch how this tool helps the legal team check complex clauses and act on AI outputs with confidence. Now, every lawyer at GitHub is using the terminal to streamline their daily workflows.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=-32wLbC973w)
+[Watch on YouTube →](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
 
 ---
 
-### [How a lawyer built an internal tool using GitHub Copilot CLI](https://www.youtube.com/watch?v=nzj0JOlyhOE)
+### [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw)
 
-**Published**: Aug 4, 2026 | **Channel**: GitHub
+**Published**: Aug 25, 2026 | **Channel**: GitHub
 
-Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Pages to design and deploy software without waiting for engineering resources.
+When an AI agent makes a change, checking that code usually means bouncing between your editor, terminal, and browser. In episode 6 of our beginner series, we explore the built-in panels of the GitHub Copilot app. Discover how to view diffs, run terminal commands, and preview web apps side by side. ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=nzj0JOlyhOE)
-
----
-
-### [The My work tab: your mission control in the GitHub Copilot app](https://www.youtube.com/watch?v=h9g4umRfgn0)
-
-**Published**: Aug 4, 2026 | **Channel**: GitHub
-
-Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and table layouts, and kick off agent sessions directly from your work items.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=h9g4umRfgn0)
+[Watch on YouTube →](https://www.youtube.com/watch?v=IyWlcES85Zw)
 
 ---
 
-### [Inside GitHub Universe 2026](https://www.youtube.com/watch?v=THXbfE7m9iM)
+### [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY)
 
-**Published**: Aug 3, 2026 | **Channel**: GitHub
+**Published**: Aug 24, 2026 | **Channel**: GitHub
 
-Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub's biggest developer event of the year. We'll share the speakers, sessions, and surprises headed to San Francisco this October 28–29. Plus, we're announcing a new community opportunity to help shape GitHub Universe.
+Building software on GitHub means navigating tiny details every single day. In this clip from the GitHub Podcast, Cassidy Williams highlights the GitHub Tiny Wins team, a group dedicated to fixing small platform frictions and paper cuts for maintainers. From site performance tweaks to making contrib...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=THXbfE7m9iM)
-
----
-
-### [How to modify and submit stacked PRs with the GitHub CLI](https://www.youtube.com/watch?v=VpK0vATl3FA)
-
-**Published**: Aug 3, 2026 | **Channel**: GitHub
-
-When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We demonstrate how gh stack modify allows you to fold redundant layers together and rename them before submitting. Once ready, use gh stack submit to open your pull requests and merge them sequentially on GitHub.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=VpK0vATl3FA)
+[Watch on YouTube →](https://www.youtube.com/shorts/c44_HuUuTtY)
 
 ---
 
-### [Why OpenClaw feels like the Linux of AI](https://www.youtube.com/shorts/fj2_OcZbumE)
+### [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k)
 
-**Published**: Aug 2, 2026 | **Channel**: GitHub
+**Published**: Aug 23, 2026 | **Channel**: GitHub
 
-In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, extensible framework that developers can truly build on. From tweaking core components to architecting substantial applications, it opens up new possibilities for open source software.
+Picking a local AI model can be a messy decision, and tokens per second does not tell the full story. local.ai compares task quality, end-to-end task time, hardware cost, and electricity cost on the machine you already own. The early-access site detects your specs and recommends the right model to t...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/fj2_OcZbumE)
+[Watch on YouTube →](https://www.youtube.com/shorts/Qqtv9lANW7k)
 
 ---
 
-### [How to use voice prompting in the GitHub Copilot app](https://www.youtube.com/shorts/BOSujC3TrjU)
+### [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM)
 
-**Published**: Aug 1, 2026 | **Channel**: GitHub
+**Published**: Aug 22, 2026 | **Channel**: GitHub
 
-Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply talk through your ideas and watch as your voice is instantly converted into text. Stop staring at a blank prompt box; check out our Copilot app beginner series to learn how natural voice prompting can be!
+GitHub OAuth apps now support 8-hour access tokens paired with 6-month refresh tokens. In this changelog update, learn how to configure the offline_access scope and shorten token lifespans for better app security. We also cover adding up to 10 callback URLs for dev, staging, and production environme...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/BOSujC3TrjU)
+[Watch on YouTube →](https://www.youtube.com/shorts/k7VtVpvwIvM)
+
+---
+
+### [The Download: GitHub OAuth refresh tokens, Cloudflare MCP detection, terminal animations & more](https://www.youtube.com/watch?v=BwhlIP-0m2c)
+
+**Published**: Aug 21, 2026 | **Channel**: GitHub
+
+Welcome back to The Download! This week, we explore the GitHub Universe 2026 speaker lineup and dive into major updates across the AI agent ecosystem. From 8-hour OAuth access tokens to A2A’s new open-governance home, stay up to date on modern developer tools. Don't forget to check out ttfx for term...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=BwhlIP-0m2c)
 
 ---
 
@@ -112,33 +94,30 @@ Inspiration is messy, and typing out complex thoughts can slow you down. In this
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [How to create, review, and merge stacked PRs on GitHub | GitHub Checkout](https://www.youtube.com/watch?v=jMuoFUzxB8g)
+### [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw)
 
-**Published**: Aug 6, 2026
+**Published**: Aug 25, 2026
 
-Stacked PRs are finally here! In this episode of GitHub Checkout, Senior Product Manager Sameen Karim joins us to demonstrate how to break large feature branches into small, focused pull requests that build on top of each other. Learn how to install the gh-stack CLI extension, navigate layers with the terminal UI, and leverage Copilot to auto-generate tests within your stack. See how easy it is to ship code piece by piece and merge an entire stack in one click.
+When an AI agent makes a change, checking that code usually means bouncing between your editor, terminal, and browser. In episode 6 of our beginner series, we explore the built-in panels of the GitHub...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=jMuoFUzxB8g)
-
----
-
-### [The My work tab: your mission control in the GitHub Copilot app](https://www.youtube.com/watch?v=h9g4umRfgn0)
-
-**Published**: Aug 4, 2026
-
-Managing multiple tasks across repositories can quickly feel overwhelming. In episode 3 of our beginner series, discover how the My work tab in the GitHub Copilot app acts as your centralized mission control for issues and pull requests. Learn how to create custom filtered views, customize list and table layouts, and kick off agent sessions directly from your work items.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=h9g4umRfgn0)
+[Watch on YouTube →](https://www.youtube.com/watch?v=IyWlcES85Zw)
 
 ---
 
-### [How to use voice prompting in the GitHub Copilot app](https://www.youtube.com/shorts/BOSujC3TrjU)
 
-**Published**: Aug 1, 2026
+## Features & Updates
 
-Inspiration is messy, and typing out complex thoughts can slow you down. In this Short, learn how to use voice prompting in the GitHub Copilot app to turn a brain dump into a working prompt. Simply talk through your ideas and watch as your voice is instantly converted into text. Stop staring at a blank prompt box; check out our Copilot app beginner series to learn how natural voice prompting can be!
+*Discover new features, product announcements, capability releases, and the latest updates.*
 
-[Watch on YouTube →](https://www.youtube.com/shorts/BOSujC3TrjU)
+**When to watch**: You want to stay current with new capabilities and improvements.
+
+### [The Download: GitHub OAuth refresh tokens, Cloudflare MCP detection, terminal animations & more](https://www.youtube.com/watch?v=BwhlIP-0m2c)
+
+**Published**: Aug 21, 2026
+
+Welcome back to The Download! This week, we explore the GitHub Universe 2026 speaker lineup and dive into major updates across the AI agent ecosystem. From 8-hour OAuth access tokens to A2A’s new open...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=BwhlIP-0m2c)
 
 ---
 
@@ -149,13 +128,40 @@ Inspiration is messy, and typing out complex thoughts can slow you down. In this
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [How to modify and submit stacked PRs with the GitHub CLI](https://www.youtube.com/watch?v=VpK0vATl3FA)
+### [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY)
 
-**Published**: Aug 3, 2026
+**Published**: Aug 24, 2026
 
-When working with stacked PRs, every layer needs to make sense on its own. In this video, learn how to use the GitHub CLI extension for stacked PRs to inspect, reorganize, and submit your code. We demonstrate how gh stack modify allows you to fold redundant layers together and rename them before submitting. Once ready, use gh stack submit to open your pull requests and merge them sequentially on GitHub.
+Building software on GitHub means navigating tiny details every single day. In this clip from the GitHub Podcast, Cassidy Williams highlights the GitHub Tiny Wins team, a group dedicated to fixing sma...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=VpK0vATl3FA)
+[Watch on YouTube →](https://www.youtube.com/shorts/c44_HuUuTtY)
+
+---
+
+### [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM)
+
+**Published**: Aug 22, 2026
+
+GitHub OAuth apps now support 8-hour access tokens paired with 6-month refresh tokens. In this changelog update, learn how to configure the offline_access scope and shorten token lifespans for better ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/k7VtVpvwIvM)
+
+---
+
+
+## Extensions
+
+*Learn about Copilot extensions, integrations, APIs, and third-party plugins.*
+
+**When to watch**: You want to extend Copilot or integrate it with other tools.
+
+### [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
+
+**Published**: Aug 27, 2026
+
+In this stream we will try out the GitHub Copilot Teams and Slack Integration...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
 
 ---
 
@@ -166,43 +172,13 @@ When working with stacked PRs, every layer needs to make sense on its own. In th
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [How a GitHub lawyer uses Copilot CLI to verify AI outputs](https://www.youtube.com/watch?v=-32wLbC973w)
+### [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k)
 
-**Published**: Aug 5, 2026
+**Published**: Aug 23, 2026
 
-When the cost of error is high, trust is everything. Dan, Director, Senior Corporate Counsel at GitHub, used GitHub Copilot CLI to build a custom skill called Eyeball that embeds inline screenshots of source documents to verify AI analysis. Watch how this tool helps the legal team check complex clauses and act on AI outputs with confidence. Now, every lawyer at GitHub is using the terminal to streamline their daily workflows.
+Picking a local AI model can be a messy decision, and tokens per second does not tell the full story. local.ai compares task quality, end-to-end task time, hardware cost, and electricity cost on the m...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=-32wLbC973w)
-
----
-
-### [How a lawyer built an internal tool using GitHub Copilot CLI](https://www.youtube.com/watch?v=nzj0JOlyhOE)
-
-**Published**: Aug 4, 2026
-
-Victoria is an operations manager on the GitHub legal team with no technical background. When she needed a centralized platform for operational tools, she used GitHub Copilot CLI to build the Innovation Marketplace herself. Watch how she uses Plan mode, GitHub Issues, GitHub Actions, and GitHub Pages to design and deploy software without waiting for engineering resources.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=nzj0JOlyhOE)
-
----
-
-### [Inside GitHub Universe 2026](https://www.youtube.com/watch?v=THXbfE7m9iM)
-
-**Published**: Aug 3, 2026
-
-Get your first look at GitHub Universe 2026 as Andrea Griffiths, Cassidy Williams, and friends take you inside GitHub's biggest developer event of the year. We'll share the speakers, sessions, and surprises headed to San Francisco this October 28–29. Plus, we're announcing a new community opportunity to help shape GitHub Universe.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=THXbfE7m9iM)
-
----
-
-### [Why OpenClaw feels like the Linux of AI](https://www.youtube.com/shorts/fj2_OcZbumE)
-
-**Published**: Aug 2, 2026
-
-In this clip from our fireside chat, Dave Morin explains why OpenClaw feels like the Linux of AI. Unlike traditional AI chatbots that only allow minor customizations on top, OpenClaw provides a deep, extensible framework that developers can truly build on. From tweaking core components to architecting substantial applications, it opens up new possibilities for open source software.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/fj2_OcZbumE)
+[Watch on YouTube →](https://www.youtube.com/shorts/Qqtv9lANW7k)
 
 ---
 
