@@ -8,6 +8,20 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ---
 
+## ⚠️ Action Required
+
+*Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
+
+- **Aug 18, 2026** - 🔒 **Security** - [Credential revocation and deauthorization by token type](https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type)
+- **Aug 11, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of MAI-Code-1-Flash](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash)
+- **Aug 4, 2026** - 🗑️ **Retirement/Removal** - [Retiring the Copilot Billing Preview app](https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app)
+- **Aug 4, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of GitHub Spark on github.com](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com)
+- **Jul 31, 2026** - 🚫 **Deprecation** - [Gemini 2.5 Pro and Gemini 3 Flash deprecated](https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated)
+- **Jul 31, 2026** - 🚫 **Deprecation** - [Upcoming August 2026 model deprecations in GitHub Copilot](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot)
+- **Jul 30, 2026** - 🗑️ **Retirement/Removal** - [GitHub Models is now retired](https://github.blog/changelog/2026-07-30-github-models-is-now-retired)
+
+---
+
 ## This Week (Last 7 Days)
 
 ### [Copilot code review: Resolution reasons and expanded capabilities](https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities)

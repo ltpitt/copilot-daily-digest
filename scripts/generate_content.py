@@ -24,6 +24,53 @@ GITHUB_BLOG_FEED = "https://github.blog/tag/github-copilot/feed/"
 GITHUB_CHANGELOG_FEED = "https://github.blog/changelog/feed/"
 GITHUB_COPILOT_CHANGELOG_FEED = "https://github.blog/changelog/label/copilot/feed/"
 
+# Impact classification for the "Deprecations & Breaking Changes" digest section.
+# Each tuple is (category label, emoji, [title keywords]). The categories are
+# checked in order and the FIRST one whose keyword appears in the (lowercased)
+# title wins, so more specific/urgent categories are listed first. Keywords are
+# deliberately tight to keep the section high-signal (few false positives); the
+# review agent can refine borderline items during its quality pass.
+IMPACT_CATEGORIES = [
+    ("Deprecation", "🚫", ["deprecat"]),
+    (
+        "Retirement/Removal",
+        "🗑️",
+        [
+            "retir", "sunset", "end of life", "end-of-life", "no longer available",
+            "no longer supported", "being removed", "will be removed", "removal of",
+            "discontinu", "shutting down", "shut down",
+        ],
+    ),
+    (
+        "Breaking change",
+        "💥",
+        [
+            "breaking change", "breaking:", "will break", "no longer work",
+            "action required", "must migrate", "migration required", "required migration",
+        ],
+    ),
+    (
+        "Security",
+        "🔒",
+        ["credential revocation", "revocation", "deauthoriz", "bypass2fa", "bypass 2fa", "mandatory 2fa"],
+    ),
+    ("Policy/Billing", "📋", ["billing preview", "pricing", "usage-based billing", "quota"]),
+]
+
+
+def classify_impact(title: str):
+    """Return (category, emoji) if the title signals an impactful change, else None.
+
+    Deprecations, retirements and breaking changes are announced through the
+    changelog (Blog) items, so callers should restrict classification to blog
+    entries to avoid flagging news round-up videos that merely mention the words.
+    """
+    lowered = title.lower()
+    for category, emoji, keywords in IMPACT_CATEGORIES:
+        if any(keyword in lowered for keyword in keywords):
+            return category, emoji
+    return None
+
 def fetch_rss_content() -> Dict[str, Dict]:
     """
     Fetch current blog content from RSS feeds to supplement missing data files.
@@ -367,6 +414,9 @@ def main():
     # Generate CHANGELOG.md
     generate_changelog(blog_posts_with_dates, videos, url_dates, last_updated)
 
+    # Generate DEPRECATIONS.md (filtered high-impact view of the changelog)
+    generate_deprecations(last_updated)
+
     print("\nContent generation complete!")
 
 def generate_readme(blog_posts, videos, trainings, github_next, last_updated):
@@ -384,6 +434,7 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 ## Browse by Topic
 - [Getting Started](GETTING-STARTED.md)
 - [What's New (Last 30 Days)](WHATS-NEW.md)
+- [⚠️ Deprecations & Breaking Changes](DEPRECATIONS.md)
 - [Videos Library](VIDEOS.md)
 - [Experimental Features](EXPERIMENTAL.md)
 - [Trainings & Certifications](TRAININGS.md)
@@ -396,6 +447,7 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - **Videos:** {len(videos)} (see [Videos](VIDEOS.md))
 - **Trainings:** {len(trainings)} (see [Trainings](TRAININGS.md))
 - **Experimental Projects:** {len(github_next)} (see [Experimental](EXPERIMENTAL.md))
+- **Deprecations & Breaking Changes:** tracked in [Deprecations](DEPRECATIONS.md)
 
 ## Official Resources
 - [GitHub Copilot Docs](https://docs.github.com/copilot)
@@ -426,9 +478,39 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 ---
 
-## This Week (Last 7 Days)
-
 """
+
+    # "Action Required" callout: deprecations / breaking changes in the last 30
+    # days, surfaced up top so readers see impactful items without hunting. Full
+    # history lives in DEPRECATIONS.md. Rendered as a bullet list (not article
+    # headings) so it does not interfere with WHATS-NEW date/section validation.
+    impact_items = []
+    for post in blog_30d:
+        impact = classify_impact(post['title'])
+        if impact:
+            impact_items.append({
+                'date': post['date_iso'],
+                'title': post['title'],
+                'url': post['url'],
+                'category': impact[0],
+                'emoji': impact[1],
+            })
+    impact_items.sort(key=lambda x: x['date'], reverse=True)
+
+    content += "## ⚠️ Action Required\n\n"
+    content += "*Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*\n\n"
+    if impact_items:
+        for item in impact_items:
+            date_formatted = format_date(item['date'])
+            content += (
+                f"- **{date_formatted}** - {item['emoji']} **{item['category']}** - "
+                f"[{item['title']}]({item['url']})\n"
+            )
+        content += "\n"
+    else:
+        content += "No deprecations or breaking changes in the last 30 days. ✅\n\n"
+
+    content += "---\n\n## This Week (Last 7 Days)\n\n"
 
     # Combine blog and video updates for this week
     week_items = []
@@ -965,6 +1047,102 @@ _For recent updates, see [WHATS-NEW.md](WHATS-NEW.md)._
 """
 
     with open(CONTENT_DIR / "CHANGELOG.md", 'w', encoding='utf-8') as f:
+        f.write(content.strip() + '\n')
+
+def _parse_changelog_entries():
+    """Parse content/CHANGELOG.md into a list of {date_iso, type, title, url} dicts.
+
+    Reads the freshly generated CHANGELOG.md so the deprecations page always
+    reflects the full historical archive, not just this run's new items.
+    """
+    changelog_path = CONTENT_DIR / "CHANGELOG.md"
+    if not changelog_path.exists():
+        return []
+
+    entry_pattern = re.compile(
+        r'- \*\*([A-Za-z]+ \d+, \d{4})\*\* - \[([^\]]+)\]\(([^)]+)\) \((\w+)\)'
+    )
+    month_map = {m: i for i, m in enumerate(
+        ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], 1
+    )}
+
+    items = []
+    for match in entry_pattern.finditer(changelog_path.read_text(encoding='utf-8')):
+        date_str, title, url, entry_type = match.groups()
+        parts = date_str.replace(',', '').split()
+        if len(parts) != 3:
+            continue
+        month_num = month_map.get(parts[0][:3], 0)
+        if not month_num:
+            continue
+        try:
+            iso_date = f"{parts[2]}-{month_num:02d}-{int(parts[1]):02d}"
+        except ValueError:
+            continue
+        items.append({'date': iso_date, 'type': entry_type, 'title': title, 'url': url})
+    return items
+
+
+def generate_deprecations(last_updated):
+    """Generate DEPRECATIONS.md: a filtered, high-impact view of the changelog.
+
+    Surfaces deprecations, retirements/removals, breaking changes, and security
+    or policy/billing updates that may require action. Classification is limited
+    to Blog (changelog) items so news round-up videos are not misflagged.
+    """
+    print("  - DEPRECATIONS.md")
+
+    flagged = []
+    for item in _parse_changelog_entries():
+        if item['type'] != 'Blog':
+            continue
+        impact = classify_impact(item['title'])
+        if impact:
+            flagged.append({**item, 'category': impact[0], 'emoji': impact[1]})
+
+    # Sort by date (newest first) and group by month.
+    flagged.sort(key=lambda x: x['date'], reverse=True)
+    by_month = {}
+    for item in flagged:
+        by_month.setdefault(item['date'][:7], []).append(item)
+
+    legend = " · ".join(f"{emoji} {label}" for label, emoji, _ in IMPACT_CATEGORIES)
+
+    content = f"""# ⚠️ Deprecations & Breaking Changes
+
+> Impactful GitHub Copilot and platform changes that may require your attention — deprecations, retirements, removals, breaking changes, and security or billing updates.
+
+**Last Updated**: {last_updated}
+
+This page is auto-generated by filtering the [full changelog](CHANGELOG.md) for high-impact updates. For all recent news, see [WHATS-NEW.md](WHATS-NEW.md).
+
+**Legend**: {legend}
+
+---
+
+"""
+
+    if by_month:
+        for month_key in sorted(by_month.keys(), reverse=True):
+            year, month = month_key.split('-')
+            month_name = datetime(int(year), int(month), 1).strftime('%B %Y')
+            content += f"## {month_name}\n\n"
+            for item in by_month[month_key]:
+                date_formatted = format_date(item['date'])
+                content += (
+                    f"- **{date_formatted}** - {item['emoji']} **{item['category']}** - "
+                    f"[{item['title']}]({item['url']})\n"
+                )
+            content += "\n"
+    else:
+        content += "No deprecations or breaking changes are currently tracked.\n\n"
+
+    content += """---
+
+_Auto-generated from [CHANGELOG.md](CHANGELOG.md) by `scripts/generate_content.py`. Items are flagged by keyword, so review for accuracy. Back to [digest home](README.md)._
+"""
+
+    with open(CONTENT_DIR / "DEPRECATIONS.md", 'w', encoding='utf-8') as f:
         f.write(content.strip() + '\n')
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 ## Browse by Topic
 - [Getting Started](GETTING-STARTED.md)
 - [What's New (Last 30 Days)](WHATS-NEW.md)
+- [⚠️ Deprecations & Breaking Changes](DEPRECATIONS.md)
 - [Videos Library](VIDEOS.md)
 - [Experimental Features](EXPERIMENTAL.md)
 - [Trainings & Certifications](TRAININGS.md)
@@ -17,6 +18,7 @@ Welcome to your daily, modular, and up-to-date resource for all things GitHub Co
 - **Videos:** 6 (see [Videos](VIDEOS.md))
 - **Trainings:** 7 (see [Trainings](TRAININGS.md))
 - **Experimental Projects:** 29 (see [Experimental](EXPERIMENTAL.md))
+- **Deprecations & Breaking Changes:** tracked in [Deprecations](DEPRECATIONS.md)
 
 ## Official Resources
 - [GitHub Copilot Docs](https://docs.github.com/copilot)
