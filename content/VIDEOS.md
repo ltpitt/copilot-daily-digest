@@ -29,7 +29,7 @@
 
 **Published**: Sep 3, 2026 | **Channel**: GitHub
 
-Think of an LLM like a horse: to direct where it goes, you need to give it a harness. Learn how harness engineering provides the runtime, tools, and guardrails necessary for AI agents to interact with your codebase. Watch this short to see how GitHub Copilot provides the infrastructure for agentic w...
+Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short shows why GitHub Copilot's harness matters for reliable agentic workflows.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 
@@ -39,7 +39,7 @@ Think of an LLM like a horse: to direct where it goes, you need to give it a har
 
 **Published**: Sep 3, 2026 | **Channel**: GitHub
 
-In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repository into a global Augmentative and Alternative Communication (AAC) platform. Built on GitHub for people with speech disabilities, autism, cerebral palsy, and ALS, Cboard proves that open source software can restore di...
+See how Cboard grew from a single repository into a global AAC platform that helps non-verbal people communicate. The video highlights how open source collaboration can create practical accessibility tools with real human impact.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 
@@ -49,7 +49,7 @@ In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repo
 
 **Published**: Sep 2, 2026 | **Channel**: GitHub
 
-AI terminology is evolving fast, with new terms like loop engineering, harness engineering, and squads popping up constantly. In episode 2 of season 2, Cassidy, Marlene, and GPS break down what these terms actually mean and how they apply to real agentic workflows. They also explore the differences ...
+This episode explains fast-moving AI terms such as loop engineering, harness engineering, and squads in plain language. It also connects those ideas to practical agentic workflows and the differences between closed, open-weight, and open source models.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
 
@@ -59,17 +59,7 @@ AI terminology is evolving fast, with new terms like loop engineering, harness e
 
 **Published**: Sep 2, 2026 | **Channel**: GitHub
 
-You lose some sleep, but Peter Steinberger says you also hear amazing stories.
-
-
-
-Stay up-to-date on all things GitHub by connecting with us:
-
-YouTube: https://gh.io/subgithub
-Blog: https://github.blog
-X: https://twitter.com/github
-LinkedIn: https://linkedin.com/company/github
-Insider newsletter: ht...
+Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short gives a candid snapshot of the workload, community energy, and surprises that come with leading a breakout open source project.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/k2fgD6JbB54)
 
@@ -79,9 +69,7 @@ Insider newsletter: ht...
 
 **Published**: Sep 2, 2026 | **Channel**: GitHub
 
-Join us live for four hours of GitHub Copilot, from the people building it and the developers putting it to work. 
-
-We’ll go deep on agents, model choice, and how Copilot works across GitHub, the CLI, and VS Code. Expect technical demos, practical workflows, product announcements, and a few special ...
+Join GitHub Copilot Day for a live look at new releases, agent workflows, model choice, and cross-product demos. The stream also includes live coding sessions that show how GitHub teams use Copilot in practice.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=0kOXsQUNzss)
 
@@ -91,12 +79,7 @@ We’ll go deep on agents, model choice, and how Copilot works across GitHub, th
 
 **Published**: Sep 1, 2026 | **Channel**: GitHub
 
-Sometimes it's easier to show than tell. We're sure this update will help with that. 👀
-
-GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an issue, pull request, or comment body.
-
-Available now to all users on GitHub across all plans. 🎉
-https:/...
+This short introduces the new `gh` `--attach` flag for uploading images and videos directly into issues, pull requests, and comments. It is a quick way to learn when showing a screenshot or recording is clearer than describing a problem in text.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/UsoTGRL6GHE)
 
@@ -106,7 +89,7 @@ https:/...
 
 **Published**: Sep 1, 2026 | **Channel**: GitHub
 
-Join this beginner-friendly virtual training to get started with the GitHub Copilot SDK, your toolkit for building custom agent capabilities into your workflows. Learn how to programmatically interact with Copilot, create custom agent tools, and extend AI workflows across TypeScript, Python, .NET, G...
+This beginner-friendly training walks through the GitHub Copilot SDK and shows how to build custom agent capabilities. Expect practical examples for extending Copilot workflows across TypeScript, Python, .NET, Go, and Java.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=IAEQt_yqfLA)
 
@@ -116,7 +99,7 @@ Join this beginner-friendly virtual training to get started with the GitHub Copi
 
 **Published**: Sep 1, 2026 | **Channel**: GitHub
 
-What if you could describe your ideal workspace interface and have an AI agent build it in seconds? In episode 7 of our beginner series, discover how canvases in the GitHub Copilot app create fully customizable, bidirectional surfaces for you and your agents. Learn how to use the /create-canvas skil...
+Learn how canvases in the GitHub Copilot app let you build custom, bidirectional work surfaces for agents and teammates. This beginner tutorial shows how to turn plain-English ideas into release checklists, kanban boards, and triage views.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=Xfgq79gV_GM)
 
@@ -135,7 +118,7 @@ What if you could describe your ideal workspace interface and have an AI agent b
 
 **Published**: Sep 1, 2026
 
-Join this beginner-friendly virtual training to get started with the GitHub Copilot SDK, your toolkit for building custom agent capabilities into your workflows. Learn how to programmatically interact...
+This beginner-friendly training walks through the GitHub Copilot SDK and shows how to build custom agent capabilities. Expect practical examples for extending Copilot workflows across TypeScript, Python, .NET, Go, and Java.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=IAEQt_yqfLA)
 
@@ -145,7 +128,7 @@ Join this beginner-friendly virtual training to get started with the GitHub Copi
 
 **Published**: Sep 1, 2026
 
-What if you could describe your ideal workspace interface and have an AI agent build it in seconds? In episode 7 of our beginner series, discover how canvases in the GitHub Copilot app create fully cu...
+Learn how canvases in the GitHub Copilot app let you build custom, bidirectional work surfaces for agents and teammates. This beginner tutorial shows how to turn plain-English ideas into release checklists, kanban boards, and triage views.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=Xfgq79gV_GM)
 
@@ -162,7 +145,7 @@ What if you could describe your ideal workspace interface and have an AI agent b
 
 **Published**: Sep 2, 2026
 
-AI terminology is evolving fast, with new terms like loop engineering, harness engineering, and squads popping up constantly. In episode 2 of season 2, Cassidy, Marlene, and GPS break down what these ...
+This episode explains fast-moving AI terms such as loop engineering, harness engineering, and squads in plain language. It also connects those ideas to practical agentic workflows and the differences between closed, open-weight, and open source models.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
 
@@ -172,9 +155,7 @@ AI terminology is evolving fast, with new terms like loop engineering, harness e
 
 **Published**: Sep 2, 2026
 
-Join us live for four hours of GitHub Copilot, from the people building it and the developers putting it to work. 
-
-We’ll go deep on agents, model choice, and how Copilot works across GitHub, the CLI,...
+Join GitHub Copilot Day for a live look at new releases, agent workflows, model choice, and cross-product demos. The stream also includes live coding sessions that show how GitHub teams use Copilot in practice.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=0kOXsQUNzss)
 
@@ -191,7 +172,7 @@ We’ll go deep on agents, model choice, and how Copilot works across GitHub, th
 
 **Published**: Sep 3, 2026
 
-Think of an LLM like a horse: to direct where it goes, you need to give it a harness. Learn how harness engineering provides the runtime, tools, and guardrails necessary for AI agents to interact with...
+Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short shows why GitHub Copilot's harness matters for reliable agentic workflows.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 
@@ -208,7 +189,7 @@ Think of an LLM like a horse: to direct where it goes, you need to give it a har
 
 **Published**: Sep 3, 2026
 
-In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repository into a global Augmentative and Alternative Communication (AAC) platform. Built on GitHub for people with speech d...
+See how Cboard grew from a single repository into a global AAC platform that helps non-verbal people communicate. The video highlights how open source collaboration can create practical accessibility tools with real human impact.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 
@@ -225,14 +206,7 @@ In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repo
 
 **Published**: Sep 2, 2026
 
-You lose some sleep, but Peter Steinberger says you also hear amazing stories.
-
-
-
-Stay up-to-date on all things GitHub by connecting with us:
-
-YouTube: https://gh.io/subgithub
-Blog: https://github.blo...
+Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short gives a candid snapshot of the workload, community energy, and surprises that come with leading a breakout open source project.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/k2fgD6JbB54)
 
@@ -242,9 +216,7 @@ Blog: https://github.blo...
 
 **Published**: Sep 1, 2026
 
-Sometimes it's easier to show than tell. We're sure this update will help with that. 👀
-
-GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an iss...
+This short introduces the new `gh` `--attach` flag for uploading images and videos directly into issues, pull requests, and comments. It is a quick way to learn when showing a screenshot or recording is clearer than describing a problem in text.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/UsoTGRL6GHE)
 

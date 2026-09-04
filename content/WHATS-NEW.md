@@ -61,13 +61,12 @@ Running multiple AI agents on the same project seems like pure chaos, with too m
 ### [CodeQL 2.26.4 improves GitHub actions security detections](https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections)
 *Sep 3, 2026*
 
-CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We've recently released CodeQL 2.26.4, which adds support for Go 1.27, improves alert locations for Rust data flow queries, and includes accuracy improvements across C#, Java/Kotlin, and GitHub Actions. Go
-CodeQL now supports Go 1.27.
+CodeQL 2.26.4 adds support for Go 1.27, improves Rust data flow alert locations, and sharpens detections across C#, Java/Kotlin, and GitHub Actions. Teams using GitHub code scanning can expect more accurate alerts and broader coverage for modern language and workflow patterns.
 
 ### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 *Sep 3, 2026*
 
-Think of an LLM like a horse: to direct where it goes, you need to give it a harness. Learn how harness engineering provides the runtime, tools, and guardrails necessary for AI agents to interact...
+Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short explains why that scaffolding matters for reliable agentic workflows in GitHub Copilot.
 
 ### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 *Sep 3, 2026*
@@ -97,10 +96,7 @@ AI terminology is evolving fast, with new terms like loop engineering, harness e
 ### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
 *Sep 2, 2026*
 
-You lose some sleep, but Peter Steinberger says you also hear amazing stories.
-Stay up-to-date on all things GitHub by connecting with us:
-YouTube: https://gh.io/subgithub
-Blog: https://github.
+Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short offers a candid look at the workload, community energy, and surprises that come with leading a breakout open source project.
 
 ---
 

@@ -93,6 +93,10 @@ def extract_links(content: str, file_path: Path) -> List[Tuple[str, str, int]]:
         if in_code_fence:
             continue
 
+        # Ignore inline code spans so placeholder examples like `[Title](url)`
+        # in documentation are not treated as real links.
+        line = re.sub(r"`[^`]*`", "", line)
+
         # Extract markdown links [text](url)
         for match in re.finditer(MD_LINK_PATTERN, line):
             link_text = match.group(1)
