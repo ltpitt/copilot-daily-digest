@@ -2,15 +2,43 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: September 01, 2026
+**Last Updated**: September 04, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## September 2026
+
+- **Sep 3, 2026** - [Reopening Copilot Business and Enterprise signups](https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups) (Blog)
+- **Sep 3, 2026** - [Gemini 3.8 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot) (Blog)
+- **Sep 3, 2026** - [GitHub Actions: Early September 2026 updates](https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates) (Blog)
+- **Sep 3, 2026** - [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models) (Blog)
+- **Sep 3, 2026** - [Multiple trusted publishing configurations for npm](https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm) (Blog)
+- **Sep 3, 2026** - [GitHub CLI Linux package signing key expires September 5](https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5) (Blog)
+- **Sep 3, 2026** - [GitHub Copilot app for Beginners: Run several agents at once](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/) (Blog)
+- **Sep 3, 2026** - [CodeQL 2.26.4 improves GitHub actions security detections](https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections) (Blog)
+- **Sep 3, 2026** - [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ) (Video)
+- **Sep 3, 2026** - [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ) (Video)
+- **Sep 2, 2026** - [Content exclusions generally available in Copilot app and CLI](https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli) (Blog)
+- **Sep 2, 2026** - [Enterprise-managed settings support any default model](https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model) (Blog)
+- **Sep 2, 2026** - [How we make AI coding more cost efficient without sacrificing task quality](https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/) (Blog)
+- **Sep 2, 2026** - [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc) (Video)
+- **Sep 2, 2026** - [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54) (Video)
+- **Sep 2, 2026** - [GitHub Copilot Day live: new releases, real workflows, and live coding](https://www.youtube.com/watch?v=0kOXsQUNzss) (Video)
+- **Sep 1, 2026** - [Set an expiration date for individual user budgets](https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets) (Blog)
+- **Sep 1, 2026** - [Enterprise Live Migrations from GHES to ghe.com generally available](https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available) (Blog)
+- **Sep 1, 2026** - [Claude Fable 5.1 is generally available in GitHub Copilot](https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot) (Blog)
+- **Sep 1, 2026** - [Copilot code review can now approve pull requests](https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests) (Blog)
+- **Sep 1, 2026** - [GitHub CLI: Media in issues, pull requests, and comments](https://www.youtube.com/shorts/UsoTGRL6GHE) (Video)
+- **Sep 1, 2026** - [Let's Learn GitHub Copilot SDK](https://www.youtube.com/watch?v=IAEQt_yqfLA) (Video)
+- **Sep 1, 2026** - [How to build custom workflows with canvases in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=Xfgq79gV_GM) (Video)
+
 ## August 2026
 
 - **Aug 31, 2026** - [GitHub Copilot in VS Code, August 2026 releases](https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases) (Blog)
+- **Aug 31, 2026** - [Selected GitHub Copilot models deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated) (Blog)
+- **Aug 31, 2026** - [Copilot model access update for GitHub Team plans](https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans) (Blog)
 - **Aug 28, 2026** - [GitHub Copilot in Visual Studio — August update](https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2) (Blog)
 - **Aug 28, 2026** - [GitHub Copilot weekly releases — August 24](https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24) (Blog)
 - **Aug 28, 2026** - [Upcoming changes to GitHub Copilot policies and billing](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing) (Blog)

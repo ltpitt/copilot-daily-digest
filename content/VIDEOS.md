@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: September 01, 2026
+> **Last Updated**: September 04, 2026
 
 > **📊 Library Stats**
-> - 📚 **170** total videos
-> - 🆕 **6** new this month
-> - 📂 **Categories**: Extensions (1), Getting Started (1), Tutorials (2), Other (1), Features & Updates (1)
+> - 📚 **178** total videos
+> - 🆕 **8** new this month
+> - 📂 **Categories**: Tutorials (1), Extensions (1), Features & Updates (2), Other (2), Getting Started (2)
 
 ---
 
@@ -13,75 +13,112 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Features & Updates](#features--updates) (1)
-  - [Tutorials](#tutorials) (2)
+  - [Getting Started](#getting-started) (2)
+  - [Features & Updates](#features--updates) (2)
+  - [Tutorials](#tutorials) (1)
   - [Extensions](#extensions) (1)
-  - [Other](#other) (1)
+  - [Other](#other) (2)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*6 videos published in the last 30 days*
+*8 videos published in the last 30 days*
 
-### [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
+### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 
-**Published**: Aug 27, 2026 | **Channel**: GitHub
+**Published**: Sep 3, 2026 | **Channel**: GitHub
 
-In this stream we will try out the GitHub Copilot Teams and Slack Integration...
+Think of an LLM like a horse: to direct where it goes, you need to give it a harness. Learn how harness engineering provides the runtime, tools, and guardrails necessary for AI agents to interact with your codebase. Watch this short to see how GitHub Copilot provides the infrastructure for agentic w...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
-
----
-
-### [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw)
-
-**Published**: Aug 25, 2026 | **Channel**: GitHub
-
-When an AI agent makes a change, checking that code usually means bouncing between your editor, terminal, and browser. In episode 6 of our beginner series, we explore the built-in panels of the GitHub Copilot app. Discover how to view diffs, run terminal commands, and preview web apps side by side. ...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=IyWlcES85Zw)
+[Watch on YouTube →](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 
 ---
 
-### [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY)
+### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 
-**Published**: Aug 24, 2026 | **Channel**: GitHub
+**Published**: Sep 3, 2026 | **Channel**: GitHub
 
-Building software on GitHub means navigating tiny details every single day. In this clip from the GitHub Podcast, Cassidy Williams highlights the GitHub Tiny Wins team, a group dedicated to fixing small platform frictions and paper cuts for maintainers. From site performance tweaks to making contrib...
+In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repository into a global Augmentative and Alternative Communication (AAC) platform. Built on GitHub for people with speech disabilities, autism, cerebral palsy, and ALS, Cboard proves that open source software can restore di...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/c44_HuUuTtY)
-
----
-
-### [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k)
-
-**Published**: Aug 23, 2026 | **Channel**: GitHub
-
-Picking a local AI model can be a messy decision, and tokens per second does not tell the full story. local.ai compares task quality, end-to-end task time, hardware cost, and electricity cost on the machine you already own. The early-access site detects your specs and recommends the right model to t...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/Qqtv9lANW7k)
+[Watch on YouTube →](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 
 ---
 
-### [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM)
+### [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
 
-**Published**: Aug 22, 2026 | **Channel**: GitHub
+**Published**: Sep 2, 2026 | **Channel**: GitHub
 
-GitHub OAuth apps now support 8-hour access tokens paired with 6-month refresh tokens. In this changelog update, learn how to configure the offline_access scope and shorten token lifespans for better app security. We also cover adding up to 10 callback URLs for dev, staging, and production environme...
+AI terminology is evolving fast, with new terms like loop engineering, harness engineering, and squads popping up constantly. In episode 2 of season 2, Cassidy, Marlene, and GPS break down what these terms actually mean and how they apply to real agentic workflows. They also explore the differences ...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/k7VtVpvwIvM)
+[Watch on YouTube →](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
 
 ---
 
-### [The Download: GitHub OAuth refresh tokens, Cloudflare MCP detection, terminal animations & more](https://www.youtube.com/watch?v=BwhlIP-0m2c)
+### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
 
-**Published**: Aug 21, 2026 | **Channel**: GitHub
+**Published**: Sep 2, 2026 | **Channel**: GitHub
 
-Welcome back to The Download! This week, we explore the GitHub Universe 2026 speaker lineup and dive into major updates across the AI agent ecosystem. From 8-hour OAuth access tokens to A2A’s new open-governance home, stay up to date on modern developer tools. Don't forget to check out ttfx for term...
+You lose some sleep, but Peter Steinberger says you also hear amazing stories.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=BwhlIP-0m2c)
+
+
+Stay up-to-date on all things GitHub by connecting with us:
+
+YouTube: https://gh.io/subgithub
+Blog: https://github.blog
+X: https://twitter.com/github
+LinkedIn: https://linkedin.com/company/github
+Insider newsletter: ht...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/k2fgD6JbB54)
+
+---
+
+### [GitHub Copilot Day live: new releases, real workflows, and live coding](https://www.youtube.com/watch?v=0kOXsQUNzss)
+
+**Published**: Sep 2, 2026 | **Channel**: GitHub
+
+Join us live for four hours of GitHub Copilot, from the people building it and the developers putting it to work. 
+
+We’ll go deep on agents, model choice, and how Copilot works across GitHub, the CLI, and VS Code. Expect technical demos, practical workflows, product announcements, and a few special ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=0kOXsQUNzss)
+
+---
+
+### [GitHub CLI: Media in issues, pull requests, and comments](https://www.youtube.com/shorts/UsoTGRL6GHE)
+
+**Published**: Sep 1, 2026 | **Channel**: GitHub
+
+Sometimes it's easier to show than tell. We're sure this update will help with that. 👀
+
+GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an issue, pull request, or comment body.
+
+Available now to all users on GitHub across all plans. 🎉
+https:/...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/UsoTGRL6GHE)
+
+---
+
+### [Let's Learn GitHub Copilot SDK](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+
+**Published**: Sep 1, 2026 | **Channel**: GitHub
+
+Join this beginner-friendly virtual training to get started with the GitHub Copilot SDK, your toolkit for building custom agent capabilities into your workflows. Learn how to programmatically interact with Copilot, create custom agent tools, and extend AI workflows across TypeScript, Python, .NET, G...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+
+---
+
+### [How to build custom workflows with canvases in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=Xfgq79gV_GM)
+
+**Published**: Sep 1, 2026 | **Channel**: GitHub
+
+What if you could describe your ideal workspace interface and have an AI agent build it in seconds? In episode 7 of our beginner series, discover how canvases in the GitHub Copilot app create fully customizable, bidirectional surfaces for you and your agents. Learn how to use the /create-canvas skil...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Xfgq79gV_GM)
 
 ---
 
@@ -94,13 +131,23 @@ Welcome back to The Download! This week, we explore the GitHub Universe 2026 spe
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [GitHub Copilot app for beginners: using the diff, terminal, and browser](https://www.youtube.com/watch?v=IyWlcES85Zw)
+### [Let's Learn GitHub Copilot SDK](https://www.youtube.com/watch?v=IAEQt_yqfLA)
 
-**Published**: Aug 25, 2026
+**Published**: Sep 1, 2026
 
-When an AI agent makes a change, checking that code usually means bouncing between your editor, terminal, and browser. In episode 6 of our beginner series, we explore the built-in panels of the GitHub...
+Join this beginner-friendly virtual training to get started with the GitHub Copilot SDK, your toolkit for building custom agent capabilities into your workflows. Learn how to programmatically interact...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=IyWlcES85Zw)
+[Watch on YouTube →](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+
+---
+
+### [How to build custom workflows with canvases in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=Xfgq79gV_GM)
+
+**Published**: Sep 1, 2026
+
+What if you could describe your ideal workspace interface and have an AI agent build it in seconds? In episode 7 of our beginner series, discover how canvases in the GitHub Copilot app create fully cu...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Xfgq79gV_GM)
 
 ---
 
@@ -111,13 +158,25 @@ When an AI agent makes a change, checking that code usually means bouncing betwe
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [The Download: GitHub OAuth refresh tokens, Cloudflare MCP detection, terminal animations & more](https://www.youtube.com/watch?v=BwhlIP-0m2c)
+### [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
 
-**Published**: Aug 21, 2026
+**Published**: Sep 2, 2026
 
-Welcome back to The Download! This week, we explore the GitHub Universe 2026 speaker lineup and dive into major updates across the AI agent ecosystem. From 8-hour OAuth access tokens to A2A’s new open...
+AI terminology is evolving fast, with new terms like loop engineering, harness engineering, and squads popping up constantly. In episode 2 of season 2, Cassidy, Marlene, and GPS break down what these ...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=BwhlIP-0m2c)
+[Watch on YouTube →](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
+
+---
+
+### [GitHub Copilot Day live: new releases, real workflows, and live coding](https://www.youtube.com/watch?v=0kOXsQUNzss)
+
+**Published**: Sep 2, 2026
+
+Join us live for four hours of GitHub Copilot, from the people building it and the developers putting it to work. 
+
+We’ll go deep on agents, model choice, and how Copilot works across GitHub, the CLI,...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=0kOXsQUNzss)
 
 ---
 
@@ -128,23 +187,13 @@ Welcome back to The Download! This week, we explore the GitHub Universe 2026 spe
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [How GitHub's tiny wins team fixes developer paper cuts](https://www.youtube.com/shorts/c44_HuUuTtY)
+### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 
-**Published**: Aug 24, 2026
+**Published**: Sep 3, 2026
 
-Building software on GitHub means navigating tiny details every single day. In this clip from the GitHub Podcast, Cassidy Williams highlights the GitHub Tiny Wins team, a group dedicated to fixing sma...
+Think of an LLM like a horse: to direct where it goes, you need to give it a harness. Learn how harness engineering provides the runtime, tools, and guardrails necessary for AI agents to interact with...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/c44_HuUuTtY)
-
----
-
-### [GitHub OAuth apps now support refresh tokens and multiple callback URLs](https://www.youtube.com/shorts/k7VtVpvwIvM)
-
-**Published**: Aug 22, 2026
-
-GitHub OAuth apps now support 8-hour access tokens paired with 6-month refresh tokens. In this changelog update, learn how to configure the offline_access scope and shorten token lifespans for better ...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/k7VtVpvwIvM)
+[Watch on YouTube →](https://www.youtube.com/shorts/_yk_yg_DTeQ)
 
 ---
 
@@ -155,13 +204,13 @@ GitHub OAuth apps now support 8-hour access tokens paired with 6-month refresh t
 
 **When to watch**: You want to extend Copilot or integrate it with other tools.
 
-### [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
+### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 
-**Published**: Aug 27, 2026
+**Published**: Sep 3, 2026
 
-In this stream we will try out the GitHub Copilot Teams and Slack Integration...
+In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repository into a global Augmentative and Alternative Communication (AAC) platform. Built on GitHub for people with speech d...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
+[Watch on YouTube →](https://www.youtube.com/watch?v=IknnBdcDDiQ)
 
 ---
 
@@ -172,13 +221,32 @@ In this stream we will try out the GitHub Copilot Teams and Slack Integration...
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [local.ai: hardware benchmarking for local AI models](https://www.youtube.com/shorts/Qqtv9lANW7k)
+### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
 
-**Published**: Aug 23, 2026
+**Published**: Sep 2, 2026
 
-Picking a local AI model can be a messy decision, and tokens per second does not tell the full story. local.ai compares task quality, end-to-end task time, hardware cost, and electricity cost on the m...
+You lose some sleep, but Peter Steinberger says you also hear amazing stories.
 
-[Watch on YouTube →](https://www.youtube.com/shorts/Qqtv9lANW7k)
+
+
+Stay up-to-date on all things GitHub by connecting with us:
+
+YouTube: https://gh.io/subgithub
+Blog: https://github.blo...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/k2fgD6JbB54)
+
+---
+
+### [GitHub CLI: Media in issues, pull requests, and comments](https://www.youtube.com/shorts/UsoTGRL6GHE)
+
+**Published**: Sep 1, 2026
+
+Sometimes it's easier to show than tell. We're sure this update will help with that. 👀
+
+GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an iss...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/UsoTGRL6GHE)
 
 ---
 
