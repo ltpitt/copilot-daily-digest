@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: September 01, 2026
+**Last Updated**: September 04, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,95 +12,91 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
-- **Aug 28, 2026** - 📋 **Policy/Billing** - [Upcoming changes to GitHub Copilot policies and billing](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing)
-- **Aug 4, 2026** - 🗑️ **Retirement/Removal** - [Retiring The Copilot Billing Preview App](https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app)
-- **Aug 4, 2026** - 🚫 **Deprecation** - [Upcoming Deprecation Of Github Spark On Github Com](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com)
+- **Sep 3, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
+- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected GitHub Copilot models deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
 
 ---
 
 ## This Week (Last 7 Days)
 
-### [GitHub Copilot in VS Code, August 2026 releases](https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases)
-*Aug 31, 2026*
+### [Reopening Copilot Business and Enterprise signups](https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups)
+*Sep 3, 2026*
 
-This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the integrated browser, and dictation also get updates to support more ways of working in VS Code.
+We're gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you've been waiting to get started with Copilot, select the plan that fits your needs. If your preferred option isn't available yet, check back soon.
 
-### [GitHub Copilot in Visual Studio — August update](https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2)
-*Aug 28, 2026*
+### [Gemini 3.8 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot)
+*Sep 3, 2026*
 
-August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Here's with GitHub Copilot in Visual Studio 2026.
+Gemini 3.8 Flash, Google's latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous validation and persistent recovery from actionable failures. This model is billed at introductory provider pricing under usage-based billing through December 31, 2026.
 
-### [GitHub Copilot weekly releases — August 24](https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24)
-*Aug 28, 2026*
+### [GitHub Actions: Early September 2026 updates](https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates)
+*Sep 3, 2026*
 
-This week's updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. Turn team conversations into shared agent sessions. Mention @GitHub to investigate problems, plan work, and make changes your team can follow and guide together.
+GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. A new REST API returns when registration and runtime support end for a given runner version, so you can plan runner upgrades before a version is deprecated. Call GET /actions/runners/deprecations/{version} at the repository, organization, or enterprise level.
 
-### [Upcoming changes to GitHub Copilot policies and billing](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing)
-*Aug 28, 2026*
+### [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
+*Sep 3, 2026*
 
-To provide a strong, consistent Copilot experience, we're making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Starting September 1, 2026, GitHub will start reenabling sign-ups for new Copilot Business and Copilot Enterprise customers paying by credit card or PayPal.
+Copilot Enterprise and Copilot Business administrators may need to enable access to the alternative models through their model policies in Copilot settings. As an administrator, you can verify availability in your organization or enterprise Copilot model settings and confirm that the policy is enabled for the specific model.
 
-### [Actions retention will cover checks, workflow runs, and statuses](https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses)
-*Aug 27, 2026*
+### [Multiple trusted publishing configurations for npm](https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm)
+*Sep 3, 2026*
 
-Starting October 1, 2026, checks, workflow runs, and statuses will be governed by the same Actions retention setting that already controls how long artifacts and logs are kept, with a default of 90 days. Until now, checks, workflow runs, and statuses were retained for 400+ days regardless of your retention configuration.
+We're continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Maintainers are no longer limited to one configuration per package to separate workflows with stable, prerelease, or staging versions. Before this, maintainers had to depend on workflow workarounds or keep a long-lived token around for the paths OIDC couldn't cover.
 
 ---
 
 ## Last 30 Days
 
-### [Copilot code review: Resolution reasons and expanded capabilities](https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities)
-*Aug 27, 2026*
+### [GitHub CLI Linux package signing key expires September 5](https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5)
+*Sep 3, 2026*
 
-Copilot code review can now review two types of pull requests it didn't cover before:
-Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent
-Very large pull requests
-Additionally, you can now submit the reason for why you're resolving a particular Copilot code review comment. To , see Copilot code review without a Copilot license.
+The current PGP key for the GitHub CLI Linux package repositories expires on Saturday, September 5, 2026. Beginning with the first release after that date, APT and RPM repository metadata and newly published RPM packages will be signed with just the replacement key. In April, we published a keyring containing both the current and replacement keys.
 
-### [Better label management on issues is generally available](https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available)
-*Aug 27, 2026*
+### [GitHub Copilot app for Beginners: Run several agents at once](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/)
+*Sep 3, 2026*
 
-We're making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. You can now find the right label faster with suggestions based on what a repository has been using recently. You can also see Recent labels based on your own usage, making it easier to label issues without searching through the full list.
+Running multiple AI agents on the same project seems like pure chaos, with too many cooks in your development kitchen. But with the GitHub Copilot app, these agents work separately and don't interfere with each other, allowing you to get more done in less time. Think of parallel agent sessions like a trip to the laundromat.
 
-### [RDT: Trying the new GitHub Copilot Teams and Slack Integration](https://www.youtube.com/watch?v=Q3Q4ywUrY2A)
-*Aug 27, 2026*
+### [CodeQL 2.26.4 improves GitHub actions security detections](https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections)
+*Sep 3, 2026*
 
-In this stream we will try out the GitHub Copilot Teams and Slack Integration
+CodeQL 2.26.4 adds support for Go 1.27, improves Rust data flow alert locations, and sharpens detections across C#, Java/Kotlin, and GitHub Actions. Teams using GitHub code scanning can expect more accurate alerts and broader coverage for modern language and workflow patterns.
 
-### [GitHub Copilot app for Beginners: Automate Dependabot pull request triage](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/)
-*Aug 26, 2026*
+### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
+*Sep 3, 2026*
 
-I might be biased, but I think Dependabot is pretty amazing. It helps keep my projects up to date, ensuring I'm always using secure libraries. But because there're frequently new vulnerabilities, there're frequently new pull requests from Dependabot.
+Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short explains why that scaffolding matters for reliable agentic workflows in GitHub Copilot.
 
-### [Enterprise-managed settings now support autoUpdate for plugin marketplaces](https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces)
-*Aug 26, 2026*
+### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
+*Sep 3, 2026*
 
-You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.
+In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repository into a global Augmentative and Alternative Communication (AAC) platform.
 
-### [Github Apps Can Now Access Enterprise Billing Data](https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data)
-*Aug 26, 2026*
+### [Content exclusions generally available in Copilot app and CLI](https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli)
+*Sep 2, 2026*
 
-Explore the latest update: Github Apps Can Now Access Enterprise Billing Data.
+The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won't use excluded files as context, helping you protect sensitive code across agentic workflows. This is available for Copilot Business and Copilot Enterprise customers.
 
-### [Global model policy generally available](https://github.blog/changelog/2026-08-26-global-model-policy-generally-available)
-*Aug 26, 2026*
+### [Enterprise-managed settings support any default model](https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model)
+*Sep 2, 2026*
 
-In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we're gradually rolling out enforcement of the policy through September 1, so it will take effect at different times for different enterprises. Previously unconfigured and new generally available models will inherit the global policy state.
+You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows. You can also customize the default by enterprise team, assigning a different default model based on team membership.
 
-### [Block Users Directly From Security Advisories](https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories)
-*Aug 25, 2026*
+### [How we make AI coding more cost efficient without sacrificing task quality](https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/)
+*Sep 2, 2026*
 
-Explore the latest update: Block Users Directly From Security Advisories.
+Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context. That's why token count of individual interactions alone isn't a meaningful measure of efficiency. The goal shouldn't be to use fewer tokens, but to tap into the right amount of context to move a task forward.
 
-### [GitHub Copilot app Customize tab is generally available](https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available)
-*Aug 25, 2026*
+### [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
+*Sep 2, 2026*
 
-GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse by type, and find new ways to tailor Copilot to how you and your team work.
+AI terminology is evolving fast, with new terms like loop engineering, harness engineering, and squads popping up constantly.
 
-### [Rule Insights Dashboard Generally Available](https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available)
-*Aug 25, 2026*
+### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
+*Sep 2, 2026*
 
-Explore the latest update: Rule Insights Dashboard Generally Available.
+Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short offers a candid look at the workload, community energy, and surprises that come with leading a breakout open source project.
 
 ---
 
