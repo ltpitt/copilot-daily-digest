@@ -28,7 +28,7 @@
 
 **Published**: Sep 10, 2026 | **Channel**: GitHub
 
-In this stream we'll explore the new attach flag in the GitHub CLI. Attach images to PR's and Issues with GitHub CLI...
+This stream demonstrates the new GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a simple way to share visual proof of work alongside terminal-based workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
 
@@ -38,7 +38,7 @@ In this stream we'll explore the new attach flag in the GitHub CLI. Attach image
 
 **Published**: Sep 9, 2026 | **Channel**: GitHub
 
-Need to attach proof of work to automated pull requests and bug reports? The GitHub CLI now includes the --attach flag, making it easy to upload screenshots and videos directly to issues, PRs, and comments from the terminal. Watch how an automated Playwright agent sweeps a site for bugs, captures fa...
+This walkthrough shows how to use the GitHub CLI's --attach flag to add screenshots and videos to issues, pull requests, and comments. It also demonstrates an automated Playwright workflow that captures evidence and posts before-and-after media to a pull request.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
 
@@ -48,7 +48,7 @@ Need to attach proof of work to automated pull requests and bug reports? The Git
 
 **Published**: Sep 8, 2026 | **Channel**: GitHub
 
-Every project has its own conventions, scripts, and code style. In episode 8 of our beginner series, discover how to teach the GitHub Copilot app your specific project standards. Learn how to set up custom instructions in your .github folder, create repeatable skills for testing, assign custom agent...
+Episode 8 of the beginner series shows how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP server integrations for workflows such as browser testing.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=QGakvawJc2M)
 
@@ -58,7 +58,7 @@ Every project has its own conventions, scripts, and code style. In episode 8 of 
 
 **Published**: Sep 7, 2026 | **Channel**: GitHub
 
-Is AI changing how we describe code as well as how we write it? In this project pick, we explore "The load-bearing vocabulary of Claude" by Louis Abraham. By analyzing over 460,000 GitHub pull request descriptions, the study revealed a growing cluster of AI-associated terms like "load-bearing," "sea...
+This short explores how AI is reshaping the language developers use in pull request descriptions. It highlights a large-scale analysis that found AI-associated terms appearing more often in GitHub PR write-ups.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/mrbnT5_Homg)
 
@@ -68,7 +68,7 @@ Is AI changing how we describe code as well as how we write it? In this project 
 
 **Published**: Sep 7, 2026 | **Channel**: GitHub
 
-Bring GitHub Copilot directly into your daily team communication. In this episode of GitHub Checkout, Andrea Griffiths and Meagan Cojocar demonstrate how Copilot Cloud Agent works inside Slack and Microsoft Teams. Learn how to create issues, review diffs, render live HTML previews, and analyze repos...
+This demo shows how GitHub Copilot works inside Slack and Microsoft Teams for issue creation, diff review, HTML previews, and repository analysis. It also covers the admin setup and policy controls required to enable these team workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=QjvHxsl_xko)
 
@@ -78,7 +78,7 @@ Bring GitHub Copilot directly into your daily team communication. In this episod
 
 **Published**: Sep 6, 2026 | **Channel**: GitHub
 
-Bigger AI models do not automatically make better code reviewers. According to recent benchmarks, newer frontier models can produce longer, highly formatted responses while missing fundamental bugs. When relying on AI agents to review pull requests, explain diffs, or diagnose issues, conciseness and...
+This short argues that larger AI models do not automatically produce better code reviews. It shows why concise, accurate feedback is more valuable than verbose formatting when agents review pull requests or explain diffs.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
 
@@ -88,7 +88,7 @@ Bigger AI models do not automatically make better code reviewers. According to r
 
 **Published**: Sep 5, 2026 | **Channel**: GitHub
 
-You can now attach images and videos to pull requests, comments, and issues directly from your terminal using the GitHub CLI. Use the new --attach flag followed by the file location, a # symbol, and alt text to keep your media accessible. This feature is ideal for sharing screenshots, test recording...
+This short introduces the GitHub CLI's --attach flag for adding images and videos to issues, comments, and pull requests from the terminal. It also highlights accessibility-minded alt text and how agents can automate proof-of-work attachments.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/YD2vfwIcAao)
 
@@ -98,12 +98,7 @@ You can now attach images and videos to pull requests, comments, and issues dire
 
 **Published**: Sep 4, 2026 | **Channel**: GitHub
 
-Project HydraFusion delivered those results against Claude Opus 5 on Terminal-Bench 2.1 in controlled offline evaluations.
-
-HydraFusion orchestrates the models and workflow for each coding task. You select it like any other model.
-
-Try HydraFusion through /experimental in GitHub Copilot CLI.
-https:/...
+Project HydraFusion routes each coding task through the model and workflow that best match the job. This short highlights its benchmark results and shows how to try the research preview through `/experimental` in GitHub Copilot CLI.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/uug8gCi3Xxk)
 
@@ -113,7 +108,7 @@ https:/...
 
 **Published**: Sep 4, 2026 | **Channel**: GitHub
 
-Every developer task requires a different balance of quality, cost, and latency, but choosing a single AI model locks you into rigid trade-offs. Project HydraFusion is a research preview that introduces runtime orchestration to GitHub Copilot, automatically selecting the best execution path across m...
+This launch video introduces Project HydraFusion, a research preview that orchestrates multiple models inside GitHub Copilot. It explains how single, cascade, and critique workflows balance quality, latency, and cost automatically.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=dJmt1PHsETM)
 
@@ -123,7 +118,7 @@ Every developer task requires a different balance of quality, cost, and latency,
 
 **Published**: Sep 4, 2026 | **Channel**: GitHub
 
-You can now attach images and videos to pull requests directly from your terminal using the GitHub CLI. In this episode of The Download, GPS covers Meta's Muse Glimmer 30B for running local coding agents on 24GB GPUs, Alibaba's 2.4T parameter Qwen3.8-Max, and new benchmarks like BullshitBench examin...
+This episode of The Download leads with the new GitHub CLI media attachment workflow and then rounds up other notable AI releases and benchmarks. It also points viewers to a project exploring how AI vocabulary is showing up in GitHub pull request descriptions.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=A_PQvLNDt2k)
 
@@ -142,7 +137,7 @@ You can now attach images and videos to pull requests directly from your termina
 
 **Published**: Sep 9, 2026
 
-Need to attach proof of work to automated pull requests and bug reports? The GitHub CLI now includes the --attach flag, making it easy to upload screenshots and videos directly to issues, PRs, and com...
+This walkthrough shows how to use the GitHub CLI's --attach flag to add screenshots and videos to issues, pull requests, and comments. It also demonstrates an automated Playwright workflow that captures evidence and posts before-and-after media to a pull request.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
 
@@ -152,7 +147,7 @@ Need to attach proof of work to automated pull requests and bug reports? The Git
 
 **Published**: Sep 8, 2026
 
-Every project has its own conventions, scripts, and code style. In episode 8 of our beginner series, discover how to teach the GitHub Copilot app your specific project standards. Learn how to set up c...
+Episode 8 of the beginner series shows how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP server integrations for workflows such as browser testing.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=QGakvawJc2M)
 
@@ -162,7 +157,7 @@ Every project has its own conventions, scripts, and code style. In episode 8 of 
 
 **Published**: Sep 7, 2026
 
-Bring GitHub Copilot directly into your daily team communication. In this episode of GitHub Checkout, Andrea Griffiths and Meagan Cojocar demonstrate how Copilot Cloud Agent works inside Slack and Mic...
+This demo shows how GitHub Copilot works inside Slack and Microsoft Teams for issue creation, diff review, HTML previews, and repository analysis. It also covers the admin setup and policy controls required to enable these team workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=QjvHxsl_xko)
 
@@ -172,7 +167,7 @@ Bring GitHub Copilot directly into your daily team communication. In this episod
 
 **Published**: Sep 4, 2026
 
-Every developer task requires a different balance of quality, cost, and latency, but choosing a single AI model locks you into rigid trade-offs. Project HydraFusion is a research preview that introduc...
+This launch video introduces Project HydraFusion, a research preview that orchestrates multiple models inside GitHub Copilot. It explains how single, cascade, and critique workflows balance quality, latency, and cost automatically.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=dJmt1PHsETM)
 
@@ -189,7 +184,7 @@ Every developer task requires a different balance of quality, cost, and latency,
 
 **Published**: Sep 5, 2026
 
-You can now attach images and videos to pull requests, comments, and issues directly from your terminal using the GitHub CLI. Use the new --attach flag followed by the file location, a # symbol, and a...
+This short introduces the GitHub CLI's --attach flag for adding images and videos to issues, comments, and pull requests from the terminal. It also highlights accessibility-minded alt text and how agents can automate proof-of-work attachments.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/YD2vfwIcAao)
 
@@ -199,7 +194,7 @@ You can now attach images and videos to pull requests, comments, and issues dire
 
 **Published**: Sep 4, 2026
 
-You can now attach images and videos to pull requests directly from your terminal using the GitHub CLI. In this episode of The Download, GPS covers Meta's Muse Glimmer 30B for running local coding age...
+This episode of The Download leads with the new GitHub CLI media attachment workflow and then rounds up other notable AI releases and benchmarks. It also points viewers to a project exploring how AI vocabulary is showing up in GitHub pull request descriptions.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=A_PQvLNDt2k)
 
@@ -216,7 +211,7 @@ You can now attach images and videos to pull requests directly from your termina
 
 **Published**: Sep 6, 2026
 
-Bigger AI models do not automatically make better code reviewers. According to recent benchmarks, newer frontier models can produce longer, highly formatted responses while missing fundamental bugs. W...
+This short argues that larger AI models do not automatically produce better code reviews. It shows why concise, accurate feedback is more valuable than verbose formatting when agents review pull requests or explain diffs.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
 
@@ -233,7 +228,7 @@ Bigger AI models do not automatically make better code reviewers. According to r
 
 **Published**: Sep 10, 2026
 
-In this stream we'll explore the new attach flag in the GitHub CLI. Attach images to PR's and Issues with GitHub CLI...
+This stream demonstrates the new GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a simple way to share visual proof of work alongside terminal-based workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
 
@@ -243,7 +238,7 @@ In this stream we'll explore the new attach flag in the GitHub CLI. Attach image
 
 **Published**: Sep 7, 2026
 
-Is AI changing how we describe code as well as how we write it? In this project pick, we explore "The load-bearing vocabulary of Claude" by Louis Abraham. By analyzing over 460,000 GitHub pull request...
+This short explores how AI is reshaping the language developers use in pull request descriptions. It highlights a large-scale analysis that found AI-associated terms appearing more often in GitHub PR write-ups.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/mrbnT5_Homg)
 
@@ -253,9 +248,7 @@ Is AI changing how we describe code as well as how we write it? In this project 
 
 **Published**: Sep 4, 2026
 
-Project HydraFusion delivered those results against Claude Opus 5 on Terminal-Bench 2.1 in controlled offline evaluations.
-
-HydraFusion orchestrates the models and workflow for each coding task. You s...
+Project HydraFusion routes each coding task through the model and workflow that best match the job. This short highlights its benchmark results and shows how to try the research preview through `/experimental` in GitHub Copilot CLI.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/uug8gCi3Xxk)
 

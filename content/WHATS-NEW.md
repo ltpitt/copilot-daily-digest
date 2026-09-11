@@ -14,7 +14,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 - **Sep 10, 2026** - 🚫 **Deprecation** - [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
 - **Sep 3, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
-- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected Github Copilot Models Deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
+- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected GitHub Copilot models deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
 
 ---
 
@@ -33,13 +33,7 @@ You can now use cache-mode to apply least-privilege access to the GitHub Actions
 ### [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
 *Sep 10, 2026*
 
-We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model
-Deprecation date
-Suggested alternative
-MAI-Code-1-Flash
-2026-09-10
-MAI-Code-1.1-Flash
-Please update your workflows and integrations to use a supported model.
+We have deprecated MAI-Code-1-Flash across GitHub Copilot experiences as of September 10, 2026. Teams using the model should move to MAI-Code-1.1-Flash and confirm any enterprise model policies allow that replacement. Updating now will prevent interruptions in chat, editing, and completion workflows.
 
 ### [Xcode 27 runner image now runs on macOS 27](https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27)
 *Sep 10, 2026*
@@ -49,7 +43,7 @@ You can now validate your Apple apps against macOS 27 using the Xcode 27 runner 
 ### [GitHub Copilot app for Beginners: Using the diff, terminal, and browser](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/)
 *Sep 10, 2026*
 
-When an agent makes a change to your code, you want to review it, run it, and see what changed. Great news: now you can do all three without having to leave the GitHub Copilot app. Before, doing those three jobs would mean having to bounce between your editor, terminal window, and web browser.
+Learn how to review diffs, run commands, and preview apps without leaving the GitHub Copilot app. The guide shows how the app's built-in panels help you verify agent-generated changes before you accept them.
 
 ---
 
@@ -58,12 +52,12 @@ When an agent makes a change to your code, you want to review it, run it, and se
 ### [Refreshed repository pull requests page in public preview](https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview)
 *Sep 10, 2026*
 
-A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more.
+GitHub's refreshed repository pull requests page is now in public preview with stronger filtering and a compact presentation mode. It is designed to help teams scan, sort, and manage larger PR queues more efficiently.
 
 ### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
 *Sep 10, 2026*
 
-In this stream we'll explore the new attach flag in the GitHub CLI. Attach images to PR's and Issues with GitHub CLI
+This walkthrough shows how to use the GitHub CLI attach flag to add screenshots and videos to pull requests and issues. It focuses on capturing proof of work from automated runs so reviewers can inspect bugs and fixes without leaving GitHub.
 
 ### [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations)
 *Sep 9, 2026*
@@ -78,8 +72,7 @@ This change applies to all npm accounts. During the hold, publishing and other s
 ### [CodeQL 2.27.0 adds support for Linux ARM64](https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64)
 *Sep 9, 2026*
 
-CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find and remediate security issues in your code. CodeQL CLI
-You can now run CodeQL natively on Linux arm64.
+CodeQL 2.27.0 adds native Linux ARM64 support, a new Rust security query, and broader framework coverage for Java/Kotlin and C#. The release also improves analysis accuracy and makes it easier to use private registry configurations with GitHub code scanning.
 
 ### [Block pull requests with exposed secrets from merging](https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging)
 *Sep 9, 2026*
@@ -94,17 +87,17 @@ More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advance
 ### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
 *Sep 9, 2026*
 
-Need to attach proof of work to automated pull requests and bug reports? The GitHub CLI now includes the --attach flag, making it easy to upload screenshots and videos directly to issues, PRs, and...
+This demo shows how the GitHub CLI's --attach flag can add screenshots and videos directly to issues, pull requests, and comments. It also walks through an automated Playwright workflow that captures failure evidence and posts before-and-after media to a PR.
 
 ### [Enterprise-managed sandbox in Copilot for JetBrains](https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains)
 *Sep 8, 2026*
 
-This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions.
+This JetBrains update adds enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, and better project-wide chat context. It also improves policy diagnostics, model selection, and the connection between Copilot CLI sessions and JetBrains IDEs.
 
 ### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
 *Sep 8, 2026*
 
-Every project has its own conventions, scripts, and code style. In episode 8 of our beginner series, discover how to teach the GitHub Copilot app your specific project standards.
+Episode 8 of the beginner series explains how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP integrations for workflows such as browser testing.
 
 ---
 
