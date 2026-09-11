@@ -30,7 +30,7 @@
 
 **Published**: Sep 10, 2026 | **Channel**: GitHub
 
-This stream demonstrates the new GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a simple way to share visual proof of work alongside terminal-based workflows.
+This longer livestream introduces the GitHub CLI attach flag for adding images to pull requests and issues. It serves as a higher-level product overview for the feature, complementing the more hands-on tutorial videos elsewhere in this digest.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
 

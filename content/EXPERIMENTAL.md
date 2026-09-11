@@ -98,7 +98,7 @@ Exploring LLM-powered navigation for your codebase
 
 Can we improve Copilot code completion by suggesting the next logical change, wherever it is in your project?
 
-This experiment has graduated to a production feature.
+This GitHub Next project helped shape GitHub Spark, which has since launched as a separate product experience.
 
 → [Learn more](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
