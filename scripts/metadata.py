@@ -35,6 +35,8 @@ DEFAULT_METADATA = {
     },
 }
 
+IGNORED_DOC_METADATA_PATHS = {"docs/scrape-summary.md"}
+
 
 def load_metadata() -> dict:
     """
@@ -271,57 +273,64 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
         previous_content: Optional previous content for generating diffs
     """
     metadata = load_metadata()
-    new_hash = calculate_hash(content)
 
-    # Get previous hash if it exists
-    previous_hash = metadata["content_hashes"].get(file_path)
+    ignored_doc = file_path in IGNORED_DOC_METADATA_PATHS
 
-    # Update content hash
-    metadata["content_hashes"][file_path] = new_hash
+    if ignored_doc:
+        metadata["content_hashes"].pop(file_path, None)
+        metadata["doc_versions"].pop(Path(file_path).stem, None)
+    else:
+        new_hash = calculate_hash(content)
 
-    # Update doc_versions if this is a documentation file
-    if file_path.startswith("docs/"):
-        doc_name = Path(file_path).stem
+        # Get previous hash if it exists
+        previous_hash = metadata["content_hashes"].get(file_path)
 
-        if doc_name not in metadata["doc_versions"]:
-            metadata["doc_versions"][doc_name] = {"history": []}
+        # Update content hash
+        metadata["content_hashes"][file_path] = new_hash
 
-        # Check if content actually changed
-        content_changed = previous_hash != new_hash
+        # Update doc_versions if this is a documentation file
+        if file_path.startswith("docs/"):
+            doc_name = Path(file_path).stem
 
-        # Prepare version entry
-        version_entry = {
-            "hash": new_hash,
-            "timestamp": get_current_timestamp(),
-            "changed": content_changed,
-        }
+            if doc_name not in metadata["doc_versions"]:
+                metadata["doc_versions"][doc_name] = {"history": []}
 
-        # Generate diff if content changed and we have previous content
-        if content_changed and previous_content:
-            diff = generate_content_diff(previous_content, content)
-            version_entry["diff_summary"] = diff["summary"]
-            version_entry["added_lines"] = diff["added"]
-            version_entry["removed_lines"] = diff["removed"]
-            version_entry["has_diff"] = True
-        else:
-            version_entry["has_diff"] = False
+            # Check if content actually changed
+            content_changed = previous_hash != new_hash
 
-        # Update current version info
-        metadata["doc_versions"][doc_name]["current_hash"] = new_hash
-        metadata["doc_versions"][doc_name]["previous_hash"] = previous_hash
-        metadata["doc_versions"][doc_name]["last_changed"] = get_current_timestamp()
+            # Prepare version entry
+            version_entry = {
+                "hash": new_hash,
+                "timestamp": get_current_timestamp(),
+                "changed": content_changed,
+            }
 
-        # Append to history (keep last 10 versions)
-        if "history" not in metadata["doc_versions"][doc_name]:
-            metadata["doc_versions"][doc_name]["history"] = []
+            # Generate diff if content changed and we have previous content
+            if content_changed and previous_content:
+                diff = generate_content_diff(previous_content, content)
+                version_entry["diff_summary"] = diff["summary"]
+                version_entry["added_lines"] = diff["added"]
+                version_entry["removed_lines"] = diff["removed"]
+                version_entry["has_diff"] = True
+            else:
+                version_entry["has_diff"] = False
 
-        metadata["doc_versions"][doc_name]["history"].append(version_entry)
+            # Update current version info
+            metadata["doc_versions"][doc_name]["current_hash"] = new_hash
+            metadata["doc_versions"][doc_name]["previous_hash"] = previous_hash
+            metadata["doc_versions"][doc_name]["last_changed"] = get_current_timestamp()
 
-        # Keep only last 10 versions to avoid metadata bloat
-        if len(metadata["doc_versions"][doc_name]["history"]) > 10:
-            metadata["doc_versions"][doc_name]["history"] = metadata["doc_versions"][doc_name][
-                "history"
-            ][-10:]
+            # Append to history (keep last 10 versions)
+            if "history" not in metadata["doc_versions"][doc_name]:
+                metadata["doc_versions"][doc_name]["history"] = []
+
+            metadata["doc_versions"][doc_name]["history"].append(version_entry)
+
+            # Keep only last 10 versions to avoid metadata bloat
+            if len(metadata["doc_versions"][doc_name]["history"]) > 10:
+                metadata["doc_versions"][doc_name]["history"] = metadata["doc_versions"][
+                    doc_name
+                ]["history"][-10:]
 
     # Update stats
     metadata["stats"]["total_docs"] = len(
