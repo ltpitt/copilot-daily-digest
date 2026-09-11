@@ -92,7 +92,7 @@ Exploring LLM-powered navigation for your codebase
 
 ---
 
-## Product (Graduated from Experiments)
+## Graduated Experiments
 
 ### [Copilot Next Edit Suggestions](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 

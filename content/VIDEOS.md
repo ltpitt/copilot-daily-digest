@@ -5,7 +5,7 @@
 > **📊 Library Stats**
 > - 📚 **188** total videos
 > - 🆕 **10** new this month
-> - 📂 **Categories**: Getting Started (1), Features & Updates (1), Tutorials (1), Agents (2), Extensions (1), Other (4)
+> - 📂 **Categories**: Getting Started (1), Features & Updates (1), Tutorials (2), Agents (2), Extensions (1), Other (3)
 
 ---
 
@@ -15,10 +15,10 @@
 - [📂 Browse by Category](#browse-by-category)
   - [Getting Started](#getting-started) (1)
   - [Features & Updates](#features--updates) (1)
-  - [Tutorials](#tutorials) (1)
+  - [Tutorials](#tutorials) (2)
   - [Agents](#agents) (2)
   - [Extensions](#extensions) (1)
-  - [Other](#other) (4)
+  - [Other](#other) (3)
 
 ---
 
@@ -179,6 +179,16 @@ This short introduces the GitHub CLI's --attach flag for adding images and video
 
 ---
 
+### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
+
+**Published**: Sep 9, 2026
+
+This walkthrough shows how to use the GitHub CLI's --attach flag to add screenshots and videos to issues, pull requests, and comments. It also demonstrates an automated Playwright workflow that captures evidence and posts before-and-after media to a pull request.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
+
+---
+
 
 ## Agents
 
@@ -237,16 +247,6 @@ This demo shows how GitHub Copilot works inside Slack and Microsoft Teams for is
 This stream demonstrates the new GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a simple way to share visual proof of work alongside terminal-based workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
-
----
-
-### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
-
-**Published**: Sep 9, 2026
-
-This walkthrough shows how to use the GitHub CLI's --attach flag to add screenshots and videos to issues, pull requests, and comments. It also demonstrates an automated Playwright workflow that captures evidence and posts before-and-after media to a pull request.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
 
 ---
 

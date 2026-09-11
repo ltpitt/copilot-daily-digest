@@ -459,7 +459,6 @@
     "docs/copilot-configuration.md": "e5ade44511575c787565c41f6a55bb4dc3d9ddd598d509fd87450a19aa980b79",
     "docs/copilot-responsible-use.md": "582580d3be2d23ae0c19b95b7694c3e6514ef59db17884caaa3c585358aa1760",
     "docs/copilot-troubleshooting.md": "83a540925713c7ecd787829d98b87bffb8e8b9ae76ec448ec184649597f69743",
-    "docs/scrape-summary.md": "6bbee119ef1b497f436de3b5091b4e0451fb0edf72350c4256bbc1006e229bb6",
     "test/file.txt": "40304ec7054d8d6820e06f19eda6a3ea067e5a959ce88fe4fb15fe4921937a14"
   },
   "video_ids": [
@@ -1590,77 +1589,10 @@
           "has_diff": false
         }
       ]
-    },
-    "scrape-summary": {
-      "current_hash": "6bbee119ef1b497f436de3b5091b4e0451fb0edf72350c4256bbc1006e229bb6",
-      "previous_hash": "3c5538588a59bcb6a9484f946f2fc837db04d6f38b84c5850259f8221041b572",
-      "last_changed": "2026-09-11T07:13:00Z",
-      "history": [
-        {
-          "hash": "1a52455687db9ff38f2665ec4114dd72a8c596667a8eb84069c668b1b7348785",
-          "timestamp": "2026-06-12T08:09:53Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "e79471524b411680ba64ccf4580eab9257f34c5a799ded602610d7d562013f51",
-          "timestamp": "2026-06-12T08:33:06Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "4d455ff133fa9d460a30d45b275cec2b12ece35093790ecfe5e68e18593333df",
-          "timestamp": "2026-06-26T08:15:01Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "0ba77a0e2e4f094e0b7e715600cfc75fc08beda62ff87d973376169c4502cd91",
-          "timestamp": "2026-07-03T08:04:26Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "90d086cc55b6ff399a0b11003fd31dac750bf3a96ed7e75a9774897e4627bf1e",
-          "timestamp": "2026-07-10T08:10:04Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "1187da0636150141833ba16696db5aae59bfb9d81d58cd6cae91e31e7b958966",
-          "timestamp": "2026-07-17T07:42:19Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "d5de4b4ace3c354c3040d09a59c33ef4b16954433a4e5143a995f7d87d2d0066",
-          "timestamp": "2026-08-07T07:32:31Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "93b643d680dba501c58d4490a302fa8d6679383292c07d717d8c0c32e0643c87",
-          "timestamp": "2026-08-28T10:33:48Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "3c5538588a59bcb6a9484f946f2fc837db04d6f38b84c5850259f8221041b572",
-          "timestamp": "2026-09-04T07:12:52Z",
-          "changed": true,
-          "has_diff": false
-        },
-        {
-          "hash": "6bbee119ef1b497f436de3b5091b4e0451fb0edf72350c4256bbc1006e229bb6",
-          "timestamp": "2026-09-11T07:13:00Z",
-          "changed": true,
-          "has_diff": false
-        }
-      ]
     }
   },
   "stats": {
-    "total_docs": 15,
+    "total_docs": 14,
     "total_blog_posts": 104,
     "total_videos": 188,
     "last_successful_scrape": "2026-09-11T07:13:00Z",

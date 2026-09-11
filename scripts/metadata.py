@@ -35,6 +35,8 @@ DEFAULT_METADATA = {
     },
 }
 
+IGNORED_DOC_METADATA_PATHS = {"docs/scrape-summary.md"}
+
 
 def load_metadata() -> dict:
     """
@@ -271,6 +273,13 @@ def update_content_hash(file_path: str, content: str, previous_content: str = No
         previous_content: Optional previous content for generating diffs
     """
     metadata = load_metadata()
+
+    if file_path in IGNORED_DOC_METADATA_PATHS:
+        metadata["content_hashes"].pop(file_path, None)
+        metadata["doc_versions"].pop(Path(file_path).stem, None)
+        save_metadata(metadata)
+        return
+
     new_hash = calculate_hash(content)
 
     # Get previous hash if it exists
