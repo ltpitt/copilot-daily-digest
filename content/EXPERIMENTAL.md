@@ -122,7 +122,7 @@ This experiment has graduated to a production feature.
 
 An ongoing collaboration with Microsoft to bring React to their library Webview UI Toolkit for Visual Studio Code
 
-This GitHub Next collaboration has moved beyond the prototype stage and now informs a production-ready toolkit.
+This GitHub Next collaboration has graduated into a production-ready toolkit for Visual Studio Code webviews.
 
 → [Learn more](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
