@@ -72,7 +72,7 @@ CodeQL 2.27.0 adds native Linux ARM64 support, a new Rust security query, and br
 ### [Block pull requests with exposed secrets from merging](https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging)
 *Sep 9, 2026*
 
-Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces secret scanning alerts. You can enable the new rule require secret scanning alerts are resolved on pull requests for selected repositories.
+Repository rulesets allow you to add scalable protections across your repositories. Starting today, you can use them to block pull requests from merging when they introduce secret scanning alerts. Teams can enable this requirement for selected repositories so exposed secrets must be resolved before a pull request can merge.
 
 ### [GitHub Advanced Security expands trial availability](https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability)
 *Sep 9, 2026*

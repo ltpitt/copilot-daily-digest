@@ -120,7 +120,7 @@ This experiment has graduated to a production feature.
 
 ### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
-A GitHub Next collaboration with Microsoft that brought React support to the Webview UI Toolkit for Visual Studio Code.
+A GitHub Next collaboration with Microsoft that graduated into the React Webview UI Toolkit for Visual Studio Code.
 
 This GitHub Next collaboration has graduated into a production-ready toolkit for Visual Studio Code webviews.
 
@@ -158,29 +158,43 @@ This experiment has graduated to a production feature.
 
 An exploration of a new category of assists for using natural language in software development.
 
+→ [Explore this experiment](https://githubnext.com/projects/extract-edit-apply/)
+
 ### [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/)
 
 An agentic dev environment, designed for everyday tasks.
+
+→ [Explore this experiment](https://githubnext.com/projects/copilot-workspace/)
 
 ### [Code Brushes](https://githubnext.com/projects/code-brushes/)
 
 Can editing code feel more tactile, like painting with Photoshop brushes? We added a toolbox of brushes to our Visual Studio Code extension that can modify your code.
 
+→ [Explore this experiment](https://githubnext.com/projects/code-brushes/)
+
 ### [GPT-4 with Calc](https://githubnext.com/projects/gpt4-with-calc/)
 
 An exploration of using calculation generation to improve GPT-4's capabilities for numeric reasoning.
+
+→ [Explore this experiment](https://githubnext.com/projects/gpt4-with-calc/)
 
 ### [GitHub Copilot Labs](https://githubnext.com/projects/copilot-labs/)
 
 A VS Code extension for experimental applications of GitHub Copilot.
 
+→ [Explore this experiment](https://githubnext.com/projects/copilot-labs/)
+
 ### [Copilot Voice](https://githubnext.com/projects/copilot-voice/)
 
 Write code without the keyboard. Difficulty typing? Use your voice to code without spelling things out by talking with GitHub Copilot.
 
+→ [Explore this experiment](https://githubnext.com/projects/copilot-voice/)
+
 ### [GitHub Copilot for *Your* Codebase](https://githubnext.com/projects/copilot-view/)
 
 We want to let Copilot see the code in your entire repo to make suggestions even better.
+
+→ [Explore this experiment](https://githubnext.com/projects/copilot-view/)
 
 ---
 
