@@ -5,7 +5,7 @@
 > **📊 Library Stats**
 > - 📚 **188** total videos
 > - 🆕 **10** new this month
-> - 📂 **Categories**: Other (3), Getting Started (4), Agents (1), Features & Updates (2)
+> - 📂 **Categories**: Getting Started (4), Features & Updates (2), Tutorials (0), Agents (0), Extensions (0), Other (4)
 
 ---
 
@@ -15,8 +15,10 @@
 - [📂 Browse by Category](#browse-by-category)
   - [Getting Started](#getting-started) (4)
   - [Features & Updates](#features--updates) (2)
-  - [Agents](#agents) (1)
-  - [Other](#other) (3)
+  - [Tutorials](#tutorials) (0)
+  - [Agents](#agents) (0)
+  - [Extensions](#extensions) (0)
+  - [Other](#other) (4)
 
 ---
 
@@ -201,19 +203,35 @@ This episode of The Download leads with the new GitHub CLI media attachment work
 ---
 
 
+## Tutorials
+
+*Step-by-step walkthroughs, demos, and guided learning content.*
+
+**When to watch**: You want a hands-on tutorial or guided demo for a specific workflow.
+
+*No recent uploads matched this category in the last 30 days.*
+
+---
+
+
 ## Agents
 
 *Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w)
+*No recent uploads matched this category in the last 30 days.*
 
-**Published**: Sep 6, 2026
+---
 
-This short argues that larger AI models do not automatically produce better code reviews. It shows why concise, accurate feedback is more valuable than verbose formatting when agents review pull requests or explain diffs.
 
-[Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
+## Extensions
+
+*Videos about extensions, plugins, integrations, APIs, and editor-specific tooling.*
+
+**When to watch**: You're evaluating Copilot integrations for VS Code, JetBrains, or other developer tools.
+
+*No recent uploads matched this category in the last 30 days.*
 
 ---
 
@@ -231,6 +249,17 @@ This short argues that larger AI models do not automatically produce better code
 This stream demonstrates the new GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a simple way to share visual proof of work alongside terminal-based workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
+
+---
+
+
+### [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w)
+
+**Published**: Sep 6, 2026
+
+This short argues that larger AI models do not automatically produce better code reviews. It shows why concise, accurate feedback is more valuable than verbose formatting when agents review pull requests or explain diffs.
+
+[Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
 
 ---
 
