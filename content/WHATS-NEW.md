@@ -92,7 +92,7 @@ This JetBrains update adds enterprise-managed sandbox policies, cross-file curso
 ### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
 *Sep 8, 2026*
 
-Episode 8 of the beginner series explains how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP integrations for workflows such as browser testing.
+Episode 8 of the beginner series explains how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It walks through custom instructions, reusable skills, custom agents, and MCP integrations such as browser testing. Developers new to the app will come away with practical ways to make Copilot follow local standards and automate repeatable project tasks.
 
 ### [GPT-6 Astra is generally available in GitHub Copilot](https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot)
 *Sep 4, 2026*
