@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: September 04, 2026
+**Last Updated**: September 11, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,91 +12,99 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
+- **Sep 10, 2026** - 🚫 **Deprecation** - [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
 - **Sep 3, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
-- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected GitHub Copilot models deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
+- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected Github Copilot Models Deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
 
 ---
 
 ## This Week (Last 7 Days)
 
-### [Reopening Copilot Business and Enterprise signups](https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups)
-*Sep 3, 2026*
+### [AI Scan for pull request APIs in public preview](https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview)
+*Sep 10, 2026*
 
-We're gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you've been waiting to get started with Copilot, select the plan that fits your needs. If your preferred option isn't available yet, check back soon.
+You can now manage GitHub code scanning's AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.
 
-### [Gemini 3.8 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot)
-*Sep 3, 2026*
+### [Control GitHub Actions cache access with cache-mode](https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode)
+*Sep 10, 2026*
 
-Gemini 3.8 Flash, Google's latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous validation and persistent recovery from actionable failures. This model is billed at introductory provider pricing under usage-based billing through December 31, 2026.
+You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access it needs, you can prevent unnecessary restores or saves and help protect trusted workflows from cache poisoning. This capability is now generally available on all plans.
 
-### [GitHub Actions: Early September 2026 updates](https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates)
-*Sep 3, 2026*
+### [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
+*Sep 10, 2026*
 
-GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. A new REST API returns when registration and runtime support end for a given runner version, so you can plan runner upgrades before a version is deprecated. Call GET /actions/runners/deprecations/{version} at the repository, organization, or enterprise level.
+We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model
+Deprecation date
+Suggested alternative
+MAI-Code-1-Flash
+2026-09-10
+MAI-Code-1.1-Flash
+Please update your workflows and integrations to use a supported model.
 
-### [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
-*Sep 3, 2026*
+### [Xcode 27 runner image now runs on macOS 27](https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27)
+*Sep 10, 2026*
 
-Copilot Enterprise and Copilot Business administrators may need to enable access to the alternative models through their model policies in Copilot settings. As an administrator, you can verify availability in your organization or enterprise Copilot model settings and confirm that the policy is enabled for the specific model.
+You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS 26. How you target the image stays the same.
 
-### [Multiple trusted publishing configurations for npm](https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm)
-*Sep 3, 2026*
+### [GitHub Copilot app for Beginners: Using the diff, terminal, and browser](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/)
+*Sep 10, 2026*
 
-We're continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Maintainers are no longer limited to one configuration per package to separate workflows with stable, prerelease, or staging versions. Before this, maintainers had to depend on workflow workarounds or keep a long-lived token around for the paths OIDC couldn't cover.
+When an agent makes a change to your code, you want to review it, run it, and see what changed. Great news: now you can do all three without having to leave the GitHub Copilot app. Before, doing those three jobs would mean having to bounce between your editor, terminal window, and web browser.
 
 ---
 
 ## Last 30 Days
 
-### [GitHub CLI Linux package signing key expires September 5](https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5)
-*Sep 3, 2026*
+### [Refreshed repository pull requests page in public preview](https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview)
+*Sep 10, 2026*
 
-The current PGP key for the GitHub CLI Linux package repositories expires on Saturday, September 5, 2026. Beginning with the first release after that date, APT and RPM repository metadata and newly published RPM packages will be signed with just the replacement key. In April, we published a keyring containing both the current and replacement keys.
+A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more.
 
-### [GitHub Copilot app for Beginners: Run several agents at once](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/)
-*Sep 3, 2026*
+### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
+*Sep 10, 2026*
 
-Running multiple AI agents on the same project seems like pure chaos, with too many cooks in your development kitchen. But with the GitHub Copilot app, these agents work separately and don't interfere with each other, allowing you to get more done in less time. Think of parallel agent sessions like a trip to the laundromat.
+In this stream we'll explore the new attach flag in the GitHub CLI. Attach images to PR's and Issues with GitHub CLI
 
-### [CodeQL 2.26.4 improves GitHub actions security detections](https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections)
-*Sep 3, 2026*
+### [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations)
+*Sep 9, 2026*
 
-CodeQL 2.26.4 adds support for Go 1.27, improves Rust data flow alert locations, and sharpens detections across C#, Java/Kotlin, and GitHub Actions. Teams using GitHub code scanning can expect more accurate alerts and broader coverage for modern language and workflow patterns.
+If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed permissions cover shell commands, file reads and edits, and network domains. This gives you fine-grained guardrails for sensitive operations without disabling agent workflows.
 
-### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
-*Sep 3, 2026*
+### [npm extends recovery-code security holds to all accounts](https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts)
+*Sep 9, 2026*
 
-Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short explains why that scaffolding matters for reliable agentic workflows in GitHub Copilot.
+This change applies to all npm accounts. During the hold, publishing and other security-sensitive writes, including creating access tokens, are paused. You can still sign in as well as browse and install packages.
 
-### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
-*Sep 3, 2026*
+### [CodeQL 2.27.0 adds support for Linux ARM64](https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64)
+*Sep 9, 2026*
 
-In this GitHub Accessibility Spotlight, learn how Cboard grew from a single repository into a global Augmentative and Alternative Communication (AAC) platform.
+CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find and remediate security issues in your code. CodeQL CLI
+You can now run CodeQL natively on Linux arm64.
 
-### [Content exclusions generally available in Copilot app and CLI](https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli)
-*Sep 2, 2026*
+### [Block pull requests with exposed secrets from merging](https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging)
+*Sep 9, 2026*
 
-The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won't use excluded files as context, helping you protect sensitive code across agentic workflows. This is available for Copilot Business and Copilot Enterprise customers.
+Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces secret scanning alerts. You can enable the new rule require secret scanning alerts are resolved on pull requests for selected repositories.
 
-### [Enterprise-managed settings support any default model](https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model)
-*Sep 2, 2026*
+### [GitHub Advanced Security expands trial availability](https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability)
+*Sep 9, 2026*
 
-You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows. You can also customize the default by enterprise team, assigning a different default model based on team membership.
+More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up to 100 licenses to enterprises with up to 300 licenses. To set up a GitHub Advanced Security trial, go to the Enterprise "Billing and licensing" page.
 
-### [How we make AI coding more cost efficient without sacrificing task quality](https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/)
-*Sep 2, 2026*
+### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
+*Sep 9, 2026*
 
-Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context. That's why token count of individual interactions alone isn't a meaningful measure of efficiency. The goal shouldn't be to use fewer tokens, but to tap into the right amount of context to move a task forward.
+Need to attach proof of work to automated pull requests and bug reports? The GitHub CLI now includes the --attach flag, making it easy to upload screenshots and videos directly to issues, PRs, and...
 
-### [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
-*Sep 2, 2026*
+### [Enterprise-managed sandbox in Copilot for JetBrains](https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains)
+*Sep 8, 2026*
 
-AI terminology is evolving fast, with new terms like loop engineering, harness engineering, and squads popping up constantly.
+This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions.
 
-### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
-*Sep 2, 2026*
+### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
+*Sep 8, 2026*
 
-Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short offers a candid look at the workload, community energy, and surprises that come with leading a breakout open source project.
+Every project has its own conventions, scripts, and code style. In episode 8 of our beginner series, discover how to teach the GitHub Copilot app your specific project standards.
 
 ---
 

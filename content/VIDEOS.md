@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: September 04, 2026
+> **Last Updated**: September 11, 2026
 
 > **📊 Library Stats**
-> - 📚 **178** total videos
-> - 🆕 **8** new this month
-> - 📂 **Categories**: Tutorials (1), Extensions (1), Features & Updates (2), Other (2), Getting Started (2)
+> - 📚 **188** total videos
+> - 🆕 **10** new this month
+> - 📂 **Categories**: Other (3), Getting Started (4), Agents (1), Features & Updates (2)
 
 ---
 
@@ -13,95 +13,119 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (2)
+  - [Getting Started](#getting-started) (4)
   - [Features & Updates](#features--updates) (2)
-  - [Tutorials](#tutorials) (1)
-  - [Extensions](#extensions) (1)
-  - [Other](#other) (2)
+  - [Agents](#agents) (1)
+  - [Other](#other) (3)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*8 videos published in the last 30 days*
+*10 videos published in the last 30 days*
 
-### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
+### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
 
-**Published**: Sep 3, 2026 | **Channel**: GitHub
+**Published**: Sep 10, 2026 | **Channel**: GitHub
 
-Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short shows why GitHub Copilot's harness matters for reliable agentic workflows.
+In this stream we'll explore the new attach flag in the GitHub CLI. Attach images to PR's and Issues with GitHub CLI...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/_yk_yg_DTeQ)
-
----
-
-### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
-
-**Published**: Sep 3, 2026 | **Channel**: GitHub
-
-See how Cboard grew from a single repository into a global AAC platform that helps non-verbal people communicate. The video highlights how open source collaboration can create practical accessibility tools with real human impact.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=IknnBdcDDiQ)
+[Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
 
 ---
 
-### [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
+### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
 
-**Published**: Sep 2, 2026 | **Channel**: GitHub
+**Published**: Sep 9, 2026 | **Channel**: GitHub
 
-This episode explains fast-moving AI terms such as loop engineering, harness engineering, and squads in plain language. It also connects those ideas to practical agentic workflows and the differences between closed, open-weight, and open source models.
+Need to attach proof of work to automated pull requests and bug reports? The GitHub CLI now includes the --attach flag, making it easy to upload screenshots and videos directly to issues, PRs, and comments from the terminal. Watch how an automated Playwright agent sweeps a site for bugs, captures fa...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
-
----
-
-### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
-
-**Published**: Sep 2, 2026 | **Channel**: GitHub
-
-Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short gives a candid snapshot of the workload, community energy, and surprises that come with leading a breakout open source project.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/k2fgD6JbB54)
+[Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
 
 ---
 
-### [GitHub Copilot Day live: new releases, real workflows, and live coding](https://www.youtube.com/watch?v=0kOXsQUNzss)
+### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
 
-**Published**: Sep 2, 2026 | **Channel**: GitHub
+**Published**: Sep 8, 2026 | **Channel**: GitHub
 
-Join GitHub Copilot Day for a live look at new releases, agent workflows, model choice, and cross-product demos. The stream also includes live coding sessions that show how GitHub teams use Copilot in practice.
+Every project has its own conventions, scripts, and code style. In episode 8 of our beginner series, discover how to teach the GitHub Copilot app your specific project standards. Learn how to set up custom instructions in your .github folder, create repeatable skills for testing, assign custom agent...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=0kOXsQUNzss)
-
----
-
-### [GitHub CLI: Media in issues, pull requests, and comments](https://www.youtube.com/shorts/UsoTGRL6GHE)
-
-**Published**: Sep 1, 2026 | **Channel**: GitHub
-
-This short introduces the new `gh` `--attach` flag for uploading images and videos directly into issues, pull requests, and comments. It is a quick way to learn when showing a screenshot or recording is clearer than describing a problem in text.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/UsoTGRL6GHE)
+[Watch on YouTube →](https://www.youtube.com/watch?v=QGakvawJc2M)
 
 ---
 
-### [Let's Learn GitHub Copilot SDK](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+### [How AI is changing the way developers write pull request descriptions](https://www.youtube.com/shorts/mrbnT5_Homg)
 
-**Published**: Sep 1, 2026 | **Channel**: GitHub
+**Published**: Sep 7, 2026 | **Channel**: GitHub
 
-This beginner-friendly training walks through the GitHub Copilot SDK and shows how to build custom agent capabilities. Expect practical examples for extending Copilot workflows across TypeScript, Python, .NET, Go, and Java.
+Is AI changing how we describe code as well as how we write it? In this project pick, we explore "The load-bearing vocabulary of Claude" by Louis Abraham. By analyzing over 460,000 GitHub pull request descriptions, the study revealed a growing cluster of AI-associated terms like "load-bearing," "sea...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+[Watch on YouTube →](https://www.youtube.com/shorts/mrbnT5_Homg)
 
 ---
 
-### [How to build custom workflows with canvases in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=Xfgq79gV_GM)
+### [GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout](https://www.youtube.com/watch?v=QjvHxsl_xko)
 
-**Published**: Sep 1, 2026 | **Channel**: GitHub
+**Published**: Sep 7, 2026 | **Channel**: GitHub
 
-Learn how canvases in the GitHub Copilot app let you build custom, bidirectional work surfaces for agents and teammates. This beginner tutorial shows how to turn plain-English ideas into release checklists, kanban boards, and triage views.
+Bring GitHub Copilot directly into your daily team communication. In this episode of GitHub Checkout, Andrea Griffiths and Meagan Cojocar demonstrate how Copilot Cloud Agent works inside Slack and Microsoft Teams. Learn how to create issues, review diffs, render live HTML previews, and analyze repos...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=Xfgq79gV_GM)
+[Watch on YouTube →](https://www.youtube.com/watch?v=QjvHxsl_xko)
+
+---
+
+### [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w)
+
+**Published**: Sep 6, 2026 | **Channel**: GitHub
+
+Bigger AI models do not automatically make better code reviewers. According to recent benchmarks, newer frontier models can produce longer, highly formatted responses while missing fundamental bugs. When relying on AI agents to review pull requests, explain diffs, or diagnose issues, conciseness and...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
+
+---
+
+### [How to attach images and videos using the GitHub CLI](https://www.youtube.com/shorts/YD2vfwIcAao)
+
+**Published**: Sep 5, 2026 | **Channel**: GitHub
+
+You can now attach images and videos to pull requests, comments, and issues directly from your terminal using the GitHub CLI. Use the new --attach flag followed by the file location, a # symbol, and alt text to keep your media accessible. This feature is ideal for sharing screenshots, test recording...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/YD2vfwIcAao)
+
+---
+
+### [How Project HydraFusion optimizes quality, cost, and speed in GitHub Copilot](https://www.youtube.com/shorts/uug8gCi3Xxk)
+
+**Published**: Sep 4, 2026 | **Channel**: GitHub
+
+Project HydraFusion delivered those results against Claude Opus 5 on Terminal-Bench 2.1 in controlled offline evaluations.
+
+HydraFusion orchestrates the models and workflow for each coding task. You select it like any other model.
+
+Try HydraFusion through /experimental in GitHub Copilot CLI.
+https:/...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/uug8gCi3Xxk)
+
+---
+
+### [Introducing Project HydraFusion: multi-model orchestration in GitHub Copilot](https://www.youtube.com/watch?v=dJmt1PHsETM)
+
+**Published**: Sep 4, 2026 | **Channel**: GitHub
+
+Every developer task requires a different balance of quality, cost, and latency, but choosing a single AI model locks you into rigid trade-offs. Project HydraFusion is a research preview that introduces runtime orchestration to GitHub Copilot, automatically selecting the best execution path across m...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=dJmt1PHsETM)
+
+---
+
+### [The Download: Attach images in GitHub CLI, Qwen3.8-Max, AI pull request lingo & more](https://www.youtube.com/watch?v=A_PQvLNDt2k)
+
+**Published**: Sep 4, 2026 | **Channel**: GitHub
+
+You can now attach images and videos to pull requests directly from your terminal using the GitHub CLI. In this episode of The Download, GPS covers Meta's Muse Glimmer 30B for running local coding agents on 24GB GPUs, Alibaba's 2.4T parameter Qwen3.8-Max, and new benchmarks like BullshitBench examin...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=A_PQvLNDt2k)
 
 ---
 
@@ -114,23 +138,43 @@ Learn how canvases in the GitHub Copilot app let you build custom, bidirectional
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [Let's Learn GitHub Copilot SDK](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
 
-**Published**: Sep 1, 2026
+**Published**: Sep 9, 2026
 
-This beginner-friendly training walks through the GitHub Copilot SDK and shows how to build custom agent capabilities. Expect practical examples for extending Copilot workflows across TypeScript, Python, .NET, Go, and Java.
+Need to attach proof of work to automated pull requests and bug reports? The GitHub CLI now includes the --attach flag, making it easy to upload screenshots and videos directly to issues, PRs, and com...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=IAEQt_yqfLA)
+[Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
 
 ---
 
-### [How to build custom workflows with canvases in the GitHub Copilot app | Tutorial for beginners](https://www.youtube.com/watch?v=Xfgq79gV_GM)
+### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
 
-**Published**: Sep 1, 2026
+**Published**: Sep 8, 2026
 
-Learn how canvases in the GitHub Copilot app let you build custom, bidirectional work surfaces for agents and teammates. This beginner tutorial shows how to turn plain-English ideas into release checklists, kanban boards, and triage views.
+Every project has its own conventions, scripts, and code style. In episode 8 of our beginner series, discover how to teach the GitHub Copilot app your specific project standards. Learn how to set up c...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=Xfgq79gV_GM)
+[Watch on YouTube →](https://www.youtube.com/watch?v=QGakvawJc2M)
+
+---
+
+### [GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout](https://www.youtube.com/watch?v=QjvHxsl_xko)
+
+**Published**: Sep 7, 2026
+
+Bring GitHub Copilot directly into your daily team communication. In this episode of GitHub Checkout, Andrea Griffiths and Meagan Cojocar demonstrate how Copilot Cloud Agent works inside Slack and Mic...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=QjvHxsl_xko)
+
+---
+
+### [Introducing Project HydraFusion: multi-model orchestration in GitHub Copilot](https://www.youtube.com/watch?v=dJmt1PHsETM)
+
+**Published**: Sep 4, 2026
+
+Every developer task requires a different balance of quality, cost, and latency, but choosing a single AI model locks you into rigid trade-offs. Project HydraFusion is a research preview that introduc...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=dJmt1PHsETM)
 
 ---
 
@@ -141,57 +185,40 @@ Learn how canvases in the GitHub Copilot app let you build custom, bidirectional
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [Demystifying AI terms: loop engineering, squads, and harness | S02E02 | The GitHub Podcast](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
+### [How to attach images and videos using the GitHub CLI](https://www.youtube.com/shorts/YD2vfwIcAao)
 
-**Published**: Sep 2, 2026
+**Published**: Sep 5, 2026
 
-This episode explains fast-moving AI terms such as loop engineering, harness engineering, and squads in plain language. It also connects those ideas to practical agentic workflows and the differences between closed, open-weight, and open source models.
+You can now attach images and videos to pull requests, comments, and issues directly from your terminal using the GitHub CLI. Use the new --attach flag followed by the file location, a # symbol, and a...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=7oqYIRbB6Rc)
-
----
-
-### [GitHub Copilot Day live: new releases, real workflows, and live coding](https://www.youtube.com/watch?v=0kOXsQUNzss)
-
-**Published**: Sep 2, 2026
-
-Join GitHub Copilot Day for a live look at new releases, agent workflows, model choice, and cross-product demos. The stream also includes live coding sessions that show how GitHub teams use Copilot in practice.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=0kOXsQUNzss)
+[Watch on YouTube →](https://www.youtube.com/shorts/YD2vfwIcAao)
 
 ---
 
+### [The Download: Attach images in GitHub CLI, Qwen3.8-Max, AI pull request lingo & more](https://www.youtube.com/watch?v=A_PQvLNDt2k)
 
-## Tutorials
+**Published**: Sep 4, 2026
 
-*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
+You can now attach images and videos to pull requests directly from your terminal using the GitHub CLI. In this episode of The Download, GPS covers Meta's Muse Glimmer 30B for running local coding age...
 
-**When to watch**: You're ready to dive deep into specific features or workflows.
-
-### [How an AI harness guides model execution](https://www.youtube.com/shorts/_yk_yg_DTeQ)
-
-**Published**: Sep 3, 2026
-
-Learn how harness engineering gives AI agents the runtime, tools, and guardrails they need to work safely in a codebase. This short shows why GitHub Copilot's harness matters for reliable agentic workflows.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/_yk_yg_DTeQ)
+[Watch on YouTube →](https://www.youtube.com/watch?v=A_PQvLNDt2k)
 
 ---
 
 
-## Extensions
+## Agents
 
-*Learn about Copilot extensions, integrations, APIs, and third-party plugins.*
+*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
 
-**When to watch**: You want to extend Copilot or integrate it with other tools.
+**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [How Cboard uses open source to give people a voice | GitHub Accessibility Spotlight](https://www.youtube.com/watch?v=IknnBdcDDiQ)
+### [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w)
 
-**Published**: Sep 3, 2026
+**Published**: Sep 6, 2026
 
-See how Cboard grew from a single repository into a global AAC platform that helps non-verbal people communicate. The video highlights how open source collaboration can create practical accessibility tools with real human impact.
+Bigger AI models do not automatically make better code reviewers. According to recent benchmarks, newer frontier models can produce longer, highly formatted responses while missing fundamental bugs. W...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=IknnBdcDDiQ)
+[Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
 
 ---
 
@@ -202,23 +229,35 @@ See how Cboard grew from a single repository into a global AAC platform that hel
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [What's it like to be a maintainer of OpenClaw, the fastest growing project in GitHub history? 🦞](https://www.youtube.com/shorts/k2fgD6JbB54)
+### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
 
-**Published**: Sep 2, 2026
+**Published**: Sep 10, 2026
 
-Peter Steinberger shares what it is like to maintain OpenClaw as it grows at breakneck speed. The short gives a candid snapshot of the workload, community energy, and surprises that come with leading a breakout open source project.
+In this stream we'll explore the new attach flag in the GitHub CLI. Attach images to PR's and Issues with GitHub CLI...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/k2fgD6JbB54)
+[Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
 
 ---
 
-### [GitHub CLI: Media in issues, pull requests, and comments](https://www.youtube.com/shorts/UsoTGRL6GHE)
+### [How AI is changing the way developers write pull request descriptions](https://www.youtube.com/shorts/mrbnT5_Homg)
 
-**Published**: Sep 1, 2026
+**Published**: Sep 7, 2026
 
-This short introduces the new `gh` `--attach` flag for uploading images and videos directly into issues, pull requests, and comments. It is a quick way to learn when showing a screenshot or recording is clearer than describing a problem in text.
+Is AI changing how we describe code as well as how we write it? In this project pick, we explore "The load-bearing vocabulary of Claude" by Louis Abraham. By analyzing over 460,000 GitHub pull request...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/UsoTGRL6GHE)
+[Watch on YouTube →](https://www.youtube.com/shorts/mrbnT5_Homg)
+
+---
+
+### [How Project HydraFusion optimizes quality, cost, and speed in GitHub Copilot](https://www.youtube.com/shorts/uug8gCi3Xxk)
+
+**Published**: Sep 4, 2026
+
+Project HydraFusion delivered those results against Claude Opus 5 on Terminal-Bench 2.1 in controlled offline evaluations.
+
+HydraFusion orchestrates the models and workflow for each coding task. You s...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/uug8gCi3Xxk)
 
 ---
 

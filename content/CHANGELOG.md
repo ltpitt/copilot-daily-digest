@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: September 04, 2026
+**Last Updated**: September 11, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,31 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## September 2026
 
+- **Sep 10, 2026** - [AI Scan for pull request APIs in public preview](https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview) (Blog)
+- **Sep 10, 2026** - [Control GitHub Actions cache access with cache-mode](https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode) (Blog)
+- **Sep 10, 2026** - [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated) (Blog)
+- **Sep 10, 2026** - [Xcode 27 runner image now runs on macOS 27](https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27) (Blog)
+- **Sep 10, 2026** - [GitHub Copilot app for Beginners: Using the diff, terminal, and browser](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/) (Blog)
+- **Sep 10, 2026** - [Refreshed repository pull requests page in public preview](https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview) (Blog)
+- **Sep 10, 2026** - [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns) (Video)
+- **Sep 9, 2026** - [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations) (Blog)
+- **Sep 9, 2026** - [npm extends recovery-code security holds to all accounts](https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts) (Blog)
+- **Sep 9, 2026** - [CodeQL 2.27.0 adds support for Linux ARM64](https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64) (Blog)
+- **Sep 9, 2026** - [Block pull requests with exposed secrets from merging](https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging) (Blog)
+- **Sep 9, 2026** - [GitHub Advanced Security expands trial availability](https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability) (Blog)
+- **Sep 9, 2026** - [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4) (Video)
+- **Sep 8, 2026** - [Enterprise-managed sandbox in Copilot for JetBrains](https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains) (Blog)
+- **Sep 8, 2026** - [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M) (Video)
+- **Sep 7, 2026** - [How AI is changing the way developers write pull request descriptions](https://www.youtube.com/shorts/mrbnT5_Homg) (Video)
+- **Sep 7, 2026** - [GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout](https://www.youtube.com/watch?v=QjvHxsl_xko) (Video)
+- **Sep 6, 2026** - [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w) (Video)
+- **Sep 5, 2026** - [How to attach images and videos using the GitHub CLI](https://www.youtube.com/shorts/YD2vfwIcAao) (Video)
+- **Sep 4, 2026** - [Project HydraFusion: Frontier quality via multi-model orchestration](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/) (Blog)
+- **Sep 4, 2026** - [GPT-6 Astra is generally available in GitHub Copilot](https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot) (Blog)
+- **Sep 4, 2026** - [GitHub Copilot weekly releases — August 31](https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31) (Blog)
+- **Sep 4, 2026** - [How Project HydraFusion optimizes quality, cost, and speed in GitHub Copilot](https://www.youtube.com/shorts/uug8gCi3Xxk) (Video)
+- **Sep 4, 2026** - [Introducing Project HydraFusion: multi-model orchestration in GitHub Copilot](https://www.youtube.com/watch?v=dJmt1PHsETM) (Video)
+- **Sep 4, 2026** - [The Download: Attach images in GitHub CLI, Qwen3.8-Max, AI pull request lingo & more](https://www.youtube.com/watch?v=A_PQvLNDt2k) (Video)
 - **Sep 3, 2026** - [Reopening Copilot Business and Enterprise signups](https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups) (Blog)
 - **Sep 3, 2026** - [Gemini 3.8 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot) (Blog)
 - **Sep 3, 2026** - [GitHub Actions: Early September 2026 updates](https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates) (Blog)

@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: September 04, 2026
+> **Last Updated**: September 11, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -56,19 +56,6 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 
 ## Microsoft Learn Modules
 
-### [Challenge project - Build a minigame with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)
-
-**Provider**: Microsoft Learn | **Level**: Intermediate
-
-Demonstrate your ability to use GitHub Copilot to develop code by creating a console minigame in C#.
-
-- **Format**: Challenge Project
-- **Duration**: 1-2 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, C#, Game Development, Hands-on
-
----
-
 ### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
 
 **Provider**: Microsoft Learn | **Level**: Intermediate
@@ -92,6 +79,19 @@ Discover how GitHub Copilot can help you code faster and more efficiently. Learn
 - **Duration**: 30 minutes
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI, Code Generation
+
+---
+
+### [Challenge project - Build a minigame with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/)
+
+**Provider**: Microsoft Learn | **Level**: Intermediate
+
+Demonstrate your ability to use GitHub Copilot to develop code by creating a console minigame in C#.
+
+- **Format**: Challenge Project
+- **Duration**: 1-2 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, C#, Game Development, Hands-on
 
 ---
 
