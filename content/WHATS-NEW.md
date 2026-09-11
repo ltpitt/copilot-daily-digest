@@ -54,11 +54,6 @@ Learn how to review diffs, run commands, and preview apps without leaving the Gi
 
 GitHub's refreshed repository pull requests page is now in public preview with stronger filtering and a compact presentation mode. It is designed to help teams scan, sort, and manage larger PR queues more efficiently.
 
-### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
-*Sep 10, 2026*
-
-This stream focuses on the GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a quick look at sharing visual proof of work directly from the terminal.
-
 ### [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations)
 *Sep 9, 2026*
 
@@ -98,6 +93,11 @@ This JetBrains update adds enterprise-managed sandbox policies, cross-file curso
 *Sep 8, 2026*
 
 Episode 8 of the beginner series explains how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP integrations for workflows such as browser testing.
+
+### [GPT-6 Astra is generally available in GitHub Copilot](https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot)
+*Sep 4, 2026*
+
+GPT-6 Astra is now generally available in GitHub Copilot for long-horizon and agentic coding tasks. GitHub says the model plans and validates as it works, helping it complete complex tasks with fewer steps than prior OpenAI models.
 
 ---
 

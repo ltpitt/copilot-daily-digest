@@ -120,7 +120,7 @@ This experiment has graduated to a production feature.
 
 ### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
-An ongoing collaboration with Microsoft to bring React to their library Webview UI Toolkit for Visual Studio Code
+A GitHub Next collaboration with Microsoft that brought React support to the Webview UI Toolkit for Visual Studio Code.
 
 This GitHub Next collaboration has graduated into a production-ready toolkit for Visual Studio Code webviews.
 
@@ -144,7 +144,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot Completions in the CLI](https://githubnext.com/projects/copilot-completions-cli/)
 
-Ever having trouble remembering that shell command or this obscure flag? Don't worry: we're building GitHub Copilot assistance right into your terminal
+GitHub Copilot assistance is now available right in your terminal to help with shell commands and flags.
 
 This experiment has graduated to a production feature.
 
