@@ -136,7 +136,11 @@ def detect_doc_changes() -> Dict[str, Any]:
         if docs_dir.exists()
         else set()
     )
-    tracked_filenames = {k.replace("docs/", "") for k in content_hashes if k.startswith("docs/")}
+    tracked_filenames = {
+        k.replace("docs/", "")
+        for k in content_hashes
+        if k.startswith("docs/") and k != "docs/scrape-summary.md"
+    }
     deleted = list(tracked_filenames - current_files)
 
     return {"changed": changed, "new": new, "unchanged": unchanged, "deleted": deleted}

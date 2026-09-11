@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T07:13:25.862985+00:00",
+  "generated_at": "2026-09-11T07:26:05.557744+00:00",
   "has_changes": true,
-  "total_changes": 40,
+  "total_changes": 39,
   "docs": {
     "changed": [
       {
@@ -105,9 +105,7 @@
     ],
     "new": [],
     "unchanged": [],
-    "deleted": [
-      "scrape-summary.md"
-    ]
+    "deleted": []
   },
   "blog": {
     "new_count": 15,
@@ -273,7 +271,7 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on September 11, 2026:\n\n📄 Documentation: 15 changes\n  - copilot-best-practices.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n  - scrape-summary.md: File deleted\n\n📝 Blog Posts: 15 new articles\n  - \"GitHub Copilot app for Beginners: Using the diff, terminal, and browser\" (2026-09-10)\n  - \"Refreshed repository pull requests page in public preview\" (2026-09-10)\n  - \"AI Scan for pull request APIs in public preview\" (2026-09-10)\n  - \"Control GitHub Actions cache access with cache-mode\" (2026-09-10)\n  - \"MAI-Code-1-Flash deprecated\" (2026-09-10)\n\n🎥 Videos: 10 new videos\n  - \"Attach images to PRs and Issues with GitHub CLI\" (2026-09-10)\n  - \"Attach images and videos to issues and PRs with GitHub CLI\" (2026-09-09)\n  - \"How to teach GitHub Copilot about your codebase | Tutorial for Beginners\" (2026-09-08)\n  - \"How AI is changing the way developers write pull request descriptions\" (2026-09-07)\n  - \"GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout\" (2026-09-07)\n\nTotal: 40 changes detected",
+  "summary_text": "Changes detected on September 11, 2026:\n\n📄 Documentation: 14 changes\n  - copilot-best-practices.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n\n📝 Blog Posts: 15 new articles\n  - \"GitHub Copilot app for Beginners: Using the diff, terminal, and browser\" (2026-09-10)\n  - \"Refreshed repository pull requests page in public preview\" (2026-09-10)\n  - \"AI Scan for pull request APIs in public preview\" (2026-09-10)\n  - \"Control GitHub Actions cache access with cache-mode\" (2026-09-10)\n  - \"MAI-Code-1-Flash deprecated\" (2026-09-10)\n\n🎥 Videos: 10 new videos\n  - \"Attach images to PRs and Issues with GitHub CLI\" (2026-09-10)\n  - \"Attach images and videos to issues and PRs with GitHub CLI\" (2026-09-09)\n  - \"How to teach GitHub Copilot about your codebase | Tutorial for Beginners\" (2026-09-08)\n  - \"How AI is changing the way developers write pull request descriptions\" (2026-09-07)\n  - \"GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout\" (2026-09-07)\n\nTotal: 39 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
     "total_changes": 39,

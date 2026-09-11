@@ -57,7 +57,7 @@ GitHub's refreshed repository pull requests page is now in public preview with s
 ### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
 *Sep 10, 2026*
 
-This walkthrough shows how to use the GitHub CLI attach flag to add screenshots and videos to pull requests and issues. It focuses on capturing proof of work from automated runs so reviewers can inspect bugs and fixes without leaving GitHub.
+This stream focuses on the GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a quick look at sharing visual proof of work directly from the terminal.
 
 ### [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations)
 *Sep 9, 2026*
