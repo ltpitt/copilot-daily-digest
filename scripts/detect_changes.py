@@ -54,9 +54,9 @@ def calculate_hash(content: str) -> str:
         content: String content to hash
 
     Returns:
-        First 12 characters of hex digest
+        Full hex digest
     """
-    return hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+    return hashlib.sha256(content.encode("utf-8")).hexdigest()
 
 
 def safe_read_file(filepath: Path) -> str:

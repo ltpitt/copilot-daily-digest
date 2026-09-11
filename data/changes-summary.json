@@ -1,110 +1,26 @@
 {
-  "generated_at": "2026-09-11T07:26:05.557744+00:00",
+  "generated_at": "2026-09-11T07:30:16.097242+00:00",
   "has_changes": true,
-  "total_changes": 39,
+  "total_changes": 25,
   "docs": {
-    "changed": [
-      {
-        "filename": "copilot-best-practices.md",
-        "timestamp": "2026-09-11T07:12:49Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-chat.md",
-        "timestamp": "2026-09-11T07:12:43Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-09-11T07:12:57Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-getting-started.md",
-        "timestamp": "2026-09-11T07:12:42Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-09-11T07:12:51Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-09-11T07:12:55Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-09-11T07:12:59Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-09-11T07:12:53Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-configuration.md",
-        "timestamp": "2026-09-11T07:12:56Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-09-11T07:12:46Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-overview.md",
-        "timestamp": "2026-09-11T07:12:41Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-09-11T07:12:45Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-09-11T07:12:48Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-09-11T07:12:52Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      }
-    ],
+    "changed": [],
     "new": [],
-    "unchanged": [],
+    "unchanged": [
+      "copilot-best-practices.md",
+      "copilot-chat.md",
+      "copilot-responsible-use.md",
+      "copilot-getting-started.md",
+      "copilot-prompt-engineering.md",
+      "copilot-managing-organization.md",
+      "copilot-troubleshooting.md",
+      "copilot-code-suggestions.md",
+      "copilot-configuration.md",
+      "copilot-extensions-integration.md",
+      "copilot-overview.md",
+      "copilot-extensions-overview.md",
+      "copilot-custom-instructions.md",
+      "copilot-asking-questions.md"
+    ],
     "deleted": []
   },
   "blog": {
@@ -271,110 +187,11 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on September 11, 2026:\n\n📄 Documentation: 14 changes\n  - copilot-best-practices.md: Updated content\n  - copilot-chat.md: Updated content\n  - copilot-responsible-use.md: Updated content\n  - copilot-getting-started.md: Updated content\n  - copilot-prompt-engineering.md: Updated content\n  - copilot-managing-organization.md: Updated content\n  - copilot-troubleshooting.md: Updated content\n  - copilot-code-suggestions.md: Updated content\n  - copilot-configuration.md: Updated content\n  - copilot-extensions-integration.md: Updated content\n  - copilot-overview.md: Updated content\n  - copilot-extensions-overview.md: Updated content\n  - copilot-custom-instructions.md: Updated content\n  - copilot-asking-questions.md: Updated content\n\n📝 Blog Posts: 15 new articles\n  - \"GitHub Copilot app for Beginners: Using the diff, terminal, and browser\" (2026-09-10)\n  - \"Refreshed repository pull requests page in public preview\" (2026-09-10)\n  - \"AI Scan for pull request APIs in public preview\" (2026-09-10)\n  - \"Control GitHub Actions cache access with cache-mode\" (2026-09-10)\n  - \"MAI-Code-1-Flash deprecated\" (2026-09-10)\n\n🎥 Videos: 10 new videos\n  - \"Attach images to PRs and Issues with GitHub CLI\" (2026-09-10)\n  - \"Attach images and videos to issues and PRs with GitHub CLI\" (2026-09-09)\n  - \"How to teach GitHub Copilot about your codebase | Tutorial for Beginners\" (2026-09-08)\n  - \"How AI is changing the way developers write pull request descriptions\" (2026-09-07)\n  - \"GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout\" (2026-09-07)\n\nTotal: 39 changes detected",
+  "summary_text": "Changes detected on September 11, 2026:\n\n📝 Blog Posts: 15 new articles\n  - \"GitHub Copilot app for Beginners: Using the diff, terminal, and browser\" (2026-09-10)\n  - \"Refreshed repository pull requests page in public preview\" (2026-09-10)\n  - \"AI Scan for pull request APIs in public preview\" (2026-09-10)\n  - \"Control GitHub Actions cache access with cache-mode\" (2026-09-10)\n  - \"MAI-Code-1-Flash deprecated\" (2026-09-10)\n\n🎥 Videos: 10 new videos\n  - \"Attach images to PRs and Issues with GitHub CLI\" (2026-09-10)\n  - \"Attach images and videos to issues and PRs with GitHub CLI\" (2026-09-09)\n  - \"How to teach GitHub Copilot about your codebase | Tutorial for Beginners\" (2026-09-08)\n  - \"How AI is changing the way developers write pull request descriptions\" (2026-09-07)\n  - \"GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout\" (2026-09-07)\n\nTotal: 25 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 39,
-    "new_docs": [
-      {
-        "filename": "copilot-best-practices.md",
-        "timestamp": "2026-09-11T07:12:49Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-chat.md",
-        "timestamp": "2026-09-11T07:12:43Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-responsible-use.md",
-        "timestamp": "2026-09-11T07:12:57Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-getting-started.md",
-        "timestamp": "2026-09-11T07:12:42Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-prompt-engineering.md",
-        "timestamp": "2026-09-11T07:12:51Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-managing-organization.md",
-        "timestamp": "2026-09-11T07:12:55Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-troubleshooting.md",
-        "timestamp": "2026-09-11T07:12:59Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-code-suggestions.md",
-        "timestamp": "2026-09-11T07:12:53Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-configuration.md",
-        "timestamp": "2026-09-11T07:12:56Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-extensions-integration.md",
-        "timestamp": "2026-09-11T07:12:46Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-overview.md",
-        "timestamp": "2026-09-11T07:12:41Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-extensions-overview.md",
-        "timestamp": "2026-09-11T07:12:45Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-custom-instructions.md",
-        "timestamp": "2026-09-11T07:12:48Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      },
-      {
-        "filename": "copilot-asking-questions.md",
-        "timestamp": "2026-09-11T07:12:52Z",
-        "diff_summary": "",
-        "added_lines": 0,
-        "removed_lines": 0
-      }
-    ],
+    "total_changes": 25,
+    "new_docs": [],
     "new_blog_posts": [
       {
         "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
