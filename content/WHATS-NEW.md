@@ -77,7 +77,7 @@ SCIM user responses from GitHub now include the standard profileUrl attribute de
 ### [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY)
 *Sep 16, 2026*
 
-Everyone's racing to build a better model. HydraFusion optimizes the path instead, orchestrating existing models per request rather than picking just one, and reduces the cost frontier AI.
+Everyone's racing to build a better model. HydraFusion optimizes the path instead, orchestrating existing models per request rather than picking just one, and reduces the cost of frontier AI.
 
 ### [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg)
 *Sep 16, 2026*

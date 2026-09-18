@@ -144,7 +144,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot Completions in the CLI](https://githubnext.com/projects/copilot-completions-cli/)
 
-Ever having trouble remembering that shell command or this obscure flag? Don't worry: we're building GitHub Copilot assistance right into your terminal
+GitHub Copilot now provides terminal assistance to help you recall shell commands and obscure flags directly where you work.
 
 This experiment has graduated to a production feature.
 
@@ -158,6 +158,8 @@ This experiment has graduated to a production feature.
 
 An exploration of a new category of assists for using natural language in software development.
 
+→ [Explore this experiment](https://githubnext.com/projects/extract-edit-apply/)
+
 ### [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/)
 
 An agentic dev environment, designed for everyday tasks.
@@ -168,21 +170,31 @@ An agentic dev environment, designed for everyday tasks.
 
 Can editing code feel more tactile, like painting with Photoshop brushes? We added a toolbox of brushes to our Visual Studio Code extension that can modify your code.
 
+→ [Explore this experiment](https://githubnext.com/projects/code-brushes/)
+
 ### [GPT-4 with Calc](https://githubnext.com/projects/gpt4-with-calc/)
 
 An exploration of using calculation generation to improve GPT-4's capabilities for numeric reasoning.
+
+→ [Explore this experiment](https://githubnext.com/projects/gpt4-with-calc/)
 
 ### [GitHub Copilot Labs](https://githubnext.com/projects/copilot-labs/)
 
 A VS Code extension for experimental applications of GitHub Copilot.
 
+→ [Explore this experiment](https://githubnext.com/projects/copilot-labs/)
+
 ### [Copilot Voice](https://githubnext.com/projects/copilot-voice/)
 
 Write code without the keyboard. Difficulty typing? Use your voice to code without spelling things out by talking with GitHub Copilot.
 
+→ [Explore this experiment](https://githubnext.com/projects/copilot-voice/)
+
 ### [GitHub Copilot for *Your* Codebase](https://githubnext.com/projects/copilot-view/)
 
 We want to let Copilot see the code in your entire repo to make suggestions even better.
+
+→ [Explore this experiment](https://githubnext.com/projects/copilot-view/)
 
 ---
 
