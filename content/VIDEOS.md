@@ -5,7 +5,7 @@
 > **📊 Library Stats**
 > - 📚 **194** total videos
 > - 🆕 **6** new this month
-> - 📂 **Categories**: Other (1), Getting Started (2), Agents (2), Tutorials (1)
+> - 📂 **Recent upload categories**: Other (1), Getting Started (1), Extensions (1), Agents (2), Tutorials (1)
 
 ---
 
@@ -13,7 +13,8 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (2)
+  - [Getting Started](#getting-started) (1)
+  - [Extensions](#extensions) (1)
   - [Tutorials](#tutorials) (1)
   - [Agents](#agents) (2)
   - [Other](#other) (1)
@@ -103,17 +104,6 @@ HydraFusion orchestrates multiple models per request instead of selecting a sing
 
 ---
 
-### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
-
-**Published**: Sep 15, 2026
-
-This walkthrough shows how to transfer an active GitHub Copilot app session into VS Code while keeping plan and conversation context intact.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
-
----
-
-
 ## Tutorials
 
 *Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
@@ -181,3 +171,21 @@ This short discusses hiring trends where practical AI fluency is becoming an exp
 - [GitHub Blog](https://github.blog/tag/github-copilot/)
 - [GitHub YouTube Channel](https://www.youtube.com/github)
 - [Back to Digest Home](README.md)
+## Extensions
+
+*Learn how Copilot connects with editors, tools, and integration workflows.*
+
+**When to watch**: You're configuring IDE integrations or moving work between Copilot surfaces.
+
+### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
+
+**Published**: Sep 15, 2026
+
+This walkthrough shows how to transfer an active GitHub Copilot app session into VS Code while keeping plan and conversation context intact.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
+
+---
+
+
+## Tutorials
