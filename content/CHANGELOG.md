@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: September 11, 2026
+**Last Updated**: September 18, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,26 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## September 2026
 
+- **Sep 17, 2026** - [Agentic CLI customizations now in the usage metrics API](https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api) (Blog)
+- **Sep 17, 2026** - [Workflow execution protections in GitHub Actions generally available](https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available) (Blog)
+- **Sep 17, 2026** - [Copilot impact dashboard now shows feature engagement](https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement) (Blog)
+- **Sep 17, 2026** - [Migrating the GitHub Copilot runtime to Rust, using Copilot](https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/) (Blog)
+- **Sep 17, 2026** - [Ubuntu 26 generally available and latest migration](https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration) (Blog)
+- **Sep 17, 2026** - [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4) (Video)
+- **Sep 16, 2026** - [Code scanning AI Scan no longer requires CodeQL default setup](https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup) (Blog)
+- **Sep 16, 2026** - [Copilot budget increase requests are generally available](https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available) (Blog)
+- **Sep 16, 2026** - [Automate SSO authorization for classic PATs and SSH keys](https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys) (Blog)
+- **Sep 16, 2026** - [SCIM user responses now include a profileUrl attribute](https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute) (Blog)
+- **Sep 16, 2026** - [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY) (Video)
+- **Sep 16, 2026** - [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg) (Video)
+- **Sep 15, 2026** - [GitHub Copilot suggests custom properties definitions](https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions) (Blog)
+- **Sep 15, 2026** - [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U) (Video)
+- **Sep 15, 2026** - [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ) (Video)
+- **Sep 14, 2026** - [Configure cost and quality in Copilot auto model selection](https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection) (Blog)
+- **Sep 12, 2026** - [What is hill climbing in AI agent development?](https://www.youtube.com/shorts/u5CS4_b8eU8) (Video)
+- **Sep 11, 2026** - [Add VS Code Agents to Copilot usage metrics](https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics) (Blog)
+- **Sep 11, 2026** - [Marketing ops as code: Automating events from planning to follow-up on GitHub](https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/) (Blog)
+- **Sep 11, 2026** - [Auto-resolution and analysis updates in Copilot code review](https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review) (Blog)
 - **Sep 10, 2026** - [AI Scan for pull request APIs in public preview](https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview) (Blog)
 - **Sep 10, 2026** - [Control GitHub Actions cache access with cache-mode](https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode) (Blog)
 - **Sep 10, 2026** - [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated) (Blog)
@@ -17,6 +37,7 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 - **Sep 10, 2026** - [GitHub Copilot app for Beginners: Using the diff, terminal, and browser](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/) (Blog)
 - **Sep 10, 2026** - [Refreshed repository pull requests page in public preview](https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview) (Blog)
 - **Sep 10, 2026** - [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns) (Video)
+- **Sep 10, 2026** - [GitHub Copilot weekly releases — September 7](https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7) (Blog)
 - **Sep 9, 2026** - [Enterprise managed permissions for GitHub Copilot agent operations](https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations) (Blog)
 - **Sep 9, 2026** - [npm extends recovery-code security holds to all accounts](https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts) (Blog)
 - **Sep 9, 2026** - [CodeQL 2.27.0 adds support for Linux ARM64](https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64) (Blog)

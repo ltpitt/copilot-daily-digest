@@ -3,7 +3,7 @@
 > **About GitHub Next**: GitHub's research lab exploring future possibilities.
 > These are experimental prototypes, not production features.
 
-**Last Updated**: September 11, 2026
+**Last Updated**: September 18, 2026
 
 **⚠️ Important**: Projects here are research experiments. Many are discontinued.
 They do not represent official product roadmap.
@@ -92,13 +92,13 @@ Exploring LLM-powered navigation for your codebase
 
 ---
 
-## Graduated Experiments
+## Product (Graduated from Experiments)
 
 ### [Copilot Next Edit Suggestions](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
 Can we improve Copilot code completion by suggesting the next logical change, wherever it is in your project?
 
-This GitHub Next project helped shape GitHub Spark, which has since launched as a separate product experience.
+This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
@@ -120,9 +120,9 @@ This experiment has graduated to a production feature.
 
 ### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
-A GitHub Next collaboration with Microsoft that graduated into the React Webview UI Toolkit for Visual Studio Code.
+An ongoing collaboration with Microsoft to bring React to their library Webview UI Toolkit for Visual Studio Code
 
-This GitHub Next collaboration has graduated into a production-ready toolkit for Visual Studio Code webviews.
+This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
@@ -144,7 +144,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot Completions in the CLI](https://githubnext.com/projects/copilot-completions-cli/)
 
-GitHub Copilot assistance is now available right in your terminal to help with shell commands and flags.
+Ever having trouble remembering that shell command or this obscure flag? Don't worry: we're building GitHub Copilot assistance right into your terminal
 
 This experiment has graduated to a production feature.
 
@@ -158,43 +158,29 @@ This experiment has graduated to a production feature.
 
 An exploration of a new category of assists for using natural language in software development.
 
-→ [Explore this experiment](https://githubnext.com/projects/extract-edit-apply/)
-
 ### [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/)
 
 An agentic dev environment, designed for everyday tasks.
-
-→ [Explore this experiment](https://githubnext.com/projects/copilot-workspace/)
 
 ### [Code Brushes](https://githubnext.com/projects/code-brushes/)
 
 Can editing code feel more tactile, like painting with Photoshop brushes? We added a toolbox of brushes to our Visual Studio Code extension that can modify your code.
 
-→ [Explore this experiment](https://githubnext.com/projects/code-brushes/)
-
 ### [GPT-4 with Calc](https://githubnext.com/projects/gpt4-with-calc/)
 
 An exploration of using calculation generation to improve GPT-4's capabilities for numeric reasoning.
-
-→ [Explore this experiment](https://githubnext.com/projects/gpt4-with-calc/)
 
 ### [GitHub Copilot Labs](https://githubnext.com/projects/copilot-labs/)
 
 A VS Code extension for experimental applications of GitHub Copilot.
 
-→ [Explore this experiment](https://githubnext.com/projects/copilot-labs/)
-
 ### [Copilot Voice](https://githubnext.com/projects/copilot-voice/)
 
 Write code without the keyboard. Difficulty typing? Use your voice to code without spelling things out by talking with GitHub Copilot.
 
-→ [Explore this experiment](https://githubnext.com/projects/copilot-voice/)
-
 ### [GitHub Copilot for *Your* Codebase](https://githubnext.com/projects/copilot-view/)
 
 We want to let Copilot see the code in your entire repo to make suggestions even better.
-
-→ [Explore this experiment](https://githubnext.com/projects/copilot-view/)
 
 ---
 
