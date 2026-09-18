@@ -13,8 +13,8 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
 - **Sep 10, 2026** - 🚫 **Deprecation** - [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
-- **Sep 3, 2026** - 🚫 **Deprecation** - [Upcoming Deprecation Of Selected Github Copilot Models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
-- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected Github Copilot Models Deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
+- **Sep 3, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
+- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected GitHub Copilot models deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
 
 ---
 
@@ -52,7 +52,7 @@ The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview an
 ### [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 *Sep 17, 2026*
 
-Can refusing to use AI tools cost you a job offer? In this clip from the GitHub Podcast, the team discusses recent interview trends where candidates are turned down for not using AI in their...
+Can refusing to use AI tools cost you a job offer? In this GitHub Podcast clip, the team discusses interview trends where employers increasingly expect practical AI fluency from candidates. It highlights how developers can stay competitive by showing they can evaluate and apply AI tools in day-to-day work.
 
 ### [Code scanning AI Scan no longer requires CodeQL default setup](https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup)
 *Sep 16, 2026*
@@ -92,12 +92,12 @@ GitHub Copilot can now suggest allowed values when you create a custom property 
 ### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
 *Sep 15, 2026*
 
-Want to direct an AI agent in the app but finish coding in your favorite editor? In episode 9 of our beginner series, discover how to seamlessly hand off any active session from the GitHub Copilot...
+Want to direct an AI agent in the app but finish coding in your favorite editor? This beginner-friendly walkthrough shows how to move an active GitHub Copilot app session into VS Code without losing context. Use it to keep your workflow fluid between planning in chat and implementation in your IDE.
 
 ### [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 *Sep 15, 2026*
 
-AI coding tools increase developer output, but growing pull request backlogs can easily overwhelm engineering teams. In this video, GitHub experts explain why review fatigue happens and how to...
+AI coding tools can increase output, but review queues often become the bottleneck. This video explains three practical ways teams can reduce review fatigue, improve throughput, and keep pull request quality high as AI-assisted changes scale up.
 
 ---
 
