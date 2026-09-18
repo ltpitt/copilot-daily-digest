@@ -3,7 +3,7 @@
 > **About GitHub Next**: GitHub's research lab exploring future possibilities.
 > These are experimental prototypes, not production features.
 
-**Last Updated**: September 11, 2026
+**Last Updated**: September 18, 2026
 
 **⚠️ Important**: Projects here are research experiments. Many are discontinued.
 They do not represent official product roadmap.
@@ -92,13 +92,13 @@ Exploring LLM-powered navigation for your codebase
 
 ---
 
-## Graduated Experiments
+## Product (Graduated from Experiments)
 
 ### [Copilot Next Edit Suggestions](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
 Can we improve Copilot code completion by suggesting the next logical change, wherever it is in your project?
 
-This GitHub Next project helped shape GitHub Spark, which has since launched as a separate product experience.
+This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/copilot-next-edit-suggestions/)
 
@@ -120,9 +120,9 @@ This experiment has graduated to a production feature.
 
 ### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
-A GitHub Next collaboration with Microsoft that graduated into the React Webview UI Toolkit for Visual Studio Code.
+An ongoing collaboration with Microsoft to bring React support to the Webview UI Toolkit for Visual Studio Code.
 
-This GitHub Next collaboration has graduated into a production-ready toolkit for Visual Studio Code webviews.
+This experiment has graduated to a production feature.
 
 → [Learn more](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
@@ -144,7 +144,7 @@ This experiment has graduated to a production feature.
 
 ### [Copilot Completions in the CLI](https://githubnext.com/projects/copilot-completions-cli/)
 
-GitHub Copilot assistance is now available right in your terminal to help with shell commands and flags.
+GitHub Copilot now provides terminal assistance to help you recall shell commands and obscure flags directly where you work.
 
 This experiment has graduated to a production feature.
 

@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: September 11, 2026
+> **Last Updated**: September 18, 2026
 
 > **📊 Library Stats**
-> - 📚 **188** total videos
-> - 🆕 **10** new this month
-> - 📂 **Categories**: Getting Started (1), Features & Updates (1), Tutorials (2), Agents (2), Extensions (1), Other (3)
+> - 📚 **194** total videos
+> - 🆕 **6** new this month
+> - 📂 **Recent upload categories**: Other (1), Getting Started (1), Extensions (1), Agents (2), Tutorials (1)
 
 ---
 
@@ -14,115 +14,74 @@
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
   - [Getting Started](#getting-started) (1)
-  - [Features & Updates](#features--updates) (1)
-  - [Tutorials](#tutorials) (2)
-  - [Agents](#agents) (2)
   - [Extensions](#extensions) (1)
-  - [Other](#other) (3)
+  - [Tutorials](#tutorials) (1)
+  - [Agents](#agents) (2)
+  - [Other](#other) (1)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*10 videos published in the last 30 days*
+*6 videos published in the last 30 days*
 
-### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
+### [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 
-**Published**: Sep 10, 2026 | **Channel**: GitHub
+**Published**: Sep 17, 2026 | **Channel**: GitHub
 
-This longer livestream introduces the GitHub CLI attach flag for adding images to pull requests and issues. It serves as a higher-level product overview for the feature, complementing the more hands-on tutorial videos elsewhere in this digest.
+Can refusing to use AI tools cost you a job offer? In this GitHub Podcast clip, the team discusses interview trends where employers increasingly expect practical AI fluency from candidates. It highlights how developers can stay competitive by showing they can evaluate and apply AI tools in day-to-day work.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
-
----
-
-### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
-
-**Published**: Sep 9, 2026 | **Channel**: GitHub
-
-This walkthrough shows how to use the GitHub CLI's --attach flag to add screenshots and videos to issues, pull requests, and comments. It also demonstrates an automated Playwright workflow that captures evidence and posts before-and-after media to a pull request.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
+[Watch on YouTube →](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 
 ---
 
-### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
+### [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY)
 
-**Published**: Sep 8, 2026 | **Channel**: GitHub
+**Published**: Sep 16, 2026 | **Channel**: GitHub
 
-Episode 8 of the beginner series shows how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP server integrations for workflows such as browser testing.
+HydraFusion focuses on orchestrating multiple models per request instead of relying on a single frontier model. In this session, GitHub engineers explain how the approach improves quality while reducing cost and why this shift became necessary at scale.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=QGakvawJc2M)
-
----
-
-### [How AI is changing the way developers write pull request descriptions](https://www.youtube.com/shorts/mrbnT5_Homg)
-
-**Published**: Sep 7, 2026 | **Channel**: GitHub
-
-This short explores how AI is reshaping the language developers use in pull request descriptions. It highlights a large-scale analysis that found AI-associated terms appearing more often in GitHub PR write-ups.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/mrbnT5_Homg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=1asMXES_5jY)
 
 ---
 
-### [GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout](https://www.youtube.com/watch?v=QjvHxsl_xko)
+### [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg)
 
-**Published**: Sep 7, 2026 | **Channel**: GitHub
+**Published**: Sep 16, 2026 | **Channel**: GitHub
 
-This demo shows how GitHub Copilot works inside Slack and Microsoft Teams for issue creation, diff review, HTML previews, and repository analysis. It also covers the admin setup and policy controls required to enable these team workflows.
+In this episode of the GitHub Podcast, Cassidy and GPS unpack popular AI development hot takes from social media. They discuss where claims about code reading, MCP, and RAG hold up in practice and where nuance matters for real teams.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=QjvHxsl_xko)
-
----
-
-### [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w)
-
-**Published**: Sep 6, 2026 | **Channel**: GitHub
-
-This short argues that larger AI models do not automatically produce better code reviews. It shows why concise, accurate feedback is more valuable than verbose formatting when agents review pull requests or explain diffs.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
+[Watch on YouTube →](https://www.youtube.com/watch?v=myjyHt4ycDg)
 
 ---
 
-### [How to attach images and videos using the GitHub CLI](https://www.youtube.com/shorts/YD2vfwIcAao)
+### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
 
-**Published**: Sep 5, 2026 | **Channel**: GitHub
+**Published**: Sep 15, 2026 | **Channel**: GitHub
 
-This short introduces the GitHub CLI's --attach flag for adding images and videos to issues, comments, and pull requests from the terminal. It also highlights accessibility-minded alt text and how agents can automate proof-of-work attachments.
+Want to direct an AI agent in the app but finish coding in your favorite editor? This beginner-friendly walkthrough shows how to move an active GitHub Copilot app session into VS Code without losing context. Use it to keep your workflow fluid between planning in chat and implementation in your IDE.
 
-[Watch on YouTube →](https://www.youtube.com/shorts/YD2vfwIcAao)
-
----
-
-### [How Project HydraFusion optimizes quality, cost, and speed in GitHub Copilot](https://www.youtube.com/shorts/uug8gCi3Xxk)
-
-**Published**: Sep 4, 2026 | **Channel**: GitHub
-
-Project HydraFusion routes each coding task through the model and workflow that best match the job. This short highlights its benchmark results and shows how to try the research preview through `/experimental` in GitHub Copilot CLI.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/uug8gCi3Xxk)
+[Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
 
 ---
 
-### [Introducing Project HydraFusion: multi-model orchestration in GitHub Copilot](https://www.youtube.com/watch?v=dJmt1PHsETM)
+### [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 
-**Published**: Sep 4, 2026 | **Channel**: GitHub
+**Published**: Sep 15, 2026 | **Channel**: GitHub
 
-This launch video introduces Project HydraFusion, a research preview that orchestrates multiple models inside GitHub Copilot. It explains how single, cascade, and critique workflows balance quality, latency, and cost automatically.
+AI coding tools can increase output, but review queues often become the bottleneck. This video explains three practical ways teams can reduce review fatigue, improve throughput, and keep pull request quality high as AI-assisted changes scale up.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=dJmt1PHsETM)
+[Watch on YouTube →](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 
 ---
 
-### [The Download: Attach images in GitHub CLI, Qwen3.8-Max, AI pull request lingo & more](https://www.youtube.com/watch?v=A_PQvLNDt2k)
+### [What is hill climbing in AI agent development?](https://www.youtube.com/shorts/u5CS4_b8eU8)
 
-**Published**: Sep 4, 2026 | **Channel**: GitHub
+**Published**: Sep 12, 2026 | **Channel**: GitHub
 
-This episode of The Download leads with the new GitHub CLI media attachment workflow and then rounds up other notable AI releases and benchmarks. It also points viewers to a project exploring how AI vocabulary is showing up in GitHub pull request descriptions.
+Hill climbing is a practical method for improving AI agent performance through iterative optimization. In this GitHub Podcast clip, the team explains how eval-driven tuning moved from model training into agent harness development and why it helps teams ship better behavior faster.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=A_PQvLNDt2k)
+[Watch on YouTube →](https://www.youtube.com/shorts/u5CS4_b8eU8)
 
 ---
 
@@ -135,57 +94,29 @@ This episode of The Download leads with the new GitHub CLI media attachment work
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [How to teach GitHub Copilot about your codebase | Tutorial for Beginners](https://www.youtube.com/watch?v=QGakvawJc2M)
+### [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY)
 
-**Published**: Sep 8, 2026
+**Published**: Sep 16, 2026
 
-Episode 8 of the beginner series shows how to teach the GitHub Copilot app your repository's conventions, scripts, and code style. It covers custom instructions, reusable skills, custom agents, and MCP server integrations for workflows such as browser testing.
+HydraFusion orchestrates multiple models per request instead of selecting a single model upfront. This approach helps teams improve quality while controlling cost in production AI workflows.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=QGakvawJc2M)
-
----
-
-
-## Features & Updates
-
-*Discover new features, product announcements, capability releases, and the latest updates.*
-
-**When to watch**: You want to stay current with new capabilities and improvements.
-
-### [The Download: Attach images in GitHub CLI, Qwen3.8-Max, AI pull request lingo & more](https://www.youtube.com/watch?v=A_PQvLNDt2k)
-
-**Published**: Sep 4, 2026
-
-This episode of The Download leads with the new GitHub CLI media attachment workflow and then rounds up other notable AI releases and benchmarks. It also points viewers to a project exploring how AI vocabulary is showing up in GitHub pull request descriptions.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=A_PQvLNDt2k)
+[Watch on YouTube →](https://www.youtube.com/watch?v=1asMXES_5jY)
 
 ---
-
 
 ## Tutorials
 
-*Step-by-step walkthroughs, demos, and guided learning content.*
+*Step-by-step guides and walkthroughs to help you master specific workflows and techniques.*
 
-**When to watch**: You want a hands-on tutorial or guided demo for a specific workflow.
+**When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [How to attach images and videos using the GitHub CLI](https://www.youtube.com/shorts/YD2vfwIcAao)
+### [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 
-**Published**: Sep 5, 2026
+**Published**: Sep 15, 2026
 
-This short introduces the GitHub CLI's --attach flag for adding images and videos to issues, comments, and pull requests from the terminal. It also highlights accessibility-minded alt text and how agents can automate proof-of-work attachments.
+Learn three practical ways to reduce review fatigue and keep pull request quality high as AI-assisted development increases team throughput.
 
-[Watch on YouTube →](https://www.youtube.com/shorts/YD2vfwIcAao)
-
----
-
-### [Attach images and videos to issues and PRs with GitHub CLI](https://www.youtube.com/watch?v=YHHjEet47_4)
-
-**Published**: Sep 9, 2026
-
-This walkthrough shows how to use the GitHub CLI's --attach flag to add screenshots and videos to issues, pull requests, and comments. It also demonstrates an automated Playwright workflow that captures evidence and posts before-and-after media to a pull request.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=YHHjEet47_4)
+[Watch on YouTube →](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 
 ---
 
@@ -196,40 +127,23 @@ This walkthrough shows how to use the GitHub CLI's --attach flag to add screensh
 
 **When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
 
-### [How Project HydraFusion optimizes quality, cost, and speed in GitHub Copilot](https://www.youtube.com/shorts/uug8gCi3Xxk)
+### [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg)
 
-**Published**: Sep 4, 2026
+**Published**: Sep 16, 2026
 
-Project HydraFusion routes each coding task through the model and workflow that best match the job. This short highlights its benchmark results and shows how to try the research preview through `/experimental` in GitHub Copilot CLI.
+The hosts examine common AI developer hot takes and explain where each claim holds up in real-world engineering practice.
 
-[Watch on YouTube →](https://www.youtube.com/shorts/uug8gCi3Xxk)
-
----
-
-### [Introducing Project HydraFusion: multi-model orchestration in GitHub Copilot](https://www.youtube.com/watch?v=dJmt1PHsETM)
-
-**Published**: Sep 4, 2026
-
-This launch video introduces Project HydraFusion, a research preview that orchestrates multiple models inside GitHub Copilot. It explains how single, cascade, and critique workflows balance quality, latency, and cost automatically.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dJmt1PHsETM)
+[Watch on YouTube →](https://www.youtube.com/watch?v=myjyHt4ycDg)
 
 ---
 
+### [What is hill climbing in AI agent development?](https://www.youtube.com/shorts/u5CS4_b8eU8)
 
-## Extensions
+**Published**: Sep 12, 2026
 
-*Videos about extensions, plugins, integrations, APIs, and editor-specific tooling.*
+This clip explains how hill-climbing techniques help teams iteratively improve AI agent behavior with measurable evaluation loops.
 
-**When to watch**: You're evaluating Copilot integrations for VS Code, JetBrains, or other developer tools.
-
-### [GitHub Copilot in Slack and Microsoft Teams | demo | GitHub Checkout](https://www.youtube.com/watch?v=QjvHxsl_xko)
-
-**Published**: Sep 7, 2026
-
-This demo shows how GitHub Copilot works inside Slack and Microsoft Teams for issue creation, diff review, HTML previews, and repository analysis. It also covers the admin setup and policy controls required to enable these team workflows.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=QjvHxsl_xko)
+[Watch on YouTube →](https://www.youtube.com/shorts/u5CS4_b8eU8)
 
 ---
 
@@ -240,33 +154,13 @@ This demo shows how GitHub Copilot works inside Slack and Microsoft Teams for is
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [Attach images to PRs and Issues with GitHub CLI](https://www.youtube.com/watch?v=2-lA7Escqns)
+### [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 
-**Published**: Sep 10, 2026
+**Published**: Sep 17, 2026
 
-This stream demonstrates the new GitHub CLI attach flag for adding images to pull requests and issues. It gives developers a simple way to share visual proof of work alongside terminal-based workflows.
+This short discusses hiring trends where practical AI fluency is becoming an expected skill for many software roles.
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=2-lA7Escqns)
-
----
-
-### [How AI is changing the way developers write pull request descriptions](https://www.youtube.com/shorts/mrbnT5_Homg)
-
-**Published**: Sep 7, 2026
-
-This short explores how AI is reshaping the language developers use in pull request descriptions. It highlights a large-scale analysis that found AI-associated terms appearing more often in GitHub PR write-ups.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/mrbnT5_Homg)
-
----
-
-### [Are AI code reviews getting worse?](https://www.youtube.com/shorts/UpO_wzs2B5w)
-
-**Published**: Sep 6, 2026
-
-This short argues that larger AI models do not automatically produce better code reviews. It shows why concise, accurate feedback is more valuable than verbose formatting when agents review pull requests or explain diffs.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/UpO_wzs2B5w)
+[Watch on YouTube →](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 
 ---
 
@@ -277,3 +171,21 @@ This short argues that larger AI models do not automatically produce better code
 - [GitHub Blog](https://github.blog/tag/github-copilot/)
 - [GitHub YouTube Channel](https://www.youtube.com/github)
 - [Back to Digest Home](README.md)
+## Extensions
+
+*Learn how Copilot connects with editors, tools, and integration workflows.*
+
+**When to watch**: You're configuring IDE integrations or moving work between Copilot surfaces.
+
+### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
+
+**Published**: Sep 15, 2026
+
+This walkthrough shows how to transfer an active GitHub Copilot app session into VS Code while keeping plan and conversation context intact.
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
+
+---
+
+
+## Tutorials
