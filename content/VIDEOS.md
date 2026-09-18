@@ -28,7 +28,7 @@
 
 **Published**: Sep 17, 2026 | **Channel**: GitHub
 
-Can refusing to use AI tools cost you a job offer? In this clip from the GitHub Podcast, the team discusses recent interview trends where candidates are turned down for not using AI in their workflows. They explore why company culture, product alignment, and tool adoption play a big role in hiring d...
+Can refusing to use AI tools cost you a job offer? In this GitHub Podcast clip, the team discusses interview trends where employers increasingly expect practical AI fluency from candidates. It highlights how developers can stay competitive by showing they can evaluate and apply AI tools in day-to-day work.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 
@@ -38,9 +38,7 @@ Can refusing to use AI tools cost you a job offer? In this clip from the GitHub 
 
 **Published**: Sep 16, 2026 | **Channel**: GitHub
 
-Everyone's racing to build a better model. HydraFusion optimizes the path instead, orchestrating existing models per request rather than picking just one, and reduces the cost frontier AI. Join Aashna Garg and Julia Kasper to learn how it works, and the ceiling we hit that forced the shift.
-
-— RESOU...
+HydraFusion focuses on orchestrating multiple models per request instead of relying on a single frontier model. In this session, GitHub engineers explain how the approach improves quality while reducing cost and why this shift became necessary at scale.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=1asMXES_5jY)
 
@@ -50,7 +48,7 @@ Everyone's racing to build a better model. HydraFusion optimizes the path instea
 
 **Published**: Sep 16, 2026 | **Channel**: GitHub
 
-In this episode of the GitHub Podcast, Cassidy and GPS tackle some of the biggest AI developer hot takes floating around social media. From questioning whether developers still need to read code to debating if skills killed MCP or if RAG is actually dead, they break down the gray areas behind the he...
+In this episode of the GitHub Podcast, Cassidy and GPS unpack popular AI development hot takes from social media. They discuss where claims about code reading, MCP, and RAG hold up in practice and where nuance matters for real teams.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=myjyHt4ycDg)
 
@@ -60,7 +58,7 @@ In this episode of the GitHub Podcast, Cassidy and GPS tackle some of the bigges
 
 **Published**: Sep 15, 2026 | **Channel**: GitHub
 
-Want to direct an AI agent in the app but finish coding in your favorite editor? In episode 9 of our beginner series, discover how to seamlessly hand off any active session from the GitHub Copilot app straight into VS Code. Learn how your task plan, conversation history, diff, and isolated git workt...
+Want to direct an AI agent in the app but finish coding in your favorite editor? This beginner-friendly walkthrough shows how to move an active GitHub Copilot app session into VS Code without losing context. Use it to keep your workflow fluid between planning in chat and implementation in your IDE.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
 
@@ -70,7 +68,7 @@ Want to direct an AI agent in the app but finish coding in your favorite editor?
 
 **Published**: Sep 15, 2026 | **Channel**: GitHub
 
-AI coding tools increase developer output, but growing pull request backlogs can easily overwhelm engineering teams. In this video, GitHub experts explain why review fatigue happens and how to calibrate your workflows for agentic development. Learn how improving prompt inputs, keeping PRs small with...
+AI coding tools can increase output, but review queues often become the bottleneck. This video explains three practical ways teams can reduce review fatigue, improve throughput, and keep pull request quality high as AI-assisted changes scale up.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 
@@ -80,7 +78,7 @@ AI coding tools increase developer output, but growing pull request backlogs can
 
 **Published**: Sep 12, 2026 | **Channel**: GitHub
 
-Hill climbing isn't just an exercise term; it is a practical method for improving AI agent performance. In this clip from the GitHub Podcast, the team breaks down how hill climbing transitioned from model training into agent harness optimization. By using targeted evals to continuously benchmark and...
+Hill climbing is a practical method for improving AI agent performance through iterative optimization. In this GitHub Podcast clip, the team explains how eval-driven tuning moved from model training into agent harness development and why it helps teams ship better behavior faster.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/u5CS4_b8eU8)
 
@@ -99,7 +97,7 @@ Hill climbing isn't just an exercise term; it is a practical method for improvin
 
 **Published**: Sep 16, 2026
 
-Everyone's racing to build a better model. HydraFusion optimizes the path instead, orchestrating existing models per request rather than picking just one, and reduces the cost frontier AI. Join Aashna...
+HydraFusion orchestrates multiple models per request instead of selecting a single model upfront. This approach helps teams improve quality while controlling cost in production AI workflows.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=1asMXES_5jY)
 
@@ -109,7 +107,7 @@ Everyone's racing to build a better model. HydraFusion optimizes the path instea
 
 **Published**: Sep 15, 2026
 
-Want to direct an AI agent in the app but finish coding in your favorite editor? In episode 9 of our beginner series, discover how to seamlessly hand off any active session from the GitHub Copilot app...
+This walkthrough shows how to transfer an active GitHub Copilot app session into VS Code while keeping plan and conversation context intact.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
 
@@ -126,7 +124,7 @@ Want to direct an AI agent in the app but finish coding in your favorite editor?
 
 **Published**: Sep 15, 2026
 
-AI coding tools increase developer output, but growing pull request backlogs can easily overwhelm engineering teams. In this video, GitHub experts explain why review fatigue happens and how to calibra...
+Learn three practical ways to reduce review fatigue and keep pull request quality high as AI-assisted development increases team throughput.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
 
@@ -143,7 +141,7 @@ AI coding tools increase developer output, but growing pull request backlogs can
 
 **Published**: Sep 16, 2026
 
-In this episode of the GitHub Podcast, Cassidy and GPS tackle some of the biggest AI developer hot takes floating around social media. From questioning whether developers still need to read code to de...
+The hosts examine common AI developer hot takes and explain where each claim holds up in real-world engineering practice.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=myjyHt4ycDg)
 
@@ -153,7 +151,7 @@ In this episode of the GitHub Podcast, Cassidy and GPS tackle some of the bigges
 
 **Published**: Sep 12, 2026
 
-Hill climbing isn't just an exercise term; it is a practical method for improving AI agent performance. In this clip from the GitHub Podcast, the team breaks down how hill climbing transitioned from m...
+This clip explains how hill-climbing techniques help teams iteratively improve AI agent behavior with measurable evaluation loops.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/u5CS4_b8eU8)
 
@@ -170,7 +168,7 @@ Hill climbing isn't just an exercise term; it is a practical method for improvin
 
 **Published**: Sep 17, 2026
 
-Can refusing to use AI tools cost you a job offer? In this clip from the GitHub Podcast, the team discusses recent interview trends where candidates are turned down for not using AI in their workflows...
+This short discusses hiring trends where practical AI fluency is becoming an expected skill for many software roles.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/Q7uO3vWP1h4)
 

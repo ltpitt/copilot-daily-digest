@@ -120,7 +120,7 @@ This experiment has graduated to a production feature.
 
 ### [React Webview UI Toolkit for VS Code](https://githubnext.com/projects/react-webview-ui-toolkit/)
 
-An ongoing collaboration with Microsoft to bring React to their library Webview UI Toolkit for Visual Studio Code
+An ongoing collaboration with Microsoft to bring React support to the Webview UI Toolkit for Visual Studio Code.
 
 This experiment has graduated to a production feature.
 
@@ -161,6 +161,8 @@ An exploration of a new category of assists for using natural language in softwa
 ### [Copilot Workspace](https://githubnext.com/projects/copilot-workspace/)
 
 An agentic dev environment, designed for everyday tasks.
+
+→ [Explore this experiment](https://githubnext.com/projects/copilot-workspace/)
 
 ### [Code Brushes](https://githubnext.com/projects/code-brushes/)
 
