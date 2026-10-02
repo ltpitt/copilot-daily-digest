@@ -82,7 +82,7 @@ The HydraFusion research preview is now available in Visual Studio Code and the 
 ### [How GitHub's Tiny Wins team tackles the AI slop problem | S02E04 | The GitHub Podcast](https://www.youtube.com/watch?v=PWjo4VWhmqY)
 *Sep 30, 2026*
 
-Open source maintainers are facing an influx of low-quality contributions across their repositories. In this episode of The GitHub Podcast, Cassidy and GPS sit down with Camilla Moraes, product...
+Open source maintainers are facing a surge of low-quality contributions. GitHub's Maintainer Love product manager Camilla Moraes discusses tools such as pull request limits and how she uses Copilot CLI to organize maintainer feedback.
 
 ### [GPT-6.1 Sol in GitHub Copilot](https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot)
 *Sep 29, 2026*
@@ -97,12 +97,12 @@ Claude Sonnet 5.5, Anthropic's newest Sonnet model, is now generally available i
 ### [How GitHub Copilot app fixes CI failures automatically](https://www.youtube.com/shorts/SAC1vJk6EGw)
 *Sep 28, 2026*
 
-Tired of your code passing locally but failing in continuous integration? The GitHub Copilot app stays involved after you open a pull request, fixing CI failures and addressing reviewer comments...
+The GitHub Copilot app can stay involved after a pull request is opened, automatically addressing CI failures and reviewer comments. See how agent merge helps shepherd changes through review and toward merge.
 
 ### [How to use GitHub Copilot with WSL on Windows](https://www.youtube.com/watch?v=4VnQGyKtMk0)
 *Sep 27, 2026*
 
-Build software on Windows using the Linux environments and tools you already rely on. In this video, see how to connect the GitHub Copilot app to Windows Subsystem for Linux (WSL) and run coding...
+Connect the GitHub Copilot app to WSL to run coding agents inside Ubuntu while staying in your Windows workflow. The video demonstrates parallel feature work with worktrees, previews in a built-in browser, and verifying code diffs.
 
 ---
 
