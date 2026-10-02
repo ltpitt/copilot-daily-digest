@@ -2,14 +2,48 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: September 18, 2026
+**Last Updated**: October 02, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## October 2026
+
+- **Oct 1, 2026** - [GitHub Actions: macOS 14 runner image retirement](https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement) (Blog)
+- **Oct 1, 2026** - [GitHub Copilot can now interact with desktop apps with computer use](https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps) (Blog)
+- **Oct 1, 2026** - [Dynamic workflows in Copilot CLI and the Copilot app](https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app) (Blog)
+- **Oct 1, 2026** - [Actions retention now covers checks, runs, and statuses](https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses) (Blog)
+- **Oct 1, 2026** - [GitHub Copilot in VS Code, September 2026 releases](https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases) (Blog)
+- **Oct 1, 2026** - [Code coverage uploads no longer fail CI for new branches](https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches) (Blog)
+- **Oct 1, 2026** - [Accessibility statements highlighted on repository overview](https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview) (Blog)
+- **Oct 1, 2026** - [Rate limits for private vulnerability reports](https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports) (Blog)
+- **Oct 1, 2026** - [Structured forms for private vulnerability reports](https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports) (Blog)
+
 ## September 2026
 
+- **Sep 30, 2026** - [HydraFusion in VS Code and the GitHub Copilot app](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app) (Blog)
+- **Sep 30, 2026** - [How GitHub's Tiny Wins team tackles the AI slop problem | S02E04 | The GitHub Podcast](https://www.youtube.com/watch?v=PWjo4VWhmqY) (Video)
+- **Sep 29, 2026** - [GPT-6.1 Sol in GitHub Copilot](https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot) (Blog)
+- **Sep 28, 2026** - [Claude Sonnet 5.5 in GitHub Copilot](https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot) (Blog)
+- **Sep 28, 2026** - [How GitHub Copilot app fixes CI failures automatically](https://www.youtube.com/shorts/SAC1vJk6EGw) (Video)
+- **Sep 27, 2026** - [How to use GitHub Copilot with WSL on Windows](https://www.youtube.com/watch?v=4VnQGyKtMk0) (Video)
+- **Sep 26, 2026** - [How to automate issue metadata with GitHub issue intents](https://www.youtube.com/watch?v=-uMkZDEZCNw) (Video)
+- **Sep 25, 2026** - [Enterprise managed settings in-product validator](https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator) (Blog)
+- **Sep 25, 2026** - [Agentic autofix now uses Copilot Memory](https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory) (Blog)
+- **Sep 25, 2026** - [GitHub Copilot app for Beginners: How to build custom workflows with canvases](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/) (Blog)
+- **Sep 25, 2026** - [GitHub Copilot weekly releases — September 21](https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21) (Blog)
+- **Sep 25, 2026** - [Usage metrics API adds pull request review stages](https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages) (Blog)
+- **Sep 25, 2026** - [How to use Claude, Codex, and BYOK in GitHub Copilot for VS Code | GitHub Copilot Day](https://www.youtube.com/watch?v=_Mqr5B3DLgM) (Video)
+- **Sep 25, 2026** - [How to build custom tools with Canvas in the GitHub Copilot app](https://www.youtube.com/shorts/Ln0L9Ptey_8) (Video)
+- **Sep 24, 2026** - [When chat is the wrong UI](https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/) (Blog)
+- **Sep 24, 2026** - [Are developers mourning the craft of coding in the AI era?](https://www.youtube.com/shorts/arhEVn0bAdM) (Video)
+- **Sep 23, 2026** - [Rendering huge pull requests in the GitHub Copilot app](https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/) (Blog)
+- **Sep 23, 2026** - [GitHub Copilot everywhere: building code across Slack, Teams, mobile, and VS Code](https://www.youtube.com/watch?v=4xeDfqEsHU4) (Video)
+- **Sep 22, 2026** - [Welcome to GitHub Copilot Day: the future of agentic engineering](https://www.youtube.com/watch?v=wtMaYmkhANQ) (Video)
+- **Sep 22, 2026** - [How to automate repetitive developer tasks with GitHub Copilot app](https://www.youtube.com/shorts/xu-iqqZTlB4) (Video)
+- **Sep 21, 2026** - [How to move AI from code completion to agentic workflows](https://www.youtube.com/watch?v=XVscTlkFl1o) (Video)
+- **Sep 20, 2026** - [25 agent skills to improve your workflow in GitHub Copilot | Matt Pocock | GitHub Copilot Day](https://www.youtube.com/watch?v=9yPyoxlyc5Q) (Video)
 - **Sep 17, 2026** - [Agentic CLI customizations now in the usage metrics API](https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api) (Blog)
 - **Sep 17, 2026** - [Workflow execution protections in GitHub Actions generally available](https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available) (Blog)
 - **Sep 17, 2026** - [Copilot impact dashboard now shows feature engagement](https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement) (Blog)
