@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: September 18, 2026
+**Last Updated**: October 09, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,92 +12,91 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
-- **Sep 10, 2026** - 🚫 **Deprecation** - [MAI-Code-1-Flash deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
-- **Sep 3, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models)
-- **Aug 31, 2026** - 🚫 **Deprecation** - [Selected GitHub Copilot models deprecated](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated)
+- **Oct 2, 2026** - 🚫 **Deprecation** - [Selected models in GitHub Copilot deprecated](https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated)
+- **Sep 10, 2026** - 🚫 **Deprecation** - [Mai Code 1 Flash Deprecated](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated)
 
 ---
 
 ## This Week (Last 7 Days)
 
-### [Agentic CLI customizations now in the usage metrics API](https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api)
-*Sep 17, 2026*
+### [Screen readers can navigate timelines as lists](https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists)
+*Oct 8, 2026*
 
-GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.
+Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates without relying on visual scanning.
 
-### [Workflow execution protections in GitHub Actions generally available](https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available)
-*Sep 17, 2026*
+### [Draft pull requests count toward pull request limits](https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits)
+*Oct 8, 2026*
 
-Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you define an allowlist that controls who can trigger an Actions workflow and what events can start it. Actor rules cover the who, event rules cover the what, and actions evaluate both before a run.
+Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously, draft pull requests didn't count toward a user's limit.
 
-### [Copilot impact dashboard now shows feature engagement](https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement)
-*Sep 17, 2026*
+### [Triage role users or higher can now archive pull requests](https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests)
+*Oct 8, 2026*
 
-The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement.
+Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine moderation work to someone with higher permissions. Maintainers increasingly rely on triagers to keep pull request queues healthy without granting them permission to change code.
 
-### [Migrating the GitHub Copilot runtime to Rust, using Copilot](https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/)
-*Sep 17, 2026*
+### [How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day](https://www.youtube.com/watch?v=KT6p0MNXoCE)
+*Oct 8, 2026*
 
-The GitHub Copilot CLI, GitHub Copilot app, and GitHub Copilot SDK are all backed by the Copilot agent runtime, an agentic harness that can be embedded into applications and services. Using the GitHub Copilot app and the Copilot CLI, we completely rewrote the runtime into more than 800,000 lines of production Rust.
+Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple devices. A live demonstration shows how to host an agent on a Linux machine and connect to it from multiple clients.
 
-### [Ubuntu 26 generally available and latest migration](https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration)
-*Sep 17, 2026*
+### [Local sandboxing for GitHub Copilot now generally available](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available)
+*Oct 7, 2026*
 
-The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release, the ubuntu-latest label will migrate to Ubuntu 26.04, giving you the latest supported Ubuntu release by default. To run your workflows on the new image, set runs-on: ubuntu-26.04 or runs-on: ubuntu-26.04-arm in your workflow file.
+Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines.
 
 ---
 
 ## Last 30 Days
 
-### [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4)
-*Sep 17, 2026*
+### [Discover local models in GitHub Copilot CLI](https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli)
+*Oct 7, 2026*
 
-Can refusing to use AI tools cost you a job offer? In this GitHub Podcast clip, the team discusses interview trends where employers increasingly expect practical AI fluency from candidates. It highlights how developers can stay competitive by showing they can evaluate and apply AI tools in day-to-day work.
+GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot. Discovery doesn't automatically add models.
 
-### [Code scanning AI Scan no longer requires CodeQL default setup](https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup)
-*Sep 16, 2026*
+### [Claude Haiku 5.5 in GitHub Copilot](https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot)
+*Oct 7, 2026*
 
-You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn't enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured.
+Claude Haiku 5.5, Anthropic's newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer tokens and steps.
 
-### [Copilot budget increase requests are generally available](https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available)
-*Sep 16, 2026*
+### [Purpose-built model for leaked secret detection](https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection)
+*Oct 7, 2026*
 
-Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit. You can approve, adjust, or deny that request without leaving your settings.
+Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we're bringing context-aware detection into more developer workflows to help you catch secrets before they're exposed.
 
-### [Automate SSO authorization for classic PATs and SSH keys](https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys)
-*Sep 16, 2026*
+### [Intelligent local model routing is coming to GitHub Copilot](https://www.youtube.com/watch?v=QIHnmqYU614)
+*Oct 7, 2026*
 
-Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your developers. These GitHub Apps can then call the new API to bulk-authorize a classic PAT or an SSH key for up to 50 organizations in a single request.
+GitHub Copilot can discover installed local models from providers such as Ollama and Microsoft Foundry Local without manual setup. Upcoming intelligent routing will send simple tasks and background automations to on-device models, including when working offline, without using AI credits.
 
-### [SCIM user responses now include a profileUrl attribute](https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute)
-*Sep 16, 2026*
+### [Code scanning AI Scan enablement status in security overview](https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview)
+*Oct 6, 2026*
 
-SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, matching a SCIM record to the corresponding GitHub account required extra lookups or inference.
+Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository counts, while repository rows show each repository's effective AI Scan enablement.
 
-### [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY)
-*Sep 16, 2026*
+### [Update your IDE to restore agent activity in Copilot usage metrics](https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics)
+*Oct 6, 2026*
 
-Everyone's racing to build a better model. HydraFusion optimizes the path instead, orchestrating existing models per request rather than picking just one, and reduces the cost of frontier AI.
+If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we've found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK. Those sessions didn't identify which IDE they came from, so usage metrics couldn't attribute them correctly.
 
-### [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg)
-*Sep 16, 2026*
+### [Stacked pull requests generally available](https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available)
+*Oct 6, 2026*
 
-In this episode of the GitHub Podcast, Cassidy and GPS tackle some of the biggest AI developer hot takes floating around social media.
+GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public preview, repositories using stacks have seen a 9% increase in merged code compared to peers.
 
-### [GitHub Copilot suggests custom properties definitions](https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions)
-*Sep 15, 2026*
+### [ScreenMind: Vision, Audio & Chat with Local AI | Open Source Friday](https://www.youtube.com/watch?v=N_cGKFGMxxc)
+*Oct 6, 2026*
 
-GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot Enterprise plans. Custom properties let enterprise and organization admins attach governance metadata to repositories, which you can then use to target repositories with rulesets.
+What if one local AI model could understand your screen, transcribe meetings, and answer questions about what you’ve seen?
 
-### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
-*Sep 15, 2026*
+### [How GitHub PR limits help maintainers stop AI slop](https://www.youtube.com/shorts/8VslAmTPo3I)
+*Oct 6, 2026*
 
-Want to direct an AI agent in the app but finish coding in your favorite editor? This beginner-friendly walkthrough shows how to move an active GitHub Copilot app session into VS Code without losing context. Use it to keep your workflow fluid between planning in chat and implementation in your IDE.
+Low-quality pull requests and automated spam, often referred to as AI slop, have become a major burden for open-source maintainers.
 
-### [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
-*Sep 15, 2026*
+### [ReviewBench: An open benchmark for AI code review](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/)
+*Oct 5, 2026*
 
-AI coding tools can increase output, but review queues often become the bottleneck. This video explains three practical ways teams can reduce review fatigue, improve throughput, and keep pull request quality high as AI-assisted changes scale up.
+Agentic code review is becoming an essential piece of how development happens. It helps you inspect pull requests, catch issues, and decide what deserves attention before code ships. But the quality of existing AI reviewers can be hard to measure, and you need to know the strengths of a reviewer before you know if it will help you.
 
 ---
 

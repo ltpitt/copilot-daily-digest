@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: September 18, 2026
+> **Last Updated**: October 09, 2026
 
 > **📊 Library Stats**
-> - 📚 **194** total videos
-> - 🆕 **6** new this month
-> - 📂 **Recent upload categories**: Other (1), Getting Started (1), Extensions (1), Agents (2), Tutorials (1)
+> - 📚 **205** total videos
+> - 🆕 **11** new this month
+> - 📂 **Categories**: Getting Started (3), Other (2), Features & Updates (4), Tutorials (2)
 
 ---
 
@@ -13,75 +13,133 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (1)
-  - [Extensions](#extensions) (1)
-  - [Tutorials](#tutorials) (1)
-  - [Agents](#agents) (2)
-  - [Other](#other) (1)
+  - [Getting Started](#getting-started) (3)
+  - [Features & Updates](#features--updates) (4)
+  - [Tutorials](#tutorials) (2)
+  - [Other](#other) (2)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*6 videos published in the last 30 days*
+*11 videos published in the last 30 days*
 
-### [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4)
+### [How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day](https://www.youtube.com/watch?v=KT6p0MNXoCE)
 
-**Published**: Sep 17, 2026 | **Channel**: GitHub
+**Published**: Oct 8, 2026 | **Channel**: GitHub
 
-Can refusing to use AI tools cost you a job offer? In this GitHub Podcast clip, the team discusses interview trends where employers increasingly expect practical AI fluency from candidates. It highlights how developers can stay competitive by showing they can evaluate and apply AI tools in day-to-day work.
+Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple devices. Watch a live demonstration of hosting an agent ...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/Q7uO3vWP1h4)
-
----
-
-### [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY)
-
-**Published**: Sep 16, 2026 | **Channel**: GitHub
-
-HydraFusion focuses on orchestrating multiple models per request instead of relying on a single frontier model. In this session, GitHub engineers explain how the approach improves quality while reducing cost and why this shift became necessary at scale.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=1asMXES_5jY)
+[Watch on YouTube →](https://www.youtube.com/watch?v=KT6p0MNXoCE)
 
 ---
 
-### [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg)
+### [Intelligent local model routing is coming to GitHub Copilot](https://www.youtube.com/watch?v=QIHnmqYU614)
 
-**Published**: Sep 16, 2026 | **Channel**: GitHub
+**Published**: Oct 7, 2026 | **Channel**: GitHub
 
-In this episode of the GitHub Podcast, Cassidy and GPS unpack popular AI development hot takes from social media. They discuss where claims about code reading, MCP, and RAG hold up in practice and where nuance matters for real teams.
+GitHub Copilot is extending intelligent model orchestration from the cloud down to your local machine. Copilot can automatically discover installed local models from providers like Ollama and Microsoft Foundry Local without manual setup. And soon intelligent routing will offload workflows like simpl...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=myjyHt4ycDg)
-
----
-
-### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
-
-**Published**: Sep 15, 2026 | **Channel**: GitHub
-
-Want to direct an AI agent in the app but finish coding in your favorite editor? This beginner-friendly walkthrough shows how to move an active GitHub Copilot app session into VS Code without losing context. Use it to keep your workflow fluid between planning in chat and implementation in your IDE.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
+[Watch on YouTube →](https://www.youtube.com/watch?v=QIHnmqYU614)
 
 ---
 
-### [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
+### [ScreenMind: Vision, Audio & Chat with Local AI | Open Source Friday](https://www.youtube.com/watch?v=N_cGKFGMxxc)
 
-**Published**: Sep 15, 2026 | **Channel**: GitHub
+**Published**: Oct 6, 2026 | **Channel**: GitHub
 
-AI coding tools can increase output, but review queues often become the bottleneck. This video explains three practical ways teams can reduce review fatigue, improve throughput, and keep pull request quality high as AI-assisted changes scale up.
+What if one local AI model could understand your screen, transcribe meetings, and answer questions about what you’ve seen? Join us for Open Source Friday with Ayush Shekhar, creator of ScreenMind—an open source project that brings vision, audio, and reasoning together using a single Gemma 4 model, r...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
+[Watch on YouTube →](https://www.youtube.com/watch?v=N_cGKFGMxxc)
 
 ---
 
-### [What is hill climbing in AI agent development?](https://www.youtube.com/shorts/u5CS4_b8eU8)
+### [How GitHub PR limits help maintainers stop AI slop](https://www.youtube.com/shorts/8VslAmTPo3I)
 
-**Published**: Sep 12, 2026 | **Channel**: GitHub
+**Published**: Oct 6, 2026 | **Channel**: GitHub
 
-Hill climbing is a practical method for improving AI agent performance through iterative optimization. In this GitHub Podcast clip, the team explains how eval-driven tuning moved from model training into agent harness development and why it helps teams ship better behavior faster.
+Low-quality pull requests and automated spam, often referred to as AI slop, have become a major burden for open-source maintainers. In this video, discover how GitHub’s PR limits feature allows maintainers to cap open pull requests from external contributors. Learn how upcoming features like countin...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/u5CS4_b8eU8)
+[Watch on YouTube →](https://www.youtube.com/shorts/8VslAmTPo3I)
+
+---
+
+### [Inside Project HydraFusion: multi-model orchestration in the GitHub Copilot | demo | GitHub Checkout](https://www.youtube.com/watch?v=EeOz2w5wPEI)
+
+**Published**: Oct 2, 2026 | **Channel**: GitHub
+
+Stop guessing which AI model to use for your coding tasks. In this episode of GitHub Checkout, Julia Kasper joins to break down Project HydraFusion - a new approach to multi-model orchestration in the GitHub Copilot CLI. Learn how HydraFusion evaluates your intent and automatically routes prompts th...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=EeOz2w5wPEI)
+
+---
+
+### [GitHub Universe Day 2 Keynote](https://www.youtube.com/watch?v=ZSMFrM54H2Q)
+
+**Published**: Oct 2, 2026 | **Channel**: GitHub
+
+We're ending Universe the way it started: with the people who build in the open. Join us for a final session of open source voices, unexpected demos, and the kind of nerdy joy that reminds you why you got into this in the first place. More details coming soon.
+
+#GitHub #GitHubUniverse
+
+
+Stay up-to-d...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=ZSMFrM54H2Q)
+
+---
+
+### [GitHub Universe Day 1 Keynote](https://www.youtube.com/watch?v=MZfqId_rrB0)
+
+**Published**: Oct 2, 2026 | **Channel**: GitHub
+
+Join us for the opening keynote as we look at the next era of software, the developers building it, and the tools and workflows GitHub is creating to help them go further. Expect new announcements, live demos, and a few surprises along the way.
+
+#GitHubUniverse #GitHubCopilot #GitHub
+
+Stay up-to-dat...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=MZfqId_rrB0)
+
+---
+
+### [How GitHub's Tiny Wins team tackles the AI slop problem | S02E04 | The GitHub Podcast](https://www.youtube.com/watch?v=PWjo4VWhmqY)
+
+**Published**: Sep 30, 2026 | **Channel**: GitHub
+
+Open source maintainers are facing an influx of low-quality contributions across their repositories. In this episode of The GitHub Podcast, Cassidy and GPS sit down with Camilla Moraes, product manager on GitHub's Maintainer Love team, to talk about how her team builds high-impact tools for maintain...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=PWjo4VWhmqY)
+
+---
+
+### [How GitHub Copilot app fixes CI failures automatically](https://www.youtube.com/shorts/SAC1vJk6EGw)
+
+**Published**: Sep 28, 2026 | **Channel**: GitHub
+
+Tired of your code passing locally but failing in continuous integration? The GitHub Copilot app stays involved after you open a pull request, fixing CI failures and addressing reviewer comments automatically. Let the AI shepherd your code all the way to merge instead of just writing it. Discover ho...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/SAC1vJk6EGw)
+
+---
+
+### [How to use GitHub Copilot with WSL on Windows](https://www.youtube.com/watch?v=4VnQGyKtMk0)
+
+**Published**: Sep 27, 2026 | **Channel**: GitHub
+
+Build software on Windows using the Linux environments and tools you already rely on. In this video, see how to connect the GitHub Copilot app to Windows Subsystem for Linux (WSL) and run coding agents directly inside Ubuntu. Watch how Copilot handles parallel feature requests using worktrees, previ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=4VnQGyKtMk0)
+
+---
+
+### [How to automate issue metadata with GitHub issue intents](https://www.youtube.com/watch?v=-uMkZDEZCNw)
+
+**Published**: Sep 26, 2026 | **Channel**: GitHub
+
+Managing incoming repository issues and keeping metadata up to date can be tedious for maintainers. GitHub issue intents allow you to automate issue triage while keeping full control over how suggestions are applied. Learn how to set confidence thresholds, review agent reasoning, and auto-apply rout...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=-uMkZDEZCNw)
 
 ---
 
@@ -94,15 +152,83 @@ Hill climbing is a practical method for improving AI agent performance through i
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
-### [How Project HydraFusion reduces the cost of frontier AI](https://www.youtube.com/watch?v=1asMXES_5jY)
+### [How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day](https://www.youtube.com/watch?v=KT6p0MNXoCE)
 
-**Published**: Sep 16, 2026
+**Published**: Oct 8, 2026
 
-HydraFusion orchestrates multiple models per request instead of selecting a single model upfront. This approach helps teams improve quality while controlling cost in production AI workflows.
+Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=1asMXES_5jY)
+[Watch on YouTube →](https://www.youtube.com/watch?v=KT6p0MNXoCE)
 
 ---
+
+### [Inside Project HydraFusion: multi-model orchestration in the GitHub Copilot | demo | GitHub Checkout](https://www.youtube.com/watch?v=EeOz2w5wPEI)
+
+**Published**: Oct 2, 2026
+
+Stop guessing which AI model to use for your coding tasks. In this episode of GitHub Checkout, Julia Kasper joins to break down Project HydraFusion - a new approach to multi-model orchestration in the...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=EeOz2w5wPEI)
+
+---
+
+### [How GitHub Copilot app fixes CI failures automatically](https://www.youtube.com/shorts/SAC1vJk6EGw)
+
+**Published**: Sep 28, 2026
+
+Tired of your code passing locally but failing in continuous integration? The GitHub Copilot app stays involved after you open a pull request, fixing CI failures and addressing reviewer comments autom...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/SAC1vJk6EGw)
+
+---
+
+
+## Features & Updates
+
+*Discover new features, product announcements, capability releases, and the latest updates.*
+
+**When to watch**: You want to stay current with new capabilities and improvements.
+
+### [How GitHub PR limits help maintainers stop AI slop](https://www.youtube.com/shorts/8VslAmTPo3I)
+
+**Published**: Oct 6, 2026
+
+Low-quality pull requests and automated spam, often referred to as AI slop, have become a major burden for open-source maintainers. In this video, discover how GitHub’s PR limits feature allows mainta...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/8VslAmTPo3I)
+
+---
+
+### [GitHub Universe Day 1 Keynote](https://www.youtube.com/watch?v=MZfqId_rrB0)
+
+**Published**: Oct 2, 2026
+
+Join us for the opening keynote as we look at the next era of software, the developers building it, and the tools and workflows GitHub is creating to help them go further. Expect new announcements, li...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=MZfqId_rrB0)
+
+---
+
+### [How GitHub's Tiny Wins team tackles the AI slop problem | S02E04 | The GitHub Podcast](https://www.youtube.com/watch?v=PWjo4VWhmqY)
+
+**Published**: Sep 30, 2026
+
+Open source maintainers are facing an influx of low-quality contributions across their repositories. In this episode of The GitHub Podcast, Cassidy and GPS sit down with Camilla Moraes, product manage...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=PWjo4VWhmqY)
+
+---
+
+### [How to use GitHub Copilot with WSL on Windows](https://www.youtube.com/watch?v=4VnQGyKtMk0)
+
+**Published**: Sep 27, 2026
+
+Build software on Windows using the Linux environments and tools you already rely on. In this video, see how to connect the GitHub Copilot app to Windows Subsystem for Linux (WSL) and run coding agent...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=4VnQGyKtMk0)
+
+---
+
 
 ## Tutorials
 
@@ -110,40 +236,23 @@ HydraFusion orchestrates multiple models per request instead of selecting a sing
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [3 ways to streamline AI code reviews across your team](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
+### [GitHub Universe Day 2 Keynote](https://www.youtube.com/watch?v=ZSMFrM54H2Q)
 
-**Published**: Sep 15, 2026
+**Published**: Oct 2, 2026
 
-Learn three practical ways to reduce review fatigue and keep pull request quality high as AI-assisted development increases team throughput.
+We're ending Universe the way it started: with the people who build in the open. Join us for a final session of open source voices, unexpected demos, and the kind of nerdy joy that reminds you why you...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=NiMpZ4gW2dQ)
-
----
-
-
-## Agents
-
-*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
-
-**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
-
-### [AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast](https://www.youtube.com/watch?v=myjyHt4ycDg)
-
-**Published**: Sep 16, 2026
-
-The hosts examine common AI developer hot takes and explain where each claim holds up in real-world engineering practice.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=myjyHt4ycDg)
+[Watch on YouTube →](https://www.youtube.com/watch?v=ZSMFrM54H2Q)
 
 ---
 
-### [What is hill climbing in AI agent development?](https://www.youtube.com/shorts/u5CS4_b8eU8)
+### [How to automate issue metadata with GitHub issue intents](https://www.youtube.com/watch?v=-uMkZDEZCNw)
 
-**Published**: Sep 12, 2026
+**Published**: Sep 26, 2026
 
-This clip explains how hill-climbing techniques help teams iteratively improve AI agent behavior with measurable evaluation loops.
+Managing incoming repository issues and keeping metadata up to date can be tedious for maintainers. GitHub issue intents allow you to automate issue triage while keeping full control over how suggesti...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/u5CS4_b8eU8)
+[Watch on YouTube →](https://www.youtube.com/watch?v=-uMkZDEZCNw)
 
 ---
 
@@ -154,13 +263,23 @@ This clip explains how hill-climbing techniques help teams iteratively improve A
 
 **When to watch**: You're looking for miscellaneous Copilot content.
 
-### [Will tech companies hire developers who do not use AI?](https://www.youtube.com/shorts/Q7uO3vWP1h4)
+### [Intelligent local model routing is coming to GitHub Copilot](https://www.youtube.com/watch?v=QIHnmqYU614)
 
-**Published**: Sep 17, 2026
+**Published**: Oct 7, 2026
 
-This short discusses hiring trends where practical AI fluency is becoming an expected skill for many software roles.
+GitHub Copilot is extending intelligent model orchestration from the cloud down to your local machine. Copilot can automatically discover installed local models from providers like Ollama and Microsof...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/Q7uO3vWP1h4)
+[Watch on YouTube →](https://www.youtube.com/watch?v=QIHnmqYU614)
+
+---
+
+### [ScreenMind: Vision, Audio & Chat with Local AI | Open Source Friday](https://www.youtube.com/watch?v=N_cGKFGMxxc)
+
+**Published**: Oct 6, 2026
+
+What if one local AI model could understand your screen, transcribe meetings, and answer questions about what you’ve seen? Join us for Open Source Friday with Ayush Shekhar, creator of ScreenMind—an o...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=N_cGKFGMxxc)
 
 ---
 
@@ -171,21 +290,3 @@ This short discusses hiring trends where practical AI fluency is becoming an exp
 - [GitHub Blog](https://github.blog/tag/github-copilot/)
 - [GitHub YouTube Channel](https://www.youtube.com/github)
 - [Back to Digest Home](README.md)
-## Extensions
-
-*Learn how Copilot connects with editors, tools, and integration workflows.*
-
-**When to watch**: You're configuring IDE integrations or moving work between Copilot surfaces.
-
-### [How to continue GitHub Copilot app sessions in VS Code](https://www.youtube.com/watch?v=dNCGfpDho0U)
-
-**Published**: Sep 15, 2026
-
-This walkthrough shows how to transfer an active GitHub Copilot app session into VS Code while keeping plan and conversation context intact.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=dNCGfpDho0U)
-
----
-
-
-## Tutorials
