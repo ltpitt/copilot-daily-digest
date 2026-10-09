@@ -37,7 +37,7 @@ Users with the triage role or higher in a repository can now archive and unarchi
 ### [How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day](https://www.youtube.com/watch?v=KT6p0MNXoCE)
 *Oct 8, 2026*
 
-Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple...
+Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple devices. A live demonstration shows how to host an agent on a Linux machine and connect to it from multiple clients.
 
 ### [Local sandboxing for GitHub Copilot now generally available](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available)
 *Oct 7, 2026*
@@ -66,7 +66,7 @@ Secret protection should keep pace with the way you build software, whether you 
 ### [Intelligent local model routing is coming to GitHub Copilot](https://www.youtube.com/watch?v=QIHnmqYU614)
 *Oct 7, 2026*
 
-GitHub Copilot is extending intelligent model orchestration from the cloud down to your local machine. Copilot can automatically discover installed local models from providers like Ollama and...
+GitHub Copilot can discover installed local models from providers such as Ollama and Microsoft Foundry Local without manual setup. Upcoming intelligent routing will send simple tasks and background automations to on-device models, including when working offline, without using AI credits.
 
 ### [Code scanning AI Scan enablement status in security overview](https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview)
 *Oct 6, 2026*
