@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: September 18, 2026
+> **Last Updated**: October 09, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -16,19 +16,6 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ## Official GitHub Courses
 
-### [Introduction to GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)
-
-**Provider**: GitHub Skills | **Level**: Beginner
-
-Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
-
-- **Format**: Interactive
-- **Duration**: 1-2 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
-
----
-
 ### [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
 
 **Provider**: GitHub Skills | **Level**: Intermediate
@@ -39,6 +26,19 @@ Learn how to use GitHub Copilot to expand your team's capabilities. This hands-o
 - **Duration**: 2-3 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Team Collaboration, Coding Agent
+
+---
+
+### [Introduction to GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)
+
+**Provider**: GitHub Skills | **Level**: Beginner
+
+Get started with GitHub Copilot. Learn the basics of AI-assisted coding, including code completions, chat features, and best practices.
+
+- **Format**: Interactive
+- **Duration**: 1-2 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
 
 ---
 
@@ -55,19 +55,6 @@ Validate your knowledge of GitHub fundamentals, including Copilot usage, collabo
 ---
 
 ## Microsoft Learn Modules
-
-### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
-
-**Provider**: Microsoft Learn | **Level**: Intermediate
-
-Master the fundamentals of GitHub Copilot. Learn how to write better prompts, use chat features, and leverage AI for testing and documentation.
-
-- **Format**: Learning Path
-- **Duration**: 2-3 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, Prompt Engineering, AI Testing, Documentation
-
----
 
 ### [Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
 
@@ -92,6 +79,19 @@ Demonstrate your ability to use GitHub Copilot to develop code by creating a con
 - **Duration**: 1-2 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, C#, Game Development, Hands-on
+
+---
+
+### [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
+
+**Provider**: Microsoft Learn | **Level**: Intermediate
+
+Master the fundamentals of GitHub Copilot. Learn how to write better prompts, use chat features, and leverage AI for testing and documentation.
+
+- **Format**: Learning Path
+- **Duration**: 2-3 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, Prompt Engineering, AI Testing, Documentation
 
 ---
 
