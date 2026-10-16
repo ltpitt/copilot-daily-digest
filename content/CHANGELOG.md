@@ -2,14 +2,48 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: September 18, 2026
+**Last Updated**: October 16, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## October 2026
+
+- **Oct 15, 2026** - [AI Scan for pull requests generally available](https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available) (Blog)
+- **Oct 15, 2026** - [Agentic autofix for code scanning alerts general availability](https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability) (Blog)
+- **Oct 15, 2026** - [Download GitHub Code Quality license usage as a CSV](https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv) (Blog)
+- **Oct 15, 2026** - [The next developer interface is ambient intelligence](https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/) (Blog)
+- **Oct 15, 2026** - [Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams](https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates) (Blog)
+- **Oct 15, 2026** - [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november) (Blog)
+- **Oct 15, 2026** - [Email notifications for repository push events have been retired](https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired) (Blog)
+- **Oct 15, 2026** - [GitHub Copilot app with the Logitech MX Keypad](https://www.youtube.com/watch?v=EQeJj0hoPS8) (Video)
+- **Oct 15, 2026** - [LangChain Deep Agents](https://www.youtube.com/watch?v=PkB6_nSI0Hc) (Video)
+- **Oct 15, 2026** - [What it takes to make stacked PRs a first-class feature on GitHub](https://www.youtube.com/shorts/G4wZsbwztQI) (Video)
+- **Oct 14, 2026** - [GitHub Actions workflow lockfiles in public preview](https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview) (Blog)
+- **Oct 14, 2026** - [HydraFusion updates and new Max option](https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option) (Blog)
+- **Oct 14, 2026** - [How stacked PRs work behind the scenes at GitHub | S02E05 | The GitHub Podcast](https://www.youtube.com/watch?v=sbHoDdAalMI) (Video)
+- **Oct 13, 2026** - [Enterprise managed settings enforcement updates](https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates) (Blog)
+- **Oct 13, 2026** - [GitHub App improvements for least privilege and management](https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management) (Blog)
+- **Oct 13, 2026** - [Gemini 4 Argon in GitHub Copilot](https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot) (Blog)
+- **Oct 12, 2026** - [GitHub Copilot app for Beginners: How to teach Copilot about your codebase](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/) (Blog)
+- **Oct 12, 2026** - [Client telemetry user attribution and configurable capture](https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture) (Blog)
+- **Oct 10, 2026** - [New controls and chat improvements in Copilot for JetBrains](https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains) (Blog)
+- **Oct 10, 2026** - [Live Coding with Wes Bos, Burke Holland, Pierce Boggan & Friends | GitHub Copilot Day](https://www.youtube.com/watch?v=ql_-cPc_ZYQ) (Video)
+- **Oct 10, 2026** - [ScreenMind: Vision, Audio & Chat with Local AI | Open Source Friday](https://www.youtube.com/watch?v=N_cGKFGMxxc) (Video)
+- **Oct 9, 2026** - [GitHub Copilot weekly releases — October 5](https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5) (Blog)
+- **Oct 8, 2026** - [Copilot code review: New organization billing options and controls](https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls) (Blog)
+- **Oct 8, 2026** - [How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day](https://www.youtube.com/watch?v=KT6p0MNXoCE) (Video)
+- **Oct 7, 2026** - [Intelligent local model routing is coming to GitHub Copilot](https://www.youtube.com/watch?v=QIHnmqYU614) (Video)
+- **Oct 6, 2026** - [How GitHub PR limits help maintainers stop AI slop](https://www.youtube.com/shorts/8VslAmTPo3I) (Video)
+- **Oct 5, 2026** - [ReviewBench: An open benchmark for AI code review](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/) (Blog)
+- **Oct 2, 2026** - [Inside Project HydraFusion: multi-model orchestration in the GitHub Copilot | demo | GitHub Checkout](https://www.youtube.com/watch?v=EeOz2w5wPEI) (Video)
+
 ## September 2026
 
+- **Sep 25, 2026** - [GitHub Copilot app for Beginners: How to build custom workflows with canvases](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/) (Blog)
+- **Sep 24, 2026** - [When chat is the wrong UI](https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/) (Blog)
+- **Sep 23, 2026** - [Rendering huge pull requests in the GitHub Copilot app](https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/) (Blog)
 - **Sep 17, 2026** - [Agentic CLI customizations now in the usage metrics API](https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api) (Blog)
 - **Sep 17, 2026** - [Workflow execution protections in GitHub Actions generally available](https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available) (Blog)
 - **Sep 17, 2026** - [Copilot impact dashboard now shows feature engagement](https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement) (Blog)
