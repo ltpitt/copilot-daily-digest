@@ -32,13 +32,12 @@ Agentic autofix for code scanning alerts is now generally available. It remediat
 ### [Download GitHub Code Quality license usage as a CSV](https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv)
 *Oct 15, 2026*
 
-You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes:
-Each active committer who consumes a Code Quality license. The repositories that received their commits in the last 90 days.
+GitHub Code Quality now lets you download a CSV of active committers and the repositories where they contributed in the last 90 days. Use the report's unique-committer details to identify licenses you could free up for the next billing period; downloads are available on GitHub Team and Enterprise Cloud.
 
 ### [The next developer interface is ambient intelligence](https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/)
 *Oct 15, 2026*
 
-For most of my career, building software started with the same setup: keyboard, mouse, editor, terminal, browser, and an impressive number of tabs I was definitely going to look at later. The tools changed, but the relationship did not. Like most developers, I learned commands, memorized shortcuts, and adapted my thinking to the machine.
+AI agents are shifting software development from operating a collection of tools to expressing outcomes and reviewing the work. This article explores how repository-aware Copilot can plan, edit, run tests, and revise within developer-defined boundaries, while developers remain responsible for the result.
 
 ### [Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams](https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates)
 *Oct 15, 2026*
@@ -52,7 +51,7 @@ GitHub Copilot in Slack and Microsoft Teams now supports working across multiple
 ### [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)
 *Oct 15, 2026*
 
-The deprecation of Claude Opus 4.8 does not apply to these customers. Please update your workflows and integrations to use the supported models before this date. Under default model enablement, the suggested alternatives are automatically enabled for Copilot Enterprise and Copilot Business customers unless an administrator has turned off the global default or explicitly disabled the model.
+GitHub will deprecate Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra across Copilot on Nov 16, 2026, with supported alternatives listed for each. Enterprise and Business administrators should confirm replacement models are enabled; Claude Opus 4.8 remains available to individual subscribers on annual plans.
 
 ### [Email notifications for repository push events have been retired](https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired)
 *Oct 15, 2026*
@@ -67,12 +66,12 @@ Want to manage your AI coding sessions without leaving your flow? In this video,
 ### [LangChain Deep Agents](https://www.youtube.com/watch?v=PkB6_nSI0Hc)
 *Oct 15, 2026*
 
-Deep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece.
+LangChain's Deep Agents is an open-source, opinionated agent harness that works out of the box. Developers can extend, override, or replace its components to tailor it to their own agent workflows.
 
 ### [What it takes to make stacked PRs a first-class feature on GitHub](https://www.youtube.com/shorts/G4wZsbwztQI)
 *Oct 15, 2026*
 
-From the outside, merging stacked pull requests might sound simple: just link related PRs together and merge them in sequence.
+Native stacked pull requests require more than linking related branches: GitHub had to update core systems to support the workflow. This short video explains the engineering complexity behind making stacked PRs a first-class feature.
 
 ### [GitHub Actions workflow lockfiles in public preview](https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview)
 *Oct 14, 2026*
@@ -87,7 +86,7 @@ HydraFusion has an updated model pool, improved orchestration workflows, and int
 ### [How stacked PRs work behind the scenes at GitHub | S02E05 | The GitHub Podcast](https://www.youtube.com/watch?v=sbHoDdAalMI)
 *Oct 14, 2026*
 
-In episode 5 of season 2 of The GitHub Podcast, Cassidy and Andrea welcome Sameen Karim, Senior Product Manager at GitHub, to discuss native stacked pull requests.
+In season two, episode five, Cassidy and Andrea talk with GitHub product manager Sameen Karim about native stacked pull requests. He explains the work behind rebuilding legacy merge systems and handling linked pull-request chains.
 
 ### [Enterprise managed settings enforcement updates](https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates)
 *Oct 13, 2026*
