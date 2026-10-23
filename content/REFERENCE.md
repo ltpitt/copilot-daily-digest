@@ -2,7 +2,7 @@
 
 > Organized index of official GitHub Copilot documentation
 
-**Last Updated**: September 04, 2026
+**Last Updated**: October 23, 2026
 
 Quick access to official documentation organized by topic.
 
@@ -90,4 +90,4 @@ Quick access to official documentation organized by topic.
 
 ---
 
-_Documentation is maintained by GitHub and updated regularly. Links verified September 04, 2026._
+_Documentation is maintained by GitHub and updated regularly. Links verified October 23, 2026._
