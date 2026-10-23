@@ -29,7 +29,7 @@
 
 **Published**: Oct 22, 2026 | **Channel**: GitHub
 
-Waiting on a teammate just to get a routine pull request approved can stall team velocity. With delegated code review approvals, GitHub Copilot can evaluate your pull request and provide an assessment that counts directly toward your merge protection rules. Combine Copilot's automated review with a ...
+Copilot can review a pull request and submit an assessment that counts toward merge protection rules. Combining its automated review with a single human approval can satisfy branch requirements while reducing delays.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/exBCpV9eJnc)
 
@@ -39,7 +39,7 @@ Waiting on a teammate just to get a routine pull request approved can stall team
 
 **Published**: Oct 21, 2026 | **Channel**: GitHub
 
-In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster to break down the major platform updates shipped in September. Discover how Project HydraFusion expands to VS Code and the GitHub Copilot app, bringing full model visibility and up to 10x token efficiency compared to fron...
+This episode reviews September's major platform updates, including Project HydraFusion's expansion to VS Code and the Copilot app, local sandboxing, automated code review approvals, and bulk autofix for up to 25 CodeQL quality findings. It also highlights HydraFusion's model visibility and token-efficiency improvements.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=ZQ0Qq6LlAmI)
 
@@ -49,7 +49,7 @@ In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster t
 
 **Published**: Oct 20, 2026 | **Channel**: GitHub
 
-Fix repository issues without ever leaving JetBrains IntelliJ. In this short video, learn how to install the GitHub Copilot plugin from the marketplace, find open GitHub issues, and generate step-by-step implementation plans. Watch how Copilot's coding agent implements the fix and explains the chang...
+The video demonstrates installing the Copilot plugin, finding an open issue, and generating an implementation plan in JetBrains IntelliJ. It then shows the coding agent implementing the fix and explaining its changes in Ask mode.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/Y9dEqpQeD8w)
 
@@ -59,7 +59,7 @@ Fix repository issues without ever leaving JetBrains IntelliJ. In this short vid
 
 **Published**: Oct 19, 2026 | **Channel**: GitHub
 
-Learn how to go from an open GitHub issue to a pull request using GitHub Copilot inside JetBrains IntelliJ. In this walkthrough, we install the plugin and walk through an end-to-end workflow. Watch how you can use all your favorite GitHub Copilot features in IntelliJ. Visit https://gh.io/copilotinje...
+Follow an end-to-end workflow from an open GitHub issue to a pull request using Copilot in JetBrains IntelliJ. The walkthrough covers planning, implementing an accessibility fix, reviewing it, validating it with VoiceOver, and creating a pull request.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=knXsDMuKKyw)
 
@@ -69,7 +69,7 @@ Learn how to go from an open GitHub issue to a pull request using GitHub Copilot
 
 **Published**: Oct 18, 2026 | **Channel**: GitHub
 
-Before shipping new features like stacked pull requests, how does GitHub make sure nobody can break the system? In this clip from The GitHub Podcast, Senior Product Manager Sameen Karim explains how GitHub used a swarm of AI agents running around the clock to try to circumvent rules, find edge cases...
+GitHub used a swarm of AI agents running around the clock to probe new features such as stacked pull requests, find edge cases, and stress-test the system. The clip explains how agent-driven testing can help teams uncover problems before release.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/zqvJ9YjZXqM)
 
@@ -79,7 +79,7 @@ Before shipping new features like stacked pull requests, how does GitHub make su
 
 **Published**: Oct 17, 2026 | **Channel**: GitHub
 
-Ever wonder how many tokens you use or which AI models you reach for the most? In this demo, explore the My AI Usage Canvas, a custom dashboard built around Copilot /chronicle commands. Learn how to visualize your token consumption, track model usage across repositories, and find practical ways to l...
+The My AI Usage Canvas turns Copilot /chronicle data into a dashboard for exploring token consumption and model use across repositories. Its activity and insights views can help developers spot usage patterns and identify ways to reduce AI costs.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=2xiyBnQFM20)
 
@@ -89,7 +89,7 @@ Ever wonder how many tokens you use or which AI models you reach for the most? I
 
 **Published**: Oct 16, 2026 | **Channel**: GitHub
 
-Building your custom mechanical keyboard from GitHub Universe? Follow this step-by-step assembly guide to put together your randomized blind box kit from the ground up. We cover everything from installing stabilizers and exclusive Hawk linear switches to seating the plate, assembling the housing, an...
+Follow a step-by-step guide to assembling a custom GitHub Universe keyboard, from installing stabilizers and switches to fitting the plate and housing. The video also covers tuning the board, programming macros, and adding keycaps.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=q3Jod8Xu8BY)
 
@@ -99,9 +99,7 @@ Building your custom mechanical keyboard from GitHub Universe? Follow this step-
 
 **Published**: Oct 15, 2026 | **Channel**: GitHub
 
-Want to manage your AI coding sessions without leaving your flow? In this video, we show you how the Logitech MX Keypad integrates with the GitHub Copilot app.  
-
-Learn how to install the plugin, start chats and voice prompts with a single press, track projects and sessions in real time, toggle MCP ...
+The Logitech MX Keypad integrates with the GitHub Copilot app to help manage coding sessions without leaving your workflow. The video shows how to start chats and voice prompts, track projects, manage MCP servers, and customize keys with macros.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=EQeJj0hoPS8)
 
@@ -111,7 +109,7 @@ Learn how to install the plugin, start chats and voice prompts with a single pre
 
 **Published**: Oct 15, 2026 | **Channel**: GitHub
 
-Deep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece....
+Deep Agents is an open-source agent harness designed to run out of the box. Developers can extend, override, or replace its components.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=PkB6_nSI0Hc)
 
@@ -121,7 +119,7 @@ Deep Agents is an open source agent harness — an opinionated agent that runs o
 
 **Published**: Oct 15, 2026 | **Channel**: GitHub
 
-From the outside, merging stacked pull requests might sound simple: just link related PRs together and merge them in sequence. In this clip, they talk about the hidden complexity behind updating core GitHub systems to make stacked PRs a native, first-class feature. Hear why shipping this feature req...
+Making stacked pull requests a native GitHub feature required changes to core systems, not just linking related pull requests. The clip explains why the team had to rethink legacy merge architectures to support the workflow.
 
 [Watch on YouTube →](https://www.youtube.com/shorts/G4wZsbwztQI)
 
@@ -131,7 +129,7 @@ From the outside, merging stacked pull requests might sound simple: just link re
 
 **Published**: Oct 14, 2026 | **Channel**: GitHub
 
-In episode 5 of season 2 of The GitHub Podcast, Cassidy and Andrea welcome Sameen Karim, Senior Product Manager at GitHub, to discuss native stacked pull requests. Sameen shares how GitHub rebuilt legacy merge box systems, handled "ghost merges" across linked PR chains, and closed code owner securit...
+This episode of The GitHub Podcast explores how GitHub rebuilt merge systems for native stacked pull requests, handled ghost merges across linked PR chains, and closed code owner security gaps. It also discusses breaking large features into smaller reviewable pull requests and the open-source gh-stack CLI.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=sbHoDdAalMI)
 
@@ -141,7 +139,7 @@ In episode 5 of season 2 of The GitHub Podcast, Cassidy and Andrea welcome Samee
 
 **Published**: Oct 10, 2026 | **Channel**: GitHub
 
-Join Wes Bos, Burke Holland, and Pierce Boggan for two hours of live coding with GitHub Copilot. Watch as the team takes a 3D foldable phone simulator from scratch to running functional web apps in real time. Learn how to manage parallel AI agents test features using built-in browser tools, and navi...
+Join Wes Bos, Burke Holland, and Pierce Boggan as they build a 3D foldable-phone simulator and functional web apps with GitHub Copilot. The session demonstrates parallel agents, browser-based testing, and multi-model workflows in the Copilot app.
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=ql_-cPc_ZYQ)
 

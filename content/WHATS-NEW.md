@@ -22,7 +22,7 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 ### [Global default for Copilot features generally available](https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available)
 *Oct 22, 2026*
 
-In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we're gradually rolling out enforcement of the policy through October 26, so it may take effect at different times for different enterprises and organizations.
+GitHub is rolling out enforcement of its global default policy for generally available Copilot features and supported client capabilities on Business and Enterprise plans through October 26. Organizations may see the policy take effect at different times during the rollout.
 
 ### [Public monitoring now available with data residency](https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency)
 *Oct 22, 2026*
@@ -42,8 +42,7 @@ The Copilot impact dashboard now includes an "Industry comparison" section. Ente
 ### [GitHub Copilot in Visual Studio — September update](https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2)
 *Oct 22, 2026*
 
-September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags them. Here's with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:
-Explore pull requests with the Git agent: The Git agent can now explore a pull request for you.
+The September Visual Studio update adds pull-request exploration from chat, support for a team's preferred AI model, and fixes for vulnerable packages flagged by the IDE. These improvements bring Copilot into review and dependency-maintenance workflows without leaving Visual Studio.
 
 ---
 
@@ -52,7 +51,7 @@ Explore pull requests with the Git agent: The Git agent can now explore a pull r
 ### [Stop waiting on pull request reviews with GitHub Copilot approvals](https://www.youtube.com/shorts/exBCpV9eJnc)
 *Oct 22, 2026*
 
-Waiting on a teammate just to get a routine pull request approved can stall team velocity. With delegated code review approvals, GitHub Copilot can evaluate your pull request and provide an...
+Copilot can review a pull request and submit an assessment that counts toward merge protection rules. Combining its review with a single human approval can satisfy branch requirements while reducing delays.
 
 ### [GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens](https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens)
 *Oct 21, 2026*
@@ -62,7 +61,7 @@ You can now use expiring, automatically refreshing OAuth credentials in GitHub C
 ### [Inside GitHub's September updates: Project HydraFusion, sandboxing, and PR approvals](https://www.youtube.com/watch?v=ZQ0Qq6LlAmI)
 *Oct 21, 2026*
 
-In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster to break down the major platform updates shipped in September.
+This episode reviews September's major platform updates, including Project HydraFusion's expansion to VS Code and the Copilot app, local sandboxing, automated code review approvals, and bulk autofix for up to 25 CodeQL quality findings. The discussion explains how these changes improve model visibility, review workflows, and security remediation.
 
 ### [Updates to GitHub secret scanning](https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning)
 *Oct 20, 2026*
@@ -77,12 +76,12 @@ AI coding tools can generate code quickly, but speed alone does not solve the ha
 ### [Bulk migrate branch protections to rulesets for a repository](https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository)
 *Oct 20, 2026*
 
-You can now convert all branch protection rules of a repository to rulesets in a single action. This is an extension of the ability to convert a single branch protection rule to a ruleset that we released previously, now allowing for at-scale conversions. Navigate to Settings &rarr; Rulesets in your repository and click Import branch protection rules.
+Repository administrators can now convert all branch protection rules to rulesets in a single action, building on the existing single-rule migration. Use **Settings → Rulesets** and select **Import branch protection rules** to migrate them together.
 
 ### [Fix GitHub issues without leaving JetBrains IntelliJ using GitHub Copilot](https://www.youtube.com/shorts/Y9dEqpQeD8w)
 *Oct 20, 2026*
 
-Fix repository issues without ever leaving JetBrains IntelliJ. In this short video, learn how to install the GitHub Copilot plugin from the marketplace, find open GitHub issues, and generate...
+The video demonstrates installing the Copilot plugin, finding an open issue, and generating an implementation plan in JetBrains IntelliJ. It then shows the coding agent implementing the fix and explaining its changes in Ask mode.
 
 ### [Copilot model policy API for enterprise, orgs, and teams](https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams)
 *Oct 19, 2026*
@@ -97,7 +96,7 @@ As of today, October 19, 2026, we have deprecated the following models across mo
 ### [How to continue a GitHub Copilot app session in VS Code](https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/)
 *Oct 19, 2026*
 
-The agent has finished the bulk of your change. Now you want to inspect one implementation detail, adjust a few lines by hand, and run the project locally before you ship it. But the work is sitting in the GitHub Copilot app&hellip; and your editor is where you review diffs, debug code, and make final adjustments.
+Move an active agent session from the GitHub Copilot app to VS Code without losing its conversation, code changes, or working context. The guide shows how to continue in your editor to inspect details, make edits, and run the project locally.
 
 ---
 
