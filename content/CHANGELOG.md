@@ -2,14 +2,51 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: September 18, 2026
+**Last Updated**: October 23, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
 
+## October 2026
+
+- **Oct 22, 2026** - [Global default for Copilot features generally available](https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available) (Blog)
+- **Oct 22, 2026** - [Public monitoring now available with data residency](https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency) (Blog)
+- **Oct 22, 2026** - [Custom skills, agents, and MCP servers in usage metrics API](https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api) (Blog)
+- **Oct 22, 2026** - [Industry comparisons in the Copilot impact dashboard](https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard) (Blog)
+- **Oct 22, 2026** - [GitHub Copilot in Visual Studio — September update](https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2) (Blog)
+- **Oct 22, 2026** - [Stop waiting on pull request reviews with GitHub Copilot approvals](https://www.youtube.com/shorts/exBCpV9eJnc) (Video)
+- **Oct 21, 2026** - [GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens](https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens) (Blog)
+- **Oct 21, 2026** - [Inside GitHub's September updates: Project HydraFusion, sandboxing, and PR approvals](https://www.youtube.com/watch?v=ZQ0Qq6LlAmI) (Video)
+- **Oct 20, 2026** - [Updates to GitHub secret scanning](https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning) (Blog)
+- **Oct 20, 2026** - [How 3 Java Champions are using GitHub Copilot for increased productivity](https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/) (Blog)
+- **Oct 20, 2026** - [Bulk migrate branch protections to rulesets for a repository](https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository) (Blog)
+- **Oct 20, 2026** - [Fix GitHub issues without leaving JetBrains IntelliJ using GitHub Copilot](https://www.youtube.com/shorts/Y9dEqpQeD8w) (Video)
+- **Oct 19, 2026** - [Copilot model policy API for enterprise, orgs, and teams](https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams) (Blog)
+- **Oct 19, 2026** - [GitHub Copilot models deprecated on October 19, 2026](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026) (Blog)
+- **Oct 19, 2026** - [How to continue a GitHub Copilot app session in VS Code](https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/) (Blog)
+- **Oct 19, 2026** - [From issue to pull request with GitHub Copilot in IntelliJ](https://www.youtube.com/watch?v=knXsDMuKKyw) (Video)
+- **Oct 18, 2026** - [How GitHub uses AI agents to stress test new features](https://www.youtube.com/shorts/zqvJ9YjZXqM) (Video)
+- **Oct 17, 2026** - [Track tokens and models with the My AI Usage Canvas | GitHub Copilot](https://www.youtube.com/watch?v=2xiyBnQFM20) (Video)
+- **Oct 16, 2026** - [Inside the GitHub Universe keyboard kit: unboxing and assembly](https://www.youtube.com/watch?v=q3Jod8Xu8BY) (Video)
+- **Oct 15, 2026** - [Multi-repository support and other improvements for GitHub in Slack and Teams](https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates) (Blog)
+- **Oct 15, 2026** - [Agentic autofix for code scanning alerts general availability](https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability) (Blog)
+- **Oct 15, 2026** - [The next developer interface is ambient intelligence](https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/) (Blog)
+- **Oct 15, 2026** - [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november) (Blog)
+- **Oct 15, 2026** - [GitHub Copilot app with the Logitech MX Keypad](https://www.youtube.com/watch?v=EQeJj0hoPS8) (Video)
+- **Oct 15, 2026** - [LangChain Deep Agents](https://www.youtube.com/watch?v=PkB6_nSI0Hc) (Video)
+- **Oct 15, 2026** - [What it takes to make stacked PRs a first-class feature on GitHub](https://www.youtube.com/shorts/G4wZsbwztQI) (Video)
+- **Oct 14, 2026** - [HydraFusion updates and new Max option](https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option) (Blog)
+- **Oct 14, 2026** - [How stacked PRs work behind the scenes at GitHub | S02E05 | The GitHub Podcast](https://www.youtube.com/watch?v=sbHoDdAalMI) (Video)
+- **Oct 12, 2026** - [GitHub Copilot app for Beginners: How to teach Copilot about your codebase](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/) (Blog)
+- **Oct 10, 2026** - [Live Coding with Wes Bos, Burke Holland, Pierce Boggan & Friends | GitHub Copilot Day](https://www.youtube.com/watch?v=ql_-cPc_ZYQ) (Video)
+- **Oct 5, 2026** - [ReviewBench: An open benchmark for AI code review](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/) (Blog)
+
 ## September 2026
 
+- **Sep 25, 2026** - [GitHub Copilot app for Beginners: How to build custom workflows with canvases](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/) (Blog)
+- **Sep 24, 2026** - [When chat is the wrong UI](https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/) (Blog)
+- **Sep 23, 2026** - [Rendering huge pull requests in the GitHub Copilot app](https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/) (Blog)
 - **Sep 17, 2026** - [Agentic CLI customizations now in the usage metrics API](https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api) (Blog)
 - **Sep 17, 2026** - [Workflow execution protections in GitHub Actions generally available](https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available) (Blog)
 - **Sep 17, 2026** - [Copilot impact dashboard now shows feature engagement](https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement) (Blog)
