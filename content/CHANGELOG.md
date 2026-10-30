@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: October 23, 2026
+**Last Updated**: October 30, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,30 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## October 2026
 
+- **Oct 30, 2026** - [GitHub Universe 2026 closing keynote: open source voices, demos, and the craft of coding](https://www.youtube.com/watch?v=Gh-hg7lwA0o) (Video)
+- **Oct 29, 2026** - [Webhook IP ranges added to the Meta API](https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api) (Blog)
+- **Oct 29, 2026** - [Can you commit to the answer? Git trivia at GitHub Universe 2026](https://www.youtube.com/shorts/-qx1qD_3hus) (Video)
+- **Oct 29, 2026** - [Playing Super Mona on the GitHub Universe 2026 badge](https://www.youtube.com/shorts/5pK-8AL_wVs) (Video)
+- **Oct 29, 2026** - [Everything announced at GitHub Universe 2026: opening keynote recap](https://www.youtube.com/watch?v=xbCa0aa4tRM) (Video)
+- **Oct 29, 2026** - [GitHub Universe 2026 opening keynote recap in 90 seconds](https://www.youtube.com/shorts/A_N9HM237BA) (Video)
+- **Oct 28, 2026** - [Repository plugin defaults and enterprise plugin controls generally available](https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available) (Blog)
+- **Oct 28, 2026** - [GitHub intelligence puts your code, context, and history to work](https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work) (Blog)
+- **Oct 28, 2026** - [GitHub Copilot in VS Code, Universe releases](https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases) (Blog)
+- **Oct 28, 2026** - [Route and orchestrate models with GitHub Copilot Fusion](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion) (Blog)
+- **Oct 28, 2026** - [GitHub Copilot app, Universe releases](https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases) (Blog)
+- **Oct 28, 2026** - [GitHub Enterprise now includes access to GitHub Copilot](https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot) (Blog)
+- **Oct 28, 2026** - [Security extension for the GitHub Copilot app](https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app) (Blog)
+- **Oct 28, 2026** - [Build shared workflows for your team with Copilot Automations](https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations) (Blog)
+- **Oct 28, 2026** - [Generate and edit images directly in Copilot](https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot) (Blog)
+- **Oct 28, 2026** - [GitHub Copilot Fusion now supports selection of local models](https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models) (Blog)
+- **Oct 28, 2026** - [GitHub Universe 2026: Evolving every layer of the stack](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/) (Blog)
+- **Oct 28, 2026** - [Opening keynote: building the next era of software at GitHub Universe 2026](https://www.youtube.com/watch?v=AArI948SDz8) (Video)
+- **Oct 28, 2026** - [Unboxing GitHub's mystery blind box keyboard](https://www.youtube.com/shorts/_ESyA2B1qas) (Video)
+- **Oct 28, 2026** - [Universe week, hackable badges, and GitHub's open source dilemma | S02E06 | The GitHub Podcast](https://www.youtube.com/watch?v=FAjvVlHRfy8) (Video)
+- **Oct 27, 2026** - [A quick spoiler for GitHub Universe 2026](https://www.youtube.com/shorts/k5xamEC-QR8) (Video)
+- **Oct 27, 2026** - [How Pimoroni manufactures the hackable GitHub Universe badge](https://www.youtube.com/watch?v=84RmU2zABNw) (Video)
+- **Oct 26, 2026** - [How Arnis turns any place on Earth into a Minecraft world | GitHub x Arnis](https://www.youtube.com/watch?v=kyWeV-o1hDE) (Video)
+- **Oct 23, 2026** - [How to build and ship an AI agent in the GitHub Copilot app](https://www.youtube.com/watch?v=AT3EltQ4gTM) (Video)
 - **Oct 22, 2026** - [Global default for Copilot features generally available](https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available) (Blog)
 - **Oct 22, 2026** - [Public monitoring now available with data residency](https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency) (Blog)
 - **Oct 22, 2026** - [Custom skills, agents, and MCP servers in usage metrics API](https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api) (Blog)
