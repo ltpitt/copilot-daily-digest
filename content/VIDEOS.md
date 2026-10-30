@@ -1,11 +1,11 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: October 23, 2026
+> **Last Updated**: October 30, 2026
 
 > **📊 Library Stats**
-> - 📚 **206** total videos
-> - 🆕 **12** new this month
-> - 📂 **Categories**: Other (1), Getting Started (6), Tutorials (1), Features & Updates (3), Agents (1)
+> - 📚 **208** total videos
+> - 🆕 **14** new this month
+> - 📂 **Categories**: Getting Started (5), Other (4), Tutorials (1), Features & Updates (4)
 
 ---
 
@@ -13,23 +13,142 @@
 
 - [🆕 Recent Uploads](#recent-uploads-last-30-days)
 - [📂 Browse by Category](#browse-by-category)
-  - [Getting Started](#getting-started) (6)
-  - [Features & Updates](#features--updates) (3)
+  - [Getting Started](#getting-started) (5)
+  - [Features & Updates](#features--updates) (4)
   - [Tutorials](#tutorials) (1)
-  - [Agents](#agents) (1)
-  - [Other](#other) (1)
+  - [Other](#other) (4)
 
 ---
 
 ## Recent Uploads (Last 30 Days)
 
-*12 videos published in the last 30 days*
+*14 videos published in the last 30 days*
+
+### [GitHub Universe 2026 closing keynote: open source voices, demos, and the craft of coding](https://www.youtube.com/watch?v=Gh-hg7lwA0o)
+
+**Published**: Oct 30, 2026 | **Channel**: GitHub
+
+We are ending GitHub Universe 2026 the way it started: with the people who build in the open. Join Maggie Appleton, Martin Woodward, and Jocelyn Velarde for a final closing keynote session of open-source voices, unexpected demos, and the kind of nerdy joy that reminds you why you got into coding in ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Gh-hg7lwA0o)
+
+---
+
+### [Can you commit to the answer? Git trivia at GitHub Universe 2026](https://www.youtube.com/shorts/-qx1qD_3hus)
+
+**Published**: Oct 29, 2026 | **Channel**: GitHub
+
+You can commit to code, but can you commit to the answer under pressure? We put attendees on the spot at GitHub Universe 2026 to test their knowledge of Git commands, repositories, and internal storage objects. From repository forks to git blame and blob objects, see how well developers know the too...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/-qx1qD_3hus)
+
+---
+
+### [Playing Super Mona on the GitHub Universe 2026 badge](https://www.youtube.com/shorts/5pK-8AL_wVs)
+
+**Published**: Oct 29, 2026 | **Channel**: GitHub
+
+Did you know the GitHub Universe 2026 conference badge has hidden capacitive gaming buttons on the back? In this quick demo, Martin Woodward shows how to install Super Mona directly onto your badge using the GitHub Copilot app. Just copy the repo instructions, paste them into Copilot chat, and let t...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/5pK-8AL_wVs)
+
+---
+
+### [Everything announced at GitHub Universe 2026: opening keynote recap](https://www.youtube.com/watch?v=xbCa0aa4tRM)
+
+**Published**: Oct 29, 2026 | **Channel**: GitHub
+
+Missed the opening keynote at GitHub Universe 2026? Catch up on every major announcement and live demo in this cutdown of the morning session. Explore the dedicated GitHub Copilot app, third-party connectors, and Copilot Fusion for multi-model orchestration at lower costs. Discover how Copilot Proje...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=xbCa0aa4tRM)
+
+---
+
+### [GitHub Universe 2026 opening keynote recap in 90 seconds](https://www.youtube.com/shorts/A_N9HM237BA)
+
+**Published**: Oct 29, 2026 | **Channel**: GitHub
+
+Missed the GitHub Universe 2026 opening keynote? Here is everything announced in 60 seconds, from 225 million developers on the platform to major architectural upgrades. Discover the all-new GitHub Copilot app, multi-model orchestration with Copilot Fusion, and autonomous task management in Copilot ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/A_N9HM237BA)
+
+---
+
+### [Opening keynote: building the next era of software at GitHub Universe 2026](https://www.youtube.com/watch?v=AArI948SDz8)
+
+**Published**: Oct 28, 2026 | **Channel**: GitHub
+
+Join us for the GitHub Universe 2026 opening keynote as we look at the next era of software, the developers building it, and the tools and workflows GitHub is creating to help them go further. Hear from engineering leaders April Leonard, Jay Parikh, Cassidy Williams, Burke Holland, and Damian Brady ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=AArI948SDz8)
+
+---
+
+### [Unboxing GitHub's mystery blind box keyboard](https://www.youtube.com/shorts/_ESyA2B1qas)
+
+**Published**: Oct 28, 2026 | **Channel**: GitHub
+
+GitHub just released a mystery blind box keyboard where every kit includes a random colorway, enclosure, switch plate, and keycap set. Follow along as we assemble our very first DIY mechanical keyboard step-by-step using the official build guide. Find out which colorway we pulled from the box and ho...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/_ESyA2B1qas)
+
+---
+
+### [Universe week, hackable badges, and GitHub's open source dilemma | S02E06 | The GitHub Podcast](https://www.youtube.com/watch?v=FAjvVlHRfy8)
+
+**Published**: Oct 28, 2026 | **Channel**: GitHub
+
+Cassidy Williams and GPS welcome GitHub VP of Developer Relations Martin Woodward to The GitHub Podcast to celebrate GitHub Universe. Martin explains why making pull requests easier has created an influx of low-effort AI contributions and how maintainer tools like pull request limits provide needed ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=FAjvVlHRfy8)
+
+---
+
+### [A quick spoiler for GitHub Universe 2026](https://www.youtube.com/shorts/k5xamEC-QR8)
+
+**Published**: Oct 27, 2026 | **Channel**: GitHub
+
+GitHub Universe 2026 kicks off this week with major keynote announcements, new developer tools, and fresh drops in the GitHub shop. In this quick sneak peek, get an inside teaser of what is shipping across the platform before the main stage keynote begins. From new workflow capabilities to upcoming ...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/k5xamEC-QR8)
+
+---
+
+### [How Pimoroni manufactures the hackable GitHub Universe badge](https://www.youtube.com/watch?v=84RmU2zABNw)
+
+**Published**: Oct 27, 2026 | **Channel**: GitHub
+
+Go inside Pimoroni's factory to see how the hackable GitHub Universe 2026 badge comes to life. From stencil printing and high-speed pick and place machines to solder reflow ovens, discover the complete manufacturing process behind this mini handheld console. Learn how the team integrated capacitive ...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=84RmU2zABNw)
+
+---
+
+### [How Arnis turns any place on Earth into a Minecraft world | GitHub x Arnis](https://www.youtube.com/watch?v=kyWeV-o1hDE)
+
+**Published**: Oct 26, 2026 | **Channel**: GitHub
+
+Arnis turns real-world geographic coordinates into playable Minecraft worlds in minutes using OpenStreetMap data. Started as a side project by student Louis Erbkamm, the repository quickly attracted geospatial specialists and contributors worldwide. As the sole maintainer, Louis relies on the GitHub...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=kyWeV-o1hDE)
+
+---
+
+### [How to build and ship an AI agent in the GitHub Copilot app](https://www.youtube.com/watch?v=AT3EltQ4gTM)
+
+**Published**: Oct 23, 2026 | **Channel**: GitHub
+
+Go from a GitHub issue prompt to a deployed, production-ready AI agent without switching between browser tabs or cloud portals. In this hands-on walkthrough, learn how to use the Microsoft Foundry Skill and Foundry Canvas inside the GitHub Copilot app to build a grounded backer concierge for Tailspi...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=AT3EltQ4gTM)
+
+---
 
 ### [Stop waiting on pull request reviews with GitHub Copilot approvals](https://www.youtube.com/shorts/exBCpV9eJnc)
 
 **Published**: Oct 22, 2026 | **Channel**: GitHub
 
-Copilot can review a pull request and submit an assessment that counts toward merge protection rules. Combining its automated review with a single human approval can satisfy branch requirements while reducing delays.
+Waiting on a teammate just to get a routine pull request approved can stall team velocity. With delegated code review approvals, GitHub Copilot can evaluate your pull request and provide an assessment that counts directly toward your merge protection rules. Combine Copilot's automated review with a ...
 
 [Watch on YouTube →](https://www.youtube.com/shorts/exBCpV9eJnc)
 
@@ -39,109 +158,9 @@ Copilot can review a pull request and submit an assessment that counts toward me
 
 **Published**: Oct 21, 2026 | **Channel**: GitHub
 
-This episode reviews September's major platform updates, including Project HydraFusion's expansion to VS Code and the Copilot app, local sandboxing, automated code review approvals, and bulk autofix for up to 25 CodeQL quality findings. It also highlights HydraFusion's model visibility and token-efficiency improvements.
+In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster to break down the major platform updates shipped in September. Discover how Project HydraFusion expands to VS Code and the GitHub Copilot app, bringing full model visibility and up to 10x token efficiency compared to fron...
 
 [Watch on YouTube →](https://www.youtube.com/watch?v=ZQ0Qq6LlAmI)
-
----
-
-### [Fix GitHub issues without leaving JetBrains IntelliJ using GitHub Copilot](https://www.youtube.com/shorts/Y9dEqpQeD8w)
-
-**Published**: Oct 20, 2026 | **Channel**: GitHub
-
-The video demonstrates installing the Copilot plugin, finding an open issue, and generating an implementation plan in JetBrains IntelliJ. It then shows the coding agent implementing the fix and explaining its changes in Ask mode.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/Y9dEqpQeD8w)
-
----
-
-### [From issue to pull request with GitHub Copilot in IntelliJ](https://www.youtube.com/watch?v=knXsDMuKKyw)
-
-**Published**: Oct 19, 2026 | **Channel**: GitHub
-
-Follow an end-to-end workflow from an open GitHub issue to a pull request using Copilot in JetBrains IntelliJ. The walkthrough covers planning, implementing an accessibility fix, reviewing it, validating it with VoiceOver, and creating a pull request.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=knXsDMuKKyw)
-
----
-
-### [How GitHub uses AI agents to stress test new features](https://www.youtube.com/shorts/zqvJ9YjZXqM)
-
-**Published**: Oct 18, 2026 | **Channel**: GitHub
-
-GitHub used a swarm of AI agents running around the clock to probe new features such as stacked pull requests, find edge cases, and stress-test the system. The clip explains how agent-driven testing can help teams uncover problems before release.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/zqvJ9YjZXqM)
-
----
-
-### [Track tokens and models with the My AI Usage Canvas | GitHub Copilot](https://www.youtube.com/watch?v=2xiyBnQFM20)
-
-**Published**: Oct 17, 2026 | **Channel**: GitHub
-
-The My AI Usage Canvas turns Copilot /chronicle data into a dashboard for exploring token consumption and model use across repositories. Its activity and insights views can help developers spot usage patterns and identify ways to reduce AI costs.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=2xiyBnQFM20)
-
----
-
-### [Inside the GitHub Universe keyboard kit: unboxing and assembly](https://www.youtube.com/watch?v=q3Jod8Xu8BY)
-
-**Published**: Oct 16, 2026 | **Channel**: GitHub
-
-Follow a step-by-step guide to assembling a custom GitHub Universe keyboard, from installing stabilizers and switches to fitting the plate and housing. The video also covers tuning the board, programming macros, and adding keycaps.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=q3Jod8Xu8BY)
-
----
-
-### [GitHub Copilot app with the Logitech MX Keypad](https://www.youtube.com/watch?v=EQeJj0hoPS8)
-
-**Published**: Oct 15, 2026 | **Channel**: GitHub
-
-The Logitech MX Keypad integrates with the GitHub Copilot app to help manage coding sessions without leaving your workflow. The video shows how to start chats and voice prompts, track projects, manage MCP servers, and customize keys with macros.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=EQeJj0hoPS8)
-
----
-
-### [LangChain Deep Agents](https://www.youtube.com/watch?v=PkB6_nSI0Hc)
-
-**Published**: Oct 15, 2026 | **Channel**: GitHub
-
-Deep Agents is an open-source agent harness designed to run out of the box. Developers can extend, override, or replace its components.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=PkB6_nSI0Hc)
-
----
-
-### [What it takes to make stacked PRs a first-class feature on GitHub](https://www.youtube.com/shorts/G4wZsbwztQI)
-
-**Published**: Oct 15, 2026 | **Channel**: GitHub
-
-Making stacked pull requests a native GitHub feature required changes to core systems, not just linking related pull requests. The clip explains why the team had to rethink legacy merge architectures to support the workflow.
-
-[Watch on YouTube →](https://www.youtube.com/shorts/G4wZsbwztQI)
-
----
-
-### [How stacked PRs work behind the scenes at GitHub | S02E05 | The GitHub Podcast](https://www.youtube.com/watch?v=sbHoDdAalMI)
-
-**Published**: Oct 14, 2026 | **Channel**: GitHub
-
-This episode of The GitHub Podcast explores how GitHub rebuilt merge systems for native stacked pull requests, handled ghost merges across linked PR chains, and closed code owner security gaps. It also discusses breaking large features into smaller reviewable pull requests and the open-source gh-stack CLI.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=sbHoDdAalMI)
-
----
-
-### [Live Coding with Wes Bos, Burke Holland, Pierce Boggan & Friends | GitHub Copilot Day](https://www.youtube.com/watch?v=ql_-cPc_ZYQ)
-
-**Published**: Oct 10, 2026 | **Channel**: GitHub
-
-Join Wes Bos, Burke Holland, and Pierce Boggan as they build a 3D foldable-phone simulator and functional web apps with GitHub Copilot. The session demonstrates parallel agents, browser-based testing, and multi-model workflows in the Copilot app.
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=ql_-cPc_ZYQ)
 
 ---
 
@@ -154,6 +173,46 @@ Join Wes Bos, Burke Holland, and Pierce Boggan as they build a 3D foldable-phone
 
 **When to watch**: You're exploring Copilot for the first time or onboarding new team members.
 
+### [GitHub Universe 2026 closing keynote: open source voices, demos, and the craft of coding](https://www.youtube.com/watch?v=Gh-hg7lwA0o)
+
+**Published**: Oct 30, 2026
+
+We are ending GitHub Universe 2026 the way it started: with the people who build in the open. Join Maggie Appleton, Martin Woodward, and Jocelyn Velarde for a final closing keynote session of open-sou...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=Gh-hg7lwA0o)
+
+---
+
+### [Everything announced at GitHub Universe 2026: opening keynote recap](https://www.youtube.com/watch?v=xbCa0aa4tRM)
+
+**Published**: Oct 29, 2026
+
+Missed the opening keynote at GitHub Universe 2026? Catch up on every major announcement and live demo in this cutdown of the morning session. Explore the dedicated GitHub Copilot app, third-party con...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=xbCa0aa4tRM)
+
+---
+
+### [Universe week, hackable badges, and GitHub's open source dilemma | S02E06 | The GitHub Podcast](https://www.youtube.com/watch?v=FAjvVlHRfy8)
+
+**Published**: Oct 28, 2026
+
+Cassidy Williams and GPS welcome GitHub VP of Developer Relations Martin Woodward to The GitHub Podcast to celebrate GitHub Universe. Martin explains why making pull requests easier has created an inf...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=FAjvVlHRfy8)
+
+---
+
+### [How to build and ship an AI agent in the GitHub Copilot app](https://www.youtube.com/watch?v=AT3EltQ4gTM)
+
+**Published**: Oct 23, 2026
+
+Go from a GitHub issue prompt to a deployed, production-ready AI agent without switching between browser tabs or cloud portals. In this hands-on walkthrough, learn how to use the Microsoft Foundry Ski...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=AT3EltQ4gTM)
+
+---
+
 ### [Inside GitHub's September updates: Project HydraFusion, sandboxing, and PR approvals](https://www.youtube.com/watch?v=ZQ0Qq6LlAmI)
 
 **Published**: Oct 21, 2026
@@ -164,58 +223,6 @@ In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster t
 
 ---
 
-### [From issue to pull request with GitHub Copilot in IntelliJ](https://www.youtube.com/watch?v=knXsDMuKKyw)
-
-**Published**: Oct 19, 2026
-
-Learn how to go from an open GitHub issue to a pull request using GitHub Copilot inside JetBrains IntelliJ. In this walkthrough, we install the plugin and walk through an end-to-end workflow. Watch ho...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=knXsDMuKKyw)
-
----
-
-### [Track tokens and models with the My AI Usage Canvas | GitHub Copilot](https://www.youtube.com/watch?v=2xiyBnQFM20)
-
-**Published**: Oct 17, 2026
-
-Ever wonder how many tokens you use or which AI models you reach for the most? In this demo, explore the My AI Usage Canvas, a custom dashboard built around Copilot /chronicle commands. Learn how to v...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=2xiyBnQFM20)
-
----
-
-### [Inside the GitHub Universe keyboard kit: unboxing and assembly](https://www.youtube.com/watch?v=q3Jod8Xu8BY)
-
-**Published**: Oct 16, 2026
-
-Building your custom mechanical keyboard from GitHub Universe? Follow this step-by-step assembly guide to put together your randomized blind box kit from the ground up. We cover everything from instal...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=q3Jod8Xu8BY)
-
----
-
-### [GitHub Copilot app with the Logitech MX Keypad](https://www.youtube.com/watch?v=EQeJj0hoPS8)
-
-**Published**: Oct 15, 2026
-
-Want to manage your AI coding sessions without leaving your flow? In this video, we show you how the Logitech MX Keypad integrates with the GitHub Copilot app.  
-
-Learn how to install the plugin, star...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=EQeJj0hoPS8)
-
----
-
-### [Live Coding with Wes Bos, Burke Holland, Pierce Boggan & Friends | GitHub Copilot Day](https://www.youtube.com/watch?v=ql_-cPc_ZYQ)
-
-**Published**: Oct 10, 2026
-
-Join Wes Bos, Burke Holland, and Pierce Boggan for two hours of live coding with GitHub Copilot. Watch as the team takes a 3D foldable phone simulator from scratch to running functional web apps in re...
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=ql_-cPc_ZYQ)
-
----
-
 
 ## Features & Updates
 
@@ -223,33 +230,43 @@ Join Wes Bos, Burke Holland, and Pierce Boggan for two hours of live coding with
 
 **When to watch**: You want to stay current with new capabilities and improvements.
 
-### [How GitHub uses AI agents to stress test new features](https://www.youtube.com/shorts/zqvJ9YjZXqM)
+### [GitHub Universe 2026 opening keynote recap in 90 seconds](https://www.youtube.com/shorts/A_N9HM237BA)
 
-**Published**: Oct 18, 2026
+**Published**: Oct 29, 2026
 
-Before shipping new features like stacked pull requests, how does GitHub make sure nobody can break the system? In this clip from The GitHub Podcast, Senior Product Manager Sameen Karim explains how G...
+Missed the GitHub Universe 2026 opening keynote? Here is everything announced in 60 seconds, from 225 million developers on the platform to major architectural upgrades. Discover the all-new GitHub Co...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/zqvJ9YjZXqM)
-
----
-
-### [What it takes to make stacked PRs a first-class feature on GitHub](https://www.youtube.com/shorts/G4wZsbwztQI)
-
-**Published**: Oct 15, 2026
-
-From the outside, merging stacked pull requests might sound simple: just link related PRs together and merge them in sequence. In this clip, they talk about the hidden complexity behind updating core ...
-
-[Watch on YouTube →](https://www.youtube.com/shorts/G4wZsbwztQI)
+[Watch on YouTube →](https://www.youtube.com/shorts/A_N9HM237BA)
 
 ---
 
-### [How stacked PRs work behind the scenes at GitHub | S02E05 | The GitHub Podcast](https://www.youtube.com/watch?v=sbHoDdAalMI)
+### [Opening keynote: building the next era of software at GitHub Universe 2026](https://www.youtube.com/watch?v=AArI948SDz8)
 
-**Published**: Oct 14, 2026
+**Published**: Oct 28, 2026
 
-In episode 5 of season 2 of The GitHub Podcast, Cassidy and Andrea welcome Sameen Karim, Senior Product Manager at GitHub, to discuss native stacked pull requests. Sameen shares how GitHub rebuilt leg...
+Join us for the GitHub Universe 2026 opening keynote as we look at the next era of software, the developers building it, and the tools and workflows GitHub is creating to help them go further. Hear fr...
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=sbHoDdAalMI)
+[Watch on YouTube →](https://www.youtube.com/watch?v=AArI948SDz8)
+
+---
+
+### [Unboxing GitHub's mystery blind box keyboard](https://www.youtube.com/shorts/_ESyA2B1qas)
+
+**Published**: Oct 28, 2026
+
+GitHub just released a mystery blind box keyboard where every kit includes a random colorway, enclosure, switch plate, and keycap set. Follow along as we assemble our very first DIY mechanical keyboar...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/_ESyA2B1qas)
+
+---
+
+### [A quick spoiler for GitHub Universe 2026](https://www.youtube.com/shorts/k5xamEC-QR8)
+
+**Published**: Oct 27, 2026
+
+GitHub Universe 2026 kicks off this week with major keynote announcements, new developer tools, and fresh drops in the GitHub shop. In this quick sneak peek, get an inside teaser of what is shipping a...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/k5xamEC-QR8)
 
 ---
 
@@ -260,30 +277,13 @@ In episode 5 of season 2 of The GitHub Podcast, Cassidy and Andrea welcome Samee
 
 **When to watch**: You're ready to dive deep into specific features or workflows.
 
-### [Fix GitHub issues without leaving JetBrains IntelliJ using GitHub Copilot](https://www.youtube.com/shorts/Y9dEqpQeD8w)
+### [Playing Super Mona on the GitHub Universe 2026 badge](https://www.youtube.com/shorts/5pK-8AL_wVs)
 
-**Published**: Oct 20, 2026
+**Published**: Oct 29, 2026
 
-Fix repository issues without ever leaving JetBrains IntelliJ. In this short video, learn how to install the GitHub Copilot plugin from the marketplace, find open GitHub issues, and generate step-by-s...
+Did you know the GitHub Universe 2026 conference badge has hidden capacitive gaming buttons on the back? In this quick demo, Martin Woodward shows how to install Super Mona directly onto your badge us...
 
-[Watch on YouTube →](https://www.youtube.com/shorts/Y9dEqpQeD8w)
-
----
-
-
-## Agents
-
-*Explore autonomous coding agents, advanced AI-powered workflows, and agentic capabilities.*
-
-**When to watch**: You're interested in multi-file editing, autonomous task completion, or custom agents.
-
-### [LangChain Deep Agents](https://www.youtube.com/watch?v=PkB6_nSI0Hc)
-
-**Published**: Oct 15, 2026
-
-Deep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece....
-
-[Watch on YouTube →](https://www.youtube.com/watch?v=PkB6_nSI0Hc)
+[Watch on YouTube →](https://www.youtube.com/shorts/5pK-8AL_wVs)
 
 ---
 
@@ -293,6 +293,36 @@ Deep Agents is an open source agent harness — an opinionated agent that runs o
 *Additional videos that don't fit into other categories.*
 
 **When to watch**: You're looking for miscellaneous Copilot content.
+
+### [Can you commit to the answer? Git trivia at GitHub Universe 2026](https://www.youtube.com/shorts/-qx1qD_3hus)
+
+**Published**: Oct 29, 2026
+
+You can commit to code, but can you commit to the answer under pressure? We put attendees on the spot at GitHub Universe 2026 to test their knowledge of Git commands, repositories, and internal storag...
+
+[Watch on YouTube →](https://www.youtube.com/shorts/-qx1qD_3hus)
+
+---
+
+### [How Pimoroni manufactures the hackable GitHub Universe badge](https://www.youtube.com/watch?v=84RmU2zABNw)
+
+**Published**: Oct 27, 2026
+
+Go inside Pimoroni's factory to see how the hackable GitHub Universe 2026 badge comes to life. From stencil printing and high-speed pick and place machines to solder reflow ovens, discover the complet...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=84RmU2zABNw)
+
+---
+
+### [How Arnis turns any place on Earth into a Minecraft world | GitHub x Arnis](https://www.youtube.com/watch?v=kyWeV-o1hDE)
+
+**Published**: Oct 26, 2026
+
+Arnis turns real-world geographic coordinates into playable Minecraft worlds in minutes using OpenStreetMap data. Started as a side project by student Louis Erbkamm, the repository quickly attracted g...
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=kyWeV-o1hDE)
+
+---
 
 ### [Stop waiting on pull request reviews with GitHub Copilot approvals](https://www.youtube.com/shorts/exBCpV9eJnc)
 
