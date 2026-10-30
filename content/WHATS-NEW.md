@@ -12,7 +12,8 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
-No deprecations or breaking changes in the last 30 days. ✅
+- **Oct 19, 2026** - 🚫 **Deprecation** - [GitHub Copilot models deprecated on October 19, 2026](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)
+- **Oct 15, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)
 
 ---
 
@@ -21,7 +22,7 @@ No deprecations or breaking changes in the last 30 days. ✅
 ### [GitHub Universe 2026 closing keynote: open source voices, demos, and the craft of coding](https://www.youtube.com/watch?v=Gh-hg7lwA0o)
 *Oct 30, 2026*
 
-We are ending GitHub Universe 2026 the way it started: with the people who build in the open. Join Maggie Appleton, Martin Woodward, and Jocelyn Velarde for a final closing keynote session of open-source voices, unexpected demos, and the kind of...
+We are ending GitHub Universe 2026 the way it started: with the people who build in the open. Join Maggie Appleton, Martin Woodward, and Jocelyn Velarde for a closing keynote featuring open-source voices, unexpected demos, and reflections on why people code. The session explores how community-driven software, creative experiments, and open collaboration continue to shape software development.
 
 ### [Webhook IP ranges added to the Meta API](https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api)
 *Oct 29, 2026*
@@ -41,7 +42,7 @@ Did you know the GitHub Universe 2026 conference badge has hidden capacitive gam
 ### [Everything announced at GitHub Universe 2026: opening keynote recap](https://www.youtube.com/watch?v=xbCa0aa4tRM)
 *Oct 29, 2026*
 
-Missed the opening keynote at GitHub Universe 2026? Catch up on every major announcement and live demo in this cutdown of the morning session. Explore the dedicated GitHub Copilot app, third-party connectors, and Copilot Fusion for multi-model...
+Missed the opening keynote at GitHub Universe 2026? Catch up on major announcements and live demos, including the GitHub Copilot app, third-party connectors, and Copilot Fusion. The session also covers Copilot Projects for coordinating agents across repositories, Code Review Max, and architectural updates to Git.
 
 ---
 
