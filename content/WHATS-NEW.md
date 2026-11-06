@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: October 23, 2026
+**Last Updated**: November 06, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,91 +12,91 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
-- **Oct 19, 2026** - 🚫 **Deprecation** - [GitHub Copilot models deprecated on October 19, 2026](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)
-- **Oct 15, 2026** - 🚫 **Deprecation** - [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)
+- **Oct 19, 2026** - [GitHub Copilot models deprecated on October 19, 2026](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)
+- **Oct 15, 2026** - [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)
 
 ---
 
 ## This Week (Last 7 Days)
 
-### [Global default for Copilot features generally available](https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available)
-*Oct 22, 2026*
+### [Secret scanning upgrades detectors, adds SpaceX as partner](https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner)
+*Nov 5, 2026*
 
-GitHub is rolling out enforcement of its global default policy for generally available Copilot features and supported client capabilities on Business and Enterprise plans through October 26. Organizations may see the policy take effect at different times during the rollout.
+Secret scanning now includes SpaceX as a partner and detects the Starlink public API v2 secret. GitHub also upgraded detectors for Alibaba, AWS, Google, OpenVSX, Pydantic Services, and Tencent with additional false-positive filtering.
 
-### [Public monitoring now available with data residency](https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency)
-*Oct 22, 2026*
+### [New pull request overview page in public preview](https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview)
+*Nov 5, 2026*
 
-Public monitoring is now available in public preview for GitHub Enterprise Cloud with data residency (GHEC DR). Public monitoring extends secret scanning beyond internal repositories by monitoring public commits across github.com, attributing exposed credentials back to your enterprise in real time.
+The new overview page brings blockers and next steps into clearer view on long pull requests, so reviewers spend less time scrolling through comments and timeline events. It is now available in public preview.
 
-### [Custom skills, agents, and MCP servers in usage metrics API](https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api)
-*Oct 22, 2026*
+### [Usage metrics API adds code review details and addressed rate](https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate)
+*Nov 5, 2026*
 
-Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September.
+Repository-level Copilot usage metrics now include a `copilot_code_review` object on each `repos-1-day` row. It reports how many Copilot-reviewed pull requests merged without a later human change request and how many Copilot review comments developers addressed.
 
-### [Industry comparisons in the Copilot impact dashboard](https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard)
-*Oct 22, 2026*
+### [Usage metrics API flags telemetry and version gaps](https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps)
+*Nov 5, 2026*
 
-The Copilot impact dashboard now includes an "Industry comparison" section. Enterprises, and organizations that aren't owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks from participating peers. Participation is opt-in and disabled by default.
+The Copilot usage metrics API now identifies users missing client telemetry or running IDE and extension versions below the supported minimums. Enterprise and organization reports include per-user details and daily counts of affected users, helping administrators spot gaps in their usage data.
 
-### [GitHub Copilot in Visual Studio — September update](https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2)
-*Oct 22, 2026*
+### [CodeQL 2.27.4 improves accuracy and query metadata](https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata)
+*Nov 4, 2026*
 
-The September Visual Studio update adds pull-request exploration from chat, support for a team's preferred AI model, and fixes for vulnerable packages flagged by the IDE. These improvements bring Copilot into review and dependency-maintenance workflows without leaving Visual Studio.
+CodeQL 2.27.4 improves query accuracy across several languages and strengthens security checks when bundling or publishing a pack. The release also corrects query metadata used by GitHub code scanning.
 
 ---
 
 ## Last 30 Days
 
-### [Stop waiting on pull request reviews with GitHub Copilot approvals](https://www.youtube.com/shorts/exBCpV9eJnc)
-*Oct 22, 2026*
+### [GitHub Copilot is now available in Xcode’s coding assistant](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant)
+*Nov 4, 2026*
 
-Copilot can review a pull request and submit an assessment that counts toward merge protection rules. Combining its review with a single human approval can satisfy branch requirements while reducing delays.
+GitHub Copilot is now available in Xcode's built-in coding assistant, bringing Copilot into the native Xcode workflow. The integration is in public preview starting with Xcode 27.3 beta.
 
-### [GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens](https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens)
-*Oct 21, 2026*
+### [BYOK and enterprise custom models in the Copilot usage API](https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api)
+*Nov 3, 2026*
 
-You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a rotating refresh token and automatically refreshes the token whenever it is needed. You stay authenticated without reauthenticating, and a leaked access token becomes unusable within hours instead of lasting indefinitely.
+The Copilot usage metrics API now reports bring-your-own-key (BYOK) and enterprise custom model usage, separating it from Copilot-hosted model usage. This gives administrators a clearer view of requests routed through developers' own provider keys or local models.
 
-### [Inside GitHub's September updates: Project HydraFusion, sandboxing, and PR approvals](https://www.youtube.com/watch?v=ZQ0Qq6LlAmI)
-*Oct 21, 2026*
+### [Arnis turns any place on Earth into a Minecraft world](https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/)
+*Nov 3, 2026*
 
-This episode reviews September's major platform updates, including Project HydraFusion's expansion to VS Code and the Copilot app, local sandboxing, automated code review approvals, and bulk autofix for up to 25 CodeQL quality findings. The discussion explains how these changes improve model visibility, review workflows, and security remediation.
+Arnis turns real-world locations into Minecraft worlds, and its creator Louis Erbkamm built the first version in his free time. The story explores how GitHub Copilot helps him maintain the project on his own, despite never having visited the town that inspired it.
 
-### [Updates to GitHub secret scanning](https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning)
-*Oct 20, 2026*
+### [Dependabot version updates support Agent Package Manager](https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager)
+*Nov 3, 2026*
 
-This update covers improvements and bug fixes for GitHub secret scanning. On November 12, 2026, the business field in affected secret_scanning_alert.* and secret_scanning_push_protection.bypass audit log events will change from the enterprise display name to the enterprise slug.
+Dependabot version updates now keep supported agent skills, prompts, and instructions declared in `apm.yml` current. It opens pull requests for Git dependencies and regenerates `apm.lock.yaml` when present; security updates are not included.
 
-### [How 3 Java Champions are using GitHub Copilot for increased productivity](https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/)
-*Oct 20, 2026*
+### [GitHub Copilot is now available in JetBrains Air](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air)
+*Nov 3, 2026*
 
-AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships. To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java.
+GitHub Copilot in JetBrains Air lets you delegate coding tasks, guide execution, and review results in your IDE or in the cloud. The Agent Client Protocol (ACP) integration complements the existing GitHub Copilot plugin, giving developers another way to work with coding agents.
 
-### [Bulk migrate branch protections to rulesets for a repository](https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository)
-*Oct 20, 2026*
+### [GitHub Copilot app, Universe releases](https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases)
+*Oct 28, 2026*
 
-Repository administrators can now convert all branch protection rules to rulesets in a single action, building on the existing single-rule migration. Use **Settings → Rulesets** and select **Import branch protection rules** to migrate them together.
+The GitHub Copilot app is expanding to support work that spans multiple repositories or sessions. Launch plans can also bring together specifications, designs, and assets without requiring a repository.
 
-### [Fix GitHub issues without leaving JetBrains IntelliJ using GitHub Copilot](https://www.youtube.com/shorts/Y9dEqpQeD8w)
-*Oct 20, 2026*
+### [Security extension for the GitHub Copilot app](https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app)
+*Oct 28, 2026*
 
-The video demonstrates installing the Copilot plugin, finding an open issue, and generating an implementation plan in JetBrains IntelliJ. It then shows the coding agent implementing the fix and explaining its changes in Ask mode.
+The GitHub security extension brings repository code scanning alerts into the Copilot app, where you can ask Copilot to explain or help fix them. The public preview reduces the need to switch between alerts on GitHub.com and code in your editor.
 
-### [Copilot model policy API for enterprise, orgs, and teams](https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams)
-*Oct 19, 2026*
+### [GitHub intelligence puts your code, context, and history to work](https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work)
+*Oct 28, 2026*
 
-You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. Enterprise policies can delegate model control to organizations in organization mode, or to teams and apps in enterprise teams mode.
+GitHub intelligence aims to help agents understand how a team works, not just how its code is structured. Preferences, repository conventions, skills, custom instructions, and related repositories can provide context that helps agents follow established practices.
 
-### [GitHub Copilot models deprecated on October 19, 2026](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)
-*Oct 19, 2026*
+### [GitHub Universe 2026: Evolving every layer of the stack](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/)
+*Oct 28, 2026*
 
-As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These deprecations were announced on September 18, 2026.
+GitHub outlined a vision for an end-to-end software delivery system that evolves across the development stack. The announcement reflects a shift from writing code line by line toward using AI assistants and orchestrating agents, while keeping the goal of shipping finished software.
 
-### [How to continue a GitHub Copilot app session in VS Code](https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/)
-*Oct 19, 2026*
+### [GitHub Enterprise now includes access to GitHub Copilot](https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot)
+*Oct 28, 2026*
 
-Move an active agent session from the GitHub Copilot app to VS Code without losing its conversation, code changes, or working context. The guide shows how to continue in your editor to inspect details, make edits, and run the project locally.
+Enterprises working with a GitHub or Microsoft account team can now include Copilot for every licensed user through GitHub Enterprise. This replaces separate Copilot seat management with a focus on tracking usage against the enterprise budget.
 
 ---
 
