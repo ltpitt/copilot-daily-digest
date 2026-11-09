@@ -1,6 +1,6 @@
 # GitHub Copilot Trainings & Certifications
 
-> **Last Updated**: October 30, 2026
+> **Last Updated**: November 06, 2026
 
 Master GitHub Copilot with these official courses, certifications, and curated learning paths.
 
@@ -16,19 +16,6 @@ Master GitHub Copilot with these official courses, certifications, and curated l
 
 ## Official GitHub Courses
 
-### [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
-
-**Provider**: GitHub Skills | **Level**: Intermediate
-
-Learn how to use GitHub Copilot to expand your team's capabilities. This hands-on course covers using Copilot for code generation, testing, and collaboration.
-
-- **Format**: Interactive
-- **Duration**: 2-3 hours
-- **Cost**: Free
-- **Topics**: GitHub Copilot, AI Pair Programming, Team Collaboration, Coding Agent
-
----
-
 ### [Introduction to GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)
 
 **Provider**: GitHub Skills | **Level**: Beginner
@@ -39,6 +26,19 @@ Get started with GitHub Copilot. Learn the basics of AI-assisted coding, includi
 - **Duration**: 1-2 hours
 - **Cost**: Free
 - **Topics**: GitHub Copilot, AI Pair Programming, Code Completion
+
+---
+
+### [Expand Your Team with Copilot](https://github.com/skills/expand-your-team-with-copilot/)
+
+**Provider**: GitHub Skills | **Level**: Intermediate
+
+Learn how to use GitHub Copilot to expand your team's capabilities. This hands-on course covers using Copilot for code generation, testing, and collaboration.
+
+- **Format**: Interactive
+- **Duration**: 2-3 hours
+- **Cost**: Free
+- **Topics**: GitHub Copilot, AI Pair Programming, Team Collaboration, Coding Agent
 
 ---
 

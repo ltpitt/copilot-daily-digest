@@ -2,11 +2,24 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: October 30, 2026
+**Last Updated**: November 06, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
 ---
+
+## November 2026
+
+- **Nov 5, 2026** - [Secret scanning upgrades detectors, adds SpaceX as partner](https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner) (Blog)
+- **Nov 5, 2026** - [New pull request overview page in public preview](https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview) (Blog)
+- **Nov 5, 2026** - [Usage metrics API adds code review details and addressed rate](https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate) (Blog)
+- **Nov 5, 2026** - [Usage metrics API flags telemetry and version gaps](https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps) (Blog)
+- **Nov 4, 2026** - [CodeQL 2.27.4 improves accuracy and query metadata](https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata) (Blog)
+- **Nov 4, 2026** - [GitHub Copilot is now available in Xcode’s coding assistant](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant) (Blog)
+- **Nov 3, 2026** - [BYOK and enterprise custom models in the Copilot usage API](https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api) (Blog)
+- **Nov 3, 2026** - [Arnis turns any place on Earth into a Minecraft world](https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/) (Blog)
+- **Nov 3, 2026** - [Dependabot version updates support Agent Package Manager](https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager) (Blog)
+- **Nov 3, 2026** - [GitHub Copilot is now available in JetBrains Air](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air) (Blog)
 
 ## October 2026
 

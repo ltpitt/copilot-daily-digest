@@ -1,296 +1,252 @@
 {
-  "generated_at": "2026-09-18T07:14:01.093001+00:00",
+  "generated_at": "2026-11-06T07:09:08.069571+00:00",
   "has_changes": true,
-  "total_changes": 21,
+  "total_changes": 24,
   "docs": {
     "changed": [],
     "new": [],
     "unchanged": [
-      "copilot-best-practices.md",
-      "copilot-chat.md",
-      "copilot-responsible-use.md",
-      "copilot-getting-started.md",
+      "copilot-extensions-integration.md",
       "copilot-prompt-engineering.md",
       "copilot-managing-organization.md",
-      "copilot-troubleshooting.md",
       "copilot-code-suggestions.md",
+      "copilot-responsible-use.md",
       "copilot-configuration.md",
-      "copilot-extensions-integration.md",
       "copilot-overview.md",
+      "copilot-getting-started.md",
+      "copilot-best-practices.md",
+      "copilot-asking-questions.md",
+      "copilot-chat.md",
       "copilot-extensions-overview.md",
-      "copilot-custom-instructions.md",
-      "copilot-asking-questions.md"
+      "copilot-troubleshooting.md",
+      "copilot-custom-instructions.md"
     ],
     "deleted": []
   },
   "blog": {
-    "new_count": 15,
+    "new_count": 24,
     "new_posts": [
       {
-        "title": "Copilot impact dashboard now shows feature engagement",
-        "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-        "date": "2026-09-17T21:47:27Z",
-        "summary": "<p>The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need mo"
+        "title": "Usage metrics API adds code review details and addressed rate",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+        "date": "2026-11-06T00:19:07Z",
+        "summary": "<p>The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row report"
       },
       {
-        "title": "Agentic CLI customizations now in the usage metrics API",
-        "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-        "date": "2026-09-17T21:08:50Z",
-        "summary": "<p>GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What&#8217;s new The "
+        "title": "Usage metrics API flags telemetry and version gaps",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+        "date": "2026-11-06T00:08:31Z",
+        "summary": "<p>The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in&#8230;</p>\n"
       },
       {
-        "title": "Ubuntu 26 generally available and latest migration",
-        "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-        "date": "2026-09-17T16:27:16Z",
-        "summary": "<p>The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,&#8230;</p>\n<p>The post <a "
+        "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+        "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+        "date": "2026-11-05T15:48:50Z",
+        "summary": "<p>This update expands secret scanning&#8217;s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detect"
       },
       {
-        "title": "Workflow execution protections in GitHub Actions generally available",
-        "url": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-        "date": "2026-09-17T15:45:26Z",
-        "summary": "<p>Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you de"
+        "title": "New pull request overview page in public preview",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
+        "date": "2026-11-05T08:00:00Z",
+        "summary": "<p>On a long pull request, checking what&#8217;s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you&#8217;re there, you still&#8230;</"
       },
       {
-        "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-        "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-        "date": "2026-09-17T00:26:43Z",
-        "summary": "<p>A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.</p>\n<p>The post <a href=\"https://github.blog/ai"
+        "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+        "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+        "date": "2026-11-04T20:04:52Z",
+        "summary": "<p>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.4 with query accuracy improvemen"
       },
       {
-        "title": "Automate SSO authorization for classic PATs and SSH keys",
-        "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-        "date": "2026-09-16T20:20:16Z",
-        "summary": "<p>Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization "
+        "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+        "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+        "date": "2026-11-04T19:10:40Z",
+        "summary": "<p>You can now work with GitHub Copilot directly in Xcode&#8217;s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available start"
       },
       {
-        "title": "SCIM user responses now include a profileUrl attribute",
-        "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-        "date": "2026-09-16T20:19:58Z",
-        "summary": "<p>SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, mat"
+        "title": "BYOK and enterprise custom models in the Copilot usage API",
+        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+        "date": "2026-11-04T00:32:19Z",
+        "summary": "<p>The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of&#8230;</p>\n<p>The p"
       },
       {
-        "title": "Copilot budget increase requests are generally available",
-        "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-        "date": "2026-09-16T20:17:18Z",
-        "summary": "<p>Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to&#8230;</p>\n<p>The pos"
+        "title": "Dependabot version updates support Agent Package Manager",
+        "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+        "date": "2026-11-03T20:24:07Z",
+        "summary": "<p>You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported&#8230"
       },
       {
-        "title": "Code scanning AI Scan no longer requires CodeQL default setup",
-        "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-        "date": "2026-09-16T13:26:06Z",
-        "summary": "<p>You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn&#8217;t enabled on a repository. Previously, AI Scan for pull requests only&#8230;</p>"
+        "title": "Arnis turns any place on Earth into a Minecraft world",
+        "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+        "date": "2026-11-03T16:00:00Z",
+        "summary": "<p>Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.</p>\n<p>The post <a href=\"https://github.blog/open-source/maintainers/arnis-turns-any-place-"
       },
       {
-        "title": "GitHub Copilot suggests custom properties definitions",
-        "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-        "date": "2026-09-15T19:07:47Z",
-        "summary": "<p>GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot&#823"
+        "title": "GitHub Copilot is now available in JetBrains Air",
+        "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+        "date": "2026-11-03T15:11:46Z",
+        "summary": "<p>You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;</"
       },
       {
-        "title": "Configure cost and quality in Copilot auto model selection",
-        "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
-        "date": "2026-09-14T16:05:27Z",
-        "summary": "<p>GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for&#823"
+        "title": "GitHub Universe 2026: Evolving every layer of the stack",
+        "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "date": "2026-10-28T16:09:28Z",
+        "summary": "<p>Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/github-"
       },
       {
-        "title": "Add VS Code Agents to Copilot usage metrics",
-        "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-        "date": "2026-09-11T21:30:30Z",
-        "summary": "<p>GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and "
+        "title": "Route and orchestrate models with GitHub Copilot Fusion",
+        "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+        "date": "2026-10-28T16:00:00Z",
+        "summary": "<p>GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.&#8230"
       },
       {
-        "title": "Auto-resolution and analysis updates in Copilot code review",
-        "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
-        "date": "2026-09-11T20:00:07Z",
-        "summary": "<p>Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now&#8230;</p>\n<p>Th"
+        "title": "GitHub Copilot app, Universe releases",
+        "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+        "date": "2026-10-28T15:55:00Z",
+        "summary": "<p>Work doesn&#8217;t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository&#8230;</"
       },
       {
-        "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-        "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-        "date": "2026-09-11T18:26:10Z",
-        "summary": "<p>If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/mar"
+        "title": "GitHub Enterprise now includes access to GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+        "date": "2026-10-28T15:50:00Z",
+        "summary": "<p>Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many&#8230;</p"
       },
       {
-        "title": "GitHub Copilot weekly releases — September 7",
-        "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-        "date": "2026-09-10T22:55:07Z",
-        "summary": "<p>This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Stud"
+        "title": "Security extension for the GitHub Copilot app",
+        "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+        "date": "2026-10-28T15:45:00Z",
+        "summary": "<p>You can now work through your repository&#8217;s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the&#823"
+      },
+      {
+        "title": "GitHub intelligence puts your code, context, and history to work",
+        "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
+        "date": "2026-10-28T15:40:00Z",
+        "summary": "<p>Agents should understand more than your codebase&#8212;they should understand how your team works. Your preferences, repository conventions, skills, and custom instructions guide how changes should"
+      },
+      {
+        "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+        "date": "2026-10-20T16:05:03Z",
+        "summary": "<p>Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml"
+      },
+      {
+        "title": "How to continue a GitHub Copilot app session in VS Code",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+        "date": "2026-10-19T18:47:22Z",
+        "summary": "<p>Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml"
+      },
+      {
+        "title": "The next developer interface is ambient intelligence",
+        "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+        "date": "2026-10-15T19:39:27Z",
+        "summary": "<p>AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.</p>\n<p>The post <a href=\"https:"
+      },
+      {
+        "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+        "date": "2026-10-12T17:43:59Z",
+        "summary": "<p>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot"
+      },
+      {
+        "title": "ReviewBench: An open benchmark for AI code review",
+        "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+        "date": "2026-10-05T15:59:40Z",
+        "summary": "<p>We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.</p>\n<"
+      },
+      {
+        "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+        "date": "2026-09-25T18:00:00Z",
+        "summary": "<p>Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.</p>\n<"
+      },
+      {
+        "title": "When chat is the wrong UI",
+        "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "date": "2026-09-24T20:00:00Z",
+        "summary": "<p>What is a developer to do when they need something more tangible than a chat box? Enter canvases.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/\">W"
+      },
+      {
+        "title": "Rendering huge pull requests in the GitHub Copilot app",
+        "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+        "date": "2026-09-23T18:29:49Z",
+        "summary": "<p>How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.</p>\n<p>The post <a href=\"https://github.blog/engineering/user-"
       }
     ]
   },
   "videos": {
-    "new_count": 6,
-    "new_videos": [
-      {
-        "title": "Will tech companies hire developers who do not use AI?",
-        "video_id": "Q7uO3vWP1h4",
-        "date": "2026-09-17T15:00:21+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/Q7uO3vWP1h4/hqdefault.jpg"
-      },
-      {
-        "title": "How Project HydraFusion reduces the cost of frontier AI",
-        "video_id": "1asMXES_5jY",
-        "date": "2026-09-16T20:31:39+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/1asMXES_5jY/hqdefault.jpg"
-      },
-      {
-        "title": "AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast",
-        "video_id": "myjyHt4ycDg",
-        "date": "2026-09-16T15:00:16+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/myjyHt4ycDg/hqdefault.jpg"
-      },
-      {
-        "title": "How to continue GitHub Copilot app sessions in VS Code",
-        "video_id": "dNCGfpDho0U",
-        "date": "2026-09-15T15:00:25+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/dNCGfpDho0U/hqdefault.jpg"
-      },
-      {
-        "title": "3 ways to streamline AI code reviews across your team",
-        "video_id": "NiMpZ4gW2dQ",
-        "date": "2026-09-15T04:42:22+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/NiMpZ4gW2dQ/hqdefault.jpg"
-      },
-      {
-        "title": "What is hill climbing in AI agent development?",
-        "video_id": "u5CS4_b8eU8",
-        "date": "2026-09-12T15:00:23+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/u5CS4_b8eU8/hqdefault.jpg"
-      }
-    ]
+    "new_count": 0,
+    "new_videos": []
   },
   "trainings": {
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on September 18, 2026:\n\n📝 Blog Posts: 15 new articles\n  - \"Copilot impact dashboard now shows feature engagement\" (2026-09-17)\n  - \"Agentic CLI customizations now in the usage metrics API\" (2026-09-17)\n  - \"Ubuntu 26 generally available and latest migration\" (2026-09-17)\n  - \"Workflow execution protections in GitHub Actions generally available\" (2026-09-17)\n  - \"Migrating the GitHub Copilot runtime to Rust, using Copilot\" (2026-09-17)\n\n🎥 Videos: 6 new videos\n  - \"Will tech companies hire developers who do not use AI?\" (2026-09-17)\n  - \"How Project HydraFusion reduces the cost of frontier AI\" (2026-09-16)\n  - \"AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast\" (2026-09-16)\n  - \"How to continue GitHub Copilot app sessions in VS Code\" (2026-09-15)\n  - \"3 ways to streamline AI code reviews across your team\" (2026-09-15)\n\nTotal: 21 changes detected",
+  "summary_text": "Changes detected on November 06, 2026:\n\n📝 Blog Posts: 24 new articles\n  - \"Usage metrics API adds code review details and addressed rate\" (2026-11-06)\n  - \"Usage metrics API flags telemetry and version gaps\" (2026-11-06)\n  - \"Secret scanning upgrades detectors, adds SpaceX as partner\" (2026-11-05)\n  - \"New pull request overview page in public preview\" (2026-11-05)\n  - \"CodeQL 2.27.4 improves accuracy and query metadata\" (2026-11-04)\n\nTotal: 24 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 20,
+    "total_changes": 10,
     "new_docs": [],
     "new_blog_posts": [
       {
-        "title": "Copilot impact dashboard now shows feature engagement",
-        "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-        "date": "2026-09-17T21:47:27Z",
-        "summary": "<p>The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need mo"
+        "title": "Usage metrics API adds code review details and addressed rate",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+        "date": "2026-11-06T00:19:07Z",
+        "summary": "<p>The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row report"
       },
       {
-        "title": "Agentic CLI customizations now in the usage metrics API",
-        "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-        "date": "2026-09-17T21:08:50Z",
-        "summary": "<p>GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What&#8217;s new The "
+        "title": "Usage metrics API flags telemetry and version gaps",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+        "date": "2026-11-06T00:08:31Z",
+        "summary": "<p>The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in&#8230;</p>\n"
       },
       {
-        "title": "Ubuntu 26 generally available and latest migration",
-        "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-        "date": "2026-09-17T16:27:16Z",
-        "summary": "<p>The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,&#8230;</p>\n<p>The post <a "
+        "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+        "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+        "date": "2026-11-05T15:48:50Z",
+        "summary": "<p>This update expands secret scanning&#8217;s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detect"
       },
       {
-        "title": "Workflow execution protections in GitHub Actions generally available",
-        "url": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-        "date": "2026-09-17T15:45:26Z",
-        "summary": "<p>Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you de"
+        "title": "New pull request overview page in public preview",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
+        "date": "2026-11-05T08:00:00Z",
+        "summary": "<p>On a long pull request, checking what&#8217;s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you&#8217;re there, you still&#8230;</"
       },
       {
-        "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-        "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-        "date": "2026-09-17T00:26:43Z",
-        "summary": "<p>A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.</p>\n<p>The post <a href=\"https://github.blog/ai"
+        "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+        "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+        "date": "2026-11-04T20:04:52Z",
+        "summary": "<p>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.4 with query accuracy improvemen"
       },
       {
-        "title": "Automate SSO authorization for classic PATs and SSH keys",
-        "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-        "date": "2026-09-16T20:20:16Z",
-        "summary": "<p>Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization "
+        "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+        "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+        "date": "2026-11-04T19:10:40Z",
+        "summary": "<p>You can now work with GitHub Copilot directly in Xcode&#8217;s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available start"
       },
       {
-        "title": "SCIM user responses now include a profileUrl attribute",
-        "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-        "date": "2026-09-16T20:19:58Z",
-        "summary": "<p>SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, mat"
+        "title": "BYOK and enterprise custom models in the Copilot usage API",
+        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+        "date": "2026-11-04T00:32:19Z",
+        "summary": "<p>The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of&#8230;</p>\n<p>The p"
       },
       {
-        "title": "Copilot budget increase requests are generally available",
-        "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-        "date": "2026-09-16T20:17:18Z",
-        "summary": "<p>Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to&#8230;</p>\n<p>The pos"
+        "title": "Dependabot version updates support Agent Package Manager",
+        "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+        "date": "2026-11-03T20:24:07Z",
+        "summary": "<p>You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported&#8230"
       },
       {
-        "title": "Code scanning AI Scan no longer requires CodeQL default setup",
-        "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-        "date": "2026-09-16T13:26:06Z",
-        "summary": "<p>You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn&#8217;t enabled on a repository. Previously, AI Scan for pull requests only&#8230;</p>"
+        "title": "Arnis turns any place on Earth into a Minecraft world",
+        "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+        "date": "2026-11-03T16:00:00Z",
+        "summary": "<p>Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.</p>\n<p>The post <a href=\"https://github.blog/open-source/maintainers/arnis-turns-any-place-"
       },
       {
-        "title": "GitHub Copilot suggests custom properties definitions",
-        "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-        "date": "2026-09-15T19:07:47Z",
-        "summary": "<p>GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot&#823"
-      },
-      {
-        "title": "Configure cost and quality in Copilot auto model selection",
-        "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
-        "date": "2026-09-14T16:05:27Z",
-        "summary": "<p>GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for&#823"
-      },
-      {
-        "title": "Add VS Code Agents to Copilot usage metrics",
-        "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-        "date": "2026-09-11T21:30:30Z",
-        "summary": "<p>GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and "
-      },
-      {
-        "title": "Auto-resolution and analysis updates in Copilot code review",
-        "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
-        "date": "2026-09-11T20:00:07Z",
-        "summary": "<p>Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now&#8230;</p>\n<p>Th"
-      },
-      {
-        "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-        "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-        "date": "2026-09-11T18:26:10Z",
-        "summary": "<p>If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/mar"
+        "title": "GitHub Copilot is now available in JetBrains Air",
+        "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+        "date": "2026-11-03T15:11:46Z",
+        "summary": "<p>You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;</"
       }
     ],
-    "new_videos": [
-      {
-        "title": "Will tech companies hire developers who do not use AI?",
-        "video_id": "Q7uO3vWP1h4",
-        "date": "2026-09-17T15:00:21+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/Q7uO3vWP1h4/hqdefault.jpg"
-      },
-      {
-        "title": "How Project HydraFusion reduces the cost of frontier AI",
-        "video_id": "1asMXES_5jY",
-        "date": "2026-09-16T20:31:39+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/1asMXES_5jY/hqdefault.jpg"
-      },
-      {
-        "title": "AI hot takes: should developers still read code? | S02E03 | The GitHub Podcast",
-        "video_id": "myjyHt4ycDg",
-        "date": "2026-09-16T15:00:16+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/myjyHt4ycDg/hqdefault.jpg"
-      },
-      {
-        "title": "How to continue GitHub Copilot app sessions in VS Code",
-        "video_id": "dNCGfpDho0U",
-        "date": "2026-09-15T15:00:25+00:00",
-        "thumbnail": "https://i1.ytimg.com/vi/dNCGfpDho0U/hqdefault.jpg"
-      },
-      {
-        "title": "3 ways to streamline AI code reviews across your team",
-        "video_id": "NiMpZ4gW2dQ",
-        "date": "2026-09-15T04:42:22+00:00",
-        "thumbnail": "https://i3.ytimg.com/vi/NiMpZ4gW2dQ/hqdefault.jpg"
-      },
-      {
-        "title": "What is hill climbing in AI agent development?",
-        "video_id": "u5CS4_b8eU8",
-        "date": "2026-09-12T15:00:23+00:00",
-        "thumbnail": "https://i2.ytimg.com/vi/u5CS4_b8eU8/hqdefault.jpg"
-      }
-    ]
+    "new_videos": []
   }
 }

@@ -1,6 +1,6 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: October 30, 2026
+> **Last Updated**: November 06, 2026
 
 > **📊 Library Stats**
 > - 📚 **208** total videos
@@ -165,7 +165,6 @@ In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster t
 ---
 
 ## Browse by Category
-
 
 ## Getting Started
 
@@ -333,7 +332,6 @@ Waiting on a teammate just to get a routine pull request approved can stall team
 [Watch on YouTube →](https://www.youtube.com/shorts/exBCpV9eJnc)
 
 ---
-
 
 ## More Resources
 
