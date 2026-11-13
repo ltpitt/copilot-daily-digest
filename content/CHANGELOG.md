@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: November 06, 2026
+**Last Updated**: November 13, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,21 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## November 2026
 
+- **Nov 12, 2026** - [Actions for ARM32 Linux & Windows retirement](https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement) (Blog)
+- **Nov 12, 2026** - [Build once, run on any agent: A practical guide to agent skills](https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/) (Blog)
+- **Nov 12, 2026** - [Public monitoring alerts now have direct links](https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links) (Blog)
+- **Nov 11, 2026** - [Issue types and fields are available for personal accounts](https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts) (Blog)
+- **Nov 10, 2026** - [A more informative GitHub dashboard](https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard) (Blog)
+- **Nov 10, 2026** - [GitHub App support for Enterprise Copilot seat management](https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management) (Blog)
+- **Nov 10, 2026** - [C++ language server now auto-configures MSBuild builds](https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds) (Blog)
+- **Nov 10, 2026** - [Gemini 4 Carbon in GitHub Copilot](https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot) (Blog)
+- **Nov 10, 2026** - [Dependabot alerts will pause on inactive repositories](https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories) (Blog)
+- **Nov 9, 2026** - [Claude Fable 5.2 in GitHub Copilot](https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot) (Blog)
+- **Nov 6, 2026** - [Beyond code generation: A developer’s guide to agentic engineering](https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/) (Blog)
+- **Nov 6, 2026** - [Copilot code review: API management and review overview updates](https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates) (Blog)
+- **Nov 6, 2026** - [GitHub Copilot weekly releases — November 2](https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2) (Blog)
+- **Nov 6, 2026** - [@GitHub in Slack and Teams is generally available and more](https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available) (Blog)
+- **Nov 6, 2026** - [Copilot impact dashboard adds chat and VS Code agent usage](https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage) (Blog)
 - **Nov 5, 2026** - [Secret scanning upgrades detectors, adds SpaceX as partner](https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner) (Blog)
 - **Nov 5, 2026** - [New pull request overview page in public preview](https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview) (Blog)
 - **Nov 5, 2026** - [Usage metrics API adds code review details and addressed rate](https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate) (Blog)

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T07:09:08.069571+00:00",
+  "generated_at": "2026-11-13T07:09:13.607597+00:00",
   "has_changes": true,
-  "total_changes": 24,
+  "total_changes": 15,
   "docs": {
     "changed": [],
     "new": [],
@@ -24,151 +24,97 @@
     "deleted": []
   },
   "blog": {
-    "new_count": 24,
+    "new_count": 15,
     "new_posts": [
       {
-        "title": "Usage metrics API adds code review details and addressed rate",
-        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-        "date": "2026-11-06T00:19:07Z",
-        "summary": "<p>The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row report"
+        "title": "Build once, run on any agent: A practical guide to agent skills",
+        "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+        "date": "2026-11-12T22:54:52Z",
+        "summary": "<p>Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.</p>\n<p>The post <a hr"
       },
       {
-        "title": "Usage metrics API flags telemetry and version gaps",
-        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-        "date": "2026-11-06T00:08:31Z",
-        "summary": "<p>The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in&#8230;</p>\n"
+        "title": "Actions for ARM32 Linux & Windows retirement",
+        "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+        "date": "2026-11-12T20:59:36Z",
+        "summary": "<p>GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node&#8230;</p>\n<p>The post <a hr"
       },
       {
-        "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
-        "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-        "date": "2026-11-05T15:48:50Z",
-        "summary": "<p>This update expands secret scanning&#8217;s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detect"
+        "title": "Public monitoring alerts now have direct links",
+        "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+        "date": "2026-11-12T14:37:38Z",
+        "summary": "<p>You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise&#8217;s Public monitoring view, click an alert number to open the alert. You&#8230;</p>\n<"
       },
       {
-        "title": "New pull request overview page in public preview",
-        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
-        "date": "2026-11-05T08:00:00Z",
-        "summary": "<p>On a long pull request, checking what&#8217;s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you&#8217;re there, you still&#8230;</"
+        "title": "Issue types and fields are available for personal accounts",
+        "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+        "date": "2026-11-11T17:16:46Z",
+        "summary": "<p>Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers "
       },
       {
-        "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-        "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-        "date": "2026-11-04T20:04:52Z",
-        "summary": "<p>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.4 with query accuracy improvemen"
+        "title": "GitHub App support for Enterprise Copilot seat management",
+        "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+        "date": "2026-11-11T00:10:31Z",
+        "summary": "<p>Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are ac"
       },
       {
-        "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-        "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-        "date": "2026-11-04T19:10:40Z",
-        "summary": "<p>You can now work with GitHub Copilot directly in Xcode&#8217;s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available start"
+        "title": "Gemini 4 Carbon in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+        "date": "2026-11-10T19:26:51Z",
+        "summary": "<p>Gemini 4 Carbon, Google&#8217;s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation&#"
       },
       {
-        "title": "BYOK and enterprise custom models in the Copilot usage API",
-        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-        "date": "2026-11-04T00:32:19Z",
-        "summary": "<p>The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of&#8230;</p>\n<p>The p"
+        "title": "C++ language server now auto-configures MSBuild builds",
+        "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+        "date": "2026-11-10T17:04:10Z",
+        "summary": "<p>The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a&#8230;</p>\n<"
       },
       {
-        "title": "Dependabot version updates support Agent Package Manager",
-        "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
-        "date": "2026-11-03T20:24:07Z",
-        "summary": "<p>You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported&#8230"
+        "title": "Dependabot alerts will pause on inactive repositories",
+        "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+        "date": "2026-11-10T14:20:05Z",
+        "summary": "<p>Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can&#8230;</p>\n<p>"
       },
       {
-        "title": "Arnis turns any place on Earth into a Minecraft world",
-        "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
-        "date": "2026-11-03T16:00:00Z",
-        "summary": "<p>Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.</p>\n<p>The post <a href=\"https://github.blog/open-source/maintainers/arnis-turns-any-place-"
+        "title": "A more informative GitHub dashboard",
+        "url": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
+        "date": "2026-11-10T10:34:35Z",
+        "summary": "<p>Since the new dashboard experience became the default, we&#8217;ve heard from developers that it used too much space to show too little. Generous padding, wrapped titles, and a low default&#8230;</"
       },
       {
-        "title": "GitHub Copilot is now available in JetBrains Air",
-        "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-        "date": "2026-11-03T15:11:46Z",
-        "summary": "<p>You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;</"
+        "title": "Claude Fable 5.2 in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+        "date": "2026-11-09T16:46:43Z",
+        "summary": "<p>Claude Fable 5.2, Anthropic&#8217;s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fa"
       },
       {
-        "title": "GitHub Universe 2026: Evolving every layer of the stack",
-        "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-        "date": "2026-10-28T16:09:28Z",
-        "summary": "<p>Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/github-"
+        "title": "Copilot code review: API management and review overview updates",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+        "date": "2026-11-07T00:27:19Z",
+        "summary": "<p>You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot&#8217;s review overview comment is now more"
       },
       {
-        "title": "Route and orchestrate models with GitHub Copilot Fusion",
-        "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
-        "date": "2026-10-28T16:00:00Z",
-        "summary": "<p>GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.&#8230"
+        "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+        "date": "2026-11-06T22:17:28Z",
+        "summary": "<p>The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption&#8230;</p>\n"
       },
       {
-        "title": "GitHub Copilot app, Universe releases",
-        "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
-        "date": "2026-10-28T15:55:00Z",
-        "summary": "<p>Work doesn&#8217;t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository&#8230;</"
+        "title": "Beyond code generation: A developer’s guide to agentic engineering",
+        "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+        "date": "2026-11-06T22:15:59Z",
+        "summary": "<p>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment."
       },
       {
-        "title": "GitHub Enterprise now includes access to GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
-        "date": "2026-10-28T15:50:00Z",
-        "summary": "<p>Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many&#8230;</p"
+        "title": "GitHub Copilot weekly releases — November 2",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+        "date": "2026-11-06T21:00:26Z",
+        "summary": "<p>This week, Copilot comes to JetBrains Air and Xcode&#8217;s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge&#823"
       },
       {
-        "title": "Security extension for the GitHub Copilot app",
-        "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
-        "date": "2026-10-28T15:45:00Z",
-        "summary": "<p>You can now work through your repository&#8217;s GitHub code scanning alerts without leaving the GitHub Copilot app. The new GitHub security extension, now in public preview, lets you find the&#823"
-      },
-      {
-        "title": "GitHub intelligence puts your code, context, and history to work",
-        "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work",
-        "date": "2026-10-28T15:40:00Z",
-        "summary": "<p>Agents should understand more than your codebase&#8212;they should understand how your team works. Your preferences, repository conventions, skills, and custom instructions guide how changes should"
-      },
-      {
-        "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-        "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-        "date": "2026-10-20T16:05:03Z",
-        "summary": "<p>Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml"
-      },
-      {
-        "title": "How to continue a GitHub Copilot app session in VS Code",
-        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
-        "date": "2026-10-19T18:47:22Z",
-        "summary": "<p>Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml"
-      },
-      {
-        "title": "The next developer interface is ambient intelligence",
-        "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
-        "date": "2026-10-15T19:39:27Z",
-        "summary": "<p>AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.</p>\n<p>The post <a href=\"https:"
-      },
-      {
-        "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-        "date": "2026-10-12T17:43:59Z",
-        "summary": "<p>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot"
-      },
-      {
-        "title": "ReviewBench: An open benchmark for AI code review",
-        "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-        "date": "2026-10-05T15:59:40Z",
-        "summary": "<p>We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.</p>\n<"
-      },
-      {
-        "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-        "date": "2026-09-25T18:00:00Z",
-        "summary": "<p>Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.</p>\n<"
-      },
-      {
-        "title": "When chat is the wrong UI",
-        "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-        "date": "2026-09-24T20:00:00Z",
-        "summary": "<p>What is a developer to do when they need something more tangible than a chat box? Enter canvases.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/\">W"
-      },
-      {
-        "title": "Rendering huge pull requests in the GitHub Copilot app",
-        "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-        "date": "2026-09-23T18:29:49Z",
-        "summary": "<p>How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.</p>\n<p>The post <a href=\"https://github.blog/engineering/user-"
+        "title": "@GitHub in Slack and Teams is generally available and more",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+        "date": "2026-11-06T20:31:08Z",
+        "summary": "<p>Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests&#8212;all without leaving your conversation. What&#8217;s ne"
       }
     ]
   },
@@ -180,71 +126,101 @@
     "new_count": 0,
     "new_trainings": []
   },
-  "summary_text": "Changes detected on November 06, 2026:\n\n📝 Blog Posts: 24 new articles\n  - \"Usage metrics API adds code review details and addressed rate\" (2026-11-06)\n  - \"Usage metrics API flags telemetry and version gaps\" (2026-11-06)\n  - \"Secret scanning upgrades detectors, adds SpaceX as partner\" (2026-11-05)\n  - \"New pull request overview page in public preview\" (2026-11-05)\n  - \"CodeQL 2.27.4 improves accuracy and query metadata\" (2026-11-04)\n\nTotal: 24 changes detected",
+  "summary_text": "Changes detected on November 13, 2026:\n\n📝 Blog Posts: 15 new articles\n  - \"Build once, run on any agent: A practical guide to agent skills\" (2026-11-12)\n  - \"Actions for ARM32 Linux & Windows retirement\" (2026-11-12)\n  - \"Public monitoring alerts now have direct links\" (2026-11-12)\n  - \"Issue types and fields are available for personal accounts\" (2026-11-11)\n  - \"GitHub App support for Enterprise Copilot seat management\" (2026-11-11)\n\nTotal: 15 changes detected",
   "whats_new_7_days": {
     "period": "Last 7 days",
-    "total_changes": 10,
+    "total_changes": 15,
     "new_docs": [],
     "new_blog_posts": [
       {
-        "title": "Usage metrics API adds code review details and addressed rate",
-        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-        "date": "2026-11-06T00:19:07Z",
-        "summary": "<p>The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row report"
+        "title": "Build once, run on any agent: A practical guide to agent skills",
+        "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+        "date": "2026-11-12T22:54:52Z",
+        "summary": "<p>Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.</p>\n<p>The post <a hr"
       },
       {
-        "title": "Usage metrics API flags telemetry and version gaps",
-        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-        "date": "2026-11-06T00:08:31Z",
-        "summary": "<p>The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in&#8230;</p>\n"
+        "title": "Actions for ARM32 Linux & Windows retirement",
+        "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+        "date": "2026-11-12T20:59:36Z",
+        "summary": "<p>GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node&#8230;</p>\n<p>The post <a hr"
       },
       {
-        "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
-        "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-        "date": "2026-11-05T15:48:50Z",
-        "summary": "<p>This update expands secret scanning&#8217;s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detect"
+        "title": "Public monitoring alerts now have direct links",
+        "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+        "date": "2026-11-12T14:37:38Z",
+        "summary": "<p>You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise&#8217;s Public monitoring view, click an alert number to open the alert. You&#8230;</p>\n<"
       },
       {
-        "title": "New pull request overview page in public preview",
-        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
-        "date": "2026-11-05T08:00:00Z",
-        "summary": "<p>On a long pull request, checking what&#8217;s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you&#8217;re there, you still&#8230;</"
+        "title": "Issue types and fields are available for personal accounts",
+        "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+        "date": "2026-11-11T17:16:46Z",
+        "summary": "<p>Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers "
       },
       {
-        "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-        "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-        "date": "2026-11-04T20:04:52Z",
-        "summary": "<p>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&#8217;ve recently released CodeQL 2.27.4 with query accuracy improvemen"
+        "title": "GitHub App support for Enterprise Copilot seat management",
+        "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+        "date": "2026-11-11T00:10:31Z",
+        "summary": "<p>Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are ac"
       },
       {
-        "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-        "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-        "date": "2026-11-04T19:10:40Z",
-        "summary": "<p>You can now work with GitHub Copilot directly in Xcode&#8217;s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available start"
+        "title": "Gemini 4 Carbon in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+        "date": "2026-11-10T19:26:51Z",
+        "summary": "<p>Gemini 4 Carbon, Google&#8217;s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation&#"
       },
       {
-        "title": "BYOK and enterprise custom models in the Copilot usage API",
-        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-        "date": "2026-11-04T00:32:19Z",
-        "summary": "<p>The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of&#8230;</p>\n<p>The p"
+        "title": "C++ language server now auto-configures MSBuild builds",
+        "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+        "date": "2026-11-10T17:04:10Z",
+        "summary": "<p>The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a&#8230;</p>\n<"
       },
       {
-        "title": "Dependabot version updates support Agent Package Manager",
-        "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
-        "date": "2026-11-03T20:24:07Z",
-        "summary": "<p>You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported&#8230"
+        "title": "Dependabot alerts will pause on inactive repositories",
+        "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+        "date": "2026-11-10T14:20:05Z",
+        "summary": "<p>Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can&#8230;</p>\n<p>"
       },
       {
-        "title": "Arnis turns any place on Earth into a Minecraft world",
-        "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
-        "date": "2026-11-03T16:00:00Z",
-        "summary": "<p>Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.</p>\n<p>The post <a href=\"https://github.blog/open-source/maintainers/arnis-turns-any-place-"
+        "title": "A more informative GitHub dashboard",
+        "url": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
+        "date": "2026-11-10T10:34:35Z",
+        "summary": "<p>Since the new dashboard experience became the default, we&#8217;ve heard from developers that it used too much space to show too little. Generous padding, wrapped titles, and a low default&#8230;</"
       },
       {
-        "title": "GitHub Copilot is now available in JetBrains Air",
-        "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-        "date": "2026-11-03T15:11:46Z",
-        "summary": "<p>You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your&#8230;</"
+        "title": "Claude Fable 5.2 in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+        "date": "2026-11-09T16:46:43Z",
+        "summary": "<p>Claude Fable 5.2, Anthropic&#8217;s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fa"
+      },
+      {
+        "title": "Copilot code review: API management and review overview updates",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+        "date": "2026-11-07T00:27:19Z",
+        "summary": "<p>You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot&#8217;s review overview comment is now more"
+      },
+      {
+        "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+        "date": "2026-11-06T22:17:28Z",
+        "summary": "<p>The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption&#8230;</p>\n"
+      },
+      {
+        "title": "Beyond code generation: A developer’s guide to agentic engineering",
+        "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+        "date": "2026-11-06T22:15:59Z",
+        "summary": "<p>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment."
+      },
+      {
+        "title": "GitHub Copilot weekly releases — November 2",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+        "date": "2026-11-06T21:00:26Z",
+        "summary": "<p>This week, Copilot comes to JetBrains Air and Xcode&#8217;s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge&#823"
+      },
+      {
+        "title": "@GitHub in Slack and Teams is generally available and more",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+        "date": "2026-11-06T20:31:08Z",
+        "summary": "<p>Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests&#8212;all without leaving your conversation. What&#8217;s ne"
       }
     ],
     "new_videos": []
