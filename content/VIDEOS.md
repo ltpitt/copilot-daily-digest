@@ -1,6 +1,6 @@
 # GitHub Copilot Video Library
 
-> **Last Updated**: November 06, 2026
+> **Last Updated**: November 13, 2026
 
 > **📊 Library Stats**
 > - 📚 **208** total videos

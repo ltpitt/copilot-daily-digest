@@ -2,7 +2,7 @@
 
 > Latest updates from the last 30 days
 
-**Last Updated**: November 06, 2026
+**Last Updated**: November 13, 2026
 
 This page highlights significant Copilot updates from the past 30 days. Content older than 30 days moves to [CHANGELOG.md](CHANGELOG.md).
 
@@ -12,12 +12,92 @@ This page highlights significant Copilot updates from the past 30 days. Content 
 
 *Deprecations and breaking changes from the last 30 days. See [Deprecations & Breaking Changes](DEPRECATIONS.md) for the full list.*
 
+- **Nov 12, 2026** - 🗑️ **Retirement/Removal** - [Actions for ARM32 Linux & Windows retirement](https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement)
 - **Oct 19, 2026** - [GitHub Copilot models deprecated on October 19, 2026](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)
 - **Oct 15, 2026** - [Upcoming deprecation of selected GitHub Copilot models in mid-November](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)
 
 ---
 
 ## This Week (Last 7 Days)
+
+### [Actions for ARM32 Linux & Windows retirement](https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement)
+*Nov 12, 2026*
+
+GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node 24 does not support ARM32. This includes the removal of support on hosted runners for native AArch32 User-space execution.
+
+### [Build once, run on any agent: A practical guide to agent skills](https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/)
+*Nov 12, 2026*
+
+Agent skills package repeatable task instructions in versioned directories centered on a `SKILL.md` file, making them reviewable and reusable across agent hosts. Tools, project context, credentials, and permissions still come from each host, so a skill can guide work without granting access.
+
+### [Public monitoring alerts now have direct links](https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links)
+*Nov 12, 2026*
+
+You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise's Public monitoring view, click an alert number to open the alert. You can use its URL to bookmark the finding or share it with teammates who have access.
+
+### [Issue types and fields are available for personal accounts](https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts)
+*Nov 11, 2026*
+
+Personal repositories now support issue types and custom fields, bringing structured planning tools to individual developers and open-source maintainers. Owners can configure categories and fields from account settings to organize issues consistently across repositories.
+
+### [A more informative GitHub dashboard](https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard)
+*Nov 10, 2026*
+
+GitHub has redesigned its dashboard to surface more work with less scrolling. Developers can pin Feed or Home, see six pull requests and issues by default, scan single-line titles, and hide an empty agent-sessions section.
+
+---
+
+## Last 30 Days
+
+### [GitHub App support for Enterprise Copilot seat management](https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management)
+*Nov 10, 2026*
+
+Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible with a new enterprise fine-grained permission for Apps: Enterprise Copilot license management.
+
+### [C++ language server now auto-configures MSBuild builds](https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds)
+*Nov 10, 2026*
+
+The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a separate configuration skill before it can get precise code intelligence for your project. For more information, including the installation instructions, see the main repository page.
+
+### [Gemini 4 Carbon in GitHub Copilot](https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot)
+*Nov 10, 2026*
+
+Gemini 4 Carbon, Google's latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation and security-focused work. This model is billed at provider list pricing under usage-based billing.
+
+### [Dependabot alerts will pause on inactive repositories](https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories)
+*Nov 10, 2026*
+
+Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can restore them at any time. With vulnerability discovery and alert volume growing quickly, this keeps Dependabot fast and reliable for the repositories you're actively developing.
+
+### [Claude Fable 5.2 in GitHub Copilot](https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot)
+*Nov 9, 2026*
+
+Claude Fable 5.2, Anthropic's newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable 5.2 solved more tasks than Claude Fable 5.1 while using fewer steps and tool calls.
+
+### [Beyond code generation: A developer’s guide to agentic engineering](https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/)
+*Nov 6, 2026*
+
+GitHub's guide applies Copilot across a four-stage Plan, Build, Verify, and Observe workflow, from requirements and implementation through review and production monitoring. It explains where agents can help at each stage and why developers still need to steer decisions and verify results.
+
+### [Copilot code review: API management and review overview updates](https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates)
+*Nov 6, 2026*
+
+You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot's review overview comment is now more compact, and this update includes fixes for billing, automatic reviews, and reliability. These updates are available to Copilot Pro, Pro+, Max, Business, and Enterprise plans.
+
+### [GitHub Copilot weekly releases — November 2](https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2)
+*Nov 6, 2026*
+
+This week, Copilot comes to JetBrains Air and Xcode's coding assistant, with updates to help you manage pull requests, settings, and agent sessions. Set up Agent Merge directly from a pull request to have Copilot merge it when it's ready. It now stays enabled while required checks or rules are pending.
+
+### [@GitHub in Slack and Teams is generally available and more](https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available)
+*Nov 6, 2026*
+
+Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests—all without leaving your conversation. Turn team discussions into working code.
+
+### [Copilot impact dashboard adds chat and VS Code agent usage](https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage)
+*Nov 6, 2026*
+
+The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption cohort called "Passive users" is now "Chat-first users", which better describes who is in it. The enterprise and organization 28-day usage metrics reports include the same two features.
 
 ### [Secret scanning upgrades detectors, adds SpaceX as partner](https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner)
 *Nov 5, 2026*
@@ -43,10 +123,6 @@ The Copilot usage metrics API now identifies users missing client telemetry or r
 *Nov 4, 2026*
 
 CodeQL 2.27.4 improves query accuracy across several languages and strengthens security checks when bundling or publishing a pack. The release also corrects query metadata used by GitHub code scanning.
-
----
-
-## Last 30 Days
 
 ### [GitHub Copilot is now available in Xcode’s coding assistant](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant)
 *Nov 4, 2026*
@@ -76,82 +152,82 @@ GitHub Copilot in JetBrains Air lets you delegate coding tasks, guide execution,
 ### [GitHub Universe 2026 closing keynote: open source voices, demos, and the craft of coding](https://www.youtube.com/watch?v=Gh-hg7lwA0o)
 *Oct 30, 2026*
 
-We are ending GitHub Universe 2026 the way it started: with the people who build in the open. Join Maggie Appleton, Martin Woodward, and Jocelyn Velarde for a closing keynote featuring open-source voices, unexpected demos, and reflections on why people code. The session explores how community-driven software, creative experiments, and open collaboration continue to shape software development.
+The GitHub Universe closing keynote brings together open-source voices, unexpected demos, and reflections on why people code. Maggie Appleton, Martin Woodward, and Jocelyn Velarde discuss how community-driven software, creative experiments, and open collaboration shape software development.
 
 ### [Webhook IP ranges added to the Meta API](https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api)
 *Oct 29, 2026*
 
-We're adding IP ranges for GitHub webhook deliveries on github.com. The Meta API now includes these additional ranges in the hooks field.
+GitHub added IP ranges for webhook deliveries on github.com to the `hooks` field in the Meta API. The new ranges help consumers account for webhook traffic from GitHub.
 
 ### [Can you commit to the answer? Git trivia at GitHub Universe 2026](https://www.youtube.com/shorts/-qx1qD_3hus)
 *Oct 29, 2026*
 
-You can commit to code, but can you commit to the answer under pressure? We put attendees on the spot at GitHub Universe 2026 to test their knowledge of Git commands, repositories, and internal storage objects.
+GitHub Universe attendees test their knowledge of Git commands, repositories, and internal storage objects in this quick trivia challenge. Questions cover topics such as forks, `git blame`, and Git's blob objects.
 
 ### [Playing Super Mona on the GitHub Universe 2026 badge](https://www.youtube.com/shorts/5pK-8AL_wVs)
 *Oct 29, 2026*
 
-Did you know the GitHub Universe 2026 conference badge has hidden capacitive gaming buttons on the back? In this quick demo, Martin Woodward shows how to install Super Mona directly onto your badge using the GitHub Copilot app.
+Martin Woodward demonstrates the hidden capacitive gaming buttons on the GitHub Universe 2026 badge. The short demo shows how to install Super Mona on the badge using the GitHub Copilot app.
 
 ### [Everything announced at GitHub Universe 2026: opening keynote recap](https://www.youtube.com/watch?v=xbCa0aa4tRM)
 *Oct 29, 2026*
 
-Missed the opening keynote at GitHub Universe 2026? Catch up on major announcements and live demos, including the GitHub Copilot app, third-party connectors, and Copilot Fusion. The session also covers Copilot Projects for coordinating agents across repositories, Code Review Max, and architectural updates to Git.
+Catch up on GitHub Universe announcements and demos, including the GitHub Copilot app, third-party connectors, and Copilot Fusion. The recap also covers Copilot Projects for coordinating agents across repositories, Code Review Max, and Git architecture updates.
 
 ### [GitHub Universe 2026 opening keynote recap in 90 seconds](https://www.youtube.com/shorts/A_N9HM237BA)
 *Oct 29, 2026*
 
-Missed the GitHub Universe 2026 opening keynote? Here is everything announced in 60 seconds, from 225 million developers on the platform to major architectural upgrades.
+This short recap highlights GitHub Universe announcements, from the platform's 225 million developers to major architectural upgrades. It offers a quick overview of the opening keynote for viewers short on time.
 
 ### [Repository plugin defaults and enterprise plugin controls generally available](https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available)
 *Oct 28, 2026*
 
-Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for contributors. Enterprises can require plugins, block plugins, and restrict installation to approved marketplaces.
+Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can enable default plugins, while enterprises can require or block plugins and limit installations to approved marketplaces.
 
 ### [GitHub Copilot in VS Code, Universe releases](https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases)
 *Oct 28, 2026*
 
-This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how you stay involved. Keep work moving without staying at your desk or in one tool.
+GitHub Copilot in Visual Studio Code adds more choice in models, agent environments, and ways to stay involved. These updates help developers keep work moving across tools and locations.
 
 ### [Route and orchestrate models with GitHub Copilot Fusion](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion)
 *Oct 28, 2026*
 
-GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.
+GitHub Copilot Fusion is generally available and can route and orchestrate models for a task. Developers can choose Fusion instead of selecting a model themselves for each piece of work.
 
 ### [GitHub Copilot app, Universe releases](https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases)
 *Oct 28, 2026*
 
-The GitHub Copilot app is expanding to support work that spans multiple repositories or sessions. Launch plans can also bring together specifications, designs, and assets without requiring a repository.
+The GitHub Copilot app is expanding to support work across multiple repositories or sessions. Launch plans can also combine specifications, designs, and assets without requiring a repository.
 
 ### [Security extension for the GitHub Copilot app](https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app)
 *Oct 28, 2026*
 
-The GitHub security extension brings repository code scanning alerts into the Copilot app, where you can ask Copilot to explain or help fix them. The public preview reduces the need to switch between alerts on GitHub.com and code in your editor.
+The GitHub security extension brings repository code scanning alerts into the Copilot app, where developers can ask Copilot to explain or help fix them. Its public preview helps connect findings on GitHub.com with code in the editor.
 
 ### [GitHub intelligence puts your code, context, and history to work](https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work)
 *Oct 28, 2026*
 
-GitHub intelligence aims to help agents understand how a team works, not just how its code is structured. Preferences, repository conventions, skills, custom instructions, and related repositories can provide context that helps agents follow established practices.
+GitHub intelligence aims to help agents understand how a team works, not just how its code is structured. Repository conventions, skills, custom instructions, and related repositories can give agents context to follow established practices.
 
 ### [GitHub Universe 2026: Evolving every layer of the stack](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/)
 *Oct 28, 2026*
 
-GitHub outlined a vision for an end-to-end software delivery system that evolves across the development stack. The announcement reflects a shift from writing code line by line toward using AI assistants and orchestrating agents, while keeping the goal of shipping finished software.
+GitHub outlined a vision for an end-to-end software delivery system that evolves across the development stack. The announcement describes a shift from writing code line by line toward using AI assistants and orchestrating agents while focusing on shipping complete software.
 
 ### [GitHub Enterprise now includes access to GitHub Copilot](https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot)
 *Oct 28, 2026*
 
-Enterprises working with a GitHub or Microsoft account team can now include Copilot for every licensed user through GitHub Enterprise. This replaces separate Copilot seat management with a focus on tracking usage against the enterprise budget.
+Enterprises working with a GitHub or Microsoft account team can now include Copilot for every licensed user through GitHub Enterprise. The change replaces separate Copilot seat management with a focus on tracking usage against the enterprise budget.
 
 ### [Build shared workflows for your team with Copilot Automations](https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations)
 *Oct 28, 2026*
 
-Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Copilot runs autonomously in the cloud, using only the tools you've allowed.
+Shared Copilot Automations let teams build and maintain AI-powered workflows by combining prompts, triggers, and approved tools. Copilot runs these workflows in the cloud, using only the tools the team allows.
 
 ### [Generate and edit images directly in Copilot](https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot)
 *Oct 28, 2026*
 
-You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project.
+Developers can generate and edit images in GitHub Copilot with natural-language requests. Copilot's selected reasoning model uses an image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to the project.
 
 ---
 
