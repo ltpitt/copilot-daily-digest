@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: November 13, 2026
+**Last Updated**: November 20, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,30 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## November 2026
 
+- **Nov 19, 2026** - [Enterprise Live Migrations from Azure DevOps generally available](https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available) (Blog)
+- **Nov 19, 2026** - [Improvements on the pull request overview in public preview](https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview) (Blog)
+- **Nov 19, 2026** - [Red Hat Enterprise Linux runner images now generally available](https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available) (Blog)
+- **Nov 18, 2026** - [Connect Supabase, Box, Calendly, and more to Copilot](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot) (Blog)
+- **Nov 18, 2026** - [Gemini 4 Neon in GitHub Copilot](https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot) (Blog)
+- **Nov 18, 2026** - [Wait for pull request events with GitHub CLI](https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli) (Blog)
+- **Nov 18, 2026** - [Customize GitHub Copilot for your team](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team) (Blog)
+- **Nov 18, 2026** - [How we optimize GitHub Copilot for every new model](https://www.youtube.com/watch?v=JSC8eVojIWY) (Video)
+- **Nov 17, 2026** - [Copilot code review: Adaptive effort, secret detection, and more](https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more) (Blog)
+- **Nov 17, 2026** - [GitHub Copilot Fusion updates: more availability, benchmarks, and models](https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models) (Blog)
+- **Nov 17, 2026** - [MAI Code 2 and MAI Code 2 Flash in GitHub Copilot](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot) (Blog)
+- **Nov 17, 2026** - [Monitor GitHub Copilot activity through Microsoft Agent 365](https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365) (Blog)
+- **Nov 17, 2026** - [Building the Agent Host Protocol for sessions that continue across devices](https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/) (Blog)
+- **Nov 17, 2026** - [GitHub Copilot in JetBrains, Ignite releases](https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases) (Blog)
+- **Nov 17, 2026** - [OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available) (Blog)
+- **Nov 17, 2026** - [GitHub Copilot app, Microsoft Ignite releases](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases) (Blog)
+- **Nov 17, 2026** - [Stop manually picking AI models: how GitHub Copilot Fusion works](https://www.youtube.com/watch?v=9UMpD5QMU-c) (Video)
+- **Nov 17, 2026** - [How Marks & Spencer uses GitHub Copilot to scale retail engineering](https://www.youtube.com/watch?v=y8QtW6Qd1J8) (Video)
+- **Nov 16, 2026** - [The unexpected reason Nvidia is trending on GitHub](https://www.youtube.com/shorts/W9-Y00v5C3I) (Video)
+- **Nov 16, 2026** - [How GitHub secures open source](https://www.youtube.com/watch?v=cXKiMB4s1Q8) (Video)
+- **Nov 15, 2026** - [The hidden security risk of running AI agents without boundaries](https://www.youtube.com/shorts/QfMPlcz9AdI) (Video)
+- **Nov 15, 2026** - [Four days, zero lines: the AI force multiplier with GitHub Copilot](https://www.youtube.com/watch?v=ldhFlABY9Rs) (Video)
+- **Nov 14, 2026** - [The view from the labs: What's next for AI-assisted development](https://www.youtube.com/watch?v=eYPxL3pTylk) (Video)
+- **Nov 13, 2026** - [How a personal AI productivity hack became Slack's internal tool](https://www.youtube.com/watch?v=3Qyd9cIuULA) (Video)
 - **Nov 12, 2026** - [Actions for ARM32 Linux & Windows retirement](https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement) (Blog)
 - **Nov 12, 2026** - [Build once, run on any agent: A practical guide to agent skills](https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/) (Blog)
 - **Nov 12, 2026** - [Public monitoring alerts now have direct links](https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links) (Blog)
