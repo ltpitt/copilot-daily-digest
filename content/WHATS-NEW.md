@@ -50,8 +50,7 @@ Starting December 1, 2026, usage reports that include a username column will als
 ### [Code coverage uploads now flag invalid report formats](https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats)
 *Nov 23, 2026*
 
-The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn't in a supported format, the upload step fails and the Actions log shows this error:
- This file is not a Cobertura XML report. Previously, these uploads appeared to succeed, but no coverage showed up on your pull requests.
+The GitHub Code Quality `upload-code-coverage` action now checks that your coverage report is in Cobertura XML format. Unsupported reports fail in the Actions workflow with a clear error instead of appearing to succeed without showing coverage on pull requests. If this happens, configure your test framework to produce Cobertura XML or convert the report before uploading it.
 
 ### [Pin your favorite repositories to your dashboard](https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard)
 *Nov 20, 2026*
@@ -61,8 +60,7 @@ Editor's note (November 23, 2026): We have temporarily rolled back this change w
 ### [GitHub Enterprise Server 3.23 release candidate](https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate)
 *Nov 20, 2026*
 
-GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release:
-When working in GitHub Projects, you can create more precise project views by combining filters with logical OR, explicit AND, and parentheses for grouping. For example, (status:Done OR status:Todo) is:issue shows issues with either status.
+GitHub Enterprise Server (GHES) 3.23 is now available as a release candidate with capabilities spanning project management, security, and infrastructure. Teams can create more precise GitHub Projects views by combining filters with logical `OR`, explicit `AND`, and parentheses, while enterprises can preview AI secret detection entirely within their network. The release also expands malicious-package detection and Dependabot cooldown controls; administrators can review the release notes before downloading the candidate.
 
 ### [Security advisory permissions are now generally available](https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available)
 *Nov 20, 2026*
