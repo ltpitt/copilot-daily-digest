@@ -2,7 +2,7 @@
 
 > Complete historical timeline of features, updates, and improvements
 
-**Last Updated**: November 13, 2026
+**Last Updated**: November 27, 2026
 
 This file contains the complete history of GitHub Copilot updates tracked by this repository. For recent updates (last 30 days), see [WHATS-NEW.md](WHATS-NEW.md).
 
@@ -10,6 +10,25 @@ This file contains the complete history of GitHub Copilot updates tracked by thi
 
 ## November 2026
 
+- **Nov 25, 2026** - [Copilot code review billing will default to the organization](https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization) (Blog)
+- **Nov 25, 2026** - [How to choose the next safe step in application modernization](https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/) (Blog)
+- **Nov 24, 2026** - [More predictable notifications on GitHub.com](https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com) (Blog)
+- **Nov 23, 2026** - [Issue statuses and repository boards are in public preview](https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview) (Blog)
+- **Nov 23, 2026** - [Usage reports will include a user ID column starting December 1](https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1) (Blog)
+- **Nov 23, 2026** - [Code coverage uploads now flag invalid report formats](https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats) (Blog)
+- **Nov 20, 2026** - [Pin your favorite repositories to your dashboard](https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard) (Blog)
+- **Nov 20, 2026** - [GitHub Enterprise Server 3.23 release candidate](https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate) (Blog)
+- **Nov 20, 2026** - [Security advisory permissions are now generally available](https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available) (Blog)
+- **Nov 18, 2026** - [Connect Supabase, Box, Calendly, and more to Copilot](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot) (Blog)
+- **Nov 18, 2026** - [Gemini 4 Neon in GitHub Copilot](https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot) (Blog)
+- **Nov 18, 2026** - [Customize GitHub Copilot for your team](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team) (Blog)
+- **Nov 17, 2026** - [Copilot code review: Adaptive effort, secret detection, and more](https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more) (Blog)
+- **Nov 17, 2026** - [GitHub Copilot Fusion updates: more availability, benchmarks, and models](https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models) (Blog)
+- **Nov 17, 2026** - [MAI Code 2 and MAI Code 2 Flash in GitHub Copilot](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot) (Blog)
+- **Nov 17, 2026** - [Building the Agent Host Protocol for sessions that continue across devices](https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/) (Blog)
+- **Nov 17, 2026** - [GitHub Copilot in JetBrains, Ignite releases](https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases) (Blog)
+- **Nov 17, 2026** - [OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available) (Blog)
+- **Nov 17, 2026** - [GitHub Copilot app, Microsoft Ignite releases](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases) (Blog)
 - **Nov 12, 2026** - [Actions for ARM32 Linux & Windows retirement](https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement) (Blog)
 - **Nov 12, 2026** - [Build once, run on any agent: A practical guide to agent skills](https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/) (Blog)
 - **Nov 12, 2026** - [Public monitoring alerts now have direct links](https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links) (Blog)
